@@ -5,6 +5,9 @@ date:   2019-06-01 16:44:04 -0500
 categories: prodmgmt
 ---
 
+<p>Want to see a curated directory of links? Visit <a href="https://bjpcjp.github.io/prodmgmt">
+Brian's Awesome Product Management directory</a> for the list that took 10 years to build.</p>
+
 <p><img src="/px/prodmgmt/cooper-buy-your-story.png" alt="cooper storytelling">
 <h3><a href="https://www.cooper.com/journal/2017/7/people-dont-buy-your-product-they-buy-your-story">
 People Don't Buy your Product. They Buy your Story. (Cooper)</a></h3></p>
