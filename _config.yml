@@ -40,5 +40,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-disqus:
-  shortname: brianpiercy
+#disqus:
+#  shortname: brianpiercy
