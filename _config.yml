@@ -28,6 +28,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# navigation links
+header_pages:
+  - about.html 
+  - behaviors.html 
+  - cmos.html 
+  - elixir.html 
+  - index.md 
+  - prodmgmt.html
+  - python.html 
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
