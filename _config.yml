@@ -34,9 +34,9 @@ header_pages:
   - behaviors.html 
   - cmos.html 
   - elixir.html 
-  - index.md 
   - prodmgmt.html
   - python.html 
+  - ruby.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
