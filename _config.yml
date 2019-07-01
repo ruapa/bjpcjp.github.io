@@ -37,6 +37,7 @@ header_pages:
   - prodmgmt.html
   - python.html 
   - ruby.html
+  - math.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
