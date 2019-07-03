@@ -18,7 +18,7 @@ email: bjpcjp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Brian Piercy's personal repo.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "bjpcjp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brianpiercy
 github_username:  bjpcjp
 
