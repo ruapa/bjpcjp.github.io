@@ -38,6 +38,7 @@ header_pages:
   - python.html 
   - ruby.html
   - math.html
+  - ui-ux.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
