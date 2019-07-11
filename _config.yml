@@ -37,7 +37,6 @@ header_pages:
   - prodmgmt.html
   - python.html 
   - ruby.html
-  - math.html
   - ui-ux.html
 
 # Exclude from processing.
