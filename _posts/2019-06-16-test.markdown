@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Seaborn visualization gallery - posted to GitHub"
+date:   2019-06-01 16:44:04 -0500
+categories: notes
+---
+
+OK, I just pushed a new __[repo](https://github.com/bjpcjp/seaborn-basic-gallery)__ to GitHub. It's a gallery of Seaborn visualization examples using Jupyter notebook.
+
+Nothing particularly original or dazzling just yet. But the code works. Here's an __example clustergrid__. Enjoy.
+
+![test](/px/math/seaborn-clustergrid.png)
