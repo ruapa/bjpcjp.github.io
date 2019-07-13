@@ -15,40 +15,109 @@ categories: math
 
 <br><hr><br>
 
-<div style="columns: 3;">
+<div style="columns: 2;">
 
 <h4><a href="/pdfs/math/algo-analysis-ADM.pdf">Algorithm Analysis</a></h4>
-<img src="/px/math/ADM-growth-rates.png" width="300px">
+
+<h4>Growth Rates</h4>
+<img src="/px/math/ADM-common-growth-rates.png" width="300px"><br>
 <div style="font-size: 0.8em;">
-    Min/Max/Avg Complxity<br>
-    Big-O Notation<br>
-    Growth Rates, Dominance Relations<br>
-    Efficiency<br>
-    Logarithms
+    <li>Constant: f(n) = 1</li>
+    <li>Logarithmic: f(n) = log(n)</li>
+    <li>Linear: f(n) = n</li>
+    <li>Superlinear: f(n) = n * log(n)</li>
+    <li>Quadratic: f(n) = n^2</li>
+    <li>Cubic: f(n) = n^3</li>
+    <li>Exponential: f(n) = c^n</li>
+    <li>Factorial: f(n) = n!</li>
 </div>
 <br>
 
 <h4><a href="/pdfs/math/datastructs-ADM.pdf">Data Structures</a></h4>
 <div style="font-size: 0.8em;">
-    Continuous vs Linked<br>
-    Stacks & Queues<br>
-    Dictionaries<br>
-    Binary Search Trees<br>
-    Priority Queues
+    <strong>Arrays:</strong><br>
+    <li>Constant-time access, given an index</li>
+    <li>Space efficiency</li>
+    <li>Memory locality</li><br>
+
+    <strong>Linked Lists:</strong>
+    <img src="/px/math/ADM-linked-list.png" width="300px"><br>
+
+    <li>No overflows (unless memory is physically full)</li>
+    <li>Simpler insertions & deletions</li>
+    <li>Requires space for pointers</li>
+    <li>No efficient random access</li><br>
+
+    <strong>Stacks</strong><br>
+    <li>LIFO: Push, Pop operations</li><br>
+
+    <strong>Queues</strong><br>
+    <li>FIFO: Queue, Dequeue operations</li><br>
+
+    <strong>Dictionaries</strong><br>
+    <li>Permits access by content</li>
+    <li>Search, Insert, Delete operations</li>
+    <li>Max, Min, Predecessor, Successor operations (some types of Dicts)</li>
+    <li>Array operation costs - unsorted vs sorted:</li>
+    <img src="/px/math/ADM-array-operation-costs.png" width="300px">
+    <li>Dictionary operation costs - sorted/unsorted, single/double links:</li>
+    <img src="/px/math/ADM-dict-operation-costs.png" width="300px"><br>
+
+    <strong>Binary Search Trees</strong><br>
+    <img src="/px/math/ADM-binary-search-trees.png" width="300px"><br>
+    <li>Search, Min element, Max element, Traverse (all elements), Insert, Delete operations</li>
+    <li>Ops can take O(height) time if tree is perfectly balanced. But insertions can cause trees to be unbalanced very easily.</li>
+    <br>
+
+    <strong>Priority Queues</strong><br>
+    <li>Allows new elements to be placed at arbitrary intervals = more flexibility.</li>
+    <br>
+
+    <strong>Hashing</strong><br>
+    <li><strong>Hash:</strong> a math function that maps keys to integers. Use hash outputs as array indexes.</li>
+    <li><strong>Collisions</strong>: two distinct keys can return identical hash values.</li>
+    
+    <li><strong>Chaining:</strong> most common way to resolve collisions.  Natural solution, but uses lots of pointer memory.</li>
+    <img src="/px/math/ADM-hash-chaining.png" width="300px"><br>
+    
+    <li><strong>Open Addressing:</strong> if desired position is already occupied, use another position (often n+1 or n-1)</li>
+    <img src="/px/math/ADM-hash-open-addressing.png" width="300px"><br>
+    
+    <li><strong>Operation times</strong> (m-element hash table, doubly-linked chain lists)</li>
+    <img src="/px/math/ADM-hash-optimes-with-chaining.png" width="300px"><br>
+
 </div>
 <br>
 
 <h4><a href="/pdfs/math/sort-search-ADM.pdf">Sorting & Searching</a></h4>
-<img src="/px/math/ADM-heapsort.png" width="300px">
 <div style="font-size: 0.8em;">
-    Applications<br>
-    Pragmatics of Sorting<br>
-    Heapsort<br>
-    Mergesort<br>
-    Quicksort<br>
-    Distribution Sort<br>
-    Binary Search & Related algos<br>
-    Divide & Conquer
+    <strong>Factors:</strong><br>
+    <li>Increasing or decreasing order?</li>
+    <li>Sorting the key or entire record?</li>
+    <li>Equal keys. Now what?</li>
+    <li>Non-numerical data. Now what?</li>
+    <br>
+
+    <strong>Heapsort</strong><br>
+    <img src="/px/math/ADM-heapsort.png" width="300px"><br>
+    <p>A heap-labeled tree = a binary tree such that the key of each node "dominates" the keys of its children. You can store a binary tree in an array w/o pointers - space efficient, but missing nodes take up unused space.</p>
+
+    <strong>Mergesort</strong><br>
+    <img src="/px/math/ADM-mergesort.png" width="300px"><br>
+    <p>Partition elements into two groups, sort each smaller problem recursively, then interleave two sorted lists to order the merged elements.</p>
+
+    <strong>Quicksort</strong><br>
+    <img src="/px/math/ADM-quicksort.png" width="300px"><br>
+    <br>
+
+    <strong>Distribution Sort</strong><br>
+    <img src="/px/math/ADM-bucketsort.png" width="300px"><br>
+    <p>Ex: sorting phone book by 1st letter of last name ==> 26 buckets. Repeat with 2nd letter of last name (smaller piles), etc. Done when each bucket contains a single name.</p>
+    <p>Effective when distribution is roughly uniform, terrible when not.</p><br>
+
+    <strong>Binary Search & Related algos</strong><br>
+    <p>Fast algorithm for searching a sorted array of keys.</p>
+
 </div>
 <br>
 
