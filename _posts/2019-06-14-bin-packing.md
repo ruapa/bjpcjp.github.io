@@ -6,7 +6,7 @@ categories: math
 ---
 
 ![illustration](/px/math/bin-packing.png)
-
+<br>
 Bin packing arises in a variety of packaging and manufacturing problems. Suppose that you are manufacturing widgets cut from sheet metal or pants
 cut from cloth. To minimize cost and waste, we seek to lay out the parts so as to use as few fixed-size metal sheets or bolts of cloth as possible.
 

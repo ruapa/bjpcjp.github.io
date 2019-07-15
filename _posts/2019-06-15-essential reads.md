@@ -5,14 +5,19 @@ title: this week's essential reads
 categories: prodmgmt behavior
 ---
 
-## [How to be Resilient in the Face of Harsh Criticism](https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism)
-![criticism](/px/behavior/criticism.jpg)
-#### (HBR) #behavior
+<div style="columns: 2;">
+<a href="https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism">
+<img src="/px/behavior/criticism.jpg" width="100%"><h4>How to be Resilient in the Face of Harsh Criticism</h4></a>
+<br>
 
-## [Flow is the Opiate of the Masses: how to Improve from an Accomplished Piano Player](http://www.calnewport.com/blog/2011/12/23/flow-is-the-opiate-of-the-medicore-advice-on-getting-better-from-an-accomplished-piano-player/)<br>
-![piano](/px/behavior/piano.jpg)
-#### (Cal Newport) #behavior #grit #perseverance
+<a href="http://www.calnewport.com/blog/2011/12/23/flow-is-the-opiate-of-the-medicore-advice-on-getting-better-from-an-accomplished-piano-player/">
+<img src="/px/behavior/piano.jpg" width="100%">
+<h4>Flow isn't Enough: how to Learn from an Accomplished Piano Player</h4></a>
+<br>
 
-## [If You're Responsible for Product Adoption - Rituals are your Friends](https://www.psychologytoday.com/us/blog/the-science-behind-behavior/201603/3-reasons-why-brand-specific-rituals-are-so-powerful)<br>
-![corona-beer](/px/behavior/corona-beer.jpg)
-#### (Psychology Today) #behavior #prodmgmt #rituals
+<a href="https://www.psychologytoday.com/us/blog/the-science-behind-behavior/201603/3-reasons-why-brand-specific-rituals-are-so-powerful">
+<img src="/px/behavior/corona-beer.jpg" width="100%">
+<h4>Product Rituals are your Friends</h4></a>
+<br><br>
+
+</div>

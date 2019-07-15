@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3>
+
+    <div style="columns: 2;">
+
+    <!-- was <ul class="post-list" -->
+    <ul style="list-style: none;">
+      {%- for post in site.posts -%}
+      <li>
+
+        <!-- was a class="post-link" -->
+        <a href="{{ post.url | relative_url }}">
+         {{ post.title | escape }}
+        </a>
+        <br>
+
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <!--
+        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+
+        <div style="font-size: 0.8em; font-style: italic;">
+        ({{ post.date | date: date_format }})
+
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </div>
+
+      </li><br>
+
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <br>
+
+    <p class="feed-subscribe">
+      <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+      </a>
+    </p>
+  {%- endif -%}
+
+</div>

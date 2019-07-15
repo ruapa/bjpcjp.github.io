@@ -28,6 +28,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# excerpt visibility
+show_excerpts: true 
+
 # navigation links
 header_pages:
   - about.html 

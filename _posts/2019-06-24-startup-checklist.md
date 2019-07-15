@@ -1,11 +1,3 @@
-Original: [defmacro.org](https://www.defmacro.org/)
-=========
-
-Startup idea checklist
-======================
-
-Mar 26, 2019
-
 I’ve been tinkering with different startup ideas and needed a good checklist to think through them. There are great templates for this already: [The YC application](https://apply.ycombinator.com/), Amazon’s [internal press release](https://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management/answer/Ian-McAllister), and Sequoia’s [Writing a Business Plan](https://www.sequoiacap.com/article/writing-a-business-plan/). I found myself mixing and tweaking these templates because they don’t exactly match my model of the world, so I wrote up my own list.
 
 I use this list both to develop ideas and filter them. If you adopt it, be careful about using it as a filter. __Remember: in the early stages, good ideas are very easy to kill.__
