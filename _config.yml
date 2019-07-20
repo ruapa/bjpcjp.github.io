@@ -39,7 +39,6 @@ header_pages:
   - elixir.html 
   - prodmgmt.html
   - python.html 
-  - ruby.html
   - ui-ux.html
 
 # Exclude from processing.
