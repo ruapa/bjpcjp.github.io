@@ -5,13 +5,13 @@ title: this week's essential reads
 categories: prodmgmt behavior
 ---
 
-<div style="columns: 2;">
-    
 <div style="display:inline-block"><a href="https://stratechery.com/2019/shopify-and-the-power-of-platforms/">
 <img src="/px/prodmgmt/shopify-platform.jpg" width="100%">
 <p>Shopify & the Power of Platforms (Stratechery)</p></a></div>
 <br>
 
+<div style="columns: 2;">
+    
 <div style="display:inline-block"><a href="https://rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle">
 <img src="/px/behavior/the-american-velocipede.jpg" width="100%">
 <p>Why Did We Wait So Long to Invent the Bicycle? (Roots of Progress)</p></a></div>
