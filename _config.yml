@@ -41,6 +41,11 @@ header_pages:
   - python.html 
   - ui-ux.html
 
+# algolia search plugin API:
+algolia:
+  application_id: 0ST64V6V0J
+  index_name: jekyll
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -54,4 +59,4 @@ header_pages:
 #   - vendor/ruby/
 
 #disqus:
-#  shortname: brianpiercy
+  #shortname: brianpiercy
