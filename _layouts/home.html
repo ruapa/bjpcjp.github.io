@@ -18,7 +18,12 @@ layout: default
     <!-- was <ul class="post-list" -->
     <ul style="list-style: none;">
       {%- for post in site.posts -%}
-      <li style="border: 1px solid #369; padding: 0.25em; display: inline-block;">
+      <li style="
+        border: 1px solid #369; 
+        padding: 0.5em; 
+        display: inline-block;
+        border-radius: 10px;
+        ">
 
         <!-- was a class="post-link" -->
         <a href="{{ post.url | relative_url }}">
