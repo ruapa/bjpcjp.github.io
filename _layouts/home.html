@@ -10,14 +10,15 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3>
+  <!--
+    <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3> -->
 
-    <div style="columns: 2;">
+    <div style="columns: 3; column-gap: 0.25em;">
 
     <!-- was <ul class="post-list" -->
     <ul style="list-style: none;">
       {%- for post in site.posts -%}
-      <li>
+      <li style="border: 1px solid #369; padding: 0.25em; display: inline-block;">
 
         <!-- was a class="post-link" -->
         <a href="{{ post.url | relative_url }}">
@@ -37,7 +38,7 @@ layout: default
         {%- endif -%}
       </div>
 
-      </li><br>
+      </li><br><br>
 
       {%- endfor -%}
     </ul>
