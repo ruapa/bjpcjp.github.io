@@ -1,113 +1,109 @@
 ---
 layout: page
-title: CPU Architecture
-permalink: /cpus/
+title: CPU Design
 ---
 
-<p><strong>NOTE:</strong><br>
-This page will eventually be filled with my notes and code examples corresponding to
-<cite>Computer Architecture: A Quantitative Approach (Hennessy & Patterson),
-    5th Edition.</cite></p>
-
+<h3>Computer Architecture - A Quantitative Approach (5th ed)</h3>
 <div style="columns: 2;">
 
-<h3>CPU Design:</h3>
-<a href="/pdfs/caaqa-chap01-intro.pdf"><strong>Introduction</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Classifications; Architecture definitions; Trends; Dependability; Benchmarking
-    Quantitative principles; examples; tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch01.pdf">Chapter 1: Fundamentals</a></p>
+<ul>
+	<li>Classifications</li>
+	<li>Technology Trends</li>
+	<li>Power/Energy Trends</li>
+	<li>Cost Trends</li>
+	<li>Dependability</li>
+	<li>Benchmarking</li>
+	<li>Quantitative Design Principles</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-chap02-memory-hierarchy.pdf"><strong>Memory Hierarchies</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Basics; 10 Basic Cache Optimizations; Memory Technologies; Memory Protection; 
-    "Crosscut" Design Issues; Example: Cortex A8 vs Core i7; tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch02.pdf">Chapter 2: Memory Hierarchy Design</a></p>
+<ul>
+	<li>10 Cache Optimization Tactics</li>
+	<li>Memory Technologies</li>
+	<li>Memory Protection</li>
+	<li>Hierarchy Design</li>
+	<li>Analysis: Cortex-A8 vs Core i7</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-chap03-instruction-parallelism.pdf"><strong>Instruction Parallelism</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Concepts; Compiler techniques; Advanced Branch Prediction;
-    Dynamic Scheduling; Hardware-based Speculation;
-    Multiple-Issue/Static Scheduling;
-    Dynamic Scheduling;
-    Advanced Techniques;
-    Limitations;
-    "Crosscut" Design Issues;
-    Multithreading;
-    Example: Intel Core i7
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch03.pdf">Chapter 3: Instruction Parallelism</a></p>
+<ul>
+	<li>Concepts</li>
+	<li>Compiler Techniques</li>
+	<li>Advanced Branch Prediction</li>
+	<li>Dynamic Scheduling</li>
+	<li>Hardware-based Speculation</li>
+	<li>Tactic: Multiple-Issue, Static Scheduling</li>
+	<li>Tactic: Multiple-Issue, Static Scheduling & Speculation</li>
+	<li>Limitations</li>
+	<li>Multithreading</li>
+	<li>Analysis: Cortex-A8 vs Core i7</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-chap04-data-parallelism.pdf"><strong>Data Parallelism</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Concepts;
-    Vector Architectures;
-    SIMD Instruction Set extensions;
-    Graphics Processing Units;
-    Detecting Loop-Level Parallelism;
-    "Crosscut" Design Issues;
-    Example: Mobile vs Server GPUs;
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch04.pdf">Chapter 4: Data Parallelism</a></p>
+<ul>
+	<li>Vector Architectures</li>
+	<li>SIMD Multimedia Instructions</li>
+	<li>Graphics Processing Units</li>
+	<li>Loop-Level Parallelism</li>
+	<li>Analysis: Mobile vs Server GPUs</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-chap05-thread-parallelism.pdf"><strong>Thread Parallelism</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Concepts;
-    Shared-Memory Architectures;
-    Symmetric Shared-Memory Performance;
-    Distributed Shared-Memory & Directory-based Coherence;
-    Synchronization Basics;
-    Memory Consistency;
-    "Crosscut" Design Issues;
-    Example: Multicore Performance;
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch05.pdf">Chapter 5: Thread Parallelism</a></p>
+<ul>
+	<li>Centralized Shared-Memory Designs</li>
+	<li>Symmetric Shared-Memory Performance</li>
+	<li>Distributed Shared-Memory & Directory-Based Coherence</li>
+	<li>Memory Consistency</li>
+	<li>Examples: Multicore CPUs</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-chap06-warehouse-scale.pdf"><strong>Scaling Issues</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Concepts;
-    Workloads;
-    Architectural Basics;
-    Physical Infrastructure;
-    Cloud Computing;
-    "Crosscut" Design Issues;
-    Example: Google Warehouse; 
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-ch06.pdf">Chapter 6: Warehouse-Level Scaling</a></p>
+<ul>
+	<li>Workloads</li>
+	<li>Architectures</li>
+	<li>Physical Infrastructure Factors</li>
+	<li>Cloud Computing</li>
+	<li>Example: Google Data Center</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-apndxA-instruction-sets.pdf"><strong>Instruction Set Basics</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Introduction;
-    Classifications;
-    Memory Addressing;
-    Operands;
-    Operations;
-    Control Flow;
-    Encoding;
-    Crosscut Issues;
-    Example: MIPS ISA;
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-apxA.pdf">Appendix A: Instruction Sets</a></p>
+<ul>
+	<li>Classifications</li>
+	<li>Memory Addressing</li>
+	<li>Operands</li>
+	<li>Operations</li>
+	<li>Control Flow</li>
+	<li>Encoding</li>
+	<li>Compilers</li>
+	<li>Example: MIPS</li>
+	<li>Issues</li>
+</ul>
 
-<a href="/pdfs/caaqa-apndxB-memory-hierarchy-review.pdf"><strong>Memory Hierarchy Review</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Introduction;
-    Cache Performance;
-    Cache Optimization - 6 Techniques;
-    Virtual Memory;
-    Memory Protection;
-    Fallacies
-</div>
-<a href="/pdfs/caaqa-apndxC-pipelining.pdf"><strong>Pipelining</strong></a><br>
-<div style="border: 1px solid black; padding: 0.5em;">
-    Introduction;
-    Hazards;
-    Implementation;
-    Why is This so Hard?;
-    MIPS & Multicycle Ops;
-    Ex: MIPS R4000 Pipe;
-    Crosscutting Issues;
-    tips/warnings
-</div>
+<p><a href="/pdfs/cpus-quant/comparchs-apxB.pdf">Appendix B: Memory Hierarchy Review</a></p>
+<ul>
+	<li>Cache Performance</li>
+	<li>Basic Cache Optmizations</li>
+	<li>Virtual Memory</li>
+	<li>Protection</li>
+	<li>Issues</li>
+</ul>
+
+<p><a href="/pdfs/cpus-quant/comparchs-apxC.pdf">Appdndix C: Pipelining</a></p>
+<ul list-style="none">
+	<li>Hazards</li>
+	<li>Implementation</li>
+	<li>Example: MIPS multicycle ops</li>
+	<li>Example: MIPS R4000 pipe</li>
+	<li>Issues</li>
+</ul>
+
+<p><a href="/pdfs/cpus-quant/comparchs-indx.pdf">Index</a></p>
 
 </div>
