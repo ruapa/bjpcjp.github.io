@@ -11,39 +11,37 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-    <!-- <div id="search-searchbar"></div> -->
+    <div id="search-searchbar"></div>
   
-    <div style="columns: 3; column-gap: 0.25em;">
-
+    <div style="columns: 3;">
     <ul style="list-style: none;">
 
       <!-- <div id="search-hits"> -->
 
       {%- for post in site.posts -%}
+
+      
       <li style="
-        border: 1px solid #369; 
+        border: 1px solid burlywood; 
         padding: 0.5em; 
         display: inline-block;
         border-radius: 10px;
         ">
 
-        <a href="{{ post.url | relative_url }}">
-         {{ post.title | escape }}</a><br>
+      <!-- <li style="homecard"> -->
 
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <!--
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 
         <div style="font-size: 0.8em; font-style: italic;">
-        ({{ post.date | date: date_format }})
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          ({{ post.date | date: date_format }})
 
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
         </div>
 
       </li><br><br>
-
       {%- endfor -%}
 
     <!-- </div> search-hits -->

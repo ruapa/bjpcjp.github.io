@@ -3,3 +3,18 @@
 ---
 
 @import "minima";
+.card, li.homecard {
+	text-align: center;
+	font-size: 0.8em;
+	display: inline-block;
+	background-color: beige;
+	padding: 0.5em;
+	border-radius: 10px;
+	width: 95%;
+	word-wrap: break-word;
+	margin-bottom: 0.5em;
+}
+.card:hover {
+	background-color: beige;
+	border: 1px solid burlywood;
+}
