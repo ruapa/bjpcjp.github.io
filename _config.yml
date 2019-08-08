@@ -45,7 +45,7 @@ header_pages:
 algolia:
   application_id: 0ST64V6V0J
   index_name: jekyll
-  search_only_api_key: 890a2503a91804a58b69dca4926a5602
+  search_only_api_key: e850d8fbd248c7d7df4a35544f104d32
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

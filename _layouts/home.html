@@ -11,24 +11,26 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-    <div id="search-searchbar"></div>
+    <!-- ALGOLIA
+    <div id="search-searchbar"></div> -->
   
     <div style="columns: 3;">
     <ul style="list-style: none;">
 
-      <!-- <div id="search-hits"> -->
+      <!-- ALGOLIA
+      <div id="search-hits"> -->
 
       {%- for post in site.posts -%}
 
       
       <li style="
         border: 1px solid burlywood; 
+        background-color: beige;
         padding: 0.5em; 
         display: inline-block;
+        word-wrap: break-word;
         border-radius: 10px;
         ">
-
-      <!-- <li style="homecard"> -->
 
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 
@@ -44,7 +46,7 @@ layout: default
       </li><br><br>
       {%- endfor -%}
 
-    <!-- </div> search-hits -->
+    </div> <!-- search-hits -->
     </ul>
   </div>
 
