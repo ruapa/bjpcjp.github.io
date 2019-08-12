@@ -47,6 +47,9 @@ algolia:
   index_name: jekyll
   search_only_api_key: e850d8fbd248c7d7df4a35544f104d32
   
+# pagination:
+# paginate: 15
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
