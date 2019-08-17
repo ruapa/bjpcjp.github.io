@@ -32,6 +32,14 @@
 	align: center;
 }
 
+/* ------------ zoom on hover ------------ */
+.zoomable img {
+	transition: transform 0.2s;
+}
+.zoomable img:hover {
+	transform: scale(1.5);	
+}
+
 /* test */
 
 .site-nav {
@@ -71,3 +79,4 @@
     font-size: 1.5em;
     padding: 4px 8px;
     border: 1px solid #ccc; }
+
