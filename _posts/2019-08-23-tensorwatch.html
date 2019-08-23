@@ -1,0 +1,20 @@
+---
+layout: post
+title: TensorWatch (microsoft)
+---
+
+<p>TensorWatch now open-source..</p><br>
+<a href="https://www.microsoft.com/en-us/research/blog/microsoft-makes-ai-debugging-and-visualization-tool-tensorwatch-open-source/">
+	<img src="/px/math/TensorWatch-Image-1.gif" width="95%"></a><br><br>
+	
+
+<p><strong>Custom UIs and visualizations</strong><br>
+The first thing you might notice when using TensorWatch is it extensively leverages Jupyter Notebook instead of prepackaged user interfaces.</p>
+
+
+<p><strong>Streams</strong><br>
+One of the central premises of the TensorWatch architecture is we uniformly treat data and other objects as streams. This includes files, console, sockets, cloud storage, and even visualizations themselves. With a common interface, TensorWatch streams can listen to other streams, which enables the creation of custom data flow graphs.</p>
+
+
+<p><strong>Lazy logging</strong><br>
+With TensorWatch, we also introduce lazy logging mode. This mode doesn’t require explicit logging of all the information beforehand. Instead, you can have TensorWatch observe the variables.</p>

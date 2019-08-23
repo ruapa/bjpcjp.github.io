@@ -9,6 +9,11 @@ layout: default
 
   {{ content }}
 
+  <!--
+  <div id="search-searchbar"></div>
+  <div id="search-hits">
+  -->
+
   {%- if site.posts.size > 0 -%}
   
     <div style="columns: 3; column-gap: 2px;">
@@ -40,6 +45,8 @@ layout: default
       {%- endfor -%}
 
     </ul>
+  <!--
+  </div> -->
   </div>
 
   <br>
@@ -51,4 +58,5 @@ layout: default
     </p>
   {%- endif -%}
 
+  {% include algolia.html %}
 </div>
