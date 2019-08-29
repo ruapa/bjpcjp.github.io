@@ -15,26 +15,25 @@ layout: default
 
   <!-- ALGOLIA SEARCH
   <div id="search-searchbar"></div>
-  <div id="search-hits"> -->
+  <div id="search-hits"></div> -->
 
   {%- if site.posts.size > 0 -%}
   
-    <div style="columns: 3; column-gap: 2px;">
+    <div style="columns: 3;">
     <ul style="list-style: none;">
 
       {%- for post in site.posts -%}
 
       <li style="
-        border: 1px solid burlywood; 
+        border: 1px solid burlywood;
+        padding: 0.5em;
+        margin: 0.25em;
         background-color: beige;
-        padding: 0.5em; 
-        display: inline-block;
         word-wrap: break-word;
+        display: inline-block;
         border-radius: 10px;
-        ">
-
+      ">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-
         <div style="font-size: 0.8em; font-style: italic;">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           ({{ post.date | date: date_format }})
@@ -44,13 +43,12 @@ layout: default
           {%- endif -%}
         </div>
 
-      </li><br><br>
+      </li><br>
+
       {%- endfor -%}
 
     </ul>
-  <!--
-  </div> -->
-  </div>
+    </div>
 
   <br>
 
