@@ -35,7 +35,6 @@ show_excerpts: true
 header_pages:
   - about.html 
   - behaviors.html 
-  - cmos.html 
   - math.html
   - prodmgmt.html
   - python.html 
