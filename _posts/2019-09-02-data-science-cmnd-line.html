@@ -1,0 +1,272 @@
+---
+layout: post
+title: Data Science - Command Line Cheat Sheet
+tags: [math]
+---
+
+<div class="textcard">
+<h4>SciKit-Learn Lab (SKLL):</h4>
+<a href="https://scikit-learn-laboratory.readthedocs.io/en/latest/"><img src="/px/math/skll-docs.png" width="95%"></a><br>
+</div>
+
+<div class="textcard">
+<h4>TSV-Utils (Ebay)</h4>
+<a href="https://github.com/eBay/tsv-utils">
+<img src="/px/math/tsv-utils.png" width="95%">
+</a><br>
+</div>
+
+<div class="textcard">
+<h4>Data Science at the Command Line (Janssens)</h4>
+<a href="https://www.datascienceatthecommandline.com/">
+<img src="/px/math/datasci-at-cmnd-line.png" width="95%">
+</a><br>
+</div>
+
+<br><hr><br>
+
+<h3>Getting Data</h3>
+
+<div style="columns: 2;">
+
+<div class="textcard">
+	<strong>Decompressing Files:</strong><br>
+	$ tar -xzvf file.tar.gz<br>
+</div>
+
+
+<div class="textcard">
+	<strong>Converting Excel Spreadsheets:</strong><br>
+	$ in2csv file.xlsx > file.csv<br>
+	<strong>(piped to csvcut, then to csvlook)</strong><br>
+	$ in2csv file.xlsx | head | csvcut -c col1 | csvlook<br>
+	<strong>(with sheet name specified)</strong><br>
+	$ in2csv file.xlsx | head | csvcut -c col1 --sheet name | csvlook<br>
+</div>
+
+<div class="textcard">
+	<strong>Querying Relational DBs:</strong><br>
+	<strong>(Sqlite3 example)</strong><br>
+	sql2csv --db 'sqlite:///development.sqlite' --query 'SELECT * from users'<br>
+	<strong>(URL format)</strong><br>
+	dialect+driver://username:password@host:port/database<br>
+</div>
+
+<div class="textcard">
+<strong>Downloading from the Internet:</strong><br>
+	<strong>Default:</strong><br>
+	$ curl -s file | head -n 10<br>
+
+	<strong>Save to file (2 options):</strong><br>
+	$ curl url > file.txt<br>
+	$ curl -s url -o file.txt<br>
+
+	<strong>Handling shortened URLs:</strong><br>
+	$ curl -L shortenedUrl<br>
+
+	<strong>Header only:</strong><br>
+	$ curl -I url, or curl --head url<br>
+</div>
+
+
+<div class="textcard">
+<strong>Calling a web API:</strong><br>
+	<strong>Default example (using jq to parse JSON):</strong><br>
+	$ curl -s https://randomuser.me/api/1.2/ | jq .
+</div>
+
+<h3>Creating Reusable Tools</h3>
+
+<div class="textcard">
+	<strong>Starting point</strong><br>
+	<p>download doc with <i>curl</i>; 
+		convert to lowercase with <i>tr</i>;
+		extract all words with <i>grep -oE '\w+'</i>;
+		sort in alphabetical order with <i>sort</i>;
+		remove duplicates & count occurences with <i>uniq</i>;
+		sort unique list with <i>sort</i>;
+		keep top 10 results with <i>head</i>;</p>
+
+	$ curl -s file |<br>
+	> tr '[:upper:]' '[:lower:]' | <br>
+	> grep -oE '\w+' |             <br>
+	> sort | uniq -c | sort -nr | head -n 10
+</div>
+
+<div class="textcard">	
+	<strong>paste into shell script (filename.sh)</strong><br>
+	execute with $ bash file.sh
+</div>
+
+<div class="textcard">	
+	<strong>Add execute permissions</strong><br>
+	$ chmod u+x filename.sh<br>
+	execute with file.sh (or ./file.sh if in same directory)
+</div>
+
+<div class="textcard">	
+	<strong>Add shebang to tell OS which executable to use</strong><br>
+	#!/usr/bin/env bash<br>
+	...rest of script
+</div>
+
+<div class="textcard">	
+	<strong>Parameterize with NUMWORDS="$1"</strong>
+	...script... head -n $NUMWORDS<br>
+	("$" appended = get value; without "$" = set value)
+</div>
+
+<h3>Scrubbing (Plain Text)</h3>
+
+<div class="textcard">
+	<strong>Line# Filters</strong><br>
+	<strong>create "lines" text file</strong><br>
+	$ seq -f "Line %g" 10 | tee lines<br>
+
+	<strong>1st 3 lines:</strong><br>
+	$ < lines head -n 3<br>
+	$ < lines sed -n '1,3p'<br>
+	$ < lines awk 'NR<=3'<br>
+
+	<strong>remove 1st 3 lines:</strong><br>
+	$ < lines tail -n3 +4<br>
+
+	<strong>extract specific lines:</strong><br>
+	$ < lines head -n 6 | tail -n 3<br>
+	$ < lines sed -n '4,6p'<br>
+	$ < lines awk '(NR>=4)&&(NR<=6)'<br>
+
+	<strong>odd-numbered lines:</strong><br>
+	$ < lines sed -n '1~2p'<br>
+	$ < lines awk 'NR%2'<br>
+
+	<strong>even-numbered lines:</strong><br>
+	$ < lines sed -n '0~2p'<br>
+	$ < lines awk '(NR+1)%2'<br>
+</div>
+
+<div class="textcard">
+	<strong>Sampling a text file (1% = pct of input lines):</strong><br>
+	$ seq 1000 | sample -r 1% | jq -c '{line: .}'
+</div>
+
+<div class="textcard">
+	<strong>Word Pattern Filters</strong><br>
+	$ grep -i keyword file (-i = case insensitive)<br>
+	$ grep -E '^(.*)\. searchword' file (regex-based)<br>
+</div>
+
+<div class="textcard">
+	<strong>Split lines into words; return 3rd-to-last field:</strong><br>
+	$ grep -i chapter alice.txt | cut -d' ' -f3-
+</div>
+
+<div class="textcard">
+	<strong>Split lines at character position:</strong><br>
+	$ grep -i chapter alice.txt | cut -c 9-<br>
+</div>
+
+<div class="textcard">
+	<strong>return all words starting with "a", ending with "e":</strong><br>
+	$ < file tr '[:upper:]' '[:lower:]' |<br>
+	grep -oE '\w{2,}' |<br>
+	> grep -E '^a.*e$' |<br>
+	sort | uniq -c | sort -nr |<br>
+	> awk '{print $2","$1}' |<br>
+	header -a word,count | head | csvlook<br>
+</div>
+
+<div class="textcard">
+	<strong>Replace & delete values:</strong><br>
+	(replace space with underscores)<br>
+	$ echo 'hello world!' | tr ' ' '_'
+</div>
+
+<div class="textcard">
+	<strong>Delete individual characters:</strong><br>
+	$ echo 'hello world!' | tr -d -c '[a-z]'
+</div>
+
+<h3>Scrubbing (CSV)</h3>
+
+<div class="textcard">
+	<strong>CSV: apply cmnd to file body</strong><br>
+	$ echo -e "value\n7\n2\n5\n3" | body sort -n
+</div>
+
+<div class="textcard">
+	<strong>CSV: counting lines:</strong><br>
+	Here's the file:<br>
+	$ seq 5 | header -a count<br>
+	count lines using wc:<br>
+	$ seq 5 | ./header -a count | body wc -l
+</div>
+
+<div class="textcard">
+	<strong>CSV: extract & re-order columns</strong>
+</div>
+
+<div class="textcard">
+	<strong>CSV: filtering lines</strong>
+</div>
+
+<div class="textcard">
+	<strong>CSV: merge columns</strong>
+</div>
+
+<div class="textcard">
+	<strong>CSV: combine files (vertically)</strong>
+</div>
+
+<div class="textcard">
+	<strong>CSV: combine files (horizontally)</strong>
+</div>
+
+<div class="textcard">
+	<strong>CSV: join files</strong>
+</div>
+
+<h3>Scrubbing (HTML)</h3>
+
+<div class="textcard">
+	<strong>Download example page with curl</strong><br>
+$ curl -sL 'http://en.wikipedia.org/wiki/List_of_countries_and_territories_'\
+> 'by_border/area_ratio' > wiki.html
+</div>
+
+<div class="textcard">
+	<strong>View 1st 10 lines, 1st 80 chars each</strong><br>
+	$ head -n 10 data/wiki.html | cut -c1-79
+</div>
+
+<h3>Exploring</h3>
+
+<div class="textcard">
+	<strong>Checking file for a header</strong><br>
+	$ head file.csv | csvlook
+</div>
+
+<div class="textcard">
+	<strong>inspect data with scrolling (-S)</strong><br>
+	$ less -S file.csv<br>
+	<strong>(formatted)</strong><br>
+	$ < file.csv csvlook | less -S
+</div>
+
+<div class="textcard">
+	<strong>Feature names & datatypes</strong><br>
+	$ < data/iris.csv sed -e 's/,/\n/g;q'
+</div>
+
+<div class="textcard">
+	<strong>(above), define as function in ./bashrc</strong><br>
+	names () { sed -e 's/,/\n/g;q'; }
+</div>
+
+<div class="textcard">
+	<strong>descriptive statistics</strong><br>
+	$ csvstat file.csv<br>
+	$ csvstat file.csv --null<br>
+</div>
+
+</div>
