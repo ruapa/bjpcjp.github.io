@@ -41,10 +41,17 @@ header_pages:
   - ui-ux.html
 
 # algolia search plugin API:
-algolia:
-  application_id: 0ST64V6V0J
-  index_name: jekyll
-  search_only_api_key: e850d8fbd248c7d7df4a35544f104d32
+#algolia:
+#  application_id: 0ST64V6V0J
+#  index_name: jekyll
+#  search_only_api_key: e850d8fbd248c7d7df4a35544f104d32
+#  #
+#  extensions_to_index:
+#    - html
+#    - md 
+#    - txt 
+#    #
+#  nodes_to_index: 'p,div.card,div.textcard,blockquote'
   
 # pagination:
   # paginate: 15
