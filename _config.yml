@@ -38,6 +38,7 @@ header_pages:
   - math.html
   - prodmgmt.html
   - python.html 
+  - golang.html
   - ui-ux.html
 
 # algolia search plugin API:
