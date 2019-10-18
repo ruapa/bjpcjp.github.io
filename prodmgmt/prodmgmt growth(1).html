@@ -1,0 +1,340 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>prodmgmt growth</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.ASSISTANT .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMjEuNSA2Yy0uODMgMC0xLjUuNjctMS41IDEuNVMyMC42NyA5IDIxLjUgOSAyMyA4LjMzIDIzIDcuNSAyMi4zMyA2IDIxLjUgNnpNMTcgMTRjMS42NiAwIDMtMS4zNCAzLTNzLTEuMzQtMy0zLTMtMyAxLjM0LTMgMyAxLjM0IDMgMyAzem0wIDFjLTEuOTMgMC0zLjUgMS41Ny0zLjUgMy41UzE1LjA3IDIyIDE3IDIyczMuNS0xLjU3IDMuNS0zLjVTMTguOTMgMTUgMTcgMTV6TTcgMkMzLjY5IDIgMSA0LjY5IDEgOHMyLjY5IDYgNiA2IDYtMi42OSA2LTYtMi42OS02LTYtNnoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz4KPC9zdmc+Cg==);
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note ORANGE"><div class="heading"><div class="meta-icons">
+<span class="archived" title="Note archived"></span>
+</div>
+Dec 15, 2017, 8:38:26 PM</div>
+<div class="title">prodmgmt growth</div>
+<div class="content"><br>https://25iq.com/2017/08/25/a-dozen-attributes-of-a-scalable-business/<br><br>https://a16z.com/2017/06/09/distribution-model-sales-channels/<br><br>http://tech.co/growth-hacking-2012-11<br><br>https://medium.com/@andottto/28-clever-under-the-radar-growth-hack-examples-b8a90781087d#.ezk5p02we<br><br>http://www.growhack.com/2013/08/the-horizontal-distribution-hack<br><br>https://blog.kissmetrics.com/35-growth-hacking-tools/<br>https://blog.kissmetrics.com/growth-hacking-analytics/<br><br>https://thenextweb.com/entrepreneur/2015/04/22/9-qualities-of-world-class-growth-hacking-teams/#.tnw_oKVFaOBx<br><br>http://platformed.info/qa-quora-stack-overflow-mahalo-yahoo-answers-growth-hacking<br><br>http://jmarbach.com/rapgenius-growth-hack-exposed<br><br>https://growthhackers.com/growth-studies/belly<br>https://growthhackers.com/growth-studies/yelp<br>https://growthhackers.com/slides/100-growth-hacks/<br><br>https://techcrunch.com/2012/10/20/defining-a-growth-hacker-growth-is-not-a-marketing-strategy/<br><br>http://mattishness.blogspot.com/2012/09/growth-hacking-checklist.html<br><br>https://www.quora.com/User-Growth/What-are-good-blogs-and-resources-on-user-growth-strategies-and-tactics<br><br>http://andrewchen.co/theres-only-a-few-ways-to-scale-user-growth-and-heres-the-list/<br><br>https://medium.com/the-growth-hackers-cookbook<br><br>https://medium.com/startup-grind/top-10-proven-growth-hacking-ideas-for-2016-bcd3c126de63#.55g9mk6mm<br><br>http://www.themarysue.com/reddit-fake-account-origins/<br><br>https://blog.bufferapp.com/what-makes-content-go-viral-the-anatomy-of-a-post-that-got-over-500000-likes<br><br>https://thenextweb.com/insider/2015/09/06/10-of-the-most-effective-growth-hacks-from-a-pro/#.tnw_yv7FSzoG<br><br>https://bothsidesofthetable.com/why-the-haters-are-wrong-about-growth-hacking-9eba7f4a3ced#.83t8eqbmv<br><br>http://blog.wishpond.com/post/115675436672/growth-hacking<br><br>http://www.adweek.com/digital/batman-is-a-growth-hacker/?red=st<br><br>http://sixteenventures.com/growth-hacking-retention<br><br>https://growthhackers.com/articles/22-ecommerce-growth-hacks-ebook-download-email-required<br><br>https://techcrunch.com/2014/01/03/when-growth-hacking-goes-bad/<br><br></div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="This is a guest post from Ankur Nagpal. Ankur is the largest individual developer in the history of the Facebook &hellip;" href="http://www.growhack.com/2013/08/the-horizontal-distribution-hack/"><span class="chip-icon"></span>
+<span class="annotation-text">The Horizontal Distribution Hack</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="So here it is: your epic list of tools for marketers with a technical mindset but limited coding chops" href="https://blog.kissmetrics.com/35-growth-hacking-tools/"><span class="chip-icon"></span>
+<span class="annotation-text">35 Growth Hacking Tools for Marketers Who Don&rsquo;t Code</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="http://www.themarysue.com/reddit-fake-account-origins/"><span class="chip-icon"></span>
+<span class="annotation-text">Reddit Was Built On Legions of Fake Accounts</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="and choosing the right one for your product to grow" href="https://news.greylock.com/the-five-types-of-virality-8ba42051928d"><span class="chip-icon"></span>
+<span class="annotation-text">The Five Types of Virality</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Yesterday RapGenius posted the following announcement on their Facebook page: As a contributor to various blogs and an endearing fan of RapGenius, I took" href="http://jmarbach.com/rapgenius-growth-hack-exposed"><span class="chip-icon"></span>
+<span class="annotation-text">RapGenius Growth Hack Exposed |</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Scaling growth is hard &ndash; there&rsquo;s only a few ways to do it When you study the most successful mobile/web products, you start to see a pattern on how they grow. Turns out, there&rsquo;s not too many ways to reach 100s of millions of users or revenue. Instead, products mostly have one or two major growth channels, &hellip;" href="http://andrewchen.co/theres-only-a-few-ways-to-scale-user-growth-and-heres-the-list/"><span class="chip-icon"></span>
+<span class="annotation-text">There&#39;s only a few ways to scale user growth, and here&#39;s the list</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Here&#39;s our guide for assembling a growth team who strive for constant improvement, with a commitment to understanding why experiments succeed or fail." href="https://thenextweb.com/entrepreneur/2015/04/22/9-qualities-of-world-class-growth-hacking-teams/"><span class="chip-icon"></span>
+<span class="annotation-text">9 Qualities of World Class Growth Hacking Teams</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Ever wonder how to apply Growth Hacking thinking to reducing churn and increasing retention? Here are 22 ways to make that happen." href="http://sixteenventures.com/growth-hacking-retention"><span class="chip-icon"></span>
+<span class="annotation-text">22 Ways to Reduce SaaS Churn with Growth Hacking</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="There&rsquo;s an article making the rounds in tech circles titled &ldquo;Growth Hacking is Bull&rdquo; written by Muhammad Saleem. I&rsquo;d like to make the case that the article is wrong. I&rsquo;d strongly encourage you to&hellip;" href="https://bothsidesofthetable.com/why-the-haters-are-wrong-about-growth-hacking-9eba7f4a3ced"><span class="chip-icon"></span>
+<span class="annotation-text">Why The Haters are Wrong About Growth Hacking</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="These easy growth hacking tactics increased conversions, opt-ins, sales by up to 1,900%. Put them into practice in 2017." href="https://medium.com/startup-grind/top-10-proven-growth-hacking-ideas-for-2016-bcd3c126de63"><span class="chip-icon"></span>
+<span class="annotation-text">TOP 10 proven growth hacks for 2017 [examples, case studies] &ndash; Startup Grind</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="We all know about the Paypal, Hotmail, and Airbnb growth hacks. Here are 28 new growth hack examples to help you market your web and mobile" href="https://medium.com/@andottto/28-clever-under-the-radar-growth-hack-examples-b8a90781087d"><span class="chip-icon"></span>
+<span class="annotation-text">28 Clever Under the Radar Growth Hack Examples</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="&ldquo;My biggest surprise was when we launched the Facebook app and it didn&rsquo;t go viral&rdquo;  -Startup CEO quote    &ldquo;The month after we decided to stop all marketing and put the product on auto-pilot was our biggest month ever&rdquo;   -Startup engineer quote    Ok &ndash; what could anyone possibly say about Growth-Hacking that hasn&rsquo;t already been said? What with high-profile startup bloggers Sean Ellis &amp; Andrew Chen kicking things off, backed up by solid 30under30 prospects like Danielle Morrill, an honest to goodness GHIR at 500.co writing exceptional posts at Numerate Choir, a board on Quora and now even a multi-part series on Techcrunch .    I believe this discussion has come up and has been sustained by the fact that most startups are not thoughtful about their marketing, but the successful ones are.    Most startups rush into too many &lsquo;standard&rsquo; marketing activities, and then only dabble in their consistent execution over time. This is very natural human behavior that successful companies and marketers must guard against. The psychology and results of this kind of unsuccessful marketing is exactly analogous to the many ways in which retail investors lose money in the stock market: short attention spans, emotional and irrational decision-making, and always an insufficient edge on the market.    Startups, please consider the entire attention and resource budget that you have allocated to marketing and distribution, audit all of your marketing activities against the qualities in this six-point checklist, then double-down on your most effective activities and prune the mediocre ones.    Marketing/Distribution/Growth-hacking Checklist:    Is this leveraged?  Just like you hope to establish a profitable business model for your company, you want to get more out of a marketing activity than you put in.   Content marketing? If your name isn&rsquo;t KissMetrics, your own marketing team cannot hope to generate the velocity and volume of content and interaction that a community like Onstartups (Hubspot) or YouMoz (SEOmoz) can.   Building on Facebook? SocialCam saw a short window open in the Open Graph API that let them passively inject video links into your friends&rsquo; newsfeeds. A brace of competitors quickly copied this distribution leverage, but SocialCam went one better by overlaying the platform leverage of popular Youtube videos on top the existing Facebook platform leverage to create the CDO-Squared of distribution. Competitors were left pushing videos created by their own small user-base into the newsfeed until Facebook turned down the volume on that Open Graph channel.     Is this sustainable?   When Facebook detuned its Open Graph channel, all of the social video crowd were caught out and now require a re-think. Even SocialCam selling for $60M is a far cry from being one of the fastest growing companies of all time a few short months before.   Skype, on the other hand, shows that a company can ride virality for ten years and counting all the way up past 700M users with wholly-owned user relationships through multiple acquisitions and hairy legal wrangling. This is largely the result of network effects being at the product&rsquo;s intrinsic core, and not hitching the company&rsquo;s fortunes on an unreliable third-party social platform.  Like Skype, Dropbox&rsquo;s famous referral scheme fits neatly in with its core product interaction: sharing documents across devices. Is your company counting on a referral program to drive a product that isn&rsquo;t frequently referred?    Is this core to the product, brand and business model?   A product doesn&rsquo;t need to be a core communication utility or social network to build a long-term sustainable leveraged growth machine.   Surveymonkey has done just that to the tune of $1B valued on business fundamentals. Surveymonkey&rsquo;s business model aligns its own goals with those of its customers. While even passionate Dropbox customers might prefer to pay less for the service, Surveymonkey customers would like nothing better than to pay Surveymonkey more money, because it would mean that they had a bigger email list to market to.   Zappo&rsquo;s isn&rsquo;t even a company that helps one party send email to another, but their primary marketing tactic was a counter-intuitive growth hack as good as any other. Free shipping and returns let Zappo&rsquo;s wage asymmetric warfare against incumbent shoe sellers. By taking on this additional cost structure, Zappo&rsquo;s did not have to outbid competitors for scarce ad inventory and could grow by word-of-mouth instead.  In other words, you need to have a clear and concrete reason for people to retweet or like, not just the buttons to do so.    Is there a unique insight or special edge that we have?   The harsh light of ad-buying and paid customer acquisition illustrates this issue clearly.  Whaleshark Media is a roll-up of many of the largest online coupon and affiliate sites on the web. By virtue of scale, Whaleshark can negotiate the best affiliate payouts from affiliate networks and merchants. In some cases this means that Whaleshark sites can offer coupons with larger discounts than smaller competing deal sites. This also means that Whaleshark can spend more on paid advertising than a smaller site and still be right-side up. If you are competing with this kind of structural advantage, you had better be sure that you have a different advantage that outweighs this.   Similarly, Instagram&rsquo;s unique insight and competitive advantage was pure craft and design. Other mobile photo apps had the same features, but were obviously less well crafted so there was no reason to use them. In effect, other photo apps brought knives to Instagram&rsquo;s gun fight. This is the simplest point, but also one of the most important. As a hypothetical, if your web startup is launching a mobile app and you don&rsquo;t invest enough for the fit and finish to rival other successful apps, the rising tide of mobile will not automatically lift your boat.    Is this measurable and able to be optimized and evolved over time?   One-time arbitrage opportunities and market insights tend to disappear quickly as competitors catch up and consumers get over-supplied. The path forward from success is continued optimization.  One of Zynga&rsquo;s main competitive advantages over other social game publisher is its ability to cross-promote a new game to the audience of its older games. This advantage helps Zynga get new titles to scale before older game titles start to lose the interest of their players. Since games tend to go out of style relatively quickly and the Facebook platform ecosystem is always changing, Zynga needs to keep measuring and tweaking the promotion strategy and mechanics for each new game. Without measurement and improvement, Zynga would not have been able to sustain its string of hit social games.  Whitepages.com is a very large web property that spends millions of dollars each month on paid search. Like many companies, their initial SEM cost is not initially profitable based on first transactions. Whitepages&rsquo;s search spend only goes into the black if some new customers acquired via search marketing return for a second monetization event without a second paid click.  Without measuring and optimizing for retention, one of Whitepages primary customer acquisition channels would be entirely closed off and the company would be much less viable.    If this works, will it lead to success?   One of my favorite thought exercises for growth-hacking and marketing is to ask what future success looks like for the company, and then work backwards to assess whether a particular marketing activity can credibly get the company there. For example, if your company has raised high single digit millions in venture money or more, you should be thinking about marketing activities that, if everything goes right, could build a business worth $100M or more. Small-bore marketing activities are the single biggest mistake that I see startup marketers make. Ad buying provides an excellent example. For most online businesses, it&rsquo;s not credible to believe any amount of ad inventory will get your company to $100M. If you are tacking on a basic social media strategy of blogging, Tweeting, Facebook page updates and &lsquo;share this&rsquo; buttons, it&rsquo;s highly unlikely that this effort will contribute to building a large and special business.   In the day to day cut and thrust of startup operations, please take a more than usually critical eye to all of your marketing and growth strategies and spend your scarce time on activities that are leveraged, sustainable, and core to your product promise and function.     Like this? Email me at mathewgjohnson &lsquo;AT&rsquo; gmail, or find me at http://mattishness.com/ or Twitter @matjohnson" href="http://mattishness.blogspot.com/2012/09/growth-hacking-checklist.html"><span class="chip-icon"></span>
+<span class="annotation-text">Growth Hacking Checklist</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="When people ask me what I do I say that I find unconventional, out of the box, scalable and repeatable ways to gain new users, I hack growth. Scalable meaning you can easily expand the reach of this campaign without having to spend too much extra resources. Repeatable meaning you can either automate parts of &hellip;" href="http://www.criminallyprolific.com/2015/07/10-actionable-growth-hacking-tactics-with-proven-results/"><span class="chip-icon"></span>
+<span class="annotation-text">10 of the most effective growth hacks (from a pro)</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://techcrunch.com/2014/01/03/when-growth-hacking-goes-bad/"><span class="chip-icon"></span>
+<span class="annotation-text">When Growth Hacking Goes Bad  |  TechCrunch</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="As of writing this, I&rsquo;m currently a part of a startup that&rsquo;s grown to over 250k unique pageviews a month, and over 300k signups to date. And while I&rsquo;m happy to say that we&rsquo;re on a..." href="http://blog.wishpond.com/post/115675436672/growth-hacking"><span class="chip-icon"></span>
+<span class="annotation-text">100 Marketing Growth Hacks Learned from 5 Years as a Startup</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://techcrunch.com/2012/10/20/defining-a-growth-hacker-growth-is-not-a-marketing-strategy/"><span class="chip-icon"></span>
+<span class="annotation-text">Defining A Growth Hacker: Growth Is Not A Marketing Strategy  |  TechCrunch</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="You may not have heard of Belly, but what they&rsquo;ve achieved by building a multi-sided marketplace business in the notoriously difficult small business market is nothing short of impressive." href="https://growthhackers.com/growth-studies/belly"><span class="chip-icon"></span>
+<span class="annotation-text">Belly &ndash; How to Grow a Network Effects Startup, Lessons from Belly Card</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="At Speek, we have an inherently viral product. Our conference-calling solution leverages a link (i.e., speek.com/YourName) rather than a phone number or PI" href="http://tech.co/growth-hacking-2012-11"><span class="chip-icon"></span>
+<span class="annotation-text">5 Crucial Weapons for Your Growth Hacking Arsenal</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="A sm&ouml;rg&aring;sbord of mouthwatering marketing  recipes. Bon App&eacute;tit!" href="https://medium.com/the-growth-hackers-cookbook"><span class="chip-icon"></span>
+<span class="annotation-text">The Growth Hacker&rsquo;s Cookbook &ndash; Medium</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://growthhackers.com/slides/100-growth-hacks/"><span class="chip-icon"></span>
+<span class="annotation-text">100+ Growth Hacks</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="A lot of Q&amp;A communities have been mushrooming lately. Why the sudden surge in Q&amp;A communities? Q&amp;A dates back to the early internet days when forums abounded. Forums are based on an outdated model which suffers from a lack of identity of participants and results in trolling and noise (and ..." href="http://platformed.info/qa-quora-stack-overflow-mahalo-yahoo-answers-growth-hacking/"><span class="chip-icon"></span>
+<span class="annotation-text">Growth Hacks of Q&amp;A Startups | Platform Strategy &ndash; by Sangeet Paul Choudary</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="How can I make my content go viral? I sat down with the viral marketing geniuses Marc and Angel to discuss content marketing and other key tips." href="https://blog.bufferapp.com/what-makes-content-go-viral-the-anatomy-of-a-post-that-got-over-500000-likes"><span class="chip-icon"></span>
+<span class="annotation-text">What Makes Content Spread: Anatomy of a Post With 500,000+ Likes</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="In 2012, Yelp opened on the New York Stock Exchange with a valuation of about $898 million. By September 30, 2013, they had accumulated 47 million reviews, with an average of 117 million monthly visitors, according to the company&rsquo;s own numbers. When Yelp came on the scene, IAC&rsquo;s local review site CitySearch was the dominant player, having been up and running for around a decade while accumulating over 112,000 restaurant reviews. Yet by early 2007, Yelp had left CitySearch in the dust..." href="https://growthhackers.com/growth-studies/yelp"><span class="chip-icon"></span>
+<span class="annotation-text">Yelp&#39;s Five-Star Growth Engine</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://growthhackers.com/articles/22-ecommerce-growth-hacks-ebook-download-email-required"><span class="chip-icon"></span>
+<span class="annotation-text">22 Ecommerce Growth Hacks Ebook (download, email required)</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="This resource guide compiles the best articles I&rsquo;ve found on how to approach analytics with a growth mindset." href="https://blog.kissmetrics.com/growth-hacking-analytics/"><span class="chip-icon"></span>
+<span class="annotation-text">22 Resources To Help You Master Growth Hacking Analytics</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="B.J. Mendelson breaks down how Batman is a growth hacker, and what we can learn about the field from him." href="http://www.adweek.com/digital/batman-is-a-growth-hacker/"><span class="chip-icon"></span>
+<span class="annotation-text">Batman Is A Growth Hacker</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="The Fuel to Build an Enduring, Billion Dollar Business" href="https://news.greylock.com/the-hierarchy-of-engagement-5803bf4e6cfa"><span class="chip-icon"></span>
+<span class="annotation-text">The Hierarchy of Engagement</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Answer (1 of 25): Most people underestimate the comprehensive nature of working on user growth. There are so many factors to consider. In fact, your job is to consider everything but then narrow that list of possibilities down to a ranked list of priorities. So with that being said someone who un..." href="https://www.quora.com/What-are-good-blogs-and-resources-on-user-growth-strategies-and-tactics"><span class="chip-icon"></span>
+<span class="annotation-text">What are good blogs and resources on user growth strategies and tactics?</span></a>
+</span>
+<span class="chip label"><span class="label-name">prodmgmt</span>
+</span></div>
+
+</div></body></html>

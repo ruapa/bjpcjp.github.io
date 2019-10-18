@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>prodmgmt analytics checkout</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.ASSISTANT .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMjEuNSA2Yy0uODMgMC0xLjUuNjctMS41IDEuNVMyMC42NyA5IDIxLjUgOSAyMyA4LjMzIDIzIDcuNSAyMi4zMyA2IDIxLjUgNnpNMTcgMTRjMS42NiAwIDMtMS4zNCAzLTNzLTEuMzQtMy0zLTMtMyAxLjM0LTMgMyAxLjM0IDMgMyAzem0wIDFjLTEuOTMgMC0zLjUgMS41Ny0zLjUgMy41UzE1LjA3IDIyIDE3IDIyczMuNS0xLjU3IDMuNS0zLjVTMTguOTMgMTUgMTcgMTV6TTcgMkMzLjY5IDIgMSA0LjY5IDEgOHMyLjY5IDYgNiA2IDYtMi42OSA2LTYtMi42OS02LTYtNnoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz4KPC9zdmc+Cg==);
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note ORANGE"><div class="heading"><div class="meta-icons">
+<span class="archived" title="Note archived"></span>
+</div>
+Mar 17, 2017, 11:48:36 PM</div>
+<div class="title">prodmgmt analytics checkout</div>
+<div class="content">https://blog.kissmetrics.com/1step-checkout-right-way/<br><br>https://searchenginewatch.com/sew/how-to/2216887/an-18tip-checklist-to-boost-online-checkouts<br><br>http://pud.com/post/87930228516/how-i-increased-conversion-on-my-checkout-form-by<br><br>http://www.lunametrics.com/blog/2016/06/30/marketing-channel-attribution-markov-models-r/<br><br>http://conversionsciences.com/blog/makes-shoppers-click-infographic/<br><br>http://analyzecore.com/2014/10/17/cart-analysis-r/<br>http://analyzecore.com/2014/10/31/sequence-carts-analysis-sankey/<br>http://analyzecore.com/2014/12/04/sequence-carts-in-depth-analysis-with-r/<br>http://analyzecore.com/2015/01/28/sequence-carts-in-depth-analysis-with-r-events/<br>http://analyzecore.com/2015/02/16/customer-segmentation-lifecycle-grids-with-r/<br>http://analyzecore.com/2015/02/19/customer-segmentation-lifecycle-grids-clv-and-cac-with-r/<br>http://analyzecore.com/2015/04/01/cohort-analysis-and-lifecycle-grids-mixed-segmentation-with-r/<br>http://analyzecore.com/2015/05/03/cohort-analysis-with-heatmap/<br>http://analyzecore.com/2015/06/23/sales-funnel-visualization-with-r/<br>http://analyzecore.com/2015/08/27/measuring-business-health-with-delta-lifecycle-grids-and-r/<br>http://analyzecore.com/2015/12/10/cohort-analysis-retention-rate-visualization-r/<br>http://analyzecore.com/2016/08/03/attribution-model-r-part-1/ (multichannel)<br><br><br></div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="Sales (purchasing or conversion) Funnel is a consumer-focused marketing model which illustrates the theoretical customer journey towards the purchase of a product or service. Classically, the Sales funnel includes at least four steps: Awareness &ndash; the customer becomes aware of the existence of a product or service, Interest &ndash; actively expressing an interest in a product &hellip;" href="http://analyzecore.com/2015/06/23/sales-funnel-visualization-with-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Sales Funnel visualization with R - AnalyzeCore</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Consumers have access to all kinds of buyer information on-line. So what is it that makes them click?" href="http://conversionsciences.com/blog/makes-shoppers-click-infographic/"><span class="chip-icon"></span>
+<span class="annotation-text">What Makes Shoppers Click? A Lesson in E-Commerce Consumer Psychology (INFOGRAPHIC) | Conversion Sciences</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Multichannel attribution in GA defines that first user touchpoint. Markov Models can define the level of importance and sequence of multiple touchpoints!" href="http://www.lunametrics.com/blog/2016/06/30/marketing-channel-attribution-markov-models-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Marketing Channel Attribution with Markov Models in R</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Although the sankey diagram from the previous post provided us with a very descriptive tool, we can consider it a rather exploratory analisys. As I mentioned, sequence mining can give us the opportunity to recommend this or that product based on previous purchases, but we should find the right moment and patterns in purchasing behavior. &hellip;" href="http://analyzecore.com/2014/12/04/sequence-carts-in-depth-analysis-with-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Sequence of shopping carts in-depth analysis with R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://searchenginewatch.com/sew/how-to/2216887/an-18tip-checklist-to-boost-online-checkouts"><span class="chip-icon"></span>
+<span class="annotation-text">An 18-Tip Checklist to Boost Online Checkouts | Search Engine Watch</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="A one-step checkout is no different from a five-step checkout if it demands the same input from customers, just condensed onto one page." href="https://blog.kissmetrics.com/1step-checkout-right-way/"><span class="chip-icon"></span>
+<span class="annotation-text">eCommerce Checkout Tricks: Ask for Less and They&#39;ll Buy More</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Previously I shared the data visualization approach for descriptive analysis of progress of cohorts with the &ldquo;layer-cake&rdquo; chart (part I and part II). In this post, I want to share another interesting visualization that not only can be used for descriptive analysis as well but would be more helpful for analyzing a large number of cohorts. &hellip;" href="http://analyzecore.com/2015/05/03/cohort-analysis-with-heatmap/"><span class="chip-icon"></span>
+<span class="annotation-text">Cohort Analysis with Heatmap - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="I want to share a very powerful approach for customer segmentation in this post. It is based on customer&rsquo;s lifecycle, specifically on frequency and recency of purchases. The idea of using these metrics comes from the RFM analysis. Recency and frequency are very important behavior metrics. We are interested in frequent and recent purchases, because frequency &hellip;" href="http://analyzecore.com/2015/02/16/customer-segmentation-lifecycle-grids-with-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Customer segmentation - LifeCycle Grids with R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="When conducting Cohort Analysis, one of the most important measures is Customer Retention Rate. I will share a few ideas for visualizing this parameter in this post. Last year I shared several charts for Customer Retention Rate visualization in this post. However, it is always helpful to analyze and visualize both relative (Customer Retention Rate) and &hellip;" href="http://analyzecore.com/2015/12/10/cohort-analysis-retention-rate-visualization-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Cohort analysis: Retention Rate Visualization with R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="This post was updated on 12/05/2015. In this post, we will review a very interesting type of visualization &ndash; the Multi-layer Pie Chart &ndash; and use it for one of the marketing analytics tasks &ndash; the shopping carts analysis. We will go from the initial data processing to the shopping carts analysis visualization. I will share the R &hellip;" href="http://analyzecore.com/2014/10/17/cart-analysis-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Shopping cart analysis with R - Multi-layer pie chart - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="There are several posts connected with LifeCycle Grids on this blog. If you are not familiar with the concept I highly recommend you to start with Jim Novo&rsquo;s book, his blog or, at least, from the first post about on my blog. We will study how to use LifeCycle Grids concept for measuring a health of &hellip;" href="http://analyzecore.com/2015/08/27/measuring-business-health-with-delta-lifecycle-grids-and-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Measuring business health with Delta LifeCycle Grids and R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="We studied how we can visualize the structure of a shopping cart in the previous post. Although you can find a great deal of materials on how to analyze combinations of products in the shopping cart (e.g. via association rules), there is a lack of sources on how to analyze the sequences of shopping carts. &hellip;" href="http://analyzecore.com/2014/10/31/sequence-carts-analysis-sankey/"><span class="chip-icon"></span>
+<span class="annotation-text">Sequence of shopping carts analysis with R - Sankey diagram - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="This is the third part of the sequence of shopping carts in-depth analysis. We processed initial data in the required format, did the exploratory analysis and started the in-depth analysis in the first post. Finally, we used cluster analysis for creating customer segments in the second post. As I mentioned in the first post, the sequence can &hellip;" href="http://analyzecore.com/2015/01/28/sequence-carts-in-depth-analysis-with-r-events/"><span class="chip-icon"></span>
+<span class="annotation-text">Sequence of shopping carts in-depth analysis with R &ndash; Sequence of events - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="As we know, a customer usually goes through a path/sequence of different channels/touchpoints before a purchase in e-commerce or conversion in other areas. In Google Analytics we can find some touchpoints more likely to assist to conversion than others that more likely to be last-click touchpoint. As most of the channels are paid for (in &hellip;" href="http://analyzecore.com/2016/08/03/attribution-model-r-part-1/"><span class="chip-icon"></span>
+<span class="annotation-text">Marketing Multi-Channel Attribution model with R (part 1: Markov chains concept) - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="We studied a very powerful approach for customer segmentation in the previous post, which is based on the customer&rsquo;s lifecycle. We used two metrics: frequency and recency. It is also possible and very helpful to add monetary value to our segmentation. If you have customer acquisition cost (CAC) and customer lifetime value (CLV), you can easily &hellip;" href="http://analyzecore.com/2015/02/19/customer-segmentation-lifecycle-grids-clv-and-cac-with-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Customer segmentation - LifeCycle Grids, CLV and CAC with R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="This is the third post about LifeCycle Grids. You can find the first post about the sense of LifeCycle Grids and A-Z process for creating and visualizing with R programming language here. Lastly, here is the second post about adding monetary metrics (customer lifetime value &ndash; CLV &ndash; and customer acquisition cost &ndash; CAC) to &hellip;" href="http://analyzecore.com/2015/04/01/cohort-analysis-and-lifecycle-grids-mixed-segmentation-with-r/"><span class="chip-icon"></span>
+<span class="annotation-text">Cohort Analysis and LifeCycle Grids mixed segmentation with R - AnalyzeCore - data is beautiful, data is a story</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="http://pud.com/post/87930228516/how-i-increased-conversion-on-my-checkout-form-by"><span class="chip-icon"></span>
+<span class="annotation-text">How I increased conversion on my checkout form by 60%</span></a>
+</span>
+<span class="chip label"><span class="label-name">prodmgmt</span>
+</span></div>
+
+</div></body></html>
