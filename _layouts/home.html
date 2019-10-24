@@ -24,12 +24,10 @@ layout: default
       <ul style="list-style: none;">
 
         {%- for post in site.posts -%}
-
           <li style="
             border: 1px solid burlywood;
-            padding: 0.5em;
+            padding: 0.25em;
             margin: 0.25em;
-            background-color: beige;
             word-wrap: break-word;
             display: inline-block;
             border-radius: 10px;
@@ -42,12 +40,10 @@ layout: default
               {%- if site.show_excerpts -%}
                 {{ post.excerpt }}
               {%- endif -%}
+
             </div>
-
-          </li><br>
-
+          </li>
         {%- endfor -%}
-
       </ul>
     </div>
   {% endif %}
