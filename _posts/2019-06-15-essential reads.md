@@ -5,9 +5,9 @@ title: Essential Reads
 categories: prodmgmt behavior
 ---
 
-<div style="display:inline-block"><a href="https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism">
-<img src="/px/behavior/criticism.jpg" width="100%"><p>How to be Resilient in the Face of Harsh Criticism</p></a></div>
-<br>
+<a href="https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism">
+<img src="/px/behavior/criticism.jpg" width="95%"><br>
+How to be Resilient to Criticism (HBR)</a><br>
 
 <div style="columns: 2;">
 
