@@ -34,13 +34,15 @@ show_excerpts: true
 # navigation links
 header_pages:
   - about.html 
-  - behaviors.html 
+  - behaviors.html
+  - cpus.html
+  - golang.html
+  - linux.html
   - math.html
   - prodmgmt.html
   - python.html 
-  - golang.html
   - ui-ux.html
-  - cpus.html
+
 
 # algolia search plugin API:
 #algolia:
