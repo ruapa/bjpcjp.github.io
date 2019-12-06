@@ -12,48 +12,38 @@ layout: default
   <script async src="https://cse.google.com/cse.js?cx=008436745971355202997:c0hy395gjyo"></script>
   <div class="gcse-search"></div>  -->
 
-  {{ content }}
-
   <!-- ALGOLIA SEARCH
   <div id="search-searchbar"></div>
   <div id="search-hits"></div> -->
 
   {%- if site.posts.size > 0 -%}
+    <div style="columns: 3; column-gap: 3px;">
+    {%- for post in site.posts -%}
+      <ul>
+      <li class="textcard">
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span style="
+          font-size: 0.8em; 
+          font-style: italic;">
+        
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            ({{ post.date | date: date_format }})
 
-    <div style="columns: 3;">
-      <ul style="list-style: none;">
-
-        {%- for post in site.posts -%}
-          <li style="
-            border: 1px solid burlywood;
-            padding: 0.25em;
-            margin: 0.25em;
-            word-wrap: break-word;
-            display: inline-block;
-            border-radius: 10px;
-          ">
-            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            <div style="font-size: 0.8em; font-style: italic;">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              ({{ post.date | date: date_format }})
-
-              {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-              {%- endif -%}
-
-            </div>
-          </li>
-        {%- endfor -%}
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </span>
+      </li>
       </ul>
-    </div>
+    {%- endfor -%}
+  </div>
   {% endif %}
-  <br>
-
-  <p class="feed-subscribe">
-    <a href="{{ 'feed.xml' | relative_url }}">
-      <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
-    </a>
-  </p>
-
-  {% include algolia.html %}
 </div>
+
+<p class="feed-subscribe">
+  <a href="{{ 'feed.xml' | relative_url }}">
+    <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+  </a>
+</p>
+
+{% include algolia.html %}
