@@ -1,21 +1,39 @@
 ---
-layout: post
-title: Ruby on Rails resources
+layout: page
+title: Ruby on Rails
+permalink: /rails/
 ---
 
-<p>This is simply a list of links to various Ruby on Rails resources. The majority point to RoR guides or gem repos.</p>
-<a href="https://rubyonrails.org">
-<img src="/px/ruby/rails-logo.jpg" width="95%"></a>
+<center>
+	<a href="https://rubyonrails.org">
+		<img src="/px/ruby/rails-logo.jpg" width="70%"></a></center><br>
 
 <br><hr><br>
 
-<a href="https://guides.rubyonrails.org/getting_started.html">Getting Started</a><br>
-<a href="http://railscasts.com/">Railscasts</a><br>
-<a href="https://www.railstutorial.org/book">Hartl Rails 5 Tutorial</a><br>
+<div class="textcard"><h3>Tutorials</h3>
+	<a href="https://guides.rubyonrails.org/getting_started.html">Getting Started</a><br>
+	<a href="http://railscasts.com/">Railscasts</a><br>
+	<a href="https://www.railstutorial.org/book">Hartl Rails Tutorial</a><br>
+</div>
 
-<br><hr><br>
 
-<div class="textcard"><h3>Basic Ops</h3>
+<div class="textcard"><h3>Active Model Basics</h3>
+<div style="columns: 4;">
+<a href="https://guides.rubyonrails.org/active_model_basics.html#attribute-methods">Attribute Methods</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#callbacks">Callbacks</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#conversion">Conversion (id, persisted?, ...)</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#dirty">Dirty</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#validations">Validations</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#naming">Naming & Routing</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#model">Model</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#serialization">Serialization</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#translation">Translation</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#lint-tests">Lint Tests</a><br>
+<a href="https://guides.rubyonrails.org/active_model_basics.html#securepassword">Secure Password</a><br>
+</div></div>
+
+
+<div class="textcard"><h3>Active Record Basics</h3>
 <div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/active_record_basics.html#naming-conventions">Naming</a><br>
 <a href="https://guides.rubyonrails.org/active_record_basics.html#schema-conventions">Schemas</a><br>
@@ -43,28 +61,7 @@ title: Ruby on Rails resources
 </div></div>
 
 
-<div class="textcard"><h3>Search Engines</h3>
-<div style="columns: 4;">
-<a href="https://www.ruby-toolbox.com/categories/rails_search">ElasticSearch</a><br>
-<a href="https://www.ruby-toolbox.com/projects/searchkick">Searchkick</a><br>
-<a href="https://www.ruby-toolbox.com/projects/sunspot">Sunspot</a><br>
-</div></div>
-
-
-
-<div class="textcard"><h3>Schema Migrations</h3>
-<div style="columns: 4;">
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration">Creating</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration">Formats</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#running-migrations">Running</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations">Changing Existing Migrations</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you">Schema Dumps</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity">Referential Integrity</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data">Seed Data</a><br>
-</div></div>
-
-
-<div class="textcard"><h3>Validations</h3>
+<div class="textcard"><h3>Data Validations</h3>
 <div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/active_record_validations.html#validations-overview">Overview</a><br>
 <a href="https://guides.rubyonrails.org/active_record_validations.html#validation-helpers">Helpers</a><br>
@@ -77,7 +74,7 @@ title: Ruby on Rails resources
 </div></div>
 
 
-<div class="textcard"><h3>Callbacks (Hooks)</h3>
+<div class="textcard"><h3>Active Record Callbacks (Hooks)</h3>
 <div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/active_record_callbacks.html#callback-registration">Registration</a><br>
 <a href="https://guides.rubyonrails.org/active_record_callbacks.html#available-callbacks">Std Callbacks</a><br>
@@ -91,7 +88,7 @@ title: Ruby on Rails resources
 </div></div>
 
 
-<div class="textcard"><h3>Associations</h3>
+<div class="textcard"><h3>Model Associations</h3>
 <div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/association_basics.html#why-associations-questionmark">Purpose</a><br>
 <a href="https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association">belongs_to</a><br>
@@ -109,7 +106,7 @@ title: Ruby on Rails resources
 </div></div>
 
 
-<div class="textcard"><h3>Queries</h3>
+<div class="textcard"><h3>DB Queries</h3>
 <div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-a-single-object">get (single object)</a><br>
 <a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches">get (multiple objects)</a><br>
@@ -137,7 +134,21 @@ title: Ruby on Rails resources
 </div></div>
 
 
-<div class="textcard"><h3>DB Load-Store</h3>
+
+
+<div class="textcard"><h3>DB Schema Migrations</h3>
+<div style="columns: 4;">
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration">Creating</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration">Formats</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#running-migrations">Running</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations">Changing Existing Migrations</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you">Schema Dumps</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity">Referential Integrity</a><br>
+<a href="https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data">Seed Data</a><br>
+</div></div>
+
+
+<div class="textcard"><h3>DB Load-Store Options</h3>
 <div style="columns: 4;">
 <a href="https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters">DB Adapters</a><br>
 <a href="https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails">Standalone Migrations</a><br>
@@ -186,22 +197,6 @@ title: Ruby on Rails resources
 <a href="https://www.ruby-toolbox.com/projects/vacuum">Vacuum (Amazon Product Advertising)</a><br>
 </div></div>
 
-
-<div class="textcard"><h3>Active Model Basics</h3>
-<div style="columns: 4;">
-<a href="https://guides.rubyonrails.org/active_model_basics.html#attribute-methods">Attribute Methods</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#callbacks">Callbacks</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#conversion">Conversion (id, persisted?, ...)</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#dirty">Dirty</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#validations">Validations</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#naming">Naming & Routing</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#model">Model</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#serialization">Serialization</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#translation">Translation</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#lint-tests">Lint Tests</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#securepassword">Secure Password</a><br>
-</div></div>
-
 <br><br><hr><br>
 
 <div class="textcard"><h3>HTML</h3>
@@ -245,11 +240,9 @@ title: Ruby on Rails resources
 <a href="https://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions">Parameter Names</a><br>
 <a href="https://guides.rubyonrails.org/form_helpers.html#forms-to-external-resources">External Resources</a><br>
 <a href="https://guides.rubyonrails.org/form_helpers.html#building-complex-forms">Complex Forms</a><br>
-</div></div>
 
+<strong>Helper Macros:</strong><br>
 
-<div class="textcard"><h3>Form Helpers</h3>
-<div style="columns: 4;">
 <a href="https://guides.rubyonrails.org/action_view_overview.html#formhelper">Form Helpers</a><br>
 <a href="https://guides.rubyonrails.org/action_view_overview.html#formoptionshelper">Form Options</a><br>
 <a href="https://guides.rubyonrails.org/action_view_overview.html#formtaghelper">Form Tags</a><br>
@@ -280,10 +273,10 @@ title: Ruby on Rails resources
 <a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#built-in-helpers">Helpers</a><br>
 <a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#server-side-concerns">Server-Side</a><br>
 <a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks">Turbolinks</a><br>
-<a href="https://www.ruby-toolbox.com/categories/JavaScript_runtimes">JS Runtimes</a><br>
-<a href="https://www.ruby-toolbox.com/categories/javascript_testing">JS Testing (Jasmine, etc)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/sprockets">JS Packaging (Sprockets)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/uglifier">JS Minifier (Uglifier)</a><br>
+<a href="https://www.ruby-toolbox.com/categories/JavaScript_runtimes">Runtimes</a><br>
+<a href="https://www.ruby-toolbox.com/categories/javascript_testing">Testing</a><br>
+<a href="https://www.ruby-toolbox.com/projects/sprockets">Packaging</a><br>
+<a href="https://www.ruby-toolbox.com/projects/uglifier">Minifiers</a><br>
 <a href="https://www.ruby-toolbox.com/projects/coffee-script">Coffeescript</a><br>
 <a href="https://www.ruby-toolbox.com/projects/webpacker">Webpacker</a><br>
 <a href="https://www.ruby-toolbox.com/categories/react_tools">React-Rails</a><br>
@@ -312,6 +305,14 @@ title: Ruby on Rails resources
 </div></div>
 
 
+<div class="textcard"><h3>Search Engines</h3>
+<div style="columns: 4;">
+<a href="https://www.ruby-toolbox.com/categories/rails_search">ElasticSearch</a><br>
+<a href="https://www.ruby-toolbox.com/projects/searchkick">Searchkick</a><br>
+<a href="https://www.ruby-toolbox.com/projects/sunspot">Sunspot</a><br>
+</div></div>
+
+
 <div class="textcard"><h3>Ecommerce, Payments</h3>
 <div style="columns: 4;">
 <a href="https://www.ruby-toolbox.com/projects/spree">Spree</a><br>
@@ -328,6 +329,7 @@ title: Ruby on Rails resources
 <a href="https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration">Configuration</a><br>
 <a href="https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing">Testing</a><br>
 <a href="https://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails">Intercepting</a><br>
+<strong>Also:</strong><br>
 <a href="https://www.ruby-toolbox.com/categories/Asynchronous_E-Mail">Async Email</a><br>
 <a href="https://www.ruby-toolbox.com/categories/EMail_Fake_Servers">Previews</a><br>
 <a href="https://www.ruby-toolbox.com/categories/e_mail_processing">Processing</a><br>
