@@ -12,27 +12,32 @@ layout: default
   <script async src="https://cse.google.com/cse.js?cx=008436745971355202997:c0hy395gjyo"></script>
   <div class="gcse-search"></div>  -->
 
-  <!-- ALGOLIA SEARCH
+  <!-- ALGOLIA SEARCH. NOT CURRENTLY USED.
   <div id="search-searchbar"></div>
   <div id="search-hits"></div> -->
 
   {%- if site.posts.size > 0 -%}
+
+  <!-- try sorting by post title-->
+  {%- assign sortedposts = site.posts | sort: 'title' -%}
+
     <div style="columns: 3; column-gap: 3px;">
-    {%- for post in site.posts -%}
+
+    <!-- original: for post in site.posts -->
+    {%- for post in sortedposts -%}
       <ul>
       <li class="textcard">
-        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span style="
-          font-size: 0.8em; 
-          font-style: italic;">
-        
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            ({{ post.date | date: date_format }})
+        <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a><br>
 
+        <span style=" font-size: 0.8em; font-style: italic;">
+          {{ post.date | date: "%m/%-d/%Y" }}
+          &nbsp;
+          {{ post.tags }}
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
-        </span>
+        </span>  
       </li>
       </ul>
     {%- endfor -%}
