@@ -19,9 +19,9 @@ layout: default
   {%- if site.posts.size > 0 -%}
 
   <!-- try sorting by post title-->
-  {%- assign sortedposts = site.posts | sort: 'title' -%}
+  {%- assign sortedposts = site.posts | sort: 'date' -%}
 
-    <div style="columns: 2; column-gap: 3px;">
+    <div style="columns: 3; column-gap: 3px;">
 
     <!-- original: for post in site.posts -->
     {%- for post in sortedposts -%}
@@ -35,7 +35,7 @@ layout: default
           &nbsp;
           {{ post.tags }}
           {%- if site.show_excerpts -%}
-            <center> {{ post.excerpt }} </center>
+            {{ post.excerpt }}
           {%- endif -%}
         </span>  
       </li>

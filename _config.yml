@@ -60,8 +60,8 @@ header_pages:
 #  nodes_to_index: 'p,div.card,div.textcard,blockquote'
   
 # pagination:
-#paginate_path: "/blog/page:num/"
-#paginate: 15
+paginate: 20
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
