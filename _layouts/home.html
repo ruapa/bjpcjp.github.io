@@ -18,14 +18,34 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-  <!-- try sorting by post title-->
-  {%- assign sortedposts = site.posts | sort: 'title' -%}
+  <!-- sort by date; display first one --> 
+  {%- assign recentposts = site.posts | sort: 'date' | -%}
+  {%- assign recentpost  = recentposts.last -%}
+
+  <h2>Most Recent:</h2>
+    <a href="{{ post.url | relative_url }}">
+    {{ recentpost.title | escape }}</a><br>
+
+
+    <span style=" font-size: 0.9em;">
+      posted: {{ recentpost.date | date: "%m/%-d/%Y" }} &nbsp; 
+      tags: &nbsp; {{ recentpost.tags }}<br>
+      <a href="{{ recentpost.url }}">{{ recentpost.excerpt }}</a>
+    </span>
+
+
+  <hr>
+
+    <h2>By Title:</h2>
+
+    <!-- try sorting by post title-->
+    {%- assign sortedposts = site.posts | sort: 'title' -%}
 
     <div style="columns: 2; column-gap: 3px;">
 
     <!-- original: for post in site.posts -->
     {%- for post in sortedposts -%}
-      <ul>
+      
       <li class="textcard">
         <a href="{{ post.url | relative_url }}">
         {{ post.title | escape }}</a><br>
@@ -39,7 +59,7 @@ layout: default
           {%- endif -%}
         </span>  
       </li>
-      </ul>
+      
     {%- endfor -%}
   </div>
   {% endif %}
