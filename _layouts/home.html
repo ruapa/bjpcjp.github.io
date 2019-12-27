@@ -19,7 +19,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
 
   <!-- sort by date; display first one --> 
-  {%- assign recentposts = site.posts | sort: 'date' | -%}
+  {%- assign recentposts = site.posts | sort: 'date' -%}
   {%- assign recentpost  = recentposts.last -%}
 
   <h2>Most Recent:</h2>
