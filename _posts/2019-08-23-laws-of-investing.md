@@ -2,6 +2,7 @@
 layout: post
 title: The Laws of Investing
 date: 2019-08-23
+tags: prodmgmt, finance
 ---
 
 <a href="https://www.collaborativefund.com/blog/the-laws-of-investing/">

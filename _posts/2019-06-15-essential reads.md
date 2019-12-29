@@ -2,12 +2,12 @@
 date:   2019-06-15 0:0:0 -0500
 layout: post
 title: Essential Reads
-categories: prodmgmt behavior
+tags: behavior
 ---
 
 <a href="https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism">
 <img src="/px/behavior/criticism.jpg" width="95%"><br>
-How to be Resilient to Criticism (HBR)</a><br>
+How to be Resilient to Criticism (HBR)</a>
 
 <div style="columns: 2;">
 

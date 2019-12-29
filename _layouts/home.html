@@ -21,11 +21,9 @@ layout: default
   <!-- sort by date; display first one --> 
   {%- assign recentposts = site.posts | sort: 'date' -%}
   {%- assign recentpost  = recentposts.last -%}
-
   <h2>Most Recent:</h2>
-    <a href="{{ post.url | relative_url }}">
+    <a href="{{ recentpost.url | relative_url }}">
     {{ recentpost.title | escape }}</a><br>
-
 
     <span style=" font-size: 0.9em;">
       posted: {{ recentpost.date | date: "%m/%-d/%Y" }} &nbsp; 
@@ -33,27 +31,24 @@ layout: default
       <a href="{{ recentpost.url }}">{{ recentpost.excerpt }}</a>
     </span>
 
-
   <hr>
 
-    <h2>By Title:</h2>
+    <h2>Sorted by tags:</h2>
 
     <!-- try sorting by post title-->
-    {%- assign sortedposts = site.posts | sort: 'title' -%}
+    {%- assign postsbytag = site.posts | sort: 'tags' -%}
 
     <div style="columns: 2; column-gap: 3px;">
 
     <!-- original: for post in site.posts -->
-    {%- for post in sortedposts -%}
+    {%- for post in postsbytag -%}
       
       <li class="textcard">
         <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}</a><br>
-
-        <span style=" font-size: 0.8em; font-style: italic;">
+          {{ post.title | escape }}</a><br>
+        <span style=" font-size: 0.9em; font-style: italic;">
+          {{ post.tags }} &nbsp; 
           {{ post.date | date: "%m/%-d/%Y" }}
-          &nbsp;
-          {{ post.tags }}
           {%- if site.show_excerpts -%}
             <center> {{ post.excerpt }} </center>
           {%- endif -%}
