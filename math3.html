@@ -10,36 +10,28 @@ tags: math
 <div class="textcard">
 <strong>activation functions</strong><br>
 <img src="/px/math/activation-function.png" width="95%"><br>
-
 <a href="https://en.wikipedia.org/wiki/Activation_function">
 	wikipedia</a><br>
-
 <a href="https://opendatascience.com/blog/choosing-the-right-activation-function-in-a-neural-network/">
 	choosing the right one</a><br>
-
 <a href="https://medium.com/@srnghn/deep-learning-which-loss-and-activation-functions-should-i-use-ac02f1c56aa8">
 	choosing</a><br>
-
 <a href="https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0">
 	intro</a><br>
-
 <a href="https://medium.com/@matelabs_ai/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046
 ">
 	beginners guide</a><br>
-
 <a href="https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0">
 	understanding</a><br>
-
 <a href="https://arxiv.org/abs/1502.01852">
 	rectifiers deep dive</a><br>
 </div>
 
+
 <div class="textcard">
 <strong>algorithm glossaries</strong><br>
-
 <a href="http://www3.cs.stonybrook.edu/~algorith/">
 	Stony Brook</a><br>
-
 <a href="http://dlmf.nist.gov/">
 	NIST</a><br>
 </div>
@@ -71,14 +63,48 @@ programmable web</a><br>
 	part 3</a><br>
 </div>
 
+
+<div class="textcard">
+<strong>approximation (chebyshev)</strong><br>
+<a href="https://www.embeddedrelated.com/showarticle/152.php">jason sachs</a><br>
+</div>
+
+
 <div class="textcard">
 <strong>architectures</strong><br>
+<a href="https://arxiv.org/pdf/1512.07108v5.pdf">advances (arxiv 1512)</a><br>
+<hr>
+convolutional layers:<br>
+- tiled, transposed, dilated, network-in-network, inception<br>
+<hr>
+pooling layers:<br>
+- LP, mixed, stochastic, spectral, spatial pyramid, multiscale orderless<br>
+<hr>
+activation functions:<br>
+- ReLU, LReLU, PReLU, ELU, Maxout, Probout<br>
+<hr>
+loss functions:<br>
+- hinge, softmax, contrastive, triplet, KL divergence<br>
+<hr>
+regularization:<br>
+- LP-norm, dropout, DropConnect<br>
+<hr>
+optimization:<br>
+- data augmentation, weight initialization, SGD, batch normalization, shortcut connections<br>
+<hr>
+fast processing:<br>
+- FFT, structured transforms, low precision, weight compression, sparse convolution<br>
+<hr>
+applications:<br>
+image classification, object detection, object tracking, pose estimation, text detection/recognition, visual saliency detection, action recognition, scene labeling, speech & NLP<br>
+<hr>
 <a href="https://github.com/rasbt/deeplearning-models/blob/master/README.md">
 glossary*</a><br>
 <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 ">alexnet</a><br>
 <a href="https://deepai.org/machine-learning-glossary-and-terms/affine-layer">
 affine layers</a><br>
+<a href="http://deeplearning.net/tutorial/lenet.html">lenet</a><br>
 </div>
 
 
@@ -162,16 +188,284 @@ intro</a><br>
 
 
 <div class="textcard">
+<strong>bagging</strong><br>
+<a href="Bagging (reduces model variance)
+https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201">hackernoon</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>batch normalization</strong><br>
 <a href="http://arxiv.org/abs/1510.01378">batch normalization</a><br>
 <a href="https://arxiv.org/abs/1502.03167">batch normalization</a><br>
 </div>
 
 <div class="textcard">
+<strong>batch sizing</strong><br>
+<a href="https://stats.stackexchange.com/questions/231061/how-to-use-early-stopping-properly-for-training-deep-neural-network">how to use early stopping</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>bayes bandits</strong><br>
+<img src="/px/math/bayes-bandits.png" width="95%">
+<a href="https://mlwhiz.com/blog/2019/07/21/bandits/">bayes bandits</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>bayes regression</strong><br>
+<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge">bayes-ridge-scikit</a><br>
+<a href="http://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html#sphx-glr-auto-examples-linear-model-plot-bayesian-ridge-py">example</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>benchmarks</strong><br>
+	<a href="http://rpubs.com/m3cinc/Benchmarking_20_Machine_Learning_Models_Accuracy_and_Speed">20 models</a><br>
+	<a href="https://arxiv.org/abs/1511.06435">library comparison (arxiv)</a><br>
+	<a href="https://github.com/soumith/convnet-benchmarks">convnet (soumith)</a><br>
+	<a href="http://dlbench.comp.hkbu.edu.hk/">dl bench</a><br>
+	<a href="https://fathom.readthedocs.io/en/latest/quickstart/">fathom 101</a>
+	<a href="https://github.com/soumith">soumith github</a><br>
+	<a href="https://arxiv.org/abs/1708.05070">which algorithm should i use?</a><br>
+	<a href="http://jmlr.csail.mit.edu/papers/v15/delgado14a.html">179 classifiers, 17 families</a><br>
+	<a href="https://machinelearningmastery.com/start-with-gradient-boosting/">13 algos, 165 datasets</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>bestof</strong><br>
+<a href="https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap">DL reading roadmap</a><br>
+<a href="https://github.com/kjw0612/awesome-deep-vision">awesome deep vision</a><br>
+<a href="https://github.com/josephmisiti/awesome-machine-learning">awesome machine learning</a><br>
+<a href="https://github.com/terryum/awesome-deep-learning-papers">awesome deep learning</a><br>
+<a href="https://github.com/kjw0612/awesome-rnn">awesome rnns</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>BK trees</strong><br>
+<a href="http://signal-to-noise.xyz/post/bk-tree/">signal-to-noise</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>bert</strong><br>
+<a href="https://www.kdnuggets.com/2019/09/bert-roberta-distilbert-xlnet-one-use.html">kdnuggets</a><br>
+<a href="https://www.lyrn.ai/2018/11/07/explained-bert-state-of-the-art-language-model-for-nlp/">bert explained</a>
+<a href="https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77
+">6 patterns, 100m params</a><br>
+</div>
+
+<div class="textcard">
 <strong>best practices</strong><br>
 <a href="https://tech.instacart.com/modeling-the-unseen-6a51c9a02430">
 instacart: modeling the unseen</a><br>
+<a href="ttp://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf">rules of ML</a><br>
+<a href="https://blog.floydhub.com/ten-techniques-from-fast-ai/">10 techniques</a><br>
 </div>
+
+
+<div class="textcard">
+<strong>bezier curves</strong><br>
+<img src="/px/math/bezier-curves-math.png" width="95%"><br>
+<a href="/math/math_bezier_curves.html">bezier curves</a><br>
+<a href="https://github.com/AntixK/Curve-Studio">curve studio</a><br>
+<a href="https://buildingvts.com/mathematical-intuition-behind-bezier-curves-2ea4e9645681#.abjjahxca">math intuition</a><br>
+<a href="https://www.jasondavies.com/animated-bezier/">animated</a><br>
+<a href="https://pomax.github.io/bezierinfo">bezierinfo</a><br>
+</div>
+
+
+<div class='textcard'>
+<strong>biclustering</strong><br>
+<a href="http://scikit-learn.org/stable/modules/biclustering.html#biclustering | http://scikit-learn.org/stable/modules/classes.html#module-sklearn.cluster.bicluster">scikit</a><br>
+<a href="http://scikit-learn.org/stable/modules/biclustering.html#spectral-co-clustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralCoclustering.html#sklearn.cluster.bicluster.SpectralCoclustering">
+spectral co-clustering</a><br>
+<a href="http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_coclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-coclustering-py">demo1</a><br>
+<a href="http://scikit-learn.org/stable/auto_examples/bicluster/plot_bicluster_newsgroups.html#sphx-glr-auto-examples-bicluster-plot-bicluster-newsgroups-py">demo2</a><br>
+<a href="http://scikit-learn.org/stable/modules/biclustering.html#spectral-biclustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralBiclustering.html#sklearn.cluster.bicluster.SpectralBiclustering">spectral biclustering</a><br>
+<a href="http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-biclustering-py">demo</a><br>
+<a href="http://scikit-learn.org/stable/modules/biclustering.html#biclustering-evaluation">metrics</a><br>
+</div>
+
+<div class="textcard">
+<strong>blas</strong><br>
+<a href="https://devblogs.nvidia.com/cublas-strided-batched-matrix-multiply/">Cublas</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>boltzmann machines</strong><br>
+<a href="http://deeplearning.net/tutorial/rbm.html#rbm">tutorial</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>category theory</strong><br>
+<img src="/px/math/category-theory-applied.png" width="95%"><br>
+<a href="https://arxiv.org/abs/1803.05316">7 sketches arxiv</a><br>
+<a href="http://chalkdustmagazine.com/features/an-invitation-to-category-theory/">chalkdust</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>category variables</strong><br>
+<a href="https://opendatascience.com/blog/beyond-one-hot-an-exploration-of-categorical-variables-2/">beyond one-hot:</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>central limit theorem</strong><br>
+<a href="http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html">theorem</a><br>
+<a href="http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html">part 2</a><br>
+<a href="https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/">atomicobject</a>a<br>
+</div>
+
+
+<div class="textcard">
+<strong>classifiers</strong><br>
+<a href="https://opendatascience.com/blog/a-budget-of-classifier-evaluation-measures">evaluation measures (odsc)</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>classifier thresholds</strong><br>
+<a href="http://blog.insightdatalabs.com/visualizing-classifier-thresholds/">viz for better decisions</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>classifier metrics</strong><br>
+<a href="http://machinelearningmastery.com/confusion-matrix-machine-learning/">confusion matrix</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>clustering</strong><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#affinity-propagation">affinity propagation</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#birch">birch</a><br>
+
+<a href="http://themainstreamseer.blogspot.com/2013/01/introduction-to-classification.html">CART</a><br>
+<a href="https://github.com/lmcinnes/hdbscan/blob/master/notebooks/Comparing%20Clustering%20Algorithms.ipynb">comparison</a><br>
+<a href="http://abhijitannaldas.com/dbscan-clustering-in-machine-learning.html">dbscan</a><br>
+<a href="http://www.kdnuggets.com/2016/09/comparing-clustering-techniques-concise-technical-overview.html">k-means Expectation-Maximization</a><br>
+<a href="http://www.kdnuggets.com/2016/08/tutorial-expectation-maximization-algorithm.html">expectation-maximization</a><br>
+<a href="http://www.datasciencecentral.com/profiles/blogs/spectral-clustering-how-math-is-redefining-decision-making">spectral clustering</a><br>
+<a href="https://www.r-bloggers.com/finding-optimal-number-of-clusters/">optimal #clusters (R)</a><br>
+<a href="http://www.aaronschlegel.com/hierarchical-clustering-nearest-neighbors-algorithm-r/">hierarchical (R)</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering">
+	hierarchical (scikit)</a><br>
+<a href="http://blog.yhat.com/posts/customer-segmentation-python-rodeo.html">customer segmentation with k-means</a><br>
+<a href="http://analyzecore.com/2014/12/27/sequence-carts-in-depth-analysis-with-r-clustering/">sequence carts (R)</a><br>
+<a href="https://www.periscopedata.com/blog/multi-dimensional-clustering-using-k-means-postgres.html">multi-D k-means postgresql</a><br>
+<a href="https://github.com/CoAxLab/DeBaCl">density based clustering</a><br>
+<a href="http://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html">HDBSCAN</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#mean-shift">mean shift</a><br>
+<a href="https://spin.atomicobject.com/2015/05/26/mean-shift-clustering/">mean shift demo</a><br>
+<a href="https://saravananthirumuruganathan.wordpress.com/2010/04/01/introduction-to-mean-shift-algorithm/">mean shift intro</a><br>
+<a href="https://blog.dominodatalab.com/topology-and-density-based-clustering/">density-based</a><br>
+<a href="https://cluster.meetyogi.com/">as a service (yogi)</a><br>
+<a href="http://scikit-learn.org/stable/auto_examples/cluster/plot_dict_face_patches.html#sphx-glr-auto-examples-cluster-plot-dict-face-patches-py">demo: face patches</a>
+</div>
+
+
+<div class="textcard">
+<strong>clustering metrics</strong><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation">scikit</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#adjusted-rand-index">adjusted rand ndx</a>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#mutual-information-based-scores">mutual info scoring</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure">homogeneity, completeness, v-measure</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#fowlkes-mallows-scores">fowkles-mallows</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#silhouette-coefficient">silhouette coefficient</a><br>
+<a href="http://scikit-learn.org/stable/modules/clustering.html#calinski-harabaz-index">calinski-harabaz</a>
+<a href="http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html#sphx-glr-auto-examples-cluster-plot-kmeans-silhouette-analysis-py">demo, kmeans, SA</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>cntk (tools)</strong><br>
+<a href="https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux">setup</a><br>
+<a href="https://blogs.microsoft.com/next/2016/01/25/microsoft-releases-cntk-its-open-source-deep-learning-toolkit-on-github/#sm.0000012ecd8p2vf1ltb2qmtjwvd5x">news</a>
+</div>
+
+
+<div class="textcard">
+<strong>combining estimators</strong><br>
+<a href="/math/math_combining_estimators.html">pipelining</a><br>
+<a href="http://scikit-learn.org/stable/modules/pipeline.html#featureunion-composite-feature-spaces">feature spaces</a>
+</div>
+
+
+<div class="textcard">
+<strong>command line</strong><br>
+<a href="http://bjpcjp.github.io/">my linux page</a><br>
+<a href="http://cb.vu/unixtoolbox.xhtml">unix toolbox</a><br>
+<a href="https://github.com/bjpcjp/the-book-of-secret-knowledge">book of secret knowledge</a><br>
+<hr>
+<a href="https://blog.robertelder.org/data-science-linux-command-line/">pipe, grep, sed, awk, sort, comm, uniq, tr, cat, head, tail, wc, find, tsort, tee, redirect</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>concept drift</strong><br>
+<a href="https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/">concept drift</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>confidence intervals</strong><br>
+<a href="https://www.analyticbridge.datasciencecentral.com/forum/topics/easy-to-compute">
+fractional CIs</a><br>
+<a href="http://www.datasciencecentral.com/profiles/blogs/black-box-confidence-intervals-excel-and-perl-implementations-det">black box CIs</a><br>
+<a href="https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-to-build-simple-accurate-data-driven-model-free-confidence-in">how to build</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>consensus algorithm</strong><br>
+<a href="http://rystsov.info/2017/02/15/simple-consensus.html">rystsov</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>continuations</strong><br>
+<a href="http://jlongster.com/Whats-in-a-Continuation">what is a continuation</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>convolutions</strong><br>
+<a href="https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/">adeshpande</a><br>
+<a href="https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/">adeshpande, p2</a><br>
+<a href="https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html">9 DL papers to know</a><br>
+<a href="https://github.com/terryum/awesome-deep-learning-papers">awesome DL papers</a><br>
+<a href="http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html">CNN tricks</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>convolutions (1x1)</strong><br>
+<a href="http://iamaaditya.github.io/2016/03/one-by-one-convolution/">iamaaditya</a><br>
+</div>
+
+
+<!-- ************** LOCAL ONLY ************ -->
+{%- if site.url == "http://localhost:4000" -%}
+<div class="textcard">
+<strong>convex optimization</strong><br>
+<a href="/pdfs/math/convex-optimization.pdf">ebook</a><br>
+{%- endif -%}
+</div>
+
+
+<div class="textcard">
+<strong>data generation</strong><br>
+<a href="https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced">
+	data augmentation (medium)</a><br>
+</div>
+
 
 <div class="textcard">
 <strong>de morgan's laws</strong><br>
@@ -180,6 +474,7 @@ instacart: modeling the unseen</a><br>
 	wikipedia</a><br>
 </div>
 
+
 <div class="textcard">
 <strong>dropout</strong><br>
 <img src="/px/math/targeted-dropout.png" width="95%"><br>
@@ -187,6 +482,22 @@ instacart: modeling the unseen</a><br>
 original (hinton)</a><br>
 <a href="https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5">medium</a><br>
 </div>
+
+
+<div class="textcard">
+<strong>dsstne (tools)</strong><br>
+<a href="https://medium.com/@scottlegrand/first-dsstne-benchmarks-tldr-almost-15x-faster-than-tensorflow-393dbeb80c0f#.f2piz4fus">benchmarks</a><br>
+<a href="http://venturebeat.com/2016/05/11/amazon-open-sources-its-own-deep-learning-software-dsstne">MS to open source</a>
+</div>
+
+
+<div class="textcard">
+<strong>ebook algos datastructs</strong><br>
+<a href="https://xlinux.nist.gov/dads//termsType.html#T">NIST</a><br>
+<a href="http://rosettacode.org/wiki/Category:Programming_Tasks">rosettacode</a>
+<a href=""></a>
+</div>
+
 
 <div class="textcard">
 <strong>feature extraction (scikit)</strong><br>
@@ -197,6 +508,7 @@ original (hinton)</a><br>
 <a href="http://scikit-learn.org/stable/modules/feature_extraction.html#connectivity-graph-of-an-image">
 	connectivity graphs</a><br>
 </div>
+
 
 <div class="textcard">
 <strong>feature learning</strong><br>
@@ -244,7 +556,23 @@ exploding gradients</a><br>
 	GB papers</a><br>
 <a href="https://towardsdatascience.com/https-medium-com-talperetz24-mastering-the-new-generation-of-gradient-boosting-db04062a7ea2">
 	catboost</a><br>
+<a href="XGboost vs. TensorFlow Boosted Trees
+https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html">
+	xgboost-TFlow-boosted-trees</a><br>
+<a href="https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db">
+	catboost vs lightgbm vs xgboost</a><br>
+<a href="https://arxiv.org/pdf/1603.02754.pdf">xgboost</a><br>
+<a href="http://www.kdnuggets.com/2017/10/xgboost-top-machine-learning-method-kaggle-explained.html">xboost explained</a><br>
+<a href="https://www.r-bloggers.com/with-our-powers-combined-xgboost-and-pipelearner/">xgboost+pipelearner</a><br>
+<a href="http://matthewemery.ca/Why-Kagglers-Love-XGBoost/">kagglers+xgboost</a><br>
+<a href="http://xgboost.readthedocs.io/en/latest/model.html">xgboost docs</a><br>
+<a href="http://dmlc.ml/rstats/2016/03/10/xgboost.html">dmlc.ml stats</a><br>
+<a href="https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/
+">param tuning xgboost</a><br>
+<a href="https://www.r-bloggers.com/timeseries-forecasting-using-extreme-gradient-boosting/amp/">time series forecasting</a><br>
+<a href="https://github.com/dmlc/xgboost/tree/master/demo">awesome xgboost</a><br>
 </div>
+
 
 <div class="textcard">
 <strong>karnaugh maps</strong><br>
@@ -256,6 +584,23 @@ exploding gradients</a><br>
 <strong>(data) labeling</strong><br>
 <a href="https://www.datasciencecentral.com/profiles/blogs/labeling-with-active-learning">
 	labeling w/ active learning</a><br>
+<strong>tools</strong><br>
+<a href="https://github.com/Labelbox/Labelbox">labelbox (images)</a><br>
+<a href="http://www.fon.hum.uva.nl/praat/">audio</a><br>
+<a href="http://www.anvil-software.org/">anvil (video)</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>learning rates</strong><br>
+<a href="https://medium.com/38th-street-studios/exploring-stochastic-gradient-descent-with-restarts-sgdr-fa206c38a74e">adam: sgd with restarts</a><br>
+<a href="https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0">choosing which</a>
+</div>
+
+
+<div class="textcard">
+<strong>(bayesian) linear mixed models (R)</strong><br>
+<a href="https://www.r-bloggers.com/bayesian-linear-mixed-models-random-intercepts-slopes-and-missing-data/">linear mixed models (R)</a><br>
 </div>
 
 
@@ -290,6 +635,14 @@ arima</a><br>
 <a href="https://arxiv.org/abs/1703.03225 Anomaly Detection, Redundancy Elimination of IoT sensor data">IoT sensor data</a><br>
 </div>
 
+
+<div class="textcard">
+<strong>people to follow</strong><br>
+<a href="https://scholar.google.com/">google scholar</a><br>
+<a href="https://www.mendeley.com/">mendeley</a><br>
+</div>
+
+
 <div class="textcard">
 <strong>pooling layers</strong><br>
 <img src="/px/math/pooling.png" width="95%"><br>
@@ -309,6 +662,25 @@ arima</a><br>
 	wikipedia</a><br>
 </div>
 
+
+<div class="textcard">
+<strong>pytorch</strong><br>
+<a href="https://github.com/ritchieng/the-incredible-pytorch">itchieng</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>random forests</strong><br>
+<a href="https://github.com/kjw0612/awesome-random-forest">awesome RFs</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>Regularization:</strong><br>
+<a href="https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning-And-why-is-it-claimed-to-be-an-effective-trick-to-improve-your-network">quora</a><br>
+</div>
+
+
 <div class="textcard">
 <strong>reinforcement learning</strong><br>
 <a href="https://jaromiru.com/2017/02/16/lets-make-an-a3c-theory/">
@@ -316,6 +688,13 @@ arima</a><br>
 <a href="https://jaromiru.com/2016/09/27/lets-make-a-dqn-theory/">
 	DQN</a><br>
 </div>
+
+
+<div class="textcard">
+<strong>stacking</strong><br>
+<a href="https://en.wikipedia.org/wiki/Ensemble_learning#Stacking">wikipedia</a><br>
+</div>
+
 
 <div class="textcard">
 <strong>tool stacks</strong><br>
@@ -331,62 +710,32 @@ arima</a><br>
 	what-if (pair-code)</a><br>
 </div>
 
+
+<div class="textcard">
+<strong>unbalanced data</strong><br>
+<a href="http://www.svds.com/learning-imbalanced-classes/">
+intro (svds)</a><br>
+<a href="https://opendatascience.com/blog/learning-from-imbalanced-classes/">
+intro (odsc)</a><br>
+<a href="https://www.analyticsvidhya.com/blog/2016/09/this-machine-learning-project-on-imbalanced-data-can-add-value-to-your-resume/">
+intro (avidhya)</a><br>
+<a href="https://www.analyticbridge.datasciencecentral.com/forum/topics/handling-imbalanced-data-when-building-regression-models">regressions</a><br>
+
+</div>
+
+
 <div class="textcard">
 <strong>other</strong><br>
 <a href="https://blogs.scientificamerican.com/roots-of-unity/why-you-should-care-about-high-dimensional-sphere-packing/">
 	high-d sphere packing</a><br>
 </div>
 
-
-
-<a href="/math/math_bayes_bandits.html">bayes bandits</a><br>
-<a href="math-bayes-linear-mixed-models.html">linear mixed models</a><br>
-<a href="/math/math_Bayes_regression.html">bayes regression</a><br>
-<a href="/math/math_benchmarks(1).html">benchmarks</a><br>
-<a href="/math/math_benchmarks.html">benchmarks</a><br>
-<a href="/math/math_BERT(1).html">BERT</a><br>
-<a href="/math/math_BERT.html">BERT</a><br>
-<a href="/math/math_best_practices(1).html">best_practices</a><br>
-<a href="/math/math_best_practices(2).html">best_practices</a><br>
-<a href="/math/math_best_practices.html">best_practices</a><br>
-<a href="/math/math_bezier_curves.html">bezier curves</a><br>
-<a href="/math/math_BK-tree.html">BK tree</a><br>
-<a href="/math/math_BLAS.html">blas</a><br>
-<a href="/math/math_Boltzmann_machine.html">boltzmann machine</a><br>
-<a href="/math/math_boosting(1).html">boosting</a><br>
-<a href="/math/math_boosting.html">boosting</a><br>
-<a href="/math/math_category_theory.html">category theory</a><br>
-<a href="/math/math_central_limit_theorem.html">central limit theorem</a><br>
 <a href="/math/math_channels.html">channels</a><br>
-<a href="/math/math_cheatsheet.html">cheatsheet</a><br>
-<a href="/math/math_chebyshev.html">chebyshev</a><br>
-<a href="/math/math_classification_category_variables.html">category variables</a><br>
-<a href="/math/math_classification_unbalanced.html">class unbalanced</a><br>
-<a href="/math/math_classifiers.html">classifiers</a><br>
-<a href="/math/math_classifier_thresholds.html">classifier thresholds</a><br>
-<a href="/math/math_clustering_as-a-service.html">clustering as a service</a><br>
-<a href="/math/math_clustering_basics.html">clustering</a><br>
-<a href="/math/math_clustering_biclustering.html">biclustering</a><br>
-<a href="/math/math_clustering-.html">clustering</a><br>
-<a href="/math/math_clustering.html">clustering</a><br>
-<a href="/math/math_clustering_metrics.html">clustering metrics</a><br>
-<a href="/math/math_cmndline_ebook.html">command line</a><br>
-<a href="/math/math_CNN_1x1.html">convolution 1x1</a><br>
-<a href="/math/math_CNNs.html">cnns</a><br>
-<a href="/math/math_CNNs_LeNet.html">cnns - lenet</a><br>
-<a href="/math/math_CNNs_survey.html">cnns - survey</a><br>
-<a href="/math/math_CNN_tricks.html">cnns - tricks</a><br>
-<a href="/math/math_collections(1).html">collections</a><br>
+
+<!-- ******************************* TO DO ************************************* -->
+
 <a href="/math/math_collections.html">collections</a><br>
-<a href="/math/math_combining_estimators.html">combining estimators</a><br>
-<a href="/math/math_concept_drift.html">concept drift</a><br>
-<a href="/math/math_confidence_intervals_.html">confidence intervals</a><br>
-<a href="/math/math_confidence_intervals-.html">confidence intervals</a><br>
-<a href="/math/math_confidence_intervals.html">confidence intervals</a><br>
-<a href="/math/math_confusion_matrix.html">confusion matrix</a><br>
-<a href="/math/math_consensus_algorithm.html">consensus algorithm</a><br>
-<a href="/math/math_continuations.html">continuations</a><br>
-<a href="/math/math_convex_optimization.html">convex optimization</a><br>
+
 <a href="/math/math_convolution.html">convolution</a><br>
 <a href="/math/math_covariance.html">covariance</a><br>
 <a href="/math/math_cross_decomposition.html">cross decompostion</a><br>
@@ -419,7 +768,7 @@ arima</a><br>
 <a href="/math/math_devtools_bash_csvkit.html">bash, csvkit</a><br>
 <a href="/math/math_devtools_benchmarks.html">benchmarks</a><br>
 <a href="/math/math_devtools_Caffe.html">tbd</a><br>
-<a href="/math/math_devtools_CNTK.html">tools CNTK</a><br>
+
 <a href="/math/math_devtools_DSSTNE.html">tools DSSTNE</a><br>
 <a href="/math/math_devtools_fathom.html">tools fathom</a><br>
 <a href="/math/math_devtools_keras.html">tools keras</a><br>
