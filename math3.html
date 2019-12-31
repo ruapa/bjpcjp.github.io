@@ -5,6 +5,8 @@ date: 2019-12-24 6:00:00
 tags: math
 ---
 
+{{ assign visible == true }}
+
 <div style="columns: 3;">
 
 <div class="textcard">
@@ -30,6 +32,10 @@ tags: math
 
 <div class="textcard">
 <strong>algorithm glossaries</strong><br>
+<img src="/px/math/elementary-algorithms-book-cover.png" width="95%"><br>
+<a href="/pdfs/math/algorithms-elementary-ebook.pdf">ebook: elementary algos</a><br>
+trees, heaps, queues, sequences, sort, search, lists
+<hr>
 <a href="http://www3.cs.stonybrook.edu/~algorith/">
 	Stony Brook</a><br>
 <a href="http://dlmf.nist.gov/">
@@ -73,38 +79,11 @@ programmable web</a><br>
 <div class="textcard">
 <strong>architectures</strong><br>
 <a href="https://arxiv.org/pdf/1512.07108v5.pdf">advances (arxiv 1512)</a><br>
-<hr>
-convolutional layers:<br>
-- tiled, transposed, dilated, network-in-network, inception<br>
-<hr>
-pooling layers:<br>
-- LP, mixed, stochastic, spectral, spatial pyramid, multiscale orderless<br>
-<hr>
-activation functions:<br>
-- ReLU, LReLU, PReLU, ELU, Maxout, Probout<br>
-<hr>
-loss functions:<br>
-- hinge, softmax, contrastive, triplet, KL divergence<br>
-<hr>
-regularization:<br>
-- LP-norm, dropout, DropConnect<br>
-<hr>
-optimization:<br>
-- data augmentation, weight initialization, SGD, batch normalization, shortcut connections<br>
-<hr>
-fast processing:<br>
-- FFT, structured transforms, low precision, weight compression, sparse convolution<br>
-<hr>
-applications:<br>
-image classification, object detection, object tracking, pose estimation, text detection/recognition, visual saliency detection, action recognition, scene labeling, speech & NLP<br>
-<hr>
-<a href="https://github.com/rasbt/deeplearning-models/blob/master/README.md">
-glossary*</a><br>
-<a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
-">alexnet</a><br>
-<a href="https://deepai.org/machine-learning-glossary-and-terms/affine-layer">
-affine layers</a><br>
+<a href="https://github.com/rasbt/deeplearning-models/blob/master/README.md">glossary*</a><br>
+<a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">alexnet</a><br>
+<a href="https://deepai.org/machine-learning-glossary-and-terms/affine-layer">affine layers</a><br>
 <a href="http://deeplearning.net/tutorial/lenet.html">lenet</a><br>
+<a href="https://arxiv.org/abs/1608.06993">densenet</a><br>
 </div>
 
 
@@ -231,6 +210,7 @@ https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201">hackernoo
 	<a href="https://arxiv.org/abs/1708.05070">which algorithm should i use?</a><br>
 	<a href="http://jmlr.csail.mit.edu/papers/v15/delgado14a.html">179 classifiers, 17 families</a><br>
 	<a href="https://machinelearningmastery.com/start-with-gradient-boosting/">13 algos, 165 datasets</a><br>
+	<a href="http://dlbench.comp.hkbu.edu.hk/">DLbench</a><br>
 </div>
 
 
@@ -303,6 +283,14 @@ spectral co-clustering</a><br>
 
 
 <div class="textcard">
+<strong>caffe</strong><br>
+<a href="http://caffe.berkeleyvision.org/tutorial/">tutorial</a><br>
+<a href="http://caffe.berkeleyvision.org/">home</a><br>
+<a href="http://caffe.berkeleyvision.org/installation.html">install</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>category theory</strong><br>
 <img src="/px/math/category-theory-applied.png" width="95%"><br>
 <a href="https://arxiv.org/abs/1803.05316">7 sketches arxiv</a><br>
@@ -321,6 +309,13 @@ spectral co-clustering</a><br>
 <a href="http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html">theorem</a><br>
 <a href="http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html">part 2</a><br>
 <a href="https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/">atomicobject</a>a<br>
+</div>
+
+
+<div class="textcard">
+<strong>cheatsheets</strong><br>
+<a href="/pdfs/math/super-cheatsheet-deep-learning.pdf">super VIP c/s</a><br>
+<img src="/px/math/super-vip-cheatsheet.png" width="95%">
 </div>
 
 
@@ -400,11 +395,19 @@ spectral co-clustering</a><br>
 
 <div class="textcard">
 <strong>command line</strong><br>
+<img src="/px/math/datasci-at-cmnd-line.png" width="95%"><br>
 <a href="http://bjpcjp.github.io/">my linux page</a><br>
 <a href="http://cb.vu/unixtoolbox.xhtml">unix toolbox</a><br>
+<a href="http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/">15 unix command</a><br>
 <a href="https://github.com/bjpcjp/the-book-of-secret-knowledge">book of secret knowledge</a><br>
-<hr>
+<a href="https://datavu.blogspot.com/2014/08/useful-unix-commands-for-exploring-data.html">useful *nix commands</a><br>
 <a href="https://blog.robertelder.org/data-science-linux-command-line/">pipe, grep, sed, awk, sort, comm, uniq, tr, cat, head, tail, wc, find, tsort, tee, redirect</a><br>
+<a href="https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da">cmndline tricks (ICONV, HEAD, TR, WC, SPLIT, SORT, UNIQ, CUT, PASTE, JOIN, GREP, SED, AWK)</a><br>
+<a href="https://www.kdnuggets.com/2018/03/top-12-essential-command-line-tools-data-scientists.html">12 cmndline tools</a><br>
+<a href="https://github.com/dbohdan/structured-text-tools">text tools</a><br>
+<a href="https://github.com/jeroenjanssens/data-science-at-the-command-line">jeroen janssens ebook</a><br>
+<a href="https://source.opennews.org/articles/eleven-awesome-things-you-can-do-csvkit/">csvkit tricks</a><br>
+<a href="https://www.kdnuggets.com/2019/07/five-command-line-tools-data-science.html">5 cmndline tools</a><br>
 </div>
 
 
@@ -509,7 +512,7 @@ scikit compare demo</a>
 <a href="http://scikit-learn.org/stable/modules/cross_validation.html#group-shuffle-split">group shuffle split</a><br>
 <hr>
 <a href="http://scikit-learn.org/stable/modules/cross_validation.html#predefined-fold-splits-validation-sets">predefined splits</a><br>
-<a href="http://scikit-learn.org/stable/modules/cross_validation.html#time-series-split">time series splits</a>br>
+<a href="http://scikit-learn.org/stable/modules/cross_validation.html#time-series-split">time series splits</a><br>
 <a href="http://scikit-learn.org/stable/modules/cross_validation.html#a-note-on-shuffling">shuffling notes</a><br>
 </div>
 
@@ -534,6 +537,21 @@ scikit compare demo</a>
 
 
 <div class="textcard">
+<strong>datasets</strong><br>
+<a href="https://github.com/EpistasisLab/penn-ml-benchmarks">Penn ML benchmarks</a><br>
+<a href="https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/">analyticsvidhya</a><br>
+<a href="http://cocodataset.org/#home">COCO</a><br>
+<a href="http://www.image-net.org/">ImageNet</a><br>
+<a href="https://github.com/openimages/dataset">Open Images</a><br>
+<a href="https://medium.com/@Synced/baidu-apollo-releases-massive-self-driving-dataset-teams-up-with-berkeley-deepdrive-5e785ab4053b">baidu apollo</a><br>
+<a href="http://www.datasciencecentral.com/profiles/blogs/13-machine-learning-data-set-collections">13 collections</a><br>
+<a href="https://elitedatascience.com/datasets">elite data science</a><br>
+<a href="http://www.cogsci.nl/stimulus-sets">stimulus sets</a><br>
+<a href="https://arxiv.org/abs/1801.07746">Happy DB</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>debugging</strong><br>
 <a href="https://gab41.lab41.org/some-tips-for-debugging-deep-learning-3f69e56ea134#.tctsygql3">tips</a><br>
 </div>
@@ -552,10 +570,54 @@ algorithms:">ID3, Cx, CART</a><br>
 
 
 <div class="textcard">
+<strong>decomposing signals / dictionary learning</strong><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#dictionary-learning">scikit</a><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#generic-dictionary-learning">generic</a><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#sparse-coding-with-a-precomputed-dictionary
+">sparse coding</a><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#factor-analysis ">factor analysis</a><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#independent-component-analysis-ica">ICA</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>decomposing signals / latent dirichlet allocation (LDA)</strong><br>
+<a href="http://scikit-learn.org/stable/modules/decomposition.html#latent-dirichlet-allocation-lda">LDA</a><br>
+<a href="https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html">demo - topic extraction</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>deep belief networks (DBNs)</strong><br>
-<img src="/px/math/dbn.png" width="95%">
+<img src="/px/math/dbn.png" width="95%"><br>
 <a href="https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf">hinton</a><br>
 <a href="http://deeplearning.net/tutorial/DBN.html#dbn"></a>
+</div>
+
+
+<div class="textcard">
+<strong>deep dream</strong><br>
+<img src="/px/math/deep-dream.png" width="95%"><br>
+<a href="https://github.com/google/deepdream">github</a><br>
+<a href="http://googleresearch.blogspot.ch/2015/06/inceptionism-going-deeper-into-neural.html">inception</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>deep forest</strong><br>
+<a href="https://arxiv.org/abs/1702.08835">arxiv</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>deep photo style transfer</strong><br>
+<a href="https://github.com/luanfujun/deep-photo-styletransfer">github</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>deep voice (baidu)</strong><br>
+<a href="https://blog.athelas.com/paper-1-baidus-deep-voice-675a323705df">blog post</a><br>
 </div>
 
 
@@ -564,6 +626,64 @@ algorithms:">ID3, Cx, CART</a><br>
 <img src="/px/math/demorgan-laws.png" width="95%"><br>
 <a href="https://en.wikipedia.org/wiki/De_Morgan%27s_laws">
 	wikipedia</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>density estimation</strong><br>
+<a href="http://scikit-learn.org/stable/modules/density.html">scikit</a><br>
+<a href="http://scikit-learn.org/stable/modules/density.html#density-estimation-histograms">histograms</a><br>
+<a href="http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation">kernels (KDE)</a><br>
+<a href="http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html#sklearn.neighbors.DistanceMetric">distance metrics</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>devops/deploy/infrastructure</strong><br>
+<a href="https://openai.com/blog/infrastructure-for-deep-learning/">openai</a><br>
+<a href="https://news.ycombinator.com/item?id=19712465">y combinator thread</a><br>
+<a href="https://machinelearningmastery.com/command-line-recipes-deep-learning-amazon-web-services/">AWS recipes</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>differential equations</strong><br>
+<img src="/px/math/odes.png" width="95%"><br>
+<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb">ODEs (my github)</a><hr>
+* Newton' Law<br>
+* damped harmonic oscillator<br>
+* direction field graphs<br>
+* inexact solutions<br>
+* laplace transforms<br>
+* numerical integration w/ scipy<br>
+* lotka-volterra equations<br>
+* lorenz equations<br>
+* coupled damped springs<br>
+* double pendulum<br>
+<br>
+<img src="/px/math/pdes.png" width="95%"><br>
+<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb">PDEs (my github)</a><hr>
+* finite-difference method<br>
+* FEniCS, Dolfin<br>
+* triangulation<br>
+* dirichlet boundary conditions<br>
+* circular geometry<br>
+</div>
+
+
+<div class="textcard">
+<strong>digital signal processing</strong><br>
+<a href="http://www.dspguide.com/pdfbook.htm">
+	<img src="/px/math/dsp-bookcover.png" width="95%">dsp book (30 chaps)</a><br>
+<a href="http://www.dspguru.com/">dsp gury</a><br>
+<a href="https://jackschaedler.github.io/circles-sines-signals/index.html">circles, sines, signals</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>dijkstra</strong><br>
+<img src="/px/math/dijkstra.png" width="95%"><br>
+<a href="https://motherboard.vice.com/en_us/article/the-simple-elegant-algorithm-that-makes-google-maps-possible">intro</a><br>
 </div>
 
 
@@ -590,16 +710,15 @@ original (hinton)</a><br>
 
 
 <div class="textcard">
-<strong>ebook algos datastructs</strong><br>
-<a href="https://xlinux.nist.gov/dads//termsType.html#T">NIST</a><br>
-<a href="http://rosettacode.org/wiki/Category:Programming_Tasks">rosettacode</a>
-<a href=""></a>
+<strong>entropy</strong><br>
+<a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">stack overflow</a><br>
 </div>
 
 
 <div class="textcard">
-<strong>entropy</strong><br>
-<a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">stack overflow</a><br>
+<strong>fathom</strong><br>
+<img src="/px/math/fathom.png" width="95%"><br>
+<a href="http://fathom.readthedocs.io/en/latest/quickstart/">quickstart</a><br>
 </div>
 
 
@@ -702,6 +821,12 @@ https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html">
 
 
 <div class="textcard">
+<strong>json tools</strong><br>
+<a href="https://stedolan.github.io/jq/manual/">jq</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>karnaugh maps</strong><br>
 <a href="https://www.allaboutcircuits.com/technical-articles/karnaugh-map-boolean-algebraic-simplification-technique/">
 	intro</a><br>
@@ -737,6 +862,13 @@ https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html">
 arima</a><br>
 <a href="https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/">
 	time series forecasting</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>octave</strong><br>
+<img src="/px/math/octave.png" width="95%"><br>
+<a href="https://www.gnu.org/software/octave/#install">install</a><br>
 </div>
 
 
@@ -792,7 +924,11 @@ arima</a><br>
 
 <div class="textcard">
 <strong>pytorch</strong><br>
+<img src="/px/math/pytorch.png" width="95%">
 <a href="https://github.com/ritchieng/the-incredible-pytorch">itchieng</a><br>
+<a href="https://github.com/yunjey/pytorch-tutorial">tutorial</a><br>
+<a href="http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">60 min blitz</a><br>
+<a href="https://github.com/dnouri/skorch">skorch</a><br>
 </div>
 
 
@@ -803,7 +939,7 @@ arima</a><br>
 
 
 <div class="textcard">
-<strong>Regularization:</strong><br>
+<strong>regularization:</strong><br>
 <a href="https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning-And-why-is-it-claimed-to-be-an-effective-trick-to-improve-your-network">quora</a><br>
 </div>
 
@@ -818,8 +954,38 @@ arima</a><br>
 
 
 <div class="textcard">
+<strong>seaborn</strong><br>
+<img src="/px/math/seaborn.png" width="95%"><br>
+<a href="http://seaborn.pydata.org/">home</a><br>
+<a href="https://elitedatascience.com/python-seaborn-tutorial">tutorial</a><br>
+<a href="https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly/">tryolabs</a><br>
+<a href="https://gist.github.com/5agado/ee95008f25730d04bfd0eedd5c36f0ee#file-pandas-and-seaborn-ipynb">gist</a><br>
+<a href="http://insightfulinteraction.com/">insightful interaction</a><br>
+<a href="http://www.maartenlambrechts.com/2015/03/04/the-rise-of-explorable-explanations.html">explorable explanations</a><br>
+<a href="http://www.visualisingdata.com/">visualizing data</a><br>
+<a href="http://arogozhnikov.github.io/2016/04/28/demonstrations-for-ml-courses.html">demos</a><br>
+<a href="http://www.datasciencecentral.com/group/resources/forum/topics/30-basic-tools-for-data-visualization">tools</a><br>
+<a href="https://www.ayasdi.com/blog/bigdata/why-topological-data-analysis-works/">topological data analysis</a><br>
+<a href="https://github.com/insideout10/zoomable-treemap">zoomable treemaps</a><br>
+<a href="https://developers.google.com/chart/interactive/docs/gallery/treemap">treemap gallery</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>stacking</strong><br>
 <a href="https://en.wikipedia.org/wiki/Ensemble_learning#Stacking">wikipedia</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>tf-idf</strong><br>
+<a href="https://manticoresearch.com/2019/04/09/tf-idf-in-a-nutshell/">intro</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>topic extraction</strong><br>
+<a href="https://towardsdatascience.com/the-complete-guide-for-topics-extraction-in-python-a6aaa6cedbbc">topic extraction</a><br>
 </div>
 
 
@@ -847,7 +1013,12 @@ intro (odsc)</a><br>
 <a href="https://www.analyticsvidhya.com/blog/2016/09/this-machine-learning-project-on-imbalanced-data-can-add-value-to-your-resume/">
 intro (avidhya)</a><br>
 <a href="https://www.analyticbridge.datasciencecentral.com/forum/topics/handling-imbalanced-data-when-building-regression-models">regressions</a><br>
+</div>
 
+
+<div class="textcard">
+<strong>vision</strong><br>
+<a href="https://github.com/kjw0612/awesome-deep-vision">awesome deep vision</a><br>
 </div>
 
 
@@ -861,40 +1032,18 @@ intro (avidhya)</a><br>
 
 <!-- ******************************* TO DO ************************************* -->
 
+
 <a href="/math/math_collections.html">collections</a><br>
 
-<a href="/math/math_datasets.html">datasets</a><br>
-<a href="/math/math_datasets.html">datasets</a><br>
-<a href="/math/math_dataset_utilities.html">datasets - utilities</a><br>
-
-<a href="/math/math_decomposing_signals_-_dictionary_learning.html">dictionary learning</a><br>
-<a href="/math/math_decomposing_signals_LDA.html">LDA</a><br>
-<a href="/math/math_Deep_Dream.html">deep dream</a><br>
-<a href="/math/math_deep_forest.html">deep forest</a><br>
-<a href="/math/math_deep_learning_cheatsheet.html">cheatsheet</a><br>
-<a href="/math/math_deeplearning_LDA.html">LDA</a><br>
-<a href="/math/math_deep-photo-styletransfer.html">deep photo style transfer</a><br>
-<a href="/math/math_deep_vision.html">deep vision</a><br>
-<a href="/math/math_deep_voice_baidu.html">deep voice</a><br>
-<a href="/math/math_demorgans_laws.html">demorgans laws</a><br>
-<a href="/math/math_DenseNet.html">densenet</a><br>
-<a href="/math/math_density_estimation.html">density estimation</a><br>
-<a href="/math/math_devops.html">devops</a><br>
-<a href="/math/math_devops_pipelines.html">devops</a><br>
-<a href="/math/math_devtools_bash_csvkit.html">bash, csvkit</a><br>
-<a href="/math/math_devtools_benchmarks.html">benchmarks</a><br>
-<a href="/math/math_devtools_Caffe.html">tbd</a><br>
+<a href="/math/_math_dataset_utilities.html">datasets - utilities</a><br>
 
 <a href="/math/math_devtools_DSSTNE.html">tools DSSTNE</a><br>
-<a href="/math/math_devtools_fathom.html">tools fathom</a><br>
+
 <a href="/math/math_devtools_keras.html">tools keras</a><br>
-<a href="/math/math_devtools_octave.html">tools octave</a><br>
-<a href="/math/math_devtools_pytorch.html">tools pytorch</a><br>
+
 <a href="/math/math_devtools_root_CERN.html">tools root cern</a><br>
 <a href="/math/math_devtools_tensorflow.html">tensorflow</a><br>
-<a href="/math/math_differential_equations.html">differential equations</a><br>
-<a href="/math/math_digital_signal_processing_DSP.html">digital signal processing</a><br>
-<a href="/math/math_Dijkstra.html">diskstra</a><br>
+
 <a href="/math/math_dimensionality_deep_not_shallow.html">dimensionality</a><br>
 <a href="/math/math_dimensionality_reduction(1).html">dimensionality</a><br>
 <a href="/math/math_dimensionality_reduction-.html">dimensionality</a><br>
@@ -906,7 +1055,7 @@ intro (avidhya)</a><br>
 <a href="/math/math_ebook_algorithm_design_manual.html">ebook - algo design manual</a><br>
 <a href="/math/math_ebook_algorithms_jeff_erickson.html">ebook - algos</a><br>
 <a href="/math/math_ebook_cheat_sheet.html">ebook cheatsheet</a><br>
-<a href="/math/math_ebook_elementary_algorithms.html">ebook elementary algos</a><br>
+
 <a href="/math/math_ebook_elements_of_statistical_learning.html">ebook elements stat learning</a><br>
 <a href="/math/math_ebook_foundations_of_data_science.html">ebook foundations DS</a><br>
 <a href="/math/math_ebook_goodfellow.html">ebook goodfellow</a><br>
@@ -1147,7 +1296,7 @@ intro (avidhya)</a><br>
 <a href="/math/math_taxonomy.html">taxonomy</a><br>
 <a href="/math/math_text_distance_metrics.html">text distance metrics</a><br>
 <a href="/math/math_text_knowledge_extraction_unstructured.html">knowledge extraction</a><br>
-<a href="/math/math_TF-IDF.html">tf-idf</a><br>
+
 <a href="/math/math_tf-idf_seo.html">tf-idf seo</a><br>
 <a href="/math/math_time_series_feature_based.html">time series features</a><br>
 <a href="/math/math_time_series.html">time series</a><br>
@@ -1155,7 +1304,7 @@ intro (avidhya)</a><br>
 <a href="/math/math_tools_autokeras.html">autokeras</a><br>
 <a href="/math/math_tools_dask.html">dask</a><br>
 <a href="/math/math_tools.html">tools</a><br>
-<a href="/math/math_tools_seaborn.html">seaborn</a><br>
+
 <a href="/math/math_topic_extraction.html">extraction</a><br>
 <a href="/math/math_topic_extraction_LDA.html">extraction - lda</a><br>
 <a href="/math/math_transfer_learning.html">transfer learning</a><br>
