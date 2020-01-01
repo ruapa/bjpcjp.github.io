@@ -5,8 +5,6 @@ date: 2019-12-24 6:00:00
 tags: math
 ---
 
-{{ assign visible == true }}
-
 <div style="columns: 3;">
 
 <div class="textcard">
@@ -21,12 +19,9 @@ tags: math
 <a href="https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0">
 	intro</a><br>
 <a href="https://medium.com/@matelabs_ai/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046
-">
-	beginners guide</a><br>
-<a href="https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0">
-	understanding</a><br>
-<a href="https://arxiv.org/abs/1502.01852">
-	rectifiers deep dive</a><br>
+">beginners guide</a><br>
+<a href="https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0">intro</a><br>
+<a href="https://arxiv.org/abs/1502.01852">rectifiers deep dive</a><br>
 </div>
 
 
@@ -552,6 +547,19 @@ scikit compare demo</a>
 
 
 <div class="textcard">
+<strong>dataset utilities (scikit)</strong><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html">index</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#general-dataset-api">api</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#toy-datasets">toy datasets</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#sample-images">sample images</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#sample-generators">generators</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#datasets-in-svmlight-libsvm-format">svmlight/libsvm</a><br>
+<a href="http://scikit-learn.org/stable/datasets/index.html#loading-from-external-datasets">external datasets</a><br>
+<a href="scikit-learn.org/stable/datasets/index.html#downloading-datasets-from-the-mldata-org-repository">MLdata.org</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>debugging</strong><br>
 <a href="https://gab41.lab41.org/some-tips-for-debugging-deep-learning-3f69e56ea134#.tctsygql3">tips</a><br>
 </div>
@@ -688,8 +696,28 @@ algorithms:">ID3, Cx, CART</a><br>
 
 
 <div class="textcard">
+<strong>dimensionality</strong><br>
+<img src="/px/math/dimensions.png" width="95%"><br>
+<a href="http://enhancedatascience.com/2017/07/31/machine-learning-explained-dimensionality-reduction/
+">explained</a><br>
+<a href="https://arxiv.org/abs/1611.00740v4">deep, not shallow, nets</a><br>
+<a href="https://elitedatascience.com/dimensionality-reduction-algorithms
+">algorithms</a><hr>
+PCA, LDA, ICA, autoencoders, t-SNE<br>
+<a href="https://intoli.com/blog/pca-and-svd/">PCA & SVD relations</a><br>
+<a href="/math/math_dimensionality_reduction.html">dimensionality</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>dimensionality, curse of</strong><br>
 <a href="https://www.datasciencecentral.com/profiles/blogs/about-the-curse-of-dimensionality">intro</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>discriminant analysis</strong><br>
+<a href="https://scikit-learn.org/stable/modules/lda_qda.html">scikit</a><br>
 </div>
 
 
@@ -699,6 +727,7 @@ algorithms:">ID3, Cx, CART</a><br>
 <a href="https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf">
 original (hinton)</a><br>
 <a href="https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5">medium</a><br>
+<a href="https://for.ai/blog/targeted-dropout/">targeted dropout</a><br>
 </div>
 
 
@@ -710,8 +739,47 @@ original (hinton)</a><br>
 
 
 <div class="textcard">
+<strong>eigenfaces</strong><br>
+<img src="/px/math/eigenfaces.png" width="95%"><br>
+<a href="https://jeremykun.com/2011/07/27/eigenfaces/">facial recognition</a><br>
+<a href="http://mikedusenberry.com/on-eigenfaces/">creating ghost images</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>ensembles</strong><br>
+<a href="https://scikit-learn.org/stable/modules/ensemble.html">scikit</a><br>
+<a href="https://blog.statsbot.co/ensemble-learning-d1dcd548e936">stats & bots</a><br>
+<a href="https://www.gormanalysis.com/blog/guide-to-model-stacking-i-e-meta-ensembling/">stacking</a><br>
+<a href="https://scikit-learn.org/stable/auto_examples/ensemble/plot_bias_variance.html">bagging vs 1 estimator</a><br>
+<a href="/math/math_ensembles_voting_classifier.html">voting classifiers</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>entropy</strong><br>
 <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">stack overflow</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>equation solvers</strong><br>
+<img src="/px/math/equation-solvers.png" width="95%"><br><div class="textcard">
+<strong>error metrics</strong>
+<a href="http://www.datasciencecentral.com/profiles/blogs/7-important-model-evaluation-error-metrics-everyone-should-know">essentials</a><hr>
+confidence interval<br>
+confusion matrix<br>
+gain & lift chart<br>
+kolmogorov-smirinov<br>
+chi-square<br>
+ROC<br>
+gini coefficient<br>
+RMSE, RMSE_L1<br>
+</div>
+
+
+<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch05-equation-solving.ipynb">numeric python</a><hr>
+linear, square, rectangular, eigenvalues, nonlinear, univariate<br>
 </div>
 
 
@@ -751,9 +819,72 @@ original (hinton)</a><br>
 
 
 <div class="textcard">
+<strong>feature scaling</strong><br>
+<a href="http://sebastianraschka.com/Articles/2014_about_feature_scaling.html">tutorial</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>feature learning</strong><br>
 <a href="https://arxiv.org/abs/1605.09782v6">
 	adversarial</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>feature scaling</strong><br>
+<a href="http://sebastianraschka.com/Articles/2014_about_feature_scaling.html">tutorial</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>floating point</strong><br>
+<a href="http://insidehpc.com/2017/02/john-gustafson-presents-beyond-floating-point-next-generation-computer-arithmetic/">next-gen math</a><br>
+<a href="https://www.nextplatform.com/2017/03/08/high-times-low-precision-hardware/">low-precision hardware</a><br>
+<a href="http://www.netlib.org/">netlib</a><br>
+<a href="http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html">what everyone should know</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>forecasting methods</strong><br>
+<img src="/px/math/forecasting-methods.png" width="95%"><br>
+<a href="https://www.datasciencecentral.com/profiles/blogs/selecting-forecasting-methods-in-data-science">list</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>gamma (images)</strong><br>
+<a href="http://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/">gamma</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>GANs</strong><br>
+<a href="https://mlwhiz.com/blog/2019/06/17/gans/">intro</a><br>
+<a href="https://sigmoidal.io/beginners-review-of-gan-architectures/">intro</a><br>
+<a href="https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31">intro</a><br>
+<a href="https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks">intro</a><br>
+<a href="https://data.vision.ee.ethz.ch/aeirikur/extremecompression/">extreme image compress</a><br>
+<a href="https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html">spectral normalization</a><br>
+<a href="https://adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets">adeshpande</a><br>
+<a href="https://deephunt.in/the-gan-zoo-79597dc8c347">list of variants</a><br>
+<a href="https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47">overview</a><br>
+<a href="https://arxiv.org/abs/1612.04357">stacked</a><br>
+<a href="http://www.alexirpan.com/2017/02/22/wasserstein-gan.html">wasserstein</a><br>
+<a href="https://arxiv.org/abs/1701.00160v3">NIPS 2016 tutorial</a><br>
+<a href="https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images/">GauGAN (nV)</a><br>
+<a href="https://distill.pub/2019/gan-open-problems">problems</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>gensim (NLP)</strong><br>
+<img src="/px/math/gensim.png" width="95%">
+<a href="https://github.com/RaRe-Technologies/gensim.git">github</a><br>
+<a href="https://radimrehurek.com/gensim/models/fasttext.html">fasttext</a><br>
+<a href="https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/">tutorial</a><br>
+<a href="https://spandan-madan.github.io/DeepLearningProject/">spandan-madan</a><br>
 </div>
 
 
@@ -785,17 +916,16 @@ overview</a><br>
 http://arxiv.org/abs/1211.5063">
 exploding gradients</a><br>
 <a href="https://www.neuraldesigner.com/blog/5_algorithms_to_train_a_neural_network">
-	training algorithms </a>
+	5 algorithms </a><br>
 <a href="http://arxiv.org/abs/1211.5063">
-	RNN training - clipping gradients (ArXiV)</a><br>
+	clipping RNN gradients (ArXiV)</a><br>
 </div>
 
 <div class="textcard">
 <strong>gradient boosting</strong><br>
-<a href="https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers">
-	GB papers</a><br>
-<a href="https://towardsdatascience.com/https-medium-com-talperetz24-mastering-the-new-generation-of-gradient-boosting-db04062a7ea2">
-	catboost</a><br>
+<a href="http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html">GB playground</a><br>
+<a href="https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers">GB papers</a><br>
+<a href="https://towardsdatascience.com/https-medium-com-talperetz24-mastering-the-new-generation-of-gradient-boosting-db04062a7ea2">catboost</a><br>
 <a href="XGboost vs. TensorFlow Boosted Trees
 https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html">
 	xgboost-TFlow-boosted-trees</a><br>
@@ -857,6 +987,13 @@ https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html">
 
 
 <div class="textcard">
+<strong>local interpretable model-agnostic explanations (LIME)</strong><br>
+<a href="https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime">explanations</a><br>
+<a href="/math/math_feature_extraction_image_processing.html">feature extraction</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>moving average</strong><br>
 <a href="https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average">
 arima</a><br>
@@ -914,6 +1051,13 @@ arima</a><br>
 <a href="https://github.com/deepsense-ai/roi-pooling">
 	region of interest (deepsense)</a><br>
 </div>
+
+
+<div class="textcard">
+<strong>probability & statistics</strong><br>
+<a href="/pdfs/math/prob-stats-cookbook v0.2.1.pdf">cookbook v0.2.1 (pdf)</a><br>
+</div>
+
 
 <div class="textcard">
 <strong>process capability index</strong><br>
@@ -1035,8 +1179,6 @@ intro (avidhya)</a><br>
 
 <a href="/math/math_collections.html">collections</a><br>
 
-<a href="/math/_math_dataset_utilities.html">datasets - utilities</a><br>
-
 <a href="/math/math_devtools_DSSTNE.html">tools DSSTNE</a><br>
 
 <a href="/math/math_devtools_keras.html">tools keras</a><br>
@@ -1044,18 +1186,10 @@ intro (avidhya)</a><br>
 <a href="/math/math_devtools_root_CERN.html">tools root cern</a><br>
 <a href="/math/math_devtools_tensorflow.html">tensorflow</a><br>
 
-<a href="/math/math_dimensionality_deep_not_shallow.html">dimensionality</a><br>
-<a href="/math/math_dimensionality_reduction(1).html">dimensionality</a><br>
-<a href="/math/math_dimensionality_reduction-.html">dimensionality</a><br>
-<a href="/math/math_dimensionality_reduction.html">dimensionality</a><br>
-<a href="/math/math_discriminant_analysis.html">discriminant analysis</a><br>
-<a href="/math/math_dropout_targeted.html">dropout targeted</a><br>
-<a href="/math/math-ds-libs-rankings.html">rankings</a><br>
 <a href="/math/math_ebbok_Algorithms_and_Data_Structures.html">ebook algos & data structs</a><br>
 <a href="/math/math_ebook_algorithm_design_manual.html">ebook - algo design manual</a><br>
 <a href="/math/math_ebook_algorithms_jeff_erickson.html">ebook - algos</a><br>
 <a href="/math/math_ebook_cheat_sheet.html">ebook cheatsheet</a><br>
-
 <a href="/math/math_ebook_elements_of_statistical_learning.html">ebook elements stat learning</a><br>
 <a href="/math/math_ebook_foundations_of_data_science.html">ebook foundations DS</a><br>
 <a href="/math/math_ebook_goodfellow.html">ebook goodfellow</a><br>
@@ -1076,35 +1210,17 @@ intro (avidhya)</a><br>
 <a href="/math/math_ebook_spark_agile.html">ebook spark agile</a><br>
 <a href="/math/math_ebook_understanding_machine_learning.html">ebook understanding ML</a><br>
 <a href="/math/math_ebook_zaki-meira.html">ebook zaki meira</a><br>
-<a href="/math/math_eigenfaces.html">eigenfaces</a><br>
-<a href="/math/math_elliptic_curve_cryptography.html">elliptic curve crypto</a><br>
-<a href="/math/math_ensembles_boosting_bagging.html">ensembles</a><br>
-<a href="/math/math_ensembles_boosting.html">ensembles boosting</a><br>
-<a href="/math/math_ensembles_decision_trees_adaboost.html">ensembles adaboost</a><br>
-<a href="/math/math_ensembles_random_forests.html">random forests</a><br>
-<a href="/math/math_ensembles_voting_classifier.html">voting classifiers</a><br>
-<a href="/math/math_entropy_information_gain.html">information gain</a><br>
-<a href="/math/math_equation_solvers.html">equation solvers</a><br>
-<a href="/math/math_evaluation_metrics.html">evaluation metrics</a><br>
-<a href="/math/math_explanations.html">explanations</a><br>
-<a href="/math/math_feature_extraction_image_processing.html">feature extraction</a><br>
-<a href="/math/math_feature_scaling_normalization.html">feature scaling</a><br>
-<a href="/math/math_floating_point_HPC_GPU.html">floating point </a><br>
-<a href="/math/math_floating_point.html">floating point</a><br>
-<a href="/math/math_forecasting.html">forecasting</a><br>
+
 <a href="/math/math_frameworks.html">frameworks</a><br>
 <a href="/math/math_frameworks_torch.html">torch</a><br>
-<a href="/math/math_gamma_images_graphics.html">gamma</a><br>
-<a href="/math/math_GAN_gauGAN.html">GauGAN</a><br>
-<a href="/math/math_GANs.html">GANs</a><br>
-<a href="/math/math_GANs_NIPS_2016_Tutorial.html">GANs</a><br>
-<a href="/math/math_GANs_problems.html">GAN problems</a><br>
+
+
 <a href="/math/math_gaussian_curvature.html">gaussian curvature</a><br>
 <a href="/math/math_gaussian_mixtures.html">gaussian mixtures</a><br>
 <a href="/math/math_gaussian_processes.html">gaussian processes</a><br>
 <a href="/math/math_gaussians.html">gaussians</a><br>
 <a href="/math/math_GEMM.html">GEMM</a><br>
-<a href="/math/math_gensim.html">gensim</a><br>
+
 <a href="/math/math_geometric_topology.html">geometric topology</a><br>
 <a href="/math/math_geometry_spatial.html">spatial geometry</a><br>
 <a href="/math/math_glossary.html">glossary</a><br>
@@ -1214,7 +1330,7 @@ intro (avidhya)</a><br>
 <a href="/math/math_probabilistic_filters.html">probabilistic filters</a><br>
 <a href="/math/math_probabilistic_programming.html">probabilistic programming</a><br>
 <a href="/math/math_probability_and_statistical_modeling_in_computer_s.html">tbd</a><br>
-<a href="/math/math_probability_and_statistics_cookbook.html">prob/stats cookbook</a><br>
+
 <a href="/math/math_probability_calibration.html">prob calibration</a><br>
 <a href="/math/math_probability_cheatsheet_v2.0.html">prob cheatsheet</a><br>
 <a href="/math/math_probability_distributions.html">prob distributions</a><br>
