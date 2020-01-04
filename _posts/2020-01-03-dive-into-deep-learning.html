@@ -11,17 +11,205 @@ tags: deep-learning
 
 <p>This is a placeholder until I can flesh out each chapter (which are available via each link).</p>
 
-1. intro<br>
-2. prelims<br>
-3. linear NNs<br>
-4. MLPs<br>
-5. computation<br>
-6. CNNs<br>
-7. modern CNNs<br>
-8. RNNs<br>
-9. modern RNNs<br>
-10. attn mechs<br>
-11. optimization<br>
-12. performance<br>
-13. vision<br>
-14. NLP<br>
+<div style="column-count: 3;">
+	
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-intro.pdf">1. intro</a><br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-prelims.pdf">preliminaries</a><br>
+data manipulation<br>
+preprocessing<br>
+linear algebra<br>
+calculus<br>
+auto differentiation<br>
+probability<br>
+documentation<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/linear-nns.pdf">linear neural nets</a><br>
+linear regression<br>
+LR from scratch<br>
+LR implementation<br>
+softmax regression<br>
+fashion-mnist<br>
+softmax from scratch<br>
+softmax implementation<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-perceptrons.pdf">multilayer perceptrons</a><br>
+intro<br>
+MLP from scratch<br>
+model selection, underfit, overfit<br>
+weight decay<br>
+dropout<br>
+fwd/back propagation<br>
+computational graphs<br>
+numerical stability<br>
+environmental concerns<br>
+kaggle - house prices<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-computation.pdf">computation</a><br>
+layers & blocks<br>
+parameters<br>
+deferred initialization<br>
+custom layers<br>
+file i/o<br>
+gpus<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-cnns.pdf">CNNs</a><br>
+dense layers to convolutions<br>
+image convolutions<br>
+padding, stride<br>
+channels<br>
+pooling<br>
+LeNet<br></div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-cnns-modern.pdf">Modern CNNs</a><br>
+alexnet<br>
+vgg<br>
+network-in-network (NiN)<br>
+googlenet<br>
+batch normalization<br>
+resnet<br>
+densenet<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-rnns.pdf">RNNs</a><br>
+sequence models<br>
+text preprocessing<br>
+language models<br>
+rnns<br>
+rnns from scratch<br>
+implementation<br>
+backprop through time<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-rnns-modern.pdf">Modern RNNs</a><br>
+gated recurrent unit (grus)<br>
+lstms<br>
+deep rnns<br>
+bidirectional rnns<br>
+machine translation<br>
+encoder-decoders<br>
+sequence-to-sequence<br>
+beam search<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-attention-mechs.pdf">Attention Mechanisms</a><br>
+intro<br>
+sequence-to-sequence<br>
+transformers<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-optimization.pdf">Optimization</a><br>
+intro<br>
+convexity<br>
+gradient descent<br>
+stochastic gradient descent<br>
+minibatch SGD<br>
+momentum<br>
+adagrad<br>
+rmsprop<br>
+adadelta<br>
+adam<br>
+learning rate scheduling<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-performance.pdf">Performance</a><br>
+compilers & interpreters<br>
+async computation<br>
+auto parallelism<br>
+hardware<br>
+multiple GPUs<br>
+parameter servers<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-vision.pdf">Vision</a><br>
+image augmentation<br>
+fine tuning<br>
+object detection / bounding boxes<br>
+anchor boxes<br>
+multiscale OD<br>
+pikachu dataset<br>
+single-shot multibox detect<br>
+region-based CNNs (R-CNNs)<br>
+semantic segmentation<br>
+transposed convolution<br>
+fully convolutional nets (FCNs)<br>
+neural style transfer<br>
+CIFAR-10 image class on Kaggle<br>
+Imagenet/Dogs on Kaggle<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-nlp.pdf">NLP</a><br>
+word2vec<br>
+word2vec - approx training<br>
+word2vec dataset<br>
+word2vec implementation<br>
+subword embedding (fasttext)<br>
+word embed - global vectors (GloVe)<br>
+synonyms & analogies<br>
+text sentiment classification<br>
+text sentiment using RNNs<br>
+text sentiment using textCNN<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-recommenders.pdf">Recommenders</a><br>
+overview<br>
+MovieLens<br>
+matrix factorization<br>
+AutoRec with autoencoders<br>
+personalized rankings<br>
+collaborative filtering<br>
+sequence-aware recommenders<br>
+feature-rich recommenders<br>
+factorization machines<br>
+deep factorization machines<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-gans.pdf">GANs</a><br>
+intro<br>
+deep convolutional GANs<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-apndx-math">Appendix: Math</a><br>
+geometry<br>
+linear algebra<br>
+eigendecomposition<br>
+single-variable calculus<br>
+multi-variable calculus<br>
+integral calculus<br>
+random variables<br>
+max likelihood<br>
+naive bayes<br>
+statistics<br>
+info theory<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/dive-into-dl/dive-apndx-tools">Appendix: Tools</a><br>
+jupyter<br>
+amazon sagemaker<br>
+aws ec2<br>
+google colab<br>
+servers & gpus<br>
+</div>
