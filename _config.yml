@@ -35,7 +35,7 @@ show_excerpts: true
 header_pages:
   - about.html 
   - behaviors.html
-  - cpus.html
+  - cmos/index.html # was cmos.html # was cpus.html
   - golang.html
   - linux.html
   - math.html

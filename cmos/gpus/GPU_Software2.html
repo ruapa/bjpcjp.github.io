@@ -1,0 +1,299 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GPU Software</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.ASSISTANT .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMjEuNSA2Yy0uODMgMC0xLjUuNjctMS41IDEuNVMyMC42NyA5IDIxLjUgOSAyMyA4LjMzIDIzIDcuNSAyMi4zMyA2IDIxLjUgNnpNMTcgMTRjMS42NiAwIDMtMS4zNCAzLTNzLTEuMzQtMy0zLTMtMyAxLjM0LTMgMyAxLjM0IDMgMyAzem0wIDFjLTEuOTMgMC0zLjUgMS41Ny0zLjUgMy41UzE1LjA3IDIyIDE3IDIyczMuNS0xLjU3IDMuNS0zLjVTMTguOTMgMTUgMTcgMTV6TTcgMkMzLjY5IDIgMSA0LjY5IDEgOHMyLjY5IDYgNiA2IDYtMi42OSA2LTYtMi42OS02LTYtNnoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz4KPC9zdmc+Cg==);
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note RED"><div class="heading"><div class="meta-icons">
+
+</div>
+Mar 28, 2019, 4:32:55 PM</div>
+<div class="title">GPU Software</div>
+<div class="content">https://www.hpcwire.com/2017/02/21/hpc-technique-benefits-deep-learning<br><br>https://www.nextplatform.com/2017/02/22/baidu-spots-deep-learning-scalability-<br>challenges-horizon/<br><br>http://research.baidu.com/bringing-hpc-techniques-deep-learning/<br><br><br>https://www.r-bloggers.com/large-scale-eigenvalue-decomposition-and-svd-with-rarpack/<br><br>https://developer.nvidia.com/gpu-accelerated-libraries<br><br><br>http://www.bitfusion.io/<br><br>http://www.parallelr.com/r-gpu-programming-for-all-with-gpur/<br></div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="When it comes to solving deep learning cluster and software stack problems at scale, few companies are riding the bleeding edge like Chinese search giant," href="https://www.nextplatform.com/2017/02/22/baidu-spots-deep-learning-scalability-challenges-horizon/"><span class="chip-icon"></span>
+<span class="annotation-text">Baidu Targets Deep Learning Scalability Challenges</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Photo by Anthony Catalano I spend most of my time worrying about how to make deep learning with neural networks faster and more power efficient. In practice that means focusing on a function called&hellip;" href="https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/"><span class="chip-icon"></span>
+<span class="annotation-text">Why GEMM is at the heart of deep learning</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Summary: Neural networks have grown in scale over the past several years, and training can require a massive amount of data and computational resources. To provide the required amount of compute power, we scale models to dozens of GPUs using a technique common in high-performance ..." href="http://research.baidu.com/bringing-hpc-techniques-deep-learning/"><span class="chip-icon"></span>
+<span class="annotation-text">Bringing HPC Techniques to Deep Learning - Baidu Research</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Simplifying Data Science with GPUs. Bitfusion makes managing and using Deep Learning and AI infrastructure Easy, Elastic, and Efficient." href="http://www.bitfusion.io/"><span class="chip-icon"></span>
+<span class="annotation-text">Software To Manage Deep Learning &amp; GPUs - Bitfusion.io</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="GPU-Accelerated libraries provide highly-optimized algorithms and functions you can incorporate into your applications, with minimal changes to your existing code. Many support drop-in compatibilty to replace industry standard CPU-only libraries such as MKL, IPP, FFTW and widely-used libraries. Some also feature automatic multi-GPU performance scaling." href="https://developer.nvidia.com/gpu-accelerated-libraries"><span class="chip-icon"></span>
+<span class="annotation-text">GPU-Accelerated Libraries</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Introduction. GPUs (Graphic Processing Units) have become much more popular in recent years for computationally intensive calculations. Despite these gains, the use of this hardware has been very limited in the R programming language. Although possible, the prospect of programming in either ..." href="http://www.parallelr.com/r-gpu-programming-for-all-with-gpur/"><span class="chip-icon"></span>
+<span class="annotation-text">R &ndash; GPU Programming for All with &lsquo;gpuR&rsquo; &ndash; ParallelR</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="&lt;blockquote&gt;    &lt;p&gt;In January 2016, I was honored to receive an &ldquo;Honorable Mention&rdquo; of the  &lt;a href=&quot;http://stat-computing.org/awards/jmc/&quot;&gt;John Chambers Award 2016&lt;/a&gt;.  This article was written for &lt;a href=&quot;https://www.r-bloggers.com/&quot;&gt;R-bloggers&lt;/a&gt;,  whose builder, Tal Galili, kindly invited me  to write an introduction to the &lt;code&gt;rARPACK&lt;/code&gt; package.&lt;/p&gt;  &lt;/blockquote&gt;    &lt;h1&gt;A Short Story of rARPACK&lt;/h1&gt;    &lt;p&gt;Eigenvalue decomposition is a commonly used technique in  numerous statistical problems. For example, principal component analysis (PCA)  basically conducts eigenvalue decomposition on the sample covariance of a data  matrix: the eigenvalues are the component variances, and eigenvectors are the  variable loadings.&lt;/p&gt;    &lt;p&gt;In R, the standard way to compute eigenvalues is the &lt;code&gt;eigen()&lt;/code&gt; function.  However, when the matrix becomes large, &lt;code&gt;eigen()&lt;/code&gt; can be very time-consuming:  the complexity to calculate all eigenvalues of a $n times n$ matrix is  $O(n^3)$.&lt;/p&gt;    &lt;p&gt;While in real applications, we usually only need to compute a few  eigenvalues or eigenvectors, for example to visualize high dimensional  data using PCA, we may only use the first two or three components to draw  a scatterplot. Unfortunately in &lt;code&gt;eigen()&lt;/code&gt;, there is no option to limit the  number of eigenvalues to be computed. This means that we always need to do the  full eigen decomposition, which can cause a huge waste in computation.&lt;/p&gt;    &lt;p&gt;And this is why the &lt;a href=&quot;https://cran.r-project.org/package=rARPACK&quot;&gt;&lt;code&gt;rARPACK&lt;/code&gt;&lt;/a&gt;  package was developed. As the name indicates,  &lt;code&gt;rARPACK&lt;/code&gt; was originally an R wrapper of the  &lt;a href=&quot;http://www.caam.rice.edu/software/ARPACK/&quot;&gt;ARPACK&lt;/a&gt; library, a FORTRAN package  that is used to calculate a few eigenvalues of a square matrix. However  ARPACK has stopped development for a long time, and it has some compatibility  issues with the current version of LAPACK. Therefore to maintain &lt;code&gt;rARPACK&lt;/code&gt; in a  good state, I wrote a new backend for &lt;code&gt;rARPACK&lt;/code&gt;, and that is the C++ library  &lt;a href=&quot;http://yixuan.cos.name/spectra/&quot;&gt;Spectra&lt;/a&gt;.&lt;/p&gt;    &lt;p&gt;The name of &lt;code&gt;rARPACK&lt;/code&gt; was POORLY designed, I admit. Starting from version  0.8-0, &lt;code&gt;rARPACK&lt;/code&gt; no longer relies on ARPACK, but due to CRAN polices and  reverse dependence, I have to keep using the old name.&lt;/p&gt;    &lt;h1&gt;Features and Usage&lt;/h1&gt;    &lt;p&gt;The usage of &lt;code&gt;rARPACK&lt;/code&gt; is simple. If you want to calculate some eigenvalues  of a square matrix &lt;code&gt;A&lt;/code&gt;, just call the function &lt;code&gt;eigs()&lt;/code&gt; and tells it how many  eigenvalues you want (argument &lt;code&gt;k&lt;/code&gt;), and which eigenvalues to calculate  (argument &lt;code&gt;which&lt;/code&gt;). By default, &lt;code&gt;which = &quot;LM&quot;&lt;/code&gt; means to pick the eigenvalues  with the largest magnitude (modulus for complex numbers and absolute value  for real numbers). If the matrix is known to be symmetric, calling  &lt;code&gt;eigs_sym()&lt;/code&gt; is preferred since it guarantees that the eigenvalues are real.&lt;/p&gt;    &lt;div&gt;&lt;pre&gt;&lt;code&gt;&lt;span&gt;library&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;rARPACK&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;set.seed&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;123&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;## Some random data  &lt;/span&gt;&lt;span&gt;x&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;matrix&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;rnorm&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;1000&lt;/span&gt; &lt;span&gt;*&lt;/span&gt; &lt;span&gt;100&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;1000&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;## If retvec == FALSE, we don&#39;t calculate eigenvectors  &lt;/span&gt;&lt;span&gt;eigs_sym&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;cov&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;k&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;5&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;which&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;&quot;LM&quot;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;opts&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;list&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;retvec&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;FALSE&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;  &lt;/div&gt;    &lt;p&gt;For really large data, the matrix is usually in sparse form. &lt;code&gt;rARPACK&lt;/code&gt;  supports several sparse matrix types defined in the &lt;code&gt;Matrix&lt;/code&gt;  package, and you can even pass an implicit matrix defined by a function to  &lt;code&gt;eigs()&lt;/code&gt;. See &lt;code&gt;?rARPACK::eigs&lt;/code&gt; for details.&lt;/p&gt;    &lt;div&gt;&lt;pre&gt;&lt;code&gt;&lt;span&gt;library&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;Matrix&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;spmat&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;as&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;cov&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;&quot;dgCMatrix&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;eigs_sym&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;spmat&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;2&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;    &lt;span&gt;## Implicitly define the matrix by a function that calculates A %*% x  ## Below represents a diagonal matrix diag(c(1:10))  &lt;/span&gt;&lt;span&gt;fmat&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;function&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;args&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;{&lt;/span&gt;      &lt;span&gt;return&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt; &lt;span&gt;*&lt;/span&gt; &lt;span&gt;(&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;  &lt;span&gt;}&lt;/span&gt;  &lt;span&gt;eigs_sym&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;fmat&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;3&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;n&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;10&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;args&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;NULL&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;  &lt;/div&gt;    &lt;h1&gt;From Eigenvalue to SVD&lt;/h1&gt;    &lt;p&gt;An extension to eigenvalue decomposition is the singular value decomposition  (SVD), which works for general rectangular matrices. Still take PCA as  an example. To calculate variable loadings, we can perform an SVD on the  centered data matrix, and the loadings will be contained in the right singular  vectors. This method avoids computing the covariance matrix, and is generally  more stable and accurate than using &lt;code&gt;cov()&lt;/code&gt; and &lt;code&gt;eigen()&lt;/code&gt;.&lt;/p&gt;    &lt;p&gt;Similar to &lt;code&gt;eigs()&lt;/code&gt;, &lt;code&gt;rARPACK&lt;/code&gt; provides the function &lt;code&gt;svds()&lt;/code&gt; to conduct  partial SVD, meaning that only part of the singular pairs (values and vectors)  are to be computed. Below shows an example that computes the first three PCs  of a 2000x500 matrix, and I compare the timings of three different algorithms:&lt;/p&gt;    &lt;div&gt;&lt;pre&gt;&lt;code&gt;&lt;span&gt;library&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;microbenchmark&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;set.seed&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;123&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;## Some random data  &lt;/span&gt;&lt;span&gt;x&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;matrix&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;rnorm&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;2000&lt;/span&gt; &lt;span&gt;*&lt;/span&gt; &lt;span&gt;500&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;2000&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;pc&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;function&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;k&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;span&gt;{&lt;/span&gt;      &lt;span&gt;## First center data  &lt;/span&gt;    &lt;span&gt;xc&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;scale&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;center&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;TRUE&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;scale&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;FALSE&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;      &lt;span&gt;## Partial SVD  &lt;/span&gt;    &lt;span&gt;decomp&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;svds&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;xc&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;k&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;nu&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;0&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;nv&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;k&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;      &lt;span&gt;return&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;list&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;loadings&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;decomp&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;v&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;scores&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;xc&lt;/span&gt; &lt;span&gt;%*%&lt;/span&gt; &lt;span&gt;decomp&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;v&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;  &lt;span&gt;}&lt;/span&gt;  &lt;span&gt;microbenchmark&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;princomp&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;prcomp&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;pc&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;,&lt;/span&gt; &lt;span&gt;3&lt;/span&gt;&lt;span&gt;),&lt;/span&gt; &lt;span&gt;times&lt;/span&gt; &lt;span&gt;=&lt;/span&gt; &lt;span&gt;5&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;  &lt;/div&gt;    &lt;p&gt;The &lt;code&gt;princomp()&lt;/code&gt; and &lt;code&gt;prcomp()&lt;/code&gt; functions are the standard approaches in R  to do PCA, which will call &lt;code&gt;eigen()&lt;/code&gt; and &lt;code&gt;svd()&lt;/code&gt; respectively.  On my machine (Fedora Linux 23, R 3.2.3 with optimized single-threaded  OpenBLAS), the timing results are as follows:&lt;/p&gt;    &lt;div&gt;&lt;pre&gt;&lt;code&gt;Unit: milliseconds          expr      min       lq     mean   median       uq      max neval   princomp(x) 274.7621 276.1187 304.3067 288.7990 289.5324 392.3211     5     prcomp(x) 306.4675 391.9723 408.9141 396.8029 397.3183 552.0093     5      pc(x, 3) 162.2127 163.0465 188.3369 163.3839 186.1554 266.8859     5  &lt;/code&gt;&lt;/pre&gt;  &lt;/div&gt;    &lt;h1&gt;Applications&lt;/h1&gt;    &lt;p&gt;SVD has some interesting applications, and one of them is image compression.  The basic idea is to perform a partial SVD on the image matrix, and then recover  it using the calculated singular values and singular vectors.&lt;/p&gt;    &lt;p&gt;Below shows an image of size 622x1000:&lt;/p&gt;  &lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;http://i.imgur.com/VfmfWJi.jpg&quot; width=&quot;500px&quot;&gt;&lt;p&gt;(Orignal image)&lt;/p&gt;  &lt;/div&gt;    &lt;p&gt;If we use the first five singular pairs to recover the image,  then we need to store 8115 elements, which is only 1.3% of the original data  size. The recovered image will look like below:&lt;/p&gt;    &lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;http://i.imgur.com/U2dYWHb.jpg&quot; width=&quot;500px&quot;&gt;&lt;p&gt;(5 singular pairs)&lt;/p&gt;  &lt;/div&gt;    &lt;p&gt;Even if the recovered image is quite blurred, it already reveals the main  structure of the original image. And if we increase the number of singular pairs  to 50, then the difference is almost imperceptible, as is shown below.&lt;/p&gt;    &lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;http://i.imgur.com/rWSYG7B.jpg&quot; width=&quot;500px&quot;&gt;&lt;p&gt;(50 singular pairs)&lt;/p&gt;  &lt;/div&gt;    &lt;p&gt;There is also a nice &lt;a href=&quot;https://yihui.shinyapps.io/imgsvd/&quot;&gt;Shiny App&lt;/a&gt;  developed by &lt;a href=&quot;http://nanx.me/&quot;&gt;Nan Xiao&lt;/a&gt;,  &lt;a href=&quot;http://yihui.name/&quot;&gt;Yihui Xie&lt;/a&gt; and &lt;a href=&quot;http://www.sfu.ca/~hetongh/&quot;&gt;Tong He&lt;/a&gt; that  allows users to upload an image and visualize the effect of compression using  this algorithm. The code is available on  &lt;a href=&quot;https://github.com/road2stat/imgsvd&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;    &lt;h1&gt;Performance&lt;/h1&gt;    &lt;p&gt;Finally, I would like to use some benchmark results to show the  performance of &lt;code&gt;rARPACK&lt;/code&gt;. As far as I know, there are very few packages  available in R that can do the partial eigenvalue decomposition, so the results  here are based on partial SVD.&lt;/p&gt;    &lt;p&gt;The first plot compares different SVD functions on a 1000x500 matrix,  with dense format on the left panel, and sparse format on the right.&lt;/p&gt;    &lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;http://i.imgur.com/6TyJruc.png&quot; width=&quot;700px&quot;&gt;&lt;/div&gt;    &lt;p&gt;The second plot shows the results on a 5000x2500 matrix.&lt;/p&gt;    &lt;div align=&quot;center&quot;&gt;    &lt;img src=&quot;http://i.imgur.com/CTtZieD.png&quot; width=&quot;700px&quot;&gt;&lt;/div&gt;    &lt;p&gt;The functions used corresponding to the axis labels are as follows:&lt;/p&gt;    &lt;ul&gt;&lt;li&gt;svd: &lt;code&gt;svd()&lt;/code&gt; from base R, which computes the full SVD&lt;/li&gt;    &lt;li&gt;irlba: &lt;code&gt;irlba()&lt;/code&gt; from &lt;a href=&quot;https://cran.r-project.org/package=irlba&quot;&gt;&lt;code&gt;irlba&lt;/code&gt;&lt;/a&gt;  package, partial SVD&lt;/li&gt;    &lt;li&gt;propack, trlan: &lt;code&gt;propack.svd()&lt;/code&gt; and &lt;code&gt;trlan.svd()&lt;/code&gt; from  &lt;a href=&quot;https://cran.r-project.org/package=svd&quot;&gt;&lt;code&gt;svd&lt;/code&gt;&lt;/a&gt; package, partial SVD&lt;/li&gt;    &lt;li&gt;svds: &lt;code&gt;svds()&lt;/code&gt; from &lt;code&gt;rARPACK&lt;/code&gt;&lt;/li&gt;  &lt;/ul&gt;&lt;p&gt;The code for benchmark and the environment to run the code can be  found &lt;a href=&quot;http://yixuan.cos.name/spectra/performance.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" href="https://www.r-bloggers.com/large-scale-eigenvalue-decomposition-and-svd-with-rarpack/"><span class="chip-icon"></span>
+<span class="annotation-text">Large scale eigenvalue decomposition and SVD with rARPACK</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="Researchers from Baidu&#39;s Silicon Valley AI Lab (SVAIL) have adapted a well-known HPC communication technique to boost the speed and scale of their neural n" href="https://www.hpcwire.com/2017/02/21/hpc-technique-benefits-deep-learning/"><span class="chip-icon"></span>
+<span class="annotation-text">HPC Technique Propels Deep Learning at Scale</span></a>
+</span>
+</div>
+
+</div></body></html>
