@@ -20,44 +20,48 @@ layout: default
 
   <!-- sort by date; display first one --> 
   {%- assign recentposts = site.posts | sort: 'date' -%}
-  {%- assign recentpost  = recentposts.last -%}
+  {%- assign lastpost  = recentposts.last -%}
+
   <h2>Most Recent:</h2>
     <a href="{{ recentpost.url | relative_url }}">
-    {{ recentpost.title | escape }}</a><br>
+    {{ last.title | escape }}</a><br>
 
     <span style=" font-size: 0.9em;">
-      posted: {{ recentpost.date | date: "%m/%-d/%Y" }} &nbsp; 
-      tags: &nbsp; {{ recentpost.tags }}<br>
-      <a href="{{ recentpost.url }}">{{ recentpost.excerpt }}</a>
+      posted: {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
+      tags: &nbsp; {{ lastpost.tags }}<br>
+      <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
     </span>
 
+  <br>
   <hr>
 
-    <h2>Sorted by tags:</h2>
+  <h2>Sorted by Title:</h2>
 
-    <!-- try sorting by post title-->
-    {%- assign postsbytag = site.posts | sort: 'tags' -%}
+  <!-- try sorting by post title-->
+  {%- assign postsbytag = site.posts | sort: 'title' -%}
 
-    <div style="columns: 2; column-gap: 3px;">
+  <div style="columns: 2; column-gap: 3px;">
 
-    <!-- original: for post in site.posts -->
-    {%- for post in postsbytag -%}
-      
-      <li class="textcard">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}</a><br>
-        <span style=" font-size: 0.9em; font-style: italic;">
-          {{ post.tags }} &nbsp; 
-          {{ post.date | date: "%m/%-d/%Y" }}
-          {%- if site.show_excerpts -%}
-            <center> {{ post.excerpt }} </center>
-          {%- endif -%}
-        </span>  
-      </li>
-      
-    {%- endfor -%}
-  </div>
-  {% endif %}
+  <!-- original: for post in site.posts -->
+  {%- for post in postsbytag -%}
+    
+    <li class="textcard">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a><br>
+      <span style=" font-size: 0.9em; font-style: italic;">
+        {{ post.tags }} &nbsp; {{ post.date | date: "%m/%-d/%Y" }}
+      </span>
+        <!--  
+      {%- if site.show_excerpts -%}
+          <center> {{ post.excerpt }} </center>
+        {%- endif -%}
+      </span>
+      -->  
+    </li>
+    
+  {%- endfor -%}
+</div>
+{% endif %}
 </div>
 
 <p class="feed-subscribe">
