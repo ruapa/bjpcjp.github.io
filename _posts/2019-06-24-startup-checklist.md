@@ -1,5 +1,5 @@
 ---
-title: startup checklist
+title: Startup checklist
 layout: post
 tags: prodmgmt, execution
 date: 2019-12-28 06:00:00
