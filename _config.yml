@@ -44,7 +44,6 @@ header_pages:
   - rails.html
   - ui-ux.html
 
-
 # algolia search plugin API:
 #algolia:
 #  application_id: 0ST64V6V0J
