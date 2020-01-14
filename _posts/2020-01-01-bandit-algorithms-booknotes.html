@@ -7,48 +7,323 @@ tags: machine-learning
 
 <img src="/px/math/bandit-algorithms-book-cover.png" width="95%"><br>
 
-<p>This is a placeholder until I can flesh out each chapter (which are available via each link).</p>
+<div style="column-count: 3;">
 
 <div class="textcard">
-<div style="column-count: 4;">
-<a href="/pdfs/math/BA.pdf">cover page</a><br>
-<a href="/pdfs/math/BA-intro.pdf">intro</a><br>
-<a href="/pdfs/math/BA-adversarials-stochastic-linear-bandits.pdf">adversarial-vs-stochastic-linear</a><br>
-<a href="/pdfs/math/BA-bandits-stochastic-finite.pdf">stochastic-finite</a><br>
-<a href="/pdfs/math/BA-bayes-bandits.pdf">bayes</a><br>
-<a href="/pdfs/math/BA-combinatorial-bandits.pdf">combinational</a><br>
-<a href="/pdfs/math/BA-concentration-of-measure.pdf">concentration of measure</a><br>
-<a href="/pdfs/math/BA-contextual-bandits.pdf">contextual</a><br>
-<a href="/pdfs/math/BA-convex-analysis.pdf">convex analysis</a><br>
-<a href="/pdfs/math/BA-exp3-adversarial-linear-bandits.pdf">exp3-adversarial-linear</a><br>
-<a href="/pdfs/math/BA-exp3-IX.pdf">exp3-IX</a><br>
-<a href="/pdfs/math/BA-exp3.pdf">exp3</a><br>
-<a href="/pdfs/math/BA-explore-then-commit.pdf">explore-then-commit</a><br>
-<a href="/pdfs/math/BA-follow-the-leader-mirror-descent.pdf">follow-the-leader/mirros descent</a><br>
-<a href="/pdfs/math/BA-info-theory.pdf">info theory</a><br>
-<a href="/pdfs/math/BA-least-squares-estimators-confidence-bounds.pdf">LSE: confidence bounds</a><br>
-<a href="/pdfs/math/BA-least-squares-estimators-optimal-design.pdf">LSE: optimal design</a><br>
-<a href="/pdfs/math/BA-upper-confidence-bound.pdf">upper confidence bound (UCB)</a><br>
-<a href="/pdfs/math/BA-UCB-algorithm-asymptotic-optimality.pdf">UCB: asymptotic optimality</a><br>
-<a href="/pdfs/math/BA-UCB-algorithm-bernoulli-noise.pdf">UCB: bernoulli noise</a><br>
-<a href="/pdfs/math/BA-UCB-algorithm-minimax-optimality.pdf">UCB: minimax optimality</a><br>
-<a href="/pdfs/math/BA-lower-bounds.pdf">lower bounds (LB)</a><br>
-<a href="/pdfs/math/BA-lower-bounds-high-probability.pdf">LB high probability</a><br>
-<a href="/pdfs/math/BA-lower-bounds-instance-dependent.pdf">LB instance dependent</a><br>
-<a href="/pdfs/math/BA-lower-bounds-minimax.pdf">LB minimax</a><br>
-<a href="/pdfs/math/BA-markov-decision-processes.pdf">markov decision processes</a><br>
-<a href="/pdfs/math/BA-non-stationary-bandits.pdf">non-stationary</a><br>
-<a href="/pdfs/math/BA-partial-monitoring.pdf">partial monitoring</a><br>
-<a href="/pdfs/math/BA-probability.pdf">probability</a><br>
-<a href="/pdfs/math/BA-pure-exploration.pdf">pure exploration</a><br>
-<a href="/pdfs/math/BA-ranking.pdf">ranking</a><br>
-<a href="/pdfs/math/BA-stochastic-linear-bandits.pdf">stochastic linear bandits(SLBs) </a><br>
-<a href="/pdfs/math/BA-stochastic-linear-bandits-asymptotic-lower-bounds.pdf">SLBs: asymptotic </a><br>
-<a href="/pdfs/math/BA-stochastic-linear-bandits-finite-many-arms.pdf">SLBs: finite many arms</a><br>
-<a href="/pdfs/math/BA-stochastic-linear-bandits-minimax-lower-bounds.pdf">SLBs: minimax</a><br>
-<a href="/pdfs/math/BA-stochastic-linear-bandits-sparsity.pdf">SLBs: sparsity</a><br>
-<a href="/pdfs/math/BA-stochastic-markov.pdf">stochastic processes / markov chains</a><br>
-<a href="/pdfs/math/BA-thompson-sampling.pdf">thompson-sampling</a><br>
-<a href="/pdfs/math/BA-index.pdf">index</a><br>
+<a href="/pdfs/math/bandits-intro-BA.pdf">intro (c1)</a><br>
+- language<br>
+- applications<br>
 </div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-probability-BA.pdf">probability (c2)</a><br>
+- probability spaces<br>
+- random elements<br>
+- algebras & knowledge<br>
+- conditional prob.<br>
+- independence<br>
+- integration, expectation<br>
+- conditional expectation<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-multiarmed-BA.pdf">multi-armed (c2)</a><br>
+<!--
+<img src="/px/math/bandits-10armed.png" width="95%"><br> -->
+- k armed bandits<br>
+- action-value methods<br>
+- 10 armed testbed<br>
+- implementation (incremental)<br>
+- non-stationary problem tracking<br>
+- optimistic initial values<br>
+- UCB action selection<br>
+- gradient bandit algos<br>
+- assoc.search (context.bandits)<br>
+- summary<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-markov-BA.pdf">stochastic processes, markov chains (c3)</a><br>
+- stochastic processes<br>
+- markov chains<br>
+- martingales<br>
+- stopping times<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-finite-BA.pdf">finite-armed stochastic bandits (c4)</a><br>
+- learning objective<br>
+- regret<br>
+- decomposing regret<br>
+- canonical bandit model<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-concentration-of-measure-BA.pdf">concentration of measure (c5)</a><br>
+- markov, chebyshev inequalities<br>
+- cramer-chernoff
+- subgaussian random vars<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-explore-then-commit-BA.pdf">explore-then-commit algo (c6)</a><br>
+- definition<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-upper-confidence-bound-BA.pdf">upper conf bound (UCB) algo (c7)</a><br>
+- optimism principle<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-UCB-algorithm-asymptotic-optimality-BA.pdf">UCB algo: asymptotic optimality (c8)</a><br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-UCB-algorithm-minimax-optimality-BA.pdf">UCB algo: minimax optimality (c9)</a><br>
+- notes
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-UCB-algorithm-bernoulli-noise-BA.pdf">UCB algo: bernoulli noise (c10)</a><br>
+- concentration of sums<br>
+- KL-UCB algo<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-exp3.pdf">exp3 algorithm (c11)</a><br>
+- importance-weighted estimators<br>
+- definition<br>
+- regret analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-exp3-IX-BA.pdf">exp3-IX (c12)</a><br>
+- regret analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-lower-bounds-BA.pdf">lower bounds (LB) basics (c13)</a><br>
+- ideas, notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-info-theory-BA.pdf">info theory (c14)</a><br>
+- relative entropy<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-lower-bounds-minimax-BA.pdf">minimax LB (c15)</a><br>
+- relative entropy btwn bandits<br>
+- minimax LB<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-lower-bounds-instance-dependent-BA.pdf">LB instance dependent (c16)</a><br>
+- asymptotic bounds<br>
+- finite-time bounds<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-lower-bounds-high-probability-BA.pdf">LB high probability (c17)</a><br>
+- stochastic bandits<br>
+- adversarial bandits<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-contextual-BA.pdf">contextual (c18)</a><br>
+- one bandit per context<br>
+- expert advice<br>
+- higher? (exp4)<br>
+- regret analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-linear-BA.pdf">stochastic linear bandits (c19)</a><br>
+- st. contextual bandits<br>
+- st. linear bandits<br>
+- regret analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-least-squares-estimators-confidence-bounds-BA.pdf">LSEs: confidence bounds (c20)</a><br>
+- martingale noise<br>
+- laplace's method<br>
+- notest<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-least-squares-estimators-optimal-design-BA.pdf">LSEs: optimal design (c21)</a><br>
+- kiefer-wolfowitz proof<br>
+- min volume ellipsoids<br>
+- john's theorem<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-linear-finite-many-arms-BA.pdf">stochastic finite - many arms (c22)</a><br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-linear-sparsity-BA.pdf">SLBs with sparsity (c23)</a><br>
+- sparse SLBs<br>
+- elimination<br>
+- proof<br>
+- UCB with sparsity<br>
+- online>confidence set conversion<br>
+- sparse online linear prediction<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-linear-minimax-lower-bounds-BA.pdf">SLBs: minimax lower bounds (c24)</a><br>
+- hypercube<br>
+- sphere<br>
+- sparse param vectors<br>
+- unrealizable case<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf">stochastic linear bandits: asympt LBs (c25)</a><br>
+- clouds looming, notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-convex-analysis-BA.pdf">convex analysis (c26)</a><br>
+- sets & functions<br>
+- jensen's inequality<br>
+- bregman divergence<br>
+- legendre functions<br>
+- optimization<br>
+- projections<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-exp3-adversarial-linear-BA.pdf">exp3: adversarial/linear (c27)</a><br>
+- exponential signals<br>
+- regret analysis<br>
+- continuous exponential weights<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-follow-the-leader-mirror-descent-BA.pdf">follow-the-leader | mirror descent (c28)</a><br>
+- online linear optimization<br>
+- regret analysis<br>
+- online learning<br>
+- the unit ball<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-adversarial-vs-stochastic-linear-BA.pdf">adversarial-vs-stochastic-linear (c29)</a><br>
+- reducing SLBs to ALBs<br>
+- SLB with noise<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-combinatorial-BA.pdf">combinatorial (c30)</a><br>
+- apps<br>
+- bandits<br>
+- semibandits<br>
+- follow the perturbed leader<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-non-stationary-BA.pdf">non-stationary (c31)</a><br>
+- adversarial bandits<br>
+- stochastic bandits<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-ranking-BA.pdf">ranking (c32)</a><br>
+- click models<br>
+- policy<br>
+- regret analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-pure-exploration-BA.pdf">pure exploration (c33)</a><br>
+- simple regret<br>
+- best-arm id<br>
+- best-arm id with budget<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-bayes-BA.pdf">bayesian (c34)</a><br>
+- regret & optimality<br>
+- optimal regret, finite-armed bandits<br>
+- learning, posterior dists<br>
+- conjugate priors<br>
+- posterior distributions<br>
+- one-armed bandits<br>
+- gittins index<br>
+- computing the GI<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-thompson-sampling-BA.pdf">thompson sampling (c35)<a><br>
+- finite-armed bandits<br>
+- linear bandits<br>
+- info theoretic analysis<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-partial-monitoring-BA.pdf">partial monitoring (c36)</a><br>
+- finite adversarial partial monitoring (FAPM)<br>
+- structure<br>
+- FAPM classification<br>
+- lower bounds<br>
+- policy for easy games<br>
+- upper bound for easy games<br>
+- theorem proof<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-markov-decisions-BA.pdf">markov dcsn prcss (MDP) (c37)</a><br>
+- the problem<br>
+- optimal policies<br>
+- bellman equation<br>
+- finding opt policy<br>
+- MDP learning<br>
+- UCBs for reinf. learning<br>
+- proof of UB, LB<br>
+- notes<br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/bandits-index-BA.pdf">index</a><br>
+</div>
+
+<div class="textcard">
+<a href="/pdfs/math/book-bandits-BA.pdf">book</a><br>
+</div>
+
 </div>
