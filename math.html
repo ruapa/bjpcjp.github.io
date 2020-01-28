@@ -21,9 +21,12 @@ tags: math
 	<li>FDS = foundatations of ds (blum et al)</li>
 	<li>GF = deep learning (goodfellow et al)</li>
 	<li>ITA = intro to algos, 3rd (cormen et al)</li>
+	<li>IP = intro to probability (grinstead, snell)</li>
 	<li>NP = numerical python (johansson)</li>
 	<li>PA = planning algos (lavalle et al)</li>
+	<li>PP = parallel processing (matloff)</li>
 	<li>PSC = prob stats cookbook</li>
+	<li>PSM = prob & stat modeling (matloff, uc davis)</li>
 	<li>PTDS = principles techniques of DS (berkeley)</li>
 	<li>RL = reinforcement learning (sutton et al)</li>
 	<li>SCDL = super cheatsheet DL</li>
@@ -442,11 +445,13 @@ spectral co-clustering</a><br>
 <a href="/pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf">	inference (pdf)</a><br>
 <a href="/pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf">		mining massive datasets (pdf)</a><br>
 <a href="http://www.deeplearningbook.org/">									MIT deep learning (online)</a><br>
-<a href="/pdfs/math/book-machine-learning-probabilistic-MLP.pdf">			probabilistic (pdf)</a><br>
+<a href="/pdfs/math/book-machine-learning-probabilistic-MLP.pdf">			probabilistic ML (pdf)</a><br>
 <a href="/pdfs/math/book-numerical-algorithms-solomon.pdf">					numerical algorithms (pdf)</a><br>
 <a href="https://github.com/bjpcjp/Numeric-Python">							numerical python (github)</a><br>
+<a href="/pdfs/math/parallel-processing.pdf">                               parallel processing (pdf)</a><br>
 <a href="/pdfs/math/planning-algorithms.pdf">								planning algos (pdf)</a><br>
-<a href="https://www.textbook.ds100.org/">									principles (online)</a><br>
+<a href="https://www.textbook.ds100.org/">									ML principles (online)</a><br>
+<a href="/pdfs/math/prob-intro.pdf">                                        intro to probability (pdf)</a><br>
 <a href="pdfs/math/book-reinforcement-learning-v2-RL.pdf">					reinforcement learning (pdf)</a><br>
 <a href="https://jakevdp.github.io/PythonDataScienceHandbook/">				Python Data Science Handbook (PDSH)</a><br>
 <a href="https://github.com/bjpcjp/python-data-science-handbook">			PDSH: github</a><br>
@@ -1053,12 +1058,6 @@ circular geometry</small><br>
 
 
 <div class="textcard">
-<strong>discrete fourier transform</strong><br>
-<a href="/pdfs/math/discrete-fourier-xform-ADM.pdf">ADM</a><br>
-</div>
-
-
-<div class="textcard">
 <strong>discriminant analysis</strong><br>
 <a href="https://scikit-learn.org/stable/modules/lda_qda.html">scikit</a><br>
 </div>
@@ -1182,12 +1181,6 @@ original (hinton)</a><br>
 
 
 <div class="textcard">
-<strong>exponential family</strong><br>
-<a href="/pdfs/math/exponential-family-SM.pdf">SM</a><br>
-</div>
-
-
-<div class="textcard">
 <strong>(tools) fathom</strong><br>
 <img src="/px/math/fathom.png" width="95%"><br>
 <a href="http://fathom.readthedocs.io/en/latest/quickstart/">quickstart</a><br>
@@ -1276,19 +1269,9 @@ original (hinton)</a><br>
 
 
 <div class="textcard">
-<strong>frameworks</strong><br>
-<a href="https://spark.apache.org/mllib/">spark (apache)</a><br>
-<a href="https://github.com/Azure/mmlspark">spark (ms)</a><br>
-<a href="https://bigdl-project.github.io/master/">bigDL</a><br>
-<a href="vhttps://docs.microsoft.com/en-us/cognitive-toolkit/">cntk</a><br>
-<a href="https://github.com/caffe2/caffe2">caffe2</a><br>
-<a href="https://www.h2o.ai/">h2o.ai</a><br>
-<a href="https://keras.io/">keras</a><br>
-<a href="http://scikit-learn.org/stable/">scikit-learn</a><br>
-<a href="http://pytorch.org/">pytorch</a><br>
-<a href="https://mxnet.apache.org/">mxnet</a><br>
-<a href="https://www.tensorflow.org/">tensorflow</a>
-<a href="https://www.oreilly.com/ideas/square-off-machine-learning-libraries?imm_mid=0fa832&cmp=em-data-na-na-newsltr_20180117">compare (oreilly)</a><br>
+<strong>fourier transform</strong><br>
+<a href="/pdfs/math/discrete-fourier-xform-ADM.pdf">discrete FT (ADM)</a><br>
+<a href="/pdfs/math/polynomials-fourier-ITA.pdf">ITA</a>
 </div>
 
 
@@ -1320,21 +1303,21 @@ original (hinton)</a><br>
 <div class="textcard">
 <strong>GANs</strong><br>
 <a href="https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-explainer-ai-machine-learning/">2019 overview</a><br>
-<a href="https://mlwhiz.com/blog/2019/06/17/gans/">intro</a><br>
-<a href="https://sigmoidal.io/beginners-review-of-gan-architectures/">intro</a><br>
-<a href="https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31">intro</a><br>
-<a href="https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks">intro</a><br>
-<a href="https://data.vision.ee.ethz.ch/aeirikur/extremecompression/">extreme image compress</a><br>
+<a href="https://mlwhiz.com/blog/2019/06/17/gans/">intro (MLwhiz)</a><br>
+<a href="https://sigmoidal.io/beginners-review-of-gan-architectures/">intro (sigmoidal.io)</a><br>
+<a href="https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31">intro (towards ds)</a><br>
+<a href="https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47">intro (statsbot)</a><br>
+<a href="https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks">intro (oreilly)</a><br>
+<a href="/pdfs/math/gans-dive.pdf">intro (DIDL)</a><br>
+<a href="https://data.vision.ee.ethz.ch/aeirikur/extremecompression/">extreme compression</a><br>
 <a href="https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html">spectral normalization</a><br>
 <a href="https://adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets">adeshpande</a><br>
 <a href="https://deephunt.in/the-gan-zoo-79597dc8c347">list of variants</a><br>
-<a href="https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47">overview</a><br>
 <a href="https://arxiv.org/abs/1612.04357">stacked</a><br>
 <a href="http://www.alexirpan.com/2017/02/22/wasserstein-gan.html">wasserstein</a><br>
 <a href="https://arxiv.org/abs/1701.00160v3">NIPS 2016 tutorial</a><br>
 <a href="https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images/">GauGAN (nV)</a><br>
 <a href="https://distill.pub/2019/gan-open-problems">open problems</a><br>
-<a href="/pdfs/math/gans-dive.pdf">DIDL</a><br>
 </div>
 
 
@@ -1441,23 +1424,24 @@ generative stochastic nets</small>
 <div class="textcard">
 <strong>graphs</strong><br>
 <a href="https://paperswithcode.com/area/graphs">papers with code</a><br>
-<a href="https://www.kdnuggets.com/2019/08/numpy-neural-networks-computational-graphs.html">computational</a><br>
+<a href="https://www.kdnuggets.com/2019/08/numpy-neural-networks-computational-graphs.html">numpy-computational</a><br>
 <a href="https://medium.com/stellargraph/knowing-your-neighbours-machine-learning-on-graphs-9b7c3d0d5896">knowing your neighbors</a><br>
-<a href="https://www.kdnuggets.com/2019/08/numpy-neural-networks-computational-graphs.html">numpy graphs</a><br>
 <!--<a href="/pdfs/math/graph-algos-AJE.pdf">AJE</a><br>-->
-<a href="/pdfs/math/graph-algos-ITA.pdf">ITA</a><br>
-<a href="/pdfs/math/graph-datastructs-ADM.pdf">datastructs)</a><br>
-<a href="/pdfs/math/graph-drawing-ADM.pdf">drawing</a><br>
-<a href="/pdfs/math/graph-generation-ADM.pdf">generation</a><br>
-<a href="/pdfs/math/graph-isomorphism-ADM.pdf">isomorphism</a><br>
-<a href="/pdfs/math/graph-partition-ADM.pdf">partitions</a><br>
-<a href="/pdfs/math/graphs-connected-components-ADM.pdf">connected components</a><br>
-<a href="/pdfs/math/graphs-hard-ADM.pdf">hard</a><br>
+<a href="/pdfs/math/graph-algos-ITA.pdf">algorithms (ITA)</a><br>
+<a href="/pdfs/math/graph-datastructs-ADM.pdf">datastructs (ADM)</a><br>
+<a href="/pdfs/math/graph-drawing-ADM.pdf">drawing (ADM)</a><br>
+<a href="/pdfs/math/graph-generation-ADM.pdf">generation (ADM)</a><br>
+<a href="/pdfs/math/graph-isomorphism-ADM.pdf">isomorphism (ADM)</a><br>
+<a href="/pdfs/math/graph-partition-ADM.pdf">partitions (ADM)</a><br>
+<a href="/pdfs/math/graphs-connected-components-ADM.pdf">connected components (ADM)</a><br>
+<a href="/pdfs/math/graphs-hard-ADM.pdf">hard (ADM)</a><br>
 <a href="/pdfs/math/graphs-JE.pdf">JE</a><br>
-<a href="/pdfs/math/graphs-polynomial-time-ADM.pdf">polynomial time</a><br>
-<a href="/pdfs/math/graphs-weighted-ADM.pdf">weighted</a><br>
-<a href="/pdfs/math/graph-traversal-ADM.pdf">traversal</a><br>
-<a href="/pdfs/math/undirected-graphs-ESL.pdf">undirected</a><br>
+<a href="/pdfs/math/graphs-polynomial-time-ADM.pdf">polynomial time (ADM)</a><br>
+<a href="/pdfs/math/graphs-weighted-ADM.pdf">weighted (ADM)</a><br>
+<a href="/pdfs/math/graph-traversal-ADM.pdf">traversal (ADM)</a><br>
+<a href="/pdfs/math/undirected-graphs-ESL.pdf">undirected (ESL)</a><br>
+<a href="/pdfs/math/random-graphs-FDS.pdf">random (FDS)</a><br>
+<a href="/pdfs/math/social-graphs-DMMD.pdf">social (DMMD)</a><br>
 </div>
 
 
@@ -1816,15 +1800,11 @@ https://github.com/bjpcjp/Data-Science-Handbook-Cribsheet/blob/master/05.10-Mani
 <div class="textcard">
 <strong>markov chains</strong><br>
 <a href="https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50">intro</a><br>
+<a href="/pdfs/math/random-walks-markov-chains-FDS.pdf">FDS</a><br>
 <a href="http://setosa.io/ev/markov-chains/">setosa</a><br>
 <a href="http://blog.revolutionanalytics.com/2016/01/getting-started-with-markov-chains.html">revo analytics</a><br>
 <a href="/pdfs/math/markov-chains-explained-visually.pdf">visuals</a><br>
-</div>
-
-
-<div class="textcard">
-<strong>markov chain monte carlo (MCMC)</strong><br>
-<a href="/pdfs/math/markov-chain-monte-carlo-CSI.pdf">CSI</a><br>
+<a href="/pdfs/math/markov-chain-monte-carlo-CSI.pdf">markov chain monte carlo (MCMC) (CSI)</a><br>
 </div>
 
 
@@ -2363,6 +2343,14 @@ CONCLUSION
 
 
 <div class="textcard">
+<strong>parametric models & exponential families</strong><br>
+<a href="/pdfs/math/exponential-family-SM.pdf">SM</a><br>
+<a href="/pdfs/math/parametric-models-exponentials-CSI.pdf">CSI</a><br>
+<small>univariate, multivariate normal, fisher's information bound, multinomial, exponential</small>
+</div>
+
+
+<div class="textcard">
 <strong>passive-aggressive algos</strong>
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveClassifier.html">classifier (scikit)</a><br>
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveRegressor.html">regressor (scikit)</a>
@@ -2420,9 +2408,10 @@ CONCLUSION
 
 
 <div class="textcard">
-<strong>polygon partitions</strong><br>
+<strong>polygons</strong><br>
 <img src="/px/math/ADM-polygon-partitions.png" width="95%"><br>
-<a href="/pdfs/math/polygon-partitions-ADM.pdf">ADM</a><br>
+<a href="/pdfs/math/polygon-partitions-ADM.pdf">partitions (ADM)</a><br>
+<a href="/pdfs/math/polygon-simplification-ADM.pdf">simplification (ADM)</a><br>
 </div>
 
 
@@ -2478,22 +2467,28 @@ CONCLUSION
 
 <div class="textcard">
 <strong>probability & statistics</strong><br>
-<a href="http://heather.cs.ucdavis.edu/probstatbook">UC Davis ebook</a><br>
-<a href="http://www.bigdataexaminer.com/2015/12/14/how-to-implement-these-5-powerful-probability-distributions-in-python/">python implementations</a><br>
 <a href="pdfs/math/prob-stats-cookbook v0.2.1.pdf">cookbook v0.2.1 (pdf)</a><br>
-
 <a href="pdfs/math/prob-stats-modeling.pdf">UC Davis ebook (pdf)</a><br>
 <a href="pdfs/math/prob-stats-cheatsheet2.pdf">cheatsheet v2 (pdf)</a><br>
 <a href="pdfs/math/prob-intro.pdf">grinstead/snell ebook (pdf)</a><br>
+
+<small>discrete, continuous, combinatorials, conditional, distributions, densities, 
+expected values, variance, sums, large number laws, central limit theorem, markov chains,
+random walks</small><br>
+
 <a href="pdfs/math/prob_cheatsheet_william_chen.pdf">cheatsheet (wm.chen)</a><br>
-<a href="pdfs/math/distributions-multivariate-PSC.pdf">multivariate (PSC)</a>
+<a href="pdfs/math/distributions-multivariate-PSC.pdf">multivariate (PSC)</a><br>
 <a href="pdfs/math/counting-probability-ITA.pdf">counting (ITA)</a><br>
-<a href="pdfs/math/probability-theory-PSC.pdf">theory</a><br>
+<a href="pdfs/math/probability-theory-PSC.pdf">theory (PSC)</a><br>
 <a href="pdfs/math/probability-distributions-PSC.pdf">distributions (PSC)</a><br>
 <a href="pdfs/math/probability-random-vars-PSC.pdf">random variables (PSC)</a><br>
-<a href="pdfs/math/probability-expectation-PSC.pdf">expectation (PSC)</a><br>
 <a href="pdfs/math/probability-other-math-PSC.pdf">other math (PSC)</a><br>
 <a href="pdfs/math/probability-DLgoodfellow.pdf">goodfellow</a><br>
+<a href="pdfs/math/probability-SM.pdf">SM</a><br>
+<small>frequentist vs bayesian, concepts, discrete (bernoulli, binomial, multinoulli, multinomial,
+	poisson, empirical), continuous (gaussian, student's t, laplace, gamma, beta, pareto),
+	joint probability, transformations, monte carlo approximation,
+info theory (entropy, KL divergence, mutual info)</small>
 </div>
 
 
@@ -2656,31 +2651,19 @@ CONCLUSION
 
 
 <div class="textcard">
-<strong>red-black trees</strong><br>
-<a href="/pdfs/math/red-black-trees-ITA.pdf">ITA</a>
-</div>
-
-
-<div class="textcard">
 <strong>regressions</strong><br>
 <img src="/px/math/regression.png" width="95%"><br>
 <a href="https://www.listendata.com/2018/03/regression-analysis.html">15 types (listendata)</a><br>
 <a href="http://setosa.io/ev/ordinary-least-squares-regression/">least squares (setosa)</a><br>
-<a href="learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression">least squares (scikit)</a><br>
 <a href="https://datascientia.blog/2017/08/14/dss-llrm/">log-log (datascientia)</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ARDRegression.html#sklearn.linear_model.ARDRegression">ard (scikit)</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html#sklearn.linear_model.ElasticNet">elasticnet (scikit)</a><br>
 <a href="http://scikit-learn.org/stable/modules/kernel_ridge.html">kernel ridge (scikit)</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lars.html#sklearn.linear_model.Lars">lars (scikit)</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.MultiTaskLasso.html#sklearn.linear_model.MultiTaskLasso">lasso multitask (scikit)</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.OrthogonalMatchingPursuit.html#sklearn.linear_model.OrthogonalMatchingPursuit">omp (scikit)</a><br>
 <a href="https://www.datasciencecentral.com/profiles/blogs/deep-dive-into-polynomial-regression-and-overfitting">polynomials</a><br>
-<a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#sklearn.preprocessing.PolynomialFeatures">polynomial (scikit)</a><br>
 <a href="pdfs/math/sparse-models-lasso-CSI.pdf">lasso (CSI)</a><br>
 <a href="/pdfs/math/regression-ridge-CSI.pdf">ridge (CSI)</a><br>
 <a href="/pdfs/math/linear-regression-ESL.pdf">ESL</a><br>
 <a href="/pdfs/math/linear-regression-PSC.pdf">PSC</a><br>
 <a href="/pdfs/math/linear-regression-SM.pdf">SM</a><br>
+<a href="/pdfs/math/regression-trees-CSI.pdf">generalized regression trees (CSI)</a><br>
 </div>
 
 
@@ -2751,7 +2734,7 @@ deformable object manipulation,
 
 
 <div class="textcard">
-<strong>sampling algos</strong><br>
+<strong>sampling</strong><br>
 <img src="/px/math/sampling-algorithms.jpg" width="95%">
 <a href="https://www.kdnuggets.com/2019/09/5-sampling-algorithms.html">5 sampling algorithms</a><br>
 <a href="https://www.datasciencecentral.com/profiles/blogs/modern-re-sampling-and-statistical-recipes">modern recipes</a><br>
@@ -2770,7 +2753,14 @@ deformable object manipulation,
 
 
 <div class="textcard">
-<strong>seaborn</strong><br>
+<strong>satisfiability</strong><br>
+<img src="/px/math/ADM-satisfiability.png" width="95%"><br>
+<a href="/pdfs/math/satisfiability-ADM.pdf">ADM</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>(tools) seaborn</strong><br>
 <img src="/px/math/seaborn.png" width="95%"><br>
 <a href="http://seaborn.pydata.org/">home</a><br>
 <a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn">my github</a><br>
@@ -2979,13 +2969,7 @@ point data, bucketing, region data, rectangle data, line data & boundaries</smal
 </div>
 
 <div class="textcard">
-<strong>steiner trees</strong><br>
-<img src="/px/math/ADM-steiner-tree.png" width="95%"><br>
-<a href="/pdfs/math/steiner-tree-ADM.pdf">ADM</a><br>
-</div>
-
-<div class="textcard">
-<strong>streaming algos</strong><br>
+<strong>streaming</strong><br>
 <a href="/pdfs/math/data-mining-streams-DMMD.pdf">stream mining (DMMD)</a><br>
 <a href="https://www.mapr.com/blog/some-important-streaming-algorithms-you-should-know-about">algos list</a><br>
 </div>
@@ -3000,11 +2984,6 @@ point data, bucketing, region data, rectangle data, line data & boundaries</smal
 <a href="pdfs/math/longest-common-substring-ADM.pdf">longest common substring (ADM)</a><br>
 </div>
 
-
-<div class="textcard">
-<strong>suffix trees</strong><br>
-<a href="/pdfs/math/suffix-trees-ADM.pdf">ADM</a><br>
-</div>
 
 <div class="textcard">
 <strong>support vector machines</strong><br>
@@ -3077,21 +3056,34 @@ point data, bucketing, region data, rectangle data, line data & boundaries</smal
 
 
 <div class="textcard">
-<strong>toolsets</strong><br>
+<strong>tools</strong><br>
 <img src="/math/infra_tooling.png"></a><br>
-<a href="http://www.datasciencetoolkit.org/">ds toolkit</a><br>
 <a href="http://blog.datadive.net/7-tools-in-every-data-scientists-toolbox/">7 tools</a><br>
-<a href="http://matthewrocklin.com/blog/work/2017/02/07/dask-sklearn-simple">dask</a><br>
 <a href="https://github.com/Microsoft/AutonomousDrivingCookbook/tree/master/AirSimE2EDeepLearning">airsim</a><br>
-<a href="https://pair-code.github.io/what-if-tool/">what-if (pair-code)</a><br>
-<a href="https://medium.com/luminovo/the-deep-learning-toolset-an-overview-b71756016c06">luminovo</a><br>
-<a href="https://arxiv.org/pdf/1802.04799.pdf">TVM #2E compiler</a><br>
 <a href="https://medium.com/@gokul_uf/the-anatomy-of-deep-learning-frameworks-46e2a7af5e47#.nv6fxiqk7">anatomy</a><br>
 <a href="http://rll.berkeley.edu/cgt">comp graph toolkit (berkeley)</a>
 <a href="http://www.netlib.org/blas/">blas</a><br>
+<a href="https://bigdl-project.github.io/master/">bigDL</a><br>
+<a href="https://github.com/caffe2/caffe2">caffe2</a><br>
+<a href="vhttps://docs.microsoft.com/en-us/cognitive-toolkit/">cntk</a><br>
 <a href="https://developer.nvidia.com/cublas">cublas</a><br>
 <a href=" https://developer.nvidia.com/cudnn">cudnn</a><br>
+<a href="http://matthewrocklin.com/blog/work/2017/02/07/dask-sklearn-simple">dask</a><br>
+<a href="http://www.datasciencetoolkit.org/">ds toolkit</a><br>
+<a href="https://www.h2o.ai/">h2o.ai</a><br>
+<a href="https://keras.io/">keras</a><br>
+<a href="https://spark.apache.org/mllib/">spark (apache)</a><br>
+<a href="https://www.h2o.ai/">h2o.ai</a><br>
+<a href="https://medium.com/luminovo/the-deep-learning-toolset-an-overview-b71756016c06">luminovo</a><br>
+<a href="https://mxnet.apache.org/">mxnet</a><br>
+<a href="http://pytorch.org/">pytorch</a><br>
+<a href="http://scikit-learn.org/stable/">scikit-learn</a><br>
 <a href="https://www.kdnuggets.com/2019/09/train-sklearn-100x-faster.html">sk-dist: scikit 100x faster</a><br>
+<a href="https://www.oreilly.com/ideas/square-off-machine-learning-libraries?imm_mid=0fa832&cmp=em-data-na-na-newsltr_20180117">compare (oreilly)</a><br>
+<a href="https://github.com/Azure/mmlspark">spark (ms)</a><br>
+<a href="https://www.tensorflow.org/">tensorflow</a>
+<a href="https://arxiv.org/pdf/1802.04799.pdf">TVM #2E compiler</a><br>
+<a href="https://pair-code.github.io/what-if-tool/">what-if (pair-code)</a><br>
 </div>
 
 
@@ -3127,6 +3119,13 @@ point data, bucketing, region data, rectangle data, line data & boundaries</smal
 
 
 <div class="textcard">
+<strong>transitive closure</strong><br>
+<img src="/px/math/ADM-transitive-closure-reduction.png" width="95%"><br>
+<a href="/pdfs/math/transitive-closure-ADM.pdf">ADM</a><br>
+</div>
+
+
+<div class="textcard">
 <strong>traveling salesman</strong><br>
 <img src="/px/math/ADM-traveling-salesman.png" width="95%"><br>
 <a href="/pdfs/math/traveling-salesman-ADM.pdf">ADM</a><br>
@@ -3135,7 +3134,14 @@ point data, bucketing, region data, rectangle data, line data & boundaries</smal
 
 <div class="textcard">
 <strong>trees</strong><br>
+<img src="px/math/ADM-kd-trees.png" width="95%"><br>
 <a href="/pdfs/math/kd-trees-ADM.pdf">kd trees (ADM)</a><br>
+<a href="/pdfs/math/tree-drawing-ADM.pdf">tree drawing (ADM)</a><br>
+<a href="/pdfs/math/red-black-trees-ITA.pdf">red-black (ITA)</a>
+<img src="/px/math/ADM-steiner-tree.png" width="95%"><br>
+<a href="/pdfs/math/steiner-tree-ADM.pdf">steiner (ADM)</a><br>
+<a href="/pdfs/math/suffix-trees-ADM.pdf">suffix (ADM)</a><br>
+<a href="/pdfs/math/trees-EA.pdf">binary (EA)</a><br>
 </div>
 
 
@@ -3191,6 +3197,20 @@ intro (avidhya)</a><br>
 <div class="textcard">
 <strong>unstructured data</strong><br>
 <a href="https://www.datasciencecentral.com/profiles/blogs/5-easy-steps-to-structure-highly-unstructured-big-data">5 easy structuring steps</a><br>
+</div>
+
+
+<div class="textcard">
+<strong>unsupervised learning</strong><br>
+<img src="/px/math/ESL-heatmap.png" width="95%"><br>
+<a href="/pdfs/math/unsupervised-learning-ESL.pdf">ESL</a><br>
+<small>association rules, apriori, cluster analysis, self-organizing maps, principal components, independent component analysis (ICA), multidimensional scaling (MDS), non-linear dimension reduction, LDS, pagerank</small><br>
+</div>
+
+
+<div class="textcard">
+<strong>van emde boas trees</strong><br>
+<a href="/pdfs/math/van-emde-boas-trees-ITA.pdf">ITA</a><br>
 </div>
 
 
