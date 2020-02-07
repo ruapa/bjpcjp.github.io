@@ -21,7 +21,7 @@ layout: default
   <!-- sort by date; display first one --> 
   {%- assign recentposts = site.posts | sort: 'date' -%}
   {%- assign lastpost  = recentposts.last -%}
-
+  
   <h2>Most Recent: &nbsp;
     <a href="{{ lastpost.url | relative_url }}">
     {{ lastpost.title | escape }}</a></h2>
@@ -35,7 +35,7 @@ layout: default
   <br>
   <hr>
 
-  <h2>Sorted by Title:</h2>
+  <h2>Sorted by Title (condensed, excerpts="on"):</h2>
 
   <!-- try sorting by post title-->
   {%- assign postsbytag = site.posts | sort: 'title' -%}
@@ -48,15 +48,18 @@ layout: default
     <li class="textcard">
       <a href="{{ post.url | relative_url }}">
         {{ post.title | escape }}</a><br>
+
+      <!--
       <span style=" font-size: 0.9em; font-style: italic;">
         {{ post.tags }} &nbsp; {{ post.date | date: "%m/%-d/%Y" }}
       </span>
-        <!--  
+      -->
+       
       {%- if site.show_excerpts -%}
           <center> {{ post.excerpt }} </center>
         {%- endif -%}
       </span>
-      -->  
+
     </li>
     
   {%- endfor -%}
