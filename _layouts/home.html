@@ -35,23 +35,21 @@ layout: default
   <br>
   <hr>
 
-  <h2>Sorted by Title (condensed, excerpts="on"):</h2>
+  <h2>Sorted by Title:</h2>
 
   <!-- try sorting by post title-->
-  {%- assign postsbytag = site.posts | sort: 'title' -%}
+  {%- assign postsbytitle = site.posts | sort: 'title' -%}
 
   <!-- <div style="columns: 4; column-gap: 3px;"> -->
-  <div style="columns: 1; margin: 5px;">
+  <div style="columns: 4; margin: 5px;">
 
   <!-- original: for post in site.posts -->
-  {%- for post in postsbytag -%}
+  {%- for post in postsbytitle -%}
     
     <li class="textcard">
-      <strong>
       <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}</a>
-      </strong><br><br>
-      
+        {{ post.title | escape }}</a><br>
+
 
       <!--
       <span style=" font-size: 0.9em; font-style: italic;">
