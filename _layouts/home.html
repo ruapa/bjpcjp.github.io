@@ -41,14 +41,17 @@ layout: default
   {%- assign postsbytag = site.posts | sort: 'title' -%}
 
   <!-- <div style="columns: 4; column-gap: 3px;"> -->
-  <div style="columns: 4; margin: 2px;">
+  <div style="columns: 1; margin: 5px;">
 
   <!-- original: for post in site.posts -->
   {%- for post in postsbytag -%}
     
     <li class="textcard">
+      <strong>
       <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}</a><br>
+        {{ post.title | escape }}</a>
+      </strong><br><br>
+      
 
       <!--
       <span style=" font-size: 0.9em; font-style: italic;">
