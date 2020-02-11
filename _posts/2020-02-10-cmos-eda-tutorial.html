@@ -1,0 +1,95 @@
+---
+title: CMOS EDA tool tutorial 
+date: 2020-02-10 18:0:0
+layout: post
+tags: cmos
+---
+
+<center>
+<img src="/cmos/stdcell-cz/tutorial-cover-page.png" width="95%"><br><br>
+
+<div class="textcard">
+<div style="column-count: 3; column-width: 33%;">
+<a href="/cmos/stdcell-cz/objective.png">objective</a><br>
+<a href="/cmos/stdcell-cz/advanced-topics-syllabus.png">syllabus</a><br>
+<a href="/cmos/stdcell-cz/overview.png">overview</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-constraints-setup-hold.png">setup time, hold time</a><br>
+<a href="/cmos/stdcell-cz/analog-digital-bridging.png">characterization workflow (hi level)</a><br>
+
+<a href="/cmos/stdcell-cz/input-files.png">input files (from accucell)</a><br>
+<a href="/cmos/stdcell-cz/input-files-from-other-tools.png">input files (from other tools)</a><br>
+
+<a href="/cmos/stdcell-cz/cell-cz-features.png">cz features</a><br>
+<a href="/cmos/stdcell-cz/cell-library-features.png">cell library</a><br>
+
+<a href="/cmos/stdcell-cz/inverter.png">inverter</a><br>
+<a href="/cmos/stdcell-cz/inverter-digital.png">inverter (digital)</a><br>
+
+<a href="/cmos/stdcell-cz/cell-library-features.png">Cell Library Features</a><br>
+<a href="/cmos/stdcell-cz/cell-library-measures.png">cell library - measures</a><br>
+<a href="/cmos/stdcell-cz/cell-library-quality.png">cell library - quality</a><br>
+<a href="/cmos/stdcell-cz/stdcell-libs-features.png">Std Cell Lib Features</a><br>
+
+<a href="/cmos/stdcell-cz/tools.png">Input Files</a><br>
+<a href="/cmos/stdcell-cz/liberty-sta-usage.png">Liberty Format: STA Usage</a><br>
+
+
+<strong>LIBRARY FILES:</strong><br>
+<a href="/cmos/stdcell-cz/liberty-file-and2-datasheet.png">liberty file specs</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-cell-features.png">liberty file - cells</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-format.png">libfile format</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-level-features.png">libfile level features</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-op-conditions.png">libfile op conditions</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-output-load-limits.png">libfile output load limits</a><br>
+<a href="/cmos/stdcell-cz/liberty-file-pin-features.png">libfile pins</a><br>
+<a href="/cmos/stdcell-cz/liberty-sta-usage.png">libfile STA</a><br>
+<a href="/cmos/stdcell-cz/libfile-d-flipflop-type-ff.png">libfile d-flipflop</a><br>
+<a href="/cmos/stdcell-cz/libfile-flipflop-state-table.png">libfile flipflop state table</a><br>
+<strong>DELAY TIMING:</strong><br>
+<a href="/cmos/stdcell-cz/delay-connect.png">delay - connect</a><br>
+<a href="/cmos/stdcell-cz/delay-equation.png">delay equation</a><br>
+<a href="/cmos/stdcell-cz/delay-interconnect.png">delay interconnect</a><br>
+<a href="/cmos/stdcell-cz/delay-intrinsic-vs-transition.png">delays intrinsic v transition</a><br>
+<a href="/cmos/stdcell-cz/delay-model-intro.png">delay model (intro)</a><br>
+<a href="/cmos/stdcell-cz/delay-scaling.png">delay scaling</a><br>
+<a href="/cmos/stdcell-cz/delay-slew-model.png">delay slew model</a><br>
+<a href="/cmos/stdcell-cz/delay-slope-features.png">libfile delay slope</a><br>
+<strong>DELAY/TIMING ARCS:</strong><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-combinational.png">delay timing arcs</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-concepts-p2.png">concepts p2</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-concepts.png">concepts</a><br>       
+<a href="/cmos/stdcell-cz/delay-timing-arcs-edge-clear-p2.png">edge clear p2</a><br>	       
+<a href="/cmos/stdcell-cz/delay-timing-arcs-edge-clear.png">edge clear</a><br>  
+<a href="/cmos/stdcell-cz/delay-timing-arcs-edge-preset-p2.png">edge preset p2</a><br>	       
+<a href="/cmos/stdcell-cz/delay-timing-arcs-edge-preset.png">edge preset</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-edge-sensitive.png">edge sensitive</a><br>      
+<a href="/cmos/stdcell-cz/delay-timing-arcs-lookup-tables.png">lookup tables</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-lookup-tables-templates.png">lookup table templates</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-lookup-tables-value-assign.png">lookup table assignments</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs.png">timing arcs</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-arcs-sequential.png">sequential</a><br>   
+<a href="/cmos/stdcell-cz/delay-timing-arcs-single-vs-multi-pins.png">single vs multi pins</a><br>	       
+<a href="/cmos/stdcell-cz/delay-timing-arcs-tristate.png">tristate</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-constraints.png">constraints</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-constraints-recovery.png">constraints - recovery</a><br>
+<a href="/cmos/stdcell-cz/delay-timing-constraints-removal.png">constraints - removal</a><br>
+<a href="/cmos/stdcell-cz/stdcell-libs-features.png">stdcell libs</a><br>
+<strong>POWER</strong><br>
+<a href="/cmos/stdcell-cz/power-models-intro.png">power syllabus</a><br>
+<a href="/cmos/stdcell-cz/power-intro.png">components</a><br>
+<a href="/cmos/stdcell-cz/overview.png">overview</a><br>
+<a href="/cmos/stdcell-cz/power-internal-formula.png">internal formula</a><br>
+<a href="/cmos/stdcell-cz/power-pin-output.png">output pin power</a><br>
+<a href="/cmos/stdcell-cz/power-clock-pin.png">clock pin power</a><br>
+<a href="/cmos/stdcell-cz/power-internal-table.png">internal table</a><br>
+<a href="/cmos/stdcell-cz/power-leakage-shortckt-defs.png">what is leakage? what is short-ckt?</a><br>
+<a href="/cmos/stdcell-cz/power-leakage-state-dependent.png">leakage - state-dependent</a><br>
+<a href="/cmos/stdcell-cz/power-lookup-tables.png">l/u tables</a><br>
+<a href="/cmos/stdcell-cz/power-lookup-tables-format.png">l/u tables - format</a><br>
+<a href="/cmos/stdcell-cz/power-lookup-tables-modeling.png">l/u tables - modeling</a><br>
+<a href="/cmos/stdcell-cz/power-switching-calc-example.png">switching power</a><br>
+<a href="/cmos/stdcell-cz/power-switching-defs.png">switching - defs</a><br>
+<a href="/cmos/stdcell-cz/power-switching-calc.png">switching - math</a><br>
+</div>
+</div>
+</center>
