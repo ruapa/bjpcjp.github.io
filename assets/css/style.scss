@@ -18,6 +18,9 @@
 	background-color: beige;
 	border: 1px solid burlywood;
 }
+.card img, .textcard img {
+	align: center;
+}
 .textcard {
 	font-size: 0.9em;
 	display: inline-block;
@@ -28,10 +31,26 @@
 	word-wrap: break-word;
 	margin-bottom: 0.25em;
 }
-.card img, .textcard img {
-	align: center;
+.textcard-almond {
+	font-size: 0.9em;
+	display: inline-block;
+	background-color: #eee0cb; /* almond */
+	padding: 0.5em;
+	border-radius: 10px;
+	width: 95%;
+	word-wrap: break-word;
+	margin-bottom: 0.25em;
 }
-
+.textcard-aqua {
+	font-size: 0.9em;
+	display: inline-block;
+	background-color: #bfd7ea; /* pale aqua */
+	padding: 0.5em;
+	border-radius: 10px;
+	width: 95%;
+	word-wrap: break-word;
+	margin-bottom: 0.25em;
+}
 /* ------------ zoom on hover ------------ */
 .zoomable img {
 	transition: transform 0.2s;
