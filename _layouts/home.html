@@ -22,13 +22,16 @@ layout: default
   {%- assign recentposts = site.posts | sort: 'date' -%}
   {%- assign lastpost  = recentposts.last -%}
   
-  <h2>Most Recent: &nbsp;
-    <a href="{{ lastpost.url | relative_url }}">
-    {{ lastpost.title | escape }}</a></h2>
+  <h2>Most Recent:</h2>
 
-    <span style=" font-size: 0.9em;">
-      posted: {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
-      tags: &nbsp; {{ lastpost.tags }}<br>
+    <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a><br>
+    <small>
+      posted: &nbsp; {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
+      tags: &nbsp; {{ lastpost.tags }} &nbsp;
+    </small><br>
+      <!--
+      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
+      <br>-->
       <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
     </span>
 
