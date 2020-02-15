@@ -24,20 +24,27 @@ layout: default
   
   <h2>Most Recent:</h2>
 
-    <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a><br>
-    <small>
-      posted: &nbsp; {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
-      tags: &nbsp; {{ lastpost.tags }} &nbsp;
-    </small><br>
-      <!--
-      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
-      <br>-->
-      <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
-    </span>
+    <div class="textcard">
+      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a><br>
+      <small>
+        posted: &nbsp; {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
+        tags: &nbsp; {{ lastpost.tags }} &nbsp;
+      </small><br>
+        <!--
+        <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
+        <br>-->
+        <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
+    </div>
 
-  <br>
+    <br><br>
+    <hr>
+    <h2>Stuff To Read @ Pocket:</h2>
+    <div class="textcard">
+      <a href="/ril_export/ril_export-2020-02-15-unread.html">as of 2020/02/15</a>
+    </div>
+
+  <br><br>
   <hr>
-
   <h2>Sorted by Title:</h2>
 
   <!-- try sorting by post title-->
