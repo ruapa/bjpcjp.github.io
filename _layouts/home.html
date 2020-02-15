@@ -4,9 +4,9 @@ layout: default
 
 <div class="home">
 
-  {%- if page.title -%}
+  {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {% endif %}
 
   <!-- GOOGLE CUSTOM SEARCH OPTION. NOT CURRENTLY USED.
   <script async src="https://cse.google.com/cse.js?cx=008436745971355202997:c0hy395gjyo"></script>
@@ -16,68 +16,48 @@ layout: default
   <div id="search-searchbar"></div>
   <div id="search-hits"></div> -->
 
-  {%- if site.posts.size > 0 -%}
+  {% if site.posts.size > 0 -%}
 
-  <!-- sort by date; display first one --> 
-  {%- assign recentposts = site.posts | sort: 'date' -%}
-  {%- assign lastpost  = recentposts.last -%}
-  
-  <h2>Most Recent:</h2>
+    {%- assign recentposts = site.posts | sort: 'date' -%}
+    {%- assign lastpost  = recentposts.last -%}
+    
+    <h2>Most Recent:</h2>
 
     <div class="textcard">
-      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a><br>
+        <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a><br>
       <small>
         posted: &nbsp; {{ lastpost.date | date: "%m/%-d/%Y" }} &nbsp; 
         tags: &nbsp; {{ lastpost.tags }} &nbsp;
       </small><br>
-        <!--
-        <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
-        <br>-->
-        <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
+      <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a>
     </div>
 
-    <br><br>
-    <hr>
-    <h2>Stuff To Read @ Pocket:</h2>
+    <br><br><hr>
+    <h2>Stuff To Read @ Pocket:<span style="">Stuff To Read @ Pocket:</span></h2>
+
     <div class="textcard">
       <a href="/ril_export/ril_export-2020-02-15-unread.html">as of 2020/02/15</a>
     </div>
 
-  <br><br>
-  <hr>
-  <h2>Sorted by Title:</h2>
+    <br><br><hr>
+    <h2>Sorted by Title:</h2>
 
-  <!-- try sorting by post title-->
-  {%- assign postsbytitle = site.posts | sort: 'title' -%}
+    {%- assign postsbytitle = site.posts | sort: 'title' -%}
 
-  <!-- <div style="columns: 4; column-gap: 3px;"> -->
-  <div style="columns: 4; margin: 5px;">
+    <div style="columns: 4; margin: 5px;">
+      {%- for post in postsbytitle -%}
 
-  <!-- original: for post in site.posts -->
-  {%- for post in postsbytitle -%}
-    
-    <li class="textcard">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}</a><br>
+        <li class="textcard">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
+          {{ post.excerpt }}<br>
+          <small>{{ post.tags }}</small><br>
+        </li>
+      
+      {%- endfor -%}
+    </div>
 
-
-      <!--
-      <span style=" font-size: 0.9em; font-style: italic;">
-        {{ post.tags }} &nbsp; {{ post.date | date: "%m/%-d/%Y" }}
-      </span>
-      -->
-       
-      {%- if site.show_excerpts -%}
-          <center> {{ post.excerpt }} </center>
-        {%- endif -%}
-      </span>
-
-    </li>
-    
-  {%- endfor -%}
-</div>
-{% endif %}
-</div>
+  {% endif %}
+</div> <!-- of class=home -->
 
 <p class="feed-subscribe">
   <a href="{{ 'feed.xml' | relative_url }}">
