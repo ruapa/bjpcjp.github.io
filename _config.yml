@@ -34,7 +34,7 @@ header_pages:
   - ui-ux.html
   - webdev.html
   - ril_export/ril_export-2020-02-15-unread.html 
-  #- ril_export/ril_export-2020-02-15-archive.html 
+  - ril_export/ril_export-2020-02-15-archive.html 
 
 # collections
 #
