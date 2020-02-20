@@ -24,7 +24,7 @@ layout: default
     <h2>Most Recent:</h2>
 
     <div class="textcard">
-      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a> &nbsp;
+      <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a></strong>&nbsp;
       <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
       <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
       {{ lastpost.tags }}
@@ -38,8 +38,8 @@ layout: default
       <a href="/ril_export/ril_export-2020-02-15-archive.html">archive (as of 2020/02/15)</a><br>
     -->
     
-    <br>
-    <h2>Sorted by Title:</h2>
+    <br><br>
+    <h2>Favorites & Collections - Sorted by Title:</h2>
 
     {%- assign postsbytitle = site.posts | sort: 'title' -%}
 
