@@ -25,7 +25,7 @@ layout: default
 
     <div class="textcard">
       <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a></strong>&nbsp;
-      <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
+      <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br><br>
       <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
       {{ lastpost.tags }}
     </div>
@@ -48,6 +48,7 @@ layout: default
 
         <li class="textcard">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
+          <br>
           {{ post.excerpt }}<br>
           <small>{{ post.tags }}</small><br>
         </li>
