@@ -43,14 +43,17 @@ layout: default
 
     {%- assign postsbytitle = site.posts | sort: 'title' -%}
 
-    <div style="columns: 3; margin: 5px;">
+    <div style="columns: 4;">
+
       {%- for post in postsbytitle -%}
 
         <li class="textcard">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
+          <!--
           <br>
           {{ post.excerpt }}<br>
           <small>{{ post.tags }}</small><br>
+        -->
         </li>
       
       {%- endfor -%}
