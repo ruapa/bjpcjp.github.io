@@ -22,29 +22,26 @@ layout: default
     {%- assign lastpost  = recentposts.last -%}
     
     <h2>Most Recent:</h2>
-
     <div class="textcard">
-      <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a></strong>&nbsp;
-      <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br><br>
+      <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}
+      </a></strong>&nbsp;
+      <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
       <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
-      {{ lastpost.tags }}
     </div>
-       
-    <br><br>
+    <!--
+    <!-- {{ lastpost.tags }} -->
+    <br>
     <h2>Favorites & Collections - Sorted by Date:</h2>
 
     {%- assign sortedposts = site.posts | sort: 'date' | reverse -%}
 
-    <div style="columns: 4;">
+    <div style="columns: 3;">
       {%- for post in sortedposts -%}
 
-        <li class="textcard">
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
-          <!--
-          <br>{{ post.excerpt }}<br><small>{{ post.tags }}</small><br>
-          -->
+        <div class="textcard">
+          <strong><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></strong><br>
           <small>({{ post.date | date: "%m/%d/%Y" }})</small><br>
-        </li>
+        </div>
       
       {%- endfor -%}
     </div>
