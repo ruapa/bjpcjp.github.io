@@ -29,31 +29,21 @@ layout: default
       <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
       {{ lastpost.tags }}
     </div>
-   
-    <!--
-    <br>
-    <h2>Stuff To Read @ Pocket:</h2>
-
-      <a href="/ril_export/ril_export-2020-02-15-unread.html">unread (as of 2020/02/15)</a><br>
-      <a href="/ril_export/ril_export-2020-02-15-archive.html">archive (as of 2020/02/15)</a><br>
-    -->
-    
+       
     <br><br>
-    <h2>Favorites & Collections - Sorted by Title:</h2>
+    <h2>Favorites & Collections - Sorted by Date:</h2>
 
-    {%- assign postsbytitle = site.posts | sort: 'title' -%}
+    {%- assign sortedposts = site.posts | sort: 'date' | reverse -%}
 
     <div style="columns: 4;">
-
-      {%- for post in postsbytitle -%}
+      {%- for post in sortedposts -%}
 
         <li class="textcard">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
           <!--
-          <br>
-          {{ post.excerpt }}<br>
-          <small>{{ post.tags }}</small><br>
-        -->
+          <br>{{ post.excerpt }}<br><small>{{ post.tags }}</small><br>
+          -->
+          <small>({{ post.date | date: "%m/%d/%Y" }})</small><br>
         </li>
       
       {%- endfor -%}
