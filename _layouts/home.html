@@ -22,15 +22,11 @@ layout: default
     {%- assign lastpost  = recentposts.last -%}
     
     <h2>Most Recent:</h2>
-    <div class="textcard">
-      <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}
-      </a></strong>&nbsp;
-      <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
-      <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
-    </div>
-    <!--
-    <!-- {{ lastpost.tags }} -->
-    <br>
+    <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a></strong>&nbsp;
+    <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
+    <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
+    
+    <br><br>
     <h2>Favorites & Collections - Sorted by Date:</h2>
 
     {%- assign sortedposts = site.posts | sort: 'date' | reverse -%}
