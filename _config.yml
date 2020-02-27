@@ -25,6 +25,7 @@ header_pages:
   - about.html 
   - behaviors.html
   - cmos.html # was cmos/index.html # was cmos.html # was cpus.html
+  - gametheory.html
   - golang.html
   - linux.html
   - math.html
