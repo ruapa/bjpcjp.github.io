@@ -22,7 +22,9 @@ layout: default
     {%- assign lastpost  = recentposts.last -%}
     
     <h2>Most Recent:</h2>
-    <strong><a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a></strong>&nbsp;
+    <strong>
+      <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
+    </strong>&nbsp;
     <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
     <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
     
