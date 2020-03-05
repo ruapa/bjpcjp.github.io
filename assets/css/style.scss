@@ -65,6 +65,23 @@
   /* Opera */
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
+.textcard-inviso {
+	font-size: 0.9em;
+	display: inline-block;
+	/* background-color: #fff; */
+	padding: 0.5em;
+	border-radius: 10px;
+	width: 95%;
+	word-wrap: break-word;
+	margin-bottom: 0.25em;
+
+	/* Firefox */
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  /* Safari+Chrome */
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  /* Opera */
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
 .stickynote {
 	font-size: 0.9em;
 	display: inline-block;
@@ -89,6 +106,17 @@
 .zoomable img:hover {
 	transform: scale(1.5);
 }
+
+/* ------------ zoom on hover, alternative layout ------------ */
+img.zoomable {
+	transition: transform 0.2s;
+}
+img.zoomable:hover {
+	transform: scale(2.0);
+}
+
+
+
 
 /* test */
 
