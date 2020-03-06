@@ -29,12 +29,13 @@ layout: default
     <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
     
     <br><br>
-    <h2>Favorites & Collections - Sorted by Date:</h2>
+    <h2>Last 10 Favorites & Collections - Sorted by Title:</h2>
 
-    {%- assign sortedposts = site.posts | sort: 'date' | reverse -%}
-
+    {%- assign sortedposts = site.posts | sort: 'title' -%}
+    {%- assign tenposts = site.posts | slice: 1, 10 -%}
+    
     <div style="columns: 3;">
-      {%- for post in sortedposts -%}
+      {%- for post in tenposts -%}
 
         <div class="textcard">
           <strong><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></strong><br>
