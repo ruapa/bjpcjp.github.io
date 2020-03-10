@@ -5,27 +5,16 @@ permalink: /python/
 ---
 
 <h2>Sources:</h2>
-
-<div style="column-count: 2;">
-
-<div class="textcard">
-    <strong>+</strong> = Numerical Python<br></div>
-<div class="textcard">
-    <strong>++</strong> = SciKit-Learn<br></div>
-<div class="textcard">
-    <strong>+++</strong> = Scikit & Tensorflow: Aurelian Geron<br></div>
-<div class="textcard">
-    <strong>++++</strong> = Python Data Science Handbook<br></div>
-<div class="textcard">
-    <a href="/pdfs/math/101-Data-Science-Interview-Questions.pdf">101 Computer Science Interview Questions</a> (PDF)<br></div>
-<div class="textcard">
-    <strong>+++++</strong> = SciKit-Image<br></div>
-<div class="stickynote">
-    <a href="https://pytorch.org/tutorials/">PyTorch Tutorials (in progress)</a><br></div>
+<div class="textcard-white">
+    <strong>+</strong> = Numerical Python<br>
+    <strong>++</strong> = SciKit-Learn<br>
+    <strong>+++</strong> = Scikit & Tensorflow: Aurelian Geron<br>
+    <strong>++++</strong> = Python Data Science Handbook<br>
+    <strong><a href="https://pytorch.org/tutorials/">PyTorch Tutorials (in progress)</a></strong><br>
 </div>
-<br><br>
+<br>
 
-<center><h3>NumPy, Pandas, Statistics:</h3></center>
+<h2>NumPy, Pandas, Statistics:</h3></center>
 <div style="columns: 4;">
 
 <div class="textcard">
@@ -76,7 +65,7 @@ permalink: /python/
     kernel density estimation</div>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb">Bayesian statistics+</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb">Bayes+</a></strong><br>
     example (normal distribution)<br>
     dependent variables<br>
     posterior distributions<br>
@@ -85,7 +74,7 @@ permalink: /python/
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb">Statsmodel & Patsy+</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb">Statsmodel, Patsy+</a></strong><br>
     Patsy basics<br>
     categorical variables<br>
     linear regression<br>
@@ -93,32 +82,142 @@ permalink: /python/
     poisson distribution<br>
     time series</div>
 
-
 </div>
 
-<center><h3>Machine Learning Basics:</h3></center>
+<!-- ********************************************************************** -->
+<h2>Scikit-Learn Toolbox:</h3></center>
 <div style="columns: 4;">
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/getting_started.ipynb">
-    Getting Started++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/getting_started.ipynb">Intro++</a></strong><br>
     estimator basics<br>
     transformers<br> 
     pre-processors<br>
     pipelines<br>
     cross validation</div>
 
+<!--
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-api-0.22.1.">
+    API </a></strong><br>
+    <small>
+        .base, .calibration, .cluster, .compose, .covariance, .cross_computation,
+        .datasets, .decomposition, .discriminant_analysis, .dummy, .ensemble, 
+        .exceptions, .experimental, .feature_extraction, .feature_selection,
+        .gaussian_process, .impute, .inspection, .isotonic, .kernel_approximation,
+        .kernel_ridge, .linear_model, manifold, .metrics, .mixture, .model_selection, .multiclass, .multioutput, .naive_bayes, .neighbors,
+        .neighbors, .neural_network, .pipeline, .preprocessing, .semi_supervised,
+        .svm, .tree, .utils, (deprecated)
+    </small>
+</div>
+-->
+
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_biclustering.ipynb">
-    Biclustering++</a></strong><br>
-    spectral co-clustering<br>
-    spectral bi-clustering</div>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_probability_calibration.ipynb">
+    Prob.. Calibration++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-calibration.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#calibration">Examples (4)</a></strong><br>
+    parametric vs non-parametric approaches<br>GaussianNB analysis<br>3-class classification
+</div>
 
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_cross_validation.ipynb">Cross Validation++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-cross-validation.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#cross-decomposition">Examples (1)</a></strong><br>    scorers<br> 
+    ROC curve<br> 
+    k-fold<br> 
+    leave-one-out<br> 
+    leave-p-out<br> 
+    stratification<br> 
+    shuffle-split<br> 
+    group-k-fold<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_approximation.ipynb">Kernel Approximation++</a></strong><br>
+<strong><a href="/s/sckit-0.22.1/scikit-guide-0.22.1-kernel-approximation.">UG 0.22.1 </a></strong><br>
+    noestrem method<br>
+    kernels: RBF, chi-squared, additive CS, skewed CS, math<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-installation-dev.">Installation++ </a></strong><br>
+    from nightly build<br>
+    from source (deps: libs, runtimes, build, test, tag)<br>
+    platform specific<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#model-selection">Model Selection<br>Examples (16)</a></strong><br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-pairwise-ops.">
+    Pairwise Ops++ </a></strong><br>
+    cosine similarity<br>linear/ polynomial/ sigmoid/ RBF/ lapacian/ chisqd kernels<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-performance.">Performance Tips++ </a></strong><br>
+    python vs cython vs c++<br>
+    profiling<br>
+    memory profiling<br>
+    cython tips<br>
+    profiling compiled extensions<br>
+    joblib.Parallel<br>
+    warm_start
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-utilities-dev.">Utilities++ </a></strong><br>
+validation tools<br>
+linear algebra & array ops<br>
+random sampling<br>
+graphs<br>
+testing<br>
+multiclass/multilabel<br>
+helpers<br>
+hashes<br>
+warnings & exceptions<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_hyperparameter_tuning.ipynb">Hyperparameter Tuning++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-hyperparameters-grid-search.">UG 0.22.1 </a></strong><br>
+    grid search<br>
+    randomized params<br>
+    tips<br>
+    brute force alternatives<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-validation-curves.">Validation & Learning Curves++ </a></strong><br>
+validation curves<br>
+learning curves
+</div>
+
+
+</div>
+
+<!-- ********************************************************************** -->
+
+<h2>Supervised ML (Find):</h3></center>
+<div style="columns: 4;">
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb">
-Classification+++</a></strong><br>
+Intro to Classification+++</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#classification">Examples (5)</a></strong><br>
     MNIST<br> 
     metrics<br> 
     confusion matrix<br> 
@@ -129,6 +228,259 @@ Classification+++</a></strong><br>
     multilabel<br> 
     multioutput</div>
 
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-cross-decomposition.">Cross Decomposition </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#cross-decomposition">Examples (1)</a></strong><br>
+PLS, CCA
+</div>
+
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb">Decision Trees+++</a></strong><br>
+    training/visualization<br>
+    predictions<br>
+    CART<br>
+    gini vs entropy<br>
+    regularization<br>
+    <br>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_decision_trees.ipynb">Decision Trees++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-decision-trees.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#decision-trees">Examples (5)</a></strong><br>
+    classification<br>
+    regression<br>
+    multiple outputs<br>
+    complexity<br>
+    tips<br>
+    ID3, C4.5, C5.0, CART<br>
+    math<br>
+    minimal cost-complexity pruning<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-discriminant-analysis.">Disciminant Analysis (UG 0.22.1) </a></strong><br>
+    dim reduction & LDA<br>
+    math<br>
+    math (LDA)<br>
+    shrinkage<br>
+    estimators (default='svd')<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch07-ensemble-learning.ipynb">
+    Ensembles+++</a></strong><br>
+    voting classifiers<br>
+    bagging/pasting<br>
+    out of bag evaluation<br>
+    random patches/subspaces<br>
+    random forests<br>
+    feature importance<br>
+    adaboost<br>
+    gradient boosting<br>
+    stacking</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_ensembles.ipynb">Ensembles++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-ensembles.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#ensemble-methods">Examples (22)</a></strong><br>
+    bagging<br>
+    random forests<br>
+    adaboost<br>
+    gradient boosting<br>
+    histogram-based<br>
+    voting classifiers<br>
+    voting regressors<br>
+    stacking<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-feature-selection.">Feature Selection<br>UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#feature-selection">Examples (7)</a></strong><br>
+    removing low variance<br>
+    univariate<br>
+    recursive elimination<br>
+    select from model<br>
+    in pipelines<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussians.ipynb">Gaussian Processes++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-gaussians.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#gaussian-process-for-machine-learning">Examples (10)</a></strong><br>
+    GPR<br>
+    GPC<br>
+    kernels (intro, RBF, matern, rational quadratic, exp-sine-squared, dot product<br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_ridge.ipynb">Linear Models (Kernel Ridge)++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-kernel-ridge.">UG 0.22.1</a></strong>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_isotonic.ipynb">Linear Models (Isotronic)</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-isotronic.">UG 0.22.1</a></strong><br>
+</div>
+
+<!--
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Linear-Regression.ipynb">Linear Models (Regression)++++</a></strong><br>
+    OLS<br>
+    basis functions<br>
+    regularization<br>
+    ex: bicycle traffic
+</div>
+-->
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_linear.ipynb">Linear Models (Regression)++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-linear.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#generalized-linear-models">Examples (34)</a></strong><br>
+    OLS<br>
+    ridge<br>
+    lasso<br>
+    elastic net<br>
+    LARS<br>
+    OMP<br>
+    bayes<br>
+    ARD<br>
+    logistic regression<br>
+    passive-aggressive algos<br>
+    robustness<br>
+    ransac<br>
+    theil-sen<br>
+    huber<br>
+    polynomial regression</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_multiclass.ipynb">Multiple classes/labels</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-multiclass.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#multioutput-methods">Example (1)</a></strong><br>
+    label formats<br>
+    one-vs-rest<br>
+    one-vs-one<br>
+    error correction codes<br>
+    multioutput classif.<br>
+    classifier chains<br>
+    regressor chains<br>
+</div>
+
+
+<div class="textcard">
+<!--
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Naive-Bayes.ipynb">Naive Bayes++++</a></strong><br>
+-->
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_naive_bayes.ipynb">Naive Bayes++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-naive-bayes.">UG 0.22.1</a></strong><br>
+    gaussian<br>
+    multinomial<br>
+    complement<br>
+    bernoulli<br>out-of-core</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_nearest_neighbors.ipynb">Nearest Neighbors++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1/nearest-neighbors.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#nearest-neighbors">Examples (13)</a></strong><br>
+    unsupervised<br>
+    KD tree<br>
+    Ball tree<br>
+    regression<br>
+    nearest centroids<br>
+    NCA</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_neural_nets.ipynb">Neural Nets (MLPs)</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-neural-nets-supervised.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#neural-networks">Examples(4)</a></strong><br>
+    multilayer perceptron<br>
+    as classifier<br>
+    as regression<br>
+    regularization<br>
+    SGD, Adam, L-BFGS<br>
+    complexity<br>
+    math<br>
+    tips<br>
+    warm_start
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_pairwise.ipynb">Pairwise / Similarity Ops++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-pairwise-ops.">UG 0.22.1</a></strong><br>
+    kernels</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_semi_supervised.ipynb">Semi-Supervised++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-label-propagation.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#semi-supervised-classification">Examples (4)</a></strong><br>
+label propagation<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-stochastic-gradient-descent.">Stochastic Gradient Descent </a></strong><br>
+for classification<br>
+for regression ("squared loss" for OLS, "huber" for robust regr, "epsilon_insensitive" for SVR)<br>
+for sparse data<br>
+complexity<br>
+stopping<br>
+tips<br>
+implementation<br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Support-Vector-Machines.ipynb">
+Support Vector Machines / Intro++++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-support-vector-machines.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#support-vector-machines">Examples (15)</a></strong><br>
+    for classification<br>
+    for regression<br>
+    density estimates, novelty detection<br>
+    complexity<br>
+    tips<br>
+    kernel functions (std, custom)<br>
+    implementation</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb">
+Support Vector Machines+++</a></strong><br>
+    classification<br>
+    classification (non-linear)<br>
+    polynomial features: "kernel trick"<br>
+    similarity functions<br>
+    gaussian RBF kernels<br>
+    regression<br>
+    (todo items)<br>
+</div>
+
+</div>
+
+<br>
+
+<!-- ********************************************************************** -->
+<h2>Unsupervised ML (Discovery):</h3></center>
+<div style="columns: 4;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_biclustering.ipynb">
+    BiClustering (GitHub)</a></strong><br>
+    <strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-biclustering.">
+    UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#biclustering">Examples (3)</a></strong><br>
+    spectral co-clustering<br>
+    spectral bi-clustering<br>
+</div>
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-K-Means.ipynb">
@@ -139,8 +491,11 @@ Clustering++++</a></strong><br>
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_clustering.ipynb">
-Clustering++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_clustering.ipynb">Clustering++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-clustering.">
+    UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#clustering">Examples (28)</a></strong><br>
+    overview<br>
     k-means<br> 
     affinity propagation<br> 
     mean shift<br> 
@@ -149,50 +504,23 @@ Clustering++</a></strong><br>
     dbscan<br> 
     optics<br> 
     birch<br> 
-    metrics</div>
+    metrics (rand index, mutual info, homogeneity, completeness, v-measure, ...)<br>
+</div>
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_covariance.ipynb">
-Covariance++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_covariance.ipynb">Covariance++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-covariance.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#covariance-estimation">Examples (5)</a></strong><br>
     empirical<br> 
-    shrunk<br> 
-    precision matrix</div>
+    shrunk <br>
+    sparse invariance<br>
+    robust estimation<br>
+</div>
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_cross_validation.ipynb">
-Cross Validation++</a></strong><br>
-    scorers<br> 
-    ROC curve<br> 
-    k-fold<br> 
-    leave-one-out<br> 
-    leave-p-out<br> 
-    stratification<br> 
-    shuffle-split<br> 
-    group-k-fold</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb">Decision Trees+++</a></strong><br>
-    training/visualization<br>
-    predictions<br>
-    CART<br>
-    gini vs entropy<br>
-    regularization</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_decision_trees.ipynb">Decision Trees++</a></strong><br>
-    classification<br>
-    regression<br>
-    multiple outputs<br>
-    algorithms<br>
-    instability</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb">Dimension Reduction/PCA+++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb">Dimension Reduction / PCA+++</a></strong><br>
     curse of dimensionality<br>
     projection<br>
     manifolds<br>
@@ -213,94 +541,35 @@ Cross Validation++</a></strong><br>
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Principal-Component-Analysis.ipynb">
-Dimension Reduction/PCA++++</a></strong><br>
+Dimension Reduction / PCA++++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-dimensionality-reduction-unsupervised.">UG 0.22.1</a></strong><br>
+    PCA, random projections, feature agglomeration
     intro<br> 
     dimensional reduction<br> 
     noise filter<br> 
-    eigenfaces</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch07-ensemble-learning.ipynb">
-    Ensembles+++</a></strong><br>
-    voting classifiers<br>
-    bagging/pasting<br>
-    out of bag evaluation<br>
-    random patches/subspaces<br>
-    random forests<br>
-    feature importance<br>
-    adaboost<br>
-    gradient boosting<br>
-    stacking</div>
-
+    eigenfaces<br>
+<br>
+</div>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_ensembles.ipynb">
-    Ensembles++</a></strong><br>
-    voting classifiers<br> 
-    bagging & pasting<br> 
-    out-of-bag evaluation<br> 
-    feature importance<br> 
-    adaboost<br> 
-    gradient boosting<br> 
-    stacking</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Gaussian-Mixtures.ipynb">Gaussian Mixtures++++</a></strong><br>
-    gaussians vs k-means<br>
-    generalizing EM<br>
-    GMM as a density estimator<br>
-    how many components?<br>
-    Ex: generating digits</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_hyperparameter_tuning.ipynb">Hyperparameter Tuning++</a></strong><br>
-    grid search<br>
-    nested grid search<br>
-    random optimization<br>
-    brute force alternatives</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Kernel-Density-Estimation.ipynb"> 
-    Kernel Density Estimation++++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Kernel-Density-Estimation.ipynb">Density Estimation</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-density-estimation.">UG 0.22.1</a></strong><br>
     histograms<br> 
     sphere KDEs<br> 
-    custom estimators</div>
+    custom estimators
+</div>
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_ridge.ipynb">Regression (Kernel Ridge)++</a></strong><br>
-    summary</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Linear-Regression.ipynb">Linear Regression++++</a></strong><br>
-    OLS<br>
-    basis functions<br>
-    regularization<br>
-    ex: bicycle traffic</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_linear.ipynb">Linear Regression++</a></strong><br>
-    OLS<br>
-    ridge<br>
-    lasso<br>
-    elastic net<br>
-    LARS<br>
-    OMP<br>
-    bayes<br>
-    ARD<br>
-    logistic regression<br>
-    passive-aggressive algos<br>
-    robustness<br>
-    ransac<br>
-    theil-sen<br>
-    huber<br>
-    polynomial regression</div>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussian_mixtures.ipynb">Gaussian Mixtures++++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-gaussian-mixtures.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#gaussian-mixture-models">Examples (6)</a></strong><br>
+    EM<br>
+    confidence ellipsoids (multivariates)<br>
+    bayes info criterion (#clusters)<br>
+    covariance constraints (spherical, diagonal, tied, full)<br>
+    variational bayes (= extnsn of EM)<br>
+</div>
 
 
 <div class="textcard">
@@ -311,9 +580,10 @@ Dimension Reduction/PCA++++</a></strong><br>
     tradeoffs<br>
     isomap on faces</div>
 
-
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_manifolds.ipynb">Manifolds++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-manifolds.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#manifold-learning">Examples (6)</a></strong><br>
     projections<br>
     PCA<br>
     principal components<br>
@@ -339,75 +609,36 @@ Dimension Reduction/PCA++++</a></strong><br>
     NNMF<br>
     LDA</div>
 
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-neural-nets-unsupervised.">Neural Nets </a></strong><br>
+restricted boltzmann machines (RBMs)<br>
+parameters<br>
+bernoulli RBM<br>
+stochastic max likelihood learning
+</div>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Naive-Bayes.ipynb">Naive Bayes++++</a></strong><br>
-    gaussian<br>
-    multinomial<br>
-    when to use it</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_naive_bayes.ipynb">Naive Bayes++</a></strong><br>
-    gaussian<br> 
-    multinomial<br>
-    complement<br>
-    bernoulli<br>
-    out-of-core</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_nearest_neighbors.ipynb">Nearest Neighbors++</a></strong><br>
-    unsupervised<br>
-    KD tree<br>
-    Ball tree<br>
-    regression<br>
-    nearest centroids<br>
-    NCA</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_pairwise.ipynb">Pairwise Models++</a></strong><br>
-    kernels</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb">
-Support Vector Machines++++</a></strong><br>
-    classification<br>
-    classification (non-linear)<br>
-    polynomial features: "kernel trick"<br>
-    similarity functions<br>
-    gaussian RBF kernels<br>
-    regression<br>
-    (todo items)</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Support-Vector-Machines.ipynb">
-Support Vector Machines++++</a></strong><br>
-<!--<img src="/px/math/scikit/svm-example.png" width="95%"><br>-->
-    definition<br>
-    max margins<br>
-    fitting<br>
-    kernel SVM<br>
-    "the kernel trick"<br>
-    soft margins<br>
-    ex: face recognition</div>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-outliers.">Novelties & Outliers++ </a></strong><br>
+novelites vs outliers<br>
+methods<br>
+novelty detection<br>
+outlier detection (elliptic envelope, iso forest, local outlier factor)<br>
+novelties with LOF
+</div>
 
 </div>
 
 <br>
 
-<center><h3>Feature Engineering:</h3></center>
+<h2>Feature Engineering:</h3></center>
 <div style="columns: 4;">
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb">Feature Engineering++++</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb">Intro++++</a></strong><br>
     one-hot encoding<br>
     word counts<br> 
     tf-idf<br>
-    images (TODO: scikit-image)<br>
+    <!-- images (TODO: scikit-image)<br>-->
     linear-to-polynomial<br>
     missing data<br>
     pipelines</div>
@@ -416,47 +647,78 @@ Support Vector Machines++++</a></strong><br>
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_dataset_utilities.ipynb">
 Dataset Builders++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-dataset-loaders.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#dataset-Examples">Examples (4)</a></strong><br>
     loaders<br> 
     generators<br> 
     external datasets</div>
 
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/imputation.ipynb">Imputation (Missing Values)++</a></strong><br>
+    <strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-feature-extraction.">Feature extraction++<br>UG 0.22.1</a></strong><br>
+    <strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#working-with-text-documents">Examples (4)</a></strong><br>
+    from dicts<br>
+    hashing<br>
+    from text (BoW, sparsity, vectorizers, stopwords, Tf-idf, decoding, apps, limits, the hashing trick, out-of-core)<br>
+    from images (patches, connectivity graphs)<br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/imputation.ipynb">Imputation (Missing data)++</a></strong><br>
+    <strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-imputation.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#missing-value-imputation">Examples (2)</a></strong><br>
     univariate<br> 
     multivariate<br> 
     nearest-neighbor<br>
-    marking imputed values</div>
+    marking imputed values
+</div>
 
-<br><br>
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch18-data-input-output.ipynb">File I/O+</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-file-io.">UG 0.22.1</a></strong><br>
     csv<br> 
     hdf5<br> 
     h5py<br> 
     pytables<br> 
     hdfstore<br> 
     json<br> 
-    serialization</div>
+    serialization<br>
+    example, pickle issues<br>
+</div>
 
 <br><br>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_preprocessing.ipynb">Preprocessing++</a></strong><br>
-    mean removal<br>
-    variance scaling<br>
-    sparse scaling<br>
-    outlier scaling<br>
-    distribution maps<br>
-    normalization<br>
-    category coding<br>
-    binning<br>
-    binarization<br>
-    polynomial features</div>
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_composite_estimators.ipynb">Composite Estimators++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-pipelines.">UG 0.22.1</a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#pipelines-and-composite-estimators">Examples (6)</a></strong><br>
+setup<br>
+tips<br>
+caching<br>
+regression target transforms
 </div>
 
-<center><h3>Scikit-Image+++++</h3></center>
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_preprocessing.ipynb">Preprocessing++</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-preprocessing.">UG 0.22.1 </a></strong><br>
+<strong><a href="https://scikit-learn.org/stable/auto_Examples/index.html#preprocessing">Examples (7)</a></strong><br>
+mean removal<br>
+variance scaling<br>
+sparse scaling<br>
+outlier scaling<br>
+distribution maps<br>
+normalization<br>
+category coding<br>
+binning<br>
+binarization<br>
+polynomial features
+</div>
+
+</div>
+
+<h2>Scikit-Image</h3></center>
 <div style="columns: 4;">
 
 <!-- ***************************************************************** -->
@@ -568,7 +830,7 @@ morphological snakes<br>
 </div>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/longform.ipynb">Longer-form examples</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/longform.ipynb">Longer-form Examples</a></strong><br>
 cascade classifiers<br>
 edge vs region based segmentation<br>
 image comparison<br>
@@ -576,7 +838,7 @@ rank filters<br>
 </div>
 
 <div class="textcard">
-<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb">Developer examples</a></strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb">Developer Examples</a></strong><br>
 LI thresholds<br>
 max trees<br>
 </div>
@@ -584,7 +846,7 @@ max trees<br>
 </div>
 
 <!-- ***************************************************************** -->
-<center><h3>PyTorch (underway):</h3></center>
+<h2>PyTorch (underway):</h3></center>
 <div style="columns: 3;">
 <!-- ***************************************************************** -->
 
@@ -739,8 +1001,10 @@ max trees<br>
 
 <br>
 
-<center><h3>Symbolics, Sparse Ops, Signal Ops, Differential Equations:</h3></center>
-<div style="column-count: 2;">
+<!-- ***************************************************************** -->
+<h2>Symbolics, Sparse Ops, Signal Ops, Differential Equations:</h2>
+<!-- ***************************************************************** -->
+<div style="column-count: 3;">
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb"> Intro to SymPy+</strong></a><br>
@@ -829,7 +1093,7 @@ max trees<br>
 
 </div><!-- of symbolics, etc -->
 
-<center><h3>Code Optimization:</h3></center>
+<h2>Code Optimization:</h3></center>
 
 <div class="textcard"><div style="column-count: 2;">
 <a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb"><strong>Numba & Cython+</strong></a><br>
@@ -851,7 +1115,7 @@ max trees<br>
     @decorators<br>
     GPUs</div></div>
 
-<center><h3>Natural Language Processing:</h3></center>
+<h2>Natural Language Processing:</h3></center>
 <div style="columns: 2;">
 
 <div class="textcard">
@@ -885,7 +1149,7 @@ max trees<br>
 
 </div><!-- of NLP -->
 
-<center><h3>TensorFlow:</h3></center>
+<h2>TensorFlow:</h3></center>
 <div style="columns: 4;">
 
 <div class="textcard">
@@ -953,7 +1217,7 @@ max trees<br>
 
 </div>
 
-<center><h3>Visualization:</h3></center>
+<h2>Visualization:</h3></center>
 <div style="columns: 4;">
 
 <div class="textcard">
@@ -970,6 +1234,18 @@ max trees<br>
         gridspecs<br> 
         colormaps<br> 
         3D plots</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_inspection.ipynb">Partial Dependence Plots</a></strong><br>
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-partial-dependence-plots.">
+    UG 0.22.1 </a></strong><br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/s/scikit-0.22.1/scikit-guide-0.22.1-visualizations.">Scikit utilities </a></strong><br>
+functions & display objects (partial dependence plots, confusion matrices, ROC curves)
+</div>
 
 
 <div class="textcard">
