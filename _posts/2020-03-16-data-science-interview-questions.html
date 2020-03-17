@@ -1,0 +1,428 @@
+---
+title: data science interview questions
+date: 2020-03-16 0800
+layout: post
+tags: datascience
+---
+
+<img src="/px/math/hyperparameters.png" width="95%">
+
+<div style="column-count: 2;">
+
+<div class="textcard-white">
+<strong>Box-cox: What is a box-cox transform?</strong><br><br>
+
+Box-cox transformations consist of raising data to a certain power, such as squaring it, cubing it, or squaring it (raised to the 1/2 power). Since something to the 0th power is always 1, the ‘0th power’ in box-cox transformations is thought of to be the log transformation.<br>
+
+The logarithm function can especially boost model performance because it puts exponential functions on a linear scale. This means that linear models like linear regression can perform better on data.<br>
+
+Squaring and cubing a function can also straighten out a data or put emphasis on certain parts of data that are important.
+</div>
+
+<div class="textcard-white">
+<strong>Clustering: How to choose k in K Means Clustering without looking at the clusters?</strong><br><br>
+
+* <strong>The elbow method</strong> is a graph (y axis = error function, x axis = #clusters. The optimum# can found the elbow of the curve.<br>
+<br>
+* <strong>The silhouette method</strong> uses a silhouette score [+1..-1] for each number of clusters. The cluster with the highest silhouette score is usually the optimal one.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Decision Trees: Describe how to handle overfitting.</strong><br><br>
+
+* Decision Trees often have high bias because the algorithm finds niche patterns in data and creates specific nodes just to address them. If unchecked, a decision tree will create so many nodes that it will perform perfectly on the training data but fail at the testing data. One method to fix overfitting in decision trees is called pruning.<br>
+<br>
+* Pruning reduces the size of decision trees by removing sections of the tree that provide little power to classify. This helps generalize the decision tree and forces it to only create nodes that are imperative to the data structure and not simply noise.<br>
+</div>
+
+<div class="textcard-white">
+<strong>(Explain the curse of) dimensionality.</strong><br><br>
+
+* It refers to issues with high-dimensional data — that do not occur in 2D/3D space.<br>
+<br>
+* As dimensionality increases, <strong>sparsity</strong> increases so quickly that to calculate all the values meaningfully for something like a machine learning model would be infeasible computationally.<br>
+<br>
+* In very high-dimensional space, <strong>Euclidean distance</strong> between any two samples is so small it becomes impossible to use a learning method that requires calculating the distance between two points.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Distributions: What is a normal distribution?</strong><br><br>
+
+A normal distribution (aka Bell Curve) is a distribution with most instances clustered at the center, and the number of instances decreasing as distance from the center increases. typically 66% of data within one stdev from the mean, 95% with two stdevss, 99% within 3 stdevs.
+</div>
+
+<div class="textcard-white">
+<strong>What are ensembles?</strong><br><br>
+
+* Ensembles are groups of algorithms that vote on the final decision. <br>
+* Ensembles succeed because one model’s weaknesses can be overvoted by other model’s strengths, but this means that a successful model must be diverse. This means that each model’s weakness must be different. Studies have shown that properly created ensembles almost always perform better than single classifiers.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Ensembles: Compare bagging and boosting.</strong><br><br>
+
+* Bagging prepares multiples datasets by randomly selecting data from the main dataset (there will be overlap within the subsets). Multiple models are trained on one of the subsets, and their final decisions are aggregated through some function.<br>
+<br>
+* Boosting iteratively adjusts the weight of an observation on the last classification. If an observation was classified correctly, it tries to increase the weight of the observation, and vice versa. Boosting decreases the bias error and builds strong predictive models.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Ensembles: compare hard and soft voting.</strong><br><br>
+
+Hard voting is when each model’s final classification (for example, 0 or 1) is aggregated, perhaps through the mean or mode.
+
+Soft voting is when each model’s final probabilities (for example, 85% sure of classification 1) are aggregated, most likely through the mean.
+
+Soft voting may be advantageous in certain cases but could lead to overfitting and a lack of generalization.
+</div>
+
+<div class="textcard-white">
+<strong>Error rates: Usually a False Negative is considered worse than a False Positive. What is one example in which a False Positive is worse than a False Negative?</strong><br><br>
+
+* An ecommerce company decides to give a $1000 gift voucher to the customers they think will purchase at least $5000 worth of items.<br>
+* If the company’s model has a false negative, it will (mistakenly) not send the voucher because it correctly believes that customer will not spend $5000.<br>
+* Although this is not ideal, the company does not lose any money. If the company send vouchers to a false positive (someone they incorrectly predict will spend $5000), the company will lose money to someone who will not spend at least $5000.
+</div>
+
+<div class="textcard-white">
+<strong>Error rates: What is recall and precision?</strong><br>
+
+Recall: ‘out of all the actually true samples, how many did the model classify as true?’.<br>
+Precision: ‘out of all the samples our model classified as true, how many were actually true?’
+</div>
+
+<div class="textcard-white">
+<strong>Error Rates: Compare MSE to MAE</strong><br><br>
+
+* Mean Squared Error ‘highlights’ larger errors. As the derivative of x² is 2x, the larger the x, the larger the difference between x and x-1 is.<br>
+* Mean Absolute Error may be favored because it is a more interpretable result.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Error rates: A test has a true positive rate of 100% and a false positive rate of 5%. There is a population with a 1/1000 rate of having the condition the test tests for. Considering only that you have a positive test, what is the probability of having that condition?</strong><br><br>
+
+* Let’s suppose you are being tested for a disease — if you have the illness the test will end up saying you have the illness. If you don’t have the illness, 5% of the time the test will end up saying you have the illness (a false positive); 95% of the time the test will say that you do not have the illness.<br>
+<br>
+* Therefore there is a 5% error when you <strong>do not</strong> have the illness.<br>
+<br>
+* Out of 1000 people, 1 person with the disease will get a true positive result. Out of the remaining 999 people, 5% will get a (false) positive result.<br>
+<br>
+* ~50 people will get a positive result. Out of 1000 people:<br>
+	* 51 people will test positive even though only one person has the illness. <br>
+	* There is (only) a 2% probability of you having the disease even if the test is positive.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Missing Data: How to handle, and what are the consequences of mistakes?</strong><br><br>
+
+* Complete case treatment = removing any row that has a NA value. This is feasible if there are not very many NA values spread across several rows and there is sufficient data; otherwise, complete case treatment can be damaging. In real-world data, removing any rows with NA values could eliminate certain observable patterns in the data.<br>
+
+* When complete case treatment is not possible, there are a variety of methods to fill in missing data, such as mode, median, or mean. Which one to use depends on the context.<br>
+
+* Another method is to use find the k-nearest neighbors to a missing data point and use the average, median, or mode of those neighbors. It provides more customizability and specification that cannot be achieved by using a statistical summary value.<br>
+
+If the method used to fill in data is messily done, it could result in selection bias — a model is only as good as the data, and if the data is skewed, the model will be skewed as well.<br>
+</div>
+
+s<div class="textcard-white">
+<strong>What is a recommender system?</strong><br><br>
+
+* Recommender systems are a subclass of information filtering systems that predict preferences or ratings a user would give to a product.
+</div>
+
+<div class="textcard-white">
+<strong>Compare linear regression to logistic regression</strong><br><br>
+
+* <strong>Linear regression</strong> is a statistical technique where a line (or an n-dimensional plane in multiple linear regression) is fitted to the data. It is used for regression — that is, when the target value is on a continuous scale.<br>
+<br>
+* <strong>Logistic regression</strong> transforms a linear regression via the sigmoid function. It gives the probability that a set of inputs is in classification 0 or classification 1.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Time series: How do you handle seasonality?</strong><br><br>
+
+* Yearly seasonality (ex: Christmas) may overlap with monthly/weekly/daily seasonality. This makes the time series non-stationary because the average of the variables is different in different time periods.<br>
+<br>
+* <strong>Differencing</strong> a time series is the best way to remove seasonality. This is the process of taking the difference between x (a date in time) and (x minus the seasonality period -- a year, a month, etc.) This means that one seasonality period worth of raw data is lost, since in the first few samples x minus the seasonality period is not accessible.
+</div>
+
+<div class="textcard-white">
+<strong>Compare SVM to Random Forest</strong><br><br>
+
+* SVM and Random Forest are classification algorithms. SVM is a better choice when data is clean & outlier-free. If not, Random Forest may be able to adapt to it.
+
+* SVM (especially with extensive parameter searches) consumes much more computational power than Random Forests. Random Forest will be better if you have memory constraints.<br>
+
+* Random Forest is preferred in multiclass problems. SVM is preferred in high-dimensional problems, such as text classification.
+</div>
+
+<div class="textcard-white">
+<strong>What are assumptions of data being passed to a linear regression model?</strong><br><br>
+
+* The data should have a normal residual distribution, statistical dependence of errors, and have linearity.
+</div>
+
+<div class="textcard-white">
+<strong>Compare Bayesian to Max Likelihood Estimation</strong><br><br>
+
+* Bayesian Estimate models have some knowledge about the data (prior). There may be several values of the parameters that explain the data, and hence, we can look for multiple parameters like 5 gammas and 5 lambdas that do this. As a result of Bayesian Estimate, there are multiple models for making multiple predictions (one for each pair of parameters but with the same prior). So, if a new example needed to be predicted, then computing the weighted sum of these predictions serves the purpose.<br>
+<br>
+* Max Likelihood does not take prior into consideration. It is analogous to being a Bayesian model using some sort of flat prior.
+</div>
+
+<div class="textcard-white">
+<strong>Neural nets: Compare an epoch, a batch, and an iteration.</strong><br><br>
+
+* Epoch: Represents one run through the entire dataset (everything put into a training model).<br>
+* Batch: Because it is computationally expensive to pass the entire dataset into the neural network at once, the dataset is divided into several batches.<br>
+* Iteration: The number of times a batch is run through each epoch. If we have 50,000 data rows and a batch size of 1,000, then each epoch will run 50 iterations.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Neural nets: What are the primary convolutional neural net layers?</strong><br><br>
+
+* Convolutional layer: A layer that performs a convolutional operation that creates several picture windows, generalizing the image.<br>
+* Activation layer (usually ReLU): Introduces non-linearity to the network and converts all negative pixels to zero. The output becomes a rectified feature map.<br>
+* Pooling Layer: A down-sampling operation that reduces the dimensionality of a feature map.<br>
+<br>
+* A convo layer is usually built from several iterations of convolutional, activation and pooling layers. It can be followed with one or more dense or dropout layers for further generalization, and finished with a fully connected layer.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Neural nets: What is a dropout layer?</strong><br><br>
+
+* A dropout layer reduces overfitting in a neural network. It acts as a mask, randomly preventing connections to certain nodes. This forces each node to carry more information. Dropouts are sometimes used after max-pooling layers.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Neural nets: How would you initialize weights</strong><br><br>
+
+* The most conventional way: randomly initialize them close to 0. A proper optimizer can take the weights in the right direction.<br>
+* If the error space is too steep, it may be difficult for an optimizer to escape a local minima. Consider initializing several neural networks, each in different locations of the error space.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: Why is BERT better than traditional NLP models?</strong><br><br>
+
+* Traditional NLP models are trained to predict the next word in a sentence, for example: ‘dog’ in “It’s raining cats and”. Other models may additionally train their models to predict the previous word in a sentence, given the context after it.<br>
+<br>
+* BERT randomly masks a word in the sentence and forces the model to predict that word with both the context before and after it, for example: ‘raining’ in “It’s _____ cats and dogs.”<br>
+<br>
+* This means BERT can detect more complex aspects of language that cannot be predicted by previous context.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: What is Named-Entity Recognition?</strong><br><br>
+
+* NER (aka entity identification, entity chunking, or entity extraction) is a subtask of information extraction that locates named entities in unstructured text into categories such as names, organization, locations, monetary values, time, etc.<br>
+<br>
+* NER attempts to separate words that are spelled the same but mean different things and to correctly identify entities that may have sub-entities in their name, like ‘America’ in ‘Bank of America’.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: You are given a large dataset of tweets, and your task is to predict if they are positive or negative sentiment. Explain how you would preprocess the data.</strong><br><br>
+
+* Since tweets are full of hashtags that may be of valuable information, the first step would be to extract hashtags and perhaps create a one-hot encoded set of features.<br>
+<br>
+* The same can be done with @ characters (whichever account the tweet is directed at may be of importance).<br>
+<br>
+* Tweets are also a case of compressed (due to character limit) writing, so there will probably be lots of purposeful misspellings that need to be corrected. Perhaps the number of misspellings in a tweet would be helpful as well — maybe angry tweet have more misspelled words.<br>
+<br>
+* Removing punctuation, albeit standard in NLP preprocessing, may be skipped in this case because the use of exclamation marks, question marks, periods, etc. may be valuable. There may be three or more columns where the value for each row is the number of exclamation marks, question marks, etc. However, when feeding the data into a model the punctuation should be removed.<br>
+<br>
+* The data would then be lemmatized and tokenized, and there is not just the raw text to feed into the model but also knowledge about hashtags, @s, misspellings, and punctuation, all of which will probably assist accuracy.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: Find the similarity between two paragraphs of text.</strong><br><br>
+
+* First: convert paragraphs into a numerical form, with a vectorizer such as bag of words or TD-IDF. In this case, bag of words may be better, since the corpus (collection of texts) is not very large.<br>
+<br>
+* Second: use cosine similarity or Euclidean distance to compute the similarity between the two vectors.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: In a corpus of N documents, a random document contains T terms. The term ‘hello’ appears K times in that document. What is the correct value for the product of TF (Term Frequency) and IDF (Inverse Document Frequency), if the term ‘hello’ appears in about one third of the total documents?</strong><br><br>
+
+* The formula for Term Frequency if K/T.<br>
+* The formula for IDF is the logarithm of the total documents over the number of documents containing the term, or log of 1 over 1/3, or log of 3.<br>
+* The TF-IDF value for ‘hello’ is therefore K * log(3)/T.<br>
+</div>
+
+<div class="textcard-white">
+<strong>NLP: Is there a universal set of stop words? When should you be more strict or lenient on them? (Being lenient on stop words means decreasing the amount of stop words eliminated from the text).</strong><br><br>
+
+* There are generally accepted stop words stored in the NLTK library in Python, but in certain contexts they should be lengthened or shortened.<br>
+<br>
+* Given a dataset of tweets, the stop words should be more lenient because each tweet does not have much content to begin with. Hence, more information will be packed into the brief amount of characters, meaning that it may be irresponsible to discard what we deem to be stop words.<br>
+<br>
+* However, given 1K short stories, be stricter on stop words to conserve computing time - and to differentiate more easily between each of the stories, which will probably all use many stop words several times.<br>
+</div>
+
+<div class="textcard-white">
+<strong>What is a P-value?</strong><br><br>
+
+* P-value is used to determine the significance of results after a hypothesis test in statistics. P-values help the analyzer draw conclusions, and is always on a scale of 0 to 1.<br>
+
+* A P-value >0.05 denotes weak evidence against the null hypothesis --> the null hypothesis cannot be rejected.<br>
+
+* A P-value <0.05 denotes strong evidence against the null hypothesis --> the null hypothesis can be rejected.<br>
+
+* A P-value =0.05 is the marginal value, indicating it is possible to go either way.
+</div>
+
+<div class="textcard-white">
+<strong>What is an ROC curve? What is AUC?</strong><br><br>
+
+* A ROC curve = the false positive rate of a model plotted against its true positive rate.<br> 
+* A completely random prediction will be a straight diagonal. The optimal model will be as close to the axes as possible.<br>
+* AUC (Area Under Curve) = a measure how close the ROC curve is to the axes. Higher AUC indicates a higher accuracy.
+</div>
+
+<div class="textcard-white">
+<strong>What is PCA?</strong><br><br>
+
+* Principal Component Analysis, is a method of dimension reduction - finds n orthogonal vectors that represent the most variance in the data, where n is the dimensions the user wants the data reduced to.<br>
+* PCA can speed up jobs or can be used to visualize high-dimensional data.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Explain the bias-variance tradeoff</strong><br><br>
+
+* Bias is a model error due to an oversimplified ML algorithm -- which can lead to underfitting. 
+* When you train your model at that time model makes simplified assumptions to make the target function easier to understand.<br>
+* Low-bias algos: decision trees, KNN, and SVM.<br>
+* High-bias algos: linear and logistic regression.<br>
+* Variance is a model due an overly complex ML algorithm -- the model learns noise from the training data set, hence performing badly on test data. It can lead to high sensitivity and overfitting.<br>
+* Normally, as you increase the complexity of your model, you will see a reduction in error due to lower bias in the model. However, this only happens until a particular point — as you continue to make your model more complex, you end up over-fitting your model.
+</div>
+
+<div class="textcard-white">
+<strong>Why is Softmax often the last operation in a neural network?</strong><br><br>
+
+* Because it accepts a vector of real numbers and returns a probability distribution. Each element is non-negative and the sum over all components is 1.
+</div>
+
+<div class="textcard-white">
+<strong>What is TF/IDF vectorization?</strong><br><br>
+
+* Term frequency-inverse document frequency reflects how important a word is to a document in a corpus. It is used as a weighting factor in information retrieval and text mining.<br>
+* TF–IDF increases proportionally to the number of times a word appears in the document but decreases proportionally by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general.
+</div>
+
+<div class="textcard-white">
+<strong>Compare different types of selection biases</strong><br><br>
+
+* Sampling bias is a systematic error due to a non-random sampling of a population.<br>
+* This causes some members of the population to be less included than others, such as low-income families being excluded from an online poll.<br>
+
+* Time interval bias is when a trial may be terminated early at an extreme value (usually for ethical reasons), but the extreme value is likely to be reached by the variable with the largest variance, even if all variables have a similar mean.<br>
+
+* Data bias is when specific subsets of data are chosen to support a conclusion or rejection of bad data on arbitrary grounds, instead of according to a previously stated or generally agreed on criteria.
+
+* Attrition bias is caused by loss of participants discounting trial subjects that did not run to completion.
+</div>
+
+<div class="textcard-white">
+<strong>Define Error Rate, Accuracy, Sensitivity/Recall, Specificity, Precision, and F-Score.</strong><br><br>
+
+<small>Where T is True, F is False, P is Positive, and N is Negative, each denoting the number of items in a confusion matrix.</small><br>
+
+* Error Rate: (FP + FN) / (P + N)<br>
+* Accuracy: (TP + TN) / (P + N)<br>
+* Sensitivity/Recall: TP / P<br>
+* Specificity: TN / N<br>
+* Precision: TP / (TP + FP)<br>
+* F-Score: Harmonic mean of precision and recall.<br>
+</div>
+
+<div class="textcard-white">
+<strong>Compare correlation and covariance</strong><br><br>
+
+* Correlation measures & estimates the relationship between two variables, and measures how strongly two variables are related.<br>
+
+* Covariance measures the extent to which two random variables change in tandem.
+</div>
+
+<div class="textcard-white">
+<strong>Why is A/B testing effective?</strong><br><br>
+
+* A/B testing is hypothesis testing for a randomized experiment with two variables A and B.<br>
+* It is effective because it minimizes conscious bias — those in group A do not know that they are in group A, or that there even is a group B, and vice versa.<br>
+* However, A/B testing is difficult to perform on any context other than Internet businesses.
+</div>
+
+<div class="textcard-white">
+<strong>Random Numbers: How would you generate a random number between 1 and 7 with only one die?</strong><br><br>
+
+* One solution is to roll the die twice. This means there are 6 x 6 = 36 possible outcomes. By excluding one combination (say, 6 and 6), there are 35 possible outcomes. <br>
+* Therefore if we assign five combinations of rolls (order does matter!) to one number, we can generate a random number between 1 and 7.<br>
+* For instance, say we roll a (1, 2). Since we have (hypothetically) defined the roll combinations (1, 1), (1, 2), (1, 3), (1, 4), and (1, 5) to the number 1, the randomly generated number would be 1.
+</div>
+
+<div class="textcard-white">
+<strong>Compare univariate, bivariate, and multivariate analaysis.</strong><br><br>
+
+* Univariate analyses are performed on only one variable. Examples: pie charts, distribution plots, and boxplots.<br>
+* Bivariate analysis map relationships between two variables. Examples: scatterplots or contour plots, as well as time series forecasting.<br>
+* Multivariate analysis deals with more than two variables to understand the effect of those variable on a target variable. This can include training neural networks for predictions or SHAP values/permutation importance to find the most important feature. It could also include scatterplots with a third feature like color or size.<br>
+</div>
+
+<div class="textcard-white">
+<strong>What is cross-validation?</strong><br><br>
+
+* Cross validation measure how well a model generalizes to an entire dataset. A traditional train-test-split method, in which part of the data is randomly selected to be training data and the other fraction test data, may mean that the model performs well on certain randomly selected fractions of test data and poorly on other randomly selected test data.<br>
+
+* In other words, the performance is not nearly indicative of the model’s performance as it is of the randomness of the test data.<br>
+
+* Cross validation splits the data into n segments. The model is trained on n-1 segments of the data and is tested on the remaining segment of data. Then, the model is refreshed and trained on a different set of n-1 segments of data. This repeats until the model has predicted values for the entire data (of which the results are averaged).<br>
+</div>
+
+<div class="textcard-white">
+<strong>What does the ‘naive’ in ‘Naive Bayes’ mean?</strong><br><br>
+
+* Naive Bayes is based on Bayes’ Theorem, which describes the probability of an event, based on prior knowledge of conditions that might be related to the event. It is considered to be ‘naive’ because it makes assumptions that may or may not be correct. This is why it can be very powerful when used correctly — it can bypass knowledge other models must find because it assumes that it is true.
+</div>
+
+<div class="textcard-white">
+<strong>What are the different kernels in SVM?</strong><br><br>
+
+Linear Kernel<br>
+Polynomial Kernel<br>
+Radial Basis Kernel<br>
+Sigmoid Kernel<br>
+</div>
+
+<div class="textcard-white">
+<strong>Recommenders: Compare collaborative filtering, content filtering, and hybrid filtering.</strong><br><br>
+
+* Collaborative filtering solely relies on user ratings to determine what a new user might like next. All product attributes are either learned through user interactions or discarded. One example of collaborative filtering is matrix factorization.<br>
+<br>
+* Content filtering relies only on intrinsic attributes of products and customers, such as product price, customer age, etc., to make recommendations. One way to achieve content filtering is to measure similarity between a profile vector and an item vector, such as cosine similarity.<br>
+<br>
+* Hybrid filtering combines content and collaborative filtering recommendations. Which filter to use depends on the real-world context — hybrid filtering may not always be the definitive answer.
+</div>
+
+<div class="textcard-white">
+<strong>Memory: You have 5GB RAM & need to train your model on a 10 GB dataset. How do you do this?</strong><br><br>
+
+* SVM: a partial fit would work. The dataset could be split into several smaller-size datasets. Because SVM is a low-computational cost algorithm, it may be the best case in this scenario.<br>
+<br>
+* If the data is not suitable for SVM, a Neural Network with a small batch size could be trained on a compressed NumPy array. NumPy has several tools for compressing large datasets, which are integrated into common neural network packages like Keras/TensorFlow and PyTorch.<br>
+</div>
+
+<div class="textcard-white">
+<strong>What is the consequence of not setting an accurate learning rate?</strong><br><br>
+
+If the learning rate it too low, the training of the model will progress very slowly, as the weights are making minimal updates. However, if the learning rate is set too high, this may cause the loss function to jump erratically due to drastic updates in weights. The model may also fail to converge to an error or may even diverge in the case that the data is too chaotic for the network to train.
+</div>
+
+<div class="textcard-white">
+<strong>Validation: Compare test sets & validation sets</strong><br><br>
+
+* A test set is used to evaluate a model’s performance after training.<br>
+* A validation set is used during training for parameter selection and to prevent overfitting on the training set.
+</div>
+
+
+</div>
