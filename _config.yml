@@ -23,12 +23,12 @@ show_excerpts: true
 # navigation links
 header_pages:
   - about.html 
+  - math.html
   - behaviors.html
   - cmos.html # was cmos/index.html # was cmos.html # was cpus.html
   - gametheory.html
   - golang.html
   - linux.html
-  - math.html
   - prodmgmt.html
   - python.html 
   - rails.html
