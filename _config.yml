@@ -23,15 +23,16 @@ show_excerpts: true
 # navigation links
 header_pages:
   - about.html 
-  - math.html
+  - math.html # titled as algorithms
   - behaviors.html
-  - cmos.html # was cmos/index.html # was cmos.html # was cpus.html
   - gametheory.html
   - golang.html
+  - ideas.html
   - linux.html
   - prodmgmt.html
   - python.html 
   - rails.html
+  - cmos.html # titled as semiconductors
   - ui-ux.html
   - webdev.html
   #- ril_export/ril_export-2020-02-15-unread.html 
