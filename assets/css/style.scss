@@ -21,6 +21,13 @@
 .card img, .textcard img {
 	align: center;
 }
+
+.textcard img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .textcard {
 	font-size: 0.9em;
 	display: inline-block;
@@ -108,9 +115,6 @@ img.zoomable {
 img.zoomable:hover {
 	transform: scale(2.0);
 }
-
-
-
 
 /* test */
 
