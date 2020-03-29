@@ -21,14 +21,12 @@ layout: default
     {%- assign recentposts = site.posts | sort: 'date' -%}
     {%- assign lastpost  = recentposts.last -%}
     
-    <h2>Most Recent:</h2>
-    <strong>
+    <!--<h2>Most Recent:</h2>-->
+    <h1>
       <a href="{{ lastpost.url | relative_url }}">{{ lastpost.title | escape }}</a>
-    </strong>&nbsp;
-    <small>({{ lastpost.date | date: "%m/%-d/%Y" }})</small><br>
+    </h1>
     <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
     
-    <br><br>
     <h2>Index by Title:</h2>
 
     {%- assign sortedposts = site.posts | sort: 'title' -%}
