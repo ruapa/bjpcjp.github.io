@@ -32,9 +32,11 @@ header_pages:
   - prodmgmt.html
   - python.html 
   - rails.html
-  - cmos.html # titled as semiconductors
+  - cmos.html # titled as chips
   - ui-ux.html
-  - webdev.html
+  - webdev.html # titled as web tools
+  - posts.html #
+
   #- ril_export/ril_export-2020-02-15-unread.html 
   #- ril_export/ril_export-2020-02-15-archive.html 
   #- ril_export/ril_export-2020-02-19.html
@@ -61,8 +63,8 @@ algolia:
 #  nodes_to_index: 'p,div.card,div.textcard,blockquote'
   
 # pagination:
-paginate: 20
-paginate_path: "/page:num/"
+#paginate: 20
+#paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -20,22 +20,27 @@ layout: default
 
     {%- assign recentposts = site.posts | sort: 'date' -%}
     {%- assign lastpost  = recentposts.last -%}
-    {%- assign lasttenposts = recentposts | slice: 1, 10 -%}
+    {%- assign lasttenposts = recentposts | reverse | slice: 1, 10 -%}
     {%- assign showindex = True -%}
 
+    <!--
     <h1><a href="{{ lastpost.url }}">{{ lastpost.title | escape }}</a></h1>
         <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}       </a><br>
-    
-    <h2>Index by Title:</h2>
+    -->
 
-    {%- assign sortedposts = site.posts | sort: 'title' -%}
+      <div style="column-count: 2;">
 
-    <div class="textcard">
-      <div style="column-count: 3;">
-        {%- for post in sortedposts -%}            
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> &nbsp;
-          <!-- ({{ post.date | date: "%m/%d/%Y" }}) -->
-          <br>
+        <div class="textcard">
+	      <a href="{{ lastpost.url }}">{{ lastpost.title | escape }}</a>
+	      <a href="{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
+	    </div>
+	    
+        {%- for post in lasttenposts -%}            
+          <div class="textcard">
+            <a href="{{ post.url }}">{{ post.title | escape }}</a> &nbsp;
+            <!-- ({{ post.date | date: "%m/%d/%Y" }}) -->
+    		<a href="{{ post.url }}">{{ post.excerpt }}</a><br>        
+          </div>
         {%- endfor -%}
       </div>
     </div>

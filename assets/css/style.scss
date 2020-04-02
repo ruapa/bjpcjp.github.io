@@ -27,6 +27,12 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.textcard-white img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .textcard {
 	font-size: 0.9em;
@@ -41,6 +47,7 @@
   -webkit-box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Safari+Chrome */
   box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Opera */
 }
+
 .textcard-almond {
 	font-size: 0.9em;
 	display: inline-block;
@@ -54,6 +61,7 @@
   -webkit-box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Safari+Chrome */
   box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Opera */
 }
+
 .textcard-white {
 	font-size: 0.9em;
 	display: inline-block;
@@ -68,6 +76,7 @@
   -webkit-box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Safari+Chrome */
   box-shadow: 3px 3px 5px rgba(33,33,33,.7);   /* Opera */
 }
+
 .stickynote {
 	font-size: 0.9em;
 	display: inline-block;

@@ -1,0 +1,16 @@
+---
+title: All Posts
+layout: page
+---
+
+{%- assign sortedposts = site.posts | sort: 'title' -%}
+
+<div class="textcard">
+  <div style="column-count: 3;">
+    {%- for post in sortedposts -%}            
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> &nbsp;
+      <!-- ({{ post.date | date: "%m/%d/%Y" }}) -->
+      <br>
+    {%- endfor -%}
+  </div>
+</div>
