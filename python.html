@@ -18,7 +18,7 @@ permalink: /python/
     <a href="#featuring">Feature Engineering</a><br>
     <a href="#skimage">Scikit-Image Toolbox</a><br>
     <a href="#pytorch">PyTorch</a><br>
-    <a href="#numerics">Scientific Python</a><br>
+    <a href="#numerics">Numerical Analysis</a><br>
     <a href="#codeopts">Cython, Numba tricks</a><br>
     <a href="#nlp">Natural Language Processing</a><br>
     <a href="#tensorflow">Tensorflow</a><br>
@@ -328,6 +328,85 @@ permalink: /python/
 
 </div>
 
+<!-- ***************************************************************** -->
+<h2 id="numerics">Numerical Analysis with SymPy & SciPy:</h2>
+<!-- ***************************************************************** -->
+<div style="column-count: 4;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank"> Intro to SymPy</strong></a><br>
+    <em>symbols, numbers, rationals, constants, functions, expressions, simplification,
+    expansion, factor, collect, combine, apart, together, cancel, substitutions,
+    evaluations, calculus, sums, products, equations, linear algebra</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank">Equation solvers</strong></a><br>
+    <em>square v rectangular, eigenvalues, nonlinear eqtns, univariate eqtns</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch06-optimization.ipynb" target="_blank">Optimization</a></strong><br>
+    <em>univariate, multivariate, constrained, linear programming</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb" target="_blank">Interpolation</a></strong><br>
+    <em>polynomials, splines, multivariate</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb" target="_blank">Integration</a></strong><br>
+    <em>simpson's rule, multiple integration, scikit-monaco, symbolic/multiprecision quadrature, laplace xforms, fourier xforms</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb" target="_blank">Signal Processing</a></strong><br>
+    <em>spectral analysis, fourier transforms, frequency-domain filtering, windowing, 
+    spectrograms, convolutions, FIR/IIR filters</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb" target="_blank">Sparse Matrix & Graph Ops</a></strong><br>
+    <em>sparse matrices, sparse linear algebra, eigenvalue problems, graphs & networks</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb" target="_blank">Ordinary DEs</a></strong><br>
+    <em>symbolic solutions, direction field graphs, laplace transforms, numerical methods, numerical integration</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb" target="_blank">Partial DEs</a></strong><br>
+    <em>Dolfin, MSHR (**NOT WORKING YET**)</em>
+</div>
+
+</div><!-- of symbolics, etc -->
+
+<!-- ***************************************************************** -->
+<h2 id="codeopts">Code Optimization - Numba, Cython:</h2>
+<!-- ***************************************************************** -->
+
+<div style="column-count: 2;">
+
+<div class="textcard">
+<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb" target="_blank"><strong>Basics</strong></a><br>
+    <em>numba, numba.vectorize, cython, tips & tricks, cython & C</em>
+</div>
+
+<br><br>
+
+<div class="textcard">
+<a href="https://numba.pydata.org/numba-doc/dev/user/5minguide.html" target="_blank">
+<strong>A Five-Minute Intro (numba.pydata)</strong></a><br>
+    <em>installation, will it work?, nopython, performance, under the hood, @decorators, GPUs</em>
+</div>
+
+</div>
+
 <!-- ********************************************************************** -->
 <h2 id="sklearn">Scikit-Learn Toolbox:</h2>
 <!-- ********************************************************************** -->
@@ -425,7 +504,7 @@ permalink: /python/
 </div>
 
 <!-- ********************************************************************** -->
-<h2 id="supervised">Supervised Machine Learning:</h2>
+<h2 id="supervised">Machine Learning (Supervised):</h2>
 <!-- ********************************************************************** -->
 <div style="columns: 4;">
 
@@ -572,7 +651,7 @@ Support Vector Machines (more)</a></strong><br>
 <br>
 
 <!-- ********************************************************************** -->
-<h2 id="unsupervised">Unsupervised Machine Learning</h2>
+<h2 id="unsupervised">Machine Learning (Unsupervised)</h2>
 <!-- ********************************************************************** -->
 <div style="columns: 4;">
 
@@ -728,12 +807,12 @@ Dataset Utilities</a></strong><br>
 </div>
 
 <!-- ********************************************************************** -->
-<h2 id="skimage">Scikit-Image</h2>
+<h2 id="skimage">Scikit-Image:</h2>
 <!-- ********************************************************************** -->
 <div style="columns: 3;">
 
 <div class="textcard">
-<strong><a href="https://scikit-image.org/">Scikit-image</a></strong><br>
+<strong><a href="https://scikit-image.org/">Site</a></strong><br>
 </div>
 
 <div class="textcard">
@@ -770,14 +849,13 @@ Dataset Utilities</a></strong><br>
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/edges-lines.ipynb" target="_blank">Edge & line operations</a></strong><br>
     <em>contours, convex hulls, canny edge detectors, matching cubes, ridge ops, active contour model,
-    shapes, hough transforms, skeletonize, polygon ops, edges
-    </em>
+    shapes, hough transforms, skeletonize, polygon ops, edges</em>
 </div>
 
 <div class="textcard">
 <strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/transforms-registration.ipynb" target="_blank">Transforms & registration</a></strong><br>
     <em>swirl, image pyramids, rescale, resize, downscale, piecewise affine transforms, structural similarities, 
-    phase correlation, polar, log-polar transforms, line model estimation, radon transforms<br>
+    phase correlation, polar, log-polar transforms, line model estimation, radon transforms</em>
 </div>
 
 <div class="textcard">
@@ -995,84 +1073,6 @@ Dataset Utilities</a></strong><br>
 
 <br>
 
-<!-- ***************************************************************** -->
-<h2 id="numerics">Symbolics, Sparse Ops, Signal Processing, Diff Eqtns:</h2>
-<!-- ***************************************************************** -->
-<div style="column-count: 4;">
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank"> Intro to SymPy</strong></a><br>
-    <em>symbols, numbers, rationals, constants, functions, expressions, simplification,
-    expansion, factor, collect, combine, apart, together, cancel, substitutions,
-    evaluations, calculus, sums, products, equations, linear algebra</em>
-</div>
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank">Equation solvers</strong></a><br>
-    <em>square v rectangular, eigenvalues, nonlinear eqtns, univariate eqtns</em>
-</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch06-optimization.ipynb" target="_blank">Optimization</a></strong><br>
-    <em>univariate, multivariate, constrained, linear programming</em>
-</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb" target="_blank">Interpolation</a></strong><br>
-    <em>polynomials, splines, multivariate</em>
-</div>
-
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb" target="_blank">Integration</a></strong><br>
-    <em>simpson's rule, multiple integration, scikit-monaco, symbolic/multiprecision quadrature, laplace xforms, fourier xforms</em>
-</div>
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb" target="_blank">Signal Processing</a></strong><br>
-    <em>spectral analysis, fourier transforms, frequency-domain filtering, windowing, 
-    spectrograms, convolutions, FIR/IIR filters</em>
-</div>
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb" target="_blank">Sparse Matrix & Graph Ops</a></strong><br>
-    <em>sparse matrices, sparse linear algebra, eigenvalue problems, graphs & networks</em>
-</div>
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb" target="_blank">Ordinary DEs</a></strong><br>
-    <em>symbolic solutions, direction field graphs, laplace transforms, numerical methods, numerical integration</em>
-</div>
-
-<div class="textcard">
-<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb" target="_blank">Partial DEs</a></strong><br>
-    <em>Dolfin, MSHR (**NOT WORKING YET**)</em>
-</div>
-
-</div><!-- of symbolics, etc -->
-
-<!-- ***************************************************************** -->
-<h2 id="codeopts">Code Optimization:</h2>
-<!-- ***************************************************************** -->
-
-<div style="column-count: 2;">
-
-<div class="textcard">
-<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb" target="_blank"><strong>Numba & Cython</strong></a><br>
-    <em>numba, numba.vectorize, cython, tips & tricks, cython & C</em>
-</div>
-
-<br><br>
-
-<div class="textcard">
-<a href="https://numba.pydata.org/numba-doc/dev/user/5minguide.html" target="_blank">
-<strong>A Five-Minute Intro (numba.pydata)</strong></a><br>
-    <em>installation, will it work?, nopython, performance, under the hood, @decorators, GPUs</em>
-</div>
-
-</div>
 
 <!-- ***************************************************************** -->
 <h2 id="nlp">Natural Language Processing:</h2>
