@@ -7,16 +7,18 @@
 
       
       <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        <h2>{{ site.title | escape }}</h2>
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {%- if site.author -%}
+            <li class="p-name">
+              {{ site.author | escape }}</li>
+          {%- endif -%}
+
+          {%- if site.email -%}
+            <li>
+              <a class="u-email" href="mailto:{{ site.email }}">
+                {{ site.email }}</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
@@ -24,11 +26,6 @@
         <p>{{- site.description | escape -}}</p>
       </div>
 
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
-    </div>
-
-  </div>
-
+    </div><!-- of footer-col-wrapper -->
+  </div><!-- of wrapper -->
 </footer>

@@ -25,6 +25,9 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
 end
 
+# social icons: added 2020-04-17
+gem 'jekyll_social_icons'
+
 # pagination
 gem "jekyll-paginate"
 

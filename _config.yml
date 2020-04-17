@@ -3,19 +3,23 @@
 # Site settings
 
 title: Obviously Awesome
+description: ""
 email: bjpcjp@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Brian Piercy's personal repo.
+author: Brian Piercy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bjpcjp.github.io"
-twitter_username: brianpiercy
-github_username:  bjpcjp
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll_social_icons
+
+social_links:
+  twitter: https://twitter.com/brianpiercy
+  github: https://github.com/bjpcjp
+  linkedin: https://linkedin.com/in/brianpiercy
 
 # excerpt visibility
 show_excerpts: true 
@@ -44,8 +48,6 @@ header_pages:
 # collections
 #
 #
-#
-
 
 # algolia search plugin API:
 algolia:
