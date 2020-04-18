@@ -32,7 +32,7 @@ header_pages:
   - gametheory.html
   - golang.html
   - ideas.html
-  - linux.html
+  - devops.html # was linux.html
   - prodmgmt.html
   - python.html 
   - rails.html
