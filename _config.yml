@@ -37,7 +37,7 @@ header_pages:
   - python.html 
   - rails.html
   - cmos.html # titled as chips
-  - ui-ux.html
+  - design.html # was uiux.html
   - webdev.html # titled as web tools
   - posts.html #
 
