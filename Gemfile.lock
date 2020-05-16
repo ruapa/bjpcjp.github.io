@@ -265,7 +265,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-algolia
-  jekyll-feed (~> 0.6)
+  jekyll-feed
   jekyll-paginate
   jekyll-sitemap
   jekyll_social_icons
