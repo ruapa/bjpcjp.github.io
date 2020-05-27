@@ -1,131 +1,152 @@
 ---
-title: CPU architecture quant ebook (5th) 
-date: 2020-02-10 16:0:0
+title: CPU quantitative architecture book notes (5th ed)
+date: 2020-05-25 16:0:0
 layout: post
 tags: cmos
 ---
 
-<a href="https://duckduckgo.com/?q=cpu+quantitative+architecture+patterson+5th+edition">
-	<img src="/px/chips/quant-arch/book-cover.png" width="95%"></a>
+<a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	<img src="/px/chips/quant-arch/book-cover.png" width="98%"></a>
+<br>
+<p>I'm ectastic to discover that the Hennessy / Patterson 5th edition is now available online thanks to ACM! This is, IMO, the gold standard if you want to understand how microprocessors are designed from first principles.</p>
 
-<div style="column-count: 3;">
+<div style="column-count: 2;">
 
 <div class="textcard">
 <!-- <a href="/pdfs/cpus-quant/comparchs-ch01.pdf">-->
-	<a href="#">Fundamentals (offline)</a><br>
-	Classifications, &nbsp; Technology Trends, &nbsp; Power/Energy Trends, &nbsp; 
-	Cost Trends, &nbsp; Dependability, &nbsp; Benchmarking, &nbsp; 
-	Design Principles, &nbsp; Issues, &nbsp; <br>
+<!-- <a href="#">Fundamentals (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 1: Fundamentals</a></strong><br>
+	<img src="/px/chips/quant-arch/01-bandwidth-vs-latency-by-tech.png" width="98%">
+	Classifications<br> Technology Trends<br> Power/Energy Trends<br> 
+	Cost Trends<br> Dependability<br> Benchmarking<br> 
+	Design Principles<br> Issues<br>
 </div>
 
 
 <div class="textcard">
 <!-- <a href="/pdfs/cpus-quant/comparchs-ch02.pdf">-->
-	<a href="#">Memory Hierarchy Design (offline)</a><br>
-	10 Cache Optimization Tactics, &nbsp;
-	Technologies, &nbsp;
-	Protection, &nbsp;
-	Hierarchy Design, &nbsp;
-	Cortex-A8 vs Core i7, &nbsp;
-	Issues, &nbsp;
+<!-- <a href="#">Memory Hierarchy Design (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 2: Memory Hierarchy Design</a></strong><br>
+	<img src="/px/chips/quant-arch/02-cache-energy-vs-size-vs-associativity.png" width="98%">
+	10 Cache Optimization Tactics<br>
+	Technologies<br>
+	Protection<br>
+	Hierarchy Design<br>
+	Cortex-A8 vs Core i7<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!-- <a href="/pdfs/cpus-quant/comparchs-ch03.pdf">-->
-	<a href="#">Instruction Parallelism (offline)</a><br>
-	CPUs: **Instruction** Parallelism</a><br>
-	Concepts, &nbsp;
-	Compiler Techniques, &nbsp;
-	Advanced Branch Prediction, &nbsp;
-	Dynamic Scheduling, &nbsp;
-	Hardware-based Speculation, &nbsp;
-	Tactic: Multiple-Issue, Static Scheduling, &nbsp;
-	Tactic: Multiple-Issue, Static Scheduling & Speculation, &nbsp;
-	Limitations, &nbsp;
-	Multithreading, &nbsp;
-	Analysis: Cortex-A8 vs Core i7, &nbsp;
-	Issues, &nbsp;
+<!-- <a href="#">Instruction Parallelism (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 3: Instruction Parallelism Techniques</a></strong><br>
+	<img src="/px/chips/quant-arch/03-techniques.png" width="98%">
+	Concepts<br>
+	Compiler Techniques<br>
+	Advanced Branch Prediction<br>
+	Dynamic Scheduling<br>
+	Hardware-based Speculation<br>
+	Tactic: Multiple-Issue, Static Scheduling<br>
+	Tactic: Multiple-Issue, Static Scheduling & Speculation<br>
+	Limitations<br>
+	Multithreading<br>
+	Analysis: Cortex-A8 vs Core i7<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!-- <a href="/pdfs/cpus-quant/comparchs-ch04.pdf">-->
-	<a href="#">Data Parallelism (offline)</a><br>
-	Vector Architectures, &nbsp;
-	SIMD Multimedia Instructions, &nbsp;
-	Graphics Processing Units, &nbsp;
-	Loop-Level Parallelism, &nbsp;
-	Analysis: Mobile vs Server GPUs, &nbsp;
-	Issues, &nbsp;
+<!-- <a href="#">Data Parallelism (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 4: Data Parallelism Techniques</a></strong><br>
+	<img src="/px/chips/quant-arch/04-arithmetic-intensity.png" width="98%">
+	Vector Architectures<br>
+	SIMD Multimedia Instructions<br>
+	Graphics Processing Units<br>
+	Loop-Level Parallelism<br>
+	Analysis: Mobile vs Server GPUs<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!--<a href="/pdfs/cpus-quant/comparchs-ch05.pdf">-->
-		<a href="#">Thread Parallelism (offline)</a><br>
-	Centralized Shared-Memory Designs, &nbsp;
-	Symmetric Shared-Memory Performance, &nbsp;
-	Distributed Shared-Memory & Directory-Based Coherence, &nbsp;
-	Memory Consistency, &nbsp;
-	Multicores, &nbsp;
-	Issues, &nbsp;
+<!--<a href="#">Thread Parallelism (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 5: Thread Parallelism Techniques</a></strong><br>
+	<img src="/px/chips/quant-arch/05-multicore-uniform-memory-access.png" width="98%">
+	Centralized Shared-Memory Designs<br>
+	Symmetric Shared-Memory Performance<br>
+	Distributed Shared-Memory & Directory-Based Coherence<br>
+	Memory Consistency<br>
+	Multicores<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!--<a href="/pdfs/cpus-quant/comparchs-ch06.pdf">-->
-	<a href="#">Warehouse-Level Scaling (offline)</a><br>
-	Workloads, &nbsp;
-	Architectures, &nbsp;
-	Physical Factors, &nbsp;
-	Cloud Computing, &nbsp;
-	Google Data Center, &nbsp;
+<!--<a href="#">Warehouse-Level Scaling (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Chap 6: Data Center Scaling</a></strong><br>
+	<img src="/px/chips/quant-arch/06-cpu-utilization-google.png" width="98%">
+	Workloads<br>
+	Architectures<br>
+	Physical Factors<br>
+	Cloud Computing<br>
+	Google Data Center<br>
 	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!--<a href="/pdfs/cpus-quant/comparchs-apxA.pdf">-->
-	<a href="#">Instruction Sets (offline)</a><br>
-	Classifications, &nbsp;
-	Memory Addressing, &nbsp;
-	Operands, &nbsp;
-	Operations, &nbsp;
-	Control Flow, &nbsp;
-	Encoding, &nbsp;
-	Compilers, &nbsp;
-	Example: MIPS, &nbsp;
-	Issues, &nbsp;
+<!--<a href="#">Instruction Sets (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Apndx A: Instruction Set Basics</a></strong><br>
+	<img src="/px/chips/quant-arch/A-addressing-modes.png" width="98%">
+	Classifications<br>
+	Memory Addressing<br>
+	Operands<br>
+	Operations<br>
+	Control Flow<br>
+	Encoding<br>
+	Compilers<br>
+	Example: MIPS<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
-<a href="/pdfs/cpus-quant/comparchs-apxB.pdf">
-	<a href="#">Memory Hierarchy Review (offline)</a><br>
-	Cache Performance, &nbsp;
-	Basic Cache Optmizations, &nbsp;
-	Virtual Memory, &nbsp;
-	Protection, &nbsp;
-	Issues, &nbsp;
+<!--<a href="/pdfs/cpus-quant/comparchs-apxB.pdf">-->
+<!--<a href="#">Memory Hierarchy Review (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Apndx B: Memory Hierarchy Review</a></strong><br>
+	<img src="/px/chips/quant-arch/B-cache-block-options.png" width="98%">
+	Cache Performance<br>
+	Basic Cache Optmizations<br>
+	Virtual Memory<br>
+	Protection<br>
+	Issues<br>
 </div>
 
 
 <div class="textcard">
 <!--<a href="/pdfs/cpus-quant/comparchs-apxC.pdf">-->
-	<a href="#">Pipelining (offline)</a><br>
-	Hazards, &nbsp;
-	Implementation, &nbsp;
-	MIPS multicycle ops, &nbsp;
-	R4000, &nbsp;
-	Issues, &nbsp;
-</div>
-
-<div class="textcard">
-<!--<a href="/pdfs/cpus-quant/comparchs-indx.pdf">-->
-	<a href="#">Index (offline)</a><br>
+<!--<a href="#">Pipelining (offline)</a><br>-->
+	<strong><a href="https://dl.acm.org/doi/pdf/10.5555/1999263">
+	Apndx C: Pipelining Concepts</a></strong><br>
+	<img src="/px/chips/quant-arch/C-risc-pipeline.png" width="98%">
+	Hazards<br>
+	Implementation<br>
+	MIPS multicycle ops<br>
+	R4000<br>
+	Issues<br>
 </div>
 
 </div>
-
-<a href="/cmos">My link library: cmos</a><br>
