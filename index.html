@@ -27,7 +27,7 @@ title: Stuff I'm Reading
 
     {%- assign recentposts = site.posts | sort: 'date' -%}
     {%- assign lastpost  = recentposts.last -%}
-    {%- assign lasttenposts = recentposts | reverse | slice: 1, 10 -%}
+    {%- assign last20posts = recentposts | reverse | slice: 1, 20 -%}
     {%- assign showindex = True -%}
 
     <!--
@@ -42,7 +42,7 @@ title: Stuff I'm Reading
 	      <a href"{{ lastpost.url }}">{{ lastpost.excerpt }}</a><br>
 	    </div>
 	    
-        {%- for post in lasttenposts -%}            
+        {%- for post in last20posts -%}            
           <div class="textcard">
           <h3><strong><a href="{{ post.url }}">{{ post.title | escape }}</a></strong></h3>
     		<a href="{{ post.url }}">{{ post.excerpt }}</a><br>        
