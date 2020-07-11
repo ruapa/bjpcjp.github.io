@@ -1,0 +1,96 @@
+---
+title: Linux networking commands
+date: 2020-07-10
+layout: post
+tags: [linux, devops]
+---
+
+<center><a href="https://www.labnol.org/network-commands-200706">
+	<img src="/px/devops/network-commands.gif" width="98%"></a></center>
+	<br>
+
+<div style="column-count: 2;">
+
+	<div class="textcard">
+		<strong>What is my IP address</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		curl https://checkip.amazonaws.com</div>
+		<p>Make a curl or wget request to the checkip.amazonaws.com and it prints the public IP address of your computer. You can also connect to Akamai’s whatismyip.akamai.com domain get your external IP address.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>What is my Private IP address</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		ifconfig en0 | grep inet</div>
+		<p>Your computer has a private IP address that only work within the local network. For older Macs with a wired Ethernet port, use en0 for Ethernet interface or en1 for the WiFi interface.</p>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		networksetup -listnetworkserviceorder</div>
+		<p>Print a list all network interfaces available on your machine.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>Find the Location of IP address</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		curl https://ip2c.org/?ip=8.8.8.8</div>
+		<p>The free ‘ip2c’ service resolves an IP address to the country. Or, use ipapi to get more details of an IP address including the city name, timezone and even the latitude and longitude associated with an IP address.</p>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		curl https://ipapi.co/8.8.8.8/json</div>
+	</div>
+	
+	<div class="textcard">
+		<strong>DNS Records: Find the IP address of a website</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		dig +short www.labnol.org</div>
+		<p></p>
+	</div>
+	
+	<div class="textcard">
+		<strong>DNS Records: Find the Mail Server of Domain</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		host -t MX labnol.org</div>
+		<p>The Mail Exchange (MX) records specify the incoming mail servers that used for delivering email messages sent to your domain name.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>Print all DNS Records of a Domain</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		dig +nocmd amazon.com any +noall +answer</div>
+		<p>Get a list of all DNS records of a domain including TXT records, MX records and name servers. The name servers handle queries regarding the location of the domain’s website, email and other services.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>Who is hosting a website?</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		dig +short netflix.com A | tail -1</div>
+		<p>Use dig to find the IP address of a website. Use the dig command to perform a reverse lookup to find the host of that IP address.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>Find the owner of the website</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		whois dictation.io</div>
+		<p>Use whois to reveal information about any web domain including the date when it was first registered, the contact details of the owner, the expiration date of the domain, the name of the domain registrar and so on.</p>
+
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">
+		dig +nocmd -x 52.11.104.17 +noall +answer</div>
+		<p>Use that IP address in the next command to get the hostname.</p>
+
+	</div>
+	
+	<div class="textcard">
+		<strong>Test Network Connectivity</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">ping -c 5 -i 2 labnol.org</div>
+		<p>The ping command helps you test if a remote host is reachable and whether your machine can connect to it properly. The above command pings the host 5 time and there’s a 2 second wait between pings.</p>
+	</div>
+	
+	<div class="textcard">
+		<strong>Where’s the fault?</strong><br>
+		<div style="background-color: #FF9; padding: 1em; border: 1px solid #FC3;">traceroute labnol.org</div>
+		<p>If your Internet connection is working but you are unable to reach a website, there could be an issue with an intermediate router that the packets have to pass through to reach the server.
+
+Traceroute prints the network path from your local computer to the website that the traffic must pass through.</p>
+	</div>
+	
+
+	
+</div>
