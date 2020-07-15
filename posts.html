@@ -10,7 +10,11 @@ layout: page
     {%- for post in sortedposts -%}            
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> &nbsp;
       <!-- ({{ post.date | date: "%m/%d/%Y" }}) -->
-      <br>
+      {% assign taggs = post.tags %}
+      {% for tag in taggs %}
+      	{{ taggs }}
+      {% endfor %}
+      <br> 
     {%- endfor -%}
   </div>
 </div>

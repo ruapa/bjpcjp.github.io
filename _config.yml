@@ -29,6 +29,7 @@ header_pages:
   - about.html 
   - math.html # titled as algorithms
   - behaviors.html
+  - cmos.html # titled as chips
   - gametheory.html
   - golang.html
   - ideas.html
@@ -36,10 +37,10 @@ header_pages:
   - prodmgmt.html
   - python.html 
   - rails.html
-  - cmos.html # titled as chips
-  - design.html # was uiux.html
-  - webdev.html # titled as web tools
-  - posts.html #
+  - uiux.html # titled as ui/ux.html
+  - webdev.html # titled as web tech
+  - posts-by-tag.html
+
 
   #- ril_export/ril_export-2020-02-15-unread.html 
   #- ril_export/ril_export-2020-02-15-archive.html 

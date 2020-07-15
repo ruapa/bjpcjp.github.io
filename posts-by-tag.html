@@ -1,0 +1,19 @@
+---
+title: Posts by Tag
+layout: page
+---
+
+{% assign allsortedtags = site.tags | sort %}
+
+<div class="textcard">
+  <div style="column-count: 2;">
+    {%- for tag in allsortedtags -%}
+      <h4>{{ tag[0] }}</h4>
+      <ul>
+        {% for post in tag[1] %}
+          <li><a href="{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
