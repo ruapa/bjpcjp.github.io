@@ -1,0 +1,71 @@
+---
+title: Linux Servers - SSH Hardening Tips
+layout: post
+tags: devops linux
+date: 2020-07-15
+---
+
+<a href="https://linuxhandbook.com/ssh-hardening-tips/">
+	<img src="/px/devops/SSH-hardening.jpg" width="98%"></a>
+<br><br>
+
+<div style="column-count: 2;">
+
+<div class="textcard">
+Don't know what the settings are?<br>
+<code>sshd -T</code><br>
+</div>
+
+<div class="textcard">
+1. Disable empty passwords:<br>
+<code>PermitEmptyPasswords no</code><br>
+</div>
+
+<div class="textcard">
+2. Change default SSH ports:<br>
+<code>Port 2345</code><br>
+</div>
+
+<div class="textcard">
+3. Disable root login via SSH:<br>
+<code>PermitRootLogin no</code><br>
+</div>
+
+<div class="textcard">
+4. Disable ssh protocol 1:<br>
+<code>Protocol 2</code><br>
+</div>
+
+<div class="textcard">
+5. Configure idle timeout interval (seconds):<br>
+<code>ClientAliveInterval 300</code><br>
+</div>
+
+<div class="textcard">
+6. Allow SSH access to selected users only:<br>
+<code>AllowUsers User1 User2</code><br>
+Also: <code>AllowGroups {groupname}</code>, <code>DenyUsers</code>, <code>DenyGroups</code>
+</div>
+
+<div class="textcard">
+7. Disable X11 Forwarding:<br>
+<code>X11Forwarding no</code><br>
+</div>
+
+<div class="textcard">
+8. Mitigate brute force attacks automatically:<br>
+<a href="https://linuxhandbook.com/fail2ban-basic/">Intro to FailBan</a><br>
+</div>
+
+<div class="textcard">
+9. Disable password based SSH login:<br>
+<a href="https://linuxhandbook.com/add-ssh-public-key-to-server/">How to add SSH public keys to a server</a><br>
+<a href="https://linuxhandbook.com/ssh-disable-password-authentication/">Detailed tutorial</a><br>
+</div>
+
+<div class="textcard">
+10. Enable Two-factor authentication with SSH:<br>
+<a href="https://www.linode.com/docs/security/authentication/two-factor-authentication/use-one-time-passwords-for-two-factor-authentication-with-ssh-on-ubuntu-16-04-and-debian-8/">Tutorial</a><br>
+</div>
+
+</div>
