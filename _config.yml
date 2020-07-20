@@ -42,14 +42,6 @@ header_pages:
   - posts-by-tag.html
 
 
-  #- ril_export/ril_export-2020-02-15-unread.html 
-  #- ril_export/ril_export-2020-02-15-archive.html 
-  #- ril_export/ril_export-2020-02-19.html
-
-# collections
-#
-#
-
 # algolia search plugin API:
 algolia:
   #application_id: 0ST64V6V0J
