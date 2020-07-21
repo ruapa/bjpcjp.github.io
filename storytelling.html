@@ -6,9 +6,40 @@ permalink: /stories/
 
 <h3>Many of these can also be found on my <a href="/prodmgmt#storytelling">Product Management page.</a></h3>
 
+<div class="textcard-white">
+<a href="/pdfs/storytelling/1902.01109-storytelling-strategies.pdf">
+ArXiV 1902.01109 (Storytelling Strategies)</a><br><br>
+
+<p>Writers often rely on plans or sketches to write long stories, but most current language models generate word by word from left to  right. We explore coarse-to-fine models for creating narrative texts of several hundred words, and introduce new models which decompose stories by abstracting over actions and entities. The model first generates the predicate-argument structure of the text, where different mentions of the same entity are marked with placeholder tokens. It then generates a surface realization of the predicate-argument structure, and finally replaces the entity placeholders with context-sensitive names and references. Human judges prefer the stories from our models to a wide range of previous approaches to hierarchical text generation. Extensive analysis shows that our methods can help improve the diversity and coherence of events and entities in generated stories.</p>
+</div>
+
+<div class="textcard-white">
+<a href="/pdfs/storytelling/2004.14967-plot-machines.pdf">
+ArXiV 2004.14967 (Plot Machines)</a><br><br>
+
+<p>We propose the task of outline-conditioned story generation: given an outline as a set of phrases that describe key characters and events to appear in a story, the task is to generate a coherent narrative that is consistent with the provided outline. This task is challenging as the input only provides a rough sketch of the plot, and thus, models need to generate a story by weaving through the key points provided in the outline. This requires the model to keep track of the dynamic states of the latent plot, conditioning on the input outline while generating the full story.</p>
+</div>
+
+<div class="textcard-white">
+<a href="/pdfs/storytelling/1809.10736-plot-generation-plot-shaping.pdf">
+ArXiV 1809.10736 (Plot Shaping)</a><br><br>
+
+<p>Language-modeling–based approaches to story plot generation attempt to construct a plot by sampling from a language model (LM) to predict the next character, word, or sentence to add to the story. LM techniques lack the ability to receive guidance from the user to achieve a specific goal, resulting in stories that don’t have a clear sense of progression and lack coherence. We present a reward-shaping
+technique that analyzes a story corpus and produces intermediate rewards that are backpropagated into a pre-trained LM in order to guide the model towards a given goal. Automated evaluations show our technique can create a model that generates story plots which consistently achieve a specified goal. Human-subject studies show that the generated stories have more plausible event ordering than baseline plot generation techniques.</p>
+</div>
+
+<div class="textcard-white">
+<a href="/pdfs/storytelling/1812.02784-storyGAN.pdf">
+ArXiV 1812.02784 (StoryGANs)</a><br><br>
+
+<p>We propose a new task, called Story Visualization. Given a multi-sentence paragraph, the story is visualized by generating a sequence of images, one for each sentence. In contrast to video generation, story visualization focuses less on the continuity in generated images (frames), but more on the global consistency across dynamic scenes and characters – a challenge that has not been addressed by any singleimage or video generation methods. We therefore propose a new story-to-image-sequence generation model, StoryGAN, based on the sequential conditional GAN framework. Our model is unique in that it consists of a deep Context Encoder that dynamically tracks the story flow, and two discriminators at the story and image levels, to enhance the image quality and the consistency of the generated sequences. To evaluate the model, we modified existing datasets to create the CLEVR-SV and Pororo-SV datasets. Empirically, StoryGAN outperforms state-of-the-art models in image quality, contextual consistency metrics, and human evaluation.</p>
+</div>
+
 <div style="column-count: 2;">
 
 <! ---------------------------------------------------------------------->
+
+
 
 <div class="textcard">
 <a href="https://www.anecdote.com/2018/05/amazons-six-page-narrative-structure/">

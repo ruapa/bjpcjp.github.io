@@ -37,7 +37,7 @@ header_pages:
   - prodmgmt.html
   - python.html 
   - rails.html
-  - storytelling.html
+  #- storytelling.html
   - uiux.html # titled as ui/ux.html
   - webdev.html # titled as web tech
   - posts-by-tag.html
