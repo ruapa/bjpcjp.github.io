@@ -4,36 +4,143 @@ title:  Storytelling
 permalink: /stories/
 ---
 
-<h3>Many of these can also be found on my <a href="/prodmgmt#storytelling">Product Management page.</a></h3>
+<h3>This is a new project/product idea. Premise: storytelling = Persuasion-as-a-Service.</h3>
 
-<div class="textcard-white">
+<!--<div class="textcard-white">
 <a href="/pdfs/storytelling/1902.01109-storytelling-strategies.pdf">
-ArXiV 1902.01109 (Storytelling Strategies)</a><br><br>
+ArXiV 1902.01109 (Storytelling Strategies)</a><br>
+<img src="/px/storytelling/1902.01109-model.png" width="25%"><br>
 
+<!--
 <p>Writers often rely on plans or sketches to write long stories, but most current language models generate word by word from left to  right. We explore coarse-to-fine models for creating narrative texts of several hundred words, and introduce new models which decompose stories by abstracting over actions and entities. The model first generates the predicate-argument structure of the text, where different mentions of the same entity are marked with placeholder tokens. It then generates a surface realization of the predicate-argument structure, and finally replaces the entity placeholders with context-sensitive names and references. Human judges prefer the stories from our models to a wide range of previous approaches to hierarchical text generation. Extensive analysis shows that our methods can help improve the diversity and coherence of events and entities in generated stories.</p>
-</div>
+-->
+<!--</div>-->
 
 <div class="textcard-white">
+	<div style="font-size: 90%;">
+	<a href="/pdfs/storytelling/1902.01109-storytelling-strategies.pdf">
+	ArXiV 1902.01109 (Storytelling Strategies)</a><br>
+	<img src="/px/storytelling/1902.01109-model.png" width="50%"; style="float: left; clear: all;"><br>
+
+<h4>Intro</h4>
+- goal: investigate decompositions of story generators. decompositions:
+	> allow more abstract models to be generated first
+	> allow specialized modeling
+	> applicable to any text dataset, no manual labeling required
+	> previous work: <a href="AAAI19-story-planning.pdf">Plan-and-Write (2019)</a><br>
+	> The models are trained on 300k stories from WRITINGPROMPTS <a href="#">(placeholder).</a><br>
+
+<h4>Model</h4>
+- overview
+	> story generation challenge: maintaining coherence across many sentences<br>
+	> previous work: <a href="#">self-attentive architectures (placeholders)</a><br>
+	> goal: build decomposable, coarse-to-fine story stop generator<br>
+
+- decompositions:
+	> uses negative log likelihhod of problem = L = -log sum p(x|z)p(z)<br>
+	> problem: marginalization (?) over z usually intractable.<br>
+	> workaround: use variational upper loss limit:<br>
+		> q(z|x) = 1<br>
+		> optimizer: z* = arg max p(z|x)<br>
+		> L <= -log (p(x|z) - log p(z)) -- allows models to be trained separately.<br>
+
+- architectures:
+	> uses convolutional seq-to-seq <a href="#">Gehring 2017 placeholder</a><br>
+	> uses attention module <a href="#">Bahdanau, .. 2015 placeholder</a><br>
+	> does weighted sum of encoder output<br>
+	> decoder uses gated multi-head SAM <a href="#">Vaswani,.. 2017</a><br>
+
+<h4>Sequence Models</h4>
+- uses semantic role labeling (SRL) = IDs predicates & arguments in sentences => assigns roles<br>
+- concats predictes & args ID'd by model, parses sentences with delimiters (tokens)<br>
+- verb goes first; arguments in canonical order<br>
+- focus on main narrative = only retain core args.<br>
+- <strong>one of decoder's multihead SAMs = a "verb attention head"</strong><br>
+	<img src="/px/storytelling/verb-attention-head.png" width="50%;"><br>
+	> if text does not contain verbs (yet) = zero vector<br>
+	> 
+
+<h4>Modeling Entities</h4>
+- Generating Anonymous Stories<br>
+	> NER entities<br>
+		* uses named-entity recognition (NER) model to ID people, orgs, locations.<br>
+		* identical strings get same placeholder token<br>
+
+	> Co-reference based entities<br>
+		* can't detect different entity mentions from different strings<br>
+		* uses coreference resolution model <a href="#">Lee et al (2018) (placeholder)</a><br>
+		* all spans in same cluster = same entity placeholder string<br>
+		* can't detect singletons - replace non-coreferent entities with unique placeholders<br>
+
+- Generating Entity References<br>
+	> pointers<br>
+	> subwords<br>
+		* word-based vocabs = inadequate due to sparsity? <br>
+		* instead use BYTE-PAIR-ENCODING (BPE) <a href="#">Sennrich 2015 placeholder</a><br>
+
+	> NER entity references<br>
+		* Each string maps to one SURFACE FORM (possibly multiword)<br>
+		* model maps combo placeholder(token,story) to placeholder surface form<br>
+
+	- co-reference generation<br>
+		* more challenging (b/c different mentions of same entity can use different surface forms)<br>
+		* each mention reference built with:<br>
+			> BoW context window around entity -- allows local context to ID name,pronoun,reference.<br>
+			> previously generated references for same entity (ent0 == "Bilbo" and ent0 == "him")<br>
+
+<a href="https://github.com/pytorch/fairseq/tree/master/examples/stories">FairSeq (github)</a><br>
+<h4>Setup (data, baselines, training, generation)</h4>
+
+<h4>Experiments</h4>
+  - decomposition comparison<br>
+  	> automation<br>
+  	> human-powered<br>
+
+  - SRL decomposition effects<br>
+  - model comparison<br>
+  	> subwords<br>
+  	> additional contexts<br>
+  	> qual. example<br>
+
+  - entity anonymization<br>
+  	> entity name diversity<br>
+  	> entity cluster coherence<br>
+  	> example<br>
+
+* Related Work<br>
+  - StoryGen with Planning<br>
+  - Entity Language Models<br>
+  - Non-Autoregressive Generation<br>
+* Conclusion<br>
+</div></div>
+
+<!--<div class="textcard-white">-->
 <a href="/pdfs/storytelling/2004.14967-plot-machines.pdf">
-ArXiV 2004.14967 (Plot Machines)</a><br><br>
+ArXiV 2004.14967 (Plot Machines)</a><br>
+<!--
 
 <p>We propose the task of outline-conditioned story generation: given an outline as a set of phrases that describe key characters and events to appear in a story, the task is to generate a coherent narrative that is consistent with the provided outline. This task is challenging as the input only provides a rough sketch of the plot, and thus, models need to generate a story by weaving through the key points provided in the outline. This requires the model to keep track of the dynamic states of the latent plot, conditioning on the input outline while generating the full story.</p>
-</div>
+-->
+<!--</div>-->
 
-<div class="textcard-white">
+<!--<div class="textcard-white">-->
 <a href="/pdfs/storytelling/1809.10736-plot-generation-plot-shaping.pdf">
-ArXiV 1809.10736 (Plot Shaping)</a><br><br>
+ArXiV 1809.10736 (Plot Shaping)</a><br>
+<!--
 
 <p>Language-modeling–based approaches to story plot generation attempt to construct a plot by sampling from a language model (LM) to predict the next character, word, or sentence to add to the story. LM techniques lack the ability to receive guidance from the user to achieve a specific goal, resulting in stories that don’t have a clear sense of progression and lack coherence. We present a reward-shaping
 technique that analyzes a story corpus and produces intermediate rewards that are backpropagated into a pre-trained LM in order to guide the model towards a given goal. Automated evaluations show our technique can create a model that generates story plots which consistently achieve a specified goal. Human-subject studies show that the generated stories have more plausible event ordering than baseline plot generation techniques.</p>
-</div>
+-->
+<!--</div>-->
 
-<div class="textcard-white">
+<!--<div class="textcard-white">-->
 <a href="/pdfs/storytelling/1812.02784-storyGAN.pdf">
-ArXiV 1812.02784 (StoryGANs)</a><br><br>
+ArXiV 1812.02784 (StoryGANs)</a><br>
+<!--
 
 <p>We propose a new task, called Story Visualization. Given a multi-sentence paragraph, the story is visualized by generating a sequence of images, one for each sentence. In contrast to video generation, story visualization focuses less on the continuity in generated images (frames), but more on the global consistency across dynamic scenes and characters – a challenge that has not been addressed by any singleimage or video generation methods. We therefore propose a new story-to-image-sequence generation model, StoryGAN, based on the sequential conditional GAN framework. Our model is unique in that it consists of a deep Context Encoder that dynamically tracks the story flow, and two discriminators at the story and image levels, to enhance the image quality and the consistency of the generated sequences. To evaluate the model, we modified existing datasets to create the CLEVR-SV and Pororo-SV datasets. Empirically, StoryGAN outperforms state-of-the-art models in image quality, contextual consistency metrics, and human evaluation.</p>
-</div>
+-->
+<!--</div>-->
 
 <div style="column-count: 2;">
 
