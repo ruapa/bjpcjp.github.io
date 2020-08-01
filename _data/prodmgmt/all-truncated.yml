@@ -1,0 +1,142 @@
+
+# tags: ab-testing
+
+- url: http://andrewchen.co/conservation-of-intent/
+  title: The Conservation of Intent (Andrew Chen)
+
+
+- url: https://medium.com/teconomics-blog/5-tricks-when-ab-testing-is-off-the-table-f2637e9f15a5
+  title: 5 Tricks when AB Testing is Off the Table (Medium)
+
+
+- url: http://bentilly.blogspot.com/2012/10/ab-testing-scale-cheat-sheet.html
+  title: An AB Testing Scale CheatSheet (BenTilly)
+
+
+- url: https://blog.intercom.com/why-ab-tests-should-yield-more-than-results/
+  title: Why AB Tests Should Yield More than Results (Intercom)
+
+
+- url: https://blog.twitter.com/2016/implications-of-use-of-multiple-controls-in-an-ab-test
+  title: Implications of Multiple Controls in an AB Test (Twitter)
+
+
+- url: https://searchenginewatch.com/sew/how-to/2223888/23-tips-on-how-to-a-b-test-like-a-badass
+  title: How to AB Test Like a Badass (Search Engine Watch)
+
+
+- url: https://searchenginewatch.com/sew/how-to/2196754/8-rules-of-a-b-testing-the-art-in-marketing-science
+  title: AB Testing Rules (Search Engine Watch)
+
+
+- url: http://www.evanmiller.org/sequential-ab-testing.html
+  title: Sequential AB Testing (Evan Miller)
+
+
+- url: http://www.evanmiller.org/ab-testing/
+  title: AB Testing Calculator (Evan Miller)
+
+
+- url: https://www.nngroup.com/articles/multivariate-testing/
+  title: Multivariate Testing (NN Group)
+
+- url: http://www.priceintelligently.com/blog/ab-test-pricing-page-strategy
+  title: AB Testing and Pricing Pages (Price Intelligently)
+
+- url: https://blog.crazyegg.com/2014/12/30/ab-testing-rules
+  title: Essential AB Testing Rules (CrazyEgg)
+
+- url: https://blog.asmartbear.com/easy-statistics-for-adwords-ab-testing-and-hamsters.html
+  title: AB Testing - and Hamsters (A Smart Bear)
+
+- url: https://productcoalition.com/start-here-statistics-for-a-b-testing-5f5c7e02ce1e#.jk219vqlm
+  title: AB Testing Stats(Product Coalition)
+
+- url: https://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/
+  title: AB Testing with Hierarchical Modeling (DominoDataLab)
+
+- url: https://www.conversioner.com/ab-test-calculator
+  title: AB Test Calculator (Conversioner)
+
+- url: http://larslofgren.com/growth/7-rules-for-ab-testing
+  title: 7 Rules for AB Testing (Lars Lofgren)
+
+- url: http://searchengineland.com/infographic-26-ideas-for-split-testing-your-search-ads-155821
+  title: 26 Ideas for Split Testing your Search Ads (Search Engine Land)
+
+
+
+# tags: advertising, adtech
+
+- url: https://www.theregister.com/2020/07/03/stop_tracking_increase_revenue_effectiveness/
+  title: Dutch broadcaster ad revenue vs user tracking (Register)
+
+- url: https://priceonomics.com/the-economics-of-infomercials/
+  title: The Economics of Infomercials (Priceonomics)
+
+- url: https://medium.com/the-mission/learn-buyer-psychology-66b969578b2b
+  title: 15 Lessons from Infomercials (Medium)
+
+- url: https://stratechery.com/2016/tv-advertisings-surprising-strength-and-inevitable-fall/
+  title: TV Advertising's Strength & Inevitable Fall (Stratechery)
+
+- url: https://techcrunch.com/2012/05/06/startups-live-die-by-these-5-street-smart-laws-of-advertising/
+  title: The 5 Street-smart Laws of Advertising (TechCrunch)
+
+- url: https://wiki.appnexus.com/display/industry/Online+Advertising+and+Ad+Tech+Glossary
+  title: Online Advertising & AdTech Glossary (AppNexus)
+
+- url: https://www.dataxu.com/ad-tech-glossary/
+  title: Ad Tech Glossary (DataXu)
+
+- url: https://dev.adzerk.com/docs/glossary
+  title: Intro to AdTech (Adzerk)
+
+- url: https://en.wikipedia.org/wiki/List_of_advertising_networks
+  title: List of Advertising Networks (Wikipedia)
+
+- url: http://searchengineland.com/how-to-easily-manage-test-millions-of-ads-137187
+  title: How to Test Millions of Ads (Search Engine Land)
+
+- url: https://www.practicalecommerce.com/success-google-shopping-ads-part-1-getting-started
+  title: Google Shopping ads 101 (Practical Ecommerce)
+
+- url: http://www.gkogan.co/blog/ugly-ad-saved-business/
+  title: An Ugly Ad Saved my Business (Greg Kogan)
+
+- url: https://blog.kissmetrics.com/behavioral-advertising/
+  title: Behavioral Advertising (Kissmetrics)
+
+# tags: adblockers, adtech
+
+- url: https://www.dylanpaulus.com/2019-11-24-how-fb-avoids-adblockers/
+  title: How FB Avoids Ad Blockers (Dylan Paulus)
+
+# tags: seo-adwords
+
+- url: https://nicklafferty.com/blog/i-spent-6-million-on-google-ads-last-year-here-s-what-i-learned/
+  title: I spent $6M on Google Ads last year (Nick Lafferty)
+
+- url: https://www.indiehackers.com/article/we-wasted-50k-on-google-ads-so-you-dont-have-to-355a425b27
+  title: We Wasted $50K on Adwords (Indie Hackers)
+
+- url: http://searchengineland.com/how-savvy-is-your-adwords-account-7-areas-to-audit-105372
+  title: How to Audit your Adwords account (Search Engine Land)
+
+- url: https://blog.kissmetrics.com/10-commons-adwords-mistakes/
+  title: 10 Common Adwords Mistakes (Kissmetrics)
+
+- url: https://www.noupe.com/business-online/google-adwords-beginners-97764.html
+  title: Adwords for Beginners (Noupe)
+
+# tags: affiliate-programs
+
+- url: https://makeawebsitehub.com/build-amazon-affiliate-website/
+  title: How to Build an Amazon Affiliate Website
+
+- url: https://blog.usejournal.com/how-one-affiliate-used-amazon-s3-to-outrank-everyone-on-google-9744c8e7322f
+  title: How an Affiliate used Amazon S3 to Outrank Everyone on Google (UseJournal)
+
+- url: http://www.postaffiliatepro.com/blog/the-ultimate-list-of-affiliate-programs-part-12/
+  title: Ultimate List of Affiliate Programs (PostAffiliatePro)
+

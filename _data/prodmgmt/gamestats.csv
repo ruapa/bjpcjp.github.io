@@ -1,0 +1,3 @@
+game,period,secsleft,live?,yardline,hasball,teamscores,down,togo
+001,1,300,true,50,wvu,{wvu: 0; pitt: 0},1,10
+001,1,300,false,50,pitt,{wvu: 7; pitt: 0},1,10

@@ -5,10 +5,10 @@ tags: game-theory
 date: 2020-02-25 22:00
 ---
 
-<img src="/px/gametheory/auction-mechanisms-dongmo.png" width="95%"><br>
+<img src="/px/gametheory/game-theory-crash-course-cover.png" width="95%"><br>
 
 <br>
-<div style="columns: 2;">
+<div style="columns: 3;">
 
 <div class="textcard">
     <a href="https://towardsdatascience.com/a-crash-course-in-game-theory-for-machine-learning-classic-and-new-ideas-50e33ba2636d">
@@ -174,3 +174,31 @@ date: 2020-02-25 22:00
     median voter theorem<br></div>
 
 </div>
+
+<strong>reading from _data/gametheory/page</strong><br>
+<div style="columns: 2;">
+
+    <!-- sorting this fails: "comparison of Hash with Hash" -->
+    {%- assign sorted = site.data.gametheory.page -%}
+    <!-- {{ sorted }}<br> -->
+    <!--
+    {%- for record in site.data.gametheory.page -%}
+
+        <div class="textcard">
+            <a href="{{ record.url }}">{{ record.title }} &nbsp;
+            
+            {%- if record.img -%}
+                <img src="{{ record.img }}" width="98%"><br>
+            {%- endif -%}</a>
+
+            {%- if record.notes -%}
+                <p><em>{{ record.notes }}</em></p>
+            {%- endif -%}</a>
+        </div>
+    {%- endfor -%}
+    -->
+</div>
+
+<!--
+<br>
+-->

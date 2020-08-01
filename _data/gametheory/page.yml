@@ -1,0 +1,84 @@
+- title:  A Crash Course in Game Theory (deprecated)
+  url:  https://towardsdatascience.com/a-crash-course-in-game-theory-for-machine-learning-classic-and-new-ideas-50e33ba2636d
+  img:  /px/gametheory/game-theory-crash-course-cover.png 
+ 
+- title:  To Get Good, Go After The Metagame (commonplace) 
+  url: https://commoncog.com/blog/to-get-good-go-after-the-metagame/ 
+  img:  /px/gametheory/christopher-paul-high-y7Qq9IrgpOA-unsplash.jpg 
+ 
+- title:  Auction Theory  
+  url: /pdfs/gametheory/gos-ch16-auctions.pdf 
+  img:  /px/gametheory/auction-mechanisms-dongmo.png 
+  notes:  auction types<br>winner's curse<br>how to bid<br>all-pay<br>how to sell<br>additional twists<br>resources<br>
+ 
+- title:  Single-Sided, Single-Unit Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-single-sided-single-unit-dongmo.pdf
+  img:  /px/gametheory/simple-auctions-dongmo.png 
+ 
+- title:  Double Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-double-dongmo.pdf
+  img:  /px/gametheory/double-auctions-dongmo.png 
+ 
+- title:  Combinational Auctions (dongmo) 
+  url:  /pdfs/gametheory/auctions-combinational-dongmo.pdf
+  img:  /px/gametheory/combinational-auctions-dongmo.png 
+ 
+- title:  board games of the ancient world (smithsonian) 
+  url: https://www.smithsonianmag.com/science-nature/best-board-games-ancient-world-180974094
+ 
+- title: Game Theory - DuckDuckGo search results<br>
+  url: https://duckduckgo.com/?q=game+theory&ia=web 
+
+- title:  Geometric Regret Matching (arxiv)
+  url:  https://arxiv.org/abs/1908.09021 
+
+- title:  Book - Bargaining Frameworks
+  url:  /pdfs/gametheory/gos-ch17-bargaining.pdf 
+  img:  /px/gametheory/bargaining-nash-simple.png 
+
+- title:  Book - Evolutionary Games
+  url: /pdfs/gametheory/gos-ch12-evolutionary-games.pdf
+
+- title:  Book - Game Structures
+  url: /pdfs/gametheory/gos-ch02-how-to-think.pdf 
+  notes:  classifications:<br>terminology
+
+- title: Combined Moves
+  url: /pdfs/gametheory/gos-ch06-combined-moves.pdf 
+
+- title:  Mechanism Design
+  url: /pdfs/gametheory/gos-ch13-mechanism-design.pdf
+  notes: "price discrimination<br>principals & agents<br>    cost-plus, fixed-price contracts<br>    evidence<br>    incentives<br>        <ul><li>managerial supervision</li>            <li>insurance provision</li>        </ul>    incentives: evidence<br>        <ul><li>nonlinear</li>            <li>teams</li>            <li>multiple tasks & outcomes</li>            <li>incentives over time</li>"
+
+- title: The Prisoners Dilemma
+  url: /pdfs/gametheory/gos-ch10-prisoners-dilemma.pdf   
+  img:  /px/gametheory/prisoners-delimma-simple.png 
+
+- title: Sequential-Move Games
+  url: /pdfs/gametheory/gos-ch03-sequential-moves.pdf   
+  img: /px/gametheory/survivor-immunity-game-tree.png
+
+- title: Simultaneous Moves - Discrete Strategies
+  url: /pdfs/gametheory/gos-ch04-simultaneous-moves.pdf 
+
+- title: Simultaneous Moves - Mixed Strategies
+  url: /pdfs/gametheory/gos-ch07-simultaneous-mixed.pdf 
+
+- title: Simultaneous Moves - Continuous Strategies 
+  url: /pdfs/gametheory/gos-ch05-continuous-strategies.pdf 
+
+- title: Strategic Moves
+  url: /pdfs/gametheory/gos-ch09-strategic-moves.pdf
+
+- title: Collective-Action Situations
+  url: /pdfs/gametheory/gos-ch11-collective-action.pdf 
+  notes: <a href="https://duckduckgo.com/?q=game+theory+collective+action&t=canonical&ia=web">duckduckgo</a>
+
+- title: Uncertainty & Imperfect Information
+  url:  /pdfs/gametheory/gos-ch08-uncertainty-information.pdf   
+  notes: risk management<br>assymetric information<br>cheap talk<br>adverse selection<br>signaling<br>screening<br>labor mkt signaling<br>2-player equilibria
+
+- title: Voting Systems
+  url: /pdfs/gametheory/gos-ch15-voting.pdf   
+  notes: rules & procedures<br>     paradoxes<br>     voting systems<br>    vote manipulation<br>    median voter theorem<br>
+

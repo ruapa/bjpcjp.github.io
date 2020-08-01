@@ -1,0 +1,6 @@
+- name: scikit-learn v0.23
+  url: https://github.com/bjpcjp/scikit-learn-v0.23
+
+- name: gensym
+  url: https://github.com/bjpcjp/gensim-lessons
+  
