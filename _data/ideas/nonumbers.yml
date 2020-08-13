@@ -1,0 +1,212 @@
+- title: PCNs as a Service
+  subdir: pcns-asasvc
+
+- title: 
+  subdir: image-reader-per-stroke-aka-abbreviator
+
+- title:  Auctions as-a-service
+  subdir: auctions-asasvc
+
+- title: Semex (prediction market - semiconductor vertical)
+  subdir: prediction-mkt-semex
+
+- title: Laptop skin as a notepad?
+  subdir: laptop-skin-as-notebook-see-rickseger
+
+- title: The Commish
+  subdir: fantasy-football
+
+- title: Storyteller (A Story Builder)
+  subdir: storyteller
+
+- title: Mother - a Spacecraft console
+  subdir: mother-spacecraft-console
+
+- title: Stackle Browser Pageviews
+  subdir: stackable-browser-pageviews
+
+- title: Figma for Chip Design
+  subdir: figma-for-chip-design
+
+- title: Factory in a Box (MRP tools)
+  subdir: factory-inabox
+
+- title: Mister Yuk (A safer browser)
+  subdir: mister-yuk-browser
+
+- title: PRD Maker (for PMs)
+  subdir: prd-maker
+
+- title: Curation as a Service
+  subdir: curation-asasvc
+
+- title: GKeep - a Google Keep clone
+  subdir: gkeep
+
+- title: MVPs as a service (for PMs)
+  subdir: mvp-asasvc
+
+- title: Product Shipment Clusters - a ML Project
+  subdir: gsi-shipment-clusters-case-study
+
+- title: SwapMeet - Storage Idea
+  subdir: probono-storagecontents-swapmeet
+
+- title: Trademark Similarity measurement
+  subdir: trademark-similarity-measurement
+  why: Because trademark law seems like "you know it when you see it"
+  notes: see 8 elements.txt
+
+- title: How Its Built
+  subdir: hows-it-built
+  why: BOM, Revisions
+  notes: Related to Factory-in-a-Box
+
+- title: Board Games Maker
+  subdir: board-games-maker
+  why: Customized games + plus boards-by-mail
+  notes:
+
+- title: Packaging Origami
+  subdir: packaging-origami
+  why: Not sure how it's done. Maybe an opportunity?
+  notes: https://www.quora.com/q/emenacpackagingusa?q=packaging
+
+- title: Desireometer
+  subdir: how-to-measure-a-persons-appetite-for-something
+  why:
+  notes:
+
+- title: Luxuty Item Sales Predictor
+  subdir: luxury-salesched-predictor
+  why: Just an idea. Based on an article re auctions & predictability
+  notes:
+
+- title: Grocery Store Shelf Optimizer
+  subdir: grocery-store-shelf-optimizer-for-consumers
+  why: TBD. Just an idea.
+  notes:
+
+- title: Online Art Fraud Detector
+  subdir: online-art-fraud-detector
+  why:
+  notes:
+
+- title: Excel for Machine Learning
+  subdir: excel-for-ml
+  why:
+  notes:
+
+- title: TV and Movie Predictor
+  subdir: prediction-mkt-tv-movies
+  why:
+  notes: no files yet.
+
+- title: Prediction Markets
+  subdir: prediction-markets
+  why:
+  notes: micropredictions, notes 
+
+- title: Judger
+  subdir: judger-fairer-criminal-risk-assessment
+  why:
+  notes:
+
+- title: Board Games Maker
+  subdir: board-games-maker-sales-to-grade-schools
+  why:
+  notes:
+
+- title: Pay it Forward
+  subdir: pay-it-fwd-card
+  why:
+  notes:
+
+- title: Fake Food Tracker
+  subdir: fake-food-tracker
+  why:
+  notes:
+
+- title: ProdMgmt "book of Dune"
+  subdir: prodmgmt-book-eqv-of-Dune
+  why:
+  notes:
+
+- title: CRM-to-ML
+  subdir: crm-to-ml
+  why:
+  notes:
+
+- title: P2P rural grocery distribution 
+  subdir: p2p-grocery-distribution-rural-mkts
+  why:
+  notes:
+
+- title: Bizrules
+  subdir: bizrules
+  why:
+  notes:
+
+- title: Batteries in Wall Socket
+  subdir: batteries-in-wall-sockets
+  why:
+  notes:
+
+- title: 101 DS Questions
+  subdir: 101-DS-Questions-to-GitHub-repos
+  why:
+  notes:
+
+- title: Sales Funnel Datasets as-a-Service
+  subdir: sales-funnel-datasets-asasvc
+  why:
+  demo: notes.rb
+  notes:
+
+- title: Awesome Behaviors
+  subdir: behavior-awesome
+  why: Demonstrates my knowledge of Human Behavior.
+  demo: https://bjpcjp.github.io/behaviors
+  notes: The "awesome" nomenclature comes from github repos.
+
+- title: Unbundling Excel
+  subdir: unbundling-excel
+  why: Spawned from https://tomtunguz.com/unbundling-of-excel/
+  demo: 
+  notes:
+
+- title: Hacker News clone
+  subdir: hn-clone
+  why: (maybe) a better wrapper over bjpcjp.github.io
+  demo: 
+  notes:
+
+- title: Awesome Product Management
+  subdir: prodmgmt-awesome
+  why: Demonstrates my Product Management expertise.
+  demo: https://bjpcjp.github.io/prodmgmt
+  notes: The "awesome" nomenclature comes from github repos.
+
+- title: Awesome UI/UX
+  subdir: uiux-awesome
+  why: Demostrates my UI/UX knowledge.
+  demo: https://bjpcjp.git.io/uiux
+  notes: The "awesome" nomenclature comes from github repos.
+
+- title: PPEnet
+  subdir: p2p-hospital-supplies-mkt
+  why: Unacceptable pct of waste in hospital (evidence?)
+  demo:
+  notes:
+
+- title: SAP manufacturing fake record sap-datafile-builder
+  subdir: sap-datafile-builder
+  why: To test Factory-in-a-Box settings.
+  demo: 
+  notes:
+
+- title: Attaboys as a Service
+  subdir: behavior-attaboys-as-a-service
+  why: I need a way to reward people (evidence?).
+  demo: 
+  notes: Physical form a debit card?

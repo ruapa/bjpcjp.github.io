@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+code { font-size: 0.9em; background-color: beige; }
+
 @import "minima";
 .card {
 	text-align: center;
