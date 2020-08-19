@@ -1,0 +1,233 @@
+- chapter: 00
+  title: Intro
+  details: <p>
+    - intro<br>
+    - book's approach<br>
+    - our lives as animals</p>
+
+- chapter: 01
+  title: Behavior
+  details: <p>
+    - TBD
+    - </p>
+
+- chapter: 02
+  title: One Second Before
+  details: <p>
+    - 3 layers<br>
+    - limbic system<br>
+    - amygdala<br>
+    - frontal cortex<br>
+    - dopamine<br>
+    - conclusions
+    </p>
+
+- chapter: 03
+  title: Seconds to Minutes Before
+  details: <p>
+    - universal rules vs knobby knees
+    - conclusions</p>
+
+- chapter: 04
+  title: Hours to Days Before
+  details: <p>
+    - testosterone<br>
+    - oxytocin vasopressin<br>
+    - female aggression & encocrines<br>
+    - stress<br>
+    - alcohol debunked<br>
+    - summary</p>
+
+- chapter: 05
+  title: Days to Months Before
+#  details: <p>
+#    - nonlinear excitation<br>
+#    - aha vs memory<br>
+#    - ash heap of history<br>
+#    - neuroplasticity<br>
+#    - conclusions
+#  </p>
+
+- chapter: 06
+  title: Adolescence
+  details: <p>
+    - reality of adolescence<br>
+    - frontal cortex maturation - nuts & bolts<br>
+    - risk taking<br>
+    - peers & social factors<br>
+    - empathy, sympathy, moral reasoning<br>
+    - violence<br>
+    - final thoughts
+    </p>
+
+- chapter: 07
+  title: Back to the Crib
+  details: <p>
+    - complexification<br>
+    - brief tour of brain development<br>
+    - stages<br>
+    - consequences<br>
+    - importance of mothers<br>
+    - any mother in a storm<br>
+    - different routes, same place<br>
+    - biological profile<br>
+    - side topics<br>
+    - key question<br>
+    - a sledgehammer<br>
+    - culture<br>
+    - nine months<br>
+    - boy brains vs girl brains<br>
+    - conclusions<br>
+    </p>
+
+- chapter: 08
+  title: Back to When you were an Egg - Genes
+  details: <p>
+    - bottoms-up<br>
+      -- do genes know what they're doing?<br>
+      -- exons & introns<br>
+      -- transposable genetic elements<br>
+      -- chance<br>
+      -- key points<br>
+    - top-down<br>
+    - genes & behavior<br>
+    - conclusions
+    </p>
+
+- chapter: 09
+  title: Centuries to Millenia Before
+  details: <p>
+    - definitions, similarities, differences<br>
+    - collectivist vs individual cultures<br>
+    - pastoralists & southerners<br>
+    - stratified vs egalitarian cultures<br>
+    - population size, density, heterogeneity<br>
+    - cultural crises<br>
+    - religion<br>
+    - hobbes or rousseau<br>
+    - conclusions<br>
+    </p>
+
+- chapter: 10
+  title: Evolution of Behavior
+  details: <p>
+    - evolution 101<br>
+    - behavior shaping<br>
+    - demise of group selection<br>
+    - individual selection<br>
+    - kin selection<br>
+    - reciprocal altruism<br>
+    - standing on 3 legs<br>
+    - multilevel selection<br>
+    - and us<br>
+    - where are the genes?<br>
+    - is change continuous & gradual?<br>
+    - is everything adaptive?<br>
+    </p>
+
+- chapter: 11
+  title: Us vs Them
+  details: <p>
+    - strength of us-vs-them<br>
+    - us<br>
+    - those thems<br>
+    - unique realms<br>
+    - context manipulation<br>
+    - conclusions<br>
+    </p>
+
+- chapter: 12
+  title: Hierarchy, Obediance, Resistance
+  details: <p>
+    - hierarchies - nature & varieties<br>
+    - human rank & hierarchy<br>
+    - the view from the top/bottom<br>
+    - politics<br>
+    - obediance & conformity (or not)<br>
+    - conclusions<br>
+    </p>
+
+- chapter: 13
+  title: Morality & Doing the Right Thing
+  details: <p>
+    - primacy of reasoning<br>
+    - social intuitionism<br>
+    - babies & animals<br>
+    - spock & stalin<br>
+    - context<br>
+    - fools rush in<br>
+    </p>
+
+- chapter: 14
+  title: Empathy
+  details: <p>
+    - "for" vs "as if"<br>
+    - emotionally contagious, compassionate animals<br>
+    - emotionally contagious, compassionate children<br>
+    - affect and/or cognition?<br>
+    - mythic leap forward<br>
+    - actually doing something<br>
+    - conclusions<br>
+
+- chapter: 15
+  title: Metaphors
+  details: <p>
+    - example 1 (danish newspaper ad)<br>
+    - example 2 (gettysburg)<br>
+    - ex 3,4,5<br>
+    - feeling somebody's pain<br>
+    - disgust & purity<br>
+    - real vs metaphorical sensation<br>
+    - duct tape<br>
+    - metaphorical dark side<br>
+    - a glimmer<br>
+    </p>
+
+- chapter: 16
+  title: Biology & Criminal Justice
+  details: <p>
+    - check their tear ducts<br>
+    - 3 perspectives<br>
+    - lines in the sand<br>
+    - is it useful?<br>
+    - how they will view us<br>
+    - now for the hard part</p>
+
+- chapter: 17
+  title: War & Peace
+  details: <p>
+    - somewhat better angels<br>
+    - traditional routes<br>
+    - possibilities</p>
+
+- chapter: Apndx A
+  title: Neuroscience 101
+  details: <p>
+    - neurons<br>
+    - synapses<br>
+    - more than 2 neurons</p>
+
+- chapter: Apndx B
+  title: Endocrinology 101
+  details: <p>- intro</p>
+
+- chapter: Apndx C
+  title: Proteins 101
+  details: <p>
+    - DNA<br>
+    - mutations & polymorphisms
+    </p>
+
+- chapter: Apndx D
+  title: Glossary
+  details:  <p>
+    TBD
+    </p>
+
+- chapter: Apndx E
+  title: Notes
+  details:  <p>
+    TBD
+    </p>
+
+
