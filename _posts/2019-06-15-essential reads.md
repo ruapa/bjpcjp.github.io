@@ -2,7 +2,7 @@
 date:   2019-06-15 0:0:0 -0500
 layout: post
 title: Essential Reads
-tags: behavior
+tags: behavior essential
 ---
 
 <a href="https://hbr.org/2019/06/how-to-be-resilient-in-the-face-of-harsh-criticism">

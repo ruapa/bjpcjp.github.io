@@ -1,0 +1,37 @@
+- language: python
+  library: matplotlib
+  title: tutorial
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch04-plotting-visualization.ipynb
+  tags:
+  note:
+        
+- language: python
+  library: scikit-learn
+  title: viz utilities
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-visualizations.pdf
+  tags:
+  note: partial dependence plots (PDPs),
+        confusion matrices,
+        ROC curves
+  
+- language: python
+  library: seaborn
+  title: gallery
+  url: https://github.com/bjpcjp/seaborn-basic-gallery/blob/master/gallery.ipynb
+  tags:
+  note: LOTs of plot types
+
+- language: python
+  library: seaborn
+  title: pokemon tutorial
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn
+  tags:
+  note: 
+
+- language: python
+  library: matplotlib
+  title: category scatter plots
+  url: https://github.com/bjpcjp/category-scatterplot/blob/master/demo.ipynb
+  tags:
+  note:
+        

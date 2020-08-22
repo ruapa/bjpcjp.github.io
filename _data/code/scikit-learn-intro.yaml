@@ -1,0 +1,66 @@
+- language: python
+  library: scikit-learn 0.22
+  title: installation
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-installation-dev.pdf
+  pic:
+  tags:
+  note: from nightly build,
+        from source,
+        platform specifics
+
+- language: python
+  library: scikit-learn 0.22
+  title: core concepts
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/getting_started.ipynb
+  pic:
+  tags:
+  note: estimators,
+        transformers,
+        preprocessors,
+        pipelines,
+        cross validation
+
+- language: python
+  library: scikit-learn 0.22
+  title: examples by algo type
+  url: https://scikit-learn.org/stable/auto_examples/index.html
+  pic:
+  tags:
+  note: highlights,
+        biclustering,
+        calibration,
+        classification,
+        clustering,
+        covariance,
+        cross decomposition,
+        datasets,
+        decision trees,
+        decomposition,
+        ensembles,
+        real-world dataset examples,
+        feature selection,
+        gaussian mixtures,
+        gaussian processes,
+        linear models,
+        inspection,
+        manifolds,
+        miscellaneous,
+        imputation,
+        model selection,
+        multiple outputs,
+        nearest neighbors,
+        neural nets,
+        pipelines,
+        preprocessing,
+        semi-supervised class.,
+        SVMs,
+        tutorial exercises,
+        text docs
+
+- language: python
+  library: scikit-learn 0.22
+  title: API
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-api-0.22.1.pdf
+  pic:
+  tags:
+  note:

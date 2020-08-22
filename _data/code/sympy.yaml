@@ -1,0 +1,38 @@
+- language: python
+  library: sympy
+  title: intro
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb
+  pic:
+  tags:
+  note: symbols,
+        numbers,
+        rationals,
+        constants,
+        functions,
+        expressions,
+        simplification,
+        expansion,
+        factor,
+        collect,
+        combine,
+        apart,
+        together,
+        cancel,
+        substitutions,
+        evaluations,
+        calculus,
+        sums,
+        products,
+        equations,
+        linear algebra
+
+- language: python
+  library: sympy
+  title: equation solvers
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb
+  pic:
+  tags:
+  note: square vs rectangular,
+        eigenvalues,
+        nonlinear equations,
+        univariate equations

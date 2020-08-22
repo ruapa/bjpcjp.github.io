@@ -1,0 +1,14 @@
+- language: python
+  library: postgresql
+  title: tutorial
+  url: https://www.postgresqltutorial.com/postgresql-python/
+  tags:
+  note:
+        
+- language: python
+  library: camelot & excalibur
+  title: PDF table extraction
+  url: https://https//github.com/bjpcjp/camelot-excalibur-pdf-table-extractor
+  tags:
+  note:
+        

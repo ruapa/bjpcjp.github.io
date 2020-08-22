@@ -1,0 +1,25 @@
+- language: python
+  library: numba, cython
+  title: optimization basics
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb
+  pic:
+  tags:
+  note: numba,
+        numba.vectorize,
+        cython,
+        tips & tricks,
+        cython & C
+
+- language: python
+  library: numba.pydata
+  title: intro
+  url: https://numba.pydata.org/numba-doc/dev/user/5minguide.html
+  pic:
+  tags:
+  note: installation,
+        will it work?,
+        nopython,
+        performance,
+        under the hood,
+        @decorators,
+        groups

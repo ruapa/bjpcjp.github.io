@@ -1,0 +1,35 @@
+- language: python
+  library: python v3.8
+  title: statistics - basics
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch13-statistics.ipynb
+  pic:
+  tags:
+  note: random numbers,
+        distributions,
+        hypothesis testing,
+        kernel density estimation
+
+- language: python
+  library: python v3.8
+  title: statistics - Bayes
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+  pic:
+  tags:
+  note: normal distribution, 
+        dependent variables,
+        posterior distributions,
+        linear regression,
+        multilevel models
+
+- language: python
+  library: statsmodel, patsy
+  title: statistics - more
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb
+  pic:
+  tags:
+  note: patsy, 
+        categorical variables,
+        linear regression,
+        discrete & logistic regression,
+        poisson distribution,
+        time series

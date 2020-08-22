@@ -1,0 +1,349 @@
+- language: python
+  library: scikit-learn 0.21
+  title: cross validation
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_cross_validation.ipynb
+  pic:
+  tags:
+  note: user guide,
+        ROC curves,
+        K-fold,
+        LvO, LpO,
+        stratified,
+        shuffled,
+        group-K-fold
+
+- language: python
+  library: scikit-learn 0.22
+  title: feature engineering
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-feature-selection.pdf
+  pic:
+  tags:
+  note: low-variance features,
+        univariate selection,
+        recursive elimination,
+        selecting from a model,
+        pipeline ops 
+
+- language: python
+  library: scikit-learn 0.21
+  title: hyperparameters
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_hyperparameter_tuning.ipynb
+  pic:
+  tags:
+  note: user guide,
+        grid search,
+        random parameters,
+        tips,
+        brute force alternatives
+
+- language: python
+  library: scikit-learn 0.22
+  title: validation & learning curves
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-validation-curves.pdf
+  pic:
+  tags:
+  note: validation curves,
+        learning curves
+
+- language: python
+  library: scikit-learn 0.21
+  title: kernel approximations
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_approximation.ipynb
+  pic:
+  tags:
+  note: noestrem method,
+        std kernels
+
+- language: python
+  library: scikit-learn 0.22
+  title: distance and similarity metrics
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-pairwise-ops.pdf
+  pic:
+  tags:
+  note: cosine similarity,
+        kernels (linear, polynomial, sigmoid, RBF, laplacian, chisqd)
+
+- language: python
+  library: scikit-learn 0.22
+  title: performance tips 
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-performance.pdf
+  pic:
+  tags:
+  note: python vs cython vs c,
+        code profiling,
+        memory profiling,
+        cython tips,
+        profiling compiled extensions,
+        joblib.Parallel,
+        warm_start 
+
+- language: python
+  library: scikit-learn 0.22
+  title: dev tools
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-utilities-dev.pdf
+  pic:
+  tags:
+  note: validation,
+        linear algebra,
+        arrays,
+        random sampling,
+        graphs,
+        testing,
+        multiclass/multilabel,
+        helpers,
+        hashes,
+        warnings,
+        exceptions
+
+- language: python
+  library: scikit-learn 0.21
+  title: regression (linear)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_linear.ipynb
+  pic:
+  tags:
+  note: user guide,
+        OLS,
+        ridge regression,
+        lasso,
+        elastic net,
+        LARS,
+        OMP,
+        bayes,
+        ARD,
+        logistic regression,
+        passive-aggressive algos,
+        robustness,
+        ransac vs theil-sen vs huber,
+        polynomial regression
+
+- language: python
+  library: scikit-learn 0.21
+  title: regression (kernel ridge)
+  url:  https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_ridge.ipynb
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: scikit-learn 0.21
+  title: regression (isotonic)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_isotonic.ipynb
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: scikit-learn 0.22
+  title: classification
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb
+  pic:
+  tags:
+  note: MNIST,
+        metrics,
+        confusion matrix,
+        precision & recall,
+        ROC,
+        multiple classes,
+        error analysis,
+        multiple labels,
+        multiple outputs
+
+- language: python
+  library: scikit-learn 0.22
+  title: gradient descent (stochastic)
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-stochastic-gradient-descent.pdf
+  pic:
+  tags:
+  note: classification,
+        regression,
+        sparse data,
+        complexity,
+        stopping,
+        tips,
+        implementation
+
+- language: python
+  library: scikit-learn 0.22
+  title: decision trees
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb
+  pic:
+  tags:
+  note: training, viz, predictions,
+        CART,
+        gini vs entropy,
+        regularization
+
+- language: python
+  library: scikit-learn 0.21
+  title: decision trees (more)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_decision_trees.ipynb
+  pic:
+  tags:
+  note: classification,
+        regression,
+        multiple outputs,
+        complexity,
+        tips,
+        algos (ID3, C4.5, C5.0, CART),
+        math,
+        minimal cost-complexity pruning
+
+- language: python
+  library: scikit-learn 0.21
+  title: ensembles
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_ensembles.ipynb
+  pic:
+  tags:
+  note: voting classifiers,
+        bagging,
+        out-of-bag evaluation,
+        random patches / subspaces,
+        random forests,
+        feature importance,
+        adaboost,
+        gradient boosting,
+        stacking
+
+- language: python
+  library: scikit-learn 0.21
+  title: ensembles (more)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_ensembles.ipynb
+  pic:
+  tags:
+  note: bagging,
+        random forests,
+        adaboost,
+        gradient boosting,
+        histograms,
+        voting classifiers,
+        voting regressors,
+        stacking
+
+- language: python
+  library: scikit-learn 0.21
+  title: pairwise similarity metrics
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_pairwise.ipynb
+  pic:
+  tags:
+  note: see list of kernels
+
+- language: python
+  library: scikit-learn 0.22
+  title: cross decomposition
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-cross-decomposition.pdf
+  pic:
+  tags:
+  note: PLS, CCA
+
+- language: python
+  library: scikit-learn 0.22
+  title: discriminant analysis
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-discriminant-analysis.pdf
+  pic:
+  tags:
+  note: dimensionality reduction,
+        LDA,
+        math,
+        shrinkage,
+        estimators (default='svd')
+
+- language: python
+  library: scikit-learn 0.21
+  title: gaussian processes
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussians.ipynb
+  pic:
+  tags:
+  note: regressions,
+        classifiers,
+        kernels
+
+- language: python
+  library: scikit-learn 0.21
+  title: multilabel/multiclass
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_multiclass.ipynb
+  pic:
+  tags:
+  note: label formats,
+        OvR, OvO,
+        ECCs,
+        multiple outputs,
+        classifier chains,
+        regressor chains
+
+- language: python
+  library: scikit-learn 0.21
+  title: naive bayes
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_naive_bayes.ipynb
+  pic:
+  tags:
+  note: gaussian,
+        multinomial,
+        complement,
+        bernoulli,
+        out-of-core
+
+- language: python
+  library: scikit-learn 0.21
+  title: nearest neighbors
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_nearest_neighbors.ipynb
+  pic:
+  tags:
+  note: unsupervised,
+        KD trees,
+        Ball trees,
+        regressions,
+        nearest centroids,
+        NCA
+
+- language: python
+  library: scikit-learn 0.21
+  title: multilayer perceptrons (MLPs)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_neural_nets.ipynb
+  pic:
+  tags:
+  note: definition,
+        as a classifier,
+        as a regressor,
+        regularization,
+        loss functions,
+        complexity,
+        math,
+        tips,
+        warm_start
+
+- language: python
+  library: scikit-learn 0.21
+  title: classification (semi-supervised)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_semi_supervised.ipynb
+  pic:
+  tags:
+  note: label propagation
+
+- language: python
+  library: scikit-learn 0.22
+  title: support vector machines
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Support-Vector-Machines.ipynb
+  pic:
+  tags:
+  note: classification,
+        regression,
+        density estimates,
+        novelty detection,
+        complexity,
+        tips,
+        kernel functions,
+        implementation
+
+- language: python
+  library: scikit-learn 0.22
+  title: support vector machines (more)
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb
+  pic:
+  tags:
+  note: classification (linear),
+        classification (nonlinear),
+        polynomial features,
+        the kernel trick,
+        similarity functions,
+        gaussian RBF kernels,
+        regression

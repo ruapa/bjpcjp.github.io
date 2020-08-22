@@ -1,0 +1,86 @@
+- language: python
+  library: tensorflow
+  title: intro
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb
+  pic:
+  tags:
+  note: installation,
+        graphs,
+        gradient descent,
+        momentum,
+        model save-restore,
+        visualization,
+        tensorboard,
+        sharing variables
+
+- language: python
+  library: tensorflow
+  title: neural nets
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb
+  pic:
+  tags:
+  note: perceptrons,
+        MLPs,
+        backprop,
+        training,
+
+- language: python
+  library: tensorflow
+  title: convolutional neural nets (CNNs)
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb
+  tags:
+  note: layers,
+        filters,
+        map stacking,
+        padding & pooling,
+        architectures
+
+- language: python
+  library: tensorflow
+  title: DNNs
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb
+  tags:
+  note: gradients,
+        activation functions,
+        batch normalization,
+        gradient clipping,
+        model reuse,
+        layer freeze & cache,
+        model zoos,
+        regularization
+
+- language: python
+  library: tensorflow
+  title: RNNs
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb
+  tags:
+  note: intro,
+        sequences,
+        unrolling,
+        simplification,
+        training,
+        deep RNNs,
+        LSTMs,
+        GRU cells,
+        NLP basics
+
+- language: python
+  library: tensorflow
+  title: autoencoders (AEs)
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb
+  tags:
+  note: intro,
+        stacked AEs,
+        tying weights,
+        reconstructions
+
+- language: python
+  library: tensorflow
+  title: reinforcement learning (RL)
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb
+  tags:
+  note: openAI gym,
+        policies,
+        markov decision processes,
+        q-learning
+

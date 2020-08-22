@@ -1,0 +1,360 @@
+- language: python
+  library: python v3.8
+  title: functions
+  url: https://docs.python.org/3.8/library/functions.html
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: python v3.8
+  title: constants
+  url: https://docs.python.org/3.8/library/constants.html
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: python v3.8
+  title: datatypes (std)
+  url: https://docs.python.org/3.8/library/stdtypes.html
+  pic:
+  tags:
+  note:
+    boolean, comparisons, numerics, iterators, sequences,
+    text sequences, binary sequences, sets, maps, context managers,
+    more
+
+- language: python
+  library: python v3.8
+  title: datatypes (more)
+  url: https://docs.python.org/3.8/library/datatypes.html
+  pic:
+  tags:
+  note:
+    datetime, calendar, collections, heapq, bisect, array,
+    weakref, types, copy, pprint, reprlib, enum
+
+- language: python
+  library: python v3.8
+  title: exceptions
+  url: https://docs.python.org/3.8/library/exceptions.html
+  pic:
+  tags:
+  note:
+    basics, concrete exceptions, warnings, hierarchy
+
+- language: python
+  library: python v3.8
+  title: binary data services
+  url: https://docs.python.org/3.8/library/binary.html
+  pic:
+  tags:
+  note: struct, codecs
+
+- language: python
+  library: python v3.8
+  title: numbers
+  url: https://docs.python.org/3.8/library/numeric.html
+  pic:
+  tags:
+  note: numbers, math, cmath, decimal, fractions, random, statistics
+
+- language: python
+  library: python v3.8
+  title: functionals
+  url: https://docs.python.org/3.8/library/functional.html
+  pic:
+  tags:
+  note: itertools,
+        functools,
+        operators
+
+- language: python
+  library: python v3.8
+  title: files & directories
+  url: https://docs.python.org/3.8/library/filesys.html
+  pic:
+  tags:
+  note: pathlib, os.path, fileinput, stat, filecmp, tempfile, glob,
+    fnmatch, linecache, shutil
+
+- language: python
+  library: python v3.8
+  title: file load/store
+  url: https://docs.python.org/3.8/library/persistence.html
+  pic:
+  tags:
+  note: pickle, copyreg, shelve, marshal, dbm, sqlite3
+
+- language: python
+  library: python v3.8
+  title: file compress/archive
+  url: https://docs.python.org/3.8/library/archiving.html
+  pic:
+  tags:
+  note: zlib, gzip, bz2, lzma, zipfile, tarfile
+
+- language: python
+  library: python v3.8
+  title: file formats
+  url: https://docs.python.org/3.8/library/fileformats.html
+  pic:
+  tags:
+  note: csv, configparser, netrc, xdrlib, plistlib
+
+- language: python
+  library: python v3.8
+  title: crypto
+  url: https://docs.python.org/3.8/library/crypto.html
+  pic:
+  tags:
+  note: hashlib, hmac, secrets
+
+- language: python
+  library: python v3.8
+  title: base OS services
+  url: https://docs.python.org/3.8/library/allos.html
+  pic:
+  tags:
+  note: os, io, time, argparse, getopt, logging, getpass, curses,
+        platform, error, ctypes
+
+- language: python
+  library: python v3.8
+  title: concurrency
+  url: https://docs.python.org/3.8/library/concurrency.html
+  pic:
+  tags:
+  note: threads, multiprocessing, concurrent, subprocess,
+        sched, queue, _thread, _dummy_thread
+
+- language: python
+  library: python v3.8
+  title: context variables
+  url: https://docs.python.org/3.8/library/contextvars.html
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: python v3.8
+  title: networking
+  url: https://docs.python.org/3.8/library/ipc.html
+  pic:
+  tags:
+  note: asyncio, socket, ssl, select, selectors, asyncore
+        asynchat, signal, mmap
+
+- language: python
+  library: python v3.8
+  title: network data
+  url: https://docs.python.org/3.8/library/netdata.html
+  pic:
+  tags:
+  note: email, json, mailcap, mailbox, mimetypes, base64,
+        binhex, binascii, quopri, uu
+
+- language: python
+  library: python v3.8
+  title: markup
+  url: https://docs.python.org/3.8/library/markup.html
+  pic:
+  tags:
+  note: html, xml
+
+- language: python
+  library: python v3.8
+  title: internet protocols
+  url: https://docs.python.org/3.8/library/internet.html
+  pic:
+  tags:
+  note: webbrowser,
+        cgi,
+        cgitb,
+        wegiref,
+        urllib,
+        http,
+        ftplib,
+        poplib,
+        imaplib,
+        nntplib,
+        smtplib,
+        smtpd,
+        telnetlib,
+        uuid,
+        socketserver,
+        http.server,
+        http.cookies,
+        xmlrpc,
+        ipaddress
+
+- language: python
+  library: python v3.8
+  title: multimedia
+  url: https://docs.python.org/3.8/library/mm.html
+  pic:
+  tags:
+  note: audioop,
+        aifc,
+        sunau,
+        wave,
+        chunk,
+        colorsys,
+        imghdr,
+        sndhdr,
+        ossaudiodev
+
+- language: python
+  library: python v3.8
+  title: internationalization
+  url: https://docs.python.org/3.8/library/i18n.html
+  pic:
+  tags:
+  note: gettext,
+        locale
+
+- language: python
+  library: python v3.8
+  title: frameworks
+  url: https://docs.python.org/3.8/library/frameworks.html
+  pic:
+  tags:
+  note: turtle, cmd, shlex
+
+- language: python
+  library: python v3.8
+  title: tk GUIs
+  url: https://docs.python.org/3.8/library/tk.html
+  pic:
+  tags:
+  note: tkinter, more...
+
+- language: python
+  library: python v3.8
+  title: dev tools
+  url: https://docs.python.org/3.8/library/development.html
+  pic:
+  tags:
+  note: typing, pydoc, doctest, unittest, 2to3, test
+
+- language: python
+  library: python v3.8
+  title: debugging, profiling
+  url: https://docs.python.org/3.8/library/debug.html
+  pic:
+  tags:
+  note: bdb, faulthandler, pdb, profilers, timeit, trace, tracemalloc<br>
+        <a href="https://martinheinz.dev/blog/24">martin heinz tutorial</a>
+
+- language: python
+  library: python v3.8
+  title: packages
+  url: https://docs.python.org/3.8/library/distribution.html
+  pic:
+  tags:
+  note: disutils, ensurepip, venv, zipapp
+
+- language: python
+  library: python v3.8
+  title: runtimes
+  url: https://docs.python.org/3.8/library/python.html
+  pic:
+  tags:
+  note: sys, 
+        sysconfig, 
+        builtins, 
+        __main__, 
+        warnings,
+        dataclasses,
+        contextlib,
+        abc,
+        atexit,
+        traceback,
+        __future__,
+        gc,
+        inspect,
+        site
+
+- language: python
+  library: python v3.8
+  title: custom interpreters
+  url: https://docs.python.org/3.8/library/custominterp.html
+  pic:
+  tags:
+  note: code, codeop
+
+- language: python
+  library: python v3.8
+  title: modules (importing)
+  url: https://docs.python.org/3.8/library/modules.html
+  pic:
+  tags:
+  note: zipimport, pkgutil, modulefinder, runpy, importlib
+
+- language: python
+  library: python v3.8
+  title: language-level services
+  url: https://docs.python.org/3.8/library/language.html
+  pic:
+  tags:
+  note: parser,
+        ast,
+        symtable,
+        symbol,
+        token,
+        keyword,
+        tokenize,
+        tabnanny,
+        pyrlbr,
+        py_compile,
+        compileall,
+        diss,
+        pickletools
+
+- language: python
+  library: python v3.8
+  title: miscellaneous (formatter)
+  url: https://docs.python.org/3.8/library/misc.html
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: python v3.8
+  title: OS tools (windows)
+  url: https://docs.python.org/3.8/library/windows.html
+  pic:
+  tags:
+  note: msilib, msvcrt, winreg, winsound
+
+- language: python
+  library: python v3.8
+  title: OS tools (unix)
+  url: https://docs.python.org/3.8/library/unix.html
+  pic:
+  tags:
+  note:
+    posix,
+    pwd,
+    spwd,
+    grp,
+    crypt,
+    termios,
+    tty,
+    pty,
+    fcntl,
+    pipes,
+    resource,
+    nis,
+    syslog
+
+
+- language: python
+  library: python v3.8
+  title: superseded
+  url: https://docs.python.org/3.8/library/superseded.html
+  pic:
+  tags:
+  note: optparse, imp 
+

@@ -1,0 +1,51 @@
+- language: python
+  library: pandas
+  title: pandas (my GitHub)
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch12-data-analysis-pandas-seaborn.ipynb
+  pic:
+  tags:
+  note: series,
+        dataFrames,
+        time series
+
+- language: python
+  library: pandas
+  title: pandas more (my GitHub)
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas
+  pic:
+  tags:
+  note: aggregations,
+        groups,
+        concat/append,
+        hierarchical indexes,
+        merge/join,
+        missing values,
+        pivot tables,
+        time series,
+        vectorized objects
+
+- language: python
+  library: pandas
+  title: pandas tips & tricks ***FIX URL***
+  url: https://github.com/bjpcjp/pandas-tips-tricks
+  pic:
+  tags:
+  note: date ranges,
+        merges,
+        save to excel,
+        file compression,
+        histograms,
+        pdfs,
+        cdfs,
+        least squares,
+        timing,
+        display options,
+        pandas 1.0 features
+
+- language: python
+  library: pandas
+  title: articles
+  url: https://towardsdatascience.com/search?q=pandas
+  pic:
+  tags:
+  note: TDS article search

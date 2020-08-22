@@ -1,0 +1,165 @@
+- language: python
+  library: scikit-learn  
+  title: clustering
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_clustering.ipynb
+  pic:
+  tags:
+  note: overview,
+        k-means,
+        affinity propagation,
+        mean shift,
+        spectral,
+        hierarchical,
+        dbscan,
+        optics,
+        birch,
+        metrics
+
+- language: python
+  library: scikit-learn 
+  title: covariance
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_covariance.ipynb
+  pic:
+  tags:
+  note: empirical,
+        shrunk,
+        sparse invariance,
+        robust estimation
+    
+- language: python
+  library: scikit-learn 
+  title: novelties & outliers
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-outliers.pdf
+  pic:
+  tags:
+  note: definitions,
+        methods,
+        novelty detection,
+        outlier detection,
+        elliptic envelope,
+        iso forest,
+        local outlier factor,
+        novelties with LOF
+    
+- language: python
+  library: scikit-learn 
+  title: dimensionality reduction
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb
+  pic:
+  tags:
+  note: curse of dimensionality,
+        projections,
+        manifolds,
+        PCA,
+        explained variance,
+        choosing dimensions,
+        PCA for compression,
+        incremental PCA,
+        randomized PCA,
+        kernel PCA,
+        selecting a kernel,
+        LLE,
+        MDS,
+        isomap,
+        t-SNE,
+        LDA
+    
+- language: python
+  library: scikit-learn 
+  title: principal component analysis (PCA)
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Principal-Component-Analysis.ipynb
+  pic:
+  tags:
+  note: intro,
+        random projections,
+        feature agglomeration,
+        dimensional reduction,
+        noise filter,
+        eigenfaces
+    
+- language: python
+  library: scikit-learn 
+  title: density estimation
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Kernel-Density-Estimation.ipynb
+  pic:
+  tags:
+  note: histograms,
+        spherical KDEs,
+        custom estimators,
+    
+- language: python
+  library: scikit-learn 
+  title:  gaussian mixtures
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussian_mixtures.ipynb
+  pic:
+  tags:
+  note: expectation maximization (EM),
+        confidence ellipsoids,
+        bayes info criterion & n_clusters,
+        covariance constraints (spherical, diagonal, tied, full),
+        variational bayes (extension of EM)   
+
+- language: python
+  library: scikit-learn 
+  title: manifolds
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Manifold-Learning.ipynb)
+  pic:
+  tags:
+  note: hello,
+        MDS,
+        non-linear embeddings,
+        tradeoffs,
+        isomap on faces
+    
+- language: python
+  library: scikit-learn 
+  title: manifolds (more)
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_manifolds.ipynb
+  pic:
+  tags:
+  note: projections,
+        PCA,
+        principal components,
+        MDS,
+        locally linear embeddings (LLE),
+        modified LLE,
+        hessian eigenmaps,
+        spectral embeddings,
+        LTSA,
+        t-SNE,
+        isomap
+    
+- language: python
+  library: scikit-learn  
+  title: matrix decomposition
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_matrix_decomposition.ipynb
+  pic:
+  tags:
+  note: PCA,
+        incremental PCA,
+        kernel PCA,
+        sparse PCA,
+        dictionary learning,
+        factor analysis,
+        ICA,
+        NNMF,
+        LDA
+    
+- language: python
+  library: scikit-learn 
+  title: biclustering
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_biclustering.ipynb
+  pic:
+  tags:
+  note: spectral co-clustering,
+        spectral bi-clustering
+    
+- language: python
+  library: scikit-learn 
+  title: restricted boltzmann machines (RBMs)
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-neural-nets-unsupervised.pdf
+  pic:
+  tags:
+  note: parameters,
+        bernoulli RBM,
+        stochastic max likelihood learning

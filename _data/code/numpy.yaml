@@ -1,0 +1,24 @@
+- language: python
+  library: numpy
+  title: numpy basics ()
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch02-vectors-matrices-ndarrays.ipynb
+  pic:
+  tags:
+  note: vectors, matrices, ndarrays
+
+- language: python
+  library: numpy
+  title: numpy more ()
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy
+  pic:
+  tags:
+  note: arrays,
+        boolean arrays,
+        masking,
+        broadcasting,
+        fancy indexes,
+        sorting,
+        structured data,
+        aggregations,
+        ufuncs,
+        datatypes

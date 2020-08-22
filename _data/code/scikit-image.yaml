@@ -1,0 +1,150 @@
+- language: python
+  library: scikit-image 
+  title: home page & user guide
+  url: https://scikit-image.org/
+  pic:
+  tags:
+  note: crash course,
+        image datatypes,
+        image adjustments,
+        video files,
+        basic tutorials
+
+- language: python
+  library: scikit-image 
+  title: data library
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/image-data.ipynb
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: scikit-image 
+  title: numpy basics
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/numpy-operations.ipynb
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: scikit-image 
+  title: exposures & color channels
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/exposure-colors.ipynb
+  pic:
+  tags:
+  note: RGB to grayscale,
+        RGB to HSV,
+        histogram matching,
+        histogram equalization,
+        cell stain color separation,
+        grayscale filters & RGB images,
+        regional maxima,
+        gamma & log contract adjustments,
+        tinting
+
+- language: python
+  library: scikit-image 
+  title: edges & lines
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/edges-lines.ipynb 
+  pic:
+  tags:
+  note: contours,
+        convex hulls,
+        canny edge detectors,
+        matching cubes,
+        ridge ops,
+        active contour model,
+        shapes,
+        hough transforms,
+        skeletonize,
+        polygon ops,
+        edges,
+
+- language: python
+  library: scikit-image 
+  title: transforms & registration
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/transforms-registration.ipynb
+  pic:
+  tags:
+  note: swirl,
+        image pyramids,
+        rescale,
+        resize,
+        downscale,
+        piecewise affine transforms,
+        structural similarities,
+        phase correlation,
+        polar,
+        log-polar transforms,
+        line model estimation,
+        radon transforms
+
+- language: python
+  library: scikit-image 
+  title: filters, restoration
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/filtering-restoration.ipynb
+  pic:
+  tags:
+  note: hysteresis thresholds,
+        image deconvolution,
+        mean filters,
+        unsharp masks,
+        inpainting,
+        entropy,
+        denoising,
+        wavelets,
+        phase unwrapping,
+        attribute operators
+
+- language: python
+  library: scikit-image 
+  title: feature & object detection
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/feature-object-detection.ipynb
+  pic:
+  tags:
+  note: DAISY,
+        template matching,
+        corner detection,
+        filling holes,
+        finding peaks,
+        CENSURE,
+        gabor filters,
+        ORB,
+        shape indexes,
+        sliding window histograms,
+        texture classification
+
+- language: python
+  library: scikit-image 
+  title: object segmentation
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/object-segmentation.ipynb
+  pic:
+  tags:
+  note: normalized cut,
+        RAGs,
+        thresholding,
+        watershedding,
+        local maxima,
+        image region labels,
+        flood fills,
+        morphological snakes
+
+- language: python
+  library: scikit-image 
+  title: longform examples
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/longform.ipynb
+  pic:
+  tags:
+  note: cascade classifiers,
+        edge- vs region-based segmentation,
+        image compression,
+        rank filters
+
+- language: python
+  library: scikit-image 
+  title: developer examples
+  url: https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb
+  pic:
+  tags:
+  note: LI thresholds,
+        max trees

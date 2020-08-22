@@ -1,0 +1,37 @@
+- language: python
+  library: pytorch 
+  title: 60 minute intro
+  url: https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html
+  pic:
+  tags:
+  note: tensors,
+        numpy arrays,
+        cuda,
+        autograd,
+        gradients,
+        neural net design,
+        loss functions,
+        backprop,
+        weight updates,
+        training,
+        CNN definition,
+        testing,
+        GPU training,
+        parallelism
+
+- language: python
+  library: pytorch
+  title: data loading
+  url: https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
+  pic:
+  tags:
+  note:
+
+- language: python
+  library: pytorch
+  title: tensorboard
+  url: https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
+  pic:
+  tags:
+  note:
+

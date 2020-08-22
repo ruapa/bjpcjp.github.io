@@ -1,0 +1,68 @@
+- language: python
+  library: scipy
+  title: interpolation
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb
+  pic:
+  tags:
+  note: -how to build a function from a set of data points.<br>
+        polynomials,
+        splines,
+        multivariate
+
+- language: python
+  library: scipy
+  title: integration
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb
+  pic:
+  tags:
+  note: simpson's rule,
+        multiple integration,
+        scikit-monaco,
+        symbolic/multiprecision quadrature,
+        laplace transforms,
+        fourier transforms
+
+- language: python
+  library: scipy
+  title: signal processing
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb
+  pic:
+  tags:
+  note: spectral analysis,
+        fourier transforms,
+        frequency-domain filters,
+        windowing,
+        spectrograms,
+        convolutions,
+        FIRs, IIRs
+
+- language: python
+  library: scipy
+  title: sparse matrices & graphs
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb
+  pic:
+  tags:
+  note: sparse matrices,
+        sparse linear algebra,
+        eigenvalue problems,
+        graphs & networks
+
+- language: python
+  library: scipy
+  title: Ordinary DiffEqtns
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb
+  pic:
+  tags:
+  note: symbolic solutions,
+        directional field graphs,
+        laplace transforms,
+        numerical methods,
+        numerical integration
+
+- language: python
+  library: scipy, dolfin, mshr
+  title: Partial DiffEqtns
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb
+  pic:
+  tags:
+  note: --NOT WORKING YET--

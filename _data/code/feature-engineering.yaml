@@ -1,0 +1,95 @@
+- language: python
+  library: scikit-learn 
+  title: feature engineering intro 
+  url: https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb
+  pic:
+  tags:
+  note: one-hot encoding,
+        word counts,
+        tf-idf,
+        linear-to-polynomial,
+        missing data,
+        pipelines
+    
+- language: python
+  library: scikit-learn 
+  title: dataset utilities
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_dataset_utilities.ipynb
+  pic:
+  tags:
+  note: toy loaders,
+        generators,
+        external datasets
+    
+- language: python
+  library: scikit-learn 
+  title: feature extraction
+  url: http://localhost:4000/pdfs/scikit-0.22.1/scikit-guide-0.22.1-feature-extraction.pdf
+  pic:
+  tags:
+  note: hashing, text ops (
+        bag of words,
+        sparsity,
+        vectorizers,
+        stop words,
+        tf-idf,
+        decoding,
+        applications,
+        limits,
+        the hashing trick,
+        out-of-core ops),
+        image ops (
+        patches,
+        connectivity graphs)
+
+    
+- language: python
+  library: scikit-learn 
+  title: data imputation
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/imputation.ipynb
+  pic:
+  tags:
+  note: univariate,
+        multivariate,
+        nearest-neighbor,
+        marking imputed values 
+    
+- language: python
+  library: scikit-learn 
+  title: file i/o
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch18-data-input-output.ipynb
+  pic:
+  tags:
+  note: CSV,
+        HDF5,
+        h5py,
+        pytables,
+        hdfstore,
+        JSON,
+        serialization,
+        pickle issues
+    
+- language: python
+  library: scikit-learn 
+  title: composite estimators
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_composite_estimators.ipynb
+  pic:
+  tags:
+  note: setup, tips, caching, regression target transforms
+    
+- language: python
+  library: scikit-learn 
+  title: preprocessing
+  url: https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_preprocessing.ipynb
+  pic:
+  tags:
+  note: mean removal,
+        variance scaling,
+        sparse scaling,
+        outlier scaling,
+        distribution maps,
+        normalization,
+        category coding,
+        binning,
+        binarization,
+        polynomial features.
