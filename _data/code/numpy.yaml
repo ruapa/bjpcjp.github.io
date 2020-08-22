@@ -1,6 +1,6 @@
 - language: python
   library: numpy
-  title: numpy basics ()
+  title: basics
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch02-vectors-matrices-ndarrays.ipynb
   pic:
   tags:
@@ -8,7 +8,7 @@
 
 - language: python
   library: numpy
-  title: numpy more ()
+  title: intermediate
   url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy
   pic:
   tags:

@@ -1,6 +1,6 @@
 - language: python
   library: pandas
-  title: pandas (my GitHub)
+  title: basics
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch12-data-analysis-pandas-seaborn.ipynb
   pic:
   tags:
@@ -10,7 +10,7 @@
 
 - language: python
   library: pandas
-  title: pandas more (my GitHub)
+  title: intermediate
   url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas
   pic:
   tags:
@@ -26,7 +26,7 @@
 
 - language: python
   library: pandas
-  title: pandas tips & tricks ***FIX URL***
+  title: tips & tricks ***FIX URL***
   url: https://github.com/bjpcjp/pandas-tips-tricks
   pic:
   tags:
