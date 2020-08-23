@@ -4,13 +4,16 @@ title:  "Product Management"
 permalink: /prodmgmt/
 ---
 
-{%- assign sorted  = site.data.prodmgmt.all | group_by: "tags" -%}
+{%- assign sorted  = site.data.prodmgmt.all | sort: "tags" | group_by: "tags" -%}
 
 <div style="columns: 2;">
     {%- for tag in sorted -%}
         {%- if tag.name -%}
 	        <div class="textcard">
-	        	<strong>{{ tag.name }}</strong>:
+	        	<strong>
+	        		<a href="https://duckduckgo.com?q={{tag.name}}"
+	        		   style="color:black;">
+	        		{{ tag.name }}</a></strong>:
 
 	        	{%- for item in tag.items -%}
 
@@ -25,7 +28,7 @@ permalink: /prodmgmt/
 	    	    			{%- endif -%}
 
 	    	    		</a></li>
-	    	    		
+
 	        	{%- endfor -%}
         	</div>
         {%- endif -%}
