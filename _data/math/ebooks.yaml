@@ -1,0 +1,219 @@
+- title: ADM (algo design manual, skiena)
+  pdflist: /pdfs/math/*-ADM.pdf
+  pic:
+  notes: many!
+  category: ebooks
+
+- title: BA (bandit algorithms, lattimore..)
+  pdflist: /pdfs/math/*-BA.pdf
+  pic:
+  notes: "  adversarial-vs-stochastic-linear
+            bayes
+            combinatorials...
+  "
+  category: ebooks
+
+- title: AJE (algorithms, jerickson)
+  pdflist: /pdfs/math/*-AJE.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: CSI = comp stat inference (hastie et al)
+  pdflist: /pdfs/math/*-CSI.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: DIDL = dive into deep learning
+  pdflist: /pdfs/math/*-DIDL.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: DMMD = mining mssve datasets (stanford)
+  pdflist: /pdfs/math/*-DMMD.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: DSA = data structs & apps (mehta et al)
+  pdflist: /pdfs/math/*-DSA.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: EA = elementary algos (Liu)
+  pdflist: /pdfs/math/*-EA.pdf
+  pic: /px/math/elementary-algorithms-book-cover.png
+  notes:
+  category: ebooks
+
+- title: ESL = elements statistical learning (hastie et al) 
+  pdflist: /pdfs/math/*-ESL.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: FDS = foundatations of ds (blum et al)
+  pdflist: /pdfs/math/*-FDS.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: GF = deep learning (goodfellow et al)
+  pdflist: /pdfs/math/*-GF.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: ITA = intro to algos, 3rd (cormen et al)
+  pdflist: /pdfs/math/*-ITA.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: 	IP = intro to probability (grinstead, snell)
+  pdflist: /pdfs/math/*-IP.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: NP = numerical python (johansson)
+  pdflist: /pdfs/math/*-NP.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: PA = planning algos (lavalle et al)
+  pdflist: /pdfs/math/*-PA.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: PP = parallel processing (matloff)
+  pdflist: /pdfs/math/*-PP.pdf
+  pic:
+  notes: should be empty
+  category: ebooks
+
+- title: PSC = prob stats cookbook
+  pdflist: /pdfs/math/*-PSC.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: PSM = prob & stat modeling (matloff) 
+  pdflist: /pdfs/math/*PSM.pdf
+  pic:
+  notes: should be empty
+  category: ebooks
+
+- title: PTDS = principles techniques of DS (berkeley)
+  pdflist: /pdfs/math/*PTDS.pdf
+  pic:
+  notes: should be empty
+  category: ebooks
+
+- title: RL = reinforcement learning (sutton et al)
+  pdflist: /pdfs/math/*-RL.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: SCDL = super cheatsheet DL
+  pdflist: /pdfs/math/*-SCDL.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: SM = @soulmachine ML cheatsheet
+  pdflist: /pdfs/math/*SM.pdf
+  pic:
+  notes:
+  category: ebooks
+
+- title: super VIP cheatsheet
+  category: cheatsheets
+  pdflist: /pdfs/math/super-cheatsheet-deep-learning.pdf
+  pic: /px/math/super-vip-cheatsheet.png" width="95%
+
+- title: computer vision (PWC)
+  category: deep-learning 
+  url: https://paperswithcode.com/area/computer-vision
+  pic:
+
+- title: natural language (PWC)
+  category: deep-learning 
+  url: https://paperswithcode.com/area/natural-language-processing
+  pic:
+
+- title: medical (PWC)
+  category: deep-learning
+  url: https://paperswithcode.com/area/medical
+  pic:
+
+- title: methodology
+  category: deep-learning 
+  url: https://paperswithcode.com/area/methodology
+  pic:
+
+- title: methodology
+  category: deep-learning 
+  url: https://paperswithcode.com/area/miscellaneous
+  pic:
+
+- title: graphs
+  category: deep-learning 
+  url: https://paperswithcode.com/area/graphs
+  pic:
+
+- title: speech
+  category: deep-learning 
+  url: https://paperswithcode.com/area/speech
+  pic:
+
+- title: game theory
+  category: deep-learning 
+  url: https://paperswithcode.com/area/playing-games
+  pic:
+
+- title: time series
+  category: deep-learning 
+  url: https://paperswithcode.com/area/time-series
+  pic:
+
+- title: robots
+  category: deep-learning 
+  url: https://paperswithcode.com/area/robots
+  pic:
+
+- title: audio
+  category: deep-learning 
+  url: https://paperswithcode.com/area/audio
+  pic:
+
+- title: code-algorithms
+  category: deep-learning 
+  url: https://paperswithcode.com/area/computer-code
+  pic:
+
+- title: music
+  category: deep-learning 
+  url: https://paperswithcode.com/area/misc
+  pic:
+
+- title: knowledge-base
+  category: deep-learning 
+  url: https://paperswithcode.com/area/knowledge-base
+  pic:
+
+- title: adversarial
+  category: deep-learning 
+  url: https://paperswithcode.com/area/adversarial
+  pic:
+
+- title: reasoning
+  category: deep-learning 
+  url: https://paperswithcode.com/area/reasoning
+  pic:

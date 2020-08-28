@@ -11,18 +11,80 @@ A random collection of Glossaries, Tools and Linux Command Line cheatsheets.<br>
 <! ---------------------------------------------------------------------->
 
 <div class="textcard">
-	<strong id="devops">tools & resources</strong><br>
 
-	<a href="https://dev.to/tasinishmam/awesome-command-line-tools-to-boost-your-productivity-22n8">
-		z.sh, tmux, how2, fzf, tldr (dev.to/tasinishmam)</a><br>
+	<strong><a href="https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99">
+	linux CLI (dev.to/sorotkiewicz)</a></strong><br>
+		<strong>search for files & folders:</strong>&nbsp;
+			<code><small>grep -i -n -r 'Search string' /var/www/path/</small></code><br>
+		<strong>view web log:</strong>&nbsp; 
+			<code><small>tail -f /var/log/postgres/filename</small></code><br>
+		<strong>unpack tar file:</strong>&nbsp; 
+			<code><small>tar -xJfv file.tar.xz</small></code><br>
+		<strong>unpack tar file:</strong>&nbsp; 
+			<code><small>tar -xvf file.tar.bz2</small></code><br>
+		<strong>find & replace text in all files in a directory:</strong>&nbsp;
+			<code><small>find /var/log/ -type f -exec sed -i 's/str1/str2/g' {} \;</small></code><br>
+		<strong>remove all .gz from /var/log:</strong>&nbsp; 
+			<code><small>find /var/log/ -name "*.gz" -type f -delete</small></code><br>
+
 	<br>
 
-	<a href="https://dev.to/zaiste/15-command-line-tools-to-make-you-better-at-shell-cli-35n6">
-		bat, exa, fd, procs, sd, dust, starship, ripgrep, tokei, 
-		hyperfine, ytop, tealdeer, bandwhich, grex, zoxide, nushell
-		 (dev.to/zaiste)	</a><br>
-	<br>
+	<strong><a href="https://dev.to/tasinishmam/awesome-command-line-tools-to-boost-your-productivity-22n8">linux CLI (dev.to/tasinishmam)</a></strong><br>
 		
+	<strong>jump to frequent/recent directory:</strong>&nbsp;
+		<a href="https://github.com/rupa/z"><code>z.sh</code></a><br>
+
+	<strong>terminal window mux</strong>&nbsp;
+		<a href="https://github.com/tmux/tmux"><code>tmux</code></a><br>
+
+	<strong>code nat lang lookup</strong>&nbsp;
+		<a href="https://github.com/santinic/how2"><code>how2</code></a><br>
+
+	<strong>fuzzy text finder:</strong>&nbsp;
+		<a href="https://github.com/junegunn/fzf"><code>fzf</code></a><br>
+
+	<strong>simple man pages:</strong>&nbsp;
+		<a href="https://github.com/tldr-pages/tldr"><code>tldr</code></a><br>
+
+	<br>
+
+	<strong><a href="https://dev.to/zaiste/15-command-line-tools-to-make-you-better-at-shell-cli-35n6">linux CLI (dev.to/zaiste)</a><br>
+
+	<strong>cat clone:</strong>&nbsp;
+		<a href="https://github.com/sharkdp/bat"><code>bat</code></a><br>
+
+	<strong>a better ls:</strong>&nbsp;
+		<a href="https://github.com/ogham/exa"><code>exa</code></a><br>
+
+	<strong>a better find:</strong>&nbsp;
+		<a href="https://github.com/sharkdp/fd"><code>fd</code></a><br>
+
+	<strong>a better ps: </strong>(for processes):&nbsp;
+		<a href="https://github.com/dalance/procs"><code>procs</code></a><br>
+		
+	<strong>a better sed: </strong>&nbsp;
+		<a href="https://github.com/chmln/sd"><code>sd</code></a><br>
+
+	<strong>a better du (for disk usage):</strong>&nbsp;
+		<a href="https://github.com/bootandy/dust"><code>dust</code></a><br>
+
+	<strong>custom prompts:</strong>&nbsp;
+		<a href="https://starship.rs/guide/"><code>stardust</code></a><br>
+
+	<strong>a better grep:</strong>&nbsp;
+		<a href="https://github.com/BurntSushi/ripgrep"><code>ripgrep</code></a><br>
+
+	<strong>code stats:</strong>&nbsp;
+		<a href="https://github.com/XAMPPRocky/tokei"><code>tokei</code></a><br>
+
+	<strong>benchmarking:</strong>&nbsp;
+		<a href="https://github.com/sharkdp/hyperfine"><code>hyperfine</code></a><br>
+
+	<strong>a better top (for processes):</strong>&nbsp;
+		<a href="https://github.com/cjbassi/ytop"><code>ytop</code></a><br>
+
+	<br>
+	
 	<a href="https://www.tecmint.com/create-alias-in-linux/">alias command (tecmint)</a><br>
 
 	<a href="/pdfs/tools/linux-productivity-tools.pdf">linux tools (lisa19)</a><br>

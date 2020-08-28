@@ -1,0 +1,3960 @@
+
+<div class="textcard-white
+  title: 
+	  topic: Common Reference Docs:
+	ADM = algorithm design manual (skiena)<br>
+	AJE = algos (jerickson)<br>
+	BA = bandit algos (lattimore et al)<br>
+	CSI = comp stat inference (hastie et al)<br>
+	DIDL = dive into deep learning<br>
+	DMMD = mining mssve datasets (stanford)<br>
+	DSA = data structs & apps (mehta et al)<br>
+	EA = elementary algos (Liu)<br>
+	ESL = elements statistical learning (hastie et al)<br>
+	FDS = foundatations of ds (blum et al)<br>
+	GF = deep learning (goodfellow et al)<br>
+	ITA = intro to algos, 3rd (cormen et al)<br>
+	IP = intro to probability (grinstead, snell)<br>
+	NP = numerical python (johansson)<br>
+	PA = planning algos (lavalle et al)<br>
+	PP = parallel processing (matloff)<br>
+	PSC = prob stats cookbook<br>
+	PSM = prob & stat modeling (matloff)<br>
+	PwC =   url: https://paperswithcode.com/sota
+  title: papers with code
+	PTDS = principles techniques of DS (berkeley)<br>
+	RL = reinforcement learning (sutton et al)<br>
+	SCDL = super cheatsheet DL<br>
+	SM = @soulmachine ML cheatsheet<br>
+
+  topic: 3D images
+  url: https://paperswithcode.com/area/computer-vision/3d
+  title: PwC
+
+
+  topic: accuracy score
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score 
+  title: classifier metrics (scikit)
+
+
+  topic: activations
+  pic: /px/math/activation-function.png
+  url: https://en.wikipedia.org/wiki/Activation_function
+  title: wikipedia
+  url: https://opendatascience.com/blog/choosing-the-right-activation-function-in-a-neural-network/
+  title: choices (ODSC)
+  url: https://medium.com/@srnghn/deep-learning-which-loss-and-activation-functions-should-i-use-ac02f1c56aa8
+  title: choices
+  url: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
+  title: intro
+  url: https://medium.com/@matelabs_ai/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046
+
+  title: beginners guide
+  url: https://arxiv.org/abs/1502.01852
+  title: rectifiers (arxiv)
+
+
+  topic: additive models
+  url: /pdfs/math/additive-models-trees-ESL.pdf
+  title: ESL
+
+
+  topic: adversarial algos
+  url: https://paperswithcode.com/area/adversarial
+  title: PwC
+
+
+  topic: (web) advertising
+  url: /pdfs/math/advertising-DMMD.pdf
+  title: mining massive datasets
+
+
+  topic: algorithm analysis
+  url: /pdfs/math/algo-analysis-ADM.pdf
+  title: summary (ADM)
+  notes: ram model,
+big-oh notation, 
+growth, dominance, 
+big-oh: add, multiply, 
+efficiency, 
+logarithms</small>
+  url: /pdfs/math/growth-ITA.pdf
+  title: growth relations (ITA)
+  pic: /px/math/bigo-complexity-chart.png
+  url: http://bigocheatsheet.com/
+  title: big o cheatsheet
+
+
+  topic: amortization
+  url: /pdfs/math/amortization-ITA.pdf
+  title: ITA
+
+
+
+  pic: /px/math/alphago-zero.png
+  topic: alphago-zero
+  url: https://blog.acolyer.org/2018/01/12/one-model-to-learn-them-all/
+  title: one model to learn them all
+  url: https://hackernoon.com/the-3-tricks-that-made-alphago-zero-work-f3d47b6686ef
+  title: 3 tricks
+
+
+  topic: anomaly detection
+  url: https://paperswithcode.com/area/computer-vision/anomaly-detection
+  title: PwC
+
+
+  topic: apis
+  url: https://www.programmableweb.com/news/14-top-artificial-intelligence-apis/brief/2019/09/29
+  title: 
+programmable web
+
+
+  topic: applications
+  url: /pdfs/math/applications-DLgoodfellow.pdf
+  title: goodfellow
+  url: /pdfs/math/applications-DSA.pdf
+  title: DSA
+  url: /pdfs/math/applications-RL.pdf
+  title: RL
+
+
+  topic: approximation algos
+  url: /pdfs/math/approximate-inference-DLgoodfellow.pdf
+  title: goodfellow
+  url: /pdfs/math/approximation-algos-ADM.pdf
+  title: ADM
+  url: /pdfs/math/approximation-algos-ITA.pdf
+  title: ITA
+  url: https://www.embeddedrelated.com/showarticle/152.php
+  title: chebyshev
+  url: http://www.ebaytechblog.com/2015/05/01/fast-approximate-logarithms-part-i-the-basics/
+  title: ebay pt 1</a> &nbsp;
+  url: http://www.ebaytechblog.com/2015/06/11/fast-approximate-logarithms-part-ii-rounding-error/
+  title: ebay pt 2</a> &nbsp;
+  url: http://www.ebaytechblog.com/2015/06/25/fast-approximate-logarithms-part-iii-the-formulas/
+  title: ebay pt 3
+
+
+  topic: arbitrary-precision-math
+  pic: /px/math/ADM-arbitrary-precision-math.png
+  url: /pdfs/math/arbitrary-precision-math-ADM.pdf
+  title: ADM
+
+
+  topic: association rules
+  pic: /px/math/market-basket-analysis.png
+  url: http://www.kdnuggets.com/2016/10/association-rule-learning-concise-technical-overview.html
+  title: overview
+  notes: 
+	  topic: support</strong>: frequency of appearances<br>
+	  topic: confidence</strong>: %time a rule is found to be true<br>
+	  topic: lift</strong>: ratio of observed support to independence
+	</small><br>
+
+  url: https://en.wikipedia.org/wiki/Affinity_analysis
+  title: affinity analysis
+  url: http://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+  title: apriori
+  url: https://thedatum.data.blog/2019/06/09/machine-learning-association-rule-mining/
+  title: rule mining
+
+
+  topic: a-star
+  pic: /px/math/a-star.png
+  url: http://www.redblobgames.com/pathfinding/a-star/introduction.html
+  title: intro
+  url: http://www.redblobgames.com/pathfinding/a-star/implementation.html
+  title: implementation
+
+
+  topic: attention mechanisms
+  pic: /px/math/attention-bahdanau-vs-luong.png
+
+  url: http://www.davidsbatista.net/blog/2020/01/25/Attention-seq2seq/
+  title: david batista
+  url: https://blog.floydhub.com/attention-mechanism/
+  title: floydhub
+  url: https://skymind.ai/wiki/attention-mechanism-memory-network
+  title: skymind
+  url: https://arxiv.org/pdf/1704.06904
+  title: residual attention (arxiv)
+  url: http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+  title: wildml
+  url: https://github.com/oxford-cs-deepnlp-2017/lectures
+  title: oxford CS
+  url: http://www.kdnuggets.com/2017/02/natural-language-processing-key-terms-explained.html
+  title: terminology
+  url: https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-3-Natural-Language-Processing
+  title: adeshpande
+  url: https://greg.blog/2013/01/26/unix-bi-grams-tri-grams-and-topic-modeling/
+  title: bigrams,trigrams,topic modeling
+  url: https://github.com/edobashira/speech-language-processing
+  title: edobashira github
+  url: http://ataspinar.com/2015/11/16/text-classification-and-sentiment-analysis/
+  title: sentiment analysis
+  url: http://blog.revolutionanalytics.com/2016/04/pride-and-prejudice-and-z-scores.html
+  title: pride,prejudice,z-scores
+  url: http://fotiad.is/blog/sentiment-analysis-comparison/
+  title: sentiment analysis compare
+  url: https://www.r-bloggers.com/finding-the-dramatic-arc-of-novels-with-sentiment-analysis/
+  title: semantic analysis - theme arcs
+  url: https://www.kdnuggets.com/2017/02/natural-language-processing-key-terms-explained.html
+  title: glossary
+  url: /pdfs/math/attention-mechs-dive.pdf
+  title: DIDL
+
+
+  topic: attractors
+  url: https://gereshes.com/2020/01/13/attracted-to-attractors
+  title: gereshes.com
+  notes: thomas's, rossler, lorenz</small>
+
+
+  topic: audio
+  url: https://paperswithcode.com/area/audio
+  title: PwC
+  notes: sentiment analysis, generation, classification, event detection, tagging, acoustic scene classification, chord recognition</small>
+
+
+  topic: autocorrelation
+  url: http://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
+  title: 
+intro
+
+
+  topic: autoencoders
+  pic: /px/math/autoencoders.png" width="95%
+  title: 
+  url: https://pgaleone.eu/neural-networks/2016/11/18/introduction-to-autoencoders/
+  title: intro
+  url: https://hackernoon.com/autoencoders-deep-learning-bits-1-11731e200694#.ezkhdfu4m
+  title: intro
+  url: http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf
+  title: 			(denoising)
+  url: http://deeplearning.net/tutorial/dA.html#daa
+  title: 								(denoising)
+  url: http://deeplearning.net/tutorial/SdA.html#sda
+  title: 							(denoising - stacked)
+  url: https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/cA.py
+  title: 	(contractive)
+  url: http://arxiv.org/abs/1312.6114
+  title: 											(variational)
+  url: https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
+  title: 			(variational)
+  url: http://arxiv.org/abs/1511.01432
+  title: 											(sequence)
+  url: https://arxiv.org/abs/1609.02200
+  title:  										(discrete variational)
+  url: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
+  title: 						conditional variational
+  url: /pdfs/math/autoencoders-DLgoodfellow.pdf
+  title: 									goodfellow
+
+
+  topic: autonomous vehicles / autonomous driving
+  url: https://paperswithcode.com/area/computer-vision/autonomous-vehicles
+  title: PwC
+
+
+  topic: back propagation
+  pic: /px/math/backprop.png" width="95%
+  title: 
+  url: http://www.offconvex.org/2016/12/20/backprop/
+  title: 
+intro
+  url: https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+  title: 
+	intro
+  url: https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+  title: gradient flow via backprop
+
+
+  topic: backtracking
+  url: /pdfs/math/backtracking-AJE.pdf
+  title: AJE
+  url: /pdfs/math/backtracking-JE.pdf
+  title: JE
+
+
+  topic: bagging
+  url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
+  title: hackernoon
+
+
+  topic: bandwidth reduction
+  url: /pdfs/math/bandwidth-reduction-ADM.pdf
+  title: ADM
+
+
+  topic: basis expansion
+  url: /pdfs/math/basis-expansions-regularization-ESL.pdf
+  title: ESL
+
+
+  topic: batch normalization
+  url: http://arxiv.org/abs/1510.01378
+  title: arxiv 1510
+  url: https://arxiv.org/abs/1502.03167
+  title: arxiv 1502
+
+  topic: batch sizing
+  url: https://stats.stackexchange.com/questions/231061/how-to-use-early-stopping-properly-for-training-deep-neural-network
+  title: how to use early stopping
+
+
+  topic: bayes
+  url: /pdfs/math/bayes-NP.pdf
+  title: numerical python
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+  title: my github
+  pic: /px/math/bayes-bandits.png" width="95%
+  title: 
+  url: https://mlwhiz.com/blog/2019/07/21/bandits/
+  title: bandits (mlwhiz)
+  url: /pdfs/math/bayes-empirical-estimation-CSI.pdf
+  title: empirical estimation (CSI)
+  url: /pdfs/math/bayes-inference-CSI.pdf
+  title: inference (CSI)
+  url: /pdfs/math/bayes-inference-PSC.pdf
+  title: inference (PSC)
+  url: /pdfs//bayes-stats-SM.pdf
+  title: statistics (SM)
+  url: /pdfs/math/bayes-nets-SM.pdf
+  title: nets (directed graphs) (SM)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge
+  title: regression (scikit)
+
+
+  topic: benchmarks
+  url: https://arxiv.org/pdf/1608.07249v6.pdf
+  title: benchmarks (arxiv)
+  url: http://rpubs.com/m3cinc/Benchmarking_20_Machine_Learning_Models_Accuracy_and_Speed
+  title: 20 models
+  url: https://arxiv.org/abs/1511.06435
+  title: library comparison (arxiv)
+  url: https://github.com/soumith/convnet-benchmarks
+  title: convnet (soumith)
+  url: http://dlbench.comp.hkbu.edu.hk/
+  title: dl bench
+  url: https://fathom.readthedocs.io/en/latest/quickstart/
+  title: fathom 101</a>
+  url: https://github.com/soumith
+  title: soumith github
+  url: https://arxiv.org/abs/1708.05070
+  title: which algorithm should i use?
+  url: http://jmlr.csail.mit.edu/papers/v15/delgado14a.html
+  title: 179 classifiers, 17 families
+  url: https://machinelearningmastery.com/start-with-gradient-boosting/
+  title: 13 algos, 165 datasets
+  url: http://dlbench.comp.hkbu.edu.hk/
+  title: DLbench
+  url: https://semiengineering.com/use-inference-benchmarks-similar-to-your-application/
+  title: semiconductor inference
+  url: https://www.kdnuggets.com/2019/09/scikit-learn-mlr-machine-learning.html
+  title: scikit vs mlr
+
+
+  topic: bestof
+  url: https://github.com/kjw0612/awesome-deep-vision
+  title: awesome deep vision
+  url: https://github.com/josephmisiti/awesome-machine-learning
+  title: awesome machine learning
+  url: https://github.com/terryum/awesome-deep-learning-papers
+  title: awesome deep learning
+  url: https://github.com/kjw0612/awesome-rnn
+  title: awesome rnns
+  url: https://github.com/josephmisiti/awesome-machine-learning
+  title: awesome ML
+  url: https://github.com/kjw0612/awesome-random-forest
+  title: awesome random forests
+  url: https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+  title: DL reading roadmap
+  url: https://tryolabs.com/blog/2018/12/19/major-advancements-deep-learning-2018/
+  title: notable 2018
+  url: https://www.topbots.com/most-important-ai-research-papers-2018/
+  title: notable 2018 (topbots)
+
+
+  topic: b trees
+  url: /pdfs/math/b-trees-ITA.pdf
+  title: ITA
+
+
+  topic: BK trees
+  url: http://signal-to-noise.xyz/post/bk-tree/
+  title: signal-to-noise
+
+
+  topic: bert
+  url: https://www.kdnuggets.com/2019/09/bert-roberta-distilbert-xlnet-one-use.html
+  title: kdnuggets
+  url: https://www.lyrn.ai/2018/11/07/explained-bert-state-of-the-art-language-model-for-nlp/
+  title: bert explained</a>
+  url: https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77
+
+  title: 6 patterns, 100m params
+
+  topic: best practices
+  url: https://tech.instacart.com/modeling-the-unseen-6a51c9a02430
+  title: 
+instacart: modeling the unseen
+  url: ttp://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+  title: rules of ML
+  url: https://blog.floydhub.com/ten-techniques-from-fast-ai/
+  title: 10 techniques
+
+
+  topic: bezier curves
+  pic: /px/math/bezier-curves-math.png
+  url: https://github.com/AntixK/Curve-Studio
+  title: curve studio
+  url: https://buildingvts.com/mathematical-intuition-behind-bezier-curves-2ea4e9645681#.abjjahxca
+  title: math intuition
+  url: https://www.jasondavies.com/animated-bezier/
+  title: animated
+  url: https://pomax.github.io/bezierinfo
+  title: bezierinfo
+
+
+
+<div class='textcard'>
+  topic: biclustering
+  url: http://scikit-learn.org/stable/modules/biclustering.html#biclustering | http://scikit-learn.org/stable/modules/classes.html#module-sklearn.cluster.bicluster
+  title: scikit
+  url: http://scikit-learn.org/stable/modules/biclustering.html#spectral-co-clustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralCoclustering.html#sklearn.cluster.bicluster.SpectralCoclustering
+  title: 
+spectral co-clustering
+  url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_coclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-coclustering-py
+  title: demo1
+  url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_bicluster_newsgroups.html#sphx-glr-auto-examples-bicluster-plot-bicluster-newsgroups-py
+  title: demo2
+  url: http://scikit-learn.org/stable/modules/biclustering.html#spectral-biclustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralBiclustering.html#sklearn.cluster.bicluster.SpectralBiclustering
+  title: spectral biclustering
+  url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-biclustering-py
+  title: demo
+  url: http://scikit-learn.org/stable/modules/biclustering.html#biclustering-evaluation
+  title: metrics
+
+
+  topic: binary search trees
+  url: /pdfs/math/binary-search-trees-ITA.pdf
+  title: ITA
+
+
+  topic: bin packing
+  url: /pdfs/math/bin-packing-ADM.pdf
+  title: ADM
+
+
+  topic: blas
+  pic: /px/math/gemm-convolutions.png" width="95%
+  title: 
+  url: http://www.netlib.org/blas/index.html
+  title: blas (netlib)
+  url: https://arxiv.org/pdf/1610.08705.pdf
+  title: arxiv
+  url: https://arxiv.org/pdf/1610.06385v1.pdf
+  title: blas acceleration
+  url: https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/
+  title: gemm
+  url: https://devblogs.nvidia.com/cublas-strided-batched-matrix-multiply/
+  title: Cublas
+
+
+  topic: bloom filters
+  url: https://arxiv.org/abs/2001.03147
+  title: age-partitioned (arxiv)
+  url: https://bdupras.github.io/filter-tutorial/
+  title: tutorial
+  url: https://code.tutsplus.com/articles/understanding-the-magic-of-bloom-filters-with-nodejs-redis--cms-25397
+  title: demo
+  url: https://github.com/m00dy/BloomFilter
+  title: github.m00dy
+  url: https://llimllib.github.io/bloomfilter-tutorial/
+  title: llimllib.github
+  url: https://sacert.github.io/Bloom-Filter/
+  title: sacert.github
+  url: https://www.jasondavies.com/bloomfilter/
+  title: jason davies
+
+
+  topic: boosting additive trees
+  url: /pdfs/math/boosting-additive-trees-ESL.pdf
+  title: ESL
+
+
+  topic: boltzmann machines
+  url: http://deeplearning.net/tutorial/rbm.html#rbm
+  title: tutorial
+
+
+  topic: books
+  pic: /px/math/elementary-algorithms-book-cover.png
+
+  url: https://www.datasciencecentral.com/profiles/blogs/40-tutorials-covering-all-aspects-of-machine-learning
+  title: 40 tutorials
+  url: /pdfs/math/book-algorithms-elementary-EA.pdf
+  title: 						elementary algos (Liu) (pdf)
+  url: {% post_url 2020-01-03-dive-into-deep-learning     %}
+  title: 			dive into DL (blog post)
+  url: {% post_url 2019-11-06-algo-design-manual          %}
+  title: 			ADM (blog post)
+  url: {% post_url 2020-01-01-bandit-algorithms-booknotes %}
+  title: 			bandit algorithms (blog post)
+  url: {% post_url 2019-06-08-dl-goodfellow-book-chaps    %}
+  title: 			goodfellow (blog post)
+  url: {% post_url 2020-01-01-intro-to-algorithms-booknotes	%}
+  title: 		intro to algos (blog post)
+  url: /pdfs/math/book-Algorithms-JeffE.pdf
+  title:  				            algos erickson (pdf)
+  url: /pdfs/math/machine-learning-cheat-sheet.pdf
+  title:   			        soulmachine cheatsheet (pdf)
+  url: https://gab41.lab41.org/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa
+  title: 10 basic algos
+
+  url: /pdfs/math/book-elements-of-statistical-learning-ESL.pdf
+  title:       	elements of stat learning (pdf)
+  url: /pdfs/math/book-foundations-FDS.pdf
+  title:                				foundations (pdf)
+  url: /pdfs/math/machine-learning-glossary.pdf
+  title: 							Google glossary (pdf)
+  url: /pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
+  title: 					data structures & apps (pdf)
+  url: /pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
+  title: 	inference (pdf)
+  url: /pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
+  title: 		mining massive datasets (pdf)
+  url: http://www.deeplearningbook.org/
+  title: 									MIT deep learning (online)
+  url: /pdfs/math/book-machine-learning-probabilistic-MLP.pdf
+  title: 			probabilistic ML (pdf)
+  url: /pdfs/math/book-numerical-algorithms-solomon.pdf
+  title: 					numerical algorithms (pdf)
+  url: https://github.com/bjpcjp/Numeric-Python
+  title: 							numerical python (github)
+  url: /pdfs/math/parallel-processing.pdf
+  title:                                parallel processing (pdf)
+  url: /pdfs/math/planning-algorithms.pdf
+  title: 								planning algos (pdf)
+  url: https://www.textbook.ds100.org/
+  title: 									ML principles (online)
+  url: /pdfs/math/prob-intro.pdf
+  title:                                         intro to probability (pdf)
+  url: pdfs/math/book-reinforcement-learning-v2-RL.pdf
+  title: 					reinforcement learning (pdf)
+  url: https://jakevdp.github.io/PythonDataScienceHandbook/
+  title: 				Python Data Science Handbook (PDSH)
+  url: https://github.com/bjpcjp/python-data-science-handbook
+  title: 			PDSH: github
+
+
+  topic: boosting
+  url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
+  title: hackernoon
+
+
+  topic: (tools) caffe
+  url: http://caffe.berkeleyvision.org/tutorial/
+  title: tutorial
+  url: http://caffe.berkeleyvision.org/
+  title: home
+  url: http://caffe.berkeleyvision.org/installation.html
+  title: install
+
+
+  topic: calendar math
+  url: /pdfs/math/calendar-math-ADM.pdf
+  title: ADM
+
+
+  topic: category theory
+  pic: /px/math/category-theory-applied.png
+  url: https://arxiv.org/abs/1803.05316
+  title: 7 sketches arxiv
+  url: http://chalkdustmagazine.com/features/an-invitation-to-category-theory/
+  title: chalkdust
+
+
+  topic: category variables
+  url: https://opendatascience.com/blog/beyond-one-hot-an-exploration-of-categorical-variables-2/
+  title: beyond one-hot:
+
+
+  topic: central limit theorem
+  url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
+  title: theorem
+  url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html
+  title: part 2
+  url: https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/
+  title: atomicobject</a>a<br>
+
+
+<!--
+<div class="textcard
+  title: 
+  topic: cheatsheets
+  url: /pdfs/math/super-cheatsheet-deep-learning.pdf
+  title: super VIP c/s
+  pic: /px/math/super-vip-cheatsheet.png" width="95%
+  title: 
+
+-->
+  topic: chinese postman
+  url: /pdfs/math/chinese-postman-ADM.pdf
+  title: ADM
+
+
+  topic: classifier thresholds
+  url: http://blog.insightdatalabs.com/visualizing-classifier-thresholds/
+  title: viz for better decisions
+
+
+  topic: classifier metrics
+  pic: /px/math/roc.png
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics
+  title: intro
+  url: https://opendatascience.com/blog/a-budget-of-classifier-evaluation-measures
+  title: budget
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
+  title: classification report
+  url: http://machinelearningmastery.com/confusion-matrix-machine-learning/
+  title: confusion matrix
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#hamming-loss
+  title: hamming loss
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#jaccard-similarity-coefficient-score
+  title: jaccard similarity
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-and-f-measures
+  title: precision, recall, f-measure
+  url: https://www.datasciencecentral.com/profiles/blogs/roc-curve-explained-in-one-picture
+  title: ROC explained
+  url: http://blog.revolutionanalytics.com/2016/08/roc-curves-in-two-lines-of-code.html
+  title: ROC in 2 lines
+  url: http://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/
+  title: ROC, AUC
+  url: https://lettier.github.io/posts/2016-08-05-matthews-correlation-coefficient.html
+  title: matthews correlation coefficient
+  url: https://towardsdatascience.com/matthews-correlation-coefficient-when-to-use-it-and-when-to-avoid-it-310b3c923f7e
+  title: matthews correlation coefficient</a>
+
+
+  topic: cliques
+  pic: /px/math/ADM-cliques.png
+  url: /pdfs/math/cliques-ADM.pdf
+  title: ADM
+
+
+  topic: clustering
+  url: http://scikit-learn.org/stable/modules/clustering.html#affinity-propagation
+  title: 							affinity propagation
+  url: http://scikit-learn.org/stable/modules/clustering.html#birch
+  title: 											birch
+  url: http://themainstreamseer.blogspot.com/2013/01/introduction-to-classification.html
+  title: 					cart
+  url: https://github.com/lmcinnes/hdbscan/blob/master/notebooks/Comparing%20Clustering%20Algorithms.ipynb
+  title: 	comparison
+  url: https://blog.dominodatalab.com/topology-and-density-based-clustering/
+  title: 								density-based
+  url: http://abhijitannaldas.com/dbscan-clustering-in-machine-learning.html
+  title: 								dbscan
+  url: https://towardsdatascience.com/how-to-use-dbscan-effectively-ed212c02e62
+  title:  							dbscan (using effectively)
+  url: http://www.kdnuggets.com/2016/09/comparing-clustering-techniques-concise-technical-overview.html
+  title: 		k-means Expectation-Maximization
+  url: http://www.kdnuggets.com/2016/08/tutorial-expectation-maximization-algorithm.html
+  title: 					EM
+  url: http://www.aaronschlegel.com/hierarchical-clustering-nearest-neighbors-algorithm-r/
+  title: 					hierarchical (R)
+  url: https://www.kdnuggets.com/2019/09/hierarchical-clustering.html
+  title: 										hierarchical
+  url: http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering
+  title: 						hierarchical (scikit)
+  url: http://blog.yhat.com/posts/customer-segmentation-python-rodeo.html
+  title: 									k-means - customer segmentation
+  url: https://www.periscopedata.com/blog/multi-dimensional-clustering-using-k-means-postgres.html
+  title: 			k-means multi-D postgresql
+  url: http://analyzecore.com/2014/12/27/sequence-carts-in-depth-analysis-with-r-clustering/
+  title: 				sequence carts (R)
+  url: https://github.com/CoAxLab/DeBaCl
+  title: 																	density based clustering
+  url: http://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
+  title: 										HDBSCAN
+  url: http://scikit-learn.org/stable/modules/clustering.html#mean-shift
+  title: 									mean shift
+  url: https://spin.atomicobject.com/2015/05/26/mean-shift-clustering/
+  title: 										mean shift demo
+  url: https://saravananthirumuruganathan.wordpress.com/2010/04/01/introduction-to-mean-shift-algorithm/
+  title: 	mean shift intro
+  url: https://cluster.meetyogi.com/
+  title: 																		as a service (yogi)
+  url: https://www.r-bloggers.com/finding-optimal-number-of-clusters/
+  title: 										optimal #clusters (R)
+  url: http://www.datasciencecentral.com/profiles/blogs/spectral-clustering-how-math-is-redefining-decision-making
+  title: spectral clustering
+  url: http://scikit-learn.org/stable/auto_examples/cluster/plot_dict_face_patches.html#sphx-glr-auto-examples-cluster-plot-dict-face-patches-py
+  title: face patches
+  url: /pdfs/math/clustering-DMMD.pdf
+  title: DMMD
+  url: /pdfs/math/clustering-FDS.pdf
+  title: FMS
+
+
+  topic: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation
+  title: scikit
+  url: http://scikit-learn.org/stable/modules/clustering.html#adjusted-rand-index
+  title: adjusted rand ndx</a>
+  url: http://scikit-learn.org/stable/modules/clustering.html#mutual-information-based-scores
+  title: mutual info scoring
+  url: http://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure
+  title: homogeneity, completeness, v-measure
+  url: http://scikit-learn.org/stable/modules/clustering.html#fowlkes-mallows-scores
+  title: fowkles-mallows
+  url: http://scikit-learn.org/stable/modules/clustering.html#silhouette-coefficient
+  title: silhouette coefficient
+  url: http://scikit-learn.org/stable/modules/clustering.html#calinski-harabaz-index
+  title: calinski-harabaz</a>
+  url: http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html#sphx-glr-auto-examples-cluster-plot-kmeans-silhouette-analysis-py
+  title: demo, kmeans, SA
+
+
+  topic: (tools) cntk
+  url: https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux
+  title: setup
+  url: https://blogs.microsoft.com/next/2016/01/25/microsoft-releases-cntk-its-open-source-deep-learning-toolkit-on-github/#sm.0000012ecd8p2vf1ltb2qmtjwvd5x
+  title: news</a>
+
+
+  topic: combinatorials
+  url: /pdfs/math/combinatorials-ADM.pdf
+  title: ADM
+  notes: sort, search, median, selection, permutations, subsets, partitions, graphs, calendar math, job sched, satisfiability</small><br>
+  url: /pdfs/math/partitions-ADM.pdf
+  title: partitions
+  url: /pdfs/math/permutations-ADM.pdf
+  title: permutations (ADM)
+  url: /pdfs/math/medians-ADM.pdf
+  title: medians (ADM)
+  url: /pdfs/math/medians-orderstats-ITA.pdf
+  title: medians-orderstats (ITA)
+
+
+  topic: combining estimators (scikit)
+  url: http://scikit-learn.org/stable/modules/pipeline.html#pipeline-chaining-estimators
+  title: pipelining
+  url: http://scikit-learn.org/stable/modules/pipeline.html#featureunion-composite-feature-spaces
+  title: feature unions
+
+
+  topic: (tools) command line
+  pic: /px/math/datasci-at-cmnd-line.png
+  url: /pdfs/math/DataSci-CmndLine-cheat-20190804.pdf
+  title: my cmnd line cheatsheet (pdf)
+  url: http://cb.vu/unixtoolbox.xhtml
+  title: unix toolbox
+  url: http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
+  title: 15 unix command
+  url: https://github.com/bjpcjp/the-book-of-secret-knowledge
+  title: book of secret knowledge
+  url: https://datavu.blogspot.com/2014/08/useful-unix-commands-for-exploring-data.html
+  title: useful *nix commands
+  url: https://blog.robertelder.org/data-science-linux-command-line/
+  title: robert elder
+  notes: pipe, grep, sed, awk, sort, comm, uniq, tr, cat, head, tail, wc, find, tsort, tee, redirect</small><br>
+  url: https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da
+  title: @kadek
+  notes: ICONV, HEAD, TR, WC, SPLIT, SORT, UNIQ, CUT, PASTE, JOIN, GREP, SED, AWK</small><br>
+  url: https://www.kdnuggets.com/2018/03/top-12-essential-command-line-tools-data-scientists.html
+  title: 12 cmndline tools
+  url: https://github.com/dbohdan/structured-text-tools
+  title: text tools
+  url: https://github.com/jeroenjanssens/data-science-at-the-command-line
+  title: jeroen janssens ebook
+  url: https://source.opennews.org/articles/eleven-awesome-things-you-can-do-csvkit/
+  title: csvkit tricks
+  url: https://www.kdnuggets.com/2019/07/five-command-line-tools-data-science.html
+  title: 5 cmndline tools
+  url: https://github.com/eBay/tsv-utils
+  title: tsv utilities (ebay)
+
+
+  topic: complex numbers
+  url: /pdfs/math/complex-numbers-LAY.pdf
+  title: LAY
+
+
+  topic: computation
+  pic: /px/math/DIDL-layers-and-blocks.png
+  url: /pdfs/math/computation-dive.pdf
+  title: DIDL
+  notes: layers & blocks, parameters, deferred initialization, custom layers, file i/o, GPUs</small>
+
+
+  topic: concept drift
+  url: https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/
+  title: concept drift
+
+
+  topic: confidence intervals
+  url: https://www.analyticbridge.datasciencecentral.com/forum/topics/easy-to-compute
+  title: fractional CIs
+  url: http://www.datasciencecentral.com/profiles/blogs/black-box-confidence-intervals-excel-and-perl-implementations-det
+  title: black box CIs
+  url: https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-to-build-simple-accurate-data-driven-model-free-confidence-in
+  title: how to build
+  url: /pdfs/math/bootstrap-confidence-intervals-CSI.pdf
+  title: boostrap (CSI)
+
+
+
+<div class='textcard'>
+  topic: confusion matrix
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix
+  title: scikit
+
+
+
+<div class='textcard'>
+  topic: connected components
+  url: /pdfs/math/connected-components-ADM.pdf
+  title: ADM
+
+
+  topic: consensus algorithm
+  url: http://rystsov.info/2017/02/15/simple-consensus.html
+  title: rystsov
+
+
+  topic: continuations
+  url: http://jlongster.com/Whats-in-a-Continuation
+  title: what is a continuation
+
+
+  topic: convergence
+  url: /pdfs/math/convergence-PSC.pdf
+  title: PSC
+
+
+  topic: convex hulls
+  url: /pdfs/math/convex-hull-ADM.pdf
+  title: ADM
+
+
+  topic: convolutions
+  url: https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
+  title: affine transforms, channel axis, strides, pooling
+  url: https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
+  title: adeshpande
+  url: https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/
+  title: adeshpande, p2
+  url: https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+  title: 9 DL papers to know
+  url: https://github.com/terryum/awesome-deep-learning-papers
+  title: awesome DL papers
+  url: http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html
+  title: CNN tricks
+  url: http://iamaaditya.github.io/2016/03/one-by-one-convolution/
+  title: convolutions (1x1)
+  url: /pdfs/math/cnns-dive.pdf
+  title: CNNs (DIDL)
+  url: /pdfs/math/cnns-DLgoodfellow.pdf
+  title: goodfellow
+  url: /pdfs/math/cnns-modern-dive.pdf
+  title: modern cnns (DIDL)
+  url: /pdfs/math/cnns-super-cheatsheet-SCDL.pdf
+  title: super cheatsheet
+
+
+
+<!-- ************** LOCAL ONLY ************ -->
+<div style="display:none;
+  title: 
+<div class="textcard
+  title: 
+  topic: convex optimization
+  url: /pdfs/math/convex-optimization.pdf
+  title: ebook
+
+
+
+  topic: covariance
+  url: http://scikit-learn.org/stable/modules/covariance.html
+  title: scikit
+  url: https://towardsdatascience.com/co-variance-an-intuitive-explanation-a67f6c80674d
+  title: towards ds
+
+
+  topic: cross decompostion
+  url: http://scikit-learn.org/stable/auto_examples/cross_decomposition/plot_compare_cross_decomposition.html#sphx-glr-auto-examples-cross-decomposition-plot-compare-cross-decomposition-py
+  title: 
+scikit</a>
+
+
+  topic: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html
+  title: intro (scikit)
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#computing-cross-validated-metrics
+  title: metrics
+  url:  http://scikit-learn.org/stable/modules/cross_validation.html#the-cross-validate-function-and-multiple-metric-evaluation
+  title: function
+  url: http://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html#sphx-glr-auto-examples-model-selection-plot-roc-crossval-py
+  title: demo: ROC with CV
+  url: http://scikit-learn.org/stable/auto_examples/plot_cv_predict.html#sphx-glr-auto-examples-plot-cv-predict-py
+  title: plotting predictions
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#k-fold
+  title: 					k-fold
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#repeated-k-fold
+  title: 			k-fold, repeated
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-one-out-loo
+  title: 		leave one out (LOO)
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-p-out-lpo
+  title: 			leave P out (LPO)
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#random-permutations-cross-validation-a-k-a-shuffle-split
+  title: shuffle-split
+  topic: unbalanced data
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#stratified-k-fold
+  title: 		stratified k-fold
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#stratified-shuffle-split
+  title: stratified shuffle split
+  topic: grouped data
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#group-k-fold
+  title: 			group k-fold
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-one-group-out
+  title: 		group LOO
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-p-groups-out
+  title: 		group LPO
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#group-shuffle-split
+  title: 		group shuffle split
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#predefined-fold-splits-validation-sets
+  title: 	predefined splits
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#time-series-split
+  title: 						time series splits
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#a-note-on-shuffling
+  title: 						shuffling notes
+  url: /pdfs/math/cross-validation-CSI.pdf
+  title: 																	CSI
+
+
+  topic: crypto
+  url: https://www.allaboutcircuits.com/technical-articles/an-introduction-to-cryptography/
+  title: intro (AAC)
+  url: https://www.johndcook.com/blog/2019/02/28/secret-sharing/
+  title: secret sharing
+  url: /pdfs/math/cryptography-ADM.pdf
+  title: ADM
+
+
+  topic: cython, numba
+  url: /pdfs/math/numba-cython-NP.pdf
+  title: NP</a>
+
+
+  topic: data augmentation
+  url: https://paperswithcode.com/task/data-augmentation
+  title: PwC
+
+
+  topic: data dictionaries
+  url: https://data36.com/wp-content/uploads/2016/08/practical_data_dictionary_final_data36_tomimester_published.pdf
+  title: ecommerce terms
+
+
+  topic: data generation
+  url: https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced
+  title: 
+	data augmentation (medium)
+
+
+  topic: data labeling
+  url: https://www.snorkel.org/
+  title: snorkel
+  url: https://towardsdatascience.com/using-snorkel-for-multi-label-annotation-cc2aa217986a
+  title: snorkel tutorial</a>
+  pic: /px/math/snorkel.png
+  url: https://www.datasciencecentral.com/profiles/blogs/labeling-with-active-learning
+  title: active learning
+  url: https://github.com/Labelbox/Labelbox
+  title: labelbox (images)
+  url: http://www.fon.hum.uva.nl/praat/
+  title: audio
+  url: http://www.anvil-software.org/
+  title: anvil (video)
+  url: https://ai.googleblog.com/2019/03/reducing-need-for-labeled-data-in.html
+  title: googleblog
+  url: https://www.oreilly.com/ideas/labeling-transforming-and-structuring-training-data-sets-for-machine-learning
+  title: oreilly
+
+
+  topic: datasets
+  url: https://datasetsearch.research.google.com/
+  title: google dataset search
+  url: https://github.com/EpistasisLab/penn-ml-benchmarks
+  title: Penn ML benchmarks
+  url: https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/
+  title: analyticsvidhya
+  url: http://cocodataset.org/#home
+  title: COCO
+  url: http://www.image-net.org/
+  title: ImageNet
+  url: https://github.com/openimages/dataset
+  title: Open Images
+  url: https://medium.com/@Synced/baidu-apollo-releases-massive-self-driving-dataset-teams-up-with-berkeley-deepdrive-5e785ab4053b
+  title: baidu apollo
+  url: http://www.datasciencecentral.com/profiles/blogs/13-machine-learning-data-set-collections
+  title: 13 collections
+  url: https://elitedatascience.com/datasets
+  title: elite data science
+  url: http://www.cogsci.nl/stimulus-sets
+  title: stimulus sets
+  url: https://arxiv.org/abs/1801.07746
+  title: Happy DB
+
+
+  topic: dataset utilities (scikit)
+  url: http://scikit-learn.org/stable/datasets/index.html
+  title: index
+  url: http://scikit-learn.org/stable/datasets/index.html#general-dataset-api
+  title: api
+  url: http://scikit-learn.org/stable/datasets/index.html#toy-datasets
+  title: toy datasets
+  url: http://scikit-learn.org/stable/datasets/index.html#sample-images
+  title: sample images
+  url: http://scikit-learn.org/stable/datasets/index.html#sample-generators
+  title: generators
+  url: http://scikit-learn.org/stable/datasets/index.html#datasets-in-svmlight-libsvm-format
+  title: svmlight/libsvm
+  url: http://scikit-learn.org/stable/datasets/index.html#loading-from-external-datasets
+  title: external datasets
+  url: scikit-learn.org/stable/datasets/index.html#downloading-datasets-from-the-mldata-org-repository
+  title: MLdata.org
+
+
+  topic: data structures
+  url: /pdfs/math/datastructs-ADM.pdf
+  title: ADM
+
+  notes: arrays, pointers, links, stacks, queues, dicts, 
+binary search trees, priority queues, hashing & strings
+</small><br>
+
+  url: /pdfs/math/datastructs-intro-ITA.pdf
+  title: intro (ITA)
+  url: /pdfs/math/datastructs-augmenting-ITA.pdf
+  title: augmenting (ITA)
+  url: /pdfs/math/datastructs-disjoint-ITA.pdf
+  title: disjoint (ITA)
+  url: /pdfs/math/other-datastructs-DSA.pdf
+  title: other (DSA)
+  notes: tries, suffix trees/arrays, string search, persistence, PQ trees, sets,
+cache-oblivious structs, dynamic trees, dynamic graphs, 
+representatin, approx shortest paths, searching & o(log n) time</small>
+
+
+  topic: debugging
+  url: https://gab41.lab41.org/some-tips-for-debugging-deep-learning-3f69e56ea134#.tctsygql3
+  title: tips
+
+
+  topic: decision theory
+  url: /pdfs/math/decision-theory-PSC.pdf
+  title: PSC
+
+
+  topic: decision trees
+  url: https://www.datasciencecentral.com/profiles/blogs/the-complete-guide-to-decision-trees
+algorithms:
+  title: 																				ID3, Cx, CART
+  url: https://www.kdnuggets.com/?s=decision+tree
+  title: 										KD nuggets archive
+  url: https://opendatascience.com/blog/why-do-decision-trees-work/
+  title: 						Who do they work
+  url: https://engineering.siftscience.com/large-scale-decision-forests-lessons-learned/
+  title: decision forests
+  url: https://www.r-bloggers.com/using-decision-trees-to-predict-infant-birth-weights/
+  title: 	predict birth weights (R)
+  url: https://sadanand-singh.github.io/posts/treebasedmodels/#.WXT8Kli2pUw.hackernews
+  title: 	tree models
+
+
+  topic: decomposing signals
+  url: http://scikit-learn.org/stable/modules/decomposition.html#dictionary-learning
+  title: scikit
+  url: http://scikit-learn.org/stable/modules/decomposition.html#generic-dictionary-learning
+  title: generic
+  url: http://scikit-learn.org/stable/modules/decomposition.html#sparse-coding-with-a-precomputed-dictionary
+
+  title: sparse coding
+  url: http://scikit-learn.org/stable/modules/decomposition.html#factor-analysis 
+  title: factor analysis
+  url: http://scikit-learn.org/stable/modules/decomposition.html#independent-component-analysis-ica
+  title: ICA
+  url: http://scikit-learn.org/stable/modules/decomposition.html#latent-dirichlet-allocation-lda
+  title: latent dirichlet allocation
+  url: https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html
+  title: demo - topic extraction
+
+
+  topic: deep belief networks (DBNs)
+  pic: /px/math/dbn.png
+  url: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
+  title: hinton
+  url: http://deeplearning.net/tutorial/DBN.html#dbn
+  title: </a>
+
+
+  topic: deep dream
+  pic: /px/math/deep-dream.png
+  url: https://github.com/google/deepdream
+  title: github
+  url: http://googleresearch.blogspot.ch/2015/06/inceptionism-going-deeper-into-neural.html
+  title: inception
+
+
+  topic: deep forest
+  url: https://arxiv.org/abs/1702.08835
+  title: arxiv
+
+
+  topic: DL architectures
+  pic: /px/math/neural-network-zoo.png
+  url: /pdfs/math/neural-net-cheatsheet.pdf
+  title: cheatsheet
+  url: https://arxiv.org/pdf/1512.07108v5.pdf
+  title: advances (arxiv)
+  url: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+  title: alexnet
+  url: https://deepai.org/machine-learning-glossary-and-terms/affine-layer
+  title: affine layers
+  url: http://deeplearning.net/tutorial/lenet.html
+  title: lenet
+  url: https://arxiv.org/abs/1608.06993
+  title: densenet (arxiv)
+  url: https://arxiv.org/abs/1409.4842
+  title: googlenet/inception (arxiv)
+  url: http://arxiv.org/abs/1505.00387
+  title: highway layers (arxiv)
+  url: https://arxiv.org/abs/1602.07360
+  title: squeezenet (arxiv)</a>
+  url: https://towardsdatascience.com/the-8-neural-network-architectures-machine-learning-researchers-need-to-learn-11a0c96d6073
+  title: 8 architectures
+  url: https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn
+  title: mask-r cnn
+  url: https://arxiv.org/abs/1311.2901
+  title: zfnet (arxiv)
+  url: http://www.robots.ox.ac.uk/~vgg/research/text/
+  title: vgg net
+  url: http://arxiv.org/abs/1409.1556
+  title: vgg net (arix)
+  url: http://offconvex.github.io/2019/10/03/NTK/
+  title: ultrawide nets - NTK kernel
+  url: http://arxiv.org/abs/1512.03385
+  title: resnet (arxiv)
+  url: http://arxiv.org/pdf/1611.01186v2.pdf
+  title: resnet demystified (arxiv)
+  url: https://arxiv.org/abs/1602.07261
+  title: resnet - inception (arxiv)
+  url: https://arxiv.org/abs/1611.05431
+  title: resnext (arxiv)
+  url: https://arxiv.org/abs/1605.07146v3
+  title: wide resnet (arxiv)
+  url: https://arxiv.org/pdf/1708.02002.pdf
+  title: retinanet
+  url: https://github.com/facebookresearch/Detectron
+  title: detectron
+  url: http://www.sohu.com/a/161633191_465975
+  title: squeeze-and-excitation-net
+
+
+  topic: deep photo style transfer
+  url: https://github.com/luanfujun/deep-photo-styletransfer
+  title: github
+
+
+  topic: DL various (goodfellow)
+  url: /pdfs/math/deep-generative-models-DLgoodfellow.pdf
+  title: deep generative models
+  url: /pdfs/math/deep-networks-modern-practices-DLgoodfellow.pdf
+  title: modern practices
+  url: /pdfs/math/guidelines-methodology-DLgoodfellow.pdf
+  title: guidelines
+
+
+  topic: deep voice (baidu)
+  url: https://blog.athelas.com/paper-1-baidus-deep-voice-675a323705df
+  title: blog post
+
+
+  topic: de morgan's laws
+  pic: /px/math/demorgan-laws.png
+  url: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
+  title: 
+	wikipedia
+
+
+  topic: denoising
+  url: https://paperswithcode.com/task/denoising
+  title: PwC
+  url: https://paperswithcode.com/task/image-denoising
+  title: PwC (images)
+
+
+  topic: density estimation
+  url: https://flowingdata.com/2018/12/27/kernel-density-estimation-explainer/
+  title: kde explained
+  url: http://scikit-learn.org/stable/modules/density.html
+  title: scikit
+  url: http://scikit-learn.org/stable/modules/density.html#density-estimation-histograms
+  title: histograms
+  url: http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation
+  title: kernels (KDE)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html#sklearn.neighbors.DistanceMetric
+  title: distance metrics
+
+
+  topic: depth estimation
+  url: https://paperswithcode.com/area/computer-vision/depth-estimation
+  title: PwC
+
+
+  topic: devops/deploy/infrastructure
+  url: https://openai.com/blog/infrastructure-for-deep-learning/
+  title: openai
+  url: https://news.ycombinator.com/item?id=19712465
+  title: y combinator thread
+  url: https://machinelearningmastery.com/command-line-recipes-deep-learning-amazon-web-services/
+  title: AWS recipes
+  url: https://christophergs.github.io/machine%20learning/2019/03/17/how-to-deploy-machine-learning-models/
+  title: christophergs github
+
+
+  topic: dictionaries
+  url: /pdfs/math/dictionaries-ADM.pdf
+  title: ADM
+  url: /pdfs/math/dictionaries-DSA.pdf
+  title: data structs
+
+
+  topic: differential equations (ordinary)
+  pic: /px/math/odes.png
+  url: /pdfs/math/diffeqs-ordinary-NP.pdf
+  title: numeric python
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb
+  title: ODEs (my github)</a><hr>
+  notes: newton's law, 
+damped harmonic oscillator, 
+direction field graphs, 
+inexact solutions, 
+laplace transforms, 
+numerical integration w/ scipy, 
+lotka-volterra equations, 
+lorenz equations,
+coupled damped springs, 
+double pendulum</small><br>
+
+
+  topic: differential equations (partial)
+  pic: /px/math/pdes.png
+  url: /pdfs/math/diffeqs-partial-NP.pdf
+  title: numeric python
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb
+  title: PDEs (my github)</a><hr>
+
+
+  topic: dijkstra
+  pic: /px/math/dijkstra.png
+  url: https://motherboard.vice.com/en_us/article/the-simple-elegant-algorithm-that-makes-google-maps-possible
+  title: intro
+
+
+  topic: dimensionality
+  pic: /px/math/dimensions.png
+  url: http://enhancedatascience.com/2017/07/31/machine-learning-explained-dimensionality-reduction/
+  title: explained
+  url: https://arxiv.org/abs/1611.00740v4
+  title: 	deep, not shallow, nets
+  url: /pdfs/math/dimensionality-ESL.pdf
+  title: ESL
+  url: /pdfs/math/dimensionality-FDS.pdf
+  title: FDS
+
+
+  topic: dimensionality reduction
+  url: https://elitedatascience.com/dimensionality-reduction-algorithms
+  title: 	PCA, LDA, ICA, AEs, t-SNE<br>
+  url: https://intoli.com/blog/pca-and-svd/
+  title: 								PCA & SVD relations
+  url: /pdfs/math/dimensionality-reduction-DMMD.pdf
+  title: 						intro</a>
+
+
+  topic: dimensionality, curse of
+  url: https://www.datasciencecentral.com/profiles/blogs/about-the-curse-of-dimensionality
+  title: intro
+
+
+  topic: discriminant analysis
+  url: https://scikit-learn.org/stable/modules/lda_qda.html
+  title: scikit
+
+
+  topic: distances (metrics)
+  url: https://activewizards.com/blog/comparison-of-the-text-distance-metrics/
+  title: comparison
+  url: http://www.benfrederickson.com/distance-metrics/
+  title: cosine distance
+
+
+  topic: divide & conquer
+  url: /pdfs/math/divide-conquer-ITA.pdf
+  title: ITA</a>
+
+
+  topic: dropout
+  pic: /px/math/targeted-dropout.png
+  url: https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf
+  title: original (hinton)
+  url: https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5
+  title: medium
+  url: https://for.ai/blog/targeted-dropout/
+  title: targeted dropout
+
+
+  topic: dsstne (tools)
+  url: https://medium.com/@scottlegrand/first-dsstne-benchmarks-tldr-almost-15x-faster-than-tensorflow-393dbeb80c0f#.f2piz4fus
+  title: benchmarks
+  url: http://venturebeat.com/2016/05/11/amazon-open-sources-its-own-deep-learning-software-dsstne
+  title: MS to open source</a>
+
+
+  topic: dynamic programming
+  url: /pdfs/math/dynamic-programming-ADM.pdf
+  title: ADM
+  url: /pdfs/math/dynamic-programming-AJE.pdf
+  title: AJE -->
+  url: /pdfs/math/dynamic-programming-ITA.pdf
+  title: ITA
+  url: /pdfs/math/dynamic-programming-JE.pdf
+  title: JE
+  url: /pdfs/math/dynamic-programming-RL.pdf
+  title: RL
+
+
+  topic: edge coloring
+  pic: /px/math/ADM-edge-coloring.png
+  url: /pdfs/math/edge-coloring-ADM.pdf
+  title: ADM</a>
+
+
+  topic: eigenvalues, eigenvectors
+  url: http://setosa.io/ev/eigenvectors-and-eigenvalues/
+  title: setosa
+  url: http://alexhwoods.com/eigenvectors/
+  title: eigenvectors
+  url: http://alexhwoods.com/eigenvalues/
+  title: eigenvalues
+
+
+  topic: eigenfaces
+  pic: /px/math/eigenfaces.png
+  url: https://jeremykun.com/2011/07/27/eigenfaces/
+  title: facial recognition
+  url: http://mikedusenberry.com/on-eigenfaces/
+  title: creating ghost images
+
+
+  topic: ensembles
+  url: https://scikit-learn.org/stable/modules/ensemble.html
+  title: scikit
+  url: https://blog.statsbot.co/ensemble-learning-d1dcd548e936
+  title: stats & bots
+  url: https://www.gormanalysis.com/blog/guide-to-model-stacking-i-e-meta-ensembling/
+  title: stacking
+  url: https://scikit-learn.org/stable/auto_examples/ensemble/plot_bias_variance.html
+  title: bagging vs 1 estimator
+  url: http://scikit-learn.org/stable/modules/ensemble.html#voting-classifier
+  title: voting classifiers
+  url: /pdfs/math/ensembles-ESL.pdf
+  title: ESL
+
+
+  topic: entropy
+  url: http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain
+  title: stack overflow
+
+
+  topic: equation solvers
+  pic: /px/math/equation-solvers.png
+  url: /pdfs/math/equation-solving-NP.pdf
+  title: numeric python
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch05-equation-solving.ipynb
+  title: my github
+
+
+  topic: error correction (ecc)
+  url: https://innovation.vivint.com/introduction-to-reed-solomon-bc264d0794f8
+  title: intro to reed-solomon
+
+
+  topic: error metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html
+  title: intro, model evaluation (scikit)
+  url: 1811.12808.pdf
+  title: raschka, pts 1-4 (pdf)
+  url: https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics
+  title: analytics vidhya
+  url: http://www.datasciencecentral.com/profiles/blogs/7-important-model-evaluation-error-metrics-everyone-should-know
+  title: data science central
+
+
+  topic: eulers formula (trig)
+  url: https://betterexplained.com/static/articles/easy-trig-identities-with-eulers-formula/
+
+  title: better explained
+
+
+  topic: expectation maximization (EM)
+  url: https://www.datasciencecentral.com/profiles/blogs/em-algorithm-explained-in-one-picture
+  title: tutorial
+  url: /pdfs/math/mixture-models-SM.pdf
+  title: SM
+
+
+  topic: facial recognition & modeling
+  url: https://paperswithcode.com/area/computer-vision/facial-recognition-and-modelling
+  title: PwC
+  notes: recognition, detection, verification, alignment,
+          expression recognition, generation, landmark detection, ID,
+          reconstruction, (more)</small>
+
+
+  topic: (tools) fathom
+  pic: /px/math/fathom.png
+  url: http://fathom.readthedocs.io/en/latest/quickstart/
+  title: quickstart
+
+
+  topic: feature engineering
+
+  url: https://www.datasciencecentral.com/profiles/blogs/10-tools-and-platforms-for-data-preparation
+  title: tools (DS central)
+  notes: paxata, alteryx, lavastorm, lumira, platfora, loom, datawatch, datameer, tamr, rapidminer</small><br>
+
+  url: http://scikit-learn.org/stable/modules/preprocessing.html
+  title: tools (scikit-learn)
+  notes: 
+	mean removal, variance scaling, 
+	scale to a range, 
+	scaling sparse data, 
+	scaling w/ outliers, 
+	centering kernel matrices, 
+	nonlinear transforms, 
+	normalization, 
+	binarization, 
+	category coding, 
+	imputation, 
+	polynomial features, 
+	custom transformers
+</small><br>
+
+
+  topic: feature extraction (scikit)
+  url: http://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction
+  title: 
+	image extraction
+  url: http://scikit-learn.org/stable/modules/feature_extraction.html#patch-extraction
+  title: 
+	patch extraction
+  url: http://scikit-learn.org/stable/modules/feature_extraction.html#connectivity-graph-of-an-image
+  title: 
+	connectivity graphs
+
+
+  topic: feature learning
+  url: https://arxiv.org/abs/1605.09782v6
+  title: adversarial
+
+
+  topic: feature scaling
+  url: http://sebastianraschka.com/Articles/2014_about_feature_scaling.html
+  title: tutorial
+
+
+  topic: federated learning
+  url: https://heartbeat.fritz.ai/federated-learning-an-introduction-a0bedc8a584c
+  title: fritz.ai
+  url: https://medium.com/syncedreview/federated-learning-the-future-of-distributed-machine-learning-eec95242d897
+  title: 
+	synced review
+
+
+  topic: feedforward nets
+  url: /pdfs/math/deep-feedforward-nets-DLgoodfellow.pdf
+  title: goodfellow
+  notes: XOR, gradients, hidden units, architecture design, backprop & chain rules</small>
+
+
+  topic: floating point math
+  url: http://insidehpc.com/2017/02/john-gustafson-presents-beyond-floating-point-next-generation-computer-arithmetic/
+  title: next-gen math
+  url: https://www.nextplatform.com/2017/03/08/high-times-low-precision-hardware/
+  title: low-precision hardware
+  url: http://www.netlib.org/
+  title: netlib
+  url: http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+  title: what everyone should know
+  url: https://semiengineering.com/advantages-of-bfloat16-for-ai-inference/
+  title: bfloat16
+
+
+  topic: flows-cuts
+<!--  url: /pdfs/math/flows-cuts-applications-AJE.pdf
+  title: AJE-->
+  url: /pdfs/math/flows-cuts-applications-JE.pdf
+  title: JE
+
+
+  topic: forecasting
+  pic: /px/math/forecasting-methods.png
+  url: https://www.datasciencecentral.com/profiles/blogs/selecting-forecasting-methods-in-data-science
+  title: list of methods
+
+
+  topic: fourier transform
+  url: /pdfs/math/discrete-fourier-xform-ADM.pdf
+  title: discrete FT (ADM)
+  url: /pdfs/math/polynomials-fourier-ITA.pdf
+  title: ITA</a>
+
+
+  topic: frequent itemsets
+  url: /pdfs/math/frequent-itemsets-DMMD.pdf
+  title: DMMD
+
+
+  topic: function estimation
+  url: /pdfs/math/function-estimation-non-parametric-PSC.pdf
+  title: PSC
+
+
+  topic: game playing
+  url: https://paperswithcode.com/area/playing-games
+  title: PwC
+  notes: video, atari, realtime strategy, board, fps, card games, go, chess, poker, shogi, safe exploration</small>
+
+
+  topic: gamma (images)
+  url: http://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/
+  title: gamma
+
+
+  topic: GANs
+  url: https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-explainer-ai-machine-learning/
+  title: 2019 overview
+  url: https://mlwhiz.com/blog/2019/06/17/gans/
+  title: intro (MLwhiz)
+  url: https://sigmoidal.io/beginners-review-of-gan-architectures/
+  title: intro (sigmoidal.io)
+  url: https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31
+  title: intro (towards ds)
+  url: https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47
+  title: intro (statsbot)
+  url: https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks
+  title: intro (oreilly)
+  url: /pdfs/math/gans-dive.pdf
+  title: intro (DIDL)
+  url: https://data.vision.ee.ethz.ch/aeirikur/extremecompression/
+  title: extreme compression
+  url: https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html
+  title: spectral normalization
+  url: https://adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets
+  title: adeshpande
+  url: https://deephunt.in/the-gan-zoo-79597dc8c347
+  title: list of variants
+  url: https://arxiv.org/abs/1612.04357
+  title: stacked
+  url: http://www.alexirpan.com/2017/02/22/wasserstein-gan.html
+  title: wasserstein
+  url: https://arxiv.org/abs/1701.00160v3
+  title: NIPS 2016 tutorial
+  url: https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images/
+  title: GauGAN (nV)
+  url: https://distill.pub/2019/gan-open-problems
+  title: open problems
+
+
+  topic: gaussians
+  url: https://yugeten.github.io/posts/2019/09/GP/
+  title: intro to gaussian processes (github)
+  url: https://bastian.rieck.me/blog/posts/2019/curvature/
+  title: gaussian curvature (rieck)
+  url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_covariances.html#sphx-glr-auto-examples-mixture-plot-gmm-covariances-py
+  title: covariances (scikit)
+  url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_pdf.html#sphx-glr-auto-examples-mixture-plot-gmm-pdf-py
+  title: density estimation (scikit)
+  url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_selection.html#sphx-glr-auto-examples-mixture-plot-gmm-selection-py
+  title: selection (scikit)
+  url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm.html#sphx-glr-auto-examples-mixture-plot-gmm-py
+  title: ellipsoids (scikit)
+  url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_sin.html#sphx-glr-auto-examples-mixture-plot-gmm-sin-py
+  title: sine wave (scikit)
+  url: /pdfs/math/gaussian-models-SM.pdf
+  title: multiavariate gaussians (SM)
+
+
+  topic: (deep) generative models
+  url: /pdfs/math/generative-models-discrete-SM.pdf
+  title: discrete GMs (SM)
+  url: /pdfs/math/deep-generative-models-DLgoodfellow.pdf
+  title: deep GMs (goodfellow)
+  notes: boltzmann machines (BMs), deep belief networks, deep BMs, BMs & real-valued data, convolutional BMs, directed generative nets, 
+generative stochastic nets</small>
+
+
+  topic: gensim (NLP)
+  pic: /px/math/gensim.png" width="95%
+  title: 
+  url: https://github.com/RaRe-Technologies/gensim.git
+  title: github
+  url: https://radimrehurek.com/gensim/models/fasttext.html
+  title: fasttext
+  url: https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+  title: tutorial
+  url: https://spandan-madan.github.io/DeepLearningProject/
+  title: spandan-madan
+
+
+  topic: geometry (spatial)
+  url: https://marckhoury.github.io/counterintuitive-properties-of-high-dimensional-space/
+  title: high-D properties
+  url: https://blog.socialcops.com/academy/resources/7-techniques-to-visualize-geospatial-data/
+  title: 7 viz techniques
+  url: https://www.cgal.org/
+  title: gcal
+  url: https://smartystreets.com/
+  title: smartystreets
+  url: http://www.postgis.net/
+  title: geo extensions for postgres
+  url: https://carto.com/
+  title: geospatial data mining
+  url: http://roadtolarissa.com/convex-hulls/
+  title: convex hulls
+  url: https://mapbox.com/
+  title: mapbox
+  url: https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a
+  title: spatial searching
+  url: http://www.qgis.org/en/site/forusers/download.html
+  title: GIS tool
+  url: /pdfs/math/geometry-ITA.pdf
+  title: ITA
+  url: /pdfs/math/geometric-primitives-ADM.pdf
+  title: ADM primitives
+  url: /pdfs/math/Geometric_topology.pdf
+  title: topology
+
+
+  topic: gini coefficient/index/ratio
+  url: https://en.wikipedia.org/wiki/Gini_coefficient
+  title: definition (wikipedia)
+
+
+  topic: glossaries
+  pic: /px/math/taxonomy.png
+  url: /pdfs/math/glossary-machine-learning-GOOG.pdf
+  title: Google
+  url: https://github.com/rasbt/deeplearning-models/blob/master/README.md
+  title: rasbt
+  url: https://d2l.ai/
+  title: DIDL
+  url: http://www.wildml.com/deep-learning-glossary/
+  title: Wild ML
+  url: http://www.datasciencecentral.com/profiles/blogs/40-techniques-used-by-data-scientists
+  title: 40 common techniques
+  url: http://www.datasciencecentral.com/profiles/blogs/a-tour-of-machine-learning-algorithms
+  title: tour of algorithms
+  url: https://arxiv.org/pdf/1512.07108v5.pdf
+  title: taxonomy
+  url: http://www3.cs.stonybrook.edu/~algorith/
+  title: Stony Brook
+  url: http://dlmf.nist.gov/
+  title: NIST
+  url: /pdfs/math/glossary-FDS.pdf
+  title: FDS
+  url: /pdfs/math/glossary-LAY.pdf
+  title: LAY</a>
+
+  topic: gradients/optimization/training:
+  pic: /px/math/gradients.png" width="95%"/>
+  url: https://towardsdatascience.com/10-gradient-descent-optimisation-algorithms-86989510b5e9
+  title: 10 algorithms
+  url: http://arxiv.org/abs/1212.5701
+  title: adadelta
+  url: https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/
+  title: 						cross-entropy loss
+  url: https://www.oreilly.com/ideas/contouring-learning-rate-to-optimize-neural-nets
+  title: 			learning rates
+  url: http://www.benfrederickson.com/numerical-optimization/
+  title: 									techniques
+  url: http://distill.pub/2017/momentum/
+  title: 														momentum
+  url: http://ruder.io/optimizing-gradient-descent/
+  title: 												overview
+  url: https://opendatascience.com/blog/an-overview-of-gradient-descent-optimization-algorithms
+  title: 	overview
+  url: https://arxiv.org/abs/1506.05254
+  title: 															stochastic (ArXiV)
+  url: https://machinelearningmastery.com/exploding-gradients-in-neural-networks/
+  title: 				exploding gradients
+  url: http://arxiv.org/abs/1211.5063
+  title: 															TBD
+  url: https://www.neuraldesigner.com/blog/5_algorithms_to_train_a_neural_network
+  title: 				5 algorithms 
+  url: http://arxiv.org/abs/1211.5063
+  title: 															clipping RNN gradients (ArXiV)
+
+
+  topic: gradient boosting
+  url: http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html
+  title: 					GB playground
+  url: https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers
+  title: 						GB papers
+  url: https://towardsdatascience.com/https-medium-com-talperetz24-mastering-the-new-generation-of-gradient-boosting-db04062a7ea2
+  title: catboost
+  url: https://www.kdnuggets.com/2018/01/gradient-boosting-tensorflow-vs-xgboost.html
+  title: 				xgboost-vs-TFlow-boosted-trees
+  url: https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
+  title: 					catboost vs lightgbm vs xgboost
+  url: https://arxiv.org/pdf/1603.02754.pdf
+  title: 															xgboost
+  url: http://www.kdnuggets.com/2017/10/xgboost-top-machine-learning-method-kaggle-explained.html
+  title: 	xboost explained
+  url: https://www.r-bloggers.com/with-our-powers-combined-xgboost-and-pipelearner/
+  title: 					xgboost+pipelearner
+  url: http://matthewemery.ca/Why-Kagglers-Love-XGBoost/
+  title: 											kagglers+xgboost
+  url: http://xgboost.readthedocs.io/en/latest/model.html
+  title: 											xgboost docs
+  url: http://dmlc.ml/rstats/2016/03/10/xgboost.html
+  title: 												dmlc.ml stats
+  url: https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/
+  title: param tuning xgboost
+  url: https://www.r-bloggers.com/timeseries-forecasting-using-extreme-gradient-boosting/amp/
+  title: 		time series forecasting
+  url: https://github.com/dmlc/xgboost/tree/master/demo
+  title: 												awesome xgboost
+
+
+  topic: graphs
+  url: https://paperswithcode.com/area/graphs
+  title: PwC
+  notes: </small><br>
+  url: https://www.kdnuggets.com/2019/08/numpy-neural-networks-computational-graphs.html
+  title: numpy-computational
+  url: https://medium.com/stellargraph/knowing-your-neighbours-machine-learning-on-graphs-9b7c3d0d5896
+  title: knowing your neighbors
+<!--  url: /pdfs/math/graph-algos-AJE.pdf
+  title: AJE-->
+  url: /pdfs/math/graph-algos-ITA.pdf
+  title: algorithms (ITA)
+  url: /pdfs/math/graph-datastructs-ADM.pdf
+  title: datastructs (ADM)
+  url: /pdfs/math/graph-drawing-ADM.pdf
+  title: drawing (ADM)
+  url: /pdfs/math/graph-generation-ADM.pdf
+  title: generation (ADM)
+  url: /pdfs/math/graph-isomorphism-ADM.pdf
+  title: isomorphism (ADM)
+  url: /pdfs/math/graph-partition-ADM.pdf
+  title: partitions (ADM)
+  url: /pdfs/math/graphs-connected-components-ADM.pdf
+  title: connected components (ADM)
+  url: /pdfs/math/graphs-hard-ADM.pdf
+  title: hard (ADM)
+  url: /pdfs/math/graphs-JE.pdf
+  title: JE
+  url: /pdfs/math/graphs-polynomial-time-ADM.pdf
+  title: polynomial time (ADM)
+  url: /pdfs/math/graphs-weighted-ADM.pdf
+  title: weighted (ADM)
+  url: /pdfs/math/graph-traversal-ADM.pdf
+  title: traversal (ADM)
+  url: /pdfs/math/undirected-graphs-ESL.pdf
+  title: undirected (ESL)
+  url: /pdfs/math/random-graphs-FDS.pdf
+  title: random (FDS)
+  url: /pdfs/math/social-graphs-DMMD.pdf
+  title: social (DMMD)
+
+
+  topic: graph matching
+  pic: /px/math/ADM-matching.png
+  url: /pdfs/math/matching-ADM.pdf
+  title: ADM
+
+
+  topic: greedy algos
+<!--  url: /pdfs/math/greedy-algos-AJE.pdf
+  title: AJE-->
+  url: /pdfs/math/greedy-algos-ITA.pdf
+  title: ITA
+  url: /pdfs/math/greedy-algos-JE.pdf
+  title: JE
+
+
+  topic: hamiltonian cycles
+  pic: /px/math/ADM-hamiltonian-cycle.png
+  url: /pdfs/math/hamiltonian-cycle-ADM.pdf
+  title: ADM
+
+
+  topic: hashes
+  url: /pdfs/math/hashes-ITA.pdf
+  title: ITA
+
+
+  topic: heaps
+  url: /pdfs/math/heaps-EA.pdf
+  title: EA
+  notes: binary, selection sort, binomial, fibonacci, pairing</small>
+  url: /pdfs/math/fibonacci-heaps-ITA.pdf
+  title: ITA
+
+
+  topic: histograms
+  url: http://scikit-learn.org/stable/modules/density.html#density-estimation-histograms
+  title: density estimation
+  url: https://www.allaboutcircuits.com/technical-articles/introduction-to-histogram-equalization/
+  title: histrogram equalization</a>
+
+
+  topic: hyperparameters
+  pic: /px/math/hyperparameters.png
+  url: https://arxiv.org/abs/2003.05689
+  title: params, algos, tools (arxiv)</a>
+
+
+  topic: hypothesis testing
+  url: https://hackaday.com/2017/12/01/statistics-and-hacking-an-introduction-to-hypothesis-testing/
+  title: intro
+  url: https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/
+  title: cheat sheet
+  url: /pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
+  title: false discoveries (CSI)
+  url: /pdfs/math/hypothesis-testing-PSC.pdf
+  title: PSC
+
+
+  topic: ICA
+  url: https://arxiv.org/pdf/1404.2986.pdf
+  title: tutorial
+
+
+  topic: image classification
+  url: https://paperswithcode.com/area/computer-vision/image-classification
+  title: PwC
+
+
+  topic: image domain adaptation
+  url: https://paperswithcode.com/task/domain-adaptation
+  title: PwC
+
+
+  topic: image generation
+  url: https://paperswithcode.com/area/computer-vision/image-generation
+  title: PwC
+
+
+  topic: image retrieval
+  url: https://paperswithcode.com/area/computer-vision/image-retrieval
+  title: PwC</a>
+
+
+  topic: inference & averaging
+  url: /pdfs/math/model-inference-averaging-ESL.pdf
+  title: ESL
+  notes: bootstrap & max likelihood, bayesian methods, expectation maximiazation (EM), 
+MCMC, bagging, averaging & stacking, bumping</small><br>
+  url: /pdfs/math/max-likelihood-estimation-CSI.pdf
+  title: CSI
+  url: /pdfs/math/parametric-inference-PSC.pdf
+  title: parametric inference (PSC)
+
+
+  topic: information gain
+  url: http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain
+  title: stack overflow
+
+
+  topic: (numeric) integration
+  pic: /px/math/integration.png
+  url: /pdfs/math/integration-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb
+  title: my github
+
+
+  topic: (numeric) interpolation
+  url: /pdfs/math/interpolation-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb
+  title: my github
+
+
+  topic: interpretable machine learning
+  url: https://www.kdnuggets.com/2019/09/python-libraries-interpretable-machine-learning.html
+  title: python libs</a>
+  url: https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime
+  title: lime (oreilly)
+
+
+  topic: intersection detection
+  pic: /px/math/ADM-intersection-detection.png
+  url: /pdfs/math/intersection-ADM.pdf
+  title: ADM</a>
+
+
+  topic: isotonic regression
+  pic: /px/math/isotonic-regression.png
+  url: http://scikit-learn.org/stable/modules/isotonic.html#isotonic-regression
+  title: scikit
+
+
+  topic: jackknife & bootstrap
+  url: /pdfs/math/jackknife-CSI.pdf
+  title: CSI
+
+
+  topic: job scheduling
+  pic: /px/math/ADM-job-scheduling.png
+  url: /pdfs/math/job-scheduling-ADM.pdf
+  title: ADM
+
+
+  topic: json tools
+  url: https://stedolan.github.io/jq/manual/
+  title: jq
+
+
+  topic: jupyter
+  url: https://towardsdatascience.com/easy-devops-for-data-science-with-saturn-cloud-notebooks-d19e8c4d1772
+  title: saturn cloud</a>
+<br>
+
+
+  topic: kalman filters
+  pic: /px/math/kalman-filters-workflow.png" width="95%
+  title: 
+  url: https://towardsdatascience.com/optimal-estimation-algorithms-kalman-and-particle-filters-be62dcb5e83
+  title: estimation algorithms
+
+
+  topic: karnaugh maps
+  url: https://www.allaboutcircuits.com/technical-articles/karnaugh-map-boolean-algebraic-simplification-technique/
+  title: 
+	intro
+
+
+  topic: keras
+  url: https://keras.io/metrics/
+  title: metrics
+  url: https://keras.io/objectives/
+  title: objectives
+  url: https://keras.io/optimizers/
+  title: optimizers
+  url: https://keras.io/activations/
+  title: activations
+  url: https://keras.io/layers/advanced-activations/
+  title: activations (adv)
+  url: https://keras.io/callbacks/
+  title: callbacks
+  url: https://keras.io/datasets/
+  title: datasets
+  url: https://keras.io/utils/data_utils/
+  title: data utilities
+  url: https://keras.io/utils/io_utils/
+  title: i/o utilities
+  url: https://keras.io/utils/layer_utils/
+  title: layer utilities
+  url: https://keras.io/utils/np_utils/
+  title: numpy utilities
+  url: https://medium.com/@mateuszsieniawski/keras-with-gpu-on-amazon-ec2-a-step-by-step-instruction-4f90364e49ac#.eahibnhft
+
+  title: Amazon EC2 tutorial
+  url: https://blog.keras.io/building-autoencoders-in-keras.html
+  title: autoencoders
+  url: https://towardsdatascience.com/auto-keras-or-how-you-can-create-a-deep-learning-model-in-4-lines-of-code-b2ba448ccf5e
+  title: autokeras
+
+
+  topic: kernels
+  url: /pdfs/math/kernels-SM.pdf
+  title: kernel types (SM)
+  url: /pdfs/math/kernel-smoothing-ESL.pdf
+  title: kernel smoothing (ESL)
+
+
+  topic: knapsack problems
+  pic: /px/math/ADM-knapsack-problems.png
+  url: /pdfs/math/knapsack-problem-ADM.pdf
+  title: ADM
+
+
+  topic: knowledge bases
+  url: https://paperswithcode.com/area/knowledge-base
+  title: papers with code
+  url: https://blog.heuritech.com/2016/04/15/knowledge-extraction-from-unstructured-texts/
+
+  title: knowledge extraction - unstructured text
+
+
+  topic: kullback-leibler divergence
+  pic: /px/math/kl-divergence.png
+  url: https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained
+  title: tutorial
+
+
+  topic: label propagation/spreading
+  url: http://scikit-learn.org/stable/modules/label_propagation.html
+  title: scikit
+
+
+  topic: lagrange multipliers
+  pic: /px/math/lagrange-multipliers.png
+  url: https://towardsdatascience.com/lagrange-multipliers-with-pictures-and-code-ace8018dac5e
+  title: lagrange multipliers
+
+
+  topic: learned indexes
+  url: https://dawn.cs.stanford.edu//2018/01/11/index-baselines/
+  title: performance
+
+
+  topic: learning curve
+  url: http://scikit-learn.org/stable/modules/learning_curve.html
+  title: scikit
+
+
+  topic: learning rates
+  pic: /px/math/learning-rate-decay.png
+  url: https://medium.com/38th-street-studios/exploring-stochastic-gradient-descent-with-restarts-sgdr-fa206c38a74e
+  title: adam: sgd with restarts
+  url: https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0
+  title: choosing which</a>
+
+
+  topic: learning (n-shot)
+  url: https://blog.floydhub.com/n-shot-learning/
+  title: floydhub
+
+
+  topic: linear algebra</strong>
+  pic: /px/math/linear-algebra-interactive.png
+<!--  url: /pdfs/math/Linear-Algebra-Lay.pdf
+  title: ebook (lay)-->
+  url: /pdfs/math/linear-algebra-LAY.pdf
+  title: linear equations (lay)
+  url: /pdfs/math/linear-equations-ADM.pdf
+  title: linear equations (ADM)
+  url: /pdfs/math/linear-programming-ADM.pdf
+  title: linear programming (ADM)
+  url: /pdfs/math/linear-programming-ITA.pdf
+  title: linear programming (ITA)
+  url: https://machinelearningmastery.com/linear-algebra-cheat-sheet-for-machine-learning/
+  title: cheatsheet
+  url: https://betterexplained.com/articles/linear-algebra-guide/
+  title: guide
+  url: https://jeremykun.com/2011/06/19/linear-algebra-a-primer/
+  title: primer
+  url: https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/
+  title: inner product spaces primer
+  url: /pdfs/math/inner-product-length-orthogonality-LAY.pdf
+  title: inner product & orthogonality (lay)
+  url: http://immersivemath.com/ila/index.html
+  title: interactive
+  url: https://github.com/fastai/numerical-linear-algebra/blob/master/README.md
+  title: fastai
+  url: /pdfs/math/determinants-LAY.pdf
+  title: determinants (lay)
+  url: /pdfs/math/eigenvectors-eigenvalues-LAY.pdf
+  title: eigenvectors, eigenvalues (lay)</a>
+  url: /pdfs/math/symmetric-matrices-LAY.pdf
+  title: symmetric matrices (lay)
+  url: /pdfs/math/vector-spaces-LAY.pdf
+  title: vector spaces (lay)
+  url: /pdfs/math/linear_algebra-DLgoodfellow.pdf
+  title: goodfellow
+
+
+  topic: linear classification
+  url: /pdfs/math/linear-classification-ESL.pdf
+  title: ESL</a>
+
+
+  topic: linear factor models
+  url: /pdfs/math/linear-factor-models-DLgoodfellow.pdf
+  title: goodfellow
+  notes: 
+	probabilistic PCA, 
+	factor analysis, 
+	independent component analysis (ICA), 
+	slow feature analysis, 
+	sparse coding,  
+	manifold PCA interpretation,
+</small>
+
+
+  topic: linear mixed models, bayesian (R)
+  url: https://www.r-bloggers.com/bayesian-linear-mixed-models-random-intercepts-slopes-and-missing-data/
+  title: linear mixed models (R)
+
+
+  topic: line arrangements
+  pic: /px/math/ADM-line-arrangements.png
+  url: /pdfs/math/line-arrangements-ADM.pdf
+  title: ADM
+
+
+  topic: link analysis
+  url: /pdfs/math/link-analysis-DMMD.pdf
+  title: DMMD
+  notes: pagerank, spam farms, hubs & authorities</small>
+
+
+  topic: lists
+  url: /pdfs/math/lists-EA.pdf
+  title: EA
+
+
+  topic: logistic regression
+  url: /pdfs/math/logistic-regression-SM.pdf
+  title: SM
+
+
+  topic: loss change allocation
+  pic: /px/math/loss-change-allocation.png
+  url: https://eng.uber.com/loss-change-allocation/
+  title: uber
+
+
+  topic: lstm (long short-term memory network)
+  url: https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm
+  title: fundamentals
+  url: http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf
+  title: hochreiter97
+  url: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+  title: colah.github
+  url: http://deeplearning.net/tutorial/lstm.html#lstm
+  title: deeplearning.net
+  url: http://machinelearningmastery.com/stacked-long-short-term-memory-networks/
+  title: stacked lstms
+  url: https://blog.statsbot.co/time-series-prediction-using-recurrent-neural-networks-lstms-807fa6ca7f
+  title: time series forecasting
+
+
+  topic: manifolds
+  pic: /px/math/t-sne.png
+  url: http://scikit-learn.org/stable/modules/manifold.html#manifold-learning
+  title: intro (scikit)
+  url: https://prateekvjoshi.com/2014/06/21/what-is-manifold-learning/
+  title: intro (prateekvjoshi)
+  url: http://scikit-learn.org/stable/modules/manifold.html#isomap
+  title: isomap
+  url: http://scikit-learn.org/stable/modules/manifold.html#locally-linear-embedding
+  title: locally linear embedding (lle)
+  url: http://scikit-learn.org/stable/modules/manifold.html#modified-locally-linear-embedding
+  title: modified lle
+  url: http://scikit-learn.org/stable/modules/manifold.html#hessian-eigenmapping
+  title: hessian eigenmapping
+  url: http://scikit-learn.org/stable/modules/manifold.html#spectral-embedding
+  title: spectral embedding
+  url: http://scikit-learn.org/stable/modules/manifold.html#local-tangent-space-alignment
+  title: local tangent space alignment (ltsa)
+  url: http://scikit-learn.org/stable/modules/manifold.html#multi-dimensional-scaling-mds
+  title: multidimensional scaling (mds)
+  url: http://scikit-learn.org/stable/modules/manifold.html#t-distributed-stochastic-neighbor-embedding-t-sne
+  title: t-sne
+  url: ex: github:
+https://github.com/bjpcjp/Data-Science-Handbook-Cribsheet/blob/master/05.10-Manifold-Learning.ipynb
+
+  title: my github
+
+
+  topic: mapreduce
+  url: /pdfs/math/mapreduce-DMMD.pdf
+  title: DMMD
+
+
+  topic: markov chains
+  url: https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
+  title: TDS
+  url: /pdfs/math/random-walks-markov-chains-FDS.pdf
+  title: FDS
+  url: http://setosa.io/ev/markov-chains/
+  title: setosa
+  url: http://blog.revolutionanalytics.com/2016/01/getting-started-with-markov-chains.html
+  title: revo analytics
+  url: /pdfs/math/markov-chains-explained-visually.pdf
+  title: visuals
+  url: /pdfs/math/markov-chain-monte-carlo-CSI.pdf
+  title: markov chain monte carlo (MCMC) (CSI)
+
+
+  topic: matplotlib
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/Matplotlib
+  title: my github (PDSH)
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch04-plotting-visualization.ipynb
+  title: my github (NP)
+
+
+  topic: matrix math<br>
+	matrix decomposition<br>
+    matrix factorization
+  pic: /px/math/matrix-factorization.png
+  url: http://scikit-learn.org/stable/modules/decomposition.html#non-negative-matrix-factorization-nmf-or-nnmf
+  title: scikit
+  url: http://explained.ai/matrix-calculus/index.html
+  title: explained.ai
+  url: /pdfs/math/matrix_cookbook_201707.pdf
+  title: cookbook (pdf)
+  url: https://en.wikipedia.org/wiki/Matrix_decomposition
+  title: wikipedia
+  url: http://www.benfrederickson.com/matrix-factorization/
+  title: matrix factorization
+  url: https://blog.acolyer.org/2019/02/18/the-why-and-how-of-nonnegative-matrix-factorization/
+  title: non-negative matrix factorization (NMF)
+  url: https://arxiv.org/pdf/1605.00937v1.pdf
+  title: dict learning for massive matrix factorization
+  url: https://arxiv.org/abs/1803.01257
+  title: non-negative matrix factorization (NMF)
+  url: http://numml.kyb.tuebingen.mpg.de/numl09/talk_dhillon.pdf
+  title: slideshow
+  url: /pdfs/math/matrix-math-LAY.pdf
+  title: basics (lay)
+  url: /pdfs/math/matrix-determinants-ADM.pdf
+  title: determinants (ADM)
+  url: /pdfs/math/matrix-multiply-ADM.pdf
+  title: multiplication (ADM)
+  url: /pdfs/math/matrix-ops-ITA.pdf
+  title: definitions (ADM)
+
+
+  topic: maxflow, mincuts
+  url: /pdfs/math/maxflow-ITA.pdf
+  title: ITA
+<!--   url: /pdfs/math/max-flows-minimum-cuts-AJE.pdf
+  title: AJE -->
+
+
+  topic: mazes
+  url: http://www.astrolog.org/labyrnth/algrithm.htm
+  title: tutorial
+
+
+  topic: medial axis transforms
+  pic: /px/math/ADM-medial-axis-transform.png
+  url: /pdfs/math/medial-axis-xforms-ADM.pdf
+  title: ADM
+
+
+  topic: medical use cases
+  url: https://paperswithcode.com/area/med
+  title: PwC
+  url: https://paperswithcode.com/area/computer-vision/medical-image-segmentation
+  title: image segmentation
+
+
+  topic: merkle trees
+  pic: /px/math/merkle-tree-root-hash.jpg
+  url: https://taravancil.com/blog/how-merkle-trees-enable-decentralized-web/
+  title: intro
+
+
+  topic: minkowski sum
+  pic: /px/math/ADM-minkowski-sums.png
+  url: /pdfs/math/minkowski-sum-ADM.pdf
+  title: ADM</a>
+
+
+  topic: minimum likelihood estimator (MLE)
+  url: https://alemorales.info/post/mle-nonlinear/
+  title: non-linear
+
+
+  topic: minimum spanning trees
+  pic: /px/math/ADM-minimum-spanning-trees.png
+  url: /pdfs/math/minimum-spanning-tree-ADM.pdf
+  title: ADM
+<!--  url: /pdfs/math/minimum-spanning-trees-AJE.pdf
+  title: AJE-->
+  url: /pdfs/math/min-spanning-tree-JE.pdf
+  title: JE
+  url: /pdfs/math/min-spanning-trees-ITA.pdf
+  title: ITA
+
+
+  topic: monte carlo
+  url: http://statweb.stanford.edu/~owen/mc/
+  title: statweb
+  url: http://www.analyticbridge.com/profiles/blogs/introduction-to-monte-carlo-methods
+  title: intro
+  url: /pdfs/math/monte-carlo-methods-DLgoodfellow.pdf
+  title: goodfellow
+  url: /pdfs/math/monte-carlo-RL.pdf
+  title: RL
+
+
+  topic: moving average
+  url: https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
+  title: arima
+  url: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+  title: time series forecasting
+
+
+  topic: multiclass classifiers
+  url: http://scikit-learn.org/stable/modules/multiclass.html#multiclass-and-multilabel-algorithms
+  title: intro (scikit)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html#sklearn.preprocessing.MultiLabelBinarizer
+  title: multilabel binarizer
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.multiclass.OneVsRestClassifier.html#sklearn.multiclass.OneVsRestClassifier
+  title: one vs rest classifier</a>
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.multiclass.OneVsOneClassifier.html#sklearn.multiclass.OneVsOneClassifier
+  title: one vs one classifier
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.multiclass.OutputCodeClassifier.html#sklearn.multiclass.OutputCodeClassifier
+  title: output code classifier
+
+
+  topic: multiple output models
+  url: http://scikit-learn.org/stable/modules/multiclass.html#multioutput-regression
+  title: regression
+  url: http://scikit-learn.org/stable/modules/multiclass.html#multioutput-classification
+  title: classification
+  url: http://scikit-learn.org/stable/modules/multiclass.html#classifier-chain
+  title: classifier chains
+
+  topic: multilabel model metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#coverage-error
+  title: coverage error
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#label-ranking-average-precision
+  title: label ranking avg precision
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#ranking-loss
+  title: ranking loss
+
+
+  topic: multithreading
+  url: /pdfs/math/multithreading-ITA.pdf
+  title: ITA
+
+
+  topic: music
+  url: https://paperswithcode.com/area/music
+  title: papers with code
+  url: https://opendatascience.com/blog/recommending-music-on-spotify-with-deep-learning
+  title: spotify recommender
+  url: https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+  title: spotify recommender
+  url: http://mattmurray.net/building-a-music-recommender-with-deep-learning/
+  title: matt murray recommender
+  url: http://benanne.github.io/2014/08/05/spotify-cnns.html
+  title: spotify cnns
+
+
+
+
+  topic: naive bayes
+  url: http://scikit-learn.org/stable/modules/naive_bayes.html
+  title: scikit
+gaussian, multinomial, bernoulli<br>
+  url: 
+https://www.countbayesie.com/blog/2015/3/3/6-amazing-trick-with-monte-carlo-simulations
+  title: bayes tricks
+  url: https://www.countbayesie.com/blog/2015/2/21/variance-co-variance-and-correlation
+  title: variance, covariance & correlation
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+  title: numeric python
+  url: https://www.r-bloggers.com/two-meanings-of-priors-part-i-the-plausibility-of-models/
+  title: two meanings of priors
+
+
+  topic: limited data (nanonets)
+  url: https://medium.com/nanonets/nanonets-how-to-use-deep-learning-when-you-have-limited-data-f68c0b512cab#.auv6yggv8
+  title: intro
+
+
+  topic: nearest neighbors
+  pic: /px/math/nearest-neighbors.png
+  url: /pdfs/math/nearest-neighbors-ADM.pdf
+  title: ADM
+  url: pdfs/math/prototypes-nearest-neighbors-ESL.pdf
+  title: ESL</a>
+  url: https://opendatascience.com/blog/nearest-neighbor-methods-and-vector-models-part-1/
+  title: tutorial p1
+  url: https://opendatascience.com/blog/nearest-neighbors-and-vector-models-part-2-algorithms-and-data-structures/
+  title: tutorial p2
+  topic: scikit-learn
+  url: https://scikit-learn.org/stable/modules/neighbors.html#classification
+  title: user guide
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier
+  title: classifier
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.RadiusNeighborsClassifier.html#sklearn.neighbors.RadiusNeighborsClassifier
+  title: classifier (radius)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestCentroid.html#sklearn.neighbors.NearestCentroid
+  title: classifier (nearest centroid)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html#sklearn.neighbors.KNeighborsRegressor
+  title: regressor
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.RadiusNeighborsRegressor.html#sklearn.neighbors.RadiusNeighborsRegressor
+  title: regressor (radius)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.BallTree.html#sklearn.neighbors.BallTree
+  title: ball tree
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html#sklearn.neighbors.KDTree
+  title: kd tree
+
+
+  topic: network flows
+  pic: /px/math/ADM-network-flow.png
+  url: pdfs/math/network-flow-ADM.pdf
+  title: ADM
+
+
+  topic: NLP
+  url: https://paperswithcode.com/area/nlp
+  title: PwC
+  url: https://blog.dominodatalab.com/deep-learning-illustrated-building-natural-language-processing-models/
+  title: domino lab
+  url: https://www.kdnuggets.com/2019/08/deep-learning-nlp-explained.html
+  title: kdnuggets
+  topic: BERT
+  url: https://developer.amazon.com/blogs/alexa/post/36ca7d4c-cd98-40a9-a9c5-0cde2ab922ab/how-alexa-knows-that-peanut-butter-is-one-shopping-list-item-not-two
+  title: alexa peanut butter 1v2
+  url: https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77
+  title: deconstructing: 6 patrns, 100m params
+  url: https://www.lyrn.ai/2018/11/07/explained-bert-state-of-the-art-language-model-for-nlp/
+  title: BERT explained
+  url: https://towardsdatascience.com/the-10-deep-learning-methods-ai-practitioners-need-to-apply-885259f402c1
+  title: 10 DL methods
+  url: https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+  title: step-by-step guide
+  url: http://www.cl.cam.ac.uk/teaching/1112/L100/introling.pdf
+  title: linguistics (pdf)
+  url: http://rwet.decontextualize.com/book/textblob/
+  title: textblob
+  url: http://www.kdnuggets.com/2017/01/deep-learning-review-natural-language-processing.html
+  title: gen review
+
+  topic: tools
+  url: https://github.com/facebookresearch/fastText
+  title: fastText</a>
+  url: https://www.oreilly.com/ideas/comparing-production-grade-nlp-libraries-training-spark-nlp-and-spacy-pipelines
+  title: Spark NLP vs SpaCy, p1
+  url: https://www.oreilly.com/ideas/comparing-production-grade-nlp-libraries-running-spark-nlp-and-spacy-pipelines
+  title: Spark NLP vs SpaCy, p2
+  url: https://www.oreilly.com/ideas/comparing-production-grade-nlp-libraries-accuracy-performance-and-scalability
+  title: Spark NLP vs SpaCy, p3
+  url: http://nlp.stanford.edu/pubs/glove.pdf
+  title: glove
+  url: https://spacy.io/api/doc
+  title: spacy
+  url: https://medium.com/eliiza-ai/a-tour-of-awesome-features-of-spacy-part-2-2-d7bd628a81ce
+  title: spacy 2.2
+  url: https://course.spacy.io/
+  title: course (spacy)
+  url: https://blog.exxactcorp.com/tensorflow-vs-pytorch-vs-keras-for-nlp/
+  title: tf vs pytorch vs keras
+  url: http://www.nltk.org/book//projects/data-science/nltk
+  title: NLTK
+  url: https://www.kdnuggets.com/2019/07/xlnet-outperforms-bert-several-nlp-tasks.html
+  title: XLNET vs BERT
+<br>
+
+  url: https://www.datasciencecentral.com/profiles/blogs/temporal-convolutional-nets-tcns-take-over-from-rnns-for-nlp-pred
+  title: temporal convolutions
+  url: https://www.kdnuggets.com/2019/09/state-transfer-learning-nlp.html
+  title: transfer learning (2019)
+  url: http://blog.fastforwardlabs.com/2019/08/28/nlp-and-transfer-learning.html
+  title: (also...)
+  url: https://blog.scaleway.com/2019/building-a-machine-reading-comprehension-system-using-the-latest-advances-in-deep-learning-for-nlp/
+  title: scaleway example
+  url: http://www.abigailsee.com/2019/08/13/what-makes-a-good-conversation.html
+  title: good conversations
+<br>
+  url: https://gscontras.github.io/probLang/probLang/
+  title: probabilistic lang underst.
+
+  topic: NLP / lda2vec, node2vec, text2vec, word2vec
+  url: https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/
+  title: amazing
+  url: http://minimaxir.com/2016/08/clickbait-cluster/
+  title: clickbait clusters
+  url: http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/
+  title: stitchfix
+  url: http://lda2vec.readthedocs.io/en/latest/
+  title: lda2vec docs
+  url: http://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec/#topic=38&lambda=1&term=
+  title: lda2vecv stitchfix
+  url: https://www.slideshare.net/ChristopherMoody3/word2vec-lda-and-introducing-a-new-hybrid-algorithm-lda2vec-57135994
+  title: new algos
+  url: https://rare-technologies.com/word2vec-tutorial/#app
+  title: word2vec tutorial
+  url: https://d10genes.github.io/blog/2016/05/03/word2vec/
+  title: word2vec
+  url: http://www.galvanize.com/blog/add-and-subtract-words-like-vectors-with-word2vec-2
+  title: word2vec intro
+  url: https://graceavery.com/word2vec-fish-music-bass/
+  title: word2vec, fish, music, bass
+  url: https://jalammar.github.io/illustrated-word2vec/
+  title: word2vec illustrated
+  pic: /px/math/word2vec-fish-music-bass.png
+  url: http://www.galvanize.com/blog/how-doc2vec-helps-data-scientists-defeat-data-sparsity/
+  title: doc2vec
+  url: http://text2vec.org/
+  title: text2vec
+  url: http://snap.stanford.edu/node2vec/
+  title: node2vec
+  url: http://www.deeplearningweekly.com/blog/demystifying-word2vec
+  title: node2vec
+  url: http://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html
+  title: node2vec
+  url: https://blog.acolyer.org/2017/09/15/struc2vec-learning-node-representations-from-structural-identity/
+  title: struct2vec
+  url: http://arxiv.org/abs/1411.2738
+  title: arxiv 1411 2738
+  url: http://arxiv.org/abs/1301.3781
+  title: arxiv 1301 3781
+  url: http://arxiv.org/abs/1310.4546
+  title: arxiv 1310.4546
+  url: http://mccormickml.com/2016/04/12/googles-pretrained-word2vec-model-in-python/
+  title: google pretrained
+  url: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+  title: skipgrams
+  url: http://www.wildml.com/deep-learning-glossary/#word2vec
+  title: glossary
+
+
+  topic: noise contrastive estimation (NCE)
+  url: https://www.kdnuggets.com/2019/07/introduction-noise-contrastive-estimation.html
+  title: intro
+  url: http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf
+  title: paper
+  url: http://papers.nips.cc/paper/5165-learning-word-embeddings-efficiently-with-noise-contrastive-estimation.pdf
+  title: word embeddings
+
+
+  topic: NP completeness
+  url: /pdfs/math/np-complete-ITA.pdf
+  title: ITA
+
+
+  topic: NP hardness
+  url: /pdfs/math/np-hardness-JE.pdf
+  title: JE
+
+
+  topic: nudity detection
+  url: https://algorithmia.com/algorithms/sfw/NudityDetection
+  title: algorithmia
+
+
+  topic: numpy
+  url: /pdfs/math/vectors-matrices-ndarrays-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy
+  title: my github
+
+
+  topic: cython, numba
+  url: /pdfs/math/numba-cython-NP.pdf
+  title: NP</a>
+
+
+  topic: number theory
+  url: pdfs/math/numericals-ADM.pdf
+  title: ADM
+  url: pdfs/math/number-theory-ITA.pdf
+  title: ITA
+  url: pdfs/math/numerical-computation-DLgoodfellow.pdf
+  title: goodfellow
+  notes: overflow, underflow, conditioning, gradient-based optimization, constrained optimization</small>
+
+
+  topic: object detection
+  pic: /px/math/object-detection.png
+  url: https://paperswithcode.com/area/computer-vision/object-detection
+  title: PwC
+  url: https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3
+  title: fritz.ai guide
+  url: https://www.datasciencecentral.com/profiles/blogs/improving-real-time-object-detection-with-yolo
+  title: yolo
+  url: https://pjreddie.com/media/files/papers/YOLOv3.pdf
+  title: yolo v3
+  url: https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/
+  title: tryolabs
+  url: https://arxiv.org/abs/1311.2524
+  title: r-cnn (orig)
+  url: https://arxiv.org/abs/1504.0808
+  title: fast r-cnn
+  url: https://blog.deepsense.ai/region-of-interest-pooling-explained/
+  title: region of interest pooling
+  url: https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/
+  title: faster r-cnn
+  url: https://koen.me/research/selectivesearch/
+  title: selective search
+  url: https://towardsdatascience.com/object-detection-with-10-lines-of-code-d6cb4d86f606
+  title: 10 lines of code
+  url: https://medium.com/deepquestai/train-object-detection-ai-with-6-lines-of-code-6d087063f6ff
+  title: 6 lines of code
+  url: https://github.com/adipandas/multi-object-tracker
+  title: multiple objects
+  url: http://github.com/tryolabs/luminoth
+  title: luminoth
+  url: https://github.com/tryolabs/luminoth/tree/master/luminoth/models/fasterrcnn
+  title: luminoth-faster r-cnn
+
+
+  topic: object recognition
+  url: https://paperswithcode.com/task/object-recognition
+  title: PwC
+
+
+  topic: OCR (optical character recognition)
+  url: https://nanonets.com/blog/deep-learning-ocr/
+  title: intro/nanonets
+  url: https://github.com/tesseract-ocr/tesseract
+  title: tesseract
+
+
+  topic: octave
+  pic: /px/math/octave.png
+  url: https://www.gnu.org/software/octave/#install
+  title: install
+
+
+  topic: optimization
+  url: /pdfs/math/optimization-ADM.pdf
+  title: ADM
+  url: /pdfs/math/optimization-dive.pdf
+  title: DIDL
+  url: /pdfs/math/optimization-DLgoodfellow.pdf
+  title: goodfellow
+  url: /pdfs/math/optimization-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch06-optimization.ipynb
+  title: NP (my github)
+  url: /pdfs/math/optimization-SM.pdf
+  title: SM</a>
+
+
+  topic: other/tricks
+  url: http://blog.shakirm.com/2015/07/machine-learning-trick-of-the-day-1-replica-trick/
+  title: replica trick
+  url: http://blog.shakirm.com/2015/08/machine-learning-trick-of-the-day-2-gaussian-integral-trick/
+  title: gaussian integral trick
+  url: http://blog.shakirm.com/2015/09/machine-learning-trick-of-the-day-3-hutchinsons-trick/
+  title: hutchinson's trick
+  url: http://blog.shakirm.com/2015/10/machine-learning-trick-of-the-day-4-reparameterisation-tricks/
+  title: re-parameterization trick
+  url: http://blog.shakirm.com/2015/12/machine-learning-trick-of-the-day-6-tricks-with-sticks/
+  title: tricks with sticks
+
+
+  topic: outlier detection
+  url: https://www.kdnuggets.com/2018/12/four-techniques-outlier-detection.html
+  title: 
+	4 techniques
+  url: https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/
+  title: using stats to id outliers
+  url: https://www.datascience.com/blog/python-anomaly-detection
+  title: 
+	intro
+  url: http://semiengineering.com/outlier-detection/
+  title: 
+	semiconductors
+  url: https://www.neuraldesigner.com/blog/3_methods_to_deal_with_outliers
+  title: 
+	univariate, multivariate, minkowski
+  url: https://blog.acolyer.org/2017/03/10/chronix-long-term-storage-and-retrieval-technology-for-anomaly-detection-in-operational-data/
+
+  title: chronix
+  url: https://www.datascience.com/blog/intro-to-anomaly-detection-learn-data-science-tutorials
+  title: 
+	density-based, cluster-based, SVMs
+  url: https://datascienceplus.com/identify-describe-plot-and-removing-the-outliers-from-the-dataset/
+  title: 
+	id-describe-remove
+  url: http://techblog.netflix.com/2015/07/tracking-down-villains-outlier.html
+  title: 
+	netflix
+  url: https://arxiv.org/abs/1703.03225 Anomaly Detection, Redundancy Elimination of IoT sensor data
+  title: IoT sensor data
+  url: https://github.com/yzhao062/pyod
+  title: outliers (pyod)
+  url: https://www.kdnuggets.com/2019/02/outlier-detection-methods-cheat-sheet.html
+  title: cheatsheet
+
+
+
+  topic: packet filters
+  url: http://tylerfisher.org/bpf/
+  title: intrusion detect (tyler fisher)
+
+  topic: pagerank
+  url: https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/page-rank.html
+  title: algos for webdevs
+
+
+  topic: pairwise
+  pic: /px/math/pairwise.png" width="95%
+  title: 
+  url: http://scikit-learn.org/stable/modules/metrics.html#pairwise-metrics-affinities-and-kernels
+  title: scikit
+  url: http://scikit-learn.org/stable/modules/metrics.html#cosine-similarity
+  title: cosine similarity
+  url: http://scikit-learn.org/stable/modules/metrics.html#linear-kernel
+  title: linear kernel
+  url: http://scikit-learn.org/stable/modules/metrics.html#polynomial-kernel
+  title: polynomial kernel
+  url: http://scikit-learn.org/stable/modules/metrics.html#sigmoid-kernel
+  title: sigmoid kernel
+  url: #
+  title: hyperbolic tangent
+  url: http://scikit-learn.org/stable/modules/metrics.html#rbf-kernel
+  title: rbf kernel
+  url: http://scikit-learn.org/stable/modules/metrics.html#laplacian-kernel
+  title: laplacian kernel
+  url: http://scikit-learn.org/stable/modules/metrics.html#chi-squared-kernel
+  title: chi squared
+
+
+  topic: pandas
+  url: /pdfs/math/pandas-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas
+  title: PDSH (github)
+
+
+  topic: parallel processing
+  url: http://heather.cs.ucdavis.edu/~matloff/ParProcBook.pdf
+  title: US Davis (pdf)
+
+
+  topic: parametric models & exponential families
+  url: /pdfs/math/exponential-family-SM.pdf
+  title: SM
+  url: /pdfs/math/parametric-models-exponentials-CSI.pdf
+  title: CSI
+  notes: univariate, multivariate normal, fisher's information bound, multinomial, exponential</small>
+
+
+  topic: (non-)parametric models
+  url: https://deepai.org/machine-learning-glossary-and-terms/non-parametric-model
+  title: deepai
+
+
+  topic: particle filters
+  pic: /px/math/particle-filters.png" width="95%
+  title: 
+  url: https://towardsdatascience.com/optimal-estimation-algorithms-kalman-and-particle-filters-be62dcb5e83
+  title: estimation algorithms
+  url: https://filterpy.readthedocs.io/en/latest/
+  title: filterpy</a>, &nbsp
+  url: http://docs.pyro.ai/en/stable/
+  title: pyro
+
+
+  topic: (the) partition problem
+  url: /pdfs/math/the-partition-problem-DLgoodfellow.pdf
+  title: goodfellow</a>
+
+
+  topic: passive-aggressive algos
+  url: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveClassifier.html
+  title: classifier (scikit)
+  url: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveRegressor.html
+  title: regressor (scikit)</a>
+
+
+  topic: people to follow
+  url: https://scholar.google.com/
+  title: google scholar
+  url: https://www.mendeley.com/
+  title: mendeley
+
+
+  topic: PKI
+  url: https://smallstep.com/blog/everything-pki.html
+  title: everything pki
+  url: https://rehn.me/posts/pki-for-busy-people.html
+  title: pki for busy people
+  url: 
+  title: </a>
+
+
+  topic: planarity
+  pic: /px/math/ADM-planarity-detection.png
+  url: /pdfs/math/planarity-ADM.pdf
+  title: ADM
+
+
+
+<!--
+<div class="textcard
+  title: 
+  topic: planning algorithms
+  pic: /px/math/planning-algos-book-cover.png" width="95%
+  title: 
+  url: /pdfs/math/planning-algorithms.pdf
+  title: ebook
+
+-->
+
+  topic: point location
+  pic: /px/math/ADM-point-location.png
+  url: /pdfs/math/point-location-ADM.pdf
+  title: ADM
+
+
+  topic: policy gradients
+  url: pdfs/math/policy-gradients-RL.pdf
+  title: RL</a>
+  url: https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html
+  title: lillian weng
+
+
+  topic: polygons
+  pic: /px/math/ADM-polygon-partitions.png
+  url: /pdfs/math/polygon-partitions-ADM.pdf
+  title: partitions (ADM)
+  url: /pdfs/math/polygon-simplification-ADM.pdf
+  title: simplification (ADM)
+
+
+  topic: pooling layers
+  pic: /px/math/pooling.png
+  url: http://www.wildml.com/deep-learning-glossary/#average-pooling
+  title: average pooling
+  url: http://www.wildml.com/deep-learning-glossary/#max-pooling
+  title: max pooling
+  url: https://blog.deepsense.ai/region-of-interest-pooling-explained/
+  title: region of interest
+  url: https://github.com/deepsense-ai/roi-pooling
+  title: region of interest (deepsense)
+
+
+  topic: pose estimation
+  url: https://paperswithcode.com/area/computer-vision/pose-estimation
+  title: PwC</a>
+  url: https://www.kdnuggets.com/2019/08/2019-guide-human-pose-estimation.html
+  title: human pose est. 2019 guide
+
+
+  topic: power efficiency
+  url: https://arxiv.org/pdf/1605.07678.pdf
+  title: arxiv
+
+
+  topic: prediction target transformers
+  url: http://scikit-learn.org/stable/modules/preprocessing_targets.html
+  title: user guide (scikit)
+  url: http://scikit-learn.org/stable/modules/preprocessing_targets.html#label-binarization
+  title: label binarization
+  url: http://scikit-learn.org/stable/modules/preprocessing_targets.html#label-encoding
+  title: label encoding
+
+
+  topic: preprocessing / feature engineering
+  url: https://scikit-learn.org/stable/modules/preprocessing.html
+  title: scikit
+  url: https://csvkit.readthedocs.io/en/latest/
+  title: csvkit
+  url: https://hadrienj.github.io/posts/Preprocessing-for-deep-learning/
+  title: hadrienj.github
+  url: https://www.kdnuggets.com/2017/06/7-steps-mastering-data-preparation-python.html
+  title: mastering data prep
+
+
+  topic: prime numbers
+  pic: /px/math/ADM-factoring-primality.png
+  url: /pdfs/math/factoring-primes-ADM.pdf
+  title: factoring & primality (ADM)
+
+
+  topic: (math) primers
+  url: https://jeremykun.com/primers/
+  title: jeremy kun
+
+
+  topic: principal component analysis (pca)
+  url: https://intoli.com/blog/pca-and-svd/
+  title: pca & svd
+  url: /pdfs/math/PCA-explained-visually.pdf
+  title: visual explanation
+
+
+  topic: probability & statistics
+  notes: discrete, continuous, combinatorials, conditional, distributions, densities, 
+expected values, variance, sums, large number laws, central limit theorem, markov chains,
+random walks</small><br>  url: pdfs/math/prob-stats-cookbook v0.2.1.pdf
+  title: cookbook v0.2.1 (pdf)
+  url: pdfs/math/prob-stats-modeling.pdf
+  title: UC Davis ebook (pdf)
+  url: pdfs/math/prob-stats-cheatsheet2.pdf
+  title: cheatsheet v2 (pdf)
+  url: pdfs/math/prob-intro.pdf
+  title: grinstead/snell ebook (pdf)
+
+
+  url: pdfs/math/prob_cheatsheet_william_chen.pdf
+  title: cheatsheet (wm.chen)
+  url: pdfs/math/distributions-multivariate-PSC.pdf
+  title: multivariate (PSC)
+  url: pdfs/math/counting-probability-ITA.pdf
+  title: counting (ITA)
+  url: pdfs/math/probability-theory-PSC.pdf
+  title: theory (PSC)
+  url: pdfs/math/probability-distributions-PSC.pdf
+  title: distributions (PSC)
+  url: pdfs/math/probability-random-vars-PSC.pdf
+  title: random variables (PSC)
+  url: pdfs/math/probability-other-math-PSC.pdf
+  title: other math (PSC)
+  url: pdfs/math/probability-DLgoodfellow.pdf
+  title: goodfellow
+  url: pdfs/math/probability-SM.pdf
+  title: SM
+  notes: frequentist vs bayesian, concepts, discrete (bernoulli, binomial, multinoulli, multinomial,
+	poisson, empirical), continuous (gaussian, student's t, laplace, gamma, beta, pareto),
+	joint probability, transformations, monte carlo approximation,
+info theory (entropy, KL divergence, mutual info)</small>
+
+
+  topic: probability calibration
+  url: http://scikit-learn.org/stable/modules/calibration.html#probability-calibration
+  title: scikit
+
+
+  topic: probabilistic programming algos
+  url: https://blog.fastforwardlabs.com/2017/01/30/the-algorithms-behind-probabilistic-programming.html
+  title: fast fwd labs
+  url: https://www.slideshare.net/TylerTreat/probabilistic-algorithms-for-fun-and-pseudorandom-profit
+  title: tyler treat
+
+
+  topic: process capability index
+  url: https://en.wikipedia.org/wiki/Process_capability_index
+  title: wikipedia
+
+
+  topic: python/pytorch
+  pic: /px/math/pytorch.png" width="95%
+  title: 
+  url: https://github.com/ritchieng/the-incredible-pytorch
+  title: itchieng
+  url: https://github.com/yunjey/pytorch-tutorial
+  title: tutorial
+  url: http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+  title: 60 min blitz
+  url: https://github.com/dnouri/skorch
+  title: skorch
+
+
+  topic: python/sympy
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb
+  title: (my github)
+  url: /pdfs/math/symbolic-math-NP.pdf
+  title: NP
+
+
+  topic: queues
+  pic: /px/math/ADM-priority-queues.png
+  url: /pdfs/math/queues-sequences-EA.pdf
+  title: queues & sequences (EA)
+  url: pdfs/math/priority-queues-ADM.pdf
+  title: priority queues (ADM)
+  url: pdfs/math/priority-queues-DSA.pdf
+  title: priority queues (DSA)
+
+
+  topic: r (language)
+  url: http://www.bigdatanews.com/profiles/blogs/principal-component-analysis-using-r
+  title: PCA with R
+  url: http://www.r-tutor.com/gpu-computing
+  title: gpu computing
+  url: https://rstudio-pubs-static.s3.amazonaws.com/22159_77fe3f8ed4cb4ab7b3647a8d5c628ca4.html
+  title: rstudio
+  url: http://www.kdnuggets.com/2015/06/top-20-r-machine-learning-packages.html
+  title: top 20 R ML packages
+  url: https://www.r-bloggers.com/treasure-trove-of-r-scripts-for-auto-classification-chart-generation-solr-mongo-mysql-and-ton-more/
+  title: R scripts
+
+
+  topic: radix trees
+  pic: /px/math/radix-trees.png
+  url: https://blog.sqreen.io/demystifying-radix-trees/
+  title: tutorial
+
+
+  topic: random forests
+  url: https://github.com/kjw0612/awesome-random-forest
+  title: awesome RFs
+  url: /pdfs/math/random-forests-boosting-CSI.pdf
+  title: boosting (CSI)
+  url: /pdfs/math/random-forests-ESL.pdf
+  title: elements stat learnign
+
+
+  topic: random numbers
+  url: /pdfs/math/random-numbers-ADM.pdf
+  title: ADM
+
+
+  topic: random projection
+  url: http://scikit-learn.org/stable/modules/random_projection.html
+  title: random scikit
+
+
+  topic: reasoning
+  url: https://paperswithcode.com/area/reasoning
+  title: papers with code
+
+
+  topic: recommenders
+  url: https://www.kdnuggets.com/2019/09/machine-learning-recommender-systems.html
+  title: kdnuggets
+  url: http://www.bgu.ac.il/~shanigu/Publications/JMLRSurvey.pdf
+  title: eval metrics (pdf)
+  url: https://blog.statsbot.co/recommendation-system-algorithms-ba67f39ac9a3
+  title: tutorial (blogspot)
+  url: http://blog.fastforwardlabs.com/2018/01/22/exploring-recommendation-systems.html
+  title: tutorial (fast fwd labs)
+  url: https://pypi.python.org/pypi/scikit-surprise
+  title: scikit-surprise
+  url: https://blog.acolyer.org/2018/05/23/pixie-a-system-for-recommending-3-billion-items-to-200-million-users-in-real-time/
+  title: pinterest pixie
+  url: https://static.googleusercontent.com/media/research.google.com/ru//pubs/archive/45530.pdf
+  title: youtube
+  url: https://www.packtpub.com/books/content/building-recommendation-engine-spark
+  title: with spark
+  topic: Vorhies:
+  url: http://www.datasciencecentral.com/profiles/blogs/understanding-and-selecting-recommenders-1
+  title: selecting
+  url: http://www.datasciencecentral.com/profiles/blogs/5-types-of-recommenders
+  title: recommender types
+  url: http://www.datasciencecentral.com/profiles/blogs/recommenders-packaged-solutions-or-home-grown
+  title: pkgd or home grown?
+  url: http://www.datasciencecentral.com/profiles/blogs/deep-learning-and-recommenders
+  title: DL recommenders
+
+  url: https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems
+  title: intro
+  url: https://www.analyticsvidhya.com/blog/2015/10/recommendation-engines/
+  title: intro
+  url: https://blog.statsbot.co/recommendation-system-algorithms-ba67f39ac9a3
+  title: intro
+  url: http://www.datacommunitydc.org/blog/2013/05/recommendation-engines-why-you-shouldnt-build-one
+  title: why you shouldn't build one
+  url: https://www.codementor.io/jadianes/build-data-products-django-machine-learning-clustering-user-preferences-du107s5mk
+  title: code mentor
+  url: http://labs.criteo.com/2016/09/product-recommendation-criteo/
+  title: product recs
+  url: http://blog.untrod.com/2016/06/simple-similar-products-recommendation-engine-in-python.html
+  title: product recs
+  url: http://engineering.richrelevance.com/bandits-recommendation-systems/
+  title: bandit recommenders
+  url: http://engineering.richrelevance.com/recommendations-thompson-sampling/
+  title: thompson sampling
+  url: http://engineering.richrelevance.com/personalization-contextual-bandits/
+  title: contextual bandits
+  url: http://blog.getstream.io/factorization-machines-recommendation-systems/
+  title: factorization machines
+  url: https://github.com/geffy/tffm
+  title: Factorization Machines
+  url: /pdfs/math/recommenders-dive.pdf
+  title: DIDL
+  url: /pdfs/math/recommenders-DMMD.pdf
+  title: DMMD
+
+
+  topic: recurrent neural nets (rnns)
+  pic: /px/math/rnn-intro.png
+  url: https://github.com/kjw0612/awesome-rnn
+  title: awesome rnns
+  url: https://victorzhou.com/blog/intro-to-rnns/
+  title: intro
+  url: http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+  title: intro
+  url: https://blog.acolyer.org/2017/03/23/recurrent-neural-network-models/
+  title: rnn models
+  url: https://distill.pub/2016/augmented-rnns/
+  title: augmented rnns
+  url: http://www.offconvex.org/2018/07/27/approximating-recurrent/
+  title: approximating rnns
+  url: http://axon.cs.byu.edu/~martinez/classes/678/Papers/Werbos_BPTT.pdf
+  title: backprop thru time
+  url: http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf
+  title: bidirectional rnns
+  url: http://jmlr.org/proceedings/papers/v48/diamos16.pdf
+  title: persistent rnns
+  url: https://distill.pub/2019/memorization-in-rnns
+  title: memorization
+  url: http://n-s-f.github.io/2017/07/10/rnn-tensorflow.html
+  title: rnns in tensorflow
+  url: http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
+  title: rnns in tensorflow  url: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+  title: effectiveness
+  url: http://www.datasciencecentral.com/profiles/blogs/recurrent-neural-nets-the-third-and-least-appreciated-leg-of-the-
+  title: 3rd leg
+  url: https://arxiv.org/abs/1602.08210
+  title: complexity (arxiv)
+  url: /pdfs/math/rnns-dive.pdf
+  title: DIDL
+
+  notes: sequence models, text preprocessing, language models, RNNs, implementation, backprop thru time</small><br>
+
+  url: /pdfs/math/rnns-modern-dive.pdf
+  title: modern rnns (DIDL)
+  url: /pdfs/math/rnns-super-cheatsheet-SCDL.pdf
+  title: SCDL
+  notes: gru, lstm, deep rnns, bidirectional, machine translation</small><br>
+  url: /pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
+  title: goodfellow
+
+
+  topic: recursion
+  url: /pdfs/math/recursion-JE.pdf
+  title: JE
+
+
+  topic: regressions
+  pic: /px/math/regression.png
+  url: https://www.listendata.com/2018/03/regression-analysis.html
+  title: 15 types (listendata)
+  url: http://setosa.io/ev/ordinary-least-squares-regression/
+  title: least squares (setosa)
+  url: https://datascientia.blog/2017/08/14/dss-llrm/
+  title: log-log (datascientia)
+  url: http://scikit-learn.org/stable/modules/kernel_ridge.html
+  title: kernel ridge (scikit)
+  url: https://www.datasciencecentral.com/profiles/blogs/deep-dive-into-polynomial-regression-and-overfitting
+  title: polynomials
+  url: pdfs/math/sparse-models-lasso-CSI.pdf
+  title: lasso (CSI)
+  url: /pdfs/math/regression-ridge-CSI.pdf
+  title: ridge (CSI)
+  url: /pdfs/math/linear-regression-ESL.pdf
+  title: ESL
+  url: /pdfs/math/linear-regression-PSC.pdf
+  title: PSC
+  url: /pdfs/math/linear-regression-SM.pdf
+  title: SM
+  url: /pdfs/math/regression-trees-CSI.pdf
+  title: generalized regression trees (CSI)
+
+
+  topic: regression metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#explained-variance-score
+  title: explained variance
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#mean-absolute-error
+  title: mean absolute error
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#mean-squared-error
+  title: mean squared error (MSE)
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#mean-squared-logarithmic-error
+  title: mean squared log error
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#median-absolute-error
+  title: median absolute error
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#r2-score-the-coefficient-of-determination
+  title: r^2 (coeff of determination)
+
+
+  topic: regularization:
+  url: https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning-And-why-is-it-claimed-to-be-an-effective-trick-to-improve-your-network
+  title: quora
+  url: /pdfs/math/regularization-DLgoodfellow.pdf
+  title: Goodfellow
+
+
+  topic: reinforcement learning
+  url: http://www.datasciencecentral.com/xn/detail/6448529:BlogPost:886058
+  title: intro
+  url: https://www.kdnuggets.com/2019/09/deepmind-three-new-impressive-reinforcement-learning-frameworks.html
+  title: deepmind
+  url: https://jaromiru.com/2017/02/16/lets-make-an-a3c-theory/
+  title: A3C
+  url: https://jaromiru.com/2016/09/27/lets-make-a-dqn-theory/
+  title: DQN
+  url: /pdfs/math/approximation-off-policy-methods-RL.pdf
+  title: off-policy methods (RL)
+  url: /pdfs/math/approximation-on-policy-control-RL.pdf
+  title: on-policy control (RL)
+  url: /pdfs/math/approximation-on-policy-prediction-RL.pdf
+  title: on-policy prediction (RL)
+  url: /pdfs/math/eligibility-traces-RL.pdf
+  title: eligibility traces (RL)
+  url: /pdfs/math/frontiers-RL.pdf
+  title: frontiers (RL)
+  url: /pdfs/math/nstep-bootstrap-RL.pdf
+  title: n-step bootstrapping (RL)
+  url: /pdfs/math/tabular-method-planning-RL.pdf
+  title: tabular method planning (RL)
+  url: /pdfs/math/markov-finite-RL.pdf
+  title: markov finite decisions (RL)
+
+
+  topic: representation-learning
+  url: /pdfs/math/representation-learning-DLgoodfellow.pdf
+  title: goodfellow
+
+
+  topic: robotics & motion planning
+  pic: /px/math/ADM-motion-planning.png
+  url: https://paperswithcode.com/area/robots
+  title: papers with code
+  url: pdfs/math/motion-planning-ADM.pdf
+  title: motion planning (ADM)
+
+
+  topic: sampling
+  pic: /px/math/sampling-algorithms.jpg" width="95%
+  title: 
+  url: https://www.kdnuggets.com/2019/09/5-sampling-algorithms.html
+  title: 5 sampling algorithms
+  url: https://www.datasciencecentral.com/profiles/blogs/modern-re-sampling-and-statistical-recipes
+  title: modern recipes
+  url: https://mlwhiz.com/blog/2019/07/30/sampling/
+  title: 5 sampling algos
+  url: https://www.datasciencecentral.com/profiles/blogs/difference-between-stratified-sampling-cluster-sampling-and-quota
+  title: stratified, cluster, quota sampling
+  url: /pdfs/math/sampling-PSC.pdf
+  title: prob stat cookbook
+
+
+  topic: sankey diagrams
+  url: https://bost.ocks.org/mike/sankey/
+  title: bost.ocks
+  url: http://analyzecore.com/2014/10/31/sequence-carts-analysis-sankey/
+  title: sequence carts analysis
+  url: https://www.r-bloggers.com/experimenting-with-sankey-diagrams-in-r-and-python/
+  title: r & python
+
+
+  topic: satisfiability
+  pic: /px/math/ADM-satisfiability.png
+  url: /pdfs/math/satisfiability-ADM.pdf
+  title: ADM
+
+
+  topic: scene parsing
+  url: https://paperswithcode.com/area/computer-vision/scene-parsing
+  title: PwC
+
+
+  topic: (tools) seaborn
+  pic: /px/math/seaborn.png
+  url: http://seaborn.pydata.org/
+  title: home
+  url: https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn
+  title: my github
+  url: https://elitedatascience.com/python-seaborn-tutorial
+  title: tutorial
+  url: https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly/
+  title: tryolabs
+  url: https://gist.github.com/5agado/ee95008f25730d04bfd0eedd5c36f0ee#file-pandas-and-seaborn-ipynb
+  title: gist
+  url: http://insightfulinteraction.com/
+  title: insightful interaction
+  url: http://www.maartenlambrechts.com/2015/03/04/the-rise-of-explorable-explanations.html
+  title: explorable explanations
+  url: http://www.visualisingdata.com/
+  title: visualizing data
+  url: http://arogozhnikov.github.io/2016/04/28/demonstrations-for-ml-courses.html
+  title: demos
+  url: http://www.datasciencecentral.com/group/resources/forum/topics/30-basic-tools-for-data-visualization
+  title: tools
+  url: https://www.ayasdi.com/blog/bigdata/why-topological-data-analysis-works/
+  title: topological data analysis
+  url: https://github.com/insideout10/zoomable-treemap
+  title: zoomable treemaps
+  url: https://developers.google.com/chart/interactive/docs/gallery/treemap
+  title: treemap gallery
+
+
+  topic: search
+  pic: /px/math/ADM-searching.png
+  url: /pdfs/math/searching-ADM.pdf
+  title: ADM
+  url: /pdfs/math/search-depth-first-JE.pdf
+  title: depth-first (JE)
+  url: /pdfs/math/combinational-search-ADM.pdf
+  title: combinational (ADM)
+  pic: /px/math/ADM-range-search.png
+  url: pdfs/math/range-search-ADM.pdf
+  title: range search (ADM)</a>
+
+
+  topic: self-organizing maps
+  pic: /px/math/self-organizing-map.gif
+  url: https://diego.codes/post/som-tsp/
+  title: diego.codes
+
+
+  topic: semaphores
+  url: http://preshing.com/20150316/semaphores-are-surprisingly-versatile/
+  title: use cases
+
+
+  topic: semantic segmentation
+  pic: /px/math/semantic-segmentation.jpeg
+  url: https://paperswithcode.com/area/computer-vision/semantic-segmentation
+  title: PwC
+  url: https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc
+  title: 2019 guide
+  url: {% post_url 2019-08-28-semantic-segmentation %}
+  title: my blog post
+
+
+  topic: sentiment analysis
+  url: https://github.com/xiamx/awesome-sentiment-analysis
+  title: awesome s/a
+  url: https://monkeylearn.com/blog/aspect-based-sentiment-analysis/
+  title: aspect-based s/a
+  url: https://www.topbots.com/text-preprocessing-for-machine-learning-nlp/
+  title: preprocessing
+  url: http://hardmath123.github.io/ambigrams.html
+  title: ambigrams
+  url: sentiment-analysis-on-twitter-using-word2vec-and-keras.html
+  title: s/a twitter word2vec keras
+
+
+  topic: sets
+  url: /pdfs/math/sets-ADM.pdf
+  title: 
+  pic: /px/math/ADM-sets.png
+ADM
+  url: /pdfs/math/sets-ITA.pdf
+  title: intro to algorithms
+  url: /pdfs/math/set-covers-ADM.pdf
+  title: set covers
+  pic: /px/math/ADM-set-covers.png
+  url: /pdfs/math/set-packing-ADM.pdf
+  title: set packing
+  pic: /px/math/ADM-set-packing.png
+  url: /pdfs/math/sets-independent-ADM.pdf
+  title: independent
+  pic: /px/math/ADM-independent-sets.png
+  url: /pdfs/math/sets-strings-ADM.pdf
+  title: strings
+  pic: /px/math/ADM-subsets.png
+  url: /pdfs/math/subsets-ADM.pdf
+  title: subsets
+
+
+  topic: shape similarity
+  url: /pdfs/math/shape-similarity-ADM.pdf
+  title: 
+	  pic: /px/math/ADM-shape-similarity.png
+ADM
+
+
+  topic: sharding
+  url: https://www.tbray.org/ongoing/When/201x/2019/09/25/On-Sharding
+  title: intro
+
+
+  topic: shortest path
+  url: /pdfs/math/shortest-path-ADM.pdf
+  title: 
+  pic: /px/math/ADM-shortest-path.png
+ADM
+  url: /pdfs/math/all-pairs-shortest-paths-ITA.pdf
+  title: all-pairs (ITA)
+
+
+  topic: signal processing
+  url: http://www.dspguide.com/pdfbook.htm
+  title: 
+  pic: /px/math/dsp-bookcover.png" width="95%
+  title: dsp book (30 chaps)
+  url: /pdfs/math/signal-processing-NP.pdf
+  title: numerical python
+  url: http://www.dspguru.com/
+  title: dsp gury
+  url: https://jackschaedler.github.io/circles-sines-signals/index.html
+  title: circles, sines, signals
+  pic: /px/math/signal-processing-numeric-python.png
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb
+  title: my github
+spectral analysis<br>
+frequency-domain filtering<br>
+window functions<br>
+convo filters<br>
+IIR, FIR filters<br>
+  url: http://ataspinar.com/2018/04/04/machine-learning-with-signal-processing-techniques/
+  title: demo
+
+
+
+  topic: similarity search
+  pic: /px/math/milvus-logo.png" width="95%
+  title: 
+  url: /pdfs/math/similarity-search-DMMD.pdf
+  title: DIMD
+  url: milvus.io
+  title: milvus
+  url: https://github.com/facebookresearch/faiss
+  title: FAISS (fb)
+  url: https://medium.com/gsi-technology/the-apu-novel-hardware-for-accelerated-similarity-search-beaef9b19b97
+  title: GSI APU
+
+
+  topic: singular value decomposition (svd)
+  url: https://intoli.com/blog/pca-and-svd/
+  title: pca & svd
+  url: /pdfs/math/singular-value-decomposition-FDS.pdf
+  title: FDS
+
+
+  topic: small data
+  url: https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89#.xtsy6fu4b
+  title: tactics
+
+
+  topic: sorting
+  pic: /px/math/ADM-sorting.png" width="95%
+  title: 
+  url: /pdfs/math/sorting-ADM.pdf
+  title: ADM
+  url: /pdfs/math/sort-search-ADM.pdf
+  title: sort-search (ADM)
+  url: /pdfs/math/sort-search-EA.pdf
+  title: sort-search (EA)
+  url: /pdfs/math/topological-sort-ADM.pdf
+  title: topological (ADM)
+  url: /pdfs/math/quicksort-ITA.pdf
+  title: quicksort (ITA)
+  url: /pdfs/math/linear-time-sort-ITA.pdf
+  title: linear time (ITA)
+  url: /pdfs/math/heapsort-ITA.pdf
+  title: heapsort (ITA)
+
+
+  topic: sparse data
+  url: /pdfs/math/sparse-matrices-graphs-NP.pdf
+  title: NP
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb
+  title: my github
+  notes: 
+coordinate list format, CSR (compressed sparse rows), sparse matrices, sparse linear algebra, eigenvalues, performance, graphs & networks</small><br>
+
+
+  topic: spatial/orbital data
+  url: /pdfs/math/spatial-DSA.pdf
+  title: data structs
+  notes: 
+point data, bucketing, region data, rectangle data, line data & boundaries</small><br>
+  url: http://www.braeunig.us/space/orbmech.htm
+  title: orbital mechanics
+
+
+  topic: speech
+  url: https://paperswithcode.com/area/speech
+  title: PwC
+  url: https://heartbeat.fritz.ai/a-2019-guide-for-automatic-speech-recognition-f1e1129a141c
+  title: speech recognition - 2019 guide
+  url: https://heartbeat.fritz.ai/a-2019-guide-to-speech-synthesis-with-deep-learning-630afcafb9dd
+  title: speech synthesis - 2019 guide
+
+  topic: splines
+  url: /pdfs/math/splines-ESL.pdf
+  title: ESL
+
+  topic: stacking
+  url: https://burakhimmetoglu.com/2016/12/01/stacking-models-for-improved-predictions/
+  title: tutorial
+  url: https://www.datasciencecentral.com/profiles/blogs/stacking-models-for-improved-predictions-a-case-study-for-housing
+  title: tutorial
+  url: https://en.wikipedia.org/wiki/Ensemble_learning#Stacking
+  title: wikipedia
+
+
+  topic: (finite) state machines
+  url: /pdfs/math/finite-state-machine-minimization-ADM.pdf
+  title: minimization (ADM)
+
+
+  topic: statistics
+  url: pdfs/math/statistics-NP.pdf
+  title: basics (NP)
+  url: /pdfs/math/statsmodels-NP.pdf
+  title: statsmodel (NP)
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch13-statistics.ipynb
+  title: NP (my github c13) 
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb
+  title: NP (my github c14)
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+  title: NP - bayes stats (my github c16)
+  url: http://www.anuncommonlab.com/articles/how-simulations-work/
+  title: how sims work
+  url: https://speakerdeck.com/jakevdp/statistics-for-hackers
+  title: for hackers
+  url: http://simplestatistics.org/docs/
+  title: simple stats
+  url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961
+  title: 10 simple rules
+  url: http://www.datasciencecentral.com/profiles/blogs/top-20-uses-of-statistical-modeling
+  title: 12 use cases
+  url: http://www.datasciencecentral.com/profiles/blogs/24-uses-of-statistical-modeling-part-ii
+  title: 12 more use cases
+  url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
+  title: significance level
+  url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
+  title: conf level
+  url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
+  title: conf intervals
+
+
+  topic: stochastic processes
+  url: /pdfs/math/stochastic-process-PSC.pdf
+  title: PSC
+
+
+  topic: streaming
+  url: /pdfs/math/data-mining-streams-DMMD.pdf
+  title: stream mining (DMMD)
+  url: https://www.mapr.com/blog/some-important-streaming-algorithms-you-should-know-about
+  title: algos list
+
+
+  topic: string matching
+  url: pdfs/math/string-matching-ADM.pdf
+  title: ADM
+  url: pdfs/math/string-matching-approx-ADM.pdf
+  title: approx matching
+  url: pdfs/math/string-matching-ITA.pdf
+  title: ITA
+  url: pdfs/math/shortest-common-superstring-ADM.pdf
+  title: shortest common superstring (ADM)
+  url: pdfs/math/longest-common-substring-ADM.pdf
+  title: longest common substring (ADM)
+
+
+  topic: style transfer
+  url: https://paperswithcode.com/task/style-transfer
+  title: PwC
+
+
+  topic: summations
+  url: /pdfs/math/summations-ITA.pdf
+  title: ITA
+
+
+  topic: super resolution
+  url: https://paperswithcode.com/task/super-resolution
+  title: Images (PwC)
+  url: https://paperswithcode.com/task/image-super-resolution
+  title: Images (more) (PwC)
+  url: https://paperswithcode.com/task/video-super-resolution
+  title: Video (PwC)
+
+
+  topic: support vector machines
+  url: http://scikit-learn.org/stable/modules/outlier_detection.html#outlier-detection
+  title: svm 1c outliers
+  url: https://generalabstractnonsense.com/2017/03/A-quick-look-at-Support-Vector-Machines/
+  title: quick look
+  url: https://blog.statsbot.co/support-vector-machines-tutorial-c1618e635e93
+  title: tutorial
+  url: http://scikit-learn.org/stable/modules/svm.html
+  title: scikit user guide
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV
+  title: scikit ex, CV searh for C,gamma
+  url: http://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.pdf
+  title: libsvm
+  url: http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+  title: liblinear
+  url: /pdfs/math/support-vector-machines-ESL.pdf
+  title: ESL
+  url: /pdfs/math/support-vector-machines-kernels-CSI.pdf
+  title: kernel methods (CSI)
+
+
+  topic: survival analysis
+  url: /pdfs/math/survival-analysis-expection-maximization-CSI.pdf
+  title: CSI
+
+
+  topic: synthetic data
+  url: https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae
+  title: must-have skill
+
+
+  topic: temporal distance
+  url: /pdfs/math/temporal-distances-RL.pdf
+  title: reinforcement learning
+
+
+  topic: tensorflow
+  url: http://terrytangyuan.github.io/2016/03/14/scikit-flow-intro
+  title: scikit flow intro</a> <br>
+  url: https://www.tensorflow.org/programmers_guide/
+  title: programmers guide
+  url: https://github.com/bjpcjp/scikit-and-tensorflow-workbooks
+  title: my workbooks (github)
+  url: https://github.com/riga/tfdeploy
+  title: deploy
+  url: https://deepmind.com/blog/open-sourcing-sonnet/
+  title: sonnet
+  url: https://github.com/pkmital/tensorflow_tutorials
+  title: tutorials
+  url: https://github.com/aymericdamien/TensorFlow-Examples
+  title: examples
+  url: https://matthewearl.github.io/2016/05/06/cnn-anpr/
+  title: cnn-anpr
+  url: https://indico.io/blog/the-good-bad-ugly-of-tensorflow/
+  title: good-bad-ugly
+  url: http://playground.tensorflow.org
+  title: tf playground
+
+
+  topic: text compression
+  pic: /px/math/ADM-text-compression.png
+  url: /pdfs/math/text-compression-ADM.pdf
+  title: ADM
+
+
+  topic: tf-idf
+  url: https://manticoresearch.com/2019/04/09/tf-idf-in-a-nutshell/
+  title: intro
+  url: https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/tf-idf.html
+  title: algos for webdevs
+  url: https://searchengineland.com/tf-idf-the-best-content-optimization-tool-seos-arent-using-319122
+  title: for seo
+
+
+  topic: time series
+  url: https://paperswithcode.com/area/time-series
+  title: PwC
+  url: https://www.r-bloggers.com/feature-based-time-series-analysis/
+  title: feature-based analysis
+  url: http://multithreaded.stitchfix.com/blog/2017/02/28/whats-wrong-with-my-time-series/
+  title: stitchfix
+  url: /pdfs/math/time-series-PSC.pdf
+  title: PSC
+
+
+  topic: tools
+  url: http://blog.datadive.net/7-tools-in-every-data-scientists-toolbox/
+  title: 7 tools
+  url: https://github.com/Microsoft/AutonomousDrivingCookbook/tree/master/AirSimE2EDeepLearning
+  title: airsim
+  url: https://medium.com/@gokul_uf/the-anatomy-of-deep-learning-frameworks-46e2a7af5e47#.nv6fxiqk7
+  title: anatomy
+  url: http://rll.berkeley.edu/cgt
+  title: comp graph toolkit (berkeley)</a>
+  url: http://www.netlib.org/blas/
+  title: blas
+  url: https://bigdl-project.github.io/master/
+  title: bigDL
+  url: https://github.com/caffe2/caffe2
+  title: caffe2
+  url: vhttps://docs.microsoft.com/en-us/cognitive-toolkit/
+  title: cntk
+  url: https://developer.nvidia.com/cublas
+  title: cublas
+  url:  https://developer.nvidia.com/cudnn
+  title: cudnn
+  url: http://matthewrocklin.com/blog/work/2017/02/07/dask-sklearn-simple
+  title: dask
+  url: http://www.datasciencetoolkit.org/
+  title: ds toolkit
+  url: https://www.h2o.ai/
+  title: h2o.ai
+  url: https://keras.io/
+  title: keras
+  url: https://spark.apache.org/mllib/
+  title: spark (apache)
+  url: https://www.h2o.ai/
+  title: h2o.ai
+  url: https://medium.com/luminovo/the-deep-learning-toolset-an-overview-b71756016c06
+  title: luminovo
+  url: https://mxnet.apache.org/
+  title: mxnet
+  url: http://pytorch.org/
+  title: pytorch
+  url: http://scikit-learn.org/stable/
+  title: scikit-learn
+  url: https://www.kdnuggets.com/2019/09/train-sklearn-100x-faster.html
+  title: sk-dist: scikit 100x faster
+  url: https://www.oreilly.com/ideas/square-off-machine-learning-libraries?imm_mid=0fa832&cmp=em-data-na-na-newsltr_20180117
+  title: compare (oreilly)
+  url: https://github.com/Azure/mmlspark
+  title: spark (ms)
+  url: https://www.tensorflow.org/
+  title: tensorflow</a>
+  url: https://arxiv.org/pdf/1802.04799.pdf
+  title: TVM #2E compiler
+  url: https://pair-code.github.io/what-if-tool/
+  title: what-if (pair-code)
+
+
+  topic: tools/uber
+  url: https://uber.github.io/ludwig/
+  title: ludwig: A Toolbox for No-Code Machine Learning Models
+  url: http://pyro.ai/
+  title: pyro: deep universal probabilistic programming
+  url: http://manifold.mlvis.io/
+  title: manifold: A model-agnostic visual debugging tool
+  url: https://github.com/uber-research/plato-research-dialogue-system
+  title: plato: conversational agent builder
+  url: https://github.com/horovod/horovod
+  title: horovod: distributed training framework
+  url: https://eng.uber.com/research/
+  title: uber AI research hub
+ 
+  topic: topic extraction
+  url: https://towardsdatascience.com/the-complete-guide-for-topics-extraction-in-python-a6aaa6cedbbc
+  title: tutorial
+  url: https://www.kdnuggets.com/2019/09/overview-topics-extraction-python-latent-dirichlet-allocation.html
+  title: with lda
+
+
+  topic: topology
+  pic: /px/math/topology-book-cover.png
+  url: /pdfs/math/Geometric_topology.pdf
+  title: ebook (pdf)
+  url: https://arxiv.org/abs/1801.10130
+  title: spherical cnns (arxiv)
+  url: https://blogs.scientificamerican.com/roots-of-unity/why-you-should-care-about-high-dimensional-sphere-packing/
+  title: high-d sphere packing
+  url: http://www.arxiv-sanity.com/search?q=spherical
+  title: arxiv-sanity search
+
+
+  topic: transfer learning
+  url: https://blog.fastforwardlabs.com/2019/09/05/transfer-learning-from-the-ground-up.html
+  title: ground up
+
+
+  topic: transformers
+  url: https://www.kdnuggets.com/2019/08/deep-learning-transformers-attention-mechanism.html
+  title: transformers - attn mech
+  url: http://www.peterbloem.nl/blog/transformers
+  title: from scratch
+  url: https://www.kdnuggets.com/2019/08/order-matters-alibabas-transformer-based-recommender-system.html
+  title: alibaba recommender
+
+
+  topic: transitive closure
+  pic: /px/math/ADM-transitive-closure-reduction.png
+  url: /pdfs/math/transitive-closure-ADM.pdf
+  title: ADM
+
+
+  topic: traveling salesman
+  pic: /px/math/ADM-traveling-salesman.png
+  url: /pdfs/math/traveling-salesman-ADM.pdf
+  title: ADM
+
+
+  topic: trees
+  url: /pdfs/math/kd-trees-ADM.pdf
+  title: kd trees (ADM)
+  url: /pdfs/math/tree-drawing-ADM.pdf
+  title: tree drawing (ADM)
+  url: /pdfs/math/red-black-trees-ITA.pdf
+  title: red-black (ITA)</a>
+  pic: /px/math/ADM-steiner-tree.png
+  url: /pdfs/math/steiner-tree-ADM.pdf
+  title: steiner (ADM)
+  url: /pdfs/math/suffix-trees-ADM.pdf
+  title: suffix (ADM)
+  url: /pdfs/math/trees-EA.pdf
+  title: binary (EA)
+
+
+  topic: triangulation
+  pic: /px/math/ADM-triangulation.png
+  url: /pdfs/math/triangulation-ADM.pdf
+  title: ADM</a>
+
+
+  topic: trigonometry
+  url: http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf
+  title: cheat sheet pdf
+
+
+  topic: t-SNE
+  pic: /px/math/t-sne.png
+  url: http://distill.pub/2016/misread-tsne/
+  title: distill
+  url: https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a
+  title: 
+	clearly explained
+  url: https://www.displayr.com/using-t-sne-to-visualize-data-before-prediction/
+  title: displayr
+  url: https://beta.observablehq.com/@mbostock/lets-try-t-sne
+  title: observablehq
+  url: http://distill.pub/2016/misread-tsne/
+  title: distill: misread
+  url: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
+  title: wikipedia
+  url: https://www.oreilly.com/learning/an-illustrated-introduction-to-the-t-sne-algorithm
+  title: oreilly
+  url: http://www.datasciencecentral.com/profiles/blogs/t-sne-algo-in-r-and-python-made-with-same-dataset
+  title: r vs python
+
+
+  topic: untrusted data
+  url: http://karpathy.github.io/2019/04/25/recipe/
+  title: training checklist
+
+
+  topic: unbalanced data
+  url: http://www.svds.com/learning-imbalanced-classes/
+  title: intro (svds)
+  url: https://opendatascience.com/blog/learning-from-imbalanced-classes/
+  title: intro (odsc)
+  url: https://www.analyticsvidhya.com/blog/2016/09/this-machine-learning-project-on-imbalanced-data-can-add-value-to-your-resume/
+  title: 
+intro (avidhya)
+  url: https://www.analyticbridge.datasciencecentral.com/forum/topics/handling-imbalanced-data-when-building-regression-models
+  title: regressions
+  url: https://dev.to/kite/handling-imbalanced-datasets-with-smote-in-python-3h6h
+  title: smote (tools)
+
+
+  topic: uncertain/untrusted data
+  pic: /px/math/untrusted-data.png
+  url: https://blog.acolyer.org/2019/08/19/robust-learning-from-untrusted-sources/
+  title: blog.acolyer.org
+  url: http://mlg.eng.cam.ac.uk/yarin/blog_2248.html
+  title: uncertain data
+
+
+  topic: unstructured data
+  url: https://www.datasciencecentral.com/profiles/blogs/5-easy-steps-to-structure-highly-unstructured-big-data
+  title: 5 easy structuring steps
+
+
+  topic: unsupervised learning
+  pic: /px/math/ESL-heatmap.png
+  url: /pdfs/math/unsupervised-learning-ESL.pdf
+  title: ESL
+  notes: association rules, apriori, cluster analysis, self-organizing maps, principal components, independent component analysis (ICA), multidimensional scaling (MDS), non-linear dimension reduction, LDS, pagerank</small><br>
+
+
+  topic: van emde boas trees
+  url: /pdfs/math/van-emde-boas-trees-ITA.pdf
+  title: ITA
+
+
+  topic: vertexes
+  pic: /px/math/ADM-vertex-coloring.png
+  url: /pdfs/math/vertex-coloring-ADM.pdf
+  title: vertex coloring (ADM)
+  pic: /px/math/ADM-vertex-covers.png
+  url: /pdfs/math/vertex-cover-ADM.pdf
+  title: vertex covers (ADM)
+  pic: /px/math/ADM-edge-vertex-connectivity.png
+  url: /pdfs/math/edge-vertex-connectivity-ADM.pdf
+  title: connectivity (ADM)
+  pic: /px/math/ADM-feedback-set.png
+  url: /pdfs/math/feedback-edge-vertex-set-ADM.pdf
+  title: feedback sets (ADM)
+
+
+  topic: video
+<!--  pic: /px/math/video-motion.gif-->
+  url: https://paperswithcode.com/area/computer-vision/video
+  title: PwC
+  notes: tracking, classification, prediction, understanding, generation,
+super-resolution, retrieval, (more)</small><br>
+
+
+  topic: vision
+  url: https://paperswithcode.com/area/computer-vision
+  title: PwC
+  url: http://blog.paralleldots.com/technology/deep-learning/must-read-path-breaking-papers-about-image-classification
+  title: parallel dots
+  url: http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr/
+  title: LOPQ (flickr)
+  url: https://github.com/tzutalin/labelImg
+  title: image labeling
+  url: https://www.pyimagesearch.com/2019/08/26/building-an-image-hashing-search-engine-with-vp-trees-and-opencv/
+  title: image hashing
+  url: https://mzucker.github.io/2016/08/15/page-dewarping.html
+  title: image dewarping
+  url: http://www.image-net.org/challenges/LSVRC/
+  title: LSVRC
+  url: https://www.datasciencecentral.com/profiles/blogs/9-python-libraries-which-can-help-you-in-image-processing
+  title: 9 python libs
+  url: https://github.com/kjw0612/awesome-deep-vision
+  title: awesome deep vision
+  url: https://medium.com/@jiwon.jeong/computer-vision-for-beginners-part-4-64a8d9856208
+  title: beginners
+  url: https://petewarden.com/2018/07/06/what-image-classifiers-can-do-about-unknown-objects/
+  title: unknown images
+  url: https://www.datasciencecentral.com/profiles/blogs/interactive-image-segmentation-with-graph-cut-in-python
+  title: image segmentation - graphcut
+  url: https://www.michael-grogan.com/image-recognition-with-keras-convolutional-neural-networks/
+  title: traffic
+  url: https://pjreddie.com/darknet/yolo/
+  title: yolo (orig)
+  url: https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701/
+  title: shapes as textures
+  url: https://www.quantamagazine.org/a-mathematical-model-unlocks-the-secrets-of-vision-20190821/
+  title: new model (quanta)
+
+
+  topic: visualization
+  url: http://students.brown.edu/seeing-theory/?vt=4
+  title: brown.edu
+  url: http://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
+  title: stunning concepts
+  url: http://setosa.io/ev/
+  title: setosa
+  url: http://inconvergent.net/spurious-splines/
+  title: spurious splines
+  url: https://www.pinterest.com/stephenpa/the-visual-display-of-information/
+  title: pinterest lib
+
+
+  topic: voronoi diagrams
+  pic: /px/math/tessellations.png
+  url: https://www.r-bloggers.com/voronoi-diagrams-in-plotly-and-r/
+  title: plotly & r
+  url: /pdfs/math/voronoi-diagrams-ADM.pdf
+  title: ADM
+  url: http://datagenetics.com/blog/may12017/index.html
+  title: tessellations
+
+
+  topic: wavefunction collapse algo
+  pic: /px/math/wavefunction-collapse.png
+  url: https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/
+
+  title: demo
+
+  topic: wavelets
+  pic: /px/math/wavelet-transform.png" width="95%
+  title: 
+  url: /pdfs/math/wavelets-FDS.pdf
+  title: intro (Foundations)
+  url: http://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/
+  title: wavelet transform
+
+
+  topic: weibull distribution
+  pic: /px/math/weibull.png" width="95%
+  title: 
+  url: https://www.allaboutcircuits.com/technical-articles/how-the-Weibull-distribution-is-used-in-reliability-engineering/
+  title: all about ckts
+
+
+  topic: weight averaging (stochastic)
+  url: https://towardsdatascience.com/stochastic-weight-averaging-a-new-way-to-get-state-of-the-art-results-in-deep-learning-c639ccf36a
+  title: intro
+
+
+  topic: zipfs_law
+  pic: /px/math/zipf-capture.png
+  url: https://www.datasciencecentral.com/profiles/blogs/zipf-s-distribution-example-of-a-great-application
+  title: example
+  url: https://www.datasciencecentral.com/profiles/blogs/why-zipf-s-law-explains-so-many-big-data-and-physics-phenomenons
+  title: use cases
+

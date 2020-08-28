@@ -1,0 +1,2345 @@
+
+- title: role
+  category:
+  url: pdfs/math/algorithms-role-ITA.pdf
+  source: ITA
+
+- title: shortest paths
+  category: search
+  url: pdfs/math/all-pairs-shortest-paths-ITA.pdf
+  source: ITA
+
+- title: amortization
+  category:
+  url: pdfs/math/amortization-ITA.pdf
+  source: ITA
+
+- title: approximation
+  category:
+  url: pdfs/math/approximation-algos-ITA.pdf
+  source: ITA
+
+- title: binary search trees
+  category: search
+  url: pdfs/math/binary-search-trees-ITA.pdf
+  source: ITA
+
+- title: book
+  category:
+  url: pdfs/math/book-ITA.pdf
+  source: ITA
+
+- title: b trees
+  category: datastructs
+  url: pdfs/math/b-trees-ITA.pdf
+  source: ITA
+  notes: "definition,
+          operations,
+          deleting keys
+  "
+
+- title: counting
+  category: probstats
+  url: pdfs/math/counting-probability-ITA.pdf
+  source: ITA
+
+- title: augmenting
+  category: datastructs
+  url: pdfs/math/datastructs-augmenting-ITA.pdf
+  source: ITA
+
+- title: disjoint
+  category: datastructs
+  url: pdfs/math/datastructs-disjoint-ITA.pdf
+  source: ITA
+  notes: "operations,
+          linked-list representation,
+          disjoint-set forests,
+          union analysis
+  "
+
+- title: intro
+  category: datastructs
+  url: pdfs/math/datastructs-intro-ITA.pdf
+  source: ITA
+
+- title: divide & conquer
+  category: 
+  url: pdfs/math/divide-conquer-ITA.pdf
+  source: ITA
+
+- title: dynamic programming
+  category:
+  url: pdfs/math/dynamic-programming-ITA.pdf
+  source: ITA
+
+- title: fibonacci
+  category:
+  url: pdfs/math/fibonacci-heaps-ITA.pdf
+  source: ITA
+
+- title: geometry
+  category:
+  url: pdfs/math/geometry-ITA.pdf
+  source: ITA
+
+- title: getting started
+  category:
+  url: pdfs/math/getting-started-ITA.pdf
+  source: ITA
+
+- title: graph algorithms
+  category: graphs
+  url: pdfs/math/graph-algos-ITA.pdf
+  source: ITA
+
+- title: greedy algorithms
+  category:
+  url: pdfs/math/greedy-algos-ITA.pdf
+  source: ITA
+
+- title: growth
+  category:
+  url: pdfs/math/growth-ITA.pdf
+  source: ITA
+
+- title: hashes
+  category: datastructs
+  url: pdfs/math/hashes-ITA.pdf
+  source: ITA
+
+- title: heapsort
+  category: sorting
+  url: pdfs/math/heapsort-ITA.pdf
+  source: ITA
+
+- title: index
+  category:
+  url: pdfs/math/index-ITA.pdf
+  source: ITA
+
+- title: linear programming
+  category: linear algebra
+  url: pdfs/math/linear-programming-ITA.pdf
+  source: ITA
+
+- title: linear-time sort
+  category: sorting
+  url: pdfs/math/linear-time-sort-ITA.pdf
+  source: ITA
+
+- title: basic ops
+  category: matrix math
+  url: pdfs/math/matrix-ops-ITA.pdf
+  source: ITA
+
+- title: maxflow
+  category:
+  url: pdfs/math/maxflow-ITA.pdf
+  source: ITA
+
+- title: medians & orderstats
+  category: probstats
+  url: pdfs/math/medians-orderstats-ITA.pdf
+  source: ITA
+
+- title: minimum spanning trees
+  category: datastructs
+  url: pdfs/math/min-spanning-trees-ITA.pdf
+  source: ITA
+
+- title: multithreading 
+  category:
+  url: pdfs/math/multithreading-ITA.pdf
+  source: ITA
+
+- title: NP-complete
+  category: number theory
+  url: pdfs/math/np-complete-ITA.pdf
+  source: ITA
+
+- title: number-theory
+  category:
+  url: pdfs/math/number-theory-ITA.pdf
+  source: ITA
+
+- title: polynomials & fourier
+  category:
+  url: pdfs/math/polynomials-fourier-ITA.pdf
+  source: ITA
+
+- title: preface
+  category:
+  url: pdfs/math/preface-ITA.pdf
+  source: ITA
+
+- title: probabilistic-randomized 
+  category: probstats
+  url: pdfs/math/probabilistic-randomized-ITA.pdf
+  source: ITA
+
+- title: quicksort
+  category: sorting
+  url: pdfs/math/quicksort-ITA.pdf
+  source: ITA
+
+- title: red-black trees
+  category: datastructs
+  url: pdfs/math/red-black-trees-ITA.pdf
+  source: ITA
+
+- title: sets
+  category: datastructs
+  url: pdfs/math/sets-ITA.pdf
+  source: ITA
+
+- title: single-source shortest paths
+  category: sorting
+  url: pdfs/math/single-source-shortest-paths-ITA.pdf
+  source: ITA
+
+- title: string matching
+  category: sequences
+  url: pdfs/math/string-matching-ITA.pdf
+  source: ITA
+
+- title: summations
+  category:
+  url: pdfs/math/summations-ITA.pdf
+  source: ITA
+
+- title: TOC
+  category:
+  url: pdfs/math/toc-ITA.pdf
+  source: ITA
+
+- title: van emde boas trees
+  category: datastructs
+  url: pdfs/math/van-emde-boas-trees-ITA.pdf
+  source: ITA
+
+
+- title: foundations
+  category:
+  url: pdfs/math/book-foundations-FDS.pdf
+  source: FDS
+
+- title: clustering
+  category: machine learning
+  url: pdfs/math/clustering-FDS.pdf
+  source: FDS
+
+- title: dimensionality
+  category: machine learning
+  url: pdfs/math/dimensionality-FDS.pdf
+  source: FDS
+
+- title: glossary
+  category:
+  url: pdfs/math/glossary-FDS.pdf
+  source: FDS
+
+- title: index
+  category:
+  url: pdfs/math/index-FDS.pdf
+  source: FDS
+
+- title: intro
+  category:
+  url: pdfs/math/intro-FDS.pdf
+  source: FDS
+
+- title: intro
+  category: machine learning
+  url: pdfs/math/machine-learning-intro-FDS.pdf
+  source: FDS
+
+- title: other
+  category:
+  url: pdfs/math/other-FDS.pdf
+  source: FDS
+
+- title: random graphs
+  category: graphs
+  url: pdfs/math/random-graphs-FDS.pdf
+  source: FDS
+
+- title: random walks
+  category: markov chain
+  url: pdfs/math/random-walks-markov-chains-FDS.pdf
+  source: FDS
+
+- title: singular value decomposition
+  category: machine learning
+  url: pdfs/math/singular-value-decomposition-FDS.pdf
+  source: FDS
+
+- title: topic models, NNMF, HMG
+  category: graphs
+  url: pdfs/math/topic-models-nnmf-hmg-graph-models-FDS.pdf
+  source: FDS
+
+- title: wavelets
+  category: other
+  url: pdfs/math/wavelets-FDS.pdf
+  source: FDS
+
+
+- title: additive models
+  category:
+  url: pdfs/math/additive-models-trees-ESL.pdf
+  source: ESL
+
+- title: basis expansions & regularization
+  category:
+  url: pdfs/math/basis-expansions-regularization-ESL.pdf
+  source: ESL
+
+- title: book
+  category:
+  url: pdfs/math/book-elements-of-statistical-learning-ESL.pdf
+  source: ESL
+
+- title: book
+  category:
+  url: pdfs/math/book-ESL.pdf
+  source: ESL
+
+- title: boosting & additive trees
+  category: machine learning
+  url: pdfs/math/boosting-additive-trees-ESL.pdf
+  source: ESL
+
+- title: dimensionality
+  category: machine learning
+  url: pdfs/math/dimensionality-ESL.pdf
+  source: ESL
+
+- title: ensembles
+  category: machine learning
+  url: pdfs/math/ensembles-ESL.pdf
+  source: ESL
+
+- title: intro
+  category:
+  url: pdfs/math/intro-ESL.pdf
+  source: ESL
+
+- title: kernel smoothing
+  category: machine learning
+  url: pdfs/math/kernel-smoothing-ESL.pdf
+  source: ESL
+
+- title: linear classification
+  category: machine learning
+  url: pdfs/math/linear-classification-ESL.pdf
+  source: ESL
+
+- title: linear regression
+  category: machine learning
+  url: pdfs/math/linear-regression-ESL.pdf
+  source: ESL
+
+- title: model assessment
+  category: machine learning
+  url: pdfs/math/model-assessment-ESL.pdf
+  source: ESL
+
+- title: model inference averaging
+  category: machine learning
+  url: pdfs/math/model-inference-averaging-ESL.pdf
+  source: ESL
+
+- title: neural nets
+  category: deep learning 
+  url: pdfs/math/neural-nets-ESL.pdf
+  source: ESL
+
+- title: nearest neighbors
+  category: machine learning
+  url: pdfs/math/prototypes-nearest-neighbors-ESL.pdf
+  source: ESL
+
+- title: random forests
+  category: machine learning
+  url: pdfs/math/random-forests-ESL.pdf
+  source: ESL
+
+- title: splines
+  category: 
+  url: pdfs/math/splines-ESL.pdf
+  source: ESL
+
+- title: supervised learning
+  category: machine learning
+  url: pdfs/math/supervised-learning-ESL.pdf
+  source: ESL
+
+- title: intro
+  category: support vector machines
+  url: pdfs/math/support-vector-machines-ESL.pdf
+  source: ESL
+
+- title: undirected graphs
+  category: graphs
+  url: pdfs/math/undirected-graphs-ESL.pdf
+  source: ESL
+
+- title: unsupervised learning
+  category: machine learning
+  url: pdfs/math/unsupervised-learning-ESL.pdf
+  source: ESL
+
+
+- title: complex numbers
+  category: number theory
+  url: pdfs/math/complex-numbers-LAY.pdf
+  source: LAY
+
+- title: determinants
+  category: linear algebra
+  url: pdfs/math/determinants-LAY.pdf
+  source: LAY
+
+- title: eigenvectors & eigenvalues
+  category: linear algebra
+  url: pdfs/math/eigenvectors-eigenvalues-LAY.pdf
+  source: LAY
+
+- title: glossary
+  category:
+  url: pdfs/math/glossary-LAY.pdf
+  source: LAY
+
+- title: credits
+  category:
+  url: pdfs/math/image-credits-LAY.pdf
+  source: LAY
+
+- title: index
+  category:
+  url: pdfs/math/index-LAY.pdf
+  source: LAY
+
+- title: inner products - length - orthogonality
+  category: linear algebra
+  url: pdfs/math/inner-product-length-orthogonality-LAY.pdf
+  source: LAY
+
+- title: linear algebra
+  category: linear algebra
+  url: pdfs/math/linear-algebra-LAY.pdf
+  source: LAY
+
+- title: summary
+  category: matrix math
+  url: pdfs/math/matrix-math-LAY.pdf
+  source: LAY
+
+- title: symmetric matrices
+  category: matrix math
+  url: pdfs/math/symmetric-matrices-LAY.pdf
+  source: LAY
+
+- title: vector spaces
+  category: matrix math
+  url: pdfs/math/vector-spaces-LAY.pdf
+  source: LAY
+
+- title: adaptive basis functions
+  category:
+  url: pdfs/math/adaptive-basis-function-models-SM.pdf
+  source: SM
+
+- title: nets
+  category: bayes
+  url: pdfs/math/bayes-nets-SM.pdf
+  source: SM
+
+- title: stats
+  category: bayes
+  url: pdfs/math/bayes-stats-SM.pdf
+  source: SM
+
+- title: exponential family
+  category: number theory
+  url: pdfs/math/exponential-family-SM.pdf
+  source: SM
+
+- title: frequentist
+  category: probstats
+  url: pdfs/math/frequentist-stats-SM.pdf
+  source: SM
+
+- title: gaussian models
+  category: machine learning
+  url: pdfs/math/gaussian-models-SM.pdf
+  source: SM
+
+- title: gaussians
+  category: distributions
+  url: pdfs/math/gaussians-SM.pdf
+  source: SM
+
+- title: discrete generative models
+  category:
+  url: pdfs/math/generative-models-discrete-SM.pdf
+  source: SM
+
+- title: intro
+  category:
+  url: pdfs/math/intro-SM.pdf
+  source: SM
+
+- title: kernels
+  category: machine learning
+  url: pdfs/math/kernels-SM.pdf
+  source: SM
+
+- title: latent linear models
+  category: machine learning
+  url: pdfs/math/latent-linear-models-SM.pdf
+  source: SM
+
+- title: linear regressions
+  category: machine learning
+  url: pdfs/math/linear-regression-SM.pdf
+  source: SM
+
+- title: logistic regression
+  category: machine learning
+  url: pdfs/math/logistic-regression-SM.pdf
+  source: SM
+
+- title: MCMC
+  category: markov chain
+  url: pdfs/math/markov-chain-monte-carlo-SM.pdf
+  source: SM
+
+- title: overview
+  category: mixture models
+  url: pdfs/math/mixture-models-SM.pdf
+  source: SM
+
+- title: TOC
+  category:
+  url: pdfs/math/ml-cheatsheet-toc-SM.pdf
+  source: SM
+
+- title: optimization
+  category: machine learning
+  url: pdfs/math/optimization-SM.pdf
+  source: SM
+
+- title: probability
+  category: probstats
+  url: pdfs/math/probability-SM.pdf
+  source: SM
+
+
+- title: book
+  category:
+  url: pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
+  source: SCDL
+
+- title: cnns
+  category: deep learning
+  url: pdfs/math/cnns-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+- title: rnns
+  category: deep learning
+  url: pdfs/math/rnns-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+- title: tips
+  category: deep learning
+  url: pdfs/math/tips-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+
+- title: applications
+  category:
+  url: pdfs/math/applications-RL.pdf
+  source: RL
+
+- title: off-policy methods
+  category:
+  url: pdfs/math/approximation-off-policy-methods-RL.pdf
+  source: RL
+
+- title: approximation on policy control
+  category:
+  url: pdfs/math/approximation-on-policy-control-RL.pdf
+  source: RL
+
+- title: approximation on policy prediction
+  category:
+  url: pdfs/math/approximation-on-policy-prediction-RL.pdf
+  source: RL
+
+- title: book
+  category:
+  url: pdfs/math/book-reinforcement-learning-v2-RL.pdf
+  source: RL
+
+- title: dynamic programming
+
+  category:
+  url: pdfs/math/dynamic-programming-RL.pdf
+  source: RL
+
+- title: eligibility traces
+  category:
+  url: pdfs/math/eligibility-traces-RL.pdf
+  source: RL
+
+- title: frontiers
+  category:
+  url: pdfs/math/frontiers-RL.pdf
+  source: RL
+
+- title: index
+  category:
+  url: pdfs/math/index-RL.pdf
+  source: RL
+
+- title: markov-finite
+  category:
+  url: pdfs/math/markov-finite-RL.pdf
+  source: RL
+
+- title: monte carlo
+  category:
+  url: pdfs/math/monte-carlo-RL.pdf
+  source: RL
+
+- title: nstep bootstrap
+  category:
+  url: pdfs/math/nstep-bootstrap-RL.pdf
+  source: RL
+
+- title: policy gradients
+  category:
+  url: pdfs/math/policy-gradients-RL.pdf
+  source: RL
+
+- title: tabular method planning
+  category:
+  url: pdfs/math/tabular-method-planning-RL.pdf
+  source: RL
+
+- title: temporal distances
+  category:
+  url: pdfs/math/temporal-distances-RL.pdf
+  source: RL
+
+- title: inference
+  category: bayes
+  url: pdfs/math/bayes-inference-PSC.pdf
+  source: PSC
+
+- title: cookbook
+  category: probstats
+  url: pdfs/math/book-prob-stats-cookbook-PSC.pdf
+  source: PSC
+
+- title: convergence
+  category: number theory
+  url: pdfs/math/convergence-PSC.pdf
+  source: PSC
+
+- title: decision theory
+  category:
+  url: pdfs/math/decision-theory-PSC.pdf
+  source: PSC
+
+- title: multivariate
+  category: distributions
+  url: pdfs/math/distributions-multivariate-PSC.pdf
+  source: PSC
+
+- title: non-parametric function estimation
+  category: tbd
+  url: pdfs/math/function-estimation-non-parametric-PSC.pdf
+  source: PSC
+
+- title: hypothesis testing
+  category: probstats
+  url: pdfs/math/hypothesis-testing-PSC.pdf
+  source: PSC
+
+- title: index
+  category:
+  url: pdfs/math/index-PSC.pdf
+  source: PSC
+
+- title: inequalities
+  category:
+  url: pdfs/math/inequalities-PSC.pdf
+  source: PSC
+
+- title: linear regression
+  category: machine learning
+  url: pdfs/math/linear-regression-PSC.pdf
+  source: PSC
+
+- title: parametric inference
+  category: machine learning
+  url: pdfs/math/parametric-inference-PSC.pdf
+  source: PSC
+
+- title: distributions
+  category: probstats
+  url: pdfs/math/probability-distributions-PSC.pdf
+  source: PSC
+
+- title: probability expectation
+  category: probstats
+  url: pdfs/math/probability-expectation-PSC.pdf
+  source: PSC
+
+- title: other
+  category: probstats
+  url: pdfs/math/probability-other-math-PSC.pdf
+  source: PSC
+
+- title: random variables
+  category: probstats
+  url: pdfs/math/probability-random-vars-PSC.pdf
+  source: PSC
+
+- title: probability theory
+  category: probstats
+  url: pdfs/math/probability-theory-PSC.pdf
+  source: PSC
+
+- title: sampling
+  category: probstats
+  url: pdfs/math/sampling-PSC.pdf
+  source: PSC
+
+- title: statistical inference
+  category: probstats
+  url: pdfs/math/statistical-inference-PSC.pdf
+  source: PSC
+
+- title: stochastic processes
+  category: probstats
+  url: pdfs/math/stochastic-process-PSC.pdf
+  source: PSC
+
+- title: time series
+  category:
+  url: pdfs/math/time-series-PSC.pdf
+  source: PSC
+
+- title: variance
+  category: probstats
+  url: pdfs/math/variance-PSC.pdf
+  source: PSC
+
+- title: intro
+  category: bayes
+  url: pdfs/math/bayes-NP.pdf
+  source: NP
+
+- title: book
+  category:
+  url: pdfs/math/book-numerical-python-NP.pdf
+  source: NP
+
+- title: differential equations (ODE)
+  category: symbolics
+  url: pdfs/math/diffeqs-ordinary-NP.pdf
+  source: NP
+
+- title: differential equations (PDE)
+  category: symbolics
+  url: pdfs/math/diffeqs-partial-NP.pdf
+  source: NP
+
+- title: equation solvers
+  category: symbolics
+  url: pdfs/math/equation-solving-NP.pdf
+  source: NP
+
+- title: file IO
+  category: tools
+  url: pdfs/math/file-io-NP.pdf
+  source: NP
+
+- title: index
+  category:
+  url: pdfs/math/index-NP.pdf
+  source: NP
+
+- title: install
+  category:
+  url: pdfs/math/install-NP.pdf
+  source: NP
+
+- title: integration
+  category: symbolics
+  url: pdfs/math/integration-NP.pdf
+  source: NP
+
+- title: interpolation 
+  category: symbolics
+  url: pdfs/math/interpolation-NP.pdf
+  source: NP
+
+- title: machine learning
+  category: machine learning
+  url: pdfs/math/machine-learning-NP.pdf
+  source: NP
+
+- title: numba & cython
+  category: tools
+  url: pdfs/math/numba-cython-NP.pdf
+  source: NP
+
+- title: optimization
+  category: symbolics
+  url: pdfs/math/optimization-NP.pdf
+  source: NP
+
+- title: pandas
+  category: tools
+  url: pdfs/math/pandas-NP.pdf
+  source: NP
+
+- title: signal processing
+  category: tools
+  url: pdfs/math/signal-processing-NP.pdf
+  source: NP
+
+- title: sparse matrices & sparse graphs
+  category: machine learning
+  url: pdfs/math/sparse-matrices-graphs-NP.pdf
+  source: NP
+
+- title: statistics
+  category: probstats
+  url: pdfs/math/statistics-NP.pdf
+  source: NP
+
+- title: statsmodels
+  category: statistics
+  url: pdfs/math/statsmodels-NP.pdf
+  source: NP
+
+- title: symbolic math
+  category: symbolics
+  url: pdfs/math/symbolic-math-NP.pdf
+  source: NP
+
+- title: vectors, matrices, ndarrays
+  category: linear algebra
+  url: pdfs/math/vectors-matrices-ndarrays-NP.pdf
+  source: NP
+
+- title: visualization
+  category: tools
+  url: pdfs/math/vizualization-NP.pdf
+  source: NP
+
+
+- title: applications
+  category:
+  url: pdfs/math/applications-DSA.pdf
+  source: DSA
+
+- title: book
+  category:
+  url: pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
+  source: DSA
+
+- title: dictionaries
+  category: datastructs
+  url: pdfs/math/dictionaries-DSA.pdf
+  source: DSA
+  notes: "hash tables, 
+          balanced binary search trees, finger search trees, splay trees,
+          randomized dicts, min weight path trees, b trees
+  "
+
+- title: libraries
+  category: tools
+  url: pdfs/math/libraries-DSA.pdf
+  source: DSA
+
+- title: other
+  category: datastructs
+  url: pdfs/math/other-datastructs-DSA.pdf
+  source: DSA
+
+- title: priority queues
+  category: datastructs
+  url: pdfs/math/priority-queues-DSA.pdf
+  source: DSA
+
+- title: spatial
+  category: datastructs
+  url: pdfs/math/spatial-DSA.pdf
+  source: DSA
+
+
+- title: advertising
+  category: applications
+  url: pdfs/math/advertising-DMMD.pdf
+  source: DMMD
+
+- title: book
+  category:
+  url: pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
+  source: DMMD
+
+- title: clustering
+  category: machine learning
+  url: pdfs/math/clustering-DMMD.pdf
+  source: DMMD
+
+- title: intro
+  category:
+  url: pdfs/math/data-mining-intro-DMMD.pdf
+  source: DMMD
+
+- title: streams
+  category: datastructs
+  url: pdfs/math/data-mining-streams-DMMD.pdf
+  source: DMMD
+
+- title: dimensionality
+  category: machine learning
+  url: pdfs/math/dimensionality-reduction-DMMD.pdf
+  source: DMMD
+
+- title: frequent itemsets
+  category: datastructs
+  url: pdfs/math/frequent-itemsets-DMMD.pdf
+  source: DMMD
+
+- title: index
+  category:
+  url: pdfs/math/index-DMMD.pdf
+  source: DMMD
+
+- title: scaling
+  category: machine learning
+  url: pdfs/math/large-scale-machine-learning-DMMD.pdf
+  source: DMMD
+
+- title: link analysis
+  category: graphs
+  url: pdfs/math/link-analysis-DMMD.pdf
+  source: DMMD
+
+- title: mapreduce
+  category: tools
+  url: pdfs/math/mapreduce-DMMD.pdf
+  source: DMMD
+
+- title: recommenders
+  category: machine learning
+  url: pdfs/math/recommenders-DMMD.pdf
+  source: DMMD
+
+- title: similarity-search
+  category: search
+  url: pdfs/math/similarity-search-DMMD.pdf
+  source: DMMD
+
+- title: social graphs
+  category: graphs
+  url: pdfs/math/social-graphs-DMMD.pdf
+  source: DMMD
+
+
+- title: applications
+  category: 
+  url: pdfs/math/applications-DLgoodfellow.pdf
+  source: DLG
+
+- title: approximate inference
+  category: machine learning
+  url: pdfs/math/approximate-inference-DLgoodfellow.pdf
+  source: DLG
+
+- title: autoencoders
+  category: deep learning
+  url: pdfs/math/autoencoders-DLgoodfellow.pdf
+  source: DLG
+
+- title: bibliography
+  category:
+  url: pdfs/math/bibliography-DLgoodfellow.pdf
+  source: DLG
+
+- title: convolutions
+  category: deep learning
+  url: pdfs/math/cnns-DLgoodfellow.pdf
+  source: DLG
+
+- title: deep feedforward nets
+  category: deep learning
+  url: pdfs/math/deep-feedforward-nets-DLgoodfellow.pdf
+  source: DLG
+
+- title: deep generative models
+  category: deep learning
+  url: pdfs/math/deep-generative-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: modern practices
+  category: deep learning
+  url: pdfs/math/deep-networks-modern-practices-DLgoodfellow.pdf
+  source: DLG
+
+- title: methodology
+  category: deep learning
+  url: pdfs/math/guidelines-methodology-DLgoodfellow.pdf
+  source: DLG
+
+- title: index
+  category:
+  url: pdfs/math/index-DLgoodfellow.pdf
+  source: DLG
+
+- title: intro
+  category:
+  url: pdfs/math/intro-DLgoodfellow.pdf
+  source: DLG
+
+- title: linear algebra
+  category: linear algebra
+  url: pdfs/math/linear_algebra-DLgoodfellow.pdf
+  source: DLG
+
+- title: linear factor models
+  category: machine learning
+  url: pdfs/math/linear-factor-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: basics
+  category: machine learning
+  url: pdfs/math/machine-learning-basics-DLgoodfellow.pdf
+  source: DLG
+
+- title: monte carlo
+  category: machine learning
+  url: pdfs/math/monte-carlo-methods-DLgoodfellow.pdf
+  source: DLG
+
+- title: numerical computation
+  category: number theory
+  url: pdfs/math/numerical-computation-DLgoodfellow.pdf
+  source: DLG
+
+- title: optimization
+  category: machine learning
+  url: pdfs/math/optimization-DLgoodfellow.pdf
+  source: DLG
+
+- title: book pt 1
+  category:
+  url: pdfs/math/part-1-basics-DLgoodfellow.pdf
+  source: DLG
+
+- title: probability
+  category: probstats
+  url: pdfs/math/probability-DLgoodfellow.pdf
+  source: DLG
+
+- title: rnns
+  category: deep learning
+  url: pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
+  source: DLG
+
+- title: regularization
+  category: machine learning
+  url: pdfs/math/regularization-DLgoodfellow.pdf
+  source: DLG
+
+- title: representation learning
+  category: deep learning
+  url: pdfs/math/representation-learning-DLgoodfellow.pdf
+  source: DLG
+
+- title: book p3
+  category:
+  url: pdfs/math/research-p3-DLgoodfellow.pdf
+  source: DLG
+
+- title: probabilistic models
+  category: probstats
+  url: pdfs/math/structured-probabilistic-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: partition problem
+  category: tbd
+  url: pdfs/math/the-partition-problem-DLgoodfellow.pdf
+  source: DLG
+
+- title: TOC
+  category:
+  url: pdfs/math/toc-DLgoodfellow.pdf
+  source: DLG
+
+
+- title: model selection estimation
+  category: machine learning
+  url: pdfs/math/after-model-selection-estimation-CSI.pdf
+  source: CSI
+
+- title: empirical estimation
+  category: bayes
+  url: pdfs/math/bayes-empirical-estimation-CSI.pdf
+  source: CSI
+
+- title: inference
+  category: bayes
+  url: pdfs/math/bayes-inference-CSI.pdf
+  source: CSI
+
+- title: book
+  category:
+  url: pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
+  source: CSI
+
+- title: bootstrap confidence intervals
+  category: probstats
+  url: pdfs/math/bootstrap-confidence-intervals-CSI.pdf
+  source: CSI
+
+- title: cross validation
+  category: machine learning
+  url: pdfs/math/cross-validation-CSI.pdf
+  source: CSI
+
+- title: book
+  category:
+  url: pdfs/math/deep-learning-CSI.pdf
+  source: CSI
+
+- title: hypothesis testing
+  category: probstats
+  url: pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
+  source: CSI
+
+- title: index
+  category:
+  url: pdfs/math/index-CSI.pdf
+  source: CSI
+
+- title: frequentist inference
+  category: machine learning
+  url: pdfs/math/inference-frequentist-CSI.pdf
+  source: CSI
+  notes: "bootstrap<br>
+          decision theory"
+
+- title: intro
+  category:
+  url: pdfs/math/intro-CSI.pdf
+  source: CSI
+
+- title: jackknife regression
+  category: machine learning
+  url: pdfs/math/jackknife-CSI.pdf
+  source: CSI
+
+- title: MCMC
+  category: markov chain
+  url: pdfs/math/markov-chain-monte-carlo-CSI.pdf
+  source: CSI
+
+- title: max likelihood estimate
+  category: machine learning
+  url: pdfs/math/max-likelihood-estimation-CSI.pdf
+  source: CSI
+
+- title: methodology
+  category: tbd
+  url: pdfs/math/methodology-postwar-CSI.pdf
+  source: CSI
+
+- title: exponentials
+  category: number theory
+  url: pdfs/math/parametric-models-exponentials-CSI.pdf
+  source: CSI
+
+- title: random forests & boosting
+  category: machine learning
+  url: pdfs/math/random-forests-boosting-CSI.pdf
+  source: CSI
+
+- title: ridge regression
+  category: machine learning
+  url: pdfs/math/regression-ridge-CSI.pdf
+  source: CSI
+
+- title: regression trees
+  category: machine learning
+  url: pdfs/math/regression-trees-CSI.pdf
+  source: CSI
+
+- title: sparse models & lasso
+  category: machine learning
+  url: pdfs/math/sparse-models-lasso-CSI.pdf
+  source: CSI
+
+- title: kernels
+  category: support vector machines
+  url: pdfs/math/support-vector-machines-kernels-CSI.pdf
+  source: CSI
+
+- title: survival analysis & expectation maximization
+  category: machine learning
+  url: pdfs/math/survival-analysis-expection-maximization-CSI.pdf
+  source: CSI
+
+- title: book
+  category:
+  url: pdfs/math/book-convex-optimization-CO.pdf
+  source: CO 
+
+- title: adversarial vs stochastic linear
+  category: bandit mechanisms
+  url: pdfs/math/bandits-adversarial-vs-stochastic-linear-BA.pdf
+  source: BA
+
+- title: bandit mechanisms
+  category: bayes
+  url: pdfs/math/bandits-bayes-BA.pdf
+  source: BA
+
+- title: combinatorial
+  category: bandit mechanisms
+  url: pdfs/math/bandits-combinatorial-BA.pdf
+  source: BA
+
+- title: concentration of measure
+  category: bandit mechanisms
+  url: pdfs/math/bandits-concentration-of-measure-BA.pdf
+  source: BA
+
+- title: contextual
+  category: bandit mechanisms
+  url: pdfs/math/bandits-contextual-BA.pdf
+  source: BA
+
+- title: convex analysis
+  category: bandit mechanisms
+  url: pdfs/math/bandits-convex-analysis-BA.pdf
+  source: BA
+
+- title: exp3 adversarial
+  category: bandit mechanisms
+  url: pdfs/math/bandits-exp3-adversarial-linear-BA.pdf
+  source: BA
+
+- title: exp3 IX
+  category: bandit mechanisms
+  url: pdfs/math/bandits-exp3-IX-BA.pdf
+  source: BA
+
+- title: exp3
+  category: bandit mechanisms
+  url: pdfs/math/bandits-exp3.pdf
+
+- title: explore-then-commit
+  category: bandit mechanisms
+  url: pdfs/math/bandits-explore-then-commit-BA.pdf
+  source: BA
+
+- title: follow the leader
+  category: bandit mechanisms
+  url: pdfs/math/bandits-follow-the-leader-mirror-descent-BA.pdf
+  source: BA
+
+- title: index
+  category: bandit mechanisms
+  url: pdfs/math/bandits-index-BA.pdf
+  source: BA
+
+- title: information theory
+  category: bandit mechanisms
+  url: pdfs/math/bandits-info-theory-BA.pdf
+  source: BA
+
+- title: intro
+  category: bandit mechanisms
+  url: pdfs/math/bandits-intro-BA.pdf
+  source: BA
+
+- title: LSEs - confidence bounds
+  category: bandit mechanisms
+  url: pdfs/math/bandits-least-squares-estimators-confidence-bounds-BA.pdf
+  source: BA
+
+- title: LSEs - optimal design
+  category: bandit mechanisms
+  url: pdfs/math/bandits-least-squares-estimators-optimal-design-BA.pdf
+  source: BA
+
+- title: lower bounds
+  category: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-BA.pdf
+  source: BA
+
+- title: lower bounds - high probability
+  category: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-high-probability-BA.pdf
+  source: BA
+
+- title: lower bounds - instance dependent
+  category: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-instance-dependent-BA.pdf
+  source: BA
+
+- title: lower bounds - minimax
+  category: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-minimax-BA.pdf
+  source: BA
+
+- title: markov decisions
+  category: bandit mechanisms
+  url: pdfs/math/bandits-markov-decisions-BA.pdf
+  source: BA
+
+- title: non-stationary
+  category: bandit mechanisms
+  url: pdfs/math/bandits-non-stationary-BA.pdf
+  source: BA
+
+- title: partial monitoring
+  category: bandit mechanisms
+  url: pdfs/math/bandits-partial-monitoring-BA.pdf
+  source: BA
+
+- title: probability
+  category: bandit mechanisms
+  url: pdfs/math/bandits-probability-BA.pdf
+  source: BA
+
+- title: pure exploration
+  category: bandit mechanisms
+  url: pdfs/math/bandits-pure-exploration-BA.pdf
+  source: BA
+
+- title: ranking
+  category: bandit mechanisms
+  url: pdfs/math/bandits-ranking-BA.pdf
+  source: BA
+
+- title: stochastic-finite
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-finite-BA.pdf
+  source: BA
+
+- title: stochastic linear asymptotic
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
+  source: BA
+
+- title: stochastic linear
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-BA.pdf
+  source: BA
+
+- title: stochastic linear - finite many arms
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-finite-many-arms-BA.pdf
+  source: BA
+
+- title: bandits stochastic linear minimax lower bounds
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
+  source: BA
+
+- title: stochastic linear sparsity
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-sparsity-BA.pdf
+  source: BA
+
+- title: stochastic markov
+  category: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-markov-BA.pdf
+  source: BA
+
+- title: thompson sampling
+  category: bandit mechanisms
+  url: pdfs/math/bandits-thompson-sampling-BA.pdf
+  source: BA
+
+- title: UCB - asymptotic optimality
+  category: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
+  source: BA
+
+- title: UCB - bernoulli noise
+  category: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-bernoulli-noise-BA.pdf
+  source: BA
+
+- title: UCB - minimax optimality
+  category: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-minimax-optimality-BA.pdf
+  source: BA
+
+- title: upper confidence bound (UCB)
+  category: bandit mechanisms
+  url: pdfs/math/bandits-upper-confidence-bound-BA.pdf
+  source: BA
+
+- title: computer vision papers
+  category: applications 
+  url: https://paperswithcode.com/area/computer-vision
+  pic:
+  source: PWC
+
+- title: natural language papers`
+  category: applications
+  url: https://paperswithcode.com/area/natural-language-processing
+  pic:
+  source: PWC
+
+- title: medical papers
+  category: applications
+  url: https://paperswithcode.com/area/medical
+  pic:
+  source: PWC
+
+- title: methodology
+  category: deep learning 
+  url: https://paperswithcode.com/area/methodology
+  pic:
+  source: PWC
+
+- title: miscellaneous
+  category: applications
+  url: https://paperswithcode.com/area/miscellaneous
+  pic:
+  source: PWC
+
+- title: graph papers
+  category: graphs 
+  url: https://paperswithcode.com/area/graphs
+  pic:
+  source: PWC
+
+- title: speech
+  category: applications 
+  url: https://paperswithcode.com/area/speech
+  pic:
+  source: PWC
+
+- title: game theory
+  category: applications 
+  url: https://paperswithcode.com/area/playing-games
+  pic:
+  source: PWC
+
+- title: time series
+  category: deep learning 
+  url: https://paperswithcode.com/area/time-series
+  pic:
+  source: PWC
+
+- title: robotics papers
+  category: applications 
+  url: https://paperswithcode.com/area/robots
+  pic:
+  source: PWC
+
+- title: audio papers
+  category: applications 
+  url: https://paperswithcode.com/area/audio
+  pic:
+  source: PWC
+
+- title: algorithms
+  category: deep learning 
+  url: https://paperswithcode.com/area/computer-code
+  pic:
+  source: PWC
+
+- title: music
+  category: applications 
+  url: https://paperswithcode.com/area/misc
+  pic:
+  source: PWC
+
+- title: knowledge-base techniques
+  category: deep learning 
+  url: https://paperswithcode.com/area/knowledge-base
+  pic:
+  source: PWC
+
+- title: adversarial techniques papers
+  category: deep learning 
+  url: https://paperswithcode.com/area/adversarial
+  pic:
+  source: PWC
+
+- title: reasoning papers
+  category: deep learning 
+  url: https://paperswithcode.com/area/reasoning
+  pic:
+  source: PWC
+
+- title: choices
+  category: activations 
+  url: https://medium.com/srnghn/deep-learning-which-loss-and-activation-functions-should-i-use-ac02f1c56aa8
+  source: Medium
+
+- title: intro
+  category: activations
+  url: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
+  source: Medium
+
+- title: beginners guide
+  category: activations
+  url: https://medium.com/@matelabs_ai/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046
+  source: Medium
+
+- title: recifiers - arxiv
+  category: activations
+  url: https://arxiv.org/abs/1502.01852
+  source: arxiv
+
+- title: big o cheatsheet
+  category: number theory
+  pic: /px/math/bigo-complexity-chart.png
+  url: http://bigocheatsheet.com/
+
+- title: one model to learn them all
+  category: alphago-zero
+  pic: /px/math/alphago-zero.png
+  url: https://blog.acolyer.org/2018/01/12/one-model-to-learn-them-all/
+ 
+- title: 3 tricks
+  category: alphago-zero
+  url: https://hackernoon.com/the-3-tricks-that-made-alphago-zero-work-f3d47b6686ef
+
+- title: programmable web
+  category: apis
+  url: https://www.programmableweb.com/news/14-top-artificial-intelligence-apis/brief/2019/09/29
+
+- title: chebyshev
+  category: approximations
+  url: https://www.embeddedrelated.com/showarticle/152.php
+ 
+- title: ebay
+  category: approximations
+  url: http://www.ebaytechblog.com/2015/05/01/fast-approximate-logarithms-part-i-the-basics/
+  notes:
+
+- title: market basket analysis
+  category: association rules
+  pic: /px/math/market-basket-analysis.png" 
+ 
+- title: overview
+  category: association rules
+  url: http://www.kdnuggets.com/2016/10/association-rule-learning-concise-technical-overview.html
+  notes: "support - frequency of appearances<br>
+    confidence - %time a rule is found to be true<br>
+    lift - ratio of observed support to independence<br>"
+
+- title: affinity analysis
+  category: association rules
+  url: https://en.wikipedia.org/wiki/Affinity_analysis
+ 
+- title: apriori
+  category: association rules
+  url: http://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+ 
+- title: rule mining
+  category: association rules
+  url: https://thedatum.data.blog/2019/06/09/machine-learning-association-rule-mining/
+
+- title: intro
+  category: a-star
+  pic: /px/math/a-star.png
+  url: http://www.redblobgames.com/pathfinding/a-star/introduction.html
+ 
+- title: implementation
+  category: a-star
+  url: http://www.redblobgames.com/pathfinding/a-star/implementation.html
+
+- title: david batista
+  category: attention mechanisms
+  pic: /px/math/attention-bahdanau-vs-luong.png" 
+  url: http://www.davidsbatista.net/blog/2020/01/25/Attention-seq2seq/
+ 
+- title: floydhub
+  category: attention mechanisms
+  url: https://blog.floydhub.com/attention-mechanism/
+ 
+- title: skymind
+  category: attention mechanisms
+  url: https://skymind.ai/wiki/attention-mechanism-memory-network
+ 
+- title: residual attention (arxiv)
+  category: attention mechanisms
+  url: https://arxiv.org/pdf/1704.06904
+ 
+- title: wildml
+  category: attention mechanisms
+  url: http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+ 
+- title: oxford CS
+  category: attention mechanisms
+  url: https://github.com/oxford-cs-deepnlp-2017/lectures
+
+- title: terminology
+  category: nlp
+  url: http://www.kdnuggets.com/2017/02/natural-language-processing-key-terms-explained.html
+ 
+- title: adeshpande
+  category: nlp
+  url: https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-3-Natural-Language-Processing
+ 
+- title: bigrams,trigrams,topic modeling
+  category: nlp
+  url: https://greg.blog/2013/01/26/unix-bi-grams-tri-grams-and-topic-modeling/
+ 
+- title: edobashira github
+  category: nlp
+  url: https://github.com/edobashira/speech-language-processing
+ 
+- title: sentiment analysis
+  category: nlp
+  url: http://ataspinar.com/2015/11/16/text-classification-and-sentiment-analysis/
+ 
+- title: pride,prejudice,z-scores
+  category: nlp
+  url: http://blog.revolutionanalytics.com/2016/04/pride-and-prejudice-and-z-scores.html
+ 
+- title: compare
+  category: sentiment analysis
+  url: http://fotiad.is/blog/sentiment-analysis-comparison/
+ 
+- title: theme arcs
+  category: sentiment analysis
+  url: https://www.r-bloggers.com/finding-the-dramatic-arc-of-novels-with-sentiment-analysis/
+ 
+- title: glossary
+  category: nlp
+  url: https://www.kdnuggets.com/2017/02/natural-language-processing-key-terms-explained.html
+ 
+- title: gereshes.com
+  category: attractors
+  url: https://gereshes.com/2020/01/13/attracted-to-attractors
+  notes: thomas's, rossler, lorenz</small>
+
+- title: intro
+  category: autocorrelation
+  url: http://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
+
+- title: intro
+  category: autoencoders
+  pic: /px/math/autoencoders.png 
+  category: autoencoders
+  url: https://pgaleone.eu/neural-networks/2016/11/18/introduction-to-autoencoders/
+
+- title: intro
+  category: autoencoders
+  url: https://hackernoon.com/autoencoders-deep-learning-bits-1-11731e200694#.ezkhdfu4m
+
+- title:      (denoising)
+  category: autoencoders
+  url: http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf
+
+- title:      (denoising)
+  category: autoencoders
+  url: http://deeplearning.net/tutorial/dA.html#daa
+
+- title:    (denoising - stacked)
+  category: autoencoders
+  url: http://deeplearning.net/tutorial/SdA.html#sda
+
+- title:  (contractive)
+  category: autoencoders
+  url: https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/cA.py
+
+- title:  (variational)
+  category: autoencoders
+  url: http://arxiv.org/abs/1312.6114
+
+- title:      (variational)
+  category: autoencoders
+  url: https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
+
+- title:  (sequence)
+  category: autoencoders
+  url: http://arxiv.org/abs/1511.01432
+
+- title:  (discrete variational)
+  category: autoencoders
+  url: https://arxiv.org/abs/1609.02200
+
+- title:  conditional variational
+  category: autoencoders
+  url: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
+
+- title: intro
+  category: backprop
+  pic: /px/math/backprop.png
+  url: http://www.offconvex.org/2016/12/20/backprop/
+
+- title:  intro
+  category: backprop
+  url: https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+
+- title: gradient flow via backprop
+  category: backprop
+  url: https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+
+- title: hackernoon
+  category: bagging
+  url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
+
+- title: arxiv 1510 - normalization
+  category: batching
+  url: http://arxiv.org/abs/1510.01378
+ 
+- title: my github
+  category: bayes
+  url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+
+- title: bandits (mlwhiz)
+  pic: /px/math/bayes-bandits.png
+  url: https://mlwhiz.com/blog/2019/07/21/bandits/
+  category: bandits
+
+- title: regression (scikit)
+  url: http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge
+  category: linear models
+
+- title: benchmarks (arxiv)
+  category: benchmarks
+  url: https://arxiv.org/pdf/1608.07249v6.pdf
+
+- title: 20 models
+  url: http://rpubs.com/m3cinc/Benchmarking_20_Machine_Learning_Models_Accuracy_and_Speed
+  category: benchmarks
+
+- title: library comparison (arxiv)
+  url: https://arxiv.org/abs/1511.06435
+  category: benchmarks
+ 
+- title: convnet (soumith)
+  url: https://github.com/soumith/convnet-benchmarks
+  category: benchmarks
+
+- title: brown.edu
+  category: visualization
+  url: http://students.brown.edu/seeing-theory/?vt=4
+ 
+- title: stunning concepts
+  category: visualization
+  url: http://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
+ 
+- title: setosa
+  category: visualization
+  url: http://setosa.io/ev/
+ 
+- title: spurious splines
+  category: visualization
+  url: http://inconvergent.net/spurious-splines/
+ 
+- title: pinterest lib
+  category: visualization
+  url: https://www.pinterest.com/stephenpa/the-visual-display-of-information/
+
+- title: voronoi  
+  category: visualization
+  pic: /px/math/tessellations.png
+  url: https://www.r-bloggers.com/voronoi-diagrams-in-plotly-and-r/
+ 
+- title: voronoi (ADM)
+  category: visualization
+  url: /pdfs/math/voronoi-diagrams-ADM.pdf
+ 
+- title: tessellations
+  category: visualization
+  url: http://datagenetics.com/blog/may12017/index.html
+
+- title: wave function collapse
+  category: wavefunction collapse algo
+  pic: /px/math/wavefunction-collapse.png
+  url: https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/
+
+- title: demo
+  category: wavelets
+  pic: /px/math/wavelet-transform.png 
+  url: /pdfs/math/wavelets-FDS.pdf
+  category: wavelets
+ 
+- title: wavelet transform
+  category: wavelets
+  url: http://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/
+
+- title: reliability - weibull
+  category: distributions
+  pic: /px/math/weibull.png
+  url: https://www.allaboutcircuits.com/technical-articles/how-the-Weibull-distribution-is-used-in-reliability-engineering/
+
+ 
+- title: intro
+  category: weight averaging (stochastic)
+  url: https://towardsdatascience.com/stochastic-weight-averaging-a-new-way-to-get-state-of-the-art-results-in-deep-learning-c639ccf36a
+
+- title: example
+  category: zipfs_law
+  pic: /px/math/zipf-capture.png
+  url: https://www.datasciencecentral.com/profiles/blogs/zipf-s-distribution-example-of-a-great-application
+ 
+- title: use cases
+  category: zipfs_law
+  url: https://www.datasciencecentral.com/profiles/blogs/why-zipf-s-law-explains-so-many-big-data-and-physics-phenomenons
+
+- title: PwC
+  url: https://paperswithcode.com/area/computer-vision
+  category: machine vision
+ 
+- title: parallel dots
+  url: http://blog.paralleldots.com/technology/deep-learning/must-read-path-breaking-papers-about-image-classification
+  category: machine vision
+ 
+- title: LOPQ (flickr)
+  url: http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr/
+  category: machine vision
+ 
+- title: image labeling
+  url: https://github.com/tzutalin/labelImg
+  category: machine vision
+ 
+- title: image hashing
+  url: https://www.pyimagesearch.com/2019/08/26/building-an-image-hashing-search-engine-with-vp-trees-and-opencv/
+  category: machine vision
+ 
+- title: image dewarping
+  url: https://mzucker.github.io/2016/08/15/page-dewarping.html
+  category: machine vision
+ 
+- title: LSVRC
+  url: http://www.image-net.org/challenges/LSVRC/
+  category: machine vision
+ 
+- title: 9 python libs
+  url: https://www.datasciencecentral.com/profiles/blogs/9-python-libraries-which-can-help-you-in-image-processing
+  category: machine vision
+ 
+- title: awesome deep vision
+  url: https://github.com/kjw0612/awesome-deep-vision
+  category: machine vision
+ 
+- title: beginners
+  url: https://medium.com/@jiwon.jeong/computer-vision-for-beginners-part-4-64a8d9856208
+  category: machine vision
+ 
+- title: unknown image classification
+  url: https://petewarden.com/2018/07/06/what-image-classifiers-can-do-about-unknown-objects/
+  category: machine vision
+ 
+- title: image segmentation - graphcut
+  url: https://www.datasciencecentral.com/profiles/blogs/interactive-image-segmentation-with-graph-cut-in-python
+  category: machine vision
+ 
+- title: traffic
+  url: https://www.michael-grogan.com/image-recognition-with-keras-convolutional-neural-networks/
+  category: machine vision
+ 
+- title: yolo (orig)
+  category: machine vision
+  url: https://pjreddie.com/darknet/yolo/
+ 
+- title: shapes as textures
+  category: machine vision
+  url: https://www.quantamagazine.org/where-we-see-shapes-ai-sees-textures-20190701/
+ 
+- title: new model (quanta)
+  category: machine vision
+  url: https://www.quantamagazine.org/a-mathematical-model-unlocks-the-secrets-of-vision-20190821/
+
+- title: PwC
+  category: machine video
+  pic: /px/math/video-motion.gif 
+  url: https://paperswithcode.com/area/computer-vision/video
+  notes: "tracking, classification, prediction, understanding, generation,
+super-resolution, retrieval, (more)"
+
+- title: arxiv 1502
+  category: tbd
+  url: https://arxiv.org/abs/1502.03167
+
+- title: how to use early stopping
+  category: batching
+  url: https://stats.stackexchange.com/questions/231061/how-to-use-early-stopping-properly-for-training-deep-neural-network
+
+- title: dl bench
+  category: benchmarks
+  url: http://dlbench.comp.hkbu.edu.hk/
+ 
+- title: fathom 101
+  category: benchmarks
+  url: https://fathom.readthedocs.io/en/latest/quickstart/
+ 
+- title: soumith github
+  category: benchmarks
+  url: https://github.com/soumith
+ 
+- title: which algorithm should i use?
+  category: benchmarks
+  url: https://arxiv.org/abs/1708.05070
+ 
+- title: 179 classifiers, 17 families
+  category: benchmarks
+  url: http://jmlr.csail.mit.edu/papers/v15/delgado14a.html
+ 
+- title: 13 algos, 165 datasets
+  category: benchmarks
+  url: https://machinelearningmastery.com/start-with-gradient-boosting/
+ 
+- title: DLbench
+  category: benchmarks
+  url: http://dlbench.comp.hkbu.edu.hk/
+
+- title: awesome deep vision
+  category: machine vision
+  url: https://github.com/kjw0612/awesome-deep-vision
+ 
+- title: awesome machine learning
+  url: https://github.com/josephmisiti/awesome-machine-learning
+  category: machine learning
+ 
+- title: awesome deep learning
+  url: https://github.com/terryum/awesome-deep-learning-papers
+  category: deep learning
+ 
+- title: awesome rnns
+  url: https://github.com/kjw0612/awesome-rnn
+  category: deep learning
+ 
+- title: awesome ML
+  url: https://github.com/josephmisiti/awesome-machine-learning
+  category: machine learning
+
+- title: age-partitioned (arxiv)
+  category: bloom filters
+  url: https://arxiv.org/abs/2001.03147
+ 
+- title: tutorial
+  category: bloom filters
+  url: https://bdupras.github.io/filter-tutorial/
+ 
+- title: demo
+  category: bloom filters
+  url: https://code.tutsplus.com/articles/understanding-the-magic-of-bloom-filters-with-nodejs-redis--cms-25397
+ 
+- title: github.m00dy
+  category: bloom filters
+  url: https://github.com/m00dy/BloomFilter
+ 
+- title: llimllib.github
+  category: bloom filters
+  url: https://llimllib.github.io/bloomfilter-tutorial/
+ 
+- title: sacert.github
+  category: bloom filters
+  url: https://sacert.github.io/Bloom-Filter/
+ 
+- title: jason davies
+  category: bloom filters
+  url: https://www.jasondavies.com/bloomfilter/
+
+- title: blas (netlib)
+  category: blas
+  pic: /px/math/gemm-convolutions.png 
+  url: http://www.netlib.org/blas/index.html
+ 
+- title: arxiv
+  category: blas
+  url: https://arxiv.org/pdf/1610.08705.pdf
+ 
+- title: blas acceleration
+  category: blas
+  url: https://arxiv.org/pdf/1610.06385v1.pdf
+ 
+- title: gemm
+  category: blas
+  url: https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/
+ 
+- title: Cublas
+  category: blas
+  url: https://devblogs.nvidia.com/cublas-strided-batched-matrix-multiply/
+
+- title: intro to probability (grinstead, snell)
+  url: /pdfs/math/prob-intro.pdf
+  category: probstats
+   
+- title: Caffe tutorial
+  category: tools
+  url: http://caffe.berkeleyvision.org/tutorial/
+ 
+- title: Caffe berkeyvision
+  category: tools
+  url: http://caffe.berkeleyvision.org/
+
+- title: Caffe installation
+  category: tools
+  url: http://caffe.berkeleyvision.org/installation.html
+
+- title: 7 sketches arxiv
+  category: category theory
+  pic: /px/math/category-theory-applied.png 
+  url: https://arxiv.org/abs/1803.05316
+ 
+- title: chalkdust
+  category: category theory
+  url: http://chalkdustmagazine.com/features/an-invitation-to-category-theory/
+
+- title: beyond one-hot-encoding
+  category: category theory
+  url: https://opendatascience.com/blog/beyond-one-hot-an-exploration-of-categorical-variables-2/
+
+- title: central limit theorem
+  category: probstats
+  url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
+
+- title: chinese postman
+  category: search
+  url: /pdfs/math/chinese-postman-ADM.pdf
+  source: ADM
+
+- title: hackernoon
+  url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
+  category: machine learning
+
+- title: ADM
+  category: calendar math 
+  url: /pdfs/math/calendar-math-ADM.pdf
+
+- title: confusion matrix
+  category: metrics
+  url: http://machinelearningmastery.com/confusion-matrix-machine-learning/
+ 
+- title: hamming loss
+  category: metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#hamming-loss
+ 
+- title: jaccard similarity
+  category: metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#jaccard-similarity-coefficient-score
+ 
+- title: precision, recall, f-measure
+  category: metrics
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-and-f-measures
+ 
+- title: ROC explained
+  category: metrics
+  url: https://www.datasciencecentral.com/profiles/blogs/roc-curve-explained-in-one-picture
+ 
+- title: ROC in 2 lines
+  category: metrics
+  url: http://blog.revolutionanalytics.com/2016/08/roc-curves-in-two-lines-of-code.html
+ 
+- title: ROC, AUC
+  category: metrics
+  url: http://www.joyofdata.de/blog/illustrated-guide-to-roc-and-auc/
+  source: joyofdata
+ 
+- title: matthews correlation coefficient
+  category: metrics
+  url: https://lettier.github.io/posts/2016-08-05-matthews-correlation-coefficient.html
+ 
+- title: matthews correlation coefficient
+  category: metrics
+  url: https://towardsdatascience.com/matthews-correlation-coefficient-when-to-use-it-and-when-to-avoid-it-310b3c923f7e
+
+- title: intro to cliques
+  category: set theory
+  pic: /px/math/ADM-cliques.png 
+  url: /pdfs/math/cliques-ADM.pdf
+  source: ADM
+
+- title:    affinity propagation
+  url: http://scikit-learn.org/stable/modules/clustering.html#affinity-propagation
+  category: clustering
+ 
+- title:  birch
+  url: http://scikit-learn.org/stable/modules/clustering.html#birch
+  category: clustering
+ 
+- title:          cart
+  url: http://themainstreamseer.blogspot.com/2013/01/introduction-to-classification.html
+  category: clustering
+ 
+- title:  comparison
+  url: https://github.com/lmcinnes/hdbscan/blob/master/notebooks/Comparing%20Clustering%20Algorithms.ipynb
+  category: clustering
+ 
+- title:      density-based
+  url: https://blog.dominodatalab.com/topology-and-density-based-clustering/
+  category: clustering
+ 
+- title:      dbscan
+  url: http://abhijitannaldas.com/dbscan-clustering-in-machine-learning.html
+  category: clustering
+ 
+- title:    dbscan (using effectively)
+  url: https://towardsdatascience.com/how-to-use-dbscan-effectively-ed212c02e62
+  category: clustering
+ 
+- title: comparison
+  url: http://www.kdnuggets.com/2016/09/comparing-clustering-techniques-concise-technical-overview.html
+  category: clustering
+ 
+- title: expectation maximization
+  url: http://www.kdnuggets.com/2016/08/tutorial-expectation-maximization-algorithm.html
+  category: clustering
+ 
+- title:          hierarchical (R)
+  url: http://www.aaronschlegel.com/hierarchical-clustering-nearest-neighbors-algorithm-r/
+  category: clustering
+ 
+- title: hierarchical
+  url: https://www.kdnuggets.com/2019/09/hierarchical-clustering.html
+  category: clustering
+ 
+- title:  hierarchical (scikit)
+  url: http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering
+  category: clustering
+ 
+- title:        k-means - customer segmentation
+  url: http://blog.yhat.com/posts/customer-segmentation-python-rodeo.html
+  category: clustering
+ 
+- title:      k-means multi-D postgresql
+  url: https://www.periscopedata.com/blog/multi-dimensional-clustering-using-k-means-postgres.html
+  category: clustering
+ 
+- title:        sequence carts (R)
+  url: http://analyzecore.com/2014/12/27/sequence-carts-in-depth-analysis-with-r-clustering/
+  category: clustering
+ 
+- title:   density based clustering
+  url: https://github.com/CoAxLab/DeBaCl
+  category: clustering
+ 
+- title: hdbscan intro
+  url: http://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
+  category: clustering
+ 
+- title:        mean shift
+  url: http://scikit-learn.org/stable/modules/clustering.html#mean-shift
+  category: clustering
+ 
+- title: mean shift demo
+  url: https://spin.atomicobject.com/2015/05/26/mean-shift-clustering/
+  category: clustering
+ 
+- title:  mean shift intro
+  url: https://saravananthirumuruganathan.wordpress.com/2010/04/01/introduction-to-mean-shift-algorithm/
+  category: clustering
+ 
+- title:    as a service (yogi)
+  url: https://cluster.meetyogi.com/
+  category: clustering
+  source: yogi
+
+- title: optimal #clusters (R)
+  url: https://www.r-bloggers.com/finding-optimal-number-of-clusters/
+  category: clustering
+  source: r-bloggers
+
+- title: spectral clustering
+  url: http://www.datasciencecentral.com/profiles/blogs/spectral-clustering-how-math-is-redefining-decision-making
+  category: clustering
+  source: DSC 
+
+- title: face patches
+  url: http://scikit-learn.org/stable/auto_examples/cluster/plot_dict_face_patches.html#sphx-glr-auto-examples-cluster-plot-dict-face-patches-py
+  category: clustering
+  source: scikit
+
+- title: intro
+  url: /pdfs/math/clustering-DMMD.pdf
+  category: clustering
+  source: DMMD
+
+- title: intro
+  url: /pdfs/math/clustering-FDS.pdf
+  category: clustering
+  source: FMS
+
+- title: visualization
+  category: classifiers
+  url: http://blog.insightdatalabs.com/visualizing-classifier-thresholds/
+  source: insight data labs 
+
+- title: metrics
+  category: classifiers 
+  pic: /px/math/roc.png 
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics
+  source: scikit
+ 
+- title: classification report
+  category: classifiers 
+  url: http://scikit-learn.org/stable/modules/model_evaluation.html#classification-report
+  source: scikit
+
+- title: metrics
+  category: classifiers 
+  url: https://opendatascience.com/blog/a-budget-of-classifier-evaluation-measures
+  source: ODS
+
+- title: summary
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation
+  source: scikit
+   
+- title: adjusted rand ndx
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#adjusted-rand-index
+  source: scikit
+ 
+- title: mutual info scoring
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#mutual-information-based-scores
+  source: scikit
+ 
+- title: homogeneity, completeness, v-measure
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure
+  source: scikit
+ 
+- title: fowkles-mallows
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#fowlkes-mallows-scores
+  source: scikit
+ 
+- title: silhouette coefficient
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#silhouette-coefficient
+  source: scikit
+ 
+- title: calinski-harabaz
+  category: clustering metrics
+  url: http://scikit-learn.org/stable/modules/clustering.html#calinski-harabaz-index
+  source: scikit
+
+- title: cntk setup
+  url: https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux
+  category: deep learning
+ 
+- title: cntk 
+  url: https://blogs.microsoft.com/next/2016/01/25/microsoft-releases-cntk-its-open-source-deep-learning-toolkit-on-github/#sm.0000012ecd8p2vf1ltb2qmtjwvd5x
+  category: deep learning
+
+- title: CNN tricks
+  category: convolutions
+  url: http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html
+ 
+- title: convolutions (1x1)
+  category: convolutions
+  url: http://iamaaditya.github.io/2016/03/one-by-one-convolution/
+ 
+- title: CNNs (DIDL)
+  url: /pdfs/math/cnns-dive.pdf
+  category: convolutions
+ 
+- title: goodfellow
+  url: /pdfs/math/cnns-DLgoodfellow.pdf
+  category: convolutions
+ 
+- title: modern cnns (DIDL)
+  url: /pdfs/math/cnns-modern-dive.pdf
+  category: convolutions
+ 
+- title: super cheatsheet
+  url: /pdfs/math/cnns-super-cheatsheet-SCDL.pdf
+  category: convolutions
+
+- title: cross decompostion
+  category: machine learning
+  url: http://scikit-learn.org/stable/auto_examples/cross_decomposition/plot_compare_cross_decomposition.html#sphx-glr-auto-examples-cross-decomposition-plot-compare-cross-decomposition-py
+  source: scikit
+
+- title: cross validation
+  category: machine learning
+  url: http://scikit-learn.org/stable/modules/cross_validation.html
+  source: scikit
+ 
+- title: k-fold
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#k-fold
+  source: scikit
+ 
+- title: k-fold, repeated
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#repeated-k-fold
+  source: scikit
+ 
+- title: leave one out (LOO)
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-one-out-loo
+  source: scikit
+ 
+- title: leave P out (LPO)
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-p-out-lpo
+  source: scikit
+ 
+- title: shuffle-split
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#random-permutations-cross-validation-a-k-a-shuffle-split
+  source: scikit
+ 
+- title: stratified k-fold
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#stratified-k-fold
+  source: scikit
+ 
+- title: stratified shuffle split
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#stratified-shuffle-split
+  source: scikit
+ 
+- title: group k-fold
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#group-k-fold
+  source: scikit
+ 
+- title: group LOO
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-one-group-out
+  source: scikit
+ 
+- title: group LPO
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#leave-p-groups-out
+  source: scikit
+ 
+- title: group shuffle split
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#group-shuffle-split
+  source: scikit
+ 
+- title: predefined splits
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#predefined-fold-splits-validation-sets
+  source: scikit
+ 
+- title: time series splits
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#time-series-split
+  source: scikit
+ 
+- title: shuffling notes
+  category: cross validation
+  url: http://scikit-learn.org/stable/modules/cross_validation.html#a-note-on-shuffling
+  source: scikit

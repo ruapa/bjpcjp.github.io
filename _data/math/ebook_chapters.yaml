@@ -1,0 +1,1491 @@
+
+- title: role
+  tags:
+  url: pdfs/math/algorithms-role-ITA.pdf
+  source: ITA
+
+- title: shortest paths
+  tags: search
+  url: pdfs/math/all-pairs-shortest-paths-ITA.pdf
+  source: ITA
+
+- title: amortization
+  tags:
+  url: pdfs/math/amortization-ITA.pdf
+  source: ITA
+
+- title: approximation
+  tags:
+  url: pdfs/math/approximation-algos-ITA.pdf
+  source: ITA
+
+- title: binary search trees
+  tags: search
+  url: pdfs/math/binary-search-trees-ITA.pdf
+  source: ITA
+
+- title: book
+  tags:
+  url: pdfs/math/book-ITA.pdf
+  source: ITA
+
+- title: b trees
+  tags: datastructs
+  url: pdfs/math/b-trees-ITA.pdf
+  source: ITA
+  notes: "definition,
+          operations,
+          deleting keys
+  "
+
+- title: counting
+  tags: probstats
+  url: pdfs/math/counting-probability-ITA.pdf
+  source: ITA
+
+- title: augmenting
+  tags: datastructs
+  url: pdfs/math/datastructs-augmenting-ITA.pdf
+  source: ITA
+
+- title: disjoint
+  tags: datastructs
+  url: pdfs/math/datastructs-disjoint-ITA.pdf
+  source: ITA
+  notes: "operations,
+          linked-list representation,
+          disjoint-set forests,
+          union analysis
+  "
+
+- title: intro
+  tags: datastructs
+  url: pdfs/math/datastructs-intro-ITA.pdf
+  source: ITA
+
+- title: divide & conquer
+  tags: 
+  url: pdfs/math/divide-conquer-ITA.pdf
+  source: ITA
+
+- title: dynamic programming
+  tags:
+  url: pdfs/math/dynamic-programming-ITA.pdf
+  source: ITA
+
+- title: fibonacci
+  tags:
+  url: pdfs/math/fibonacci-heaps-ITA.pdf
+  source: ITA
+
+- title: geometry
+  tags:
+  url: pdfs/math/geometry-ITA.pdf
+  source: ITA
+
+- title: getting started
+  tags:
+  url: pdfs/math/getting-started-ITA.pdf
+  source: ITA
+
+- title: graph algorithms
+  tags: graphs
+  url: pdfs/math/graph-algos-ITA.pdf
+  source: ITA
+
+- title: greedy algorithms
+  tags:
+  url: pdfs/math/greedy-algos-ITA.pdf
+  source: ITA
+
+- title: growth
+  tags:
+  url: pdfs/math/growth-ITA.pdf
+  source: ITA
+
+- title: hashes
+  tags: datastructs
+  url: pdfs/math/hashes-ITA.pdf
+  source: ITA
+
+- title: heapsort
+  tags: sorting
+  url: pdfs/math/heapsort-ITA.pdf
+  source: ITA
+
+- title: index
+  tags:
+  url: pdfs/math/index-ITA.pdf
+  source: ITA
+
+- title: linear programming
+  tags: linalg
+  url: pdfs/math/linear-programming-ITA.pdf
+  source: ITA
+
+- title: linear-time sort
+  tags: sorting
+  url: pdfs/math/linear-time-sort-ITA.pdf
+  source: ITA
+
+- title: matrix ops
+  tags: linalg
+  url: pdfs/math/matrix-ops-ITA.pdf
+  source: ITA
+
+- title: maxflow
+  tags:
+  url: pdfs/math/maxflow-ITA.pdf
+  source: ITA
+
+- title: medians & orderstats
+  tags: probstats
+  url: pdfs/math/medians-orderstats-ITA.pdf
+  source: ITA
+
+- title: minimum spanning trees
+  tags: datastructs
+  url: pdfs/math/min-spanning-trees-ITA.pdf
+  source: ITA
+
+- title: multithreading 
+  tags:
+  url: pdfs/math/multithreading-ITA.pdf
+  source: ITA
+
+- title: NP-complete
+  tags: complexity
+  url: pdfs/math/np-complete-ITA.pdf
+  source: ITA
+
+- title: number-theory
+  tags:
+  url: pdfs/math/number-theory-ITA.pdf
+  source: ITA
+
+- title: polynomials & fourier
+  tags:
+  url: pdfs/math/polynomials-fourier-ITA.pdf
+  source: ITA
+
+- title: preface
+  tags:
+  url: pdfs/math/preface-ITA.pdf
+  source: ITA
+
+- title: probabilistic-randomized 
+  tags: probstats
+  url: pdfs/math/probabilistic-randomized-ITA.pdf
+  source: ITA
+
+- title: quicksort
+  tags: sorting
+  url: pdfs/math/quicksort-ITA.pdf
+  source: ITA
+
+- title: red-black trees
+  tags: datastructs
+  url: pdfs/math/red-black-trees-ITA.pdf
+  source: ITA
+
+- title: sets
+  tags: datastructs
+  url: pdfs/math/sets-ITA.pdf
+  source: ITA
+
+- title: single-source shortest paths
+  tags: sorting
+  url: pdfs/math/single-source-shortest-paths-ITA.pdf
+  source: ITA
+
+- title: string matching
+  tags: sequences
+  url: pdfs/math/string-matching-ITA.pdf
+  source: ITA
+
+- title: summations
+  tags:
+  url: pdfs/math/summations-ITA.pdf
+  source: ITA
+
+- title: TOC
+  tags:
+  url: pdfs/math/toc-ITA.pdf
+  source: ITA
+
+- title: van emde boas trees
+  tags: datastructs
+  url: pdfs/math/van-emde-boas-trees-ITA.pdf
+  source: ITA
+
+
+- title: foundations
+  tags:
+  url: pdfs/math/book-foundations-FDS.pdf
+  source: FDS
+
+- title: clustering
+  tags: machine-learning
+  url: pdfs/math/clustering-FDS.pdf
+  source: FDS
+
+- title: dimensionality
+  tags: machine-learning
+  url: pdfs/math/dimensionality-FDS.pdf
+  source: FDS
+
+- title: glossary
+  tags:
+  url: pdfs/math/glossary-FDS.pdf
+  source: FDS
+
+- title: index
+  tags:
+  url: pdfs/math/index-FDS.pdf
+  source: FDS
+
+- title: intro
+  tags:
+  url: pdfs/math/intro-FDS.pdf
+  source: FDS
+
+- title: intro
+  tags: machine-learning
+  url: pdfs/math/machine-learning-intro-FDS.pdf
+  source: FDS
+
+- title: other
+  tags:
+  url: pdfs/math/other-FDS.pdf
+  source: FDS
+
+- title: random graphs
+  tags: graphs
+  url: pdfs/math/random-graphs-FDS.pdf
+  source: FDS
+
+- title: random walks & markov chains
+  tags: machine-learning
+  url: pdfs/math/random-walks-markov-chains-FDS.pdf
+  source: FDS
+
+- title: singular value decomposition
+  tags: machine-learning
+  url: pdfs/math/singular-value-decomposition-FDS.pdf
+  source: FDS
+
+- title: topic models, NNMF, HMG
+  tags: graphs
+  url: pdfs/math/topic-models-nnmf-hmg-graph-models-FDS.pdf
+  source: FDS
+
+- title: wavelets
+  tags: other
+  url: pdfs/math/wavelets-FDS.pdf
+  source: FDS
+
+
+- title: additive models
+  tags:
+  url: pdfs/math/additive-models-trees-ESL.pdf
+  source: ESL
+
+- title: basis expansions & regularization
+  tags:
+  url: pdfs/math/basis-expansions-regularization-ESL.pdf
+  source: ESL
+
+- title: book
+  tags:
+  url: pdfs/math/book-elements-of-statistical-learning-ESL.pdf
+  source: ESL
+
+- title: book
+  tags:
+  url: pdfs/math/book-ESL.pdf
+  source: ESL
+
+- title: boosting & additive trees
+  tags: machine-learning
+  url: pdfs/math/boosting-additive-trees-ESL.pdf
+  source: ESL
+
+- title: dimensionality
+  tags: machine-learning
+  url: pdfs/math/dimensionality-ESL.pdf
+  source: ESL
+
+- title: ensembles
+  tags: machine-learning
+  url: pdfs/math/ensembles-ESL.pdf
+  source: ESL
+
+- title: intro
+  tags:
+  url: pdfs/math/intro-ESL.pdf
+  source: ESL
+
+- title: kernel smoothing
+  tags: machine-learning
+  url: pdfs/math/kernel-smoothing-ESL.pdf
+  source: ESL
+
+- title: linear classification
+  tags: machine-learning
+  url: pdfs/math/linear-classification-ESL.pdf
+  source: ESL
+
+- title: linear regression
+  tags: machine-learning
+  url: pdfs/math/linear-regression-ESL.pdf
+  source: ESL
+
+- title: model assessment
+  tags: machine-learning
+  url: pdfs/math/model-assessment-ESL.pdf
+  source: ESL
+
+- title: model inference averaging
+  tags: machine-learning
+  url: pdfs/math/model-inference-averaging-ESL.pdf
+  source: ESL
+
+- title: neural nets
+  tags: deep-learning 
+  url: pdfs/math/neural-nets-ESL.pdf
+  source: ESL
+
+- title: nearest neighbors
+  tags: machine-learning
+  url: pdfs/math/prototypes-nearest-neighbors-ESL.pdf
+  source: ESL
+
+- title: random forests
+  tags: machine-learning
+  url: pdfs/math/random-forests-ESL.pdf
+  source: ESL
+
+- title: splines
+  tags: 
+  url: pdfs/math/splines-ESL.pdf
+  source: ESL
+
+- title: supervised learning
+  tags: machine-learning
+  url: pdfs/math/supervised-learning-ESL.pdf
+  source: ESL
+
+- title: intro
+  tags: support vector machines
+  url: pdfs/math/support-vector-machines-ESL.pdf
+  source: ESL
+
+- title: undirected graphs
+  tags: graphs
+  url: pdfs/math/undirected-graphs-ESL.pdf
+  source: ESL
+
+- title: unsupervised learning
+  tags: machine-learning
+  url: pdfs/math/unsupervised-learning-ESL.pdf
+  source: ESL
+
+
+- title: complex numbers
+  tags: number theory
+  url: pdfs/math/complex-numbers-LAY.pdf
+  source: LAY
+
+- title: determinants
+  tags: linalg
+  url: pdfs/math/determinants-LAY.pdf
+  source: LAY
+
+- title: eigenvectors & eigenvalues
+  tags: linalg
+  url: pdfs/math/eigenvectors-eigenvalues-LAY.pdf
+  source: LAY
+
+- title: glossary
+  tags:
+  url: pdfs/math/glossary-LAY.pdf
+  source: LAY
+
+- title: credits
+  tags:
+  url: pdfs/math/image-credits-LAY.pdf
+  source: LAY
+
+- title: index
+  tags:
+  url: pdfs/math/index-LAY.pdf
+  source: LAY
+
+- title: inner products - length - orthogonality
+  tags: linalg
+  url: pdfs/math/inner-product-length-orthogonality-LAY.pdf
+  source: LAY
+
+- title: linear algebra
+  tags: linalg
+  url: pdfs/math/linear-algebra-LAY.pdf
+  source: LAY
+
+- title: matrix math
+  tags: linalg
+  url: pdfs/math/matrix-math-LAY.pdf
+  source: LAY
+
+- title: symmetric matrices
+  tags: linalg
+  url: pdfs/math/symmetric-matrices-LAY.pdf
+  source: LAY
+
+- title: vector spaces
+  tags: linalg
+  url: pdfs/math/vector-spaces-LAY.pdf
+  source: LAY
+
+
+- title: adaptive basis functions
+  tags:
+  url: pdfs/math/adaptive-basis-function-models-SM.pdf
+  source: SM
+
+- title: nets
+  tags: bayes
+  url: pdfs/math/bayes-nets-SM.pdf
+  source: SM
+
+- title: stats
+  tags: bayes
+  url: pdfs/math/bayes-stats-SM.pdf
+  source: SM
+
+- title: exponential family
+  tags: number theory
+  url: pdfs/math/exponential-family-SM.pdf
+  source: SM
+
+- title: frequentist
+  tags: probstats
+  url: pdfs/math/frequentist-stats-SM.pdf
+  source: SM
+
+- title: gaussian models
+  tags: machine-learning
+  url: pdfs/math/gaussian-models-SM.pdf
+  source: SM
+
+- title: gaussians
+  tags: distributions
+  url: pdfs/math/gaussians-SM.pdf
+  source: SM
+
+- title: discrete generative models
+  tags:
+  url: pdfs/math/generative-models-discrete-SM.pdf
+  source: SM
+
+- title: intro
+  tags:
+  url: pdfs/math/intro-SM.pdf
+  source: SM
+
+- title: kernels
+  tags: machine learning
+  url: pdfs/math/kernels-SM.pdf
+  source: SM
+
+- title: latent linear models
+  tags: machine-learning
+  url: pdfs/math/latent-linear-models-SM.pdf
+  source: SM
+
+- title: linear regressions
+  tags: machine-learning
+  url: pdfs/math/linear-regression-SM.pdf
+  source: SM
+
+- title: logistic regression
+  tags: machine-learning
+  url: pdfs/math/logistic-regression-SM.pdf
+  source: SM
+
+- title: markov chain monte carlo
+  tags: machine-learning
+  url: pdfs/math/markov-chain-monte-carlo-SM.pdf
+  source: SM
+
+- title: mixture models
+  tags: machine-learning
+  url: pdfs/math/mixture-models-SM.pdf
+  source: SM
+
+- title: TOC
+  tags:
+  url: pdfs/math/ml-cheatsheet-toc-SM.pdf
+  source: SM
+
+- title: optimization
+  tags: machine-learning
+  url: pdfs/math/optimization-SM.pdf
+  source: SM
+
+- title: probability
+  tags: probstats
+  url: pdfs/math/probability-SM.pdf
+  source: SM
+
+
+- title: book
+  tags:
+  url: pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
+  source: SCDL
+
+- title: cnns
+  tags: deep-learning
+  url: pdfs/math/cnns-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+- title: rnns
+  tags: deep-learning
+  url: pdfs/math/rnns-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+- title: tips
+  tags: deep-learning
+  url: pdfs/math/tips-super-cheatsheet-SCDL.pdf
+  source: SCDL
+
+
+- title: applications
+  tags:
+  url: pdfs/math/applications-RL.pdf
+  source: RL
+
+- title: off-policy methods
+  tags:
+  url: pdfs/math/approximation-off-policy-methods-RL.pdf
+  source: RL
+
+- title: approximation on policy control
+  tags:
+  url: pdfs/math/approximation-on-policy-control-RL.pdf
+  source: RL
+
+- title: approximation on policy prediction
+  tags:
+  url: pdfs/math/approximation-on-policy-prediction-RL.pdf
+  source: RL
+
+- title: book
+  tags:
+  url: pdfs/math/book-reinforcement-learning-v2-RL.pdf
+  source: RL
+
+- title: dynamic programming
+
+  tags:
+  url: pdfs/math/dynamic-programming-RL.pdf
+  source: RL
+
+- title: eligibility traces
+  tags:
+  url: pdfs/math/eligibility-traces-RL.pdf
+  source: RL
+
+- title: frontiers
+  tags:
+  url: pdfs/math/frontiers-RL.pdf
+  source: RL
+
+- title: index
+  tags:
+  url: pdfs/math/index-RL.pdf
+  source: RL
+
+- title: markov-finite
+  tags:
+  url: pdfs/math/markov-finite-RL.pdf
+  source: RL
+
+- title: monte carlo
+  tags:
+  url: pdfs/math/monte-carlo-RL.pdf
+  source: RL
+
+- title: nstep bootstrap
+  tags:
+  url: pdfs/math/nstep-bootstrap-RL.pdf
+  source: RL
+
+- title: policy gradients
+  tags:
+  url: pdfs/math/policy-gradients-RL.pdf
+  source: RL
+
+- title: tabular method planning
+  tags:
+  url: pdfs/math/tabular-method-planning-RL.pdf
+  source: RL
+
+- title: temporal distances
+  tags:
+  url: pdfs/math/temporal-distances-RL.pdf
+  source: RL
+
+- title: inference
+  tags: bayes
+  url: pdfs/math/bayes-inference-PSC.pdf
+  source: PSC
+
+- title: book
+  tags: probability
+  url: pdfs/math/book-prob-stats-cookbook-PSC.pdf
+  source: PSC
+
+- title: convergence
+  tags: number theory
+  url: pdfs/math/convergence-PSC.pdf
+  source: PSC
+
+- title: decision theory
+  tags:
+  url: pdfs/math/decision-theory-PSC.pdf
+  source: PSC
+
+- title: multivariate
+  tags: distributions
+  url: pdfs/math/distributions-multivariate-PSC.pdf
+  source: PSC
+
+- title: non-parametric function estimation
+  tags: tbd
+  url: pdfs/math/function-estimation-non-parametric-PSC.pdf
+  source: PSC
+
+- title: hypothesis testing
+  tags: probstats
+  url: pdfs/math/hypothesis-testing-PSC.pdf
+  source: PSC
+
+- title: index
+  tags:
+  url: pdfs/math/index-PSC.pdf
+  source: PSC
+
+- title: inequalities
+  tags:
+  url: pdfs/math/inequalities-PSC.pdf
+  source: PSC
+
+- title: linear regression
+  tags: machine-learning
+  url: pdfs/math/linear-regression-PSC.pdf
+  source: PSC
+
+- title: parametric inference
+  tags: machine-learning
+  url: pdfs/math/parametric-inference-PSC.pdf
+  source: PSC
+
+- title: distributions
+  tags: probstats
+  url: pdfs/math/probability-distributions-PSC.pdf
+  source: PSC
+
+- title: probability expectation
+  tags: probstats
+  url: pdfs/math/probability-expectation-PSC.pdf
+  source: PSC
+
+- title: other
+  tags: probstats
+  url: pdfs/math/probability-other-math-PSC.pdf
+  source: PSC
+
+- title: random variables
+  tags: probstats
+  url: pdfs/math/probability-random-vars-PSC.pdf
+  source: PSC
+
+- title: probability theory
+  tags: probstats
+  url: pdfs/math/probability-theory-PSC.pdf
+  source: PSC
+
+- title: sampling
+  tags: probstats
+  url: pdfs/math/sampling-PSC.pdf
+  source: PSC
+
+- title: statistical inference
+  tags: probstats
+  url: pdfs/math/statistical-inference-PSC.pdf
+  source: PSC
+
+- title: stochastic processes
+  tags: probability
+  url: pdfs/math/stochastic-process-PSC.pdf
+  source: PSC
+
+- title: time series
+  tags:
+  url: pdfs/math/time-series-PSC.pdf
+  source: PSC
+
+- title: variance
+  tags: probstats
+  url: pdfs/math/variance-PSC.pdf
+  source: PSC
+
+- title: intro
+  tags: bayes
+  url: pdfs/math/bayes-NP.pdf
+  source: NP
+
+- title: book
+  tags:
+  url: pdfs/math/book-numerical-python-NP.pdf
+  source: NP
+
+- title: differential equations (ODE)
+  tags: symbolics
+  url: pdfs/math/diffeqs-ordinary-NP.pdf
+  source: NP
+
+- title: differential equations (PDE)
+  tags: symbolics
+  url: pdfs/math/diffeqs-partial-NP.pdf
+  source: NP
+
+- title: equation solvers
+  tags: symbolics
+  url: pdfs/math/equation-solving-NP.pdf
+  source: NP
+
+- title: file IO
+  tags: tools
+  url: pdfs/math/file-io-NP.pdf
+  source: NP
+
+- title: index
+  tags:
+  url: pdfs/math/index-NP.pdf
+  source: NP
+
+- title: install
+  tags:
+  url: pdfs/math/install-NP.pdf
+  source: NP
+
+- title: integration
+  tags: symbolics
+  url: pdfs/math/integration-NP.pdf
+  source: NP
+
+- title: interpolation 
+  tags: symbolics
+  url: pdfs/math/interpolation-NP.pdf
+  source: NP
+
+- title: machine learning
+  tags: machine-learning
+  url: pdfs/math/machine-learning-NP.pdf
+  source: NP
+
+- title: numba & cython
+  tags: tools
+  url: pdfs/math/numba-cython-NP.pdf
+  source: NP
+
+- title: optimization
+  tags: symbolics
+  url: pdfs/math/optimization-NP.pdf
+  source: NP
+
+- title: pandas
+  tags: tools
+  url: pdfs/math/pandas-NP.pdf
+  source: NP
+
+- title: signal processing
+  tags: tools
+  url: pdfs/math/signal-processing-NP.pdf
+  source: NP
+
+- title: sparse matrices & sparse graphs
+  tags: machine-learning
+  url: pdfs/math/sparse-matrices-graphs-NP.pdf
+  source: NP
+
+- title: statistics
+  tags: probstats
+  url: pdfs/math/statistics-NP.pdf
+  source: NP
+
+- title: statsmodels
+  tags: statistics
+  url: pdfs/math/statsmodels-NP.pdf
+  source: NP
+
+- title: symbolic math
+  tags: symbolics
+  url: pdfs/math/symbolic-math-NP.pdf
+  source: NP
+
+- title: vectors, matrices, ndarrays
+  tags: linalg
+  url: pdfs/math/vectors-matrices-ndarrays-NP.pdf
+  source: NP
+
+- title: visualization
+  tags: tools
+  url: pdfs/math/vizualization-NP.pdf
+  source: NP
+
+
+- title: applications
+  tags:
+  url: pdfs/math/applications-DSA.pdf
+  source: DSA
+
+- title: book
+  tags:
+  url: pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
+  source: DSA
+
+- title: dictionaries
+  tags: datastructs
+  url: pdfs/math/dictionaries-DSA.pdf
+  source: DSA
+  notes: "hash tables, 
+          balanced binary search trees, finger search trees, splay trees,
+          randomized dicts, min weight path trees, b trees
+  "
+
+- title: libraries
+  tags: tools
+  url: pdfs/math/libraries-DSA.pdf
+  source: DSA
+
+- title: other
+  tags: datastructs
+  url: pdfs/math/other-datastructs-DSA.pdf
+  source: DSA
+
+- title: priority queues
+  tags: datastructs
+  url: pdfs/math/priority-queues-DSA.pdf
+  source: DSA
+
+- title: spatial
+  tags: datastructs
+  url: pdfs/math/spatial-DSA.pdf
+  source: DSA
+
+
+- title: advertising
+  tags: applications
+  url: pdfs/math/advertising-DMMD.pdf
+  source: DMMD
+
+- title: book
+  tags:
+  url: pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
+  source: DMMD
+
+- title: clustering
+  tags: machine-learning
+  url: pdfs/math/clustering-DMMD.pdf
+  source: DMMD
+
+- title: intro
+  tags:
+  url: pdfs/math/data-mining-intro-DMMD.pdf
+  source: DMMD
+
+- title: streams
+  tags: datastructs
+  url: pdfs/math/data-mining-streams-DMMD.pdf
+  source: DMMD
+
+- title: dimensionality
+  tags: machine-learning
+  url: pdfs/math/dimensionality-reduction-DMMD.pdf
+  source: DMMD
+
+- title: frequent itemsets
+  tags: datastructs
+  url: pdfs/math/frequent-itemsets-DMMD.pdf
+  source: DMMD
+
+- title: index
+  tags:
+  url: pdfs/math/index-DMMD.pdf
+  source: DMMD
+
+- title: scaling
+  tags: machine-learning
+  url: pdfs/math/large-scale-machine-learning-DMMD.pdf
+  source: DMMD
+
+- title: link analysis
+  tags: graphs
+  url: pdfs/math/link-analysis-DMMD.pdf
+  source: DMMD
+
+- title: mapreduce
+  tags: tools
+  url: pdfs/math/mapreduce-DMMD.pdf
+  source: DMMD
+
+- title: recommenders
+  tags: machine-learning
+  url: pdfs/math/recommenders-DMMD.pdf
+  source: DMMD
+
+- title: similarity-search
+  tags: search
+  url: pdfs/math/similarity-search-DMMD.pdf
+  source: DMMD
+
+- title: social graphs
+  tags: graphs
+  url: pdfs/math/social-graphs-DMMD.pdf
+  source: DMMD
+
+
+- title: applications
+  tags: 
+  url: pdfs/math/applications-DLgoodfellow.pdf
+  source: DLG
+
+- title: approximate inference
+  tags: machine-learning
+  url: pdfs/math/approximate-inference-DLgoodfellow.pdf
+  source: DLG
+
+- title: autoencoders
+  tags: deep-learning
+  url: pdfs/math/autoencoders-DLgoodfellow.pdf
+  source: DLG
+
+- title: bibliography
+  tags:
+  url: pdfs/math/bibliography-DLgoodfellow.pdf
+  source: DLG
+
+- title: convolutions
+  tags: deep-learning
+  url: pdfs/math/cnns-DLgoodfellow.pdf
+  source: DLG
+
+- title: deep feedforward nets
+  tags: deep-learning
+  url: pdfs/math/deep-feedforward-nets-DLgoodfellow.pdf
+  source: DLG
+
+- title: deep generative models
+  tags: deep-learning
+  url: pdfs/math/deep-generative-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: modern practices
+  tags: deep-learning
+  url: pdfs/math/deep-networks-modern-practices-DLgoodfellow.pdf
+  source: DLG
+
+- title: methodology
+  tags: deep-learning
+  url: pdfs/math/guidelines-methodology-DLgoodfellow.pdf
+  source: DLG
+
+- title: index
+  tags:
+  url: pdfs/math/index-DLgoodfellow.pdf
+  source: DLG
+
+- title: intro
+  tags:
+  url: pdfs/math/intro-DLgoodfellow.pdf
+  source: DLG
+
+- title: linear algebra
+  tags: linalg
+  url: pdfs/math/linear_algebra-DLgoodfellow.pdf
+  source: DLG
+
+- title: linear factor models
+  tags: machine-learning
+  url: pdfs/math/linear-factor-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: basics
+  tags: machine-learning
+  url: pdfs/math/machine-learning-basics-DLgoodfellow.pdf
+  source: DLG
+
+- title: monte carlo
+  tags: machine-learning
+  url: pdfs/math/monte-carlo-methods-DLgoodfellow.pdf
+  source: DLG
+
+- title: numerical computation
+  tags: number theory
+  url: pdfs/math/numerical-computation-DLgoodfellow.pdf
+  source: DLG
+
+- title: optimization
+  tags: machine-learning
+  url: pdfs/math/optimization-DLgoodfellow.pdf
+  source: DLG
+
+- title: book pt 1
+  tags:
+  url: pdfs/math/part-1-basics-DLgoodfellow.pdf
+  source: DLG
+
+- title: probability
+  tags: probstats
+  url: pdfs/math/probability-DLgoodfellow.pdf
+  source: DLG
+
+- title: rnns
+  tags: deep-learning
+  url: pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
+  source: DLG
+
+- title: regularization
+  tags: machine-learning
+  url: pdfs/math/regularization-DLgoodfellow.pdf
+  source: DLG
+
+- title: representation learning
+  tags: deep-learning
+  url: pdfs/math/representation-learning-DLgoodfellow.pdf
+  source: DLG
+
+- title: book p3
+  tags:
+  url: pdfs/math/research-p3-DLgoodfellow.pdf
+  source: DLG
+
+- title: probabilistic models
+  tags: probstats
+  url: pdfs/math/structured-probabilistic-models-DLgoodfellow.pdf
+  source: DLG
+
+- title: partition problem
+  tags: tbd
+  url: pdfs/math/the-partition-problem-DLgoodfellow.pdf
+  source: DLG
+
+- title: TOC
+  tags:
+  url: pdfs/math/toc-DLgoodfellow.pdf
+  source: DLG
+
+
+- title: model selection estimation
+  tags: machine-learning
+  url: pdfs/math/after-model-selection-estimation-CSI.pdf
+  source: CSI
+
+- title: empirical estimation
+  tags: bayes
+  url: pdfs/math/bayes-empirical-estimation-CSI.pdf
+  source: CSI
+
+- title: inference
+  tags: bayes
+  url: pdfs/math/bayes-inference-CSI.pdf
+  source: CSI
+
+- title: book
+  tags:
+  url: pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
+  source: CSI
+
+- title: bootstrap confidence intervals
+  tags: probstats
+  url: pdfs/math/bootstrap-confidence-intervals-CSI.pdf
+  source: CSI
+
+- title: cross validation
+  tags: metrics
+  url: pdfs/math/cross-validation-CSI.pdf
+  source: CSI
+
+- title: book
+  tags:
+  url: pdfs/math/deep-learning-CSI.pdf
+  source: CSI
+
+- title: hypothesis testing
+  tags: probstats
+  url: pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
+  source: CSI
+
+- title: index
+  tags:
+  url: pdfs/math/index-CSI.pdf
+  source: CSI
+
+- title: frequentist inference
+  tags: machine-learning
+  url: pdfs/math/inference-frequentist-CSI.pdf
+  source: CSI
+  notes: "bootstrap<br>
+          decision theory"
+
+- title: intro
+  tags:
+  url: pdfs/math/intro-CSI.pdf
+  source: CSI
+
+- title: jackknife regression
+  tags: machine-learning
+  url: pdfs/math/jackknife-CSI.pdf
+  source: CSI
+
+- title: markov chain monte carlo
+  tags: machine-learning
+  url: pdfs/math/markov-chain-monte-carlo-CSI.pdf
+  source: CSI
+
+- title: max likelihood estimate
+  tags: machine-learning
+  url: pdfs/math/max-likelihood-estimation-CSI.pdf
+  source: CSI
+
+- title: methodology
+  tags: tbd
+  url: pdfs/math/methodology-postwar-CSI.pdf
+  source: CSI
+
+- title: exponentials
+  tags: number theory
+  url: pdfs/math/parametric-models-exponentials-CSI.pdf
+  source: CSI
+
+- title: random forests & boosting
+  tags: machine-learning
+  url: pdfs/math/random-forests-boosting-CSI.pdf
+  source: CSI
+
+- title: ridge regression
+  tags: machine-learning
+  url: pdfs/math/regression-ridge-CSI.pdf
+  source: CSI
+
+- title: regression trees
+  tags: machine-learning
+  url: pdfs/math/regression-trees-CSI.pdf
+  source: CSI
+
+- title: sparse models & lasso
+  tags: machine-learning
+  url: pdfs/math/sparse-models-lasso-CSI.pdf
+  source: CSI
+
+- title: kernels
+  tags: support vector machines
+  url: pdfs/math/support-vector-machines-kernels-CSI.pdf
+  source: CSI
+
+- title: survival analysis & expectation maximization
+  tags: machine-learning
+  url: pdfs/math/survival-analysis-expection-maximization-CSI.pdf
+  source: CSI
+
+- title: book
+  tags:
+  url: pdfs/math/book-convex-optimization-CO.pdf
+  source: CO 
+
+- title: adversarial vs stochastic linear
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-adversarial-vs-stochastic-linear-BA.pdf
+  source: BA
+
+- title: bandit mechanisms
+  tags: bayes
+  url: pdfs/math/bandits-bayes-BA.pdf
+  source: BA
+
+- title: combinatorial
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-combinatorial-BA.pdf
+  source: BA
+
+- title: concentration of measure
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-concentration-of-measure-BA.pdf
+  source: BA
+
+- title: contextual
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-contextual-BA.pdf
+  source: BA
+
+- title: convex analysis
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-convex-analysis-BA.pdf
+  source: BA
+
+- title: exp3 adversarial
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-exp3-adversarial-linear-BA.pdf
+  source: BA
+
+- title: exp3 IX
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-exp3-IX-BA.pdf
+  source: BA
+
+- title: exp3
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-exp3.pdf
+
+- title: explore-then-commit
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-explore-then-commit-BA.pdf
+  source: BA
+
+- title: follow the leader
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-follow-the-leader-mirror-descent-BA.pdf
+  source: BA
+
+- title: index
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-index-BA.pdf
+  source: BA
+
+- title: information theory
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-info-theory-BA.pdf
+  source: BA
+
+- title: intro
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-intro-BA.pdf
+  source: BA
+
+- title: LSEs - confidence bounds
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-least-squares-estimators-confidence-bounds-BA.pdf
+  source: BA
+
+- title: LSEs - optimal design
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-least-squares-estimators-optimal-design-BA.pdf
+  source: BA
+
+- title: lower bounds
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-BA.pdf
+  source: BA
+
+- title: lower bounds - high probability
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-high-probability-BA.pdf
+  source: BA
+
+- title: lower bounds - instance dependent
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-instance-dependent-BA.pdf
+  source: BA
+
+- title: lower bounds - minimax
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-lower-bounds-minimax-BA.pdf
+  source: BA
+
+- title: markov decisions
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-markov-decisions-BA.pdf
+  source: BA
+
+- title: non-stationary
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-non-stationary-BA.pdf
+  source: BA
+
+- title: partial monitoring
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-partial-monitoring-BA.pdf
+  source: BA
+
+- title: probability
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-probability-BA.pdf
+  source: BA
+
+- title: pure exploration
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-pure-exploration-BA.pdf
+  source: BA
+
+- title: ranking
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-ranking-BA.pdf
+  source: BA
+
+- title: stochastic-finite
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-finite-BA.pdf
+  source: BA
+
+- title: stochastic linear asymptotic
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
+  source: BA
+
+- title: stochastic linear
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-BA.pdf
+  source: BA
+
+- title: stochastic linear - finite many arms
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-finite-many-arms-BA.pdf
+  source: BA
+
+- title: bandits stochastic linear minimax lower bounds
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
+  source: BA
+
+- title: stochastic linear sparsity
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-linear-sparsity-BA.pdf
+  source: BA
+
+- title: stochastic markov
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-stochastic-markov-BA.pdf
+  source: BA
+
+- title: thompson sampling
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-thompson-sampling-BA.pdf
+  source: BA
+
+- title: UCB - asymptotic optimality
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
+  source: BA
+
+- title: UCB - bernoulli noise
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-bernoulli-noise-BA.pdf
+  source: BA
+
+- title: UCB - minimax optimality
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-UCB-algorithm-minimax-optimality-BA.pdf
+  source: BA
+
+- title: upper confidence bound (UCB)
+  tags: bandit mechanisms
+  url: pdfs/math/bandits-upper-confidence-bound-BA.pdf
+  source: BA
+
+- title: computer vision papers
+  tags: applications 
+  url: https://paperswithcode.com/area/computer-vision
+  pic:
+  source: PWC
+
+- title: natural language papers`
+  tags: applications
+  url: https://paperswithcode.com/area/natural-language-processing
+  pic:
+  source: PWC
+
+- title: medical papers
+  tags: applications
+  url: https://paperswithcode.com/area/medical
+  pic:
+  source: PWC
+
+- title: methodology
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/methodology
+  pic:
+  source: PWC
+
+- title: miscellaneous
+  tags: applications
+  url: https://paperswithcode.com/area/miscellaneous
+  pic:
+  source: PWC
+
+- title: graph papers
+  tags: graphs 
+  url: https://paperswithcode.com/area/graphs
+  pic:
+  source: PWC
+
+- title: speech
+  tags: applications 
+  url: https://paperswithcode.com/area/speech
+  pic:
+  source: PWC
+
+- title: game theory
+  tags: applications 
+  url: https://paperswithcode.com/area/playing-games
+  pic:
+  source: PWC
+
+- title: time series
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/time-series
+  pic:
+  source: PWC
+
+- title: robotics papers
+  tags: applications 
+  url: https://paperswithcode.com/area/robots
+  pic:
+  source: PWC
+
+- title: audio papers
+  tags: applications 
+  url: https://paperswithcode.com/area/audio
+  pic:
+  source: PWC
+
+- title: algorithms
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/computer-code
+  pic:
+  source: PWC
+
+- title: music
+  tags: applications 
+  url: https://paperswithcode.com/area/misc
+  pic:
+  source: PWC
+
+- title: knowledge-base techniques
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/knowledge-base
+  pic:
+  source: PWC
+
+- title: adversarial techniques papers
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/adversarial
+  pic:
+  source: PWC
+
+- title: reasoning papers
+  tags: deep-learning 
+  url: https://paperswithcode.com/area/reasoning
+  pic:
+  source: PWC
