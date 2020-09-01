@@ -1,0 +1,8 @@
+- reference: 00
+  title: a/b testing
+  details: <a href="https://bjpcjp.github.io/prodmgmt/"> </a>
+
+- reference: test
+  title: test
+  details: <a href="/hellotest.html">hello</a>
+

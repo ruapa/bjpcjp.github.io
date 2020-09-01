@@ -3986,15 +3986,15 @@
   tags: "seo/keywords"
 
 - url: https://www.practicalecommerce.com/adwords-3-ways-find-negative-keywords
-  title: 3 Ways to Find Negative Keywords (Practical Ecommerce)
+  title: How to Find Negative Keywords (Practical Ecommerce)
   tags: "seo/keywords"
 
 - url: http://searchengineland.com/5-successful-b2b-adwords-best practices-for-any-company-277308
-  title: 5 Successful B2B Adwords Best Practices for any Company (Search Engine Land)
+  title: B2B Adwords Best Practices (Search Engine Land)
   tags: "seo/keywords"
 
 - url: https://searchengineland.com/3-easy-internal-linking-strategies-for-keywords-with-different-search-volumes-311890
-  title: 3 Internal Linking Strategies for Keywords with Different Search Volumes (Search Engine Land)
+  title: Internal Link Strategies for Keywords with Different Volumes (Search Engine Land)
   tags: "seo/keywords"
 
 - url: https://www.practicalecommerce.com/how-to-find-seed-keywords-and-explore-topic-clusters
@@ -4010,11 +4010,11 @@
   tags: "seo/keywords"
 
 - url: https://moz.com/blog/predicting-keyword-volume-before-data-is-in-adwords
-  title: Predicting Keyword Volume Before Data is in Adwords (Moz)
+  title: Predicting Keyword Volume(Moz)
   tags: "seo/keywords"
 
 - url: http://searchengineland.com/brand-bidding-techniques-smart-ways-to-use-typos-urls-as-keywords-42725
-  title: Using Typo URLs as Keywords (Search Engine Land)
+  title: Using Typos as Keywords (Search Engine Land)
   tags: "seo/keywords"
 
 ##########################
@@ -4382,3 +4382,7 @@
   title: 38 Business Models - a Taxonomy (axial.substack)
   tags: platforms
   
+- url: https://ahrefs.com/blog/google-advanced-search-operators/
+  title: Google search operators (ahrefs)
+  tags: seo/keywords
+  source: ahrefs
