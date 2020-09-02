@@ -506,7 +506,7 @@
   url: pdfs/math/logistic-regression-SM.pdf
   source: SM
 
-- title: MCMC
+- title: Markov Chain Monte Carlo (MCMC)
   category: markov chains
   url: pdfs/math/markov-chain-monte-carlo-SM.pdf
   source: SM
@@ -1137,7 +1137,7 @@
   url: pdfs/math/jackknife-CSI.pdf
   source: CSI
 
-- title: MCMC
+- title: Markov Chain Monte Carlo (MCMC)
   category: markov chains
   url: pdfs/math/markov-chain-monte-carlo-CSI.pdf
   source: CSI
@@ -1877,7 +1877,6 @@
 
 - title: PwC
   category: machine video
-  pic: /px/math/video-motion.gif 
   url: https://paperswithcode.com/area/computer-vision/video
   notes: "tracking, classification, prediction, understanding, generation,
 super-resolution, retrieval, (more)"
@@ -4332,29 +4331,25 @@ MCMC, bagging, averaging & stacking, bumping"
   category: tools
   url: /pdfs/math/mapreduce-DMMD.pdf
 
-- title: TDS
+- title: Zero-math introduction
   category: markov chains
   url: https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
- 
-- title: FDS
+  source: TDS
+
+- title: Random Walks and Markov Chains
   url: /pdfs/math/random-walks-markov-chains-FDS.pdf
   category: markov chains
+  source: FDS
  
-- title: setosa
+- title: visual explanation
   category: markov chains
   url: http://setosa.io/ev/markov-chains/
- 
-- title: revo analytics
+  source: setosa
+
+- title: getting started
   category: markov chains
   url: http://blog.revolutionanalytics.com/2016/01/getting-started-with-markov-chains.html
- 
-- title: visuals
-  category: markov chains
-  url: /pdfs/math/markov-chains-explained-visually.pdf
- 
-- title: markov chain monte carlo (MCMC)
-  category: markov chains
-  url: /pdfs/math/markov-chain-monte-carlo-CSI.pdf
+  source: revolutionanalytics
 
 - title: my github (PDSH)
   category: matplotlib
