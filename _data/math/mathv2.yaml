@@ -365,11 +365,6 @@
   url: pdfs/math/random-forests-ESL.pdf
   source: ESL
 
-- title: splines
-  category: 
-  url: pdfs/math/splines-ESL.pdf
-  source: ESL
-
 - title: supervised learning
   category: machine learning
   url: pdfs/math/supervised-learning-ESL.pdf
@@ -536,19 +531,18 @@
   url: pdfs/math/probability-SM.pdf
   source: SM
 
-
-- title: book
-  category:
+- title: cheatsheet
+  category: deep learning
   url: pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
   source: SCDL
 
-- title: cnns
-  category: deep learning
+- title: cheatsheet
+  category: cnns
   url: pdfs/math/cnns-super-cheatsheet-SCDL.pdf
   source: SCDL
 
-- title: rnns
-  category: deep learning
+- title: cheatsheet
+  category: rnns
   url: pdfs/math/rnns-super-cheatsheet-SCDL.pdf
   source: SCDL
 
@@ -729,8 +723,8 @@
   url: pdfs/math/stochastic-process-PSC.pdf
   source: PSC
 
-- title: time series
-  category:
+- title: PSC
+  category: time series
   url: pdfs/math/time-series-PSC.pdf
   source: PSC
 
@@ -794,8 +788,8 @@
   url: pdfs/math/machine-learning-NP.pdf
   source: NP
 
-- title: numba & cython
-  category: tools
+- title: numeric python
+  category: cython, numba
   url: pdfs/math/numba-cython-NP.pdf
   source: NP
 
@@ -955,9 +949,8 @@
   url: pdfs/math/social-graphs-DMMD.pdf
   source: DMMD
 
-
-- title: applications
-  category: 
+- title: goodfellow
+  category: applications 
   url: pdfs/math/applications-DLgoodfellow.pdf
   source: DLG
 
@@ -966,28 +959,23 @@
   url: pdfs/math/approximate-inference-DLgoodfellow.pdf
   source: DLG
 
-- title: autoencoders
-  category: deep learning
+- title: goodfellow
+  category: autoencoders
   url: pdfs/math/autoencoders-DLgoodfellow.pdf
   source: DLG
 
-- title: bibliography
-  category:
-  url: pdfs/math/bibliography-DLgoodfellow.pdf
-  source: DLG
-
-- title: convolutions
-  category: deep learning
+- title: goodfellow
+  category: convolutions
   url: pdfs/math/cnns-DLgoodfellow.pdf
   source: DLG
 
 - title: deep feedforward nets
-  category: deep learning
+  category: deep learning architectures
   url: pdfs/math/deep-feedforward-nets-DLgoodfellow.pdf
   source: DLG
 
 - title: deep generative models
-  category: deep learning
+  category: deep learning architectures
   url: pdfs/math/deep-generative-models-DLgoodfellow.pdf
   source: DLG
 
@@ -1051,8 +1039,8 @@
   url: pdfs/math/probability-DLgoodfellow.pdf
   source: DLG
 
-- title: rnns
-  category: deep learning
+- title: goodfellow
+  category: rnns
   url: pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
   source: DLG
 
@@ -1062,7 +1050,7 @@
   source: DLG
 
 - title: representation learning
-  category: deep learning
+  category: deep learning architectures
   url: pdfs/math/representation-learning-DLgoodfellow.pdf
   source: DLG
 
@@ -1205,7 +1193,7 @@
   source: CO 
 
 - title: adversarial vs stochastic linear
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-adversarial-vs-stochastic-linear-BA.pdf
   source: BA
 
@@ -1215,198 +1203,198 @@
   source: BA
 
 - title: combinatorial
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-combinatorial-BA.pdf
   source: BA
 
 - title: concentration of measure
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-concentration-of-measure-BA.pdf
   source: BA
 
 - title: contextual
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-contextual-BA.pdf
   source: BA
 
 - title: convex analysis
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-convex-analysis-BA.pdf
   source: BA
 
 - title: exp3 adversarial
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-exp3-adversarial-linear-BA.pdf
   source: BA
 
 - title: exp3 IX
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-exp3-IX-BA.pdf
   source: BA
 
 - title: exp3
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-exp3.pdf
 
 - title: explore-then-commit
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-explore-then-commit-BA.pdf
   source: BA
 
 - title: follow the leader
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-follow-the-leader-mirror-descent-BA.pdf
   source: BA
 
 - title: index
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-index-BA.pdf
   source: BA
 
 - title: information theory
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-info-theory-BA.pdf
   source: BA
 
 - title: intro
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-intro-BA.pdf
   source: BA
 
 - title: LSEs - confidence bounds
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-least-squares-estimators-confidence-bounds-BA.pdf
   source: BA
 
 - title: LSEs - optimal design
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-least-squares-estimators-optimal-design-BA.pdf
   source: BA
 
 - title: lower bounds
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-lower-bounds-BA.pdf
   source: BA
 
 - title: lower bounds - high probability
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-lower-bounds-high-probability-BA.pdf
   source: BA
 
 - title: lower bounds - instance dependent
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-lower-bounds-instance-dependent-BA.pdf
   source: BA
 
 - title: lower bounds - minimax
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-lower-bounds-minimax-BA.pdf
   source: BA
 
 - title: markov decisions
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-markov-decisions-BA.pdf
   source: BA
 
 - title: non-stationary
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-non-stationary-BA.pdf
   source: BA
 
 - title: partial monitoring
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-partial-monitoring-BA.pdf
   source: BA
 
 - title: probability
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-probability-BA.pdf
   source: BA
 
 - title: pure exploration
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-pure-exploration-BA.pdf
   source: BA
 
 - title: ranking
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-ranking-BA.pdf
   source: BA
 
 - title: stochastic-finite
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-finite-BA.pdf
   source: BA
 
 - title: stochastic linear asymptotic
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
   source: BA
 
 - title: stochastic linear
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-linear-BA.pdf
   source: BA
 
 - title: stochastic linear - finite many arms
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-linear-finite-many-arms-BA.pdf
   source: BA
 
 - title: bandits stochastic linear minimax lower bounds
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
   source: BA
 
 - title: stochastic linear sparsity
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-linear-sparsity-BA.pdf
   source: BA
 
 - title: stochastic markov
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-stochastic-markov-BA.pdf
   source: BA
 
 - title: thompson sampling
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-thompson-sampling-BA.pdf
   source: BA
 
-- title: UCB - asymptotic optimality
-  category: bandit mechanisms
+- title: upper confidence bound - asymptotic optimality
+  category: bandits
   url: pdfs/math/bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
   source: BA
 
-- title: UCB - bernoulli noise
-  category: bandit mechanisms
+- title: upper confidence bound - bernoulli noise
+  category: bandits
   url: pdfs/math/bandits-UCB-algorithm-bernoulli-noise-BA.pdf
   source: BA
 
-- title: UCB - minimax optimality
-  category: bandit mechanisms
+- title: upper confidence bound - minimax optimality
+  category: bandits
   url: pdfs/math/bandits-UCB-algorithm-minimax-optimality-BA.pdf
   source: BA
 
 - title: upper confidence bound (UCB)
-  category: bandit mechanisms
+  category: bandits
   url: pdfs/math/bandits-upper-confidence-bound-BA.pdf
   source: BA
 
-- title: computer vision papers
-  category: applications 
+- title: pwc papers
+  category: machine vision
   url: https://paperswithcode.com/area/computer-vision
   pic:
   source: PWC
 
-- title: natural language papers`
-  category: applications
+- title: pwc papers
+  category: nlp
   url: https://paperswithcode.com/area/natural-language-processing
   pic:
   source: PWC
 
-- title: medical papers
-  category: applications
+- title: pwc papers
+  category: medical
   url: https://paperswithcode.com/area/medical
   pic:
   source: PWC
@@ -1417,8 +1405,8 @@
   pic:
   source: PWC
 
-- title: miscellaneous
-  category: applications
+- title: pwc papers
+  category: miscellaneous
   url: https://paperswithcode.com/area/miscellaneous
   pic:
   source: PWC
@@ -1429,14 +1417,14 @@
   pic:
   source: PWC
 
-- title: speech
-  category: applications 
+- title: pwc
+  category: speech
   url: https://paperswithcode.com/area/speech
   pic:
   source: PWC
 
-- title: game theory
-  category: applications 
+- title: pwc
+  category: game theory
   url: https://paperswithcode.com/area/playing-games
   pic:
   source: PWC
@@ -1447,14 +1435,14 @@
   pic:
   source: PWC
 
-- title: robotics papers
-  category: applications 
+- title: pwc
+  category: robotics papers 
   url: https://paperswithcode.com/area/robots
   pic:
   source: PWC
 
-- title: audio papers
-  category: applications 
+- title: pwc
+  category: audio
   url: https://paperswithcode.com/area/audio
   pic:
   source: PWC
@@ -1465,8 +1453,8 @@
   pic:
   source: PWC
 
-- title: music
-  category: applications 
+- title: pwc
+  category: music
   url: https://paperswithcode.com/area/misc
   pic:
   source: PWC
@@ -1514,27 +1502,42 @@
   pic: /px/math/bigo-complexity-chart.png
   url: http://bigocheatsheet.com/
 
-- title: one model to learn them all
-  category: alphago-zero
+- title: alphago-zero - one model to learn them all
+  category: deep learning architectures
   pic: /px/math/alphago-zero.png
   url: https://blog.acolyer.org/2018/01/12/one-model-to-learn-them-all/
  
-- title: 3 tricks
-  category: alphago-zero
+- title: alphago-zero - 3 tricks
+  category: deep learning architectures
   url: https://hackernoon.com/the-3-tricks-that-made-alphago-zero-work-f3d47b6686ef
 
 - title: programmable web
   category: apis
   url: https://www.programmableweb.com/news/14-top-artificial-intelligence-apis/brief/2019/09/29
+  source: programmableweb
 
-- title: chebyshev
+- title: 50 APIs - May 2018
+  category: apis
+  url: https://www.kdnuggets.com/2018/05/50-useful-machine-learning-prediction-apis-2018-edition.html
+  source: kdnuggets
+  
+- title: ebay, part 1 - basics
   category: approximations
-  url: https://www.embeddedrelated.com/showarticle/152.php
- 
-- title: ebay
-  category: approximations
-  url: http://www.ebaytechblog.com/2015/05/01/fast-approximate-logarithms-part-i-the-basics/
+  url: https://tech.ebayinc.com/engineering/fast-approximate-logarithms-part-i-the-basics/
   notes:
+  source: ebay
+
+- title: ebay, part 2 - rounding error
+  category: approximations
+  url: https://tech.ebayinc.com/engineering/fast-approximate-logarithms-part-ii-rounding-error/
+  notes:
+  source: ebay
+
+- title: ebay, part 3 - formulas
+  category: approximations
+  url: https://tech.ebayinc.com/engineering/fast-approximate-logarithms-part-iii-the-formulas/
+  notes:
+  source: ebay
 
 - title: market basket analysis
   category: association rules
@@ -1559,13 +1562,13 @@
   category: association rules
   url: https://thedatum.data.blog/2019/06/09/machine-learning-association-rule-mining/
 
-- title: intro
-  category: a-star
+- title: a-starintro
+  category: search
   pic: /px/math/a-star.png
   url: http://www.redblobgames.com/pathfinding/a-star/introduction.html
  
-- title: implementation
-  category: a-star
+- title: a-star implementation
+  category: search
   url: http://www.redblobgames.com/pathfinding/a-star/implementation.html
 
 - title: david batista
@@ -1634,8 +1637,8 @@
   url: https://gereshes.com/2020/01/13/attracted-to-attractors
   notes: thomas's, rossler, lorenz</small>
 
-- title: intro
-  category: autocorrelation
+- title: autocorrelation
+  category: time series
   url: http://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
 
 - title: intro
@@ -1697,9 +1700,10 @@
   category: backprop
   url: https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
 
-- title: hackernoon
-  category: bagging
+- title: bagging
+  category: ensembles
   url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
+  source: hackernoon 
 
 - title: arxiv 1510 - normalization
   category: batching
@@ -1712,7 +1716,7 @@
 - title: bandits (mlwhiz)
   pic: /px/math/bayes-bandits.png
   url: https://mlwhiz.com/blog/2019/07/21/bandits/
-  category: bandit mechanisms
+  category: bandits
 
 - title: regression (scikit)
   url: http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge
@@ -1747,7 +1751,7 @@
   url: http://setosa.io/ev/
  
 - title: spurious splines
-  category: visualization
+  category: splines
   url: http://inconvergent.net/spurious-splines/
  
 - title: pinterest lib
@@ -1918,11 +1922,11 @@ super-resolution, retrieval, (more)"
  
 - title: awesome deep learning
   url: https://github.com/terryum/awesome-deep-learning-papers
-  category: deep learning
+  category: deep learning architectures
  
 - title: awesome rnns
   url: https://github.com/kjw0612/awesome-rnn
-  category: deep learning
+  category: rnns
  
 - title: awesome ML
   url: https://github.com/josephmisiti/awesome-machine-learning
@@ -2100,9 +2104,9 @@ super-resolution, retrieval, (more)"
  
 - title: expectation maximization
   url: http://www.kdnuggets.com/2016/08/tutorial-expectation-maximization-algorithm.html
-  category: clustering
+  category: incomplete data
  
-- title:          hierarchical (R)
+- title: hierarchical (R)
   url: http://www.aaronschlegel.com/hierarchical-clustering-nearest-neighbors-algorithm-r/
   category: clustering
  
@@ -2234,11 +2238,11 @@ super-resolution, retrieval, (more)"
 
 - title: cntk setup
   url: https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux
-  category: deep learning
+  category: tools
  
 - title: cntk 
   url: https://blogs.microsoft.com/next/2016/01/25/microsoft-releases-cntk-its-open-source-deep-learning-toolkit-on-github/#sm.0000012ecd8p2vf1ltb2qmtjwvd5x
-  category: deep learning
+  category: tools
 
 - title: CNN tricks
   category: convolutions
@@ -2630,6 +2634,7 @@ representatin, approx shortest paths, searching & o(log n) time"
 - title: PSC
   category: decision theory
   url: /pdfs/math/decision-theory-PSC.pdf
+  notes: risk, admissability, bayes, rules, minimax rules
 
 - title: algorithms - ID3, Cx, CART
   url: https://www.datasciencecentral.com/profiles/blogs/the-complete-guide-to-decision-trees
@@ -2811,12 +2816,12 @@ representatin, approx shortest paths, searching & o(log n) time"
   category: deep learning architectures
   url: /pdfs/math/deep-generative-models-DLgoodfellow.pdf
  
-- title: PwC
-  category: denoising
+- title: denoising
+  category: machine vision
   url: https://paperswithcode.com/task/denoising
  
-- title: PwC (images)
-  category: denoising
+- title: denoising images
+  category: machine vision
   url: https://paperswithcode.com/task/image-denoising
 
 - title: kde explained
@@ -2944,8 +2949,8 @@ double pendulum"
   category: distances & metrics
   url: http://www.benfrederickson.com/distance-metrics/
 
-- title: ITA
-  category: divide & conquer
+- title: divide & conquer
+  category: recursion
   url: /pdfs/math/divide-conquer-ITA.pdf
  
 - title: original (hinton)
@@ -3036,14 +3041,13 @@ double pendulum"
   category: ensembles
   url: /pdfs/math/ensembles-ESL.pdf
 
-- title: stack overflow
-  category: entropy
+- title: entropy - stack overflow
+  category: info theory
   url: http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain
 
 - title: equation solvers
   category: number theory
   pic: /px/math/equation-solvers.png 
-  category: equation solvers
   url: /pdfs/math/equation-solving-NP.pdf
  
 - title: intro, model evaluation (scikit)
@@ -3071,8 +3075,8 @@ double pendulum"
   url: https://betterexplained.com/static/articles/easy-trig-identities-with-eulers-formula/
   source: better explained
 
-- title: tutorial
-  category: expectation maximization (EM)
+- title: expectation maximization (EM)
+  category: estimation
   url: https://www.datasciencecentral.com/profiles/blogs/em-algorithm-explained-in-one-picture
  
 - title: SM
@@ -3197,9 +3201,11 @@ reconstruction, (more)"
   category: data structures
   url: /pdfs/math/flows-cuts-applications-JE.pdf
 
-- title: DMMD
-  category: frequent itemsets
+- title: frequent itemsets
+  category: set theory
   url: /pdfs/math/frequent-itemsets-DMMD.pdf
+  notes: market baskets, a-priori, limited-pass algos, counting items in a stream
+  source: DMMD
 
 - title: PSC
   category: function estimation
@@ -3211,67 +3217,67 @@ reconstruction, (more)"
   notes: "video, atari, realtime strategy, board, fps, card games, go, chess, poker, shogi, safe exploration"
 
 - title: 2019 overview
-  category: GANs
+  category: gans
   url: https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-explainer-ai-machine-learning/
  
 - title: intro (MLwhiz)
-  category: GANs
+  category: gans
   url: https://mlwhiz.com/blog/2019/06/17/gans/
  
 - title: intro (sigmoidal.io)
-  category: GANs
+  category: gans
   url: https://sigmoidal.io/beginners-review-of-gan-architectures/
  
 - title: intro (towards ds)
-  category: GANs
+  category: gans
   url: https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31
  
 - title: intro (statsbot)
-  category: GANs
+  category: gans
   url: https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47
  
 - title: intro (oreilly)
-  category: GANs
+  category: gans
   url: https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks
  
 - title: intro (DIDL)
-  category: GANs
+  category: gans
   url: /pdfs/math/gans-dive.pdf
  
 - title: extreme compression
-  category: GANs
+  category: gans
   url: https://data.vision.ee.ethz.ch/aeirikur/extremecompression/
  
 - title: spectral normalization
-  category: GANs
+  category: gans
   url: https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html
  
 - title: adeshpande
-  category: GANs
+  category: gans
   url: https://adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets
  
 - title: list of variants
-  category: GANs
+  category: gans
   url: https://deephunt.in/the-gan-zoo-79597dc8c347
  
 - title: stacked
-  category: GANs
+  category: gans
   url: https://arxiv.org/abs/1612.04357
  
 - title: wasserstein
-  category: GANs
+  category: gans
   url: http://www.alexirpan.com/2017/02/22/wasserstein-gan.html
  
 - title: NIPS 2016 tutorial
-  category: GANs
+  category: gans
   url: https://arxiv.org/abs/1701.00160v3
  
 - title: GauGAN (nV)
-  category: GANs
+  category: gans
   url: https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images/
  
 - title: open problems
-  category: GANs
+  category: gans
   url: https://distill.pub/2019/gan-open-problems
 
 
@@ -3317,8 +3323,9 @@ reconstruction, (more)"
   url: https://carto.com/
  
 - title: convex hulls
-  category: geometry - topology
+  category: shapes
   url: http://roadtolarissa.com/convex-hulls/
+  source: road to larissa
  
 - title: mapbox
   category: geometry - topology
@@ -4041,9 +4048,10 @@ reconstruction, (more)"
   category: bezier curves
   url: https://www.jasondavies.com/animated-bezier/
 
-- title: boosting additive trees
-  category: boosting
+- title: boosting & additive trees
+  category: ensembles
   url: /pdfs/math/boosting-additive-trees-ESL.pdf
+  source: ESL
 
 - title: boltzmann machine tutorial
   category: deep learning architectures
@@ -4092,7 +4100,7 @@ reconstruction, (more)"
   source: DIDL
 
 - title: concept drift
-  category: concept drift
+  category: uncertain data
   url: https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/
 
 - title: confusion matrix
@@ -4116,13 +4124,10 @@ reconstruction, (more)"
   category: number theory
   url: /pdfs/math/convergence-PSC.pdf
 
-- title: ADM
-  category: convex hulls
+- title: convex hulls
+  category: shapes
   url: /pdfs/math/convex-hull-ADM.pdf
-
-- title: ebook
-  category: convex optimization
-  url: /pdfs/math/convex-optimization.pdf
+  source: ADM
 
 - title: scikit
   category: covariance
@@ -4401,8 +4406,8 @@ MCMC, bagging, averaging & stacking, bumping"
   url: https://github.com/kjw0612/awesome-random-forest
   category: random forests
  
-- title: BK trees
-  category: data structures
+- title: bk trees
+  category: trees
   url: http://signal-to-noise.xyz/post/bk-tree/
   source: signal-to-noise
 
@@ -4804,11 +4809,11 @@ MCMC, bagging, averaging & stacking, bumping"
 
  
 - title: intro/nanonets
-  category: OCR (optical character recognition)
+  category: ocr (optical character recognition)
   url: https://nanonets.com/blog/deep-learning-ocr/
  
 - title: tesseract
-  category: OCR (optical character recognition)
+  category: ocr (optical character recognition)
   url: https://github.com/tesseract-ocr/tesseract
 
 - title: octave
@@ -5599,10 +5604,9 @@ MCMC, bagging, averaging & stacking, bumping"
 - title: speech synthesis - 2019 guide
   category: speech
   url: https://heartbeat.fritz.ai/a-2019-guide-to-speech-synthesis-with-deep-learning-630afcafb9dd
-  category: splines
  
 - title: ESL
-  category: stacking
+  category: splines
   url: /pdfs/math/splines-ESL.pdf
  
 - title: tutorial
@@ -6117,3 +6121,12 @@ MCMC, bagging, averaging & stacking, bumping"
   category: machine vision
   url: https://github.com/luanfujun/deep-photo-styletransfer
 
+- title: chebyshev approximations 
+  category: approximations 
+  url: https://www.embeddedrelated.com/showarticle/152.php
+  source: embeddedrelated
+
+- title: new approaches in object detection 
+  category: object detection 
+  url: https://towardsdatascience.com/new-approaches-to-object-detection-f5cbc925e00e?source=rss----7f60cf5620c9---4
+  source: medium/tds
