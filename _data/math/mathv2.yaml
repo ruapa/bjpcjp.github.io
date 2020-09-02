@@ -265,7 +265,7 @@
   source: FDS
 
 - title: random walks
-  category: markov chain
+  category: markov chains
   url: pdfs/math/random-walks-markov-chains-FDS.pdf
   source: FDS
 
@@ -507,7 +507,7 @@
   source: SM
 
 - title: MCMC
-  category: markov chain
+  category: markov chains
   url: pdfs/math/markov-chain-monte-carlo-SM.pdf
   source: SM
 
@@ -1138,7 +1138,7 @@
   source: CSI
 
 - title: MCMC
-  category: markov chain
+  category: markov chains
   url: pdfs/math/markov-chain-monte-carlo-CSI.pdf
   source: CSI
 
@@ -1235,6 +1235,7 @@
 - title: exp3
   category: bandits
   url: pdfs/math/bandits-exp3.pdf
+  source: BA
 
 - title: explore-then-commit
   category: bandits
@@ -1481,6 +1482,7 @@
   category: activations 
   url: https://medium.com/srnghn/deep-learning-which-loss-and-activation-functions-should-i-use-ac02f1c56aa8
   source: Medium
+  pic: /px/math/activation-functions.gif
 
 - title: intro
   category: activations
@@ -1635,6 +1637,7 @@
 - title: gereshes.com
   category: attractors
   url: https://gereshes.com/2020/01/13/attracted-to-attractors
+  pic: /px/math/rossler-attractor.png
   notes: thomas's, rossler, lorenz</small>
 
 - title: autocorrelation
@@ -1690,11 +1693,13 @@
 - title: intro
   category: backprop
   pic: /px/math/backprop.png
-  url: http://www.offconvex.org/2016/12/20/backprop/
+  source: offconvex
 
-- title:  intro
+- title:  intro by @karpathy
   category: backprop
   url: https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+  source: medium
+  pic: /px/math/backprop-karpathy.png
 
 - title: gradient flow via backprop
   category: backprop
@@ -1713,10 +1718,11 @@
   category: bayes
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
 
-- title: bandits (mlwhiz)
-  pic: /px/math/bayes-bandits.png
+- title: intro
+  #pic: /px/math/bayes-bandits.png
   url: https://mlwhiz.com/blog/2019/07/21/bandits/
   category: bandits
+  source: mlwhiz
 
 - title: regression (scikit)
   url: http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge
@@ -3599,10 +3605,11 @@ reconstruction, (more)"
   category: data structures
   url: /pdfs/math/fibonacci-heaps-ITA.pdf
 
-- title: 
+- title: Hyper-Parameter Optimization Algorithms
   category: hyperparameters
   pic: /px/math/hyperparameters.png 
   url: https://arxiv.org/abs/2003.05689
+  source: arxiv
 
 - title: intro
   category: hypothesis testing
@@ -3814,50 +3821,60 @@ reconstruction, (more)"
 - title: goodfellow
   category: linear algebra
   url: /pdfs/math/linear_algebra-DLgoodfellow.pdf
+  source: scikit
 
-- title: intro (scikit)
+- title: introduction
   category: manifolds
   pic: /px/math/t-sne.png 
- 
-- title: intro (prateekvjoshi)
-  category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#manifold-learning
+  source: scikit
  
+- title: intro
+  category: manifolds
   url: https://prateekvjoshi.com/2014/06/21/what-is-manifold-learning/
- 
+  source: prateekvjoshi
+
 - title: isomap
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#isomap
- 
+  source: scikit
+
 - title: locally linear embedding (lle)
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#locally-linear-embedding
- 
+  source: scikit
+
 - title: modified lle
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#modified-locally-linear-embedding
- 
+  source: scikit
+
 - title: hessian eigenmapping
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#hessian-eigenmapping
+  source: scikit
  
 - title: spectral embedding
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#spectral-embedding
+  source: scikit
  
 - title: local tangent space alignment (ltsa)
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#local-tangent-space-alignment
+  source: scikit
  
 - title: multidimensional scaling (mds)
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#multi-dimensional-scaling-mds
+  source: scikit
  
 - title: t-sne
   category: manifolds
   url: http://scikit-learn.org/stable/modules/manifold.html#t-distributed-stochastic-neighbor-embedding-t-sne
+  source: scikit
  
-- title: my github
+- title: manifolds - my code
   category: manifolds
   url: https://github.com/bjpcjp/Data-Science-Handbook-Cribsheet/blob/master/05.10-Manifold-Learning.ipynb
   source: github
@@ -4153,9 +4170,10 @@ reconstruction, (more)"
   category: machine vision
   url: https://github.com/Labelbox/Labelbox
  
-- title: audio
+- title: phonetics by computer
   category: audio
   url: http://www.fon.hum.uva.nl/praat/
+  source: praat
  
 - title: anvil
   category: machine video
@@ -4169,9 +4187,10 @@ reconstruction, (more)"
   category: data labeling
   url: https://www.oreilly.com/ideas/labeling-transforming-and-structuring-training-data-sets-for-machine-learning
 
-- title: gamma
-  category: images
+- title: what you need to know about gamma
+  category: machine vision
   url: http://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/
+  source: johnnovak.net
 
 - title: intro to gaussian processes (github)
   category: gaussians
@@ -4462,16 +4481,18 @@ MCMC, bagging, averaging & stacking, bumping"
   pic: /px/math/merkle-tree-root-hash.jpg
   url: https://taravancil.com/blog/how-merkle-trees-enable-decentralized-web/
 
-- title: ADM
-  category: minkowski sum
+- title: minkowski sums
+  category: machine vision
   pic: /px/math/ADM-minkowski-sums.png 
   url: /pdfs/math/minkowski-sum-ADM.pdf
+  source: ADM
 
-- title: sums and diffs
-  category: minkowski sum
+- title: minkowski sums
+  category: machine vision
   url: http://twistedoakstudios.com/blog/Post554_minkowski-sums-and-differences
   source: twisted oak studios
-  
+  source: twistedoakstudios
+
 - title: MO regression
   category: multioutput
   url: http://scikit-learn.org/stable/modules/multiclass.html#multioutput-regression
@@ -4743,64 +4764,64 @@ MCMC, bagging, averaging & stacking, bumping"
   notes: "overflow, underflow, conditioning, gradient-based optimization, constrained optimization"
 
 - title: PwC
-  category: object detection
+  category: machine vision / object detection
   pic: /px/math/object-detection.png 
   url: https://paperswithcode.com/area/computer-vision/object-detection
  
 - title: fritz.ai guide
-  category: object detection
+  category: machine vision / object detection
   url: https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3
  
 - title: yolo
-  category: object detection
+  category: machine vision / object detection
   url: https://www.datasciencecentral.com/profiles/blogs/improving-real-time-object-detection-with-yolo
  
 - title: yolo v3
-  category: object detection
+  category: machine vision / object detection
   url: https://pjreddie.com/media/files/papers/YOLOv3.pdf
  
 - title: tryolabs
-  category: object detection
+  category: machine vision / object detection
   url: https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/
  
 - title: r-cnn (orig)
-  category: object detection
+  category: machine vision / object detection
   url: https://arxiv.org/abs/1311.2524
  
 - title: fast r-cnn
-  category: object detection
+  category: machine vision / object detection
   url: https://arxiv.org/abs/1504.0808
  
 - title: region of interest pooling
-  category: object detection
+  category: machine vision / object detection
   url: https://blog.deepsense.ai/region-of-interest-pooling-explained/
  
 - title: faster r-cnn
-  category: object detection
+  category: machine vision / object detection
   url: https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/
  
 - title: selective search
-  category: object detection
+  category: machine vision / object detection
   url: https://koen.me/research/selectivesearch/
  
 - title: 10 lines of code
-  category: object detection
+  category: machine vision / object detection
   url: https://towardsdatascience.com/object-detection-with-10-lines-of-code-d6cb4d86f606
  
 - title: 6 lines of code
-  category: object detection
+  category: machine vision / object detection
   url: https://medium.com/deepquestai/train-object-detection-ai-with-6-lines-of-code-6d087063f6ff
  
 - title: multiple objects
-  category: object detection
+  category: machine vision / object detection
   url: https://github.com/adipandas/multi-object-tracker
  
 - title: luminoth
-  category: object detection
+  category: machine vision / object detection
   url: http://github.com/tryolabs/luminoth
  
 - title: luminoth-faster r-cnn
-  category: object detection
+  category: machine vision / object detection
   url: https://github.com/tryolabs/luminoth/tree/master/luminoth/models/fasterrcnn
 
 - title: PwC
@@ -6127,6 +6148,6 @@ MCMC, bagging, averaging & stacking, bumping"
   source: embeddedrelated
 
 - title: new approaches in object detection 
-  category: object detection 
+  category: machine vision / object detection 
   url: https://towardsdatascience.com/new-approaches-to-object-detection-f5cbc925e00e?source=rss----7f60cf5620c9---4
   source: medium/tds
