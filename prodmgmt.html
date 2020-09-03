@@ -27,7 +27,8 @@ permalink: /prodmgmt/
 	        		   style="color:black;">
 	        		{{ tag.name }}</a></strong>:
 
-	        	{%- for item in tag.items -%}
+	        	{%- assign sorted_tag_items = tag.items | sort: "title" -%}
+	        	{%- for item in sorted_tag_items -%}
 
 	        		<li style="list-style-type: none;">
 

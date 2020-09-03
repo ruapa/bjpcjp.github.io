@@ -112,79 +112,79 @@
 
 - url: https://www.theregister.com/2020/07/03/stop_tracking_increase_revenue_effectiveness/
   title: Dutch broadcaster ad revenue vs user tracking (Register)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://priceonomics.com/the-economics-of-infomercials/
   title: The Economics of Infomercials (Priceonomics)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://medium.com/the-mission/learn-buyer-psychology-66b969578b2b
   title: 15 Lessons from Infomercials (Medium)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://stratechery.com/2016/tv-advertisings-surprising-strength-and-inevitable-fall/
   title: TV Advertising's Strength & Inevitable Fall (Stratechery)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://techcrunch.com/2012/05/06/startups-live-die-by-these-5-street-smart-laws-of-advertising/
   title: The 5 Street-smart Laws of Advertising (TechCrunch)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://wiki.appnexus.com/display/industry/Online+Advertising+and+Ad+Tech+Glossary
   title: Online Advertising & AdTech Glossary (AppNexus)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://www.dataxu.com/ad-tech-glossary/
   title: Ad Tech Glossary (DataXu)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://dev.adzerk.com/docs/glossary
   title: Intro to AdTech (Adzerk)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://en.wikipedia.org/wiki/List_of_advertising_networks
   title: List of Advertising Networks (Wikipedia)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: http://searchengineland.com/how-to-easily-manage-test-millions-of-ads-137187
   title: How to Test Millions of Ads (Search Engine Land)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://www.practicalecommerce.com/success-google-shopping-ads-part-1-getting-started
   title: Google Shopping ads 101 (Practical Ecommerce)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: http://www.gkogan.co/blog/ugly-ad-saved-business/
   title: An Ugly Ad Saved my Business (Greg Kogan)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
 - url: https://blog.kissmetrics.com/behavioral-advertising/
   title: Behavioral Advertising (Kissmetrics)
-  tags: "advertising tech"
+  tags: advertising
   pic:
   notes:
 
@@ -192,7 +192,7 @@
 
 - url: https://www.dylanpaulus.com/2019-11-24-how-fb-avoids-adblockers/
   title: How FB Avoids Ad Blockers (Dylan Paulus)
-  tags: "ad blockers"
+  tags: advertising
   pic:
   notes:
 
@@ -408,7 +408,7 @@
   notes:
 
 - url: https://twitter.com/kivestu/status/1003750173502083072
-  title: Some Great Writing on Product Management (@kivestu)
+  title: Great PM Writing (@kivestu)
   tags: best practices
   pic:
   notes:
@@ -494,7 +494,7 @@
   notes:
 
 - url: https://gigaom.com/2009/09/13/what-we-can-learn-about-pricing-from-menu-engineers/
-  title: What we can Learn about Pricing from Menu Designers (GigaOm)
+  title: Learn about Pricing from Menu Designers (GigaOm)
   tags: "catalogs & menus"
   pic:
   notes:
@@ -508,7 +508,7 @@
   notes:
 
 - url: http://nautil.us/blog/the-tricks-used-by-pilots-surgeons--engineers-to-overcome-human-error
-  title: Tricks used by Pilots & Surgeons to Overcome Human Error (Nautilus)
+  title: How Pilots & Surgeons avoid Human Error (Nautilus)
   tags: checklists
   pic:
   notes:
@@ -522,7 +522,7 @@
   notes:
 
 - url: https://searchenginewatch.com/sew/how-to/2216887/an-18tip-checklist-to-boost-online-checkouts
-  title: 18 Tips to Boost Online Checkouts (Search Engine Watch)
+  title: 18 Tips (Search Engine Watch)
   tags: checkout
   pic:
   notes:
@@ -536,7 +536,7 @@
   notes:
 
 - url: https://www.datascience.com/blog/what-is-a-churn-analysis-and-why-is-it-valuable-for-business
-  title: What is Churn Analysis and Why It's Valuable (DataScience)
+  title: What is Churn Analysis (DataScience)
   tags: churn
   pic:
   notes:
@@ -548,7 +548,7 @@
   notes:
 
 - url: https://engineering.shopify.com/17488468-defining-churn-rate-no-really-this-actually-requires-an-entire-blog-post#axzz2UtHKjaLV
-  title: Redefining Churn Rate - No Really this Requires an Entire Blog Post (Shopify)
+  title: Redefining Churn Rate (Shopify)
   tags: churn
   pic:
   notes:
@@ -556,7 +556,7 @@
 ##########################
 
 - url: https://blog.intercom.com/retention-cohorts-and-visualisations
-  title: Retention Cohorts & Vizualizations (Intercom)
+  title: Retention Cohorts (Intercom)
   tags: cohorts
   pic:
   notes:
@@ -582,7 +582,7 @@
   notes:
 
 - url: https://www.quora.com/What-is-the-best-way-to-manage-a-community-around-a-product-especially-in-its-early-stages/answer/Brian-Piercy?share=8ada5aaf&srid=0BG
-  title: How to Manage a Community Around an Early-Stage Product? (Quora)
+  title: Communities & Early-Stage Products (Quora)
   tags: communities
   pic:
   notes:
@@ -594,13 +594,13 @@
   notes:
 
 - url: http://mashable.com/2011/01/25/hiring-community-manager/#XU5QXhQ6Sqqd
-  title: What to Look for When Hiring a Community Manager (Mashable)
+  title: How to Hire a Community Manager (Mashable)
   tags: communities
   pic:
   notes:
 
 - url: http://stephaniehurlburt.com/blog/2019/3/27/you-should-organize-a-study-groupbook-clubonline-groupevent-tips-on-how-to-do-it
-  title: You Should Organize an Event. Here's How to do it. (Stephanie Hurlburt)
+  title: How to Organize an Event (Stephanie Hurlburt)
   tags: communities
   pic:
   notes:
@@ -613,7 +613,7 @@
 
 - url: http://svpg.com/the-power-of-reference-customers
   title: The Power of Reference Customers (SVPG)
-  tags: communities
+  tags: social proof
   pic:
   notes:
 
@@ -632,7 +632,7 @@
   notes:
 
 - url: http://www.practicalecommerce.com/articles/76008-45-Tools-to-Generate-Content-for-Ecommerce
-  title: 45 Tools to Generate Ecommerce Content (Practical Ecommerce)
+  title: 45 Ecommerce Content Tools(Practical Ecommerce)
   tags: content
   pic:
   notes:
@@ -669,7 +669,7 @@
 
 - url: https://www.farnamstreetblog.com/2011/09/create-advertising-that-sells/
   title: Advertising that Sells (Farnam Street)
-  tags: content
+  tags: advertising
   pic:
   notes:
 
@@ -720,13 +720,13 @@
   notes:
 
 - url: https://whatculture.com/gaming/gta-v-9-facts-that-will-blow-your-mind?page=4
-  title: Why Rockstar Games PAID for Negative Press Exposure (What Culture)
+  title: Why Rockstar Games PAID for Negative Press (What Culture)
   tags: controversy
   pic:
   notes:
 
 - url: https://alistapart.com/article/dont-poke-the-bear-creating-content-for-sensitive-situations
-  title: Don't Poke the Bear - How to Communicate Sensitive Situations (A List Apart)
+  title: Don't Poke the Bear - Sensitive Situations (A List Apart)
   tags: controversy
   pic:
   notes:
@@ -766,13 +766,13 @@
   notes: 
 
 - url: https://labs.openviewpartners.com/inner-workings-of-product-management-at-product-led-growth-companies/#.XALyAp-YXPE
-  title: Product Management at Product-Led Growth Companies (OpenView Partners)
+  title: PM at Product-Led Growth Companies (OpenView Partners)
   tags: culture
   pic: 
   notes: 
 
 - url: https://hackernoon.com/what-marissa-mayer-brought-to-yahoo-that-cant-be-bought-or-sold-4ee82382e4ee
-  title: What Marissa Mayer Brought to Yahoo - Can't be Bought (HackerNoon)
+  title: What Marissa Mayer Brought to Yahoo (HackerNoon)
   tags: culture
   pic: 
   notes: 
@@ -784,7 +784,7 @@
   notes: 
 
 - url: https://www.forbes.com/sites/erikaandersen/2012/08/27/why-some-companies-lose-their-best-people-and-others-dont/#14e4d2b77b47
-  title: Why some companies lose their best people - and others don't (Forbes)
+  title: Why some companies lose their best people (Forbes)
   tags: culture
   pic: 
   notes: 
@@ -796,13 +796,13 @@
   notes: 
 
 - url: https://inside.bwater.com/publications/principles_excerpt
-  title: Principles by Ray Dalio - excerpt (Bridgewater)
+  title: Principles by Ray Dalio (Bridgewater)
   tags: culture
   pic: 
   notes: 
 
 - url: https://www.quora.com/What-makes-someone-a-great-product-manager-at-Google-What-are-the-necessary-and-ideal-qualities-to-have/answer/Rob-Ennals
-  title: What Makes a Great Product Manager at Google? (Quora)
+  title: What Makes a Great PM at Google? (Quora)
   tags: culture
   pic: 
   notes: 
@@ -814,7 +814,7 @@
   notes: 
 
 - url: https://www.leadershipnow.com/leadingblog/2018/01/8_principles_for_building_a_hi.html
-  title: 8 Principles for Building High Performance Teams (Leadership Now)
+  title: 8 Principles for Building High-Perf Teams (Leadership Now)
   tags: culture
   pic: 
   notes: 
@@ -832,7 +832,7 @@
   notes: 
 
 - url: https://hackernoon.com/psychological-safety-risk-tolerance-and-high-functioning-software-teams-75701ed23f68
-  title: Psychological Safety, Risk Tolerance and High Functioning Software Teams (Hacker Noon)
+  title: Psychological Safety & Risk Tolerance (Hacker Noon)
   tags: culture
   pic: 
   notes: 
@@ -936,7 +936,7 @@
   notes: 
 
 - url: http://www.practicalecommerce.com/articles/88111-15-Tools-to-Curate-Content-for-Social-Media-Newsletters-More
-  title: 15 Tools to Curate Content for Social Media Newsletters (Practical Ecommerce)
+  title: Curation Tools for Newsletters (Practical Ecommerce)
   tags: curation & personalization
   pic: 
   notes: 
@@ -954,7 +954,7 @@
   notes: 
 
 - url: https://techcrunch.com/2015/06/25/the-future-of-algorithmic-personalization/
-  title: The Future of Algorithmic Personalization
+  title: The Future of Algorithmic Personalization (TechCrunch)
   tags: curation & personalization
   pic: 
   notes: 
@@ -1035,7 +1035,7 @@
   notes: 
 
 - url: https://blog.kissmetrics.com/a-great-support-portal/
-  title: https://blog.kissmetrics.com/a-great-support-portal/
+  title: A Great Support Portal (Kissmetrics)
   tags: "customer service"
   pic: 
   notes: 
@@ -1062,25 +1062,25 @@
 
 - url: https://hbr.org/2019/04/what-process-mining-is-and-why-companies-should-do-it
   title: An Intro to Process Mining (HBR)
-  tags: "data collection"
+  tags: "data mining"
   pic: 
   notes: 
 
 - url: https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/
   title: Making Uncommon Knowledge Common (Kevin Kwok)
-  tags: "data collection"
+  tags: "data mining"
   pic: 
   notes: 
 
 - url: http://www.marketplace.org/2014/03/18/business/quizzes-are-free-data-mining-tools-brands
   title: Quizzes are Free Data Mining Tools (Marketplace.org)
-  tags: "data collection"
+  tags: "data mining"
   pic: 
   notes: 
 
 - url: https://medium.com/@muellerfreitag/10-data-acquisition-strategies-for-startups-47166580ee48#.h0146q9vp
-  title: 10 Data Acquisition Strategies for Startups (@Muellerfreitag)
-  tags: "data collection"
+  title: 10 Data Acquisition Strategies (@Muellerfreitag)
+  tags: "data mining"
   pic: 
   notes: 
 
@@ -1113,13 +1113,13 @@
   notes: 
 
 - url: https://www.behavioraleconomics.com/we-use-less-information-than-we-think-to-make-decisions/
-  title: We use less information that we think to make decisions (Behavioral Economics)
+  title: We use less information that we think (Behavioral Economics)
   tags: decisions
   pic: 
   notes: 
 
 - url: https://medium.com/product-labs/6-decision-making-techniques-all-product-managers-should-know-429fe4d13654#.egpho6ooz
-  title: Six Decision-Making Techniques all Product Managers Should Know (Medium)
+  title: Six Decision-Making Techniques (Medium)
   tags: decisions
   pic: 
   notes: 
@@ -1173,7 +1173,7 @@
   notes: 
 
 - url: https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b
-  title: Making Good Decisions as a Product Manager (Black Box PM)
+  title: Making Good Decisions (Black Box PM)
   tags: decisions
   pic: 
   notes: 
@@ -1203,7 +1203,7 @@
   notes: 
 
 - url: http://www.sachinrekhi.com/the-art-of-decision-making-as-a-product-manager
-  title: The Art of Decision Making as a PM (Sachin Rekhi)
+  title: The Art of Decision Making (Sachin Rekhi)
   tags: decisions
   pic: 
   notes: 
@@ -1224,7 +1224,7 @@
 
 
 - url: https://commoncog.com/blog/to-get-good-go-after-the-metagame/
-  title: to get good, go after the metagame (commoncog)
+  title: Go after the metagame (commoncog)
   tags: discovery & learning
   pic: 
   notes: 
@@ -1236,7 +1236,7 @@
   notes: 
 
 - url: https://blogs.scientificamerican.com/observations/the-science-of-asking-what-people-want/
-  title: The Science of Asking People What they Want (Scientific American)
+  title: How to Ask People What they Want (Scientific American)
   tags: discovery & learning
   pic: 
   notes: 
@@ -1260,7 +1260,7 @@
   notes: 
 
 - url: http://www.talkingtohumans.com/index
-  title: Talking to Humans - Index (TtH)
+  title: Talking to Humans (TtH)
   tags: discovery & learning
   pic: 
   notes: 
@@ -1326,13 +1326,13 @@
   notes: 
 
 - url: http://kevindewalt.com/2013/02/09/how-i-make-customer-development-interviews-less-weird-and-more-natural/
-  title: How to Make Customer Development Interviews Less Weird & More Natural (Kevin DeWalt)
+  title: Make Customer Interviews Less Weird & More Natural (Kevin DeWalt)
   tags: discovery & learning
   pic: 
   notes: 
 
 - url: https://www.fastcompany.com/3003945/one-conversational-tool-will-make-you-better-absolutely-everything
-  title: One Conversational Tool to Make You Better at Everything (Fast CompanY)
+  title: Become Better at Conversations (Fast CompanY)
   tags: discovery & learning
   pic: 
   notes: 
@@ -1362,7 +1362,7 @@
   notes: 
 
 - url: https://www.quora.com/What-are-some-methods-and-tools-for-analyzing-customer-discovery-interviews
-  title: What are some Methods & Tools for Analyzing Customer Discovery Interviews? (Quora)
+  title: Methods for Analyzing Customer Discovery Interviews? (Quora)
   tags: discovery & learning
   pic: 
   notes: 
@@ -1370,7 +1370,7 @@
 ##########################
 
 - url: https://www.divio.com/blog/documentation/
-  title: The Four Types of good Software Documentation (divio)
+  title: 4 Types of good Software Documentation (divio)
   tags: documentation
   pic: 
   notes: 
@@ -1387,26 +1387,30 @@
 - url: http://www.practicalecommerce.com/articles/76084-Ecommerce-"drop shipping"-vs-Marketplaces-Pros-Cons
   title: Drop Shipping vs Marketplaces - Pros & Cons (Practical Ecommerce)
   tags: "drop shipping"
-  pic: /px/prodmgmt/amazon_marketplace3.png
+  #pic: /px/prodmgmt/amazon_marketplace3.png
   notes: 
 
 - url: http://www.practicalecommerce.com/articles/71038-"drop shipping"-for-Ecommerce-Part-1-Supply-Chain-History-
-  title: Drop Shipping, Pt 1 - Supply Chain History (Practical Ecommerce)
+  title: Pt 1 - Supply Chain History (Practical Ecommerce)
   tags: "drop shipping"
   pic: 
   notes: 
 
 - url: http://www.practicalecommerce.com/articles/71801-"drop shipping"-for-Ecommerce-Part-2-The-Basics
-  title: Drop Shipping, Pt 2 - The Basics (Practical Ecommerce)
+  title: Pt 2 - The Basics (Practical Ecommerce)
   tags: "drop shipping" 
   pic: 
   notes: 
 
 - url: http://www.practicalecommerce.com/articles/73342-"drop shipping"-for-Ecommerce-Part-3-Suppliers-vs-Retailers
-  title: Drop Shipping, Pt 3 - Suppliers vs Retailers (Practical Ecommerce)
+  title: Pt 3 - Suppliers vs Retailers (Practical Ecommerce)
   tags: "drop shipping"
   pic: 
   notes: 
+
+- url: https://duckduckgo.com/?q=drop+shipping+best+practices+%23prodmgmt&t=canonical&ia=web
+  title: Best Practices search results, page 1 (DuckDuckGo)
+  tags: "drop shipping"
 
 ##########################
 
@@ -1444,25 +1448,25 @@
   notes: 
 
 - url: https://flipboard.com/@flipboard/flip.it%2FqZYwY3-how-to-write-email-with-military-precis/f-e019b96b2e%2Fhbr.org
-  title: How to Write Email with Military Precision (Flipboard)
+  title: Military-Precision Emails (Flipboard)
   tags: email
   pic: 
   notes: 
 
 - url: http://blog.chamaileon.io/900-free-responsive-email-templates-to-help-you-start-with-email-design
-  title: Email Starter Templates (Chamaileon.io)
-  tags: email
-  pic: 
-  notes: 
-
-- url: http://www.practicalecommerce.com/articles/83709-Email-Metrics-Part-2-Advanced-Topics
-  title: Email Marketing Metrics (Pt 2, Advanced) (Practical Ecommerce)
+  title: Starter Templates (Chamaileon.io)
   tags: email
   pic: 
   notes: 
 
 - url: http://www.practicalecommerce.com/articles/81311-Email-Metrics-Part-1-The-Basics-
-  title: Email Marketing Metrics (Pt 1, Basics) (Practical Ecommerce)
+  title: Metrics (Pt 1, Basics) (Practical Ecommerce)
+  tags: email
+  pic: 
+  notes: 
+
+- url: http://www.practicalecommerce.com/articles/83709-Email-Metrics-Part-2-Advanced-Topics
+  title: Metrics (Pt 2, Advanced) (Practical Ecommerce)
   tags: email
   pic: 
   notes: 
@@ -1480,19 +1484,19 @@
   notes: 
 
 - url: http://www.verticalresponse.com/blog/10-examples-of-highly-effective-welcome-emails/
-  title: 10 Examples of Highly Effective Welcome Emails (Vertical Response)
+  title: Effective Welcome Emails (Vertical Response)
   tags: email
   pic: 
   notes: 
 
 - url: https://bothsidesofthetable.com/how-to-get-busy-people-to-take-action-when-you-send-an-email-779c432fc3cd#.d5mdfjv1o
-  title: How to Get Busy People to Take Action When You Send an Email (Both Sides of the Table)
+  title: How to Get Busy People to Take Action (Both Sides of the Table)
   tags: email
   pic: 
   notes: 
 
 - url: http://conversionsciences.com/blog/14-inspiring-email-subject-line-hacks-from-the-sxsw-catalog/
-  title: Inspiring Email Subject Line Hacks from the SxSW Catalog (Conversion Sciences)
+  title: Email Subject Line Hacks from SxSW (Conversion Sciences)
   tags: email
   pic: 
   notes: 
@@ -1516,19 +1520,19 @@
   notes: 
 
 - url: https://blog.kissmetrics.com/high-email-open-rates/
-  title: High Open Rates (Kissmetrics)
+  title: Open Rates (Kissmetrics)
   tags: email
   pic: 
   notes: 
 
 - url: https://blog.kissmetrics.com/email-clickthrough-rates-skyrocket/
-  title: Email Clickthru Rates (Kissmetrics)
+  title: Clickthru Rates (Kissmetrics)
   tags: email
   pic: 
   notes: 
 
 - url: https://blog.kissmetrics.com/increase-ltv-with-remarketing/
-  title: Increased LTV with Remarketing (Kissmetrics)
+  title: LTV with Remarketing (Kissmetrics)
   tags: email
   pic: 
   notes: 
@@ -1543,12 +1547,6 @@
 
 - url: https://www.reddit.com/r/Entrepreneur/comments/etqhm7/we_have_built_and_launched_exactly_30_tech/
   title: Lessons Learned from Launching 30 Products (Reddit)
-  tags: execution
-  pic: 
-  notes: 
-
-- url: https://getpocket.com/explore/item/how-to-write-email-with-military-precision
-  title: How to Write Email with Military Precision (Pocket/HBR)
   tags: execution
   pic: 
   notes: 
@@ -1597,7 +1595,7 @@
 
 - url: https://en.wikipedia.org/wiki/Planning_poker
   title: Planning Poker (Wikipedia)
-  tags: execution
+  tags: risk management
   pic: 
   notes: 
 
@@ -1681,7 +1679,7 @@
 
 - url: http://blog.samaltman.com/super-successful-companies
   title: The Behaviors of Super-Successful Companies (Sam Altman)
-  tags: execution
+  tags: culture
   pic: 
   notes: 
 
@@ -1692,13 +1690,13 @@
   notes: 
 
 - url: http://www.terrystarbucker.com/2012/01/15/execution-leadership-12-metrics-that-must-be-measured-monitored-and-managed-relentlessly/
-  title: 12 Metrics that must be Measured & Managed Relentlessly (Terry Starbucker)
+  title: 12 Essential Metrics (Terry Starbucker)
   tags: execution
   pic: 
   notes: 
 
 - url: http://www.mckinsey.com/industries/high-tech/our-insights/moneyball-for-engineers-what-the-semiconductor-industry-can-learn-from-sports
-  title: Moneyball for Engineers - How semiconductor managers can learn from Sports (McKinsey)
+  title: Moneyball for Semiconductor Engineers (McKinsey)
   tags: execution
   pic: 
   notes: 
@@ -1713,43 +1711,43 @@
 
 - url: https://jeffgothelf.com/blog/what-is-an-okr-here-are-the-basics/
   title: OKR basics (Jeff Gothelf)
-  tags: "execution/okrs"
+  tags: okrs
   pic:
   notes:
     
 - url: https://svpg.com/team-objectives-overview/
   title: OKRs aren't for everyone (Marty Cagan)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
 - url: https://www.noupe.com/design/okrs-the-ultimate-guide-to-goal-setting-in-2020.html
   title: OKRs - 2020 Guide to Goal Setting (Noupe)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
 - url: https://davnicwil.com/just-build-the-product/
   title: Just Build the Product (David Nicholas Williams)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
 - url: http://eleganthack.com/the-art-of-the-okr/
   title: The Art of the OKR (Elegant Hack)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
 - url: http://eleganthack.com/using-okrs-to-increase-organizational-learning/
   title: Using OKRs to Increase Organizational Learning (Elegant Hack)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
 - url: http://eleganthack.com/why-key-results-need-to-be-results/
   title: Why Key Results Need to Be Results (Elegant Hack)
-  tags: "execution/okrs"
+  tags: okrs
   pic: 
   notes: 
 
@@ -1768,7 +1766,7 @@
   notes: 
 
 - url: https://medium.com/precoil/an-introduction-to-experiment-pairing-8e2e24796f3e
-  title: An introduction to Experiment Pairing (Precoil)
+  title: Experiment Pairing (Precoil)
   tags: "experiments & validation"
   pic: 
   notes: 
@@ -1787,7 +1785,7 @@
 
 - url: https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/
   title: The Dirty Dozen Mistakes in Analytics Experiments (Acolyer)
-  tags: "experiments & validation"
+  tags: analytics
   pic: 
   notes: 
 
@@ -1849,61 +1847,61 @@
 
 - url: https://zenhabits.net/ship/
   title: Just Fail Faster (ZenHabits)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: http://informationarbitrage.com/post/2953984660/failing-well
   title: Failing Well (Info Arbitrage)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: http://www.chubbybrain.com/blog/startup-failure-post-mortem/
   title: Startup Failure Post Mortems (Chubby Brain)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: http://autopsy.io/
   title: http://autopsy.io/
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://steveblank.com/2015/03/11/fear-of-failure-and-lack-of-speed-in-a-large-corporation/
   title: Fear of Failure in Large Corporations (Steve Blank)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://pando.com/2012/11/24/the-big-takeaway-learning-from-failure/
   title: The Big Takeaway -Learning from Failure (Pando)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: http://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/learning-to-let-go-making-better-exit-decisions
   title: Making Better Exit Decisions (McKinsey)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: http://www.vox.com/2015/11/20/9757186/netflix-video-rental-store
   title: Video Rental Stores (Vox)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://en.wikipedia.org/wiki/Eight_Disciplines_Problem_Solving
   title: What is an 8D? (Wikipedia)
-  tags: "failure/autopsies"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis
-  title: What is a Failure Mode & Effects Analysis (FMEA)? (Wikipedia)
-  tags: "failure/autopsies"
+  title: Failure Mode & Effects Analysis (FMEA) (Wikipedia)
+  tags: "failure"
   pic: 
   notes: 
 
@@ -1911,19 +1909,19 @@
 
 - url: https://qualitysafety.bmj.com/content/26/8/671
   title: The Problem with "5 Whys" (BMJ)
-  tags: "failure / 5 whys"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://www.slideshare.net/danmil30/how-to-run-a-5-whys-with-humans-not-robots
   title: How to Run a 5-Whys Session with Humans (Slideshare)
-  tags: "failure / 5 whys"
+  tags: "failure"
   pic: 
   notes: 
 
 - url: https://blog.getenjoyhq.com/how-to-handle-failure-as-a-product-manager/
   title: How to Handle Failure as a PM (Get Enjoy HQ)
-  tags: "failure / 5 whys"
+  tags: "failure"
   pic: 
   notes: 
 
@@ -1934,7 +1932,7 @@
   tags: faqs
 
 - url: http://spyrestudios.com/30-faq-webpage-layouts-with-effective-user-experience/
-  title: 30 FAQ Pages with Effective UX Principles (Spyre Studios)
+  title: FAQ Pages & UX Principles (Spyre Studios)
   tags: faqs
 
 - url: http://sixrevisions.com/user-interface/designing-effective-faq-pages/
@@ -1964,7 +1962,7 @@
   tags: "features & benefits"
 
 - url: https://techcrunch.com/2013/01/19/every-company-is-up-for-disruption-so-keep-your-products-simple/
-  title: Every Company is Disruptable - Keep Your Products Simple (TechCrunch)
+  title: Keep Your Products Simple (TechCrunch)
   tags: "features & benefits"
 
 - url: https://library.gv.com/babe-ruth-and-feature-lists-1818bb8c6ca8#.uadfv7eny
@@ -2046,7 +2044,7 @@
   tags: "friction & traction"
 
 - url: https://medium.com/sequoia-capital/10-steps-to-a-friction-free-app-518fa9b12227
-  title: 10 Steps to a Friction-Free App (Sequoia)
+  title: Friction-Free Apps (Sequoia)
   tags: "friction & traction"
 
 - url: https://medium.com/@sarahtavel/the-hierarchy-of-engagement-expanded-648329d60804
@@ -2067,7 +2065,7 @@
 
 - url: https://www.thumbtack.com/engineering/the-usability-experts-were-right-5-changes-we-made-to-increase-conversion-by-50/
   title: Conversion successes (Thumbtack)
-  tags: "friction & traction"
+  tags: conversions
 
 - url: https://medium.com/platform-thinking/how-paypal-and-reddit-faked-their-way-to-traction-9411fb583205#.u152e5g9i
   title: How Paypal & Reddit Faked it (Medium)
@@ -2091,15 +2089,15 @@
 
 - url: https://docs.google.com/document/d/1Y4NwrsoucPqNFqIkhwNgKpPzf0wqnrN6tcKF2g4nVoM/edit
   title: Launch strategy (Pratik Mehta)
-  tags: "go to market"
+  tags: launches
 
 - url: https://chatbotsmagazine.com/marketing-plan-and-chill-75f7e3d63358#.kgoqx0ahk
   title: Marketing plan (Michael Taylor)
-  tags: "go to market"
+  tags: launches
 
 - url: https://docs.google.com/presentation/d/1idjXAJDUn8EOMnzE5B0ZtR3BcQAdN3YteFGBoPkUUEI/edit#slide=id.p
   title: GTM (Product Folks)
-  tags: "go to market"
+  tags: launches
 
 ##########################
 
@@ -2129,7 +2127,7 @@
 
 - url: https://blog.kissmetrics.com/growth-hacking-analytics/
   title: Growth Analytics (Kissmetrics)
-  tags: "growth hacks"
+  tags: analytics
 
 - url: https://thenextweb.com/entrepreneur/2015/04/22/9-qualities-of-world-class-growth-hacking-teams/#.tnw_oKVFaOBx
   title: 9 Qualities of World Class Growth Hack Teams (TNW)
@@ -2152,7 +2150,7 @@
   tags: "growth hacks"
 
 - url: http://andrewchen.co/theres-only-a-few-ways-to-scale-user-growth-and-heres-the-list/
-  title: There's Only a Few Ways to Scale User Growth. Here's the List (Andrew Chen)
+  title: User Growth hacks (Andrew Chen)
   tags: "growth hacks"
 
 - url: https://medium.com/the-growth-hackers-cookbook
@@ -2160,7 +2158,7 @@
   tags: "growth hacks"
 
 - url: https://medium.com/startup-grind/top-10-proven-growth-hacking-ideas-for-2016-bcd3c126de63#.55g9mk6mm
-  title: Top 10 Proven Growth Hack ideas (Medium)
+  title: Proven Growth Hack ideas (Medium)
   tags: "growth hacks"
 
 - url: http://www.themarysue.com/reddit-fake-account-origins/
@@ -2172,7 +2170,7 @@
   tags: "growth hacks"
 
 - url: https://thenextweb.com/insider/2015/09/06/10-of-the-most-effective-"growth hacks"-from-a-pro/#.tnw_yv7FSzoG
-  title: Effective Growth Hacks according to the Pros (TNW)
+  title: Effective Growth Hacks (TNW)
   tags: "growth hacks"
 
 - url: https://bothsidesofthetable.com/why-the-haters-are-wrong-about-growth-hacking-9eba7f4a3ced#.83t8eqbmv
@@ -2201,7 +2199,7 @@
 
 - url: https://blog.kissmetrics.com/recipe-of-viral-features/
   title: A Recipe of Viral Features (Kissmetrics)
-  tags: "growth hacks"
+  tags: virality
 
 - url: https://library.gv.com/10x-not-10-34ba4eb91130#.ol6o9o3zs
   title: 10X - not 10% (Ken Norton - Google Ventures)
@@ -2269,7 +2267,7 @@
   tags: ideation
 
 - url: https://www.techinasia.com/10-ways-choose-idea-startup
-  title: https://www.techinasia.com/10-ways-choose-idea-startup
+  title: 10 Ways to Choose an Idea (Tech In Asia)
   tags: ideation
 
 - url: https://medium.com/the-mission/the-startup-idea-matrix-182bf2e6a53a#.3or6y5q3x
@@ -2366,19 +2364,19 @@
 
 - url: https://www.economist.com/finance-and-economics/2018/10/20/repair-is-as-important-as-innovation
   title: Repair is as Important as Innovation (Economist)
-  tags: "innovation/repairs"
+  tags: repairs
 
 - url: http://philip.yurchuk.com/software/buying-enterprise-software/
   title: Buying Enterprise Software (Philip Yurchuk)
-  tags: "innovation/repairs"
+  tags: repairs
 
 - url: https://repaircafe.org/en/
   title: Repair Cafe
-  tags: "innovation/repairs"
+  tags: repairs
 
 - url: https://www.entrepreneur.com/article/80684
   title: 105 Service Businesses (Entrepreneur)
-  tags: "innovation/repairs"
+  tags: repairs
 
 ##########################
 
@@ -2387,7 +2385,7 @@
   tags: interviewing
 
 - url: http://firstround.com/review/hire-a-top-performer-every-time-with-these-interview-questions/
-  title: Find a Top Performer Every Time with These Interview Questions (First Round)
+  title: Find a Top Performer Every Time (First Round)
   tags: interviewing
 
 - url: http://www.cerebralmastication.com/2011/04/the-best-interview-question-ive-ever-been-asked/
@@ -2395,82 +2393,82 @@
   tags: interviewing
 
 - url: http://www.williambharding.com/blog/hiring/meta-analysis-best-interview-questions-to-spot-ideal-employees/
-  title: Interview Questions to Spot Ideal Employees (William Harding)
+  title: How to Spot Ideal Employees (William Harding)
   tags: interviewing
 
 ##########################
 
 - url: https://noidea.dog/glue
   title: Being the "Glue" (Denise Yu)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://twitter.com/noah_weiss/status/999311514556284928
   title: Five product management Myths (Noah Weiss)
-  tags: "job definition"
+  tags: jobdef
 
 - url: http://99u.com/articles/7269/Picasso-Kepler-and-the-Benefits-of-Being-an-Expert-Generalist
   title: The Benefits of Being an Expert Generalist (99U)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://generalassemb.ly/blog/how-to-say-no-to-your-ceo/
   title: How to Say No (General Assembly)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://blog.intercom.com/product-strategy-means-saying-no/
   title: Product Strategy Means Saying No (Intercom)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://hackernoon.com/negotiate-like-a-pro-how-to-say-no-to-product-feature-requests-e2ce00ae9981
   title: Say No to Product Feature Requests (HackerNoon)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://medium.com/@brandonmchu/product-management-is-a-lot-like-playing-poker-a1f3b00dcbe#.mf1ezuq3g
   title: Product Management is a Lot like Playing Poker (Brandon Chu)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://iterativepath.wordpress.com/2013/09/28/dont-be-a-product-person-be-a-merchant/
   title: Don't be a Product Person. Be a Merchant (Iterative Path)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://www.quora.com/What-distinguishes-the-Top-1-of-Product-Managers-from-the-Top-10
-  title: What Distinguishes the Top 1% of Product Managers from the Top 10? (Quora)
-  tags: "job definition"
+  title: What Distinguishes the Top 1% of Product Managers? (Quora)
+  tags: jobdef
 
 - url: https://hbr.org/2017/12/what-it-takes-to-become-a-great-product-manager
   title: What it Takes to Become a Great Product Manager (HBR)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://www.kennorton.com/essays/productmanager.html
-  title: https://www.kennorton.com/essays/productmanager.html
-  tags: "job definition"
+  title: Essay (Ken Norton)
+  tags: jobdef
 
 - url: https://www.kennorton.com/essays/leading-cross-functional-teams.html
   title: Leading Cross-Functional Teams (Ken Norton)
-  tags: "job definition"
+  tags: jobdef
 
 - url: http://svpg.com/behind-every-great-product/
   title: Behind Every Great Product... (SVPG)
-  tags: "job definition"
+  tags: jobdef
 
 - url: http://www.hightechinthehub.com/2013/03/product-management-is-a-company-not-a-department/
   title: Product Manager is a Company, NOT a Department (High Tech in the Hub)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://www.linkedin.com/pulse/four-types-product-management-skills-steve-johnson
   title: Four Types of Product Management Skills (Steve Johnson)
-  tags: "job definition"
+  tags: jobdef
 
 - url: http://pmhardcore.com/2015/04/13/the-astonishing-financial-benefits-of-improving-pm-effectiveness/
   title: The Astonishing Financial Benefits of Improving Product Management Effectiveness (Hardcore PM)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://medium.com/@joshelman/a-product-managers-job-63c09a43d0ec#.c7xdoxskp
   title: A Product Manager's Job (Josh Elman)
-  tags: "job definition"
+  tags: jobdef
 
 - url: https://medium.com/evergreen-business-weekly/how-to-master-the-discipline-of-product-management-not-the-job-of-product-manager-28d2c493d445#.ed6hym9as
   title: How to Master Product Management (the Discipline, not the Job) (Medium)
-  tags: "job definition"
+  tags: jobdef
 
 ##########################
 
@@ -2511,203 +2509,203 @@
 
 - url: https://trafficiscurrency.com/product-qualified-leads/
   title: Product Qualified Leads (PQLs) (Traffic is Currency)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://www.priceintelligently.com/blog/bid/195287/the-value-metric-optimize-your-pricing-strategy-for-high-growth
   title: Value Metrics (Price Intelligently)
-  tags: "sales lead management"
+  tags: pricing
 
 - url: https://predictablerevenue.com/blog/detailed-reviewsummary-predictable-revenue
   title: Predictable Revenue - book Summary 
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://mattermark.com/effective-lead-scoring-includes-company-data/
   title: Effective Lead Scoring (Mattermark)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: http://www.marketingsherpa.com/article/case-study/auto-qualify-new-leads-without-lead-scoring
   title: Auto-qualifying new leads without Lead Scoring (Marketing Sherpa)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://offers.hubspot.com/hs-fs/hub/53/file-230749144-pdf/offers/An-Introduction-to-Lead-Generation.pdf
   title: Intro to Lead Generation (HubSpot)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://medium.com/the-mission/5-lesser-known-lead-generation-hacks-e2f10d9a9784
   title: 5 Lesser-known Lead Generation Hacks (Medium)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://blog.adamnash.com/2012/03/28/product-leaders-user-acquisition-series/
   title: User Acquisition (Adam Nash)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: http://blog.adamnash.com/2012/03/28/user-acquisition-five-sources-of-traffic/
   title: 5 Traffic Sources for User Acquisition (Adam Nash)
-  tags: "sales lead management"
+  tags: lead generation
 
 - url: https://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics/
   title: Viral Factor Basics (Adam Nash)
-  tags: "sales lead management"
+  tags: virality
 
 - url: http://blog.adamnash.com/2012/04/12/user-acquisition-mobile-applications-and-the-mobile-web/
   title: Mobile Web vs Mobile Apps (Adam Nash)
-  tags: "sales lead management"
+  tags: lead generation
 
 ##########################
 
 - url: https://www.jpattonassociates.com/opportunity-canvas/
   title: What is an Opportunity Canvas? (J Patton Assoc.)
-  tags: "lean & agile techniques"
+  tags: lean/agile
 
 - url: http://www.kimhartman.se/wp-content/uploads/2013/10/the-lean-startup-summary.pdf
   title: The Lean Startup - book summary
-  tags: "lean & agile techniques"
-
-- url: http://www.kimhartman.se/wp-content/uploads/2013/10/the-lean-startup-summary.pdf
-  title: Dropbox/prodmgmt/lean-agile
-  tags: "lean & agile techniques"
+  tags: lean/agile
 
 - url: https://leanstack.com/projects
   title: Leanstack
-  tags: "lean & agile techniques"
+  tags: lean/agile
 
 - url: http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf
   title: Scrum Basics (ScrumGuides)
-  tags: "lean & agile techniques"
+  tags: lean/agile
 
 - url: http://www.gv.com/sprint/
   title: Design Sprints (Google Ventures)
-  tags: "lean & agile techniques"
+  tags: lean/agile
 
 ##########################
 
 - url: http://hbswk.hbs.edu/item/everything-must-go-a-strategy-for-store-liquidation
   title: Everything Must Go - How to Liquidate a Store (HBR)
-  tags: "liquidations & closures"
+  tags: shutdowns
 
 - url: https://blog.intercom.com/how-to-sunset-a-feature/
   title: How to Sunset a Feature
-  tags: "liquidations & closures"
+  tags: shutdowns
 
 - url: https://hackernoon.com/sundown-products-need-love-too-69ed2136fd36
   title: Sundown Products Need Love Too (Brian Piercy)
-  tags: "liquidations & closures"
+  tags: shutdowns
 
 ##########################
 
 - url: https://www.nfx.com/post/network-effects-manual
   title: The Network Effects Manual (NFX)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://medium.com/point-nine-news/10-marketplace-monetisation-strategies-7d2371afd7d5
   title: 10 Marketplace Monetization Strategies (Medium)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://hbr.org/2017/07/finding-the-platform-in-your-product
   title: Finding the Platform in Your Product (HBR)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://techcrunch.com/2017/05/25/anatomy-of-a-managed-marketplace/
   title: The Anatomy of a Managed Marketplace (TechCrunch)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://mattturck.com/2016/01/04/the-power-of-data-network-effects/
   title: The Power of Data Network Effects (Matt Turck)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://platformed.info/whatsapp-instagram-marketing/
   title: Piggybacking (Platformed.info)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://firstround.com/review/give-away-your-legos-and-other-commandments-for-scaling-startups/
   title: Give Away Your Legos - Scaling Strategies (First Round)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://stratechery.com/2014/uber-fights/
   title: Uber Fights (Stratechery)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://platformed.info/twitter-whatsapp-uber-airbnb-network-effects/
   title: Small Ideas to Large Value (Platfomed.io)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://a16z.com/2016/03/07/network-effects_critical-mass
   title: Network Effects & Critical Mass (A16Z)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://platformed.info/virality-viral-growth-network-effects
   title: Virality vs Network Effects (Platformed.info)
-  tags: "liquidity & network effects"
+  tags: platforms
+
+- url: http://platformed.info/virality-viral-growth-network-effects
+  title: Virality vs Network Effects (Platformed.info)
+  tags: platforms
 
 - url: https://techcrunch.com/2012/11/04/the-network-effect-isnt-good-enough/
   title: Network Effects Aren't Enough (Techcrunch)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://www.slideshare.net/sanguit/building-a-marketplace-a-checklist-for-online-disruption
   title: An Online Disruption Checklist (Slideshare)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://abovethecrowd.com/2012/11/13/all-markets-are-not-created-equal-10-factors-to-consider-when-evaluating-digital-marketplaces/
   title: Marketplace Evaluation - 10 Factors (Above The Crowd)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://pando.com/2012/11/20/liquidity-hacking-how-to-build-a-two-sided-marketplace/
   title: How to Build a Two-Sided Marketplace (Pando)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://segment.com/blog/how-segment-models-growth-for-two-sided-marketplaces/
   title: How we Model a Two-Sided Marketplace (Segment)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://venturebeat.com/2012/11/23/liquidity-hacking/
   title: Liquidity Hacking (VentureBeat)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://www.danmartell.com/liquidity/
   title: On Liquidity (Dan Martell)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: https://priceonomics.com/why-thieves-steal-soap/
   title: Why Thieves Steal Soap (Priceonomics)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://firstround.com/review/How-Modern-Marketplaces-Like-Uber-Airbnb-Build-Trust-to-Hit-Liquidity/
   title: How Startups Build Trust (First Round)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 - url: http://www.inc.com/magazine/20110401/can-rob-kalin-scale-etsy.html
   title: Can Rob Kalin scale Etsy? (Inc)
-  tags: "liquidity & network effects"
+  tags: platforms
 
 ##########################
 
 - url: https://getpocket.com/explore/item/how-two-companies-hooked-customers-on-products-they-rarely-use
-  title: Hooking Customers on Products they Rarely Use (Pocket)
-  tags: "loyalty & retention"
+  title: Rarely-Used Products (Pocket)
+  tags: loyalty
 
 - url: http://sixteenventures.com/growth-hacking-retention
   title: Growth Hacking & Retention (Sixteen Ventures)
-  tags: "loyalty & retention"
+  tags: loyalty
 
 - url: https://hbr.org/2017/01/customer-loyalty-is-overrated
   title: Customer Loyalty is Overrated (HBR)
-  tags: "loyalty & retention"
+  tags: loyalty
 
 - url: https://www.helpscout.net/blog/customer-loyalty-programs/
   title: Customer Loyalty Programs (HelpScout)
-  tags: "loyalty & retention"
+  tags: loyalty
 
 - url: http://hbswk.hbs.edu/item/busting-six-myths-about-customer-loyalty-programs
-  title: Mythbusting Six Perceptions about Customer Loyalty Programs (HBR)
-  tags: "loyalty & retention"
+  title: Mythbusting Customer Loyalty Programs (HBR)
+  tags: loyalty
 
 - url: https://blog.keen.io/how-to-do-a-retention-analysis-26d3fda00117#.gxchj1abj
   title: How to do a Retention Analysis (KeenIO)
-  tags: "loyalty & retention"
+  tags: loyalty
 
 - url: https://www.blossom.co/blog/5-smart-ways-to-resurrect-your-customers
   title: 5 Ways to Resurrect Customers (Blossom)
-  tags: "loyalty & retention"
+  tags: loyalty
 
 ##########################
 
@@ -2762,7 +2760,7 @@
 ##########################
 
 - url: https://pitchfork.com/features/article/listen-to-music/
-  title: Why do we even listen to new music? (Pitchfork)
+  title: Why do we listen to new music? (Pitchfork)
   tags: music
 
 - url: https://music3point0.com/2020/02/06/playlist-stuffing/
@@ -2770,11 +2768,11 @@
   tags: music
 
 - url: https://www.hypebot.com/hypebot/2019/03/the-awkward-truth-behind-skip-rates.html
-  title: The Awkward Truth about Streaming and Skip Rates (Hypebot)
+  title: Streaming and Skip Rates (Hypebot)
   tags: music
 
 - url: http://www.neatorama.com/2017/12/20/Art-Commerce-and-Zamfir-Selling-Music-on-TV/
-  title: How Zamfir selling Music on TV Came to Be (Neatorama)
+  title: Zamfir & Music on TV (Neatorama)
   tags: music
 
 - url: http://kernelmag.dailydot.com/issue-sections/features-issue-sections/12133/soundcloud-remix-problem/
@@ -2786,15 +2784,15 @@
   tags: music
 
 - url: http://www.npr.org/sections/therecord/2013/04/04/176269938/justin-timberlake-and-the-ac-dc-rule
-  title: Justin Timberlake and the AC/DC Rule
+  title: Justin Timberlake and the AC/DC Rule (NPR)
   tags: music
 
 - url: https://pudding.cool/2017/03/timeless/index.html
-  title: The 2050 Most Timeless Songs of All Time (Pudding.cool)
+  title: The 2050 Most Timeless Songs (Pudding.cool)
   tags: music
 
 - url: https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition
-  title: How Shazam Recognizes & Fingerprints Music
+  title: How Shazam Recognizes & Fingerprints Music (Toptal)
   tags: music
 
 - url: http://tedium.co/2016/09/20/allmusic-database-historic-importance
@@ -2814,11 +2812,11 @@
   tags: music
 
 - url: http://www.npr.org/sections/money/2011/07/05/137530847/how-much-does-it-cost-to-make-a-hit-song
-  title: How Much Does it Cost to Make a Hit Song?
+  title: How Much Does it Cost to Make a Hit Song? (NPR)
   tags: music
 
 - url: https://techcrunch.com/2015/10/04/full-stack-music-1-trillion-streams-200-million-tickets/?ncid=rss
-  title: Full-stack Music - 1 Trillion streams, 200 Million tickets (TechCrunch)
+  title: Full-stack Music - 1T streams, 200M tickets (TechCrunch)
   tags: music
 
 - url: http://pitchfork.com/features/article/9894-the-dark-art-of-mastering-music/
@@ -2841,61 +2839,61 @@
 
 - url: https://volument.com/blog/minimalism-the-most-undervalued-development-skill
   title: Minimalism - the most undervalues dev skill (Volument)
-  tags: mvps
+  tags: lean
 
 - url: http://scalemybusiness.com/the-ultimate-guide-to-minimum-viable-products/
   title: A Guide to MVPs (ScaleMyBusiness)
-  tags: mvps
+  tags: lean
 
 - url: http://readwrite.com/2012/10/10/dont-settle-for-the-minimum-in-your-minimum-viable-product-mvp/#awesm=~orHs1yUOOPwRAN
   title: Don't Settle for the Minimum in your MVP (ReadWrite)
-  tags: mvps
+  tags: lean
 
 ##########################
 
 - url: https://www.fastcompany.com/90465310/trademarking-a-color-is-absurd-but-not-for-the-reasons-you-think
   title: Trademarking a Color is Absurd (Fast Company)
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: https://news.ycombinator.com/item?id=20231776
   title: Stuck with an Unpronounceable product name - now what? (Hacker News)
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: http://www.namejet.com/
-  title: http://www.namejet.com/
-  tags: "naming & branding"
+  title: Namejet
+  tags: branding/naming
 
 - url: http://www.trademarkia.com/
-  title: http://www.trademarkia.com/
-  tags: "naming & branding"
+  title: Trademarkia
+  tags: branding/naming
 
 - url: https://namechk.com/
-  title: https://namechk.com/
-  tags: "naming & branding"
+  title: Namechk
+  tags: branding/naming
 
 - url: https://www.brandbucket.com/trackchip
-  title: https://www.brandbucket.com/trackchip
-  tags: "naming & branding"
+  title: Brandbucket/Trackchip
+  tags: branding/naming
 
 - url: https://www.nytimes.com/2015/01/18/magazine/the-weird-science-of-naming-new-products.html?_r=0
   title: The Weird Science of Naming New Products (NYTimes)
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: http://searchengineland.com/the-complete-guide-to-bidding-on-competitor-brand-names-trademarked-terms-118576
   title: Guide to Bidding on Competitor Brands & Trademarked Items (Search Engine Land)
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: https://hbr.org/2014/02/protect-your-brand-from-cybersquatting
   title: Protect Your Brand from Cybersquatting (HBR)
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: http://www.cognatarium.com/cognatarium/
   title: Cognatarium
-  tags: "naming & branding"
+  tags: branding/naming
 
 - url: https://www.slideshare.net/rcauvin/searchcom-or-why-we-suck-at-naming-products-and-companies
   title: Why We Suck at Naming Products & Companies (Roger Cauvin)
-  tags: "naming & branding"
+  tags: branding/naming
 
 ##########################
 
@@ -2914,7 +2912,6 @@
 - url: http://www.jamesaltucher.com/2014/05/the-ultimate-cheat-sheet-to-become-a-great-negotiator/
   title: James Altucher's Negotiation Cheat Sheet
   tags: negotiation
-
 
 - url: http://time.com/38796/6-hostage-negotiation-techniques-that-will-get-you-what-you-want/
   title: Six Hostage Negotiation Techniques
@@ -2984,11 +2981,11 @@
   tags: packaging
 
 - url: https://blog.kissmetrics.com/custom-shipping-supplies/
-  title: 5 Ways to Make Your Shipping More Brandable (Kissmetrics)
+  title: Brandable Shipping (Kissmetrics)
   tags: packaging
 
 - url: http://www.adweek.com/brand-marketing/how-package-designers-use-science-influence-your-subconscious-mind-158319/
-  title: How Package Designers use Science to Influence your Subconscious Mind (AdWeek)
+  title: Package design - Subconscious Influences (AdWeek)
   tags: packaging
 
 - url: http://gorillastudio.co.uk/branding/packaging-design-five-simple-rules-designing-perfect-packaging/
@@ -2996,7 +2993,7 @@
   tags: packaging
 
 - url: https://www.shopify.com/blog/18989252-5-ways-to-use-packaging-inserts-to-increase-customer-loyalty-and-revenue
-  title: Packaging Inserts - 5 Ways to Increase Customer Loyalty & Revenue (Shopify)
+  title: Packaging Inserts & Customer Loyalty (Shopify)
   tags: packaging
 
 - url: http://theaccidentalpm.com/z-product/a-candy-bar-teaches-product-managers-lessons-about-redesigning-product-packaging
@@ -3011,32 +3008,32 @@
 
 - url: https://www.innovation-asset.com/blog/the-4-main-types-of-intellectual-property-and-related-costs
   title: 4 Types of IP and Related Costs (Innovation-Asset.com)
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 - url: https://reprage.com/post/how-banksy-authenticates-his-work
   title: How Banksy authenticates his Art (Reprage)
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 - url: https://medium.com/the-mission/how-to-file-a-patent-in-8-easy-steps-61519459659f
   title: How to File a Patent - 8 Steps (Medium)
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 - url: https://techcrunch.com/2012/11/10/an-entrepreneurs-guide-to-patents-the-basics/
   title: A Basic Guide to Patents (TechCrunch)
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 - url: http://www.trademarkia.com/register-trademark/grey/US/trademark_services.htm
   title: Trademarkia.com
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 - url: https://search.uspto.gov/search
   title: USPTO.gov
-  tags: "patents, trademarks, ip"
+  tags: patents/trademarks/intellectual property
 
 ##########################
 
 - url: http://aynuriev.com/best-payment-gateway-startups/
-  title: Payment Gateway Options for Startups (Aynur Nuriev)
+  title: Payment Gateway Options (Aynur Nuriev)
   tags: payments
 
 - url: https://tech.affirm.com/deep-dive-payments-60f5d17f6c71#.my84dztao
@@ -3044,7 +3041,7 @@
   tags: payments
 
 - url: https://techcrunch.com/2014/08/08/what-happens-when-payment-processing-becomes-a-commodity/?ncid=rss
-  title: What Happens when Payment Processing Becomes a Commodity (TechCrunch)
+  title: When Payment Processing Becomes a Commodity (TechCrunch)
   tags: payments
 
 - url: http://www.practicalecommerce.com/articles/87765-11-Innovative-Mobile-Payment-Apps
@@ -3069,39 +3066,39 @@
 
 - url: https://www.theverge.com/2020/7/29/21324768/google-chromecast-reset-button-hardware-reliable
   title: Consider the Chromecast Reset Button
-  tags: "physical products"
+  tags: physical products
 
 - url: http://exple.tive.org/blarg/2017/09/13/durable-design/
   title: A Shoutout to Durable Products (exple.tive.org)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://jilt.com/upsell/popsockets-growth/
   title: How PopSockets turned a simple LifeHack into $169M in Revenue (Jilt)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://www.deepsouthventures.com/i-sell-onions-on-the-internet/
   title: I Sell Onions on the Internet (Deep South Ventures)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://blog.bolt.io/one-of-the-most-powerful-tools-for-hardware-startups-writing-25cd261dbe0b
   title: PRDs for Hardware Startups (Bolt.io)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://medium.com/@BenEinstein/heres-why-juicero-s-press-is-so-expensive-6add74594e50
   title: Here's Why Juicero is so Expensive (@BenEinstein)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://medium.com/@brianpiercy/electronics-product-management-d2c9db8b4c9b
   title: No Country for Old Men (Brian Piercy)
-  tags: "physical products"
+  tags: physical products
 
 - url: https://blog.bolt.io/keurig-accidentally-created-the-perfect-business-model-for-hardware-startups-18e9c3b4e796#.gxj3vugvh
   title: Keurig and Hardware Startup Business Models (Bolt.io)
-  tags: "physical products"
+  tags: physical products
 
 - url: http://marcbarros.com/how-to-price-your-hardware-product/
   title: How to Price Hardware Products (Marc Barros)
-  tags: "physical products"
+  tags: physical products
 
 ##########################
 
@@ -3267,14 +3264,10 @@
 
 - url: http://platformed.info/how-to-get-startup-ideas/
   title: How to Get Startup Ideas (Platformed.io)
-  tags: platforms
+  tags: ideation
 
 - url: http://platformsandnetworks.blogspot.com/
-  title: http://platformsandnetworks.blogspot.com/
-  tags: platforms
-
-- url: http://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/
-  title: A Rake Too Far
+  title: platforms and networks
   tags: platforms
 
 - url: http://venturebeat.com/2015/03/21/how-to-protect-yourself-as-middleman-in-a-marketplace/
@@ -3330,7 +3323,7 @@
 ##########################
 
 - url: https://searchengineland.com/3-pitfalls-of-ppc-experiments-326332
-  title: 3 Pitfalls of PPC experiements (SEL)
+  title: 3 Pitfalls of PPC experiments (SEL)
   tags: ppc
 
 - url: https://searchengineland.com/5-audiences-you-should-exclude-from-your-ppc-campaigns-325874
@@ -3341,11 +3334,11 @@
 
 - url: https://thezvi.wordpress.com/2018/07/26/"prediction markets"-when-do-they-work/
   title: Prediction markets - When do They Work? (TheZvi)
-  tags: "prediction markets"
+  tags: prediction markets
 
 - url: https://thezvi.wordpress.com/2018/08/17/subsidizing-"prediction markets"/
   title: Subsidizing Prediction Markets (TheZvi)
-  tags: "prediction markets"
+  tags: prediction markets
 
 ##########################
 
@@ -3380,7 +3373,7 @@
   tags: pricing
 
 - url: https://hbswk.hbs.edu/item/when-your-customers-don-t-care-what-you-charge-what-should-you-charge
-  title: When your customers don't care what you charge ... what SHOULD you charge? (HBR)
+  title: When your customers don't care what you charge? (HBR)
   tags: pricing
 
 - url: http://www.neildavidson.com/downloads/dont-just-roll-the-dice-2.0.0.pdf
@@ -3400,7 +3393,7 @@
   tags: pricing
 
 - url: https://conversionxl.com/blog/pricing-experiments-you-might-not-know-but-can-learn-from/
-  title: Experiments You Might Not Know - But Can Learn From (ConversionXL)
+  title: Experiments You Might Not Know (ConversionXL)
   tags: pricing
 
 - url: http://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/
@@ -3408,7 +3401,7 @@
   tags: pricing
 
 - url: https://www.racked.com/2018/5/30/17392668/beauty-product-pricing-stowaway-cosmetics
-  title: Beauty Product Pricing - Stowaway Cosmetics (Racked)
+  title: Beauty Product Pricing (Racked)
   tags: pricing
 
 - url: https://hbr.org/2015/04/store-brands-arent-just-about-price
@@ -3440,7 +3433,7 @@
   tags: pricing
 
 - url: http://firstround.com/review/Dont-Leave-Money-on-the-Table-with-this-Crash-Course-in-Pricing/
-  title: Don't Leave Money on the Table - A Crash Course (First Round)
+  title: Don't Leave Money on the Table (First Round)
   tags: pricing
 
 - url: http://www.marketingsherpa.com/article/case-study/shopping-guide-lifts-order-value
@@ -3453,10 +3446,6 @@
 
 - url: https://blog.kissmetrics.com/high-priced-digital-product
   title: High-Priced Digital Products (Kissmetrics)
-  tags: pricing
-
-- url: http://download.red-gate.com/ebooks/DJRTD_eBook.pdf
-  title: Don't Just Roll the Dice (book download)</a> <br>
   tags: pricing
 
 - url: http://sixrevisions.com/project-management/pricing-strategies-research/
@@ -3472,8 +3461,8 @@
   tags: pricing
 
 - url: http://upstreamcommerce.com/blog/2013/01/08/5-valid-reasons-retailers-price-differentiate-geography
-  title: 5 Valid Reasons Retailers Price Differently by Geography (Upstream Commerce)
-  tags: pricing
+  title: Retailer Pricing by Geography (Upstream Commerce)
+  tags: pricing/dynamic
 
 - url: http://loganvc.com/the-beginning-of-the-end-for-per-user-pricing/
   title: Beginning of the End for Per-User Pricing (LoganVC)
@@ -3568,19 +3557,19 @@
   tags: "pricing/dynamic"
 
 - url: https://hbr.org/2016/10/how-pricing-bots-could-form-cartels-and-make-things-more-expensive
-  title: Pricing Bots can form Cartels & make Things more Expensive (HBR)
+  title: Pricing Bots can form Cartels (HBR)
   tags: "pricing/dynamic"
 
 - url: https://econsultancy.com/blog/61958-five-dynamic-pricing-issues-retailers-should-consider/
-  title: Five dyanmic surge pricing issues Retailers should consider (Econsultancy)
+  title: Five dyanmic surge pricing issues (Econsultancy)
   tags: "pricing/dynamic"
 
 - url: https://techcrunch.com/2016/07/18/seatgeek-value-your-ticket/?ncid=rss
-  title: SeatGeek Values Your Tickets (TechCrunch)
+  title: How SeatGeek Values Your Tickets (TechCrunch)
   tags: "pricing/dynamic"
 
 - url: http://abovethecrowd.com/2014/03/11/a-deeper-look-at-ubers-dynamic-pricing-model/
-  title: A Deep Look at Uber's Dynamic Pricing Model (Above the Crowd)
+  title: Uber's Dynamic Pricing Model (Above the Crowd)
   tags: "pricing/dynamic"
 
 ##########################
@@ -3708,7 +3697,7 @@
   tags: "recommenders"
 
 - url: https://blog.insightdatascience.com/multi-armed-bandits-for-dynamic-movie-recommendations-5eb8f325ed1d
-  title: Multi-armed bandits for Dynamic Movie Recommendations (Insight Data Science)
+  title: Multi-armed bandits - Movie Recommendations (Insight Data Science)
   tags: "recommenders"
 
 ##########################
@@ -3722,11 +3711,11 @@
   tags: reputation
 
 - url: https://pando.com/2012/11/30/attention-founders-heres-how-you-respond-to-an-unfair-post-about-your-company/
-  title: How to Respond to an Unfair Post About Your Company (Pando)
+  title: How to Respond to an Unfair Post (Pando)
   tags: reputation
 
 - url: http://nymag.com/news/features/online-reputation-management-2013-6/
-  title: http://nymag.com/news/features/online-reputation-management-2013-6/
+  title: Reputation Mgmt (NYMag)
   tags: reputation
 
 - url: http://www.practicalecommerce.com/articles/68072-20-Free-Tools-to-Manage-Your-Reputation
@@ -3854,11 +3843,11 @@
   tags: "sales mgmt"
 
 - url: https://bothsidesofthetable.com/how-to-shorten-your-sales-cycle-and-avoid-wasting-time-92442c815b6f#.ab54qkdmq
-  title: How to Shorten your Sales Cycle & Quit Wasting Time (Both Sides of the Table)
+  title: How to Quit Wasting Time (Both Sides of the Table)
   tags: "sales mgmt"
 
 - url: http://firstround.com/review/the-anatomy-of-the-perfect-sales-hiring-process/
-  title: Anatomy of Building a Perfect Sales Hiring Process (First Round)
+  title: Building a Perfect Sales Hiring Process (First Round)
   tags: "sales mgmt"
 
 - url: https://hbr.org/2012/07/the-science-of-building-a-scal
@@ -3880,15 +3869,15 @@
   tags: "sales tools"
 
 - url: http://www.aventigroup.com/resources/page/competitive-battle-cards-the-sales-teams-best-weapon
-  title: Battle Cards - The Sales Team's Best Weapon (Aventi Group)
+  title: Battle Cards (Aventi Group)
   tags: "sales tools"
 
 - url: http://firstround.com/review/designing-your-sales-stack-so-that-customers-come-to-you/
-  title: Designing your Sales Stack so Customers Cometo You (First Round)
+  title: Designing your Sales Stack (First Round)
   tags: "sales tools"
 
 - url: https://medium.com/swlh/the-complete-guide-to-building-the-perfect-ales-stack-d53653e02530#.u51m23bzo
-  title: The Complete Guide to Building the Perfect Sales Stack (Medium)
+  title: Building the Perfect Sales Stack (Medium)
   tags: "sales tools"
 
 ##########################
@@ -3903,7 +3892,7 @@
 
 - url: https://www.portent.com/blog/seo/developers-seo-guide.htm
   title: developers guide (portent)
-  tags: "seo 101"
+  tags: "seo/tools"
 
 - url: https://www.johnwdefeo.com/articles/seo-for-engineers
   title: SEO for engineers (john w defeo)
@@ -3915,7 +3904,7 @@
 
 - url: https://www.webdesignerdepot.com/2019/11/keyword-research-101-everything-you-need-to-know/
   title: Keyword Research 101 (Web Designer Depot)
-  tags: "seo 101"
+  tags: "seo/keywords"
 
 - url: http://www.practicalecommerce.com/articles/136294-SEO-How-to-Part-12-Your-Technical-Toolbox
   title: Part 12 - Your Technical Toolbox
@@ -3930,54 +3919,54 @@
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/135667-SEO-How-to-Part-9-Diagnosing-Crawler-Issues
-  title: Part 9 - Diagnosig Crawler Issues
+  title: Part 09 - Diagnosig Crawler Issues
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/135486-SEO-How-to-Part-8-Architecture-and-Internal-Linking
-  title: Part 8 - Architecture & Internal Linking
+  title: Part 08 - Architecture & Internal Linking
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/135115-SEO-How-to-Part-7-Mapping-Keywords-to-Content
-  title: Part 7 - Mapping Keywords to Content
+  title: Part 07 - Mapping Keywords to Content
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/134553-SEO-How-to-Part-6-Optimizing-On-page-Elements
-  title: Part 6 - Optimizing On-Page Elements
+  title: Part 06 - Optimizing On-Page Elements
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/134313-SEO-How-to-Part-5-Keyword-Research-in-Action
-  title: Part 5 - Keyword Research in Action
+  title: Part 05 - Keyword Research in Action
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/134150-SEO-How-to-Part-4-Keyword-Research-Concepts
-  title: Part 4 - Keyword Research Concepts
+  title: Part 04 - Keyword Research Concepts
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/133781-SEO-How-to-Part-3-Staffing-and-Planning
-  title: Part 3 - Staffing & Planning
+  title: Part 03 - Staffing & Planning
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/133539-SEO-How-to-Part-2-Understanding-Search-Engines
-  title: Part 2 - Understanding Search Engines
+  title: Part 02 - Understanding Search Engines
   tags: "seo 101"
 
 - url: http://www.practicalecommerce.com/articles/133239-SEO-How-to-Part-1-Why-Do-You-Need-It
-  title: Part 1 - Why Do You Need It?
+  title: Part 01 - Why Do You Need It?
   tags: "seo 101"
 
 ##########################
 
 - url: http://onlinemarketinginct.com/2015/05/09/seo-checklist-2015/
   title: SEO checklist, 2015 edition
-  tags: "seo/best practices"
+  tags: seo 101
 
 - url: http://www.softwarebyrob.com/2011/02/02/your-traffic-sources-have-a-half-life/
   title: Your Traffic Sources Have a Half-Life (Software by Rob)
-  tags: "seo/best practices"
+  tags: seo 101
 
 - url: https://searchengineland.com/ppc-metrics-matter-lessons-half-million-keywords-287503
   title: Which PPC metrics matter? Lessons from a Half Million Keywords (Search Engine Land)
-  tags: "seo/best practices"
+  tags: ppc
 
 ##########################
 
@@ -4006,7 +3995,7 @@
   tags: "seo/keywords"
 
 - url: https://searchenginewatch.com/sew/study/2214529/head-vs-long-tail-keywords-analyzed-impressions-clicks-conversions-profitability
-  title: Head vs Long-Tail Keywords Analysis (Search Engine Watch)
+  title: Head vs Long-Tail Keywords (Search Engine Watch)
   tags: "seo/keywords"
 
 - url: https://moz.com/blog/predicting-keyword-volume-before-data-is-in-adwords
@@ -4040,8 +4029,8 @@
   tags: "seo/tools"
 
 - url: https://www.practicalecommerce.com/how-to-identify-keywords-that-signal-shoppers-intent
-  title: Keywords that Signal Shoppers' Intent (Practical Ecommerce)
-  tags: "seo/tools"
+  title: Keywords & Shopper Intentions (Practical Ecommerce)
+  tags: "seo/keywords"
 
 ##########################
 
@@ -4137,15 +4126,15 @@
 
 - url: https://codingvc.com/the-value-of-data-part-1-using-data-as-a-competitive-advantage
   title: The Value of Data, P1 - Using Data as a Competitive Advantage (Coding VC)
-  tags: strategy
+  tags: data mining
 
 - url: https://codingvc.com/the-value-of-data-part-2-building-valuable-datasets
   title: The Value of Data, P2 - Building Valuable Datasets (Coding VC)
-  tags: strategy
+  tags: data mining
 
 - url: https://codingvc.com/the-value-of-data-part-3-data-business-models/
   title: The Value of Data, P3 - Data Business Models (Coding VC)
-  tags: strategy
+  tags: data mining
 
 - url: https://stratechery.com/2016/dollar-shave-club-and-the-disruption-of-everything/
   title: Dollar Shave Club and Disruption (Stratechery)
@@ -4346,10 +4335,6 @@
   title: The Set List (Medium)
   tags: virality
 
-- url: https://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics/
-  title: Viral Factor Basics (Adam Nash)
-  tags: virality
-
 - url: https://medium.com/@lincolnmurphy/a-meditation-on-word-of-mouth-marketing-and-growth-hacking-2cc029e18afe#.uagwbagfg
   title: A Meditation on Word of Mouth Marketing (@LincolnMurphy)
   tags: virality
@@ -4386,3 +4371,7 @@
   title: Google search operators (ahrefs)
   tags: seo/keywords
   source: ahrefs
+
+- url: https://deltatradinggroup.com/portfolio-items/auction-theory/
+  title: Auction Theory (Delta Trading)
+  tags: auctions
