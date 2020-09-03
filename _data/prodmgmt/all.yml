@@ -1,5 +1,20 @@
 ##########################
 
+- url: https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63
+  title: Ultimate Guide (Maria Paskevich)
+  tags: ab testing
+  pic:
+  notes: "<a href='https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63'>
+          Part I - experiment design</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-2-data-distributions-5ed429abbce'>
+          Part II - distributions</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-3-parametric-tests-2c629e8d98f8'>
+          Part III - parametric tests</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-non-parametric-tests-4db7b4b6a974'>
+          Part IV - non-parametric tests</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-bayesian-approach-binomial-variables-aa71e25d2165'>
+          Part V - Bayes/binomals</a><br>"
+
 - url: http://andrewchen.co/conservation-of-intent/
   title: The Conservation of Intent (Andrew Chen)
   tags: "ab testing"
@@ -79,7 +94,7 @@
   notes:
 
 - url: https://productcoalition.com/start-here-statistics-for-a-b-testing-5f5c7e02ce1e#.jk219vqlm
-  title: AB Testing Stats(Product Coalition)
+  title: AB Testing Stats (Product Coalition)
   tags: "ab testing"
   pic:
   notes:

@@ -38,6 +38,10 @@ permalink: /prodmgmt/
 
 		        			{%- if item.pic -%}
 		        				<img src="{{item.pic}}" width=50%><br>
+	    	    			{%- endif -%}<br>
+
+		        			{%- if item.notes -%}
+		        				<blockquote><small>{{item.notes}}</small></blockquote>
 	    	    			{%- endif -%}
 
 	    	    		</a></li>
