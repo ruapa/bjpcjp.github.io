@@ -4,11 +4,49 @@ layout: page
 tags: math
 ---
 
+<div class="textcard-white">
+    <p>Note: under construction.</p>
+</div>
+
+<div class="textcard-white">
+    <h2>Common source materials:</h2>
+    <span style="column-count: 2;">
+        ADM = algorithm design manual (skiena)<br>
+        AJE = <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/">
+            algos (erickson)</a><br>
+        BA = <a href="https://tor-lattimore.com/downloads/book/book.pdf">
+            bandit algos (lattimore et al)</a><br>
+        CSI = <a href="https://web.stanford.edu/~hastie/CASI/">
+            statistical inference (hastie, efron)</a><br>
+        DIDL = <a href="http://d2l.ai/">dive into deep learning</a><br>
+        DMMD = mining mssve datasets (leskovec, rajaraman, ullman)<br>
+        DSA = data structs & apps (mehta, sahni)<br>
+        EA = elementary algos (Liu)<br>
+        ESL = elements statistical learning (hastie et al)<br>
+        FDS = foundatations of ds (blum, hopcroft, kannan)<br>
+        GF = deep learning (goodfellow, bengio, courville)<br>
+        ITA = intro to algos, 3rd (cormen et al)<br>
+        IP = intro to probability (grinstead, snell)<br>
+        NP = numerical python (johansson)<br>
+        PA = planning algos (lavalle et al)<br>
+        PP = parallel processing (matloff)<br>
+        PSC = prob stats cookbook<br>
+        PSM = prob & stat modeling (matloff)<br>
+        PwC = <a href="https://paperswithcode.com/sota">papers with code</a><br>
+        PTDS = principles techniques of DS (berkeley)<br>
+        RL = reinforcement learning (sutton et al)<br>
+        SCDL = super cheatsheet DL<br>
+        SM = @soulmachine ML cheatsheet<br>
+    </span>
+</div>
+
 {%- assign sorted_records = site.data.math.mathv2 | sort: "category" -%}
 
 {%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
 
 <!-- TABLE OF CONTENTS -->
+<!--
+<h2>Index:</h2>
 
 <div class="textcard">
     <div style="column-count: 4;">
@@ -21,8 +59,10 @@ tags: math
     </div>
 </div>
 <br><br>
-
+-->
 <!-- MAIN -->
+
+<h2>Topics:</h2>
 
 {%- for group in grouped_sorted_records -%}
     {%- if group.name != "" -%}
@@ -30,16 +70,18 @@ tags: math
         <!-- navigation points. -->
 
         <span id="{{group.name}}">
-            {{group.name}}
+            <strong>{{group.name}}</strong>
 
             <!--right-side links: 1) my tweets, 2) "home" navigation -->
             <span style="float:right;">
 
+                <!--
                 <button>
                     <a href="https://twitter.com/search?q=({{group.name}})%20(from%3Abrianpiercy)&src=typed_query" 
                         target="_blank">
                         My Tweets</a>
                 </button>
+            -->
 
                 <button>
                 <a href="https://duckduckgo.com?q={{group.name}} AND math | deeplearning | machinelearning | linearalgebra"

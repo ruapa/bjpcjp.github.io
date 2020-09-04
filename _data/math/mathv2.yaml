@@ -878,12 +878,6 @@
   url: pdfs/math/spatial-DSA.pdf
   source: DSA
 
-
-- title: advertising
-  category: applications
-  url: pdfs/math/advertising-DMMD.pdf
-  source: DMMD
-
 - title: book
   category:
   url: pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
@@ -948,11 +942,6 @@
   category: graphs
   url: pdfs/math/social-graphs-DMMD.pdf
   source: DMMD
-
-- title: goodfellow
-  category: applications 
-  url: pdfs/math/applications-DLgoodfellow.pdf
-  source: DLG
 
 - title: approximate inference
   category: machine learning
@@ -1543,26 +1532,27 @@
 
 - title: market basket analysis
   category: association rules
-  pic: /px/math/market-basket-analysis.png" 
- 
-- title: overview
-  category: association rules
+  pic: /px/math/market-basket-analysis.png
   url: http://www.kdnuggets.com/2016/10/association-rule-learning-concise-technical-overview.html
   notes: "support - frequency of appearances<br>
     confidence - %time a rule is found to be true<br>
     lift - ratio of observed support to independence<br>"
+  source: kdnuggets 
 
 - title: affinity analysis
   category: association rules
   url: https://en.wikipedia.org/wiki/Affinity_analysis
+  source: kdnuggets 
  
-- title: apriori
+- title: apriori algorithm
   category: association rules
   url: http://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
- 
+  source: kdnuggets 
+
 - title: rule mining
   category: association rules
   url: https://thedatum.data.blog/2019/06/09/machine-learning-association-rule-mining/
+  source: thedatum 
 
 - title: a-starintro
   category: search
@@ -4864,51 +4854,63 @@ MCMC, bagging, averaging & stacking, bumping"
 - title: 4 techniques
   category: anomolies - outliers 
   url: https://www.kdnuggets.com/2018/12/four-techniques-outlier-detection.html
- 
+  source: kdnuggets 
+
 - title: using stats to id outliers
   category: anomolies - outliers 
   url: https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/
- 
+  source: ML mastery 
+
 - title: intro
   category: anomolies - outliers 
   url: https://www.datascience.com/blog/python-anomaly-detection
- 
+  source: datascience
+
 - title: semiconductors
   category: anomolies - outliers 
   url: http://semiengineering.com/outlier-detection/
- 
+  source: semi engineering
+
 - title: univariate, multivariate, minkowski
   category: anomolies - outliers 
   url: https://www.neuraldesigner.com/blog/3_methods_to_deal_with_outliers
- 
+  source: neural designer 
+
 - title: chronix
   category: anomolies - outliers 
   url: https://blog.acolyer.org/2017/03/10/chronix-long-term-storage-and-retrieval-technology-for-anomaly-detection-in-operational-data/
- 
+  source: acolyer
+
 - title: density-based, cluster-based, SVMs
   category: anomolies - outliers 
   url: https://www.datascience.com/blog/intro-to-anomaly-detection-learn-data-science-tutorials
- 
+  source: datascience 
+
 - title: id-describe-remove
   category: anomolies - outliers 
   url: https://datascienceplus.com/identify-describe-plot-and-removing-the-outliers-from-the-dataset/
- 
-- title: netflix
+  source: datascience plus 
+
+- title: tracking down villians
   category: anomolies - outliers 
   url: http://techblog.netflix.com/2015/07/tracking-down-villains-outlier.html
- 
+  source: netflix 
+
 - title: IoT sensor data
   category: anomolies - outliers 
   url: https://arxiv.org/abs/1703.03225 
   notes: "Anomaly Detection, Redundancy Elimination of IoT sensor data"
- 
+  source: arxiv 
+
 - title: outliers (pyod)
   category: anomolies - outliers 
   url: https://github.com/yzhao062/pyod
- 
+  source: github 
+
 - title: cheatsheet
   category: anomolies - outliers 
   url: https://www.kdnuggets.com/2019/02/outlier-detection-methods-cheat-sheet.html
+  source: kdnuggets 
 
 - title: scikit overview
   category: kernels - pairwise
