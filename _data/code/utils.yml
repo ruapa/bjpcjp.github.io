@@ -1,6 +1,6 @@
 - language: python
   library: postgresql
-  title: tutorial
+  title: postgres tutorial
   url: https://www.postgresqltutorial.com/postgresql-python/
   tags:
   note:
