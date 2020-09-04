@@ -1,707 +1,88 @@
 ---
-layout: page
 title: Ruby on Rails
-permalink: /rails/
+layout: page
 ---
 
-<div style="column-count: 2;">
+{%- assign sorted_records = site.data.code.ruby.all | sort: "category" -%}
 
-<div class="textcard"><strong>Tutorials & Resources</strong><br>
+{%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
 
-	<a href="https://guides.rubyonrails.org/getting_started.html">Getting Started</a><br>
-	<a href="http://railscasts.com/">Railscasts</a><br>
-	<a href="https://www.railstutorial.org/book">Hartl Rails Tutorial</a><br>
-	<a href="https://github.com/markets/awesome-ruby">Awesome Ruby (GitHub)</a><br>
-	<a href="https://www.ruby-toolbox.com/categories">Gems (Ruby Toolbox)</a><br>
-	<a href="https://dev.to/search?q=rails">Dev.to posts</a><br>
+<!-- TABLE OF CONTENTS -->
+<!--
+<div class="textcard">
+    <div style="column-count: 4;">
+        <big><big><big>Tags:</big></big></big><br>
+    {%- for tag in grouped_sorted_records -%}
+        <span style="margin:0.5em;">
+            <a href="#{{tag.name}}">{{tag.name}}</a>
+        </span><br>
+    {%- endfor -%}
+    </div>
 </div>
-
-
-<div class="textcard"><strong>Active Model</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_model_basics.html#attribute-methods">Attributes</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#callbacks">Callbacks</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#conversion">Conversions</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#dirty">Dirty</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#validations">Validations</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#naming">Naming & Routing</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#model">Models</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#serialization">Serialization</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#translation">Translation</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#lint-tests">Lint Tests</a><br>
-<a href="https://guides.rubyonrails.org/active_model_basics.html#securepassword">Secure Password</a><br>
-</div>
-
-
-<div class="textcard"><strong>Active Record</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_record_basics.html#naming-conventions">Naming</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#schema-conventions">Schemas</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models">Creating</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#overriding-the-naming-conventions">Naming Overrides</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#create">Create</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#read">Read</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#update">Update</a><br>
-<a href="https://guides.rubyonrails.org/active_record_basics.html#delete">Delete</a><br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Soft_Delete">"Soft" Delete"</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_User_Stamping">User Stamping</a><br>
-<a href="https://www.ruby-toolbox.com/categories/rails_tagging">Tagging</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Bit_Fields">Bit Masks</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Default_Values">Default Values</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Enumerations">Enumerations</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Index_Assistants">Index Assistants</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Named_Scopes">Named Scopes</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Nesting">Nested Records</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Sharding">Sharding</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Sortables">Lists/Sortables</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Value_Cleanup">Value Cleanup</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_Versioning">Versioning</a><br>
-<a href="https://www.ruby-toolbox.com/categories/pagination">Pagination</a><br>
-</div>
-
-
-<div class="textcard"><strong>Validations</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_record_validations.html#validations-overview">Overview</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#validation-helpers">Helpers</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#common-validation-options">Options</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#strict-validations">Strict Validation</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#conditional-validation">Conditional</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations">Custom</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors">Errors</a><br>
-<a href="https://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views">Errors in Views</a><br>
-</div>
-
-
-<div class="textcard"><strong>Callbacks (Hooks)</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#callback-registration">Registration</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#available-callbacks">Std Callbacks</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#running-callbacks">Running</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#skipping-callbacks">Skipping</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#halting-execution">Halting</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#relational-callbacks">Relational</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#conditional-callbacks">Conditional</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#callback-classes">Callback Classes</a><br>
-<a href="https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks">Transaction Callbacks</a><br>
-</div>
-
-
-<div class="textcard"><strong>Associations</strong><br>
-
-<a href="https://guides.rubyonrails.org/association_basics.html#why-associations-questionmark">Purpose</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association">belongs_to</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-has-one-association">has_one</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-has-many-association">has_many</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association">has_many :through</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-has-one-through-association">has_one :through</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association">HABTM</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one">belongs_to vs has_one</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#polymorphic-associations">polymorphics</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#self-joins">self-joins</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#tips-tricks-and-warnings">tips</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#detailed-association-reference">detailed reference</a><br>
-<a href="https://guides.rubyonrails.org/association_basics.html#single-table-inheritance">single-table inheritance</a><br>
-</div>
-
-
-<div class="textcard"><strong>DB Queries</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-a-single-object">get (single object)</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches">get (multiple objects)</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#conditions">conditions</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#ordering">ordering</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#selecting-specific-fields">specific fields</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#limit-and-offset">limit, offset</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#group">grouping</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#having">having</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions">overriding conditions</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#null-relation">null relations</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#readonly-objects">read-only records</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#locking-records-for-update">record locking</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#joining-tables">join tables</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#eager-loading-associations">eager loading</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#scopes">scopes</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#dynamic-finders">dynamic finders</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#enums">enums</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#understanding-the-method-chaining">method chains</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object">find-or-build</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#finding-by-sql">find with sql</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects">existence</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#calculations">calculations</a><br>
-<a href="https://guides.rubyonrails.org/active_record_querying.html#running-explain">explain</a><br>
-</div>
-
-
-
-
-<div class="textcard"><strong>DB Schema Migrations</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#creating-a-migration">Creating</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#writing-a-migration">Formats</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#running-migrations">Running</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#changing-existing-migrations">Changing Existing Migrations</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#schema-dumping-and-you">Schema Dumps</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#active-record-and-referential-integrity">Referential Integrity</a><br>
-<a href="https://guides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data">Seed Data</a><br>
-</div>
-
-
-<div class="textcard"><strong>DB Load-Store Options</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters">DB Adapters</a><br>
-<a href="https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails">Standalone Migrations</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Amazon_DynamoDB">Amazon Dynamo</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Connection_Pooling">Connection Pooling</a><br>
-<a href="https://www.ruby-toolbox.com/categories/couchdb_clients">CouchDB</a><br>
-<a href="https://www.ruby-toolbox.com/categories/CSV_Parsers">CSV Parsers</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Data_Migration">Data Migrations</a><br>
-<a href="https://www.ruby-toolbox.com/categories/mongodb_clients">MongoDB</a><br>
-<a href="https://www.ruby-toolbox.com/categories/orm">Rails ActiveRecord</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Redis">Redis</a><br>
-<a href="https://www.ruby-toolbox.com/projects/pg">Postgres</a><br>
-<a href="https://www.ruby-toolbox.com/projects/sqlite3">Sqlite3</a><br>
-<a href="https://www.ruby-toolbox.com/projects/mysql2">Mysql2</a><br>
-</div>
-
-
-<div class="textcard"><strong>Active Storage</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#setup">Setup</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#attaching-files-to-records">Attaching</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#removing-files">Removing</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#linking-to-files">Linking</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#downloading-files">Downloading</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#transforming-images">Transforming Images</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#previewing-files">Previewing</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#direct-uploads">Direct Uploads</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#discarding-files-stored-during-system-tests">System Tests</a><br>
-<a href="https://guides.rubyonrails.org/active_storage_overview.html#implementing-support-for-other-cloud-services">Other Cloud Svcs</a><br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/paperclip">Paperclip</a><br>
-<a href="https://www.ruby-toolbox.com/projects/carrierwave">CarrierWave</a><br>
-</div>
-
-
-<div class="textcard"><strong>API Clients</strong><br>
-
-<a href="https://www.ruby-toolbox.com/projects/octokit">Octokit (GitHub)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/twitter">Twitter</a><br>
-<a href="https://www.ruby-toolbox.com/projects/koala">Koala (Facebook)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/gibbon">Gibbon (Mailchimp)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/linkedin">LinkedIn</a><br>
-<a href="https://www.ruby-toolbox.com/projects/tweetstream">Tweetstream</a><br>
-<a href="https://www.ruby-toolbox.com/projects/bitly">Bitly</a><br>
-<a href="https://www.ruby-toolbox.com/projects/vacuum">Vacuum (Amazon Product Advertising)</a><br>
-</div>
-
-
-<div class="textcard"><strong>HTML Helpers</strong><br>
-
-
-<a href="https://guides.rubyonrails.org/action_view_overview.html#templates">Templates</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#partials">Partials</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#layouts">Layouts</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#partial-layouts">Partial Layouts</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#view-paths">View Paths</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#assettaghelper">Asset Tags</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#atomfeedhelper">Atom Feeds</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#benchmarkhelper">Benchmark Helper</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#cachehelper">Cache Helper</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#capturehelper">Capture Helper</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#datehelper">Date Helpers</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#debughelper">debug(content)</a><br>
-</div>
-
-
-<div class="textcard"><strong>Layouts & Rendering</strong><br>
-
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-render">render</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to">redirect_to</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses">head</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#asset-tag-helpers">Asset Tags</a>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield">yield</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-the-content-for-method">content_for</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials">partials</a><br>
-<a href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts">nested layouts</a><br>
-</div>
-
-
-<div class="textcard"><strong>Forms</strong><br>
-
-<a href="https://guides.rubyonrails.org/form_helpers.html#dealing-with-basic-forms">Basics</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects">Model Objects</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#making-select-boxes-with-ease">Option Selectors</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#using-date-and-time-form-helpers">Date & Time</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#uploading-files">File Uploads</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#customizing-form-builders">Custom Forms</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions">Parameter Names</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#forms-to-external-resources">External Resources</a><br>
-<a href="https://guides.rubyonrails.org/form_helpers.html#building-complex-forms">Complex Forms</a><br>
-
-<strong>More HTML Helpers:</strong><br>
-
-<a href="https://guides.rubyonrails.org/action_view_overview.html#formhelper">Form Helpers</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#formoptionshelper">Form Options</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#formtaghelper">Form Tags</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#javascripthelper">javascript_tag</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#numberhelper">Number Helpers</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#sanitizehelper">HTML Sanitize Helpers</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#csrfhelper">CSRF Helper</a><br>
-<a href="https://guides.rubyonrails.org/action_view_overview.html#localized-views">Localized Views</a><br>
-</div>
-
-
-<div class="textcard"><strong>Markup</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/rails_admin_interfaces">Admin UIs</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Breadcrumb_Builders">Breadcrumbs</a><br>
-<a href="https://www.ruby-toolbox.com/categories/markup_processors">Processors (Redcarpet, Kramdown)</a><br>
-<a href="https://www.ruby-toolbox.com/categories/microformats">Microformats (Prism,..)</a><br>
-<a href="https://www.ruby-toolbox.com/categories/syntax_highlighting">Syntax Highlighters</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Table_Builders">Table Builders</a><br>
-<a href="https://www.ruby-toolbox.com/categories/template_engines">Template Engines</a><br>
-<a href="https://www.ruby-toolbox.com/categories/rails_permalinks___slugs">Permalinks</a><br>
-</div>
-
-
-<div class="textcard"><strong>Javascript</strong><br>
-
-<a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript">Unobtrusive JS</a><br>
-<a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#built-in-helpers">Helpers</a><br>
-<a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#server-side-concerns">Server-Side</a><br>
-<a href="https://guides.rubyonrails.org/working_with_javascript_in_rails.html#turbolinks">Turbolinks</a><br>
-<a href="https://www.ruby-toolbox.com/categories/JavaScript_runtimes">Runtimes</a><br>
-<a href="https://www.ruby-toolbox.com/categories/javascript_testing">Testing</a><br>
-<a href="https://www.ruby-toolbox.com/projects/sprockets">Packaging</a><br>
-<a href="https://www.ruby-toolbox.com/projects/uglifier">Minifiers</a><br>
-<a href="https://www.ruby-toolbox.com/projects/coffee-script">Coffeescript</a><br>
-<a href="https://www.ruby-toolbox.com/projects/webpacker">Webpacker</a><br>
-<a href="https://www.ruby-toolbox.com/categories/react_tools">React-Rails</a><br>
-</div>
-
-
-<div class="textcard"><strong>CSS</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/css_with_ruby">Sass</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Font_Face_Servers">Font Face Servers</a><br>
-<a href="https://www.ruby-toolbox.com/categories/web_ui_frameworks">Bootstrap, Semantic UI </a><br>
-</div>
-
-
-<div class="textcard"><strong>Graphics, PDFs, Images, ...</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/reporting">Spreadsheets</a><br>
-<a href="https://www.ruby-toolbox.com/categories/pdf_generation">PDFs: Prawn, PDFkit, etc</a><br>
-<a href="https://www.ruby-toolbox.com/projects/pdf-reader">PDF Reader</a><br>
-<a href="https://www.ruby-toolbox.com/projects/chartkick">Charting</a><br>
-<a href="https://www.ruby-toolbox.com/categories/image_processing">Images</a><br>
-<a href="https://www.ruby-toolbox.com/categories/QR_Codes">QR Codes</a>
-<a href="https://www.ruby-toolbox.com/categories/visualizing_data">Visualization</a><br>
-<a href="https://www.ruby-toolbox.com/categories/irc_bots">IRC Bots</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Optical_Character_Recognition">OCR Tools</a>
-</div>
-
-
-<div class="textcard"><strong>Search Engines</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/rails_search">ElasticSearch</a><br>
-<a href="https://www.ruby-toolbox.com/projects/searchkick">Searchkick</a><br>
-<a href="https://www.ruby-toolbox.com/projects/sunspot">Sunspot</a><br>
-</div>
-
-
-<div class="textcard"><strong>Ecommerce, Payments</strong><br>
-
-<a href="https://www.ruby-toolbox.com/projects/spree">Spree</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Payments">ActiveMerchant, Stripe</a><br>
-</div>
-
-
-<div class="textcard"><strong>Email</strong><br>
-
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#sending-emails">Sending</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#receiving-emails">Receiving</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks">Callbacks</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#using-action-mailer-helpers">Helpers</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration">Configuration</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing">Testing</a><br>
-<a href="https://guides.rubyonrails.org/action_mailer_basics.html#intercepting-emails">Intercepting</a><br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/Asynchronous_E-Mail">Async Email</a><br>
-<a href="https://www.ruby-toolbox.com/categories/EMail_Fake_Servers">Previews</a><br>
-<a href="https://www.ruby-toolbox.com/categories/e_mail_processing">Processing</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Exchange_Clients">MS Exchange Client</a><br>
-<a href="https://www.ruby-toolbox.com/categories/forum_systems">Forum Tools</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Inline_CSS_for_E-Mail">Inline CSS</a><br>
-</div>
-
-
-<div class="textcard"><strong>Controllers</strong><br>
-
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark">Overview</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#controller-naming-convention">Naming</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#methods-and-actions">Methods</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#parameters">Parameters</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#session">Sessions</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#cookies">Cookies</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data">XML & JSON</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#filters>Filters">Filters</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#request-forgery-protection">Request Forgery Protection</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#the-request-and-response-objects">Requests & Responses</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#http-authentications">HTTP Authentication</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#streaming-and-file-downloads">Streaming</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#log-filtering">Log Filters</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#rescue">Rescue (404,500)</a><br>
-<a href="https://guides.rubyonrails.org/action_controller_overview.html#force-https-protocol">Forcing HTTPS</a>
-</div>
-
-
-<div class="textcard"><strong>Routing</strong><br>
-
-<a href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router">Overview</a><br>
-<a href="https://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default">Resource Routing</a><br>
-<a href="https://guides.rubyonrails.org/routing.html#non-resourceful-routes">Resourceful Routes</a><br>
-<a href="https://guides.rubyonrails.org/routing.html#customizing-resourceful-routes">Custom Resource Routes</a><br>
-<a href="https://guides.rubyonrails.org/routing.html#inspecting-and-testing-routes">Listing & Testing</a><br>
-<a href="https://www.ruby-toolbox.com/categories/rails_subdomains">Subdomains</a><br>
-</div>
-
-
-<div class="textcard"><strong>Ruby Extensions</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#how-to-load-core-extensions">How to Load</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-all-objects">All Objects</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-module">Modules</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-class">Classes</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-string">Strings</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-numeric">Numerics</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-integer">Integers</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-bigdecimal">Big Decimals</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-enumerable">Enumerables</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-array">Arrays</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-hash">Hashes</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-regexp">Regexes</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-range">Ranges</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-date">Dates</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-datetime">Date/Times</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-time">Times</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-file">Files</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-marshal">Marshals</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-nameerror">Name Errors</a><br>
-<a href="https://guides.rubyonrails.org/active_support_core_extensions.html#extensions-to-loaderror">Load Errors</a><br>
-</div>
-
-
-<div class="textcard"><strong>Background Jobs</strong><br>
-
-<a href="https://guides.rubyonrails.org/active_job_basics.html#creating-a-job">Creating</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#job-execution">Running</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#queues">Queues</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#callbacks">Callbacks</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#action-mailer">Action Mailer</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#internationalization">Internationalization</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#globalid">Global ID</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#exceptions">Exceptions</a><br>
-<a href="https://guides.rubyonrails.org/active_job_basics.html#job-testing">Testing</a><br>
-<a href="https://www.ruby-toolbox.com/categories/Background_Jobs">Sidekiq, Resque, etc</a><br>
-<a href="https://www.ruby-toolbox.com/categories/daemonizing">Daemons</a><br>
-<a href="https://www.ruby-toolbox.com/categories/daemon_management">Foreman</a><br>
-<a href="https://www.ruby-toolbox.com/categories/scheduling">Scheduling</a><br>
-</div>
-
-
-<div class="textcard"><strong>Concurrent Processing</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/Concurrent_Processing">Concurrent-Ruby, EventMachine</a><br>
-</div>
-
-
-<div class="textcard"><strong>Caching</strong><br>
-
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#page-caching">Page</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#action-caching">Action</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching">Fragment</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#russian-doll-caching">Russian Doll</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#shared-partial-caching">Shared Partial</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#managing-dependencies">Dependencies</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#low-level-caching">Low Level</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#sql-caching">SQL Caching</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#configuration">Storage Configuration</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#cache-keys">Keys</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#conditional-get-support">Conditional GET</a><br>
-<a href="https://guides.rubyonrails.org/caching_with_rails.html#caching-in-development">Caching in Devt</a><br>
-</div>
-
-
-<div class="textcard"><strong>Action Cable (Websockets)</strong><br>
-
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#what-is-pub-sub">Pub/Sub</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#server-side-components">Server-Side</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#client-side-components">Client-Side</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#streams">Streams</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#broadcasting">Broadcasting</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#client-server-interactions-subscriptions">Subscriptions</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#passing-parameters-to-channels">Parameters</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message">Re-broadcasting</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#full-stack-examples">Full Stack Examples</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#configuration">Configuration</a><br>
-<a href="https://guides.rubyonrails.org/action_cable_overview.html#running-standalone-cable-servers">Standalone Servers</a><br>
-</div>
-
-
-<div class="textcard"><strong>Rack (Middleware)</strong><br>
-
-<a href="https://guides.rubyonrails.org/rails_on_rack.html#rails-on-rack">Rails on Rack</a><br>
-<a href="https://guides.rubyonrails.org/rails_on_rack.html#action-dispatcher-middleware-stack">Middleware Stack</a><br>
-<a href="https://rack.github.io/">Rack Website</a><br>
-<a href="http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html">Intro to Rack</a><br>
-</div>
-
-
-<div class="textcard"><strong>Autoloading & Constants</strong><br>
-
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constants-refresher">Constants</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#vocabulary">Vocabulary</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-availability">Autoloading Availability</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoload-paths-and-eager-load-paths">Load Paths</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoloading-algorithms">Autoload Algorithms</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#require-dependency">require_dependency</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#constant-reloading">Constant Reloading</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#module-autoload-isn-t-involved">Module#autoload</a><br>
-<a href="https://guides.rubyonrails.org/autoloading_and_reloading_constants.html#common-gotchas">Gotchas</a>
-</div>
-
-
-<div class="textcard"><strong>International'n</strong><br>
-
-<a href="https://guides.rubyonrails.org/i18n.html#how-i18n-in-ruby-on-rails-works">Overview</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#setup-the-rails-application-for-internationalization">Setup</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#internationalization-and-localization">Localization</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#overview-of-the-i18n-api-features">API</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#how-to-store-your-custom-translations">Custom Translations</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#customize-your-i18n-setup">Custom Setups</a><br>
-<a href="https://guides.rubyonrails.org/i18n.html#translating-model-content">Model Content</a><br>
-</div>
-
-<div class="textcard"><strong>Monitoring</strong><br>
-<a href="https://app.getpocket.com/read/2928780813">40 tools (hixonrails)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/newrelic_rpm">New Relic</a><br>
-<a href="https://www.ruby-toolbox.com/projects/better_errors">Better Errors</a><br>
-<a href="https://www.ruby-toolbox.com/projects/bullet">Bullet</a><br>
-<a href="https://www.ruby-toolbox.com/projects/errbit/errbit">Errbit</a><br>
-<a href="https://www.ruby-toolbox.com/projects/airbrake">Airbrake</a><br>
-</div>
-
-
-<div class="textcard"><strong>Logging</strong><br>
-
-<a href="https://www.ruby-toolbox.com/projects/logstash/logstash">Logstash</a><br>
-<a href="https://www.ruby-toolbox.com/projects/fluentd">Fluentd, etc</a><br>
-</div>
-
-
-<div class="textcard"><strong>Testing</strong><br>
-
-<a href="https://guides.rubyonrails.org/testing.html#introduction-to-testing">Intro</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#the-test-database">Test DB</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#model-testing">Model Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#system-testing">System Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#functional-tests-for-your-controllers">Function Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#testing-routes">Route Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#testing-views">View Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#testing-helpers">Helper Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#testing-your-mailers">Email Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#testing-jobs">Background Job Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#integration-testing">Integration Testing</a><br>
-<a href="https://guides.rubyonrails.org/testing.html#additional-testing-resources">Resources</a><br>
-
-<strong>Gems</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/split">Split</a><br>
-<a href="https://www.ruby-toolbox.com/projects/selenium-webdriver">Selenium</a><br>
-<a href="https://www.ruby-toolbox.com/projects/guard">Guard</a><br>
-<a href="https://www.ruby-toolbox.com/projects/guard-rspec">Guard-rspec</a><br>
-<a href="https://www.ruby-toolbox.com/categories/code_coverage">ruby toolbox</a><br>
-<a href="https://github.com/colszowka/simplecov">simplecov</a><br>
-<a href="https://www.ruby-toolbox.com/categories/code_metrics">Metrics</a><br>
-<a href="https://www.ruby-toolbox.com/categories/code_review_tools">Review Tools</a><br>
-<a href="https://www.ruby-toolbox.com/projects/faker">Faker</a><br>
-<a href="https://www.ruby-toolbox.com/projects/factory_bot">Factory Bot</a><br>
-<a href="https://www.ruby-toolbox.com/projects/minitest">Minitest</a>
-<a href="https://www.ruby-toolbox.com/projects/cucumber">Cucumber</a><br>
-<a href="https://www.ruby-toolbox.com/categories/mocking_web_requests">Webmock</a><br>
-<a href="https://www.ruby-toolbox.com/projects/spring">Spring</a><br>
-<a href="https://www.ruby-toolbox.com/projects/timecop">Timecop</a><br>
-
-<strong>rspec</strong><br>
-<a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/">tutorial (Hix on Rails)</a><br>
-<a href="https://relishapp.com/rspec">Relish</a><br>
-<a href="https://www.ruby-toolbox.com/categories/RSpec_Matchers">rspec-matchers</a><br>
-<a href="https://www.ruby-toolbox.com/projects/rspec-mocks">rspec-mocks</a><br>
-</div>
-
-<div class="textcard"><strong>Security</strong><br>
-
-<a href="https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/">Best Practices (Hix on Rails)</a><br>
-<a href="https://guides.rubyonrails.org/security.html#sessions">Sessions</a><br>
-<a href="https://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf">CSRF</a><br>
-<a href="https://guides.rubyonrails.org/security.html#redirection-and-files">Redirection & Files</a><br>
-<a href="https://guides.rubyonrails.org/security.html#intranet-and-admin-security">Admin Security</a><br>
-<a href="https://guides.rubyonrails.org/security.html#user-management">User Mgmt</a><br>
-<a href="https://guides.rubyonrails.org/security.html#injection">Injection</a><br>
-<a href="https://guides.rubyonrails.org/security.html#unsafe-query-generation">Unsafe Queries</a><br>
-<a href="https://guides.rubyonrails.org/security.html#default-headers">Headers</a><br>
-<a href="https://guides.rubyonrails.org/security.html#environmental-security">Environmental Security</a><br>
+<br><br>
+-->
+
+<!-- MAIN -->
+
+{%- for group in grouped_sorted_records -%}
+    {%- if group.name != "" -%}
+
+        <!-- navigation points. -->
+
+        <span id="{{group.name}}">
+            {{group.name}}
+
+            <!--right-side links: 1) my tweets, 2) "home" navigation -->
+            <span style="float:right;">
+
+                <!--
+                <button>
+                    <a href="https://twitter.com/search?q=({{group.name}})%20(from%3Abrianpiercy)&src=typed_query" 
+                        target="_blank">
+                        My Tweets</a>
+                </button>-->
+
+                <button>
+                <a href="https://duckduckgo.com?q={{group.name}} AND ruby OR rubyonrails"
+                   target="_blank">
+                    Search by topic (DDG)</a>
+                </button>
+            </span>
+        <br>
+    
+        <!-- bookmarks are grouped into "groups", and sorted by the title field. -->
+
+        <div class="textcard">
+            <div style="column-count:2;
+                        column-rule: 4px solid #c6d9ec;">
+
+                {%- assign sorted_items = group.items | sort: "title" -%}
+                {%- for item in sorted_items -%}
+
+                    <!-- bookmark sources, if available, float to the right. -->
+
+                    {%- if item.source -%}
+                        <span style="float:right;">
+                            <small><em> {{ item.source }} </em></small>
+                        </span>
+                    {%- endif -%}
+
+                    <a href="{{item.url}}">{{item.title}}</a><br>
+
+                    {%- if item.pic -%}
+                        <img src="{{ item.pic }}"><br>
+                    {%- endif -%}
+
+                    {%- if item.notes -%}
+                        <small><em> {{ item.notes }} </em></small><br>
+                    {%- endif -%}
+
+                {%- endfor -%}
+            </div><br>
+        </div><br><br>
+        </span>
+    {%- endif -%}
+{%- endfor -%}
 <br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/loofah">Loofah</a><br>
-<a href="https://www.ruby-toolbox.com/projects/brakeman">Brakeman</a><br>
-<a href="https://www.ruby-toolbox.com/categories/spam_detection">Spam Detection</a><br>
-<a href="https://www.ruby-toolbox.com/categories/rails_authorization">Authorization (Cancan, ...)</a><br>
-<a href="https://www.ruby-toolbox.com/categories/rails_authentication">Authentication (Devise, ...)</a><br>
 </div>
 
-
-<div class="textcard"><strong>Configuration</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/gem_creation">Gems (Bundler)</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#locations-for-initialization-code">Locations</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#running-code-before-rails">Code Before Rails</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#configuring-rails-components">Component Configs</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#rails-environment-settings">Environment Settings</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#using-initializer-files">Initializer Files</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#initialization-events">Initialization Events</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#database-pooling">Database Pooling</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#custom-configuration">Customization</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#search-engines-indexing">SEO Indexing</a><br>
-<a href="https://guides.rubyonrails.org/configuring.html#evented-file-system-monitor">Evented File System Monitor</a><br>
-<br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/Configuration_Management">Config Mgmt (Dotenv)</a><br>
-</div>
-
-
-<div class="textcard"><strong>Asset Pipeline</strong><br>
-
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#what-is-fingerprinting-and-why-should-i-care-questionmark">Fingerprinting</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#how-to-use-the-asset-pipeline">Pipeline Usage</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#in-development">While in Development</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#in-production">While in Production</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#customizing-the-pipeline">Customization</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#assets-cache-store">Cache Storage</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#adding-assets-to-your-gems">Adding Assets to Gems</a><br>
-<a href="https://guides.rubyonrails.org/asset_pipeline.html#making-your-library-or-gem-a-pre-processor">PreProcessing Gems</a><br>
-</div>
-
-
-<div class="textcard"><strong>Debugging</strong><br>
-
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#view-helpers-for-debugging">View Helpers</a><br>
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#the-logger">Logging</a><br>
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-byebug-gem">Byebug</a><br>
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-web-console-gem">web-console</a><br>
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-memory-leaks">Memory Leaks</a><br>
-<a href="https://guides.rubyonrails.org/debugging_rails_applications.html#plugins-for-debugging">Plugins</a>
-</div>
-
-
-<div class="textcard"><strong>Documentation</strong><br>
-
-<a href="https://www.ruby-toolbox.com/projects/rdoc">Rdoc</a><br>
-</div>
-
-
-<div class="textcard"><strong>Command Line</strong><br>
-
-<a href="https://guides.rubyonrails.org/command_line.html#command-line-basics">Command Line Basics</a><br>
-<a href="https://guides.rubyonrails.org/command_line.html#bin-rails">bin/rails</a><br>
-<a href="https://www.ruby-toolbox.com/projects/rake">Rake</a><br>
-<a href="https://guides.rubyonrails.org/command_line.html#custom-rake-tasks">Custom Rake Tasks</a><br>
-<a href="https://guides.rubyonrails.org/command_line.html#the-rails-advanced-command-line">Adv Rails Cmnds</a><br>
-<br>
-<strong>Gems:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/pry">Pry (IRB alternative)</a><br>
-<a href="https://www.ruby-toolbox.com/projects/thor">Thor</a><br>
-<a href="https://www.ruby-toolbox.com/categories/CommandLineUtilities">Rexe</a><br>
-<a href="https://www.ruby-toolbox.com/categories/CLI_Option_Parsers">CLI Option Parsers</a><br>
-<a href="https://www.ruby-toolbox.com/categories/CLI_Progress_Bars">CLI Progress Bars</a><br>
-</div>
-
-
-<div class="textcard"><strong>DevOps</strong><br>
-
-<a href="https://www.ruby-toolbox.com/categories/Amazon_Web_Services">AWS</a><br>
-<a href="https://www.ruby-toolbox.com/projects/backup">Backup</a><br>
-<br>
-<strong>Continuous Integration:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/travis-ci/travis-ci">Travis CI</a><br>
-<br>
-<strong>Automation:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/capistrano">Capistrano</a><br>
-<a href="https://www.ruby-toolbox.com/projects/heroku">Heroku</a><br>
-<a href="https://www.ruby-toolbox.com/projects/fog">Fog</a><br>
-<br>
-<strong>Provisioning:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/vagrant">Vagrant</a><br>
-<a href="https://www.ruby-toolbox.com/projects/chef">Chef</a><br>
-<a href="https://www.ruby-toolbox.com/projects/puppet">Puppet</a><br>
-<br>
-<strong>Web Servers:</strong><br>
-<a href="https://www.ruby-toolbox.com/projects/puma">Puma</a><br>
-<a href="https://www.ruby-toolbox.com/projects/unicorn">Unicorn</a><br>
-<a href="https://www.ruby-toolbox.com/projects/thin">Thin</a><br>
-<a href="https://www.ruby-toolbox.com/projects/passenger">Passenger</a><br>
-<br>
-<strong>Revision Control:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/git_Tools">Git Tools</a><br>
-<a href="https://www.ruby-toolbox.com/categories/project_management">GitlabHQ</a><br>
-<br>
-<strong>Other</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/Gnome">Gtk2, glib2</a><br>
-<a href="https://www.ruby-toolbox.com/projects/brandonweiss/railyard">Railyard</a><br>
-</div>
-
-
-<div class="textcard"><strong>Publishing</strong><br>
-
-<br>
-<strong>Blog Engines:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/Blog_Engines">Octopress, etc</a><br>
-<br>
-<strong>Content Mgmt Systems:</strong>
-<a href="https://www.ruby-toolbox.com/categories/content_management_systems">Refinery, etc</a><br>
-<br>
-<strong>Wikis:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/wiki_apps">Gollum</a><br>
-<br>
-<strong>Static Websites:</strong><br>
-<a href="https://www.ruby-toolbox.com/categories/static_website_generation">Jekyll, etc</a><br>
-</div>
-
-
-<div class="textcard"><strong>Building API-Only Apps</strong><br>
-
-<a href="https://guides.rubyonrails.org/api_app.html#why-use-rails-for-json-apis-questionmark">Rails for JSON APIs</a><br>
-<a href="https://guides.rubyonrails.org/api_app.html#creating-a-new-application">New</a><br>
-<a href="https://guides.rubyonrails.org/api_app.html#changing-an-existing-application">Change</a><br>
-<a href="https://guides.rubyonrails.org/api_app.html#choosing-middleware">Middleware</a><br>
-<a href="https://guides.rubyonrails.org/api_app.html#choosing-controller-modules">Controller Modules</a><br>
-</div>
-
-
-<div class="textcard"><strong>Generators & Templates</strong><br>
-
-<a href="https://guides.rubyonrails.org/generators.html#first-contact">1st Contact</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#creating-your-first-generator">Creating</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#creating-generators-with-generators">Generators w/ Generators</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#generators-lookup">Lookups</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#customizing-your-workflow">Custom Workflows</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates">Custom Templates</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#adding-generators-fallbacks">Fallbacks</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#application-templates">App Templates</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#adding-command-line-arguments">Cmnd Line Args</a><br>
-<a href="https://guides.rubyonrails.org/generators.html#generator-methods">Generators</a><br>
-</div>
-
-</div>
