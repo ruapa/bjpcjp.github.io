@@ -5,19 +5,19 @@ layout: page
 
 {% assign allsortedtags = site.tags | sort %}
 
-<div class="textcard">
   <div style="column-count: 2;">
     {%- for tag in allsortedtags -%}
-      <h4><a href="https://twitter.com/search?q=({{ tag[0] }})%20(from%3Abrianpiercy)&src=typed_query" 
-              target="_blank"
-              style="color:black;">
-      {{ tag[0] }}</a><br></h4>
+      <div class="textcard">
+        <h4><a href="https://twitter.com/search?q=({{ tag[0] }})%20(from%3Abrianpiercy)&src=typed_query" 
+                target="_blank"
+                style="color:black;">
+        {{ tag[0] }}</a><br></h4>
 
-      <ul>
-        {% for post in tag[1] %}
-          <li><a href="{{post.url}}">{{post.title}}</a></li>
-        {% endfor %}
-      </ul>
+        <ul>
+          {% for post in tag[1] %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endfor %}
-  </div>
 </div>
