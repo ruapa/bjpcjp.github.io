@@ -1,0 +1,44 @@
+---
+title: test page
+layout: page
+---
+
+{%- assign sorted_records = site.data.math.ebook_chapters_plus_pwc | sort: "category" -%}
+
+{%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
+
+    {%- for group in grouped_sorted_records -%}
+        {%- if group.name != "" -%}
+            <big><big>{{group.name}}:</big></big><br>
+            <div style="column-count:2;">
+
+                {%- assign sorted_items = group.items | sort: "title" -%}
+                {%- for item in sorted_items -%}
+                    <div class="textcard">
+
+                        {%- if item.source -%}
+                            <span style="float:right;">
+                            <small><em> {{ item.source }} </em></small>
+                            </span>
+                        {%- endif -%}
+
+                        <a href="{{item.url}}">{{item.title}}</a><br>
+
+                        <!--
+                        {%- if item.pic -%}
+                            <img src="{{ item.pic }}"><br>
+                        {%- endif -%}
+                    -->
+
+                        {%- if item.notes -%}
+                            <small><em> {{ item.notes }} </em></small><br>
+                        {%- endif -%}
+
+                    </div>
+                {%- endfor -%}
+            </div><br>
+        {%- endif -%}
+    {%- endfor -%}
+    <br>
+</div>
+

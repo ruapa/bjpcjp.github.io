@@ -1,0 +1,1192 @@
+---
+layout: page
+title: Python
+permalink: /python/
+---
+
+<p>Standard Library 3.8, NumPy, Pandas, SciPy, StatsModel, Patsy,
+    Scikit-Learn, Scikit-Image, TensorFlow, PyTorch (underway),
+    Cython, Numba, NLTK, SpaCy, Gensim (underway),
+    Matplotlib, Seaborn
+    </p>
+
+<!-- ********************************************************************** -->
+<h2 id="various">Various DevTools:</h2>
+<!-- ********************************************************************** -->
+
+<div class="textcard">
+<strong><a href="https://martinheinz.dev/blog/24">Debugging (Martin Heinz)</a>
+</strong><br>
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="stdlib">Std Library:</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/functions.html" target="_blank">
+    Std Functions</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/constants.html" target="_blank">
+    Std Constants</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/stdtypes.html" target="_blank">
+    Std Datatypes</a></strong><br>
+    <em>booleans, comparisons, numerics, iterators, sequences,
+    text sequences, binary sequences, sets, maps, context managers, 
+    others</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/exceptions.html" target="_blank">
+    Std Exceptions</a></strong><br>
+    <em>base, concrete exceptions, warnings, hierarchy</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/text.html" target="_blank">
+    Text Services</a></strong><br>
+    <em>string, re, difflab, textwrap, unicodedata, stringprep,
+    readline, rlcompleter</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/binary.html" target="_blank">
+    Binary Data Services</a></strong><br>
+    <em>struct, codecs</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/datatypes.html" target="_blank">
+    More Datatypes</a></strong><br>
+    <em>datetime, calendar, collections, heapq, bisect, array, weakref,
+    types, copy, pprint, reprlib, enum</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/numeric.html" target="_blank">
+    Numerical Libraries</a></strong><br>
+    <em>numbers, math, cmath, decimal, fractions, random, statistics</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/functional.html" target="_blank">
+    Functional Programming</a></strong><br>
+    <em>itertools, functools, operators</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/filesys.html" target="_blank">
+    Files & Directories</a></strong><br>
+    <em>pathlib, os.path, fileinput, stat, filecmp,
+    tempfile, glob, fnmatch, linecache, shutil</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/persistence.html" target="_blank">
+    Persistence (load/store)</a></strong><br>
+    <em>pickle, copyreg, shelve, marshal, dbm, sqlite3</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/archiving.html" target="_blank">
+    Compression / Archiving</a></strong><br>
+    <em>zlib, gzip, bz2, lzma, zipfile, tarfile</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/fileformats.html" target="_blank">
+    File Formats</a></strong><br>
+    <em>csv, configparser, netrc, xdrlib, plistlib</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/crypto.html" target="_blank">
+    Crypto</a></strong><br>
+    <em>hashlib, hmac, secrets</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/allos.html" target="_blank">
+    Generic OS Services</a></strong><br>
+    <em>os, io, time, argparse, getopt, logging, getpass, curses,
+    platform, error, ctypes</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/concurrency.html" target="_blank">
+    Concurrency</a></strong><br>
+    <em>threading, multiprocessing, concurrent, subprocess,
+    sched, queue, _thread, _dummy_thread</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/contextvars.html" target="_blank">
+    Context Variables</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/ipc.html" target="_blank">
+    Networking</a></strong><br>
+    <em>asyncio, socket, ssl, select, selectors,
+    asyncore, asynchat, signal, mmap</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/netdata.html" target="_blank">
+    Internet Data</a></strong><br>
+    <em>email, json, mailcap, mailbox, mimetypes,
+    base64, binhex, binascii, quopri, uu</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/markup.html" target="_blank">
+    Markup</a></strong><br>
+    <em>html, xml</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/internet.html" target="_blank">
+    Internet Protocols</a></strong><br>
+    <em>webbrowser, cgi, cgitb, wsgiref, urllib,
+    http,
+    ftplib, poplib, imaplib, nntplib, smtplib, smtpd, telnetlib,
+    uuid, socketserver, http.server, http.cookies,
+    xmlrpc, ipaddress</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/mm.html" target="_blank">
+    Multimedia</a></strong><br>
+    <em>audioop, aifc, sunau, wave, chunk, colorsys, imghdr, sndhdr, ossaudiodev</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/i18n.html" target="_blank">
+    Internationalization</a></strong><br>
+    <em>gettext, locale</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/frameworks.html" target="_blank">
+    Frameworks</a></strong><br>
+    <em>turtle, cmd, shlex</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/tk.html" target="_blank">
+    GUIs with Tk</a></strong><br>
+    <em>tkinter, 
+    <a href="https://docs.python.org/3.8/library/othergui.html" target="_blank">others</a></em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/development.html" target="_blank">
+    Dev Tools</a></strong><br>
+    <em>typing, pydoc, doctest, unittest, 2to3, test</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/debug.html" target="_blank">
+    Debuggin / Profiling</a></strong><br>
+    <em>bdb, faulthandler, pdb, 
+    <a href="https://docs.python.org/3.8/library/profile.html" target="_blank">profilers,</a> timeit, trace, tracemalloc</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/distribution.html" target="_blank">
+    Packages</a></strong><br>
+    <em>distutils, ensurepip, venv, zipapp</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/python.html" target="_blank">
+    Runtime</a></strong><br>
+    <em>sys, sysconfig, builtins, __main__, warnings, dataclasses,
+    contextlib, abc, atexit, traceback, __future__,
+    gc, inspect, site</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/custominterp.html" target="_blank">
+    Custom Interpreters</a></strong><br>
+    <em>code, codeop</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/modules.html" target="_blank">
+    Importing Modules</a></strong><br>
+    <em>zipimport, pkgutil, modulefinder, runpy, importlib</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/language.html" target="_blank">
+    Language Svcs</a></strong><br>
+    <em>parser, ast, symtable, symbol, token, keyword, tokenize,
+    tabnanny, pyclbr, py_compile, compileall, diss, pickletools</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/misc.html" target="_blank">
+    Misc</a></strong><br>
+    <em>formatter</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/windows.html" target="_blank">
+    Windows Svcs</a></strong><br>
+    <em>msilib, msvcrt, winreg, winsound</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/unix.html" target="_blank">
+    Unix Svcs</a></strong><br>
+    <em>posix, pwd, spwd, grp, crypt, termios, tty, pty, 
+    fcntl, pipes, resource, nis, syslog</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://docs.python.org/3.8/library/superseded.html" target="_blank">
+    Superseded</a></strong><br>
+    <em>optparse, imp</em>
+</div>
+
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="numpy">Basics: Numpy, Pandas, Bayes, Statistics:</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch02-vectors-matrices-ndarrays.ipynb" target="_blank">NumPy</a></strong><br>
+    <em>vectors, matrices, ndarrays</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/numpy">NumPy (more)</a></strong><br>
+    <em>arrays, boolean arrays, masking, broadcasting, fancy indexes, sorting, 
+    structured data, aggregations, ufuncs, datatypes</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch12-data-analysis-pandas-seaborn.ipynb" target="_blank">Pandas</a></strong><br>
+    <em>series, dataFrames, time series</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/pandas">Pandas (more)</a></strong><br>
+    <em>aggregation, groups, concat/append, hierarchical indexes, merge/join, missing values, 
+    pivot tables, time series, vectorized objects</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/pandas-tips-tricks">Pandas (tips & tricks)</a></strong><br>
+    <em>date ranges, merges, save to excel, file compression, histograms, pdfs, cdfs, least squares,
+    timing, display options, pandas 1.0 features</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://towardsdatascience.com/search?q=pandas">Pandas (Towards Data Science articles)</a></strong><br>
+    <em>tricks, speed: Modin, pipelines: pdpipe, gui: bamboolib, ufuncs, feature selection, time series,
+    graph analysis: networkx, maps: geopandas, (much more...)</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch13-statistics.ipynb" target="_blank">Statistical Basics</a></strong><br>
+    <em>random numbers, distributions, hypothesis testing, kernel density estimation</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb" target="_blank">Bayes</a></strong><br>
+    <em>example (normal distribution), dependent variables, posterior distributions, linear regression, multilevel models</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb" target="_blank">Statsmodel & Patsy</a></strong><br>
+    <em>Patsy basics, categorical variables, linear regression, discrete & logistic regression, poisson distribution, time series</em>
+</div>
+
+</div>
+
+<!-- ***************************************************************** -->
+<h2 id="numerics">Numerical Analysis with SymPy & SciPy:</h2>
+<!-- ***************************************************************** -->
+<div style="column-count: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank"> Intro to SymPy</strong></a><br>
+    <em>symbols, numbers, rationals, constants, functions, expressions, simplification,
+    expansion, factor, collect, combine, apart, together, cancel, substitutions,
+    evaluations, calculus, sums, products, equations, linear algebra</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch03-symbolic-math-with-sympy.ipynb" target="_blank">Equation solvers</strong></a><br>
+    <em>square v rectangular, eigenvalues, nonlinear eqtns, univariate eqtns</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch06-optimization.ipynb" target="_blank">Optimization</a></strong><br>
+    <em>univariate, multivariate, constrained, linear programming</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch07-interpolation.ipynb" target="_blank">Interpolation</a></strong><br>
+    <em>polynomials, splines, multivariate</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch08-integration.ipynb" target="_blank">Integration</a></strong><br>
+    <em>simpson's rule, multiple integration, scikit-monaco, symbolic/multiprecision quadrature, laplace xforms, fourier xforms</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch17-signal-processing.ipynb" target="_blank">Signal Processing</a></strong><br>
+    <em>spectral analysis, fourier transforms, frequency-domain filtering, windowing, 
+    spectrograms, convolutions, FIR/IIR filters</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch10-sparse-matrices-graphs.ipynb" target="_blank">Sparse Matrix & Graph Ops</a></strong><br>
+    <em>sparse matrices, sparse linear algebra, eigenvalue problems, graphs & networks</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch09-ordinary-differential-equations.ipynb" target="_blank">Ordinary DEs</a></strong><br>
+    <em>symbolic solutions, direction field graphs, laplace transforms, numerical methods, numerical integration</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch11-partial-differential-equations.ipynb" target="_blank">Partial DEs</a></strong><br>
+    <em>Dolfin, MSHR (**NOT WORKING YET**)</em>
+</div>
+
+</div><!-- of symbolics, etc -->
+
+<!-- ***************************************************************** -->
+<h2 id="codeopts">Code Optimization - Numba, Cython:</h2>
+<!-- ***************************************************************** -->
+
+<div style="column-count: 2;">
+
+<div class="textcard">
+<a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch19-optimization.ipynb" target="_blank"><strong>Basics</strong></a><br>
+    <em>numba, numba.vectorize, cython, tips & tricks, cython & C</em>
+</div>
+
+<br><br>
+
+<div class="textcard">
+<a href="https://numba.pydata.org/numba-doc/dev/user/5minguide.html" target="_blank">
+<strong>A Five-Minute Intro (numba.pydata)</strong></a><br>
+    <em>installation, will it work?, nopython, performance, under the hood, @decorators, GPUs</em>
+</div>
+
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="sklearn">Scikit-Learn Toolbox:</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-installation-dev.pdf" target="_blank">Installation </a></strong><br>
+    <em>from nightly build, from source, platform-specific</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/getting_started.ipynb" target="_blank">Intro</a></strong><br>
+    <em>estimators, transformers, pre-processors, pipelines, cross validation</em>
+</div>
+
+<div class="textcard">
+    <strong><a href="https://scikit-learn.org/stable/auto_examples/index.html" target="_blank">Examples</a></strong>
+</div>
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-api-0.22.1.pdf" target="_blank">API 0.22.1</a></strong>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_cross_validation.ipynb" target="_blank">Cross Validation</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-cross-validation.pdf" target="_blank">UG 0.22.1</a>, 
+    ROC curves, k-fold, LvO, LpO, stratification, shuffle-split, group-k-fold</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-feature-selection.pdf" target="_blank">Feature Operations</a></strong><br>
+    <em>removing low-variance features, univariate selection, recursive elimination, selecting from model, pipelines</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_hyperparameter_tuning.ipynb" target="_blank">Hyperparameter Tuning</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-hyperparameters-grid-search.pdf" target="_blank">UG 0.22.1 </a>, 
+    grid search, randomized params, tips, brute force alternatives</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-validation-curves.pdf" target="_blank">Validation & Learning Curves </a></strong><br>
+    <em>validation curves, learning curves</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_probability_calibration.ipynb" target="_blank">
+    Probability Calibration</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-calibration.pdf" target="_blank">UG 0.22.1</a>, 
+    parametric vs non-parametric, Gaussian NB analysis, 3-class classifications</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_approximation.ipynb" target="_blank">Kernel Approximation</a></strong><br>
+<em>
+    <!--<a href="/pdfs/sckit-0.22.1/scikit-guide-0.22.1-kernel-approximation.pdf" target="_blank">UG 0.22.1 </a>, -->
+    noestrem method, kernels</em>
+</div>
+
+<!--
+<div class="textcard">
+<strong><a href="https://scikit-learn.org/stable/auto_examples/index.html#model-selection">Model Selection<br>Examples (16)</a></strong><br>
+</div>
+-->
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-pairwise-ops.pdf" target="_blank">
+    Similarity / Distance Metrics</a></strong><br>
+    <em>cosine similarity<br>linear/ polynomial/ sigmoid/ RBF/ lapacian/ chisqd kernels</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-performance.pdf" target="_blank">Performance Tips </a></strong><br>
+    <em>python vs cython vs c, profiling, memory profiling, cython tips, profiling compiled extensions, 
+    joblib.Parallel, warm_start</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-utilities-dev.pdf" target="_blank">Developer Utilities </a></strong><br>
+    <em>validation tools, linear algebra & array ops, random sampling, graph ops, testing, multiclass & multilabel ops,
+        helpers, hashes, warnings & exceptions</em>
+</div>
+
+
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="supervised">Machine Learning (Supervised):</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_linear.ipynb" target="_blank">Linear Regression Models</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-linear.pdf" target="_blank">UG 0.22.1 </a>, 
+    OLS, ridge, lasso, elastic net, LARS, OMP, bayes, ARD, 
+    logistic regression, passive-aggressive algos, robustness, ransac, theil-sen, huber, polynomial regression</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_kernel_ridge.ipynb" target="_blank">Kernel Ridge Regression</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-kernel-ridge.pdf" target="_blank">UG 0.22.1</a></em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_isotonic.ipynb" target="_blank">Isotonic Regression</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-isotronic.pdf" target="_blank">UG 0.22.1</a></em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch03-classification.ipynb" target="_blank">
+Intro to Classification</a></strong><br>
+    <em>MNIST, metrics, confusion matrix, precision/recall, ROC, multiple classes, error analysis, multiple labels, multiple outputs</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-stochastic-gradient-descent.pdf" target="_blank">Stochastic Gradient Descent </a></strong><br>
+    <em>classification, regression, sparse data, complexity, stopping, tips, implementation</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch06-decision-trees.ipynb" target="_blank">
+Decision Trees</a></strong><br>
+    <em>training/visualization, predictions, CART, gini vs entropy, regularization</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_decision_trees.ipynb" target="_blank">Decision Trees (more)</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-decision-trees.pdf" target="_blank">UG 0.22.1 </a>, 
+    classification, regression, multiple outputs, complexity, tips, algos (ID3, C4.5, C5.0, CART), math, minimal cost-complexity pruning</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch07-ensemble-learning.ipynb" target="_blank">
+    Ensembles</a></strong><br>
+    <em>voting classifiers, bagging, out of bag evaluation, random patches/subspaces, random forests, 
+    feature importance, adaboost, gradient boosting, stacking</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_ensembles.ipynb" target="_blank">Ensembles (more)</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-ensembles.pdf" target="_blank">UG 0.22.1 </a>, 
+    bagging, random forests, adaboost, gradient boosting, histogram-based, voting classifiers, voting regressors, stacking</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_pairwise.ipynb" target="_blank">Similarity Metrics</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-pairwise-ops.pdf" target="_blank">UG 0.22.1</a>, kernels</em></div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-cross-decomposition.pdf" target="_blank">Cross Decomposition </a></strong><br>
+<em>PLS, CCA</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-discriminant-analysis.pdf" target="_blank">Disciminant Analysis (UG 0.22.1) </a></strong><br>
+    <em>dim reduction & LDA, math, shrinkage, estimators (default='svd')</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussians.ipynb" target="_blank">Gaussian Processes</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-gaussians.pdf" target="_blank">UG 0.22.1 </a>, regressions, classifiers, kernels</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_multiclass.ipynb" target="_blank">Multiple classes/labels</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-multiclass.pdf" target="_blank">UG 0.22.1</a>, 
+    label formats, OvR, OvO, ECCs, multiple outputs, classifier chains, regressor chains</em>
+</div>
+
+
+<div class="textcard">
+<!--
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Naive-Bayes.ipynb" target="_blank">Naive Bayes</a></strong><br>
+-->
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_naive_bayes.ipynb" target="_blank">Naive Bayes</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-naive-bayes.pdf" target="_blank">UG 0.22.1</a>, 
+    gaussian, multinomial, complement, bernoulli, out-of-core</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_nearest_neighbors.ipynb" target="_blank">Nearest Neighbors</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1/nearest-neighbors.pdf" target="_blank">UG 0.22.1</a>, 
+    unsupervised, KD trees, Ball tree, regressions, nearest centroids, NCA</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_neural_nets.ipynb" target="_blank">
+Multilayer Perceptrons</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-neural-nets-supervised.pdf" target="_blank">UG 0.22.1</a>,
+    definition, as classifier, as regressor, regularization, loss functions, complexity, math, tips, warm_start</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_semi_supervised.ipynb" target="_blank">
+Semi-Supervised classification</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-label-propagation.pdf" target="_blank">UG 0.22.1</a>, label propagation</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Support-Vector-Machines.ipynb" target="_blank">
+Support Vector Machines</a></strong><br>
+<em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-support-vector-machines.pdf" target="_blank">UG 0.22.1 </a>, 
+    for classification, for regression, density estimates, novelty detection, complexity, tips, kernel functions (std, custom), 
+    implementation</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch05-support-vector-machines.ipynb" target="_blank">
+Support Vector Machines (more)</a></strong><br>
+    <em>classification (linear), classification (non-linear), polynomial features: "kernel trick", similarity functions, 
+    gaussian RBF kernels, regression</em>
+</div>
+
+</div>
+
+<br>
+
+<!-- ********************************************************************** -->
+<h2 id="unsupervised">Machine Learning (Unsupervised)</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<!--
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-K-Means.ipynb" target="_blank">
+Clustering</a></strong><br>
+    <em>k-means<br>
+    expectation-maximization<br>
+    ex: color compression</div>
+-->
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_clustering.ipynb" target="_blank">Clustering</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-clustering.pdf" target="_blank">UG 0.22.1</a>, 
+    overview, k-means, affinity propagation, mean shift, spectral clustering, 
+    hierarchical clustering, dbscan, optics, birch, 
+    metrics (rand index, mutual info, homogeneity, completeness, v-measure, ...)</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_covariance.ipynb" target="_blank">Covariance</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-covariance.pdf" target="_blank">UG 0.22.1</a>, 
+        empirical, shrunk, sparse invariance, robust estimation</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-outliers.pdf" target="_blank">Novelties & Outliers</a></strong><br>
+    <em>definitions, methods, novelty detection, outlier detection (elliptic envelope, iso forest, local outlier factor),
+    novelties with LOF</em>
+</div>
+
+
+<div class="textcard">
+    <strong>Dimensional Reduction</strong><br>
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch08-dimensionality-reduction.ipynb" target="_blank">GitHub1</a></strong><br>
+    <em>curse of dimensionality, projection, manifolds, PCA, explained variance, choosing #dimensions,
+    PCA for compression, incremental PCA, randomized PCA, kernel PCA, selecting a kernel, LLE, MDS,
+    isomap, t-SNE, LDA</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Principal-Component-Analysis.ipynb" target="_blank">
+Principal Component Analysis (PCA)</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-dimensionality-reduction-unsupervised.pdf" target="_blank">UG 0.22.1</a>, 
+    PCA, random projections, feature agglomeration, dimensional reduction, noise filter, eigenfaces</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Kernel-Density-Estimation.ipynb" target="_blank">Density Estimation</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-density-estimation.pdf" target="_blank">UG 0.22.1</a>, 
+        histograms, spherical KDEs, custom estimators</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_gaussian_mixtures.ipynb" target="_blank">Gaussian Mixtures</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-gaussian-mixtures.pdf" target="_blank">UG 0.22.1</a>, 
+    expectation maximization (EM), confidence ellipsoids, bayes info criterion (#clusters),
+    covariance constraints (spherical, diagonal, tied, full), variational bayes (= extnsn of EM)</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Manifold-Learning.ipynb)">Manifolds</a></strong><br>
+    <em>"HELLO", MDS, non-linear embeddings, tradeoffs, isomap on faces</em><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_manifolds.ipynb" target="_blank">Manifolds (more)</a></strong><br> 
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-manifolds.pdf" target="_blank">UG 0.22.1</a>, 
+    projections, PCA, principal components, MDS, locally linear embedding (LLE), modified LLE,
+    hessian eigenmaps, spectral embedding, LTSA, t-SNE, Isomap</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_matrix_decomposition.ipynb" target="_blank">Matrix Decomposition</a></strong><br>
+    <em>PCA, incremental PCA, kernel PCA, sparse PCA, dictionary learning, factor analysis, ICA, NNMF, LDA</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_biclustering.ipynb" target="_blank">
+    BiClustering</a></strong><br>
+    <em><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-biclustering.pdf" target="_blank">UG 0.22.1</a>, 
+    spectral co-clustering, spectral bi-clustering</em>
+</div>
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-neural-nets-unsupervised.pdf" target="_blank">Restricted boltzmann machines (RBMs)</a></strong><br>
+    <em>parameters, bernoulli RBM, stochastic max likelihood learning</em>
+</div>
+
+
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="featuring">Feature Engineering & Dataset Ops:</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/blob/master/scikit/SciKit-Feature-Engineering.ipynb" target="_blank">Intro</a></strong><br>
+    <em>one-hot encoding, word counts, tf-idf, linear-to-polynomial, missing data, pipelines</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_dataset_utilities.ipynb" target="_blank">
+Dataset Utilities</a></strong><br>
+    <a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-dataset-loaders.pdf" target="_blank">UG 0.22.1</a><br>
+    <em>toy dataset loaders, generators, external datasets</em>
+</div>
+
+
+<div class="textcard">
+    <strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-feature-extraction.pdf" target="_blank">Feature extraction</a></strong><br>
+    <em>hashing, text ops (BoW, sparsity, vectorizers, stopwords, Tf-idf, decoding, apps, limits, the hashing trick, out-of-core),
+    from images (patches, connectivity graphs)</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/imputation.ipynb" target="_blank">Imputation (Missing data)</a></strong><br>
+    <a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-imputation.pdf" target="_blank">UG 0.22.1</a><br>
+    <em>univariate, multivariate, nearest-neighbor, marking imputed values</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch18-data-input-output.ipynb" target="_blank">File I/O</a></strong><br>
+    <a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-file-io.pdf" target="_blank">UG 0.22.1</a><br>
+    <em>csv, hdf5, h5py, pytables, hdfstore, json, serialization, pickle issues</em>
+</div>
+
+<br><br>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_composite_estimators.ipynb" target="_blank">Composite Estimators</a></strong><br>
+    <a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-pipelines.pdf" target="_blank">UG 0.22.1</a><br>
+    <em>setup, tips, caching, regression target transforms</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-cribsheet/blob/master/sklearn_ug_v21_preprocessing.ipynb" target="_blank">Preprocessing</a></strong><br>
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-preprocessing.pdf" target="_blank">UG 0.22.1 </a></strong><br>
+    <em>mean removal, variance scaling, sparse scaling, outlier scaling, distribution maps,
+    normalization, category coding, binning, binarization, polynomial features</em>
+</div>
+
+</div>
+
+<!-- ********************************************************************** -->
+<h2 id="skimage">Scikit-Image:</h2>
+<!-- ********************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://scikit-image.org/">Site</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong>User guide</strong><br>
+<em>
+<a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/crash_course.ipynb" target="_blank">
+    crash course</a>, 
+<a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/image_datatypes.ipynb" target="_blank">
+    image datatypes</a>, 
+<a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/image_adjustments.ipynb" target="_blank">
+    image adjustments</a>, 
+<a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/video_files.ipynb" target="_blank">
+    video files</a>, 
+<a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/tutorials.ipynb" target="_blank">
+    basic tutorials</a>
+</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/image-data.ipynb" target="_blank">Scikit-image data library</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/numpy-operations.ipynb" target="_blank">NumPy image operation basics</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/exposure-colors.ipynb" target="_blank">Exposures & color channels</a></strong><br>
+    <em>RGB to grayscale, RGB to HSV, histogram matching, histogram equialization, cell stain color separation,
+    gray-scale filters & RGB images, regional maxima, gamma & log contract adjustments, tinting
+    </em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/edges-lines.ipynb" target="_blank">Edge & line operations</a></strong><br>
+    <em>contours, convex hulls, canny edge detectors, matching cubes, ridge ops, active contour model,
+    shapes, hough transforms, skeletonize, polygon ops, edges</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/transforms-registration.ipynb" target="_blank">Transforms & registration</a></strong><br>
+    <em>swirl, image pyramids, rescale, resize, downscale, piecewise affine transforms, structural similarities, 
+    phase correlation, polar, log-polar transforms, line model estimation, radon transforms</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/filtering-restoration.ipynb" target="_blank">Filtering & restoration</a></strong><br>
+    <em>hysteresis thresholds, image deconvolution, mean filters, unsharp masks, inpainting, 
+    entropy, denoising, wavelets, phase unwrapping, attribute operators</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/feature-object-detection.ipynb" target="_blank">Feature & object detection</a></strong><br>
+    <em>DAISY, template matching, corner detection, filling holes, finding peaks, CENSURE,
+    gabor filters, ORB, shape indexes, sliding window histograms, texture classification</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/object-segmentation.ipynb" target="_blank">Object segmentation</a></strong><br>
+    <em>normalized cut, RAGs, thresholding, watersheding, local maxima, image region labels, flood fills, morphological snakes</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/longform.ipynb" target="_blank">Longer-form Examples</a></strong><br>
+    <em>cascade classifiers, edge vs region based segmentation, image comparison, rank filters</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-image-tutorial/blob/master/gallery/developers.ipynb" target="_blank">Developer Examples</a></strong><br>
+    <em>LI thresholds, max trees</em>
+</div>
+
+</div>
+
+<!-- ***************************************************************** -->
+<h2 id="pytorch">PyTorch (underway):</h2>
+<div style="columns: 2;">
+<!-- ***************************************************************** -->
+
+<div class="stickynote">
+    <strong>Getting Started:</strong><br>
+</div>
+
+<div class="textcard">
+    <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html" target="_blank"><strong>60min blitz</strong></a><br>
+    <a href="https://github.com/bjpcjp/pytorch-tutorials/blob/master/beginner-dl-60mblitz.ipynb" target="_blank"></a>
+        <em>
+        tensor ops, 
+        tensors <=> numpy arrays, 
+        cuda, 
+        autograd, 
+        gradients, 
+        neural net design, 
+        loss functions,
+        backprop,
+        weight updates,
+        training,
+        define cnn,
+        testing,
+        gpu training,
+        data parallelism</em>
+</div>
+
+<div class="stickynote">
+    <strong><a href="https://pytorch.org/tutorials/beginner/data_loading_tutorial.html" target="_blank">Data Loading</a></strong>
+</div>
+
+<div class="stickynote">
+    <strong><a href="https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html" target="_blank">TensorBoard</a></strong>
+</div>
+
+
+<div class="stickynote">
+    <strong>Images:</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html" target="_blank">
+    TorchVision</a><br>
+    <a href="https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html" target="_blank">
+    Transfer Learning</a><br>
+    <a href="https://pytorch.org/tutorials/intermediate/spatial_transformer_tutorial.html" target="_blank">
+    Spatial Transformers</a><br>
+    <a href="https://pytorch.org/tutorials/advanced/neural_style_tutorial.html" target="_blank">
+    Style Transfer</a><br>
+    <a href="https://pytorch.org/tutorials/beginner/fgsm_tutorial.html" target="_blank">
+    Adversarial Models</a><br>
+    <a href="https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html" target="_blank">
+    DCGANs</a><br>
+    </em>
+</div>
+
+
+<div class="stickynote">
+    <strong>Audio:</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/beginner/audio_preprocessing_tutorial.html" target="_blank">
+    TorchAudio</a>
+    </em>
+</div>
+
+
+<div class="stickynote">
+    <strong>Text:</strong><br>
+    <em>
+
+    <a href="https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html" target="_blank">
+    Text Sentimment / Ngrams</a><br>
+
+    <a href="https://pytorch.org/tutorials/beginner/torchtext_translation_tutorial.html" target="_blank">
+    Language Translation</a><br>
+
+    <a href="https://pytorch.org/tutorials/beginner/transformer_tutorial.html" target="_blank">
+    Seq2Seq w/ Transformers</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html" target="_blank">
+    Char-level Classification with RNNs</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/char_rnn_generation_tutorial.html" target="_blank">
+    Generating Names with RNNs</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html" target="_blank">
+    Seq2Seq Nets & Attention</a><br>
+    </em>
+</div>
+
+
+<div class="stickynote">
+    <strong><a href="https://pytorch.org/tutorials/intermediate/named_tensor_tutorial.html" target="_blank">Named Tensors</a></strong>
+</div>
+
+
+<div class="stickynote">
+    <strong>Reinforcement Learning:</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html" target="_blank">
+    Reinforcement (DQN) Learning</a>
+    </em>
+</div>
+
+<div class="stickynote">
+    <strong>Deployment</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html" target="_blank">
+    Rest APIs with Flask</a><br>
+
+    <a href="https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html" target="_blank">
+    TorchScript</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/cpp_export.html" target="_blank">
+    Torchscript & C</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html" target="_blank">
+    Onnx Runtimes</a><br>
+    </em>
+</div>
+
+<div class="stickynote">
+    <strong>Parallel & Distributed Workloads</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/intermediate/model_parallel_tutorial.html" target="_blank">
+    Parallel Best Practices</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/ddp_tutorial.html" target="_blank">
+    Dstrbtd Data Parallel (DDP)</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/dist_tuto.html" target="_blank">
+    Distributed Apps</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/rpc_tutorial.html" target="_blank">
+    Distributed RPC</a><br>
+
+    <a href="https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html" target="_blank">
+    AWS Training</a><br>
+    </em>
+</div>
+
+<div class="stickynote">
+    <strong>Extending PyTorch:</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/advanced/torch_script_custom_ops.html" target="_blank">
+    Custom C Ops</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/torch_script_custom_classes.html" target="_blank">
+    Custom C Classes</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/numpy_extensions_tutorial.html" target="_blank">
+    NumPy Extensions</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/cpp_extension.html" target="_blank">
+    Custom C, CUDA Extensions</a>
+    </em>
+</div>
+
+
+<div class="stickynote">
+    <strong>Model Optimization:</strong><br>
+    <em>
+    <a href="https://pytorch.org/tutorials/advanced/dynamic_quantization_tutorial.html" target="_blank">
+    Dynamic Quantization</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/static_quantization_tutorial.html" target="_blank">
+    Static Quantization</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/quantized_transfer_learning_tutorial.html" target="_blank">
+    Quantized Transfer Learning</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/dynamic_quantization_bert_tutorial.html" target="_blank">
+    Dynamic Quant - BERT</a><br>
+
+    <a href="https://pytorch.org/tutorials/intermediate/pruning_tutorial.html" target="_blank">
+    Pruning</a><br>
+
+    <a href="https://pytorch.org/tutorials/advanced/cpp_frontend.html" target="_blank">
+    C FrontEnd</a><br>
+    </em>
+</div>
+
+</div>
+
+<br>
+
+
+<!-- ***************************************************************** -->
+<h2 id="nlp">Natural Language Processing:</h2>
+<!-- ***************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/spaCy_hello_world/blob/master/spaCy_101.ipynb" target="_blank">SpaCy 101</a></strong><br>
+    <em>tokens, POS tags, dependency parsing, lemmatization, sentence boundaries, named entities, 
+    similarity, text classification, rule-based matches, training, serialization</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/gensim-lessons" target="_blank">
+    GenSim 101</a></strong><br>
+    <em>similarity queries, text summaries, distance metrics,
+    LDA, Annoy, PDLN, Doc2Vec, word mover, fasttext</em>
+</div>
+
+<div class="textcard">
+    <strong><a href="https://github.com/bjpcjp/NLP_workshop/blob/master/NLP_demo.ipynb" target="_blank">
+    NLTK tutorial</a></strong><br>
+    <em>data cleanup, bag of words, classifier fitting, metrics, feature pareto, TFIDF, semantic meanings,
+    CNN</em>
+</div>
+
+<div class="textcard">
+    <strong><a href="https://github.com/bjpcjp/textrank_text_summarization" target="_blank">textrank demo</a></strong>    
+</div>
+
+</div><!-- of NLP -->
+
+<!-- ***************************************************************** -->
+<h2 id="tensorflow">TensorFlow:</h2>
+<!-- ***************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch09-tensorflow-setup.ipynb" target="_blank">Tensorflow Setup</a></strong><br>
+    <em>installation, graphs, gradient descent, momentum, model save/restore, visualization, TensorBoard, sharing variables</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch10-neural-nets.ipynb" target="_blank">Intro to NNs</a></strong><br>
+    <em>perceptrons, MLPs, backprop, training</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch13-convolutional-NNs.ipynb" target="_blank">CNNs</a></strong><br>
+    <em>layers, filters, map stacking, padding/pooling, architectures</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch11-DNN-training.ipynb" target="_blank">DNNs</a></strong><br>
+    <em>gradients, activation functions, batch normalization, gradient clipping,
+    reusing other models, layer freeze/cache, model zoos, regularization</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch14-Recurrent-NNs.ipynb" target="_blank">RNNs</a></strong><br>
+    <em>intro, sequences, unrolling, simplification, training, deep RNNs, LSTMs, GRU cells, NLP basics</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch15-autoencoders.ipynb" target="_blank">Autoencoders</a></strong><br>
+    <em>intro, stacked AEs, tying weights, visualizing reconstructions</em>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/scikit-and-tensorflow-workbooks/blob/master/ch16-reinforcement-learning.ipynb" target="_blank">Reinforcement Learning</a></strong><br>
+    <em>openAI Gym, policies, Markov decision processes, Q-learning</em>
+</div>
+
+</div>
+
+<!-- ***************************************************************** -->
+<h2 id="viz">Visualization:</h2>
+<!-- ***************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/Numeric-Python/blob/master/ch04-plotting-visualization.ipynb" target="_blank">Matplotlib tutorial</a></strong><br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-visualizations.pdf" target="_blank">Scikit utilities </a></strong><br>
+    <a href="/pdfs/scikit-0.22.1/scikit-guide-0.22.1-partial-dependence-plots.pdf" target="_blank">
+    UG 0.22.1 </a><br>
+    <em>partial dependence plots, confusion matrices, ROC curves</em>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/python-data-science-handbook/tree/master/seaborn">Seaborn Pokemon tutorial</a></strong><br>
+</div>
+
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/seaborn-basic-gallery/blob/master/gallery.ipynb" target="_blank">Seaborn gallery</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https://github.com/bjpcjp/category-scatterplot/blob/master/demo.ipynb" target="_blank">
+Scatter plots - category data</a></strong>
+</div>
+
+</div>
+
+<!-- ***************************************************************** -->
+<h2>More:</h2>
+<!-- ***************************************************************** -->
+<div style="columns: 2;">
+
+<div class="textcard">
+<strong><a href="https://www.postgresqltutorial.com/postgresql-python/" target="_blank">Postgres Tutorial</a></strong><br>
+</div>
+
+<div class="textcard">
+<strong><a href="https:https://github.com/bjpcjp/camelot-excalibur-pdf-table-extractor" target="_blank">Camelot & Excalibur (PDF Table Extraction) Intro</a></strong><br></div>
+
+</div>
+
+</strong>

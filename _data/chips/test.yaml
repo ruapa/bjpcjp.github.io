@@ -1,0 +1,1517 @@
+- title: analog articles (all about circuits)
+  url: https://www.allaboutcircuits.com/technical-articles/category/analog/
+  tags: analog
+  source: all about circuits
+
+- title: (bare metal) assembly langugage (johv.dk)
+  url: https://johv.dk/blog/bare-metal-assembly-tutorial.html
+  tags: instruction sets 
+  source: johv.dk
+
+# --------------------------------------------------------
+
+- title: Complete Guide to the Battery Revolution
+  url: https://qz.com/1582811/the-complete-guide-to-the-battery-revolution/
+  tags: battery tech
+  pic: /px/chips/battery-tech.jpg
+  source: qz
+
+- title: Evolution
+  url: http://www.visualcapitalist.com/evolution-of-battery-technology/
+  tags: battery tech
+  source: visualcapitalist
+
+- title: Challenges
+  url: http://www.visualcapitalist.com/our-energy-problem-battery-context/
+  tags: battery tech
+  source: visualcapitalist
+
+- title: Lithium Ion demand
+  url: http://www.visualcapitalist.com/explaining-surging-demand-lithium-ion-batteries/
+  tags: battery tech
+  source: visualcapitalist
+  
+- title: Critical ingredients
+  url: http://www.visualcapitalist.com/critical-ingredients-fuel-battery-boom/
+  tags: battery tech
+  source: visualcapitalist
+
+- title: Technology trends
+  url: http://www.visualcapitalist.com/future-battery-technology/
+  tags: battery tech
+  source: visualcapitalist
+
+# --------------------------------------------------------
+- title: bit rates
+  url:  https://en.wikipedia.org/wiki/List_of_device_bit_rates
+  tags: networking
+  source: wikipedia
+
+- title: codecs (github)
+  url: https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work
+  tags: networking
+  source: github 
+
+- title: warp (baidu)
+  tags: gpus
+  url: https://github.com/baidu-research/warp-ctc
+  source: github
+
+- title: Stdcell library density, TSMC 7FF
+  tags: circuit design 
+  url: https://semiwiki.com/semiconductor-manufacturers/tsmc/285856-effect-of-design-on-transistor-density/
+  source: semiwiki
+
+- title: async logic
+  url: http://vlsi.cornell.edu/~rajit/ps/rc_overview.pdf
+  tags: circuit design
+  source: cornell
+
+- title: async logic 
+  url: http://semiengineering.com/asynchronous-design-is-it-time-yet/
+  tags: circuit design
+  source: semi engineering
+
+- title: clock gating & power consumption
+  url:  https://www.allaboutcircuits.com/technical-articles/use-of-clock-gating-to-reduce-power-consumption/
+  tags: clock signals 
+  source: all about circuits
+
+# ----------------------------------------------------------------------
+
+#- title: clock trees
+  #url: {% post_url 2019-12-05-vlsi-booknotes %}
+#  url: 
+#  img: /px/chips/vlsi-automation-book-cover.png
+#  source: bjpcjp.github.io
+#  tags: clock signals
+
+# ----------------------------------------------------------------------
+#- title: circuit design ebook, 3rd edition 
+#  url: {% post_url 2019-08-30-cmos-ckt-design %}
+#  img: /px/chips/cmos-ckt-design-sim-3rd.png
+
+#- title: mixed signal design book (online)
+#  url: http://cmosedu.com/cmos1/book.htm
+#  img: /px/chips/cv_4th_big.jpg
+#  tags: circuit design
+
+#- title: mixed signal design book (notes)
+#  url: {% post_url 2020-02-10-cmos-mixedsignal-2nd-booknotes %}
+#  img: /px/chips/mixedsignal-cktdesign-2nd-cover.png
+
+- title: domain-specific hardware accelerators
+  url: https://cacm.acm.org/magazines/2020/7/245701-domain-specific-hardware-accelerators/fulltext#R24
+  img: /px/chips/quant-arch/book-cover.png
+  tags: cpu architectures 
+  source: acm
+
+- title: awesome cpus
+  url: https://github.com/larsbrinkhoff/awesome-cpus
+  tags: cpu architectures 
+  source: github
+
+- title: cache behaviors
+  url: http://igoro.com/archive/gallery-of-processor-cache-effects/
+  tags: cpu architectures 
+  source: igoro 
+
+- title: cache behaviors
+  url: https://www.agner.org/optimize/microarchitecture.pdf
+  tags: cpu architectures 
+  source: agner.org
+
+- title: branch probability (easyperf)
+  url: https://easyperf.net/blog/2019/05/06/Estimating-branch-probability
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: benchmarking (easyperf)
+  url: https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: machine code timing (easyperf)
+  url: https://easyperf.net/blog/2019/04/03/Precise-timing-of-machine-code-with-Linux-perf
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: caches - lru-vs-random (dan luu)
+  url: http://danluu.com/2choices-eviction/
+  tags: cpu architectures 
+  source: danluu
+
+- title: c++ compiler optimizations
+  url: https://easyperf.net/notes/
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: hiperf matrix multiply, skylake, avx2
+  url: https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0
+  tags: cpu architectures 
+  source: github
+
+- title: what is a custom processor
+  url: https://semiengineering.com/what-is-a-custom-processor/
+  tags: cpu architectures 
+  source: semi engineering
+
+- title: optimization resources
+  url: https://www.agner.org/optimize/
+  tags: cpu architectures 
+  source: agner.org 
+
+- title: easyperf p3 - glitches
+  url: https://easyperf.net/blog/2019/09/06/Intel-PT-part3
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: easyperf p4  profiling
+  url: https://easyperf.net/blog/2019/09/13/Intel-PT-part4
+  tags: cpu architectures 
+  source: easyperf 
+
+- title: x86 bare metal tools
+  url: https://github.com/cirosantilli/x86-bare-metal-examples
+  tags: cpu architectures 
+  source: github
+
+#- title: deep learning silicon landscape
+#  url: {% post_url 2019-12-17-ai-chip-landscape %}
+#  tags: cpu architectures 
+
+- title: multicore efficiency
+  url:  http://spectrum.ieee.org/tech-talk/semiconductors/design/how-to-make-multicore-chips-faster-more-efficient
+  tags: cpu architectures 
+  source: ieee 
+
+- title: instruction set basics
+  url: /pdfs/cpus-quant/comparchs-apxA.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: memory hierarchy review 
+  url: /pdfs/cpus-quant/comparchs-apxB.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: pipeline design
+  url: /pdfs/cpus-quant/comparchs-apxC.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: quant design fundamentals
+  url: /pdfs/cpus-quant/comparchs-ch01.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: memory hierarchy design basics
+  url: /pdfs/cpus-quant/comparchs-ch02.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: instruction set parallelism 
+  url: /pdfs/cpus-quant/comparchs-ch03.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: data parallelism
+  url: /pdfs/cpus-quant/comparchs-ch04.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: thread parallelism
+  url: /pdfs/cpus-quant/comparchs-ch05.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: warehouse-level scaling
+  url: /pdfs/cpus-quant/comparchs-ch06.pdf
+  tags: cpu architectures
+  source: cpu quant architectures
+
+- title: risc-v ariane 
+  url: https://github.com/pulp-platform/ariane
+  tags: cpu architectures
+  source: github 
+
+- title: instruction set design 
+  url: https://people.eecs.berkeley.edu/~krste/papers/EECS-2016-1.pdf
+  tags: cpu architectures
+  source: berkeley
+
+- title: risc-v from scratch
+  url:  https://twilco.github.io/riscv-from-scratch/2019/03/10/riscv-from-scratch-1.html
+  tags: cpu architectures
+  source: github 
+
+- title: risc-v/swerv
+  url:  https://tomverbeure.github.io/2019/03/13/SweRV.html
+  tags: cpu architectures
+  source: github 
+
+- title: yield calculator 
+  url: http://www.isine.com/DieYieldCalculator.html
+  tags: design tools 
+  source: isine 
+
+- title: semiconductor economics 101
+  url: http://www.adapteva.com/andreas-blog/semiconductor-economics-101/
+  tags: economics 
+  source: adapteva 
+
+- title: cost calculator 
+  url: http://www.adapteva.com/white-papers/silicon-cost-calculator/
+  tags: design tools 
+  source: adapteva
+
+- title: die per wafer calculator 
+  url: http://www.silicon-edge.co.uk/j/index.php/resources/die-per-wafer
+  tags: design tools 
+  source: silicon-edge
+
+- title: economic opportunities
+  url:  https://www.mckinsey.com/industries/semiconductors/our-insights/artificial-intelligence-hardware-new-opportunities-for-semiconductor-companies
+  tags: economics
+  source: mckinsey
+  pic: px/chips/mckinsey-semiconductor.png
+
+- title: cacti
+  url: https://github.com/HewlettPackard/cacti
+  tags: design tools 
+  source: github
+
+- title: circuitmaker
+  url: https://circuitmaker.com/
+  tags: design tools 
+  source: circuitmaker
+
+- title: mentor-cadence-synopsys
+  url: https://www.allaboutcircuits.com/news/ic-design-resources-roundup-mentor-cadence-synoy/
+  tags: design tools 
+  source: all about circuits
+
+- title: lvm-tutor
+  url: https://github.com/banach-space/llvm-tutor
+  tags: design tools 
+  source: github 
+
+- title: magic
+  url: http://opencircuitdesign.com/magic/
+  tags: design tools 
+  source: open circuit design 
+
+- title: eda file formats
+  url: https://en.wikipedia.org/wiki/Category:EDA_file_formats
+  tags: design tools 
+  source: wikipedia 
+
+- title: gds file format
+  url: http://www.cnf.cornell.edu/cnf_spie9.html
+  tags: design tools 
+  source: cornell 
+
+- title: Nangate (15nm)
+  url: http://www.nangate.com/?page_id=2328
+  tags: design tools 
+  source: nangate 
+
+- title: Nangate (45nm)
+  url: (45nm) http://www.nangate.com/?page_id=2325
+  tags: design tools 
+  source: nangate 
+
+- title: The floppy disk of floating point math
+  tags: algorithms
+  url: https://www.evanmiller.org/the-floppy-disk-of-floating-point.html
+  source: evanmiller
+
+- title: GC accelerators     
+  url: https://spectrum.ieee.org/tech-talk/computing/hardware/this-little-device-relieves-a-cpu-from-its-garbage-collection-duties
+  tags: garbage collection
+  source: ieee
+
+#- title: google tpu/edge
+#  url:  chips_TPU_edge.html
+#  tags: tpu (google) 
+
+- title: TPU 3.0 teardown
+  url: https://www.nextplatform.com.cdn.ampproject.org/c/s/www.nextplatform.com/2018/05/10/tearing-apart-googles-tpu-3-0-ai-coprocessor/amp/
+  tags: tpu (google) 
+  source: nextplatform
+
+- title: TPU2 clusters
+  url: https://www.nextplatform.com/2017/05/22/hood-googles-tpu2-machine-learning-clusters/
+  tags: tpu (google) 
+  source: nextplatform
+
+- title: TPU2 vs nV v100, Resnet50
+  url: https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e
+  tags: tpu (google) 
+  source: riseml
+
+- title: TPU first look
+  url: https://www.nextplatform.com/2017/04/05/first-depth-look-googles-tpu-architecture/
+  tags: tpu (google) 
+  source: nextplatform
+
+- title: TPU performance (ArXiV)
+  url: https://arxiv.org/pdf/1704.04760.pdf
+  tags: tpu (google) 
+  source: arxiv
+
+
+- title: micro-benchmarks - survey
+  url: http://parallel.vub.ac.be/~jan/papers/Lemeire2016_Microbenchmarks_for_GPU_characteristics_forPDP2016.pdf
+  tags: gpus 
+  source: parallel.vub.ac.be
+
+- title: micro-benchmarks - nV Volta
+  url: https://arxiv.org/pdf/1804.06826.pdf
+  tags: gpus 
+  source: arxiv 
+
+- title: GPUCC (open-source GPU compiler)
+  url: https://research.google/pubs/pub45226/
+  tags: gpus 
+  source: google 
+
+- title: NCCL nV Interconnect
+  url: https://devblogs.nvidia.com/parallelforall/fast-multi-gpu-collectives-nccl/
+  tags: gpus 
+  source: nvidia
+
+- title: 3d memory stacks
+  url: https://www.nextplatform.com/2017/03/14/3d-stacking-boost-gpu-machine-learning/
+  tags: gpus 
+  source: next platform
+
+- title: GPU Performance Modeling (pdf, 2016)
+  url: https://pure.tue.nl/ws/files/39759895/20161018_Li.pdf
+  tags: gpus 
+  source: tue.nl
+
+- title: half adders
+  url: http://www.circuitstoday.com/half-adder
+  tags: circuit design
+  source: circuitstoday
+
+- title: 2013 infographic
+  url: http://www.intomobile.com/2013/11/08/image-sensors-make-good-smartphone-camera-infographic/
+  tags: image sensors
+  source: intomobile 
+
+- title: camera sensor sizes
+  url: http://newatlas.com/camera-sensor-size-guide/26684/
+  tags: image sensors
+  source: newatlas
+
+- title: Sony - Apple 
+  url: http://asia.nikkei.com/Business/Companies/Sony-in-talks-to-supply-more-image-sensors-to-Apple
+  tags: image sensors
+  source: nikkei
+
+- title: HTC presentation 
+  url: http://images.anandtech.com/reviews/gadgets/HTC/HTCOne/Frequencies%20Presentation.pdf
+  tags: image sensors
+  source: anandtech
+
+- title: inductor design
+  url:  https://www.allaboutcircuits.com/technical-articles/basic-inductor-design-constraints/
+  tags: inductors 
+  source: all about circuits
+
+- title: intro to magnetic Theory
+  url: https://www.allaboutcircuits.com/technical-articles/a-review-of-basic-magnetic-theories/
+  tags: magnetics 
+  source: all about circuits 
+
+- title: inferencing/multiple
+  url: https://semiengineering.com/using-multiple-inferencing-chips-in-neural-networks/
+  tags: gpus
+  source: semiengineering
+
+- title: good design gatekeepers
+  url: https://www.eetimes.com/author.asp?section_id=36&doc_id=1335060
+  tags: interconnect 
+  source: eetimes 
+
+- title: gpio interrupts & peripherals
+  url:  https://www.allaboutcircuits.com/technical-articles/GPIO-interrupts-for-peripherals-timers-serial-communication-ADC/
+  tags: interrupts
+  source: all about circuits
+
+- title: next-gen bluetooth
+  tags: iot
+  url:  https://www.eetimes.com/document.asp?doc_id=1335054
+  source: eetimes
+
+- title: industrial iot nets
+  url:  http://www.eetimes.com/document.asp?doc_id=1331283
+  pic: http://ve.mouser.com/images/microsites/iot-reality-fig4.png
+  tags: iot
+  source: eetimes
+
+- title: lorawan 
+  url:  https://www.thethingsnetwork.org/article/lorawan-distance-world-record
+  tags: iot 
+  source: thethingsnetwork
+
+- title: how to pick an iot platform
+  url:  https://hackernoon.com/the-strategy-of-selecting-an-iot-platform-2019-b5baef33c90f
+  pic: px/chips/iot-platforms.png
+  tags: iot
+  source: hackernoon
+
+- title: list of sensors 
+  url: https://en.wikipedia.org/wiki/List_of_sensors
+  tags: iot 
+  source: wikipedia
+
+- title: magnetic field sensors 
+  url: https://www.allaboutcircuits.com/news/magnetic-field-sensors-tunnel-applications-magnetoresistance-TMR-sensors/
+  tags: iot 
+  source: all about circuits 
+
+- title: sensors - realtime innovations 
+  url: https://www.slideshare.net/RealTimeInnovations/io-34485340
+  tags: iot 
+  source: slideshare
+
+- title: protocols
+  url: https://www.postscapes.com/internet-of-things-protocols/
+  tags: iot 
+  source: postmates 
+
+# -----------------------------------------------------------------
+
+- title: vendor list
+  tags: ip
+  url: https://www.chipestimate.com/vendorlist.php?s=123
+  source: chipestimate
+
+- title: failure mode analysis
+  url: https://en.wikipedia.org/wiki/Failure_modes,_effects,_and_diagnostic_analysis?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BhgsfPNNaRfaY8oljj4Fnuw%3D%3D
+  tags: design tools
+  source: wikipedia
+
+- title: ISO 26262
+  url: http://www.electronicdesign.com/embedded/understanding-iso-26262-asils?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BhgsfPNNaRfaY8oljj4Fnuw%3D%3D
+  tags: ip
+  source: electronicdesign
+
+- title: Flagship Messaging (NI)
+  url: http://www.ni.com/white-paper/13647/en/?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BhgsfPNNaRfaY8oljj4Fnuw%3D%3D
+  tags: ip 
+  source: ni
+
+- title: AEC-Q100 and beyond
+  url: https://www.element14.com/community/docs/DOC-13334/l/automotive-grade-quality-products-aec-q100-and-beyond?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BhgsfPNNaRfaY8oljj4Fnuw%3D%3D
+  tags: quality - reliability
+  source: element14
+
+# -----------------------------------------------------------------
+
+- title: industry guide (2019)
+  tags: lidar 
+  url: https://arstechnica.com/cars/2019/02/the-ars-technica-guide-to-the-lidar-industry/
+  source: arstechnica
+
+- title: industry guide (2020)
+  url: https://arstechnica.com/cars/2020/02/whos-really-gaining-traction-in-the-hype-filled-lidar-industry/#p3
+  tags: lidar 
+  source: arstechnica
+
+- title: boosting memory speed
+  url:  https://semiengineering.com/using-memory-differently-to-boost-speed/
+  tags: memory
+  source: semiengineering
+
+- title: the problem with sram
+  url:  https://www.eetimes.com/author.asp?section_id=36&doc_id=1334088#
+  tags: memory
+  source: eetimes
+
+- title: dram speed vs energy         
+  url:  https://semiengineering.com/dram-tradeoffs-speed-vs-energy/
+  tags: memory
+  source: semiengineering
+
+- title: memory/dram executing commands
+  url: https://www.allaboutcircuits.com/technical-articles/executing-commands-memory-dram-commands/
+  tags: memory
+  source: all about circuits 
+
+- title: networking protocols (ebook)
+  tags: networking
+  url: /pdfs/chips/Networking-protocols.pdf
+  source: Olivier Bonaventure
+
+- title: TLS illustrated
+  url: https://tls.ulfheim.net/
+  tags: networking
+  source: ulfheim
+
+- title: ETA Compute
+  tags: neuromorphic
+  url: https://spectrum.ieee.org/tech-talk/semiconductors/processors/lowpower-ai-startup-eta-compute-delivers-first-commercial-chips
+  source: ieee
+
+- title: Industry Review (2017)
+  url: https://spectrum.ieee.org/semiconductors/design/neuromorphic-chips-are-destined-for-deep-learningor-obscurity
+  tags: neuromorphic
+  source: ieee 
+
+- title: Neurostream
+  tags: neuromorphic
+  url: https://www.nextplatform.com/2017/02/02/memory-core-new-deep-learning-research-chip/
+  source: nextplatform
+
+- title: DNNs & hardware
+  url: https://slideslive.com/38921492/efficient-processing-of-deep-neural-network-from-algorithms-to-hardware-architectures
+  tags: gpus
+  source: slideslive
+
+- title: statistical noise analysis
+  tags: noise
+  url: https://www.allaboutcircuits.com/technical-articles/introduction-to-statistical-noise-analysis-basic-calculations
+  source: all about circuits 
+
+- title: how ground planes help
+  url: https://www.allaboutcircuits.com/technical-articles/how-a-ground-plane-reduces-pcb-noise/
+  tags: noise
+  source: all about circuits
+
+- title: openroad
+  url: https://theopenroadproject.org/
+  tags: optics
+  source: openroad
+
+- title: understanding camera optics
+  url:  http://www.anandtech.com/show/6777/understanding-camera-optics-smartphone-camera-trends/3
+  tags: optics 
+  source: anandtech
+
+- title: intro to optical networking (pdf)
+  url: /pdfs/optical/optical-networking-intro.pdf
+  pic: /px/optical/optical-networking-cover.png
+  tags: optics
+  source: richard steenbergen
+
+- title: pass transistor logic
+  url:  https://www.allaboutcircuits.com/technical-articles/introduction-to-pass-transistor-logic/
+  pic: px/chips/pass-transistor.png
+  tags: circuit design
+  source: all about circuits
+
+- title: passive component symbols
+  url:  https://www.allaboutcircuits.com/technical-articles/schematic-symbols-electronic-components-passives-resistors-capacitors
+  tags: circuit design
+  source: all about circuits 
+
+- title: ibm pentium4 story
+  url:  http://www.cpushack.com/2019/10/01/the-story-of-the-ibm-pentium-4-64-bit-cpu/
+  tags: cpu architectures
+  source: cpushack
+
+- title: physics
+  url: http://www.anandtech.com/print/8223/an-introduction-to-semiconductor-physics-technology-and-industry
+  tags: physics
+  source: anandtech
+
+- title: moore's law
+  url:  https://www.semiwiki.com/forum/content/6590-scott-jones-iss-talk-moores-law-lives.html
+  tags: physics
+  source: semiwiki
+
+- title: popcount
+  url:  https://vaibhavsagar.com/blog/2019/09/08/popcount/
+  tags: instruction sets
+  source: vaibhavsagar
+
+- title: power stage design
+  url:  https://www.allaboutcircuits.com/technical-articles/fet-vs-bjt-vs-igbt-whats-the-right-choice-for-your-power-stage-design/
+  tags: power 
+  source: all about circuits 
+
+- title: asplos (pdf)
+  url: http://rakeshk.crhc.illinois.edu/asplos_17_cam.pdf
+  tags: power 
+  source: illinois.edu
+
+- title: probe cards
+  url:  https://anysilicon.com/what-is-a-probe-card/
+  tags: manufacturing
+  source: anysilicon
+
+- title: intro to PUFs
+  url:  https://www.futurity.org/security-physically-unclonable-function-1993382/
+  tags: security
+  source: futurity
+
+- title: primer on PUFs
+  url:  https://arxiv.org/abs/1701.05637
+  tags: security
+  source: arxiv
+
+- title: primer 
+  url: https://www.dwavesys.com/tutorials/background-reading-series/quantum-computing-primer
+  tags: quantum computing 
+  source: d-wave
+
+- title: crypto vs quantum computing 
+  url: http://nautil.us/blog/how-classical-cryptography-will-survive-quantum-computers
+  tags: quantum computing
+  source: nautilus 
+
+- title: antenna Theory
+  tags: rf
+  url: http://www.antenna-theory.com/
+  source: antenna-theory
+
+- title: antenna array design
+  url: https://semiengineering.com/antenna-array-design-for-adas/
+  tags: rf
+  source: semiengineering
+
+- title: 5G beamforming problems
+  url: https://semiengineering.com/5g-beamforming-antennas-create-design-test-problems/
+  tags: rf
+  source: semiengineering
+
+- title: Manhole covers as antennas
+  url: https://spectrum.ieee.org/tech-talk/telecom/wireless/manhole-covers-serve-as-antennas-expanding-network-coverage
+  tags: rf
+  source: ieee 
+
+- title: antenna basics
+  url: https://www.allaboutcircuits.com/technical-articles/an-introduction-to-antenna-basics/
+  tags: rf
+  source: all about circuits
+
+- title: radiation patterns, permittivity, directivity
+  url: https://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/
+  tags: rf
+  source: all about circuits
+
+- title: maxwell equations
+  url: https://www.wired.com/story/get-to-know-maxwells-equationsyoure-using-them-right-now/
+  tags: rf
+  source: wired 
+
+- title: wireless protocols
+  url: http://www.silabs.com/whitepapers/wireless-protocols
+  tags: rf
+  source: silabs 
+
+- title: nyquist plots
+  url: https://www.allaboutcircuits.com/technical-articles/how-to-use-a-nyquist-plot-for-ac-analysis/
+  tags: rf
+  source: all about circuits
+
+- title: nyquist plots - 2nd order filters
+  url: https://www.allaboutcircuits.com/technical-articles/understanding-nyquist-plots-for-second-order-filters/
+  tags: rf
+  source: all about circuits
+
+- title: risc architecture scalability
+  url: https://blackhole12.com/blog/risc-is-fundamentally-unscalable/
+  tags: cpu architectures
+  source: erikmcclure
+
+- title: article list
+  url:  https://www.allaboutcircuits.com/technical-articles/category/sensors
+  tags: sensors 
+  source: all about circuits 
+
+- title: serdes (5nm) - sofics
+  url:  https://anysilicon.com/sofics-releases-analog-i-os-for-high-speed-serdes-in-tsmc-n5-finfet-technology/
+  tags: ip
+  source: anysilicon
+
+- title: soft magnets
+  url:  https://insideevs-com.cdn.ampproject.org/c/s/insideevs.com/news/365482/soft-magnets-lighter-electric-motors/amp/
+  tags: magnetics 
+  source: insideevs
+
+- title: software defined radio
+  url: https://luaradio.io/new-to-sdr.html
+  tags: rf
+  source: luaradio
+
+#- title: static logic
+#  url:  cmos/static-logic.html # leave alone for now
+#  tags: circuit design 
+
+- title: stdf (std test data format)
+  url:  https://en.wikipedia.org/wiki/Standard_Test_Data_Format
+  source: wikipedia
+  tags: manufacturing 
+
+- title: tomasulo algorithm      
+  url:  https://chipress.co/2019/03/31/how-does-tomasulos-algorithm-work/
+  pic: px/chips/tomasulo.png
+  tags: cpu architectures
+  source: chipress
+
+- title: verilog shift registers - intro
+  url:  https://www.allaboutcircuits.com/technical-articles/understanding-verilog-shift-registers/
+  tags: circuit design 
+  source: all about circuits
+
+- title: vibration harvesting
+  url:  https://www.allaboutcircuits.com/technical-articles/introduction-to-vibration-energy-harvesting/
+  tags: sensors 
+  source: all about circuits
+
+- title: hailo
+  url:  https://www.eetimes.com/document.asp?doc_id=1335074#
+  tags: gpus
+  source: eetimes 
+
+- title: sushi roll
+  url:  https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html?r=1
+  tags: cpu architectures
+  source: gamozolabs
+
+- title: make your own accelerator
+  url:  https://towardsdatascience.com/how-to-make-your-own-deep-learning-accelerator-chip-1ff69b78ece4
+  tags: gpus
+  source: towardsdatascience
+
+- title: universal logic
+  url:  https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/
+  tags: circuit design
+  source: all about circuits
+
+- title: upmem - 20x apps speedup
+  url:  https://www.hpcwire.com/off-the-wire/upmem-puts-cpus-inside-memory-to-allow-applications-to-run-20-times-faster/
+  tags: memory 
+  source: hpcwire
+
+- title: cerebras
+  url: https://spectrum.ieee.org/tech-talk/semiconductors/processors/4-things-to-know-about-the-biggest-chip-ever-built
+  pic: px/chips/biggest-chip-ever-built.png
+  tags: cpu architectures
+
+#- title: static-logic
+#  url:  cmos/static-logic.html
+#  tags: circuit design
+
+- title: combinational circuits in verilog
+  url: https://www.allaboutcircuits.com/technical-articles/describing-combinational-circuits-in-verilog/
+  tags: circuit design
+  source: all about circuits
+
+- title: sequential circuits in verilog
+  url: https://www.allaboutcircuits.com/technical-articles/using-verilog-to-describe-a-sequential-circuit/
+  tags: circuit design
+  source: all about circuits
+
+- title: flip-flop conversions
+  url: https://www.allaboutcircuits.com/technical-articles/conversion-of-flip-flops-part-iv-d-flip-flops/
+  tags: circuit design
+  source: all about circuits
+
+#- title: VHDL
+#  url: https://forum.allaboutcircuits.com/xfa-blogs/steve-arar.357056/
+#  tags: design tools 
+#  source: all about circuits
+
+# ------------------------------------------------------------------------
+
+#- title: ebook 
+#  url: /pdfs/cmos_layout_sim/cmos_sim.pdf
+#  tags: circuit design
+#  source: CMOS layout & sim, 3rd ed 
+
+- title: intro
+  url: /pdfs/cmos_layout_sim/ch01-intro.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: wells
+  url: /pdfs/cmos_layout_sim/ch02-well.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: metal layers
+  url: /pdfs/cmos_layout_sim/ch03-metal.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: active, poly layers
+  url: /pdfs/cmos_layout_sim/ch04-active-poly.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: resistors, capacitors, fets
+  url: /pdfs/cmos_layout_sim/ch05-res-caps-fets.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: mosfet operations
+  url: /pdfs/cmos_layout_sim/ch06-mostfet-ops.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: fabrication
+  url: /pdfs/cmos_layout_sim/ch07-fabrication.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: noise
+  url: /pdfs/cmos_layout_sim/ch08-noise.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: analog models
+  url: /pdfs/cmos_layout_sim/ch09-analog-models.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: digital models
+  url: /pdfs/cmos_layout_sim/ch10-digital-models.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: inverters
+  url: /pdfs/cmos_layout_sim/ch11-inverters.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: static logic
+  url: /pdfs/cmos_layout_sim/ch12-static-logic.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: clocked logic
+  url: /pdfs/cmos_layout_sim/ch13-clocked-logic.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: dynamic logic
+  url: /pdfs/cmos_layout_sim/ch14-dynamic-logic.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: layout basics
+  url: /pdfs/cmos_layout_sim/ch15-layout-basics.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: memory basics
+  url: /pdfs/cmos_layout_sim/ch16-memory-basics.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: sensing
+  url: /pdfs/cmos_layout_sim/ch17-sensing.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: special circuits
+  url: /pdfs/cmos_layout_sim/ch18-special-ckts.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: digital PLLs
+  url: /pdfs/cmos_layout_sim/ch19-digital-plls.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: current mirrors
+  url: /pdfs/cmos_layout_sim/ch20-current-mirrors.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: amplifier basics
+  url: /pdfs/cmos_layout_sim/ch21-amplifiers.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: amplifiers (differential)
+  url: /pdfs/cmos_layout_sim/ch22-diff-amplifiers.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: voltage references
+  url: /pdfs/cmos_layout_sim/ch23-voltage-refs.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: op amps
+  url: /pdfs/cmos_layout_sim/ch24-op-amps.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: dynamic analog circuits
+  url: /pdfs/cmos_layout_sim/ch25-dynamic-analog-ckts.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: op amps (part 2)
+  url: /pdfs/cmos_layout_sim/ch26-op-amps-p2.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: nonlinear analog circuits
+  url: /pdfs/cmos_layout_sim/ch27-nonlinear-analog-ckts.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: data converter basics
+  url: /pdfs/cmos_layout_sim/ch28-data-cnvrtr-basics.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: data converter architectures
+  url: /pdfs/cmos_layout_sim/ch29-data-cnvrtr-archs.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: data converter design
+  url: /pdfs/cmos_layout_sim/ch30-data-cnvrtr-design.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+- title: feedback amplifiers
+  url: /pdfs/cmos_layout_sim/ch31-feedback-amps.pdf
+  tags: circuit design
+  source: CMOS layout & sim, 3rd ed 
+
+#- title: ebook 
+#  url: /pdfs/cmos_mixedsignal/CMOS_MixedSignal_CktDesign_2nd.pdf 
+#  tags: circuit design 
+#  source: CMOS MxdSig design, 2nd ed 
+
+- title: signals, filters, tools 
+  url: /pdfs/cmos_mixedsignal/CMSCD2_01_signals_filters_tools.pdf 
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: analog filters
+  url: /pdfs/cmos_mixedsignal/CMSCD2_03_analog_filters.pdf 
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: sampling & aliasing
+  url: /pdfs/cmos_mixedsignal/CMSCD2_02_samples_aliasing.pdf 
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: digital filters
+  url: /pdfs/cmos_mixedsignal/CMSCD2_04_digital_filters.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: data converters - SNR
+  url: /pdfs/cmos_mixedsignal/CMSCD2_05_data_converter_snr.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: data converters - design basics
+  url: /pdfs/cmos_mixedsignal/CMSCD2_06_data_converter_design_basics.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: data converters - noise shaping
+  url: /pdfs/cmos_mixedsignal/CMSCD2_07_data_converter_noise_shaping.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: data converters - bandpass
+  url: /pdfs/cmos_mixedsignal/CMSCD2_08_data_converter_bandpass.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+- title: data converters - high speed
+  url: /pdfs/cmos_mixedsignal/CMSCD2_09_data_converter_hispeed.pdf
+  tags: circuit design 
+  source: CMOS MxdSig design, 2nd ed 
+
+# ---------------------------------------------------------------------------------------------
+
+#- title: pole splitting
+#  url: cmos/_chips_rf_pole-splitting-miller-frequency-compensation.html
+#  tags: rf
+
+- title: x86 cpp calling conventions
+  url: cmos/agner/cplusplus_calling_conventions.pdf
+  tags: design tools 
+  source: agner.org
+
+- title: x86 cpp optimization
+  url: cmos/agner/cpp-optimization.pdf
+  tags: design tools 
+  source: agner.org
+  
+- title: x86 latencies, throughputs, micro-ops
+  url: cmos/agner/instruction_latencies-thruputs-microops.pdf
+  tags: design tools 
+  source: agner.org
+  
+- title: x86 instruction microarches
+  url: cmos/agner/isa-microarchitecture.pdf
+  tags: design tools 
+  source: agner.org
+  
+- title: x86 optimized assembly
+  url: cmos/agner/optimizing_assembly.pdf
+  tags: design tools 
+  source: agner.org
+  
+
+- title: analog evolutionary algorithm
+  url: http://bair.berkeley.edu/blog/2019/09/26/circuits/        
+  tags: circuit design
+  source: berkeley
+
+- title: piezoelectric
+  url: https://www.allaboutcircuits.com/technical-articles/understanding-and-modeling-piezoelectric-sensors/
+  tags: sensors
+  source: all about circuits
+
+#- title: apu
+#  url: APU_spec_0.48.html           
+#  tags: gpus
+
+- title: ceramic capacitors - concise guide
+  url: https://www.allaboutcircuits.com/technical-articles/x7r-x5r-c0g...-a-concise-guide-to-ceramic-capacitor-types/        
+  tags: capacitors
+  source: all about circuits
+
+- title: asic design capacitors
+  url: https://anysilicon.com/overview-and-types-of-capacitors-in-asic-design/
+  tags: capacitors
+  source: anysilicon
+
+- title: understanding SOC clock design
+  url: https://anysilicon.com/understanding-soc-clock-design/    
+  tags: clock signals
+  source: anysilicon
+
+- title: clock tree 101 timing basics
+  url: http://www.silabs.com/whitepapers/clock-tree-101-timing-basics
+  tags: clock signals
+  source: silabs
+
+- title: cpu benchmarketing methodology
+  url: https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology          
+  tags: benchmarks
+  source: easyperf
+
+- title: branch probability
+  url: https://easyperf.net/blog/2019/05/06/Estimating-branch-probability
+  tags: benchmarks
+  source: easyperf
+
+- title: precise machine code timing 
+  url: https://easyperf.net/blog/2019/04/03/Precise-timing-of-machine-code-with-Linux-perf
+  tags: benchmarks
+  source: easyperf 
+
+- title: cpu c++ compiler optimizations
+  url: https://easyperf.net/notes/
+  tags: design tools 
+  source: easyperf
+
+- title: garbage collection helper
+  url: https://spectrum.ieee.org/tech-talk/computing/hardware/this-little-device-relieves-a-cpu-from-its-garbage-collection-duties#.XNbK0CPadCg.pocket      
+  tags: garbage collection
+  source: ieee 
+
+- title: matrix multiply skylake AVX2
+  url: https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0
+  pic: px/chips/avx2-multiply.png
+  tags: gpus
+  source: github
+
+- title: optmization timing
+  url: http://www.xbitlabs.com/
+  tags: benchmarks
+  source: xbitlabs 
+
+- title: optmization timing
+  url: http://www.realworldtech.com/
+  tags: benchmarks
+  source: realworldtech 
+  
+- title: optmization timing
+  url: http://www.aceshardware.com/
+  tags: benchmarks
+  source: aceshardware 
+  
+- title: optmization timing
+  url: http://www.digit-life.com/
+  tags: benchmarks
+  source: digit-life 
+  
+- title: rtos directory
+  url: https://www.osrtos.com/      
+  tags: design tools
+  source: osrtos 
+
+- title: rtos tools 
+  url: https://www.embeddedrelated.com/showarticle/969.php
+  tags: design tools 
+  source: embeddedrelated
+
+- title: executing commands in dram
+  url: https://www.allaboutcircuits.com/technical-articles/executing-commands-memory-dram-commands/
+  tags: memory
+  source: all about circuits
+
+- title: why you need one 
+  url: http://yosefk.com/blog/how-fpgas-work-and-why-youll-buy-one.html             
+  tags: fpgas
+  source: yosefk
+
+- title: knights landing
+  url: https://www.nextplatform.com/2016/03/17/fpgas-can-take-gpus-knights-landing/
+  tags: fpgas
+  source: nextplatform
+
+- title: how many gates?
+  url: https://blogs.synopsys.com/breakingthethreelaws/2015/02/how-many-asic-gates-does-it-take-to-fill-an-fpga/
+  tags: fpgas
+  source: synopsys
+
+- title: fpgas vs gpus 
+  url: https://www.nextplatform.com/2017/03/21/can-fpgas-beat-gpus-accelerating-next-generation-deep-learning/ 
+  tags: fpgas 
+  source: nextplatform
+
+- title: gallium_arsenide
+  url: https://www.allaboutcircuits.com/news/gallium-arsenide-another-player-in-semiconductor-technology/
+  tags: gallium arsenide
+  source: all about circuits 
+  pic: px/chips/gallium-arsenide.png 
+
+- title: inference efficiency
+  url: https://semiengineering.com/tops-memory-throughput-and-inference-efficiency/
+  tags: memory 
+  source: semiengineering
+
+- title: throughput vs inference
+  url: https://semiengineering.com/tops-memory-throughput-and-inference-efficiency/
+  tags: memory 
+  source: semiengineering
+
+- title: LPDDR5 clocking scheme
+  url: https://semiengineering.com/advantages-of-lpddr5-a-new-clocking-scheme/
+  tags: memory
+  source: semiengineering
+
+- title: memory process controls
+  url: https://semiengineering.com/process-control-for-next-generation-memories/
+  tags: memory manufacturing
+  source: semiengineering
+
+- title: memory speed boosting
+  url: https://semiengineering.com/using-memory-differently-to-boost-speed/
+  tags: memory 
+  source: semiengineering
+
+- title: noise analysis - statistical
+  url: https://www.allaboutcircuits.com/technical-articles/introduction-to-statistical-noise-analysis-basic-calculations
+  tags: circuit design
+  source: semiengineering
+
+# ------------------------------------------------------
+
+- title: pll design
+  url: https://www.allaboutcircuits.com/technical-articles/pll-frequency-multiplication-transient-response-frequency-synthesis/
+  tags: circuit design / PLLs
+  source: all about circuits
+
+- title: frequency multiplication
+  url: https://www.allaboutcircuits.com/technical-articles/understanding-pll-applications-frequency-multiplication/
+  tags: circuit design / PLLs
+  source: all about circuits
+
+- title: plls for dummies
+  url: https://www.allaboutcircuits.com/technical-articles/what-exactly-is-a-phase-locked-loop-anyways/
+  tags: circuit design / PLLs
+  source: all about circuits
+
+- title: how to simulate
+  url: https://www.allaboutcircuits.com/technical-articles/how-to-simulate-a-phase-locked-loop/
+  tags: circuit design / PLLs
+  source: all about circuits
+
+- title: transient responses
+  url: https://www.allaboutcircuits.com/technical-articles/understanding-phase-locked-loop-transient-response/
+  tags: circuit design / PLLs
+  source: all about circuits
+
+# ------------------------------------------------------
+- title: catalog 
+  url: http://www.ti.com/reference-designs/index.html
+  tags: reference designs 
+  source: ti
+
+- title: catalog 
+  url: https://www.maximintegrated.com/en/design/reference-design-center.html
+  tags: reference designs 
+  source: maxim 
+
+- title: catalog 
+  url: https://www.arrow.com/en/reference-designs
+  tags: reference designs 
+  source: arrow
+
+- title: catalog 
+  url: https://www.analog.com/en/design-center/reference-designs.html
+  tags: reference designs 
+  source: adi
+
+- title: catalog 
+  url: https://www.digikey.com/reference-designs/en/motor-control
+  tags: reference designs 
+  source: digikey
+
+- title: catalog 
+  url: https://www.renesas.com/us/en/products/software-tools/boards-and-kits/reference-designs.html
+  tags: reference designs 
+  source: renesas
+
+- title: catalog 
+  url: https://www.tdk-electronics.tdk.com/en/180536/design-support/reference-designs
+  tags: reference designs 
+  source: tdk
+
+- title: catalog 
+  url: https://www.rencousa.com/products/reference-design-products
+  tags: reference designs 
+  source: rencousa
+
+- title: catalog 
+  url: https://www.idt.com/support/reference-designs
+  tags: reference designs 
+  source: idt
+
+# ------------------------------------------------------
+- title: reinventing the cpu
+  url: https://medium.com/@veedrac/to-reinvent-the-processor-671139a4a034
+  tags: cpu architectures
+  source: medium 
+
+- title: rf antennas
+  url: cmos/chips_rf_antennas.html
+  tags: rf 
+
+- title: antenna array design for ADAS 
+  url: https://semiengineering.com/antenna-array-design-for-adas/
+  tags: rf 
+  source: semiengineering
+
+- title: beamforming for 5G
+  url: https://semiengineering.com/5g-beamforming-antennas-create-design-test-problems/
+  tags: rf 
+  source: semiengineering
+
+- title: beam steering antennas 
+  url: https://spectrum.ieee.org/tech-talk/telecom/wireless/a-beam-steering-antenna-for-real-world-mobile-phones
+  tags: rf 
+  source: ieee 
+
+- title: manhole covers as antennas
+  url: https://spectrum.ieee.org/tech-talk/telecom/wireless/manhole-covers-serve-as-antennas-expanding-network-coverage
+  tags: rf 
+  source: ieee 
+
+- title: antenna basics 
+  url: https://www.allaboutcircuits.com/technical-articles/an-introduction-to-antenna-basics/
+  tags: rf 
+  source: all about circuits
+
+- title: antenna design grows up 
+  url: http://semiengineering.com/antenna-design-grows-up/
+  tags: rf 
+  source: semiengineering
+
+- title: millimeter waves 
+  url: https://www.allaboutcircuits.com/news/the-role-of-millimeter-waves-in-ever-expanding-wireless-applications/
+  tags: rf 
+  source: all about circuits
+- title: rf bluetooth mesh beacons
+  url: rf_bluetooth_mesh_beacon.html
+  tags: rf 
+
+- title: python to schematic
+  url: https://xesscorp.github.io/skidl/docs/_site/index.html?imm_mid=0ecc7e&cmp=em-prog-na-na-newsltr_20170128
+  tags: design tools 
+  source: xesscorp
+
+# --------------------------------------------
+- title: intro to semiconductor physics 
+  url: http://www.anandtech.com/print/8223/an-introduction-to-semiconductor-physics-technology-and-industry
+  tags: physics
+  source: anandtech
+
+- title: bsim v6
+  url: http://bsim.berkeley.edu/?page=BSIM6_LR
+  tags: simulation 
+  source: berkeley
+
+- title: cacti
+  url: http://www.hpl.hp.com/research/cacti/
+  tags: simulation memory 
+  source: hp
+
+- title: cacti
+  url: https://github.com/HewlettPackard/cacti
+  tags: simulation memory 
+  source: github
+  
+# --------------------------------------------
+
+- title: butterworth filters - poles & zeros
+  url: cmos/circuits_butterworth_filters.html
+  url: https://www.allaboutcircuits.com/technical-articles/understanding-butterworth-filter-pole-locations/
+  tags: rf 
+  source: all about ckts 
+
+#- title: static logic
+#  url: cmos/static-logic.html
+#  tags: digital design 
+
+- title: standard cell cz (folder)
+  url: cmos/stdcell-cz
+  tags: simulation
+
+#- title: transmission gates
+#  url: cmos/transmission-gates.html
+#  tags: circuit design 
+
+#- title: wells
+#  url: cmos/well.html
+#  tags: chip design
+
+# ------------------------------------------------------------------------------
+
+- title: gpur 
+  url: http://www.parallelr.com/r-gpu-programming-for-all-with-gpur/
+  tags: gpus 
+  source: parallelr
+
+- title: GPUs for data science
+  url: https://www.slideshare.net/dominodatalab/gpu-computing-for-data-science
+  tags: gpus 
+  source: slideshare
+
+- title: HPC updates (2017)
+  url: https://www.hpcwire.com/2017/02/21/hpc-technique-benefits-deep-learning
+  tags: gpus 
+  source: hpcwire 
+
+- title: HPC techniques
+  url: http://research.baidu.com/bringing-hpc-techniques-deep-learning/
+  tags: gpus 
+  source: baidu 
+
+- title: RARpack 
+  url: https://www.r-bloggers.com/large-scale-eigenvalue-decomposition-and-svd-with-rarpack/
+  tags: gpus 
+  source: r-bloggers 
+
+- title: Libraries
+  url: https://developer.nvidia.com/gpu-accelerated-libraries
+  tags: gpus 
+  source: nvidia
+
+- title: SPE.org
+  url: http://www.spe.org/binaries/content/assets/spe-events/2017/conference/17rsc/17rsc-program.pdf
+  tags: gpus
+  source: spe.org
+
+- title: reservoir simulation
+  url: http://static.og-hpc.org/Rice2011/Workshop-Presentations/OG-HPC%20PDF-4-WEB/Wakefield-GPUs-for-reservoir-simulation.pdf
+  tags: gpus
+  source: og-hpc.org 
+
+- title: oil & gas applications
+  url: https://www.nextplatform.com/2016/03/03/drilling-into-the-systems-at-the-oil-and-gas-majors/
+  tags: gpus
+  source: next platform 
+
+- title: hybrid compute for oil reservoir modeling 
+  url: https://www.nextplatform.com/2016/03/06/hybrid-compute-drives-energy-efficient-oil-reservoir-modeling/
+  tags: gpus
+  source: next platform
+
+- title: benchmarks (2019)
+  url: https://hgpu.org/?p=19047
+  tags: gpus 
+  source: hgpu 
+
+- title: nvlink 
+  url: https://www.anandtech.com/show/12581/nvidia-develops-nvlink-switch-nvswitch-18-ports-for-dgx2-more
+  tags: gpus
+  source: anandtech
+
+- title: nvlink
+  url: https://www.nextplatform.com/2016/05/04/nvlink-takes-gpu-acceleration-next-level/
+  tags: gpus
+  source: next platform
+
+- title: unified memory pascal
+  url: https://devblogs.nvidia.com/parallelforall/beyond-gpu-memory-limits-unified-memory-pascal/
+  tags: gpus 
+  source: nvidia
+
+- title: neuromem 
+  url: http://www.eetimes.com/document.asp?doc_id=1325690
+  tags: neuromem
+  source: eetimes 
+
+- title: nccl 
+  url: https://devblogs.nvidia.com/parallelforall/fast-multi-gpu-collectives-nccl/
+  tags: gpus
+  source: nvidia
+
+- title: best practices (2017)
+  url: http://www.prace-ri.eu/best-practice-guide-gpgpu-january-2017/
+  tags: gpus
+  source: prace-ri.eu 
+
+- title: tensor contractions (2016)
+  url: http://www.icl.utk.edu/sites/icl/files/publications/2016/icl-utk-866-2016.pdf
+  tags: gpus
+  source: icl.utk.edu
+
+- title: graphcore (2017)
+  url: https://www.nextplatform.com/2017/03/09/early-look-startup-graphcores-deep-learning-chip/
+  tags: gpus 
+  source: next platform
+
+- title: graphcore memory 
+  url: https://www.graphcore.ai/blog/why-is-so-much-memory-needed-for-deep-neural-networks
+  tags: gpus
+  source: graphcore
+
+- title: nvidia volta micro-benchmarks
+  url: https://arxiv.org/pdf/1804.06826.pdf
+  tags: gpus 
+  source: arxiv 
+
+- title: gpu micro-benchmarks (2016)
+  url: http://parallel.vub.ac.be/~jan/papers/Lemeire2016_Microbenchmarks_for_GPU_characteristics_forPDP2016.pdf
+  tags: gpus 
+  source: parallel.vub.ac.be
+
+- title: gpu caching 
+  url: https://arxiv.org/abs/1605.02043
+  tags: gpus
+  source: arxiv 
+
+- title: about
+  url: https://www.allaboutcircuits.com/news/what-is-silicon-germaniums-place-at-the-semiconductor-table/
+  source: all about circuits
+  tags: silicon germanium 
+
+- title: catalog 
+  url: https://www.design-reuse.com/sip/
+  source: design-reuse
+  tags: ip 

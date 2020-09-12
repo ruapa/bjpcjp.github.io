@@ -29,7 +29,6 @@ header_pages:
   - about.html 
   - math.html # titled as algorithms
   - behaviors.html
-  - cmos.html # titled as chips
   - gametheory.html
   - golang.html
   - ideas.html
@@ -39,6 +38,7 @@ header_pages:
   - rails.html
   #- ruby.html
   #- storytelling.html
+  - semiconductors.html
   - uiux.html # titled as ui/ux.html
   - webdev.html # titled as web tech
   - posts-by-tag.html
