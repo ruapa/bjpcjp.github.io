@@ -1,0 +1,55 @@
+---
+title: Robotics ebook notes
+layout: post
+date: 2020-09-14
+tags: robotics
+---
+
+<a href="http://hades.mech.northwestern.edu/index.php/Modern_Robotics">
+    <img src="/px/robotics/lynch-park-ebook-cover.png" width="60%">
+</a><br><br>
+
+{%- assign sorted_records = site.data.robotics.notes | sort: "order" -%}
+
+<!-- MAIN -->
+
+<div style="column-count: 2;">
+{%- for item in sorted_records -%}
+
+    <!--right-side links: 1) my tweets, 2) "home" navigation 
+            <span style="float:right;">
+
+                <button>
+                <a href="https://duckduckgo.com?q={{item.name}} AND robotics "
+                   target="_blank">
+                    Search by topic (DDG)</a>
+                </button>
+            </span>
+        <br>-->
+    
+        <div class="textcard">
+            <!--<div style="column-count:2;
+                        column-rule: 4px solid #c6d9ec;">-->
+
+        <!-- bookmark sources, if available, float to the right. -->
+
+            {%- if item.source -%}
+                <span style="float:right;">
+                <small><em> {{ item.source }} </em></small>
+                </span>
+            {%- endif -%}
+
+            <a href="{{item.url}}">{{item.title}}</a><br>
+
+            {%- if item.pic -%}
+                <img src="{{ item.pic }}"><br>
+            {%- endif -%}
+
+            {%- if item.notes -%}
+                <small><em> {{ item.notes }} </em></small><br>
+            {%- endif -%}
+        </div>
+{%- endfor -%}
+<br>
+</div>
+

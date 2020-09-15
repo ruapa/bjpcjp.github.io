@@ -1,0 +1,94 @@
+- url: /pdfs/robotics/MR_toc.pdf
+  title: table of contents
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch01_preview.pdf        
+  title: ch 01 (preview)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch02_configuration.pdf      
+  title: ch 02 (configuration)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch03_rigid_body_motions.pdf     
+  title: ch 03 (rigid body motions)  
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch04_fwd_kinematics.pdf    
+  title: ch 04 (forward kinematics)   
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch05_velocity_kinematics.pdf      
+  title: ch 05 (velocity kinematics)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch06_inverse_kinematics.pdf
+  title: ch 06 (inverse kinematics)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch07_kinematics_closed_chains.pdf
+  title: ch 07 (kinematics of closed chains)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch08_dynamics_open_chains.pdf
+  title: ch 08 (dynamics of open chains)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch09_trajectory_generation.pdf
+  title: ch 09 (trajectory generation)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch10_motion_planning.pdf
+  title: ch 10 (motion planning)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch11_robot_control.pdf
+  title: ch 11 (robotics controls)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch12_grasping_manipulation.pdf
+  title: ch 12 (grasping & manipulation)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_ch13_wheeled_mobile_robots.pdf
+  title: ch 13 (wheeled, mobile robotics)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_apndxA_formulas.pdf         
+  title: apndx A (useful formaulas)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_apndxB_rotation_representations.pdf     
+  title: apndx B (rotation representations)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_apndxC_denavit_hartenberg_params.pdf    
+  title: capndx C (denavit hartenberg parameters)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_apndxD_optimization_lagrange_multipliers.pdf  
+  title: apndx D (optimization & lagrange multipliers)
+  pic:
+  notes:
+
+- url: /pdfs/robotics/MR_index.pdf
+  title: index
+  pic:
+  notes:
