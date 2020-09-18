@@ -1,5 +1,11 @@
 ##########################
 
+- url: https://lionbridge.ai/datasets/24-best-ecommerce-retail-datasets-for-machine-learning/
+  title: 24 high-quality ecommerce & retail datasets
+  tags: datasets 
+  pic: 
+  notes: product, transaction, search relevance, reviews, ecommerce 
+
 - url: https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63
   title: Ultimate Guide (Maria Paskevich)
   tags: ab testing
