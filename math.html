@@ -7,7 +7,7 @@ tags: math
 <div class="textcard-white">
     <p>Note: under construction.</p>
 </div>
-
+<!--
 <div class="textcard-white">
     <h2>Common source materials:</h2>
     <span style="column-count: 2;">
@@ -39,18 +39,17 @@ tags: math
         SM = @soulmachine ML cheatsheet<br>
     </span>
 </div>
-
-{%- assign sorted_records = site.data.math.mathv2 | sort: "category" -%}
+-->
+{%- assign sorted_records = site.data.math.math20200917 | sort: "category" -%}
 
 {%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
 
 <!-- TABLE OF CONTENTS -->
-<!--
-<h2>Index:</h2>
+
+<h2>Tags:</h2>
 
 <div class="textcard">
-    <div style="column-count: 4;">
-        <big><big><big>Tags:</big></big></big><br>
+    <div style="column-count: 2;">
     {%- for tag in grouped_sorted_records -%}
         <span style="margin:0.5em;">
             <a href="#{{tag.name}}">{{tag.name}}</a>
@@ -59,7 +58,7 @@ tags: math
     </div>
 </div>
 <br><br>
--->
+
 <!-- MAIN -->
 
 <h2>Topics:</h2>
@@ -111,7 +110,7 @@ tags: math
                     <a href="{{item.url}}">{{item.title}}</a><br>
 
                     {%- if item.pic -%}
-                        <img src="{{ item.pic }}"><br>
+                        <img src="{{ item.pic }}">
                     {%- endif -%}
 
                     {%- if item.notes -%}

@@ -1,9 +1,3 @@
-
-#- title: role
-#  category:
-#  url: pdfs/math/algorithms-role-ITA.pdf
-#  source: ITA
-
 - title: shortest paths
   category: search
   url: pdfs/math/all-pairs-shortest-paths-ITA.pdf
@@ -14,20 +8,16 @@
   url: pdfs/math/amortization-ITA.pdf
   source: ITA
 
-- title: approximation
-  category:
+- title: approximation algorithms
+  category: search
   url: pdfs/math/approximation-algos-ITA.pdf
   source: ITA
+  notes: vertex-cover, traveling salesman, set covering, randomization, subset-sum, 
 
 - title: binary search trees
   category: search
   url: pdfs/math/binary-search-trees-ITA.pdf
   source: ITA
-
-#- title: book
-#  category:
-#  url: pdfs/math/book-ITA.pdf
-#  source: ITA
 
 - title: b trees
   category: data structures
@@ -39,7 +29,7 @@
   "
 
 - title: counting
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/counting-probability-ITA.pdf
   source: ITA
 
@@ -73,11 +63,6 @@
   url: pdfs/math/geometry-ITA.pdf
   source: ITA
 
-#- title: getting started
-#  category:
-#  url: pdfs/math/getting-started-ITA.pdf
-#  source: ITA
-
 - title: graph algorithms
   category: graphs
   url: pdfs/math/graph-algos-ITA.pdf
@@ -104,11 +89,6 @@
   source: ITA
   notes: heaps, maintain, build, algorithm, priority queues
 
-#- title: index
-#  category:
-#  url: pdfs/math/index-ITA.pdf
-#  source: ITA
-
 - title: linear programming
   category: linear algebra & matrix math
   url: pdfs/math/linear-programming-ITA.pdf
@@ -120,12 +100,12 @@
   source: ITA
 
 - title: maxflow
-  category: maxflow
+  category: graphs
   url: pdfs/math/maxflow-ITA.pdf
   source: ITA
 
 - title: medians & orderstats
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/medians-orderstats-ITA.pdf
   source: ITA
 
@@ -135,7 +115,7 @@
   source: ITA
 
 - title: multithreading 
-  category: multithreading
+  category: algorithm design
   url: pdfs/math/multithreading-ITA.pdf
   source: ITA
 
@@ -154,13 +134,8 @@
   url: pdfs/math/polynomials-fourier-ITA.pdf
   source: ITA
 
-#- title: preface
-#  category:
-#  url: pdfs/math/preface-ITA.pdf
-#  source: ITA
-
 - title: probabilistic-randomized 
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probabilistic-randomized-ITA.pdf
   source: ITA
 
@@ -195,21 +170,10 @@
   url: pdfs/math/summations-ITA.pdf
   source: ITA
 
-#- title: TOC
-#  category:
-#  url: pdfs/math/toc-ITA.pdf
-#  source: ITA
-
 - title: van emde boas trees
   category: data structures
   url: pdfs/math/van-emde-boas-trees-ITA.pdf
   source: ITA
-
-
-#- title: foundations
-#  category:
-#  url: pdfs/math/book-foundations-FDS.pdf
-#  source: FDS
 
 - title: clustering
   category: machine learning
@@ -225,16 +189,6 @@
   category: glossaries
   url: pdfs/math/glossary-FDS.pdf
   source: FDS
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-FDS.pdf
-#  source: FDS
-
-#- title: intro
-#  category:
-#  url: pdfs/math/intro-FDS.pdf
-#  source: FDS
 
 - title: intro
   category: machine learning
@@ -282,16 +236,6 @@
   url: pdfs/math/basis-expansions-regularization-ESL.pdf
   source: ESL
 
-#- title: book
-#  category:
-#  url: pdfs/math/book-elements-of-statistical-learning-ESL.pdf
-#  source: ESL
-
-#- title: book
-#  category:
-#  url: pdfs/math/book-ESL.pdf
-#  source: ESL
-
 - title: boosting & additive trees
   category: machine learning
   url: pdfs/math/boosting-additive-trees-ESL.pdf
@@ -306,11 +250,6 @@
   category: machine learning
   url: pdfs/math/ensembles-ESL.pdf
   source: ESL
-
-#- title: intro
-#  category:
-#  url: pdfs/math/intro-ESL.pdf
-#  source: ESL
 
 - title: kernel smoothing
   category: machine learning
@@ -388,20 +327,10 @@
   url: pdfs/math/eigenvectors-eigenvalues-LAY.pdf
   source: LAY
 
-#- title: glossary
-#  category:
-#  url: pdfs/math/glossary-LAY.pdf
-#  source: LAY
-
-#- title: credits
-#  category:
-#  url: pdfs/math/image-credits-LAY.pdf
-#  source: LAY
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-LAY.pdf
-#  source: LAY
+- title: glossary
+  category: glossaries
+  url: pdfs/math/glossary-LAY.pdf
+  source: LAY
 
 - title: inner products - length - orthogonality
   category: linear algebra & matrix math
@@ -428,11 +357,6 @@
   url: pdfs/math/vector-spaces-LAY.pdf
   source: LAY
 
-- title: adaptive basis functions
-  category: adaptive basis functions
-  url: pdfs/math/adaptive-basis-function-models-SM.pdf
-  source: SM
-
 - title: nets
   category: bayes
   url: pdfs/math/bayes-nets-SM.pdf
@@ -449,7 +373,7 @@
   source: SM
 
 - title: frequentist
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/frequentist-stats-SM.pdf
   source: SM
 
@@ -467,11 +391,6 @@
   category: deep learning architectures
   url: pdfs/math/generative-models-discrete-SM.pdf
   source: SM
-
-#- title: intro
-#  category:
-#  url: pdfs/math/intro-SM.pdf
-#  source: SM
 
 - title: kernels
   category: machine learning
@@ -503,18 +422,13 @@
   url: pdfs/math/mixture-models-SM.pdf
   source: SM
 
-#- title: TOC
-#  category:
-#  url: pdfs/math/ml-cheatsheet-toc-SM.pdf
-#  source: SM
-
 - title: optimization
   category: machine learning
   url: pdfs/math/optimization-SM.pdf
   source: SM
 
 - title: probability
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-SM.pdf
   source: SM
 
@@ -559,11 +473,6 @@
   url: pdfs/math/approximation-on-policy-prediction-RL.pdf
   source: RL
 
-#- title: book
-#  category:
-#  url: pdfs/math/book-reinforcement-learning-v2-RL.pdf
-#  source: RL
-
 - title: dynamic programming
   category: reinforcement learning
   url: pdfs/math/dynamic-programming-RL.pdf
@@ -578,11 +487,6 @@
   category: reinforcement learning
   url: pdfs/math/frontiers-RL.pdf
   source: RL
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-RL.pdf
-#  source: RL
 
 - title: markov-finite
   category: reinforcement learning
@@ -620,7 +524,7 @@
   source: PSC
 
 - title: cookbook
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/book-prob-stats-cookbook-PSC.pdf
   source: PSC
 
@@ -641,22 +545,18 @@
   source: PSC
 
 #- title: non-parametric function estimation
-#  category: tbd
+#  category: approximations
 #  url: pdfs/math/function-estimation-non-parametric-PSC.pdf
 #  source: PSC
+#  notes: density estimation, 
 
-#- title: hypothesis testing
-#  category: statistics
-#  url: pdfs/math/hypothesis-testing-PSC.pdf
-#  source: PSC
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-PSC.pdf
-#  source: PSC
+- title: hypothesis testing
+  category: probability, statistics
+  url: pdfs/math/hypothesis-testing-PSC.pdf
+  source: PSC
 
 - title: inequalities
-  category: statistics
+  category: probability, statistics
   url: pdfs/math/inequalities-PSC.pdf
   #pic: px/math/inequalities.png
   source: PSC
@@ -672,42 +572,42 @@
   source: PSC
 
 - title: distributions
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-distributions-PSC.pdf
   source: PSC
 
 - title: probability expectation
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-expectation-PSC.pdf
   source: PSC
 
 - title: other
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-other-math-PSC.pdf
   source: PSC
 
 - title: random variables
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-random-vars-PSC.pdf
   source: PSC
 
 - title: probability theory
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-theory-PSC.pdf
   source: PSC
 
 - title: sampling
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/sampling-PSC.pdf
   source: PSC
 
 - title: statistical inference
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/statistical-inference-PSC.pdf
   source: PSC
 
 - title: stochastic processes
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/stochastic-process-PSC.pdf
   source: PSC
 
@@ -717,7 +617,7 @@
   source: PSC
 
 - title: variance
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/variance-PSC.pdf
   source: PSC
 
@@ -725,11 +625,6 @@
   category: bayes
   url: pdfs/math/bayes-NP.pdf
   source: NP
-
-#- title: book
-#  category:
-#  url: pdfs/math/book-numerical-python-NP.pdf
-#  source: NP
 
 - title: differential equations (ODE)
   category: symbolic math
@@ -750,16 +645,6 @@
   category: software tools
   url: pdfs/math/file-io-NP.pdf
   source: NP
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-NP.pdf
-#  source: NP
-
-#- title: install
-#  category:
-#  url: pdfs/math/install-NP.pdf
-#  source: NP
 
 - title: integration
   category: symbolic math
@@ -802,12 +687,12 @@
   source: NP
 
 - title: statistics
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/statistics-NP.pdf
   source: NP
 
 - title: statistical modeling with statsmodels & patsy
-  category: statistics
+  category: probability, statistics
   url: pdfs/math/statsmodels-NP.pdf
   source: NP
   notes: linear regression, discrete (logit, poisson) regression, time series analysis
@@ -826,17 +711,6 @@
   category: software tools
   url: pdfs/math/vizualization-NP.pdf
   source: NP
-
-
-#- title: applications
-#  category:
-#  url: pdfs/math/applications-DSA.pdf
-#  source: DSA
-
-#- title: book
-#  category:
-#  url: pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
-#  source: DSA
 
 - title: dictionaries
   category: data structures
@@ -862,20 +736,10 @@
   url: pdfs/math/spatial-DSA.pdf
   source: DSA
 
-#- title: book
-#  category:
-#  url: pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
-#  source: DMMD
-
 - title: clustering
   category: machine learning
   url: pdfs/math/clustering-DMMD.pdf
   source: DMMD
-
-#- title: intro
-#  category:
-#  url: pdfs/math/data-mining-intro-DMMD.pdf
-#  source: DMMD
 
 - title: streams
   category: data structures
@@ -891,11 +755,6 @@
   category: data structures
   url: pdfs/math/frequent-itemsets-DMMD.pdf
   source: DMMD
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-DMMD.pdf
-#  source: DMMD
 
 - title: scaling
   category: machine learning
@@ -957,16 +816,6 @@
   url: pdfs/math/guidelines-methodology-DLgoodfellow.pdf
   source: DLG
 
-#- title: index
-#  category:
-#  url: pdfs/math/index-DLgoodfellow.pdf
-#  source: DLG
-
-#- title: intro
-#  category:
-#  url: pdfs/math/intro-DLgoodfellow.pdf
-#  source: DLG
-
 - title: linear algebra
   category: linear algebra & matrix math
   url: pdfs/math/linear_algebra-DLgoodfellow.pdf
@@ -997,13 +846,8 @@
   url: pdfs/math/optimization-DLgoodfellow.pdf
   source: DLG
 
-#- title: book pt 1
-#  category:
-#  url: pdfs/math/part-1-basics-DLgoodfellow.pdf
-#  source: DLG
-
 - title: probability
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/probability-DLgoodfellow.pdf
   source: DLG
 
@@ -1022,26 +866,15 @@
   url: pdfs/math/representation-learning-DLgoodfellow.pdf
   source: DLG
 
-#- title: book p3
-#  category:
-#  url: pdfs/math/research-p3-DLgoodfellow.pdf
-#  source: DLG
-
 - title: probabilistic models
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/structured-probabilistic-models-DLgoodfellow.pdf
   source: DLG
 
 - title: partition problem
-  category: statistics
+  category: probability, statistics
   url: pdfs/math/the-partition-problem-DLgoodfellow.pdf
   source: DLG
-
-#- title: TOC
-#  category:
-#  url: pdfs/math/toc-DLgoodfellow.pdf
-#  source: DLG
-
 
 - title: model selection estimation
   category: machine learning
@@ -1058,13 +891,8 @@
   url: pdfs/math/bayes-inference-CSI.pdf
   source: CSI
 
-#- title: book
-#  category:
-#  url: pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
-#  source: CSI
-
 - title: bootstrap confidence intervals
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/bootstrap-confidence-intervals-CSI.pdf
   source: CSI
 
@@ -1073,20 +901,10 @@
   url: pdfs/math/cross-validation-CSI.pdf
   source: CSI
 
-#- title: book
-#  category:
-#  url: pdfs/math/deep-learning-CSI.pdf
-#  source: CSI
-
 - title: hypothesis testing
-  category: probstats
+  category: probability, statistics
   url: pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
   source: CSI
-
-#- title: index
-#  category:
-#  url: pdfs/math/index-CSI.pdf
-#  source: CSI
 
 - title: frequentist inference
   category: machine learning
@@ -1094,11 +912,6 @@
   source: CSI
   notes: "bootstrap<br>
           decision theory"
-
-#- title: intro
-#  category:
-#  url: pdfs/math/intro-CSI.pdf
-#  source: CSI
 
 - title: jackknife regression
   category: machine learning
@@ -1115,10 +928,10 @@
   url: pdfs/math/max-likelihood-estimation-CSI.pdf
   source: CSI
 
-#- title: methodology
-#  category: tbd
-#  url: pdfs/math/methodology-postwar-CSI.pdf
-#  source: CSI
+- title: methodology
+  category: methodology
+  url: pdfs/math/methodology-postwar-CSI.pdf
+  source: CSI
 
 - title: exponentials
   category: number theory
@@ -1154,11 +967,6 @@
   category: machine learning
   url: pdfs/math/survival-analysis-expection-maximization-CSI.pdf
   source: CSI
-
-#- title: book
-#  category:
-#  url: pdfs/math/book-convex-optimization-CO.pdf
-#  source: CO 
 
 - title: adversarial vs stochastic linear
   category: bandits
@@ -1509,48 +1317,59 @@
   url: https://thedatum.data.blog/2019/06/09/machine-learning-association-rule-mining/
   source: thedatum 
 
-- title: a-starintro
+- title: a-star intro
   category: search
   pic: /px/math/a-star.png
   url: http://www.redblobgames.com/pathfinding/a-star/introduction.html
- 
+  source: redblobgames
+
 - title: a-star implementation
   category: search
   url: http://www.redblobgames.com/pathfinding/a-star/implementation.html
+  source: redblobgames
 
-- title: david batista
-  category: attention mechanisms
+- title: seq2seq attention mechanisms
+  category: nlp
   pic: /px/math/attention-bahdanau-vs-luong.png" 
   url: http://www.davidsbatista.net/blog/2020/01/25/Attention-seq2seq/
- 
-- title: floydhub
-  category: attention mechanisms
+  source: davidsbatista
+
+- title: attention mechanisms
+  category: deep learning blocks
   url: https://blog.floydhub.com/attention-mechanism/
- 
+  source: floydhub
+  notes: manages & measures *interdependence*.
+
 - title: skymind
-  category: attention mechanisms
+  category: deep learning blocks
   url: https://skymind.ai/wiki/attention-mechanism-memory-network
- 
-- title: residual attention (arxiv)
-  category: attention mechanisms
+  source: skymind
+
+- title: residual attention
+  category: deep learning blocks
   url: https://arxiv.org/pdf/1704.06904
- 
-- title: wildml
-  category: attention mechanisms
+  source: arxiv 
+
+- title: attention mechanisms
+  category: deep learning blocks
   url: http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
- 
-- title: oxford CS
-  category: attention mechanisms
+  source: wildml
+
+- title: attention mechanisms
+  category: deep learning blocks
   url: https://github.com/oxford-cs-deepnlp-2017/lectures
+  source: oxford CS
 
 - title: terminology
   category: nlp
   url: http://www.kdnuggets.com/2017/02/natural-language-processing-key-terms-explained.html
- 
+  source: kdnuggets
+
 - title: adeshpande
   category: nlp
   url: https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-3-Natural-Language-Processing
- 
+  source: adeshpande3
+
 - title: bigrams,trigrams,topic modeling
   category: nlp
   url: https://greg.blog/2013/01/26/unix-bi-grams-tri-grams-and-topic-modeling/
@@ -1667,13 +1486,15 @@
   url: https://hackernoon.com/how-to-develop-a-robust-algorithm-c38e08f32201
   source: hackernoon 
 
-- title: arxiv 1510 - normalization
-  category: batching
+- title: batching normalization
+  category: deep learning
   url: http://arxiv.org/abs/1510.01378
- 
+  source: arxiv 
+
 - title: my github
   category: bayes
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
+  source: NP 
 
 - title: intro
   #pic: /px/math/bayes-bandits.png
@@ -1852,14 +1673,16 @@
   category: machine vision
   url: https://www.quantamagazine.org/a-mathematical-model-unlocks-the-secrets-of-vision-20190821/
 
-- title: how to use early stopping
-  category: batching
+- title: early stopping
+  category: deep learning blocks
   url: https://stats.stackexchange.com/questions/231061/how-to-use-early-stopping-properly-for-training-deep-neural-network
+  source: stackexchange
 
 - title: dl bench
   category: benchmarks
   url: http://dlbench.comp.hkbu.edu.hk/
- 
+  source: hkbu.edu.hk 
+
 - title: fathom 101
   category: benchmarks
   url: https://fathom.readthedocs.io/en/latest/quickstart/
@@ -1957,9 +1780,9 @@
   url: https://devblogs.nvidia.com/cublas-strided-batched-matrix-multiply/
   source: nvidia 
 
-- title: intro to probability (grinstead, snell)
-  url: /pdfs/math/prob-intro.pdf
-  category: probstats
+#- title: intro to probability (grinstead, snell)
+#  url: /pdfs/math/prob-intro.pdf
+#  category: probability, statistics
    
 - title: caffe tutorial
   category: software tools
@@ -1986,7 +1809,7 @@
   source: ODS 
 
 - title: central limit theorem
-  category: probstats
+  category: probability, statistics
   url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
   source: jeannicholashould
 
@@ -2396,11 +2219,11 @@
   source: scikit
 
 - title: central limit theorem (jeannicholashould)
-  category: probstats
+  category: probability, statistics
   url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html
  
 - title: central limit theorem (atomicobjecta)
-  category: probstats
+  category: probability, statistics
   url: https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/
 
 - title: summary chapter
@@ -2433,54 +2256,53 @@
   source: ITA
 
 - title: pipelining
-  category: combining estimators
+  category: methodology
   url: http://scikit-learn.org/stable/modules/pipeline.html#pipeline-chaining-estimators
   source: scikit
 
 - title: feature unions
-  category: combining estimators
+  category: methodology
   url: http://scikit-learn.org/stable/modules/pipeline.html#featureunion-composite-feature-spaces
   source: scikit
 
-- title: text tools
-  category: csv-tsv
+- title: structured text tools
+  category: software tools
   url: https://github.com/dbohdan/structured-text-tools
   source: dbohdan
 
-- title: jeroen janssens ebook
-  category: csv-tsv
+- title: command line tools
+  category: command line
   url: https://github.com/jeroenjanssens/data-science-at-the-command-line
- 
+  source: jeroenjanssens
+  notes: jq, json2csv, csvkit, scrape, xml2json, sample, Rio
+
 - title: csvkit tricks
-  category: csv-tsv
+  category: command line
   url: https://source.opennews.org/articles/eleven-awesome-things-you-can-do-csvkit/
- 
-- title: 5 cmndline tools
-  category: csv-tsv
-  url: https://www.kdnuggets.com/2019/07/five-command-line-tools-data-science.html
- 
+  source: opennews
+
 - title: tsv utilities
-  category: csv-tsv
+  category: software tools
   url: https://github.com/eBay/tsv-utils
   source: ebay
 
 - title: confidence intervals - fractional
-  category: statistics
+  category: probability, statistics
   url: https://www.analyticbridge.datasciencecentral.com/forum/topics/easy-to-compute
   source: analyticbridge
 
 - title: confidence intervals - black box
-  category: statistics
+  category: probability, statistics
   url: http://www.datasciencecentral.com/profiles/blogs/black-box-confidence-intervals-excel-and-perl-implementations-det
   source: DSC 
 
 - title: confidence intervals - how to build
-  category: statistics
+  category: probability, statistics
   url: https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-to-build-simple-accurate-data-driven-model-free-confidence-in
   source: analyticbridge
 
 - title: confidence intervals - bootstrap
-  category: statistics
+  category: probability, statistics
   url: /pdfs/math/bootstrap-confidence-intervals-CSI.pdf
   source: CSI
 
@@ -2661,7 +2483,7 @@
   source: ITA
   notes: dynamic order stats, how to augment, interval trees
 
-- title: other
+- title: other structures
   url: /pdfs/math/other-datastructs-DSA.pdf
   category: data structures
   notes: "tries, suffix trees/arrays, string search, persistence, PQ trees, sets,
@@ -3025,8 +2847,8 @@ double pendulum"
   url: http://www.benfrederickson.com/distance-metrics/
   source: benfrederickson
 
-- title: divide & conquer
-  category: recursion
+- title: recursion - divide & conquer
+  category: algorithm design
   url: /pdfs/math/divide-conquer-ITA.pdf
   source: ITA 
 
@@ -3708,22 +3530,22 @@ double pendulum"
   source: arxiv
 
 - title: hypothesis testing intro
-  category: probability
+  category: probability, statistics
   url: https://hackaday.com/2017/12/01/statistics-and-hacking-an-introduction-to-hypothesis-testing/
   source: hackaday
 
 - title: hypothesis testing - cheat sheet
-  category: probability
+  category: probability, statistics
   url: https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/
   source: machinelearningmastery
 
 - title: hypothesis testing - false discoveries
-  category: probability
+  category: probability, statistics
   url: /pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
   source: CSI
 
 - title: hypothesis testing
-  category: probability
+  category: probability, statistics
   url: /pdfs/math/hypothesis-testing-PSC.pdf
   source: PSC
 
@@ -4199,41 +4021,49 @@ double pendulum"
   category: deep learning architectures
   url: http://deeplearning.net/tutorial/rbm.html#rbm
 
-- title: my cmnd line cheatsheet (pdf)
+- title: my cmnd line cheatsheet
   category: command line
-  pic: /px/math/datasci-at-cmnd-line.png 
+  #pic: /px/math/datasci-at-cmnd-line.png 
   url: /pdfs/math/DataSci-CmndLine-cheat-20190804.pdf
  
 - title: unix toolbox
   category: command line
   url: http://cb.vu/unixtoolbox.xhtml
- 
-- title: 15 unix command
+  source: cb.vu
+
+- title: command line tools
   category: command line
   url: http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
- 
+  source: gregreda
+  notes: head, tail, wc, grep, sed, sort, uniq, 
+
 - title: book of secret knowledge
   category: command line
   url: https://github.com/bjpcjp/the-book-of-secret-knowledge
  
-- title: useful *nix commands
+- title: command line tools
   category: command line
   url: https://datavu.blogspot.com/2014/08/useful-unix-commands-for-exploring-data.html
- 
-- title: robert elder
+  source: datavu 
+
+- title: command line tools
   category: command line
   url: https://blog.robertelder.org/data-science-linux-command-line/
-  notes: "pipe, grep, sed, awk, sort, comm, uniq, tr, cat, head, tail, wc, find, tsort, tee, redirect"
- 
-- title: kadek
+  notes: pipe, grep, sed, awk, sort, comm, uniq, tr, cat, head, tail, wc, find, tsort, tee, redirect
+  source: robertelder 
+
+- title: command line tools
   category: command line
   url: https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da
-  notes: "ICONV, HEAD, TR, WC, SPLIT, SORT, UNIQ, CUT, PASTE, JOIN, GREP, SED, AWK"
- 
-- title: 12 cmndline tools
+  notes: iconv, head, tr, wc, split, sort, uniq, cut, paste, join, grep, sed, awk 
+  source: medium 
+
+- title: command line tools
   category: command line
   url: https://www.kdnuggets.com/2018/03/top-12-essential-command-line-tools-data-scientists.html
- 
+  source: kdnuggets
+  notes: wget, cat, wc, head, tail, find, cut, uniq, awk, grep, sed, history
+
 - title: blocks (with code)
   category: deep learning blocks
   pic: /px/math/DIDL-layers-and-blocks.png 
@@ -4432,6 +4262,10 @@ MCMC, bagging, averaging & stacking, bumping"
 - title: lists
   category: data structures
   url: /pdfs/math/lists-EA.pdf
+  source: EA 
+  notes: empty, element, build, test-for-empty, length, index, last, reverse index, append, delete, concat, 
+         sum, product, max, min, map, for-each, reverse, take, drop, split-at, break, group, fold, search,
+         match, zip/unzip
 
 - title: loss change allocation
   category: learning rates
@@ -4573,10 +4407,11 @@ MCMC, bagging, averaging & stacking, bumping"
   url: http://signal-to-noise.xyz/post/bk-tree/
   source: signal-to-noise
 
-- title: instacart - modeling the unseen
+- title: modeling the unseen
   category: best practices
   url: https://tech.instacart.com/modeling-the-unseen-6a51c9a02430
- 
+  source: instacart 
+
 - title: 9 DL papers to know
   category: deep learning architectures
   url: https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
@@ -4655,7 +4490,7 @@ MCMC, bagging, averaging & stacking, bumping"
   url: /pdfs/math/medial-axis-xforms-ADM.pdf
 
 - title: minimum likelihood estimator (MLE) - nonlinear
-  category: probstats
+  category: probability, statistics
   url: https://alemorales.info/post/mle-nonlinear/
 
 - title: ADM
@@ -5208,57 +5043,49 @@ MCMC, bagging, averaging & stacking, bumping"
   url: /pdfs/math/PCA-explained-visually.pdf
   source: explainedvisually 
 
-- title: cookbook v0.2.1 (pdf)
-  category: probstats
+- title: cookbook v0.2.1
+  category: probability, statistics
   url: pdfs/math/prob-stats-cookbook v0.2.1.pdf
  
-- title: UC Davis ebook (pdf)
-  category: probstats
-  url: pdfs/math/prob-stats-modeling.pdf
+#- title: UC Davis ebook (pdf)
+#  category: probability, statistics
+#  url: pdfs/math/prob-stats-modeling.pdf
  
-- title: cheatsheet v2 (pdf)
-  category: probstats
+- title: cheatsheet v2
+  category: probability, statistics
   url: pdfs/math/prob-stats-cheatsheet2.pdf
  
-- title: grinstead/snell ebook (pdf)
-  category: probstats
-  url: pdfs/math/prob-intro.pdf
+#- title: grinstead/snell ebook (pdf)
+#  category: probability, statistics
+#  url: pdfs/math/prob-intro.pdf
 
-- title: cheatsheet (wm.chen)
-  category: probstats
+- title: cheatsheet
+  category: probability, statistics
   url: pdfs/math/prob_cheatsheet_william_chen.pdf
- 
-- title: multivariate (PSC)
-  category: probstats
+  source: wm.chen
+
+- title: distributions - multivariate
+  category: probability, statistics
   url: pdfs/math/distributions-multivariate-PSC.pdf
- 
-- title: counting (ITA)
-  category: probstats
-  url: pdfs/math/counting-probability-ITA.pdf
- 
-- title: theory (PSC)
-  category: probstats
-  url: pdfs/math/probability-theory-PSC.pdf
+  source: PSC 
+
+#- title: theory (PSC)
+#  category: probability, statistics
+#  url: pdfs/math/probability-theory-PSC.pdf
  
 - title: distributions (PSC)
   category: distributions
   url: pdfs/math/probability-distributions-PSC.pdf
  
-- title: random variables (PSC)
-  category: probstats
-  url: pdfs/math/probability-random-vars-PSC.pdf
- 
-- title: other math (PSC)
-  category: probstats
-  url: pdfs/math/probability-other-math-PSC.pdf
- 
-- title: goodfellow
-  category: probstats
+- title: intro
+  category: probability, statistics
   url: pdfs/math/probability-DLgoodfellow.pdf
- 
-- title: SM
+  source: DLG   
+
+- title: overview
   url: pdfs/math/probability-SM.pdf
-  category: probstats
+  category: probability, statistics
+  source: SM
   notes: "frequentist vs bayesian, 
           concepts, 
           discrete (bernoulli, binomial, multinoulli, multinomial,
@@ -5286,7 +5113,7 @@ MCMC, bagging, averaging & stacking, bumping"
   url: https://www.slideshare.net/TylerTreat/probabilistic-algorithms-for-fun-and-pseudorandom-profit
 
 - title: process capability index
-  category: probstats
+  category: probability, statistics
   url: https://en.wikipedia.org/wiki/Process_capability_index
 
 - title: pytorch/incredible
@@ -5890,7 +5717,7 @@ MCMC, bagging, averaging & stacking, bumping"
   source: wikipedia
 
 - title: basics
-  category: statistics
+  category: probability, statistics
   url: pdfs/math/statistics-NP.pdf
   source: NP 
 
@@ -5900,61 +5727,61 @@ MCMC, bagging, averaging & stacking, bumping"
   source: NP 
 
 - title: statistical analysis (my github)
-  category: statistics
+  category: probability, statistics
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch13-statistics.ipynb
   source: NP 
   notes: descriptives, random numbers, distributions, hypothesis testing, kernel density estimation
 
 - title: statistical modeling (my github)
-  category: statistics
+  category: probability, statistics
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch14-statistical-modeling.ipynb
   source: NP
   notes: Patsy, linear regression, example datasets, discrete regression, time series
 
 - title: bayes statistics (my github)
-  category: statistics
+  category: probability, statistics
   url: https://github.com/bjpcjp/Numeric-Python/blob/master/ch16-bayes-statistics.ipynb
   source: NP 
   notes: prior/posterior probability, Markov Chain Monte Carlo (MCMC)
 
 - title: statistics for hackers
-  category: statistics
+  category: probability, statistics
   url: https://speakerdeck.com/jakevdp/statistics-for-hackers
   source: speakerdeck
 
 - title: simple stats
-  category: statistics
+  category: probability, statistics
   url: http://simplestatistics.org/docs/
   source: simplestatistics
 
 - title: best practices - 10 simple rules 
-  category: statistics
+  category: probability, statistics
   url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961
   source: plos 
   notes: 
 
 #- title: 12 use cases
-#  category: statistics
+#  category: probability, statistics
 #  url: http://www.datasciencecentral.com/profiles/blogs/top-20-uses-of-statistical-modeling
  
 #- title: 12 more use cases
-#  category: statistics
+#  category: probability, statistics
 #  url: http://www.datasciencecentral.com/profiles/blogs/24-uses-of-statistical-modeling-part-ii
  
 - title: significance level
-  category: statistics
+  category: probability, statistics
   url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
   source: DSC 
   notes: In a hypothesis test, the significance level, alpha, is the probability of making the wrong decision when the null hypothesis is true.
 
 - title: confidence level
-  category: statistics
+  category: probability, statistics
   url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
   source: DSC 
   notes: The probability that if a poll/test/survey were repeated over and over again, the results would be the same. A confidence level =  1 - alpha. 
 
 - title: confidence intervals
-  category: statistics
+  category: probability, statistics
   url: https://www.datasciencecentral.com/profiles/blogs/significance-level-vs-confidence-level-vs-confidence-interval
   source: DSC 
   notes: A range of results from an experiment that expects to contain the population parameter of interest. For example, an average response. Confidence intervals are constructed using significance levels / confidence levels.
@@ -6623,3 +6450,8 @@ MCMC, bagging, averaging & stacking, bumping"
   category: bandits
   url: https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/
   source: stitchfix
+
+- title: elliptic curve cryptography
+  category: cryptography
+  url: https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/
+  source: qvault
