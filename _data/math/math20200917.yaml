@@ -1,3 +1,9 @@
+- title: intro to Self-Organizing Maps 
+  parent: tbd 
+  category: deep learning architectures
+  url: https://towardsdatascience.com/self-organizing-maps-for-dimension-reduction-data-visualization-and-clustering-ff966edd311c
+  source: medium 
+
 - title: shortest paths
   parent: tbd
   category: search
