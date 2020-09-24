@@ -7,7 +7,12 @@ tags: math
 <div class="textcard-white">
     <p>Note: under construction.</p>
 </div>
-<!--
+{%- assign show_sources = false -%}
+{%- assign show_tags    = false -%}
+{%- assign search_button = false -%}
+{%- assign show_group_detail = false -%}
+
+{%- if show_sources -%}
 <div class="textcard-white">
     <h2>Common source materials:</h2>
     <span style="column-count: 2;">
@@ -39,15 +44,15 @@ tags: math
         SM = @soulmachine ML cheatsheet<br>
     </span>
 </div>
--->
-{%- assign sorted_records = site.data.math.math20200917 | sort: "category" -%}
+{%- endif -%}
 
-{%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
+{%- assign sorted_records         = site.data.math.math20200924 | sort: "category" -%}
+{%- assign grouped_sorted_records =              sorted_records | group_by: "category" -%}
 
 <!-- TABLE OF CONTENTS -->
+{%- if show_tags -%}
 
 <h2>Tags:</h2>
-
 <div class="textcard">
     <div style="column-count: 2;">
     {%- for tag in grouped_sorted_records -%}
@@ -58,6 +63,8 @@ tags: math
     </div>
 </div>
 <br><br>
+
+{%- endif -%}
 
 <!-- MAIN -->
 
@@ -71,36 +78,24 @@ tags: math
         <span id="{{group.name}}">
             <strong>{{group.name}}</strong>
 
-            <!--right-side links: 1) my tweets, 2) "home" navigation -->
+            {% if search_button %}
             <span style="float:right;">
-
-                <!--
                 <button>
-                    <a href="https://twitter.com/search?q=({{group.name}})%20(from%3Abrianpiercy)&src=typed_query" 
-                        target="_blank">
-                        My Tweets</a>
-                </button>
-            -->
-
-                <button>
-                <a href="https://duckduckgo.com?q={{group.name}} AND math | deeplearning | machinelearning | linearalgebra"
+                <a href="https://duckduckgo.com?q='{{group.name}}' AND 'deep learning' | 'machine learning' | 'linear algebra'"
                    target="_blank">
-                    Search by topic (DDG)</a>
+                    Search DuckDuckGo by topic</a>
                 </button>
             </span>
-        <br>
-    
+            <br>
+            {% endif %}
+
         <!-- bookmarks are grouped into "groups", and sorted by the title field. -->
 
-        <div class="textcard">
-            <div style="column-count:2;
-                        column-rule: 4px solid #c6d9ec;">
+            <div class="textcard">
+                <div style="column-count:2; column-rule: 4px solid #c6d9ec;">
 
                 {%- assign sorted_items = group.items | sort: "title" -%}
                 {%- for item in sorted_items -%}
-
-                    <!-- bookmark sources, if available, float to the right. -->
-
                     {%- if item.source -%}
                         <span style="float:right;">
                             <small><em> {{ item.source }} </em></small>
@@ -118,9 +113,9 @@ tags: math
                     {%- endif -%}
 
                 {%- endfor -%}
-            </div><br>
-        </div><br><br>
-        </span>
+                </div><br> <!-- end of column-count: 2 -->
+            </div><br><br> <!-- end of textcard -->
+        </span> <!-- end of group -->
     {%- endif -%}
 {%- endfor -%}
 <br>
