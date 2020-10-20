@@ -1,5 +1,11 @@
 ##########################
 
+- url: https://hbr.org/2020/10/the-surprising-upside-of-expensive-products-that-dont-sell
+  title: Surprising upsides to absurdly high pricing (HBR)
+  tags: pricing 
+  pic: 
+  notes: communicates expertise & prestige; props up other products; free publicity
+
 - url: https://www.websiteplanet.com/webtools/abtest-calculator/
   title: A/B test Calculator
   tags: analytics
@@ -3044,6 +3050,12 @@
 
 ##########################
 
+- url: https://medium.com/swlh/starting-a-physical-product-company-youre-gonna-need-a-lawyer-13b2eecebc9f
+  title: Starting a Physical Product Company? You'll Need a Lawyer (Medium)
+  tags: patents/trademarks/intellectual property
+  pic:
+  notes:
+    
 - url: https://www.innovation-asset.com/blog/the-4-main-types-of-intellectual-property-and-related-costs
   title: 4 Types of IP and Related Costs (Innovation-Asset.com)
   tags: patents/trademarks/intellectual property
@@ -3102,6 +3114,12 @@
 
 ##########################
 
+- url: https://medium.com/swlh/starting-a-physical-product-company-youre-gonna-need-a-lawyer-13b2eecebc9f
+  title: Starting a Physical Product Company? You'll Need a Lawyer (Medium)
+  tags: physical products
+  pic:
+  notes:
+    
 - url: https://www.theverge.com/2020/7/29/21324768/google-chromecast-reset-button-hardware-reliable
   title: Consider the Chromecast Reset Button
   tags: physical products
