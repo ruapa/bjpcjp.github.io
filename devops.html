@@ -1,222 +1,88 @@
 ---
+title: DevOps & Linux
 layout: page
-title: DevOps
-permalink: devops
 ---
 
-A random collection of Glossaries, Tools and Linux Command Line cheatsheets.<br>
-	
-<div style="column-count: 2;">
+{%- assign sorted_records = site.data.devops.roadmap | sort: "tags" -%}
 
-<! ---------------------------------------------------------------------->
+{%- assign grouped_sorted_records = sorted_records | group_by: "tags" -%}
 
-<div class="textcard">
-
-	<strong><a href="https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99">
-	linux CLI (dev.to/sorotkiewicz)</a></strong><br>
-		<strong>search for files & folders:</strong>&nbsp;
-			<code><small>grep -i -n -r 'Search string' /var/www/path/</small></code><br>
-		<strong>view web log:</strong>&nbsp; 
-			<code><small>tail -f /var/log/postgres/filename</small></code><br>
-		<strong>unpack tar file:</strong>&nbsp; 
-			<code><small>tar -xJfv file.tar.xz</small></code><br>
-		<strong>unpack tar file:</strong>&nbsp; 
-			<code><small>tar -xvf file.tar.bz2</small></code><br>
-		<strong>find & replace text in all files in a directory:</strong>&nbsp;
-			<code><small>find /var/log/ -type f -exec sed -i 's/str1/str2/g' {} \;</small></code><br>
-		<strong>remove all .gz from /var/log:</strong>&nbsp; 
-			<code><small>find /var/log/ -name "*.gz" -type f -delete</small></code><br>
-
-	<br>
-
-	<strong><a href="https://dev.to/tasinishmam/awesome-command-line-tools-to-boost-your-productivity-22n8">linux CLI (dev.to/tasinishmam)</a></strong><br>
-		
-	<strong>jump to frequent/recent directory:</strong>&nbsp;
-		<a href="https://github.com/rupa/z"><code>z.sh</code></a><br>
-
-	<strong>terminal window mux</strong>&nbsp;
-		<a href="https://github.com/tmux/tmux"><code>tmux</code></a><br>
-
-	<strong>code nat lang lookup</strong>&nbsp;
-		<a href="https://github.com/santinic/how2"><code>how2</code></a><br>
-
-	<strong>fuzzy text finder:</strong>&nbsp;
-		<a href="https://github.com/junegunn/fzf"><code>fzf</code></a><br>
-
-	<strong>simple man pages:</strong>&nbsp;
-		<a href="https://github.com/tldr-pages/tldr"><code>tldr</code></a><br>
-
-	<br>
-
-	<strong><a href="https://dev.to/zaiste/15-command-line-tools-to-make-you-better-at-shell-cli-35n6">linux CLI (dev.to/zaiste)</a><br>
-
-	<strong>cat clone:</strong>&nbsp;
-		<a href="https://github.com/sharkdp/bat"><code>bat</code></a><br>
-
-	<strong>a better ls:</strong>&nbsp;
-		<a href="https://github.com/ogham/exa"><code>exa</code></a><br>
-
-	<strong>a better find:</strong>&nbsp;
-		<a href="https://github.com/sharkdp/fd"><code>fd</code></a><br>
-
-	<strong>a better ps: </strong>(for processes):&nbsp;
-		<a href="https://github.com/dalance/procs"><code>procs</code></a><br>
-		
-	<strong>a better sed: </strong>&nbsp;
-		<a href="https://github.com/chmln/sd"><code>sd</code></a><br>
-
-	<strong>a better du (for disk usage):</strong>&nbsp;
-		<a href="https://github.com/bootandy/dust"><code>dust</code></a><br>
-
-	<strong>custom prompts:</strong>&nbsp;
-		<a href="https://starship.rs/guide/"><code>stardust</code></a><br>
-
-	<strong>a better grep:</strong>&nbsp;
-		<a href="https://github.com/BurntSushi/ripgrep"><code>ripgrep</code></a><br>
-
-	<strong>code stats:</strong>&nbsp;
-		<a href="https://github.com/XAMPPRocky/tokei"><code>tokei</code></a><br>
-
-	<strong>benchmarking:</strong>&nbsp;
-		<a href="https://github.com/sharkdp/hyperfine"><code>hyperfine</code></a><br>
-
-	<strong>a better top (for processes):</strong>&nbsp;
-		<a href="https://github.com/cjbassi/ytop"><code>ytop</code></a><br>
-
-	<br>
-	
-	<a href="https://www.tecmint.com/create-alias-in-linux/">alias command (tecmint)</a><br>
-
-	<a href="/pdfs/tools/linux-productivity-tools.pdf">linux tools (lisa19)</a><br>
-	
-	<a href="http://cb.vu/unixtoolbox.xhtml">The unix toolbox (cb.vu)</a><br>
-	
-	<a href="https://github.com/igorbarinov/awesome-data-engineering">awesome data engineering (github)</a><br>
-	
-	<a href="https://github.com/binhnguyennus/awesome-scalability">awesome scalability (github)</a><br>
-	
-	<a href="https://github.com/kahun/awesome-sysadmin">awesome sysadmin (github)</a><br>
-	
-	<a href="https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/">securing ubuntu (codelitt)</a><br>
-	
-	<a href="http://www.brendangregg.com/linuxperf.html">performance resources(brendan gregg)</a><br>
-	
-	<a href="https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1">lessons learned - 300K lines of infrastructure code (gruntwork)</a><br>
-	<a href="https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
-	">do-nothing scripts (danslimmon)</a><br>
-	<a href="https://hackernoon.com/the-2018-devops-roadmap-31588d8670cb">a devops roadmap (hacker noon)</a><br>
-	<a href="https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/">cloud capacity planning guide (increment)</a><br>
-	<a href="https://medium.com/unsplash/what-does-unsplash-cost-in-2019-f499620a14d0">unsplash costs, 2019 (unsplash)</a><br>
-	<a href="https://www.guru99.com/devops-tools.html">tools bestof (2020)</a><br>
-	<a href="http://aarvik.dk/four-linux-server-monitoring-and-management-tools/">4 linux server tools (aarvik.dk)</a><br>
-	<a href="http://sixrevisions.com/tools/free-server-monitoring-tools/">free server tools (six revisions)</a><br>
-	<a href="https://www.thecloud.coach/ansible-crash-course">ansible crash course</a><br>
-	<a href="http://jenkins.io/">jenkins</a><br>
-	<a href="https://www.vagrantup.com/intro/index.html">vagrant into</a><br>
-	<a href="/pdfs/devops/Vagrant-Up-and-Running-2016-v2.4.pdf">vagrant 2016</a><br>
-	<a href="https://www.virtualbox.org/wiki/Linux_Downloads">virtualbox</a><br>
-	<a href="https://dashboard.ngrok.com/get-started">ngrok</a><br>
-	<a href="https://github.com/bjpcjp/the-book-of-secret-knowledge">book of secret knowledge</a><br>
-</div>
-
-<! ---------------------------------------------------------------------->
+<!-- TABLE OF CONTENTS -->
 
 <div class="textcard">
-<strong id="bash">bash (shell)</strong><br>
-<a href="http://guide.bash.academy/">guide</a><br>
-<a href="https://devhints.io/bash">cheatsheet</a><br>
-<a href="https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je">101 commands</a><br>
-<a href="https://opensource.com/article/18/9/handy-bash-aliases">aliases</a><br>
-<!-- <a href="alias www='python -m SimpleHTTPServer 8000'">start webserver at 8000</a><br>-->
-<a href="http://guide.bash.academy/">academy</a><br>
-<a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html">beginners</a><br>
-<a href="https://github.com/jlevy/the-art-of-command-line">art of the cmnd line</a><br>
-<a href="http://www.coderholic.com/invaluable-command-line-tools-for-web-developers/">tools list</a><br>
-<a href="https://jvns.ca/blog/2017/03/26/bash-quirks/">quirks (jvns.ca)</a><br>
-<a href="https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/">10 things i wish had known</a><br>
-<a href="https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md">bash bible</a><br>
-<a href="https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k">intro</a><br>
-<a href="https://darrenburns.net/posts/tools">tools (darren burns)</a><br>
+    <div style="column-count: 4;">
+        <big><big><big>Tags:</big></big></big><br>
+    {%- for tag in grouped_sorted_records -%}
+        <span style="margin:0.5em;">
+            <a href="#{{tag.name}}">{{tag.name}}</a>
+        </span><br>
+    {%- endfor -%}
+    </div>
+</div>
+<br><br>
+
+<!-- MAIN -->
+
+{%- for group in grouped_sorted_records -%}
+    {%- if group.name != "" -%}
+
+        <!-- navigation points. -->
+
+        <span id="{{group.name}}">
+            {{group.name}}
+
+            <!--right-side links: 1) my tweets, 2) "home" navigation -->
+            <span style="float:right;">
+
+                <!--
+                <button>
+                    <a href="https://twitter.com/search?q=({{group.name}})%20(from%3Abrianpiercy)&src=typed_query" 
+                        target="_blank">
+                        My Tweets</a>
+                </button>
+                -->
+                
+                <button>
+                <a href="https://duckduckgo.com?q={{group.name}} AND math | deeplearning | machinelearning | linearalgebra | gpu "
+                   target="_blank">
+                    Search by topic (DDG)</a>
+                </button>
+            </span>
+        <br>
+    
+        <!-- bookmarks are grouped into "groups", and sorted by the title field. -->
+
+        <div class="textcard">
+            <div style="column-count:2;
+                        column-rule: 4px solid #c6d9ec;">
+
+                {%- assign sorted_items = group.items | sort: "title" -%}
+                {%- for item in sorted_items -%}
+
+                    <!-- bookmark sources, if available, float to the right. -->
+
+                    {%- if item.source -%}
+                        <span style="float:right;">
+                            <small><em> {{ item.source }} </em></small>
+                        </span>
+                    {%- endif -%}
+
+                    <a href="{{item.url}}">{{item.title}}</a><br>
+
+                    {%- if item.pic -%}
+                        <img src="{{ item.pic }}"><br>
+                    {%- endif -%}
+
+                    {%- if item.notes -%}
+                        <small><em> {{ item.notes }} </em></small><br>
+                    {%- endif -%}
+
+                {%- endfor -%}
+            </div><br>
+        </div><br><br>
+        </span>
+    {%- endif -%}
+{%- endfor -%}
+<br>
 </div>
 
-<div class="textcard">
-	<strong>topics & howtos</strong><br>
-	<a href="https://linuxjourney.com/lesson/boot-process-overview">bootup</a><br>
-	<a href="https://linuxjourney.com/lesson/dev-directory">devices</a><br>
-	<a href="https://linuxjourney.com/lesson/filesystem-hierarchy">file system</a><br>
-	<a href="https://linuxjourney.com/lesson/sysv-overview">init</a><br>
-	<a href="https://linuxjourney.com/lesson/kernel-overview">kernel overview</a><br>
-	<a href="https://linuxjourney.com/lesson/system-logging">logs</a><br>
-	<a href="https://linuxjourney.com/lesson/network-basics">networks - basics</a><br>
-	<a href="https://linuxjourney.com/lesson/network-interfaces">networks - config</a><br>
-	<a href="https://linuxjourney.com/lesson/what-is-dns">networks - dns</a><br>
-	<a href="https://linuxjourney.com/lesson/network-file-sharing">networks - file sharing</a><br>
-	<a href="https://linuxjourney.com/lesson/what-is-a-router">networks - routing</a><br>
-	<a href="https://linuxjourney.com/lesson/icmp">networks - troubleshooting</a><br>
-	<a href="https://linuxjourney.com/lesson/ipv4">networks - subnets</a><br>
-	<a href="https://linuxjourney.com/lesson/software-distribution">packages</a><br>
-	<a href="https://linuxjourney.com/lesson/file-permissions">permissions</a><br>
-	<a href="https://linuxjourney.com/lesson/monitor-processes-ps-command">processes</a>
-	<a href="https://linuxjourney.com/lesson/tracking-processes-top">resource monitoring</a><br>
-	<a href="https://sysdig.com/blog/fascinating-world-linux-system-calls/">linux system calls</a><br>
-	<a href="https://linuxjourney.com/lesson/users-and-groups">users & groups</a><br>
-</div>
-
-
-<div class="textcard">
-	<strong>My Linux cheatsheet</strong><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">awk (robert elder)</a><br>
-	<a href="https://ferd.ca/awk-in-20-minutes.html">awk (ferd.ca)</a><br>
-	<a href="https://github.com/bit-team/backintime">backups / back in time</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#certs">certificates</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">cat (concatenate)</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#cvs">cvs</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#databases">databases / pq, ms, sqlite</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">dbs / piping</a><br>
-	<a href="http://www.yolinux.com/TUTORIALS/LinuxTutorialPostgreSQL.html">dbs / postgres</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#dd">dd, du, df</a> (also see <a href="https://techtudor.blogspot.com/2018/09/dd-du-df-three-linux-commands-you.html">techtudor)</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#quota">disk quotas</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#crypt">encryption (files)</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#cryptpart">encryption (partitions)</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#filesystem">file system</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#find">find</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">grep</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">head, tail</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#software">install, remove</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#other">less</a><br>
-	<a href="https://catonmat.net/unix-utilities-lsof">lsof</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#other">mail</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#programming">make</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#convert">media conversions</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#misccmd">misc</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#network">networking</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">pipes ("|")</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#printing">printing</a><br> 
-	<a href="http://cb.vu/unixtoolbox.xhtml#processes">processes</a><br>
-	<a href="https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/">also: ps/htop (nixcraft)</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">redirects ("<",">")</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#rsync">rsync</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">sed</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">set ops</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#ssh">ssh, scp</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#shells">shells</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">sort</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#sudo">sudo</a> (also: <a href="https://linuxize.com/post/sudo-command-in-linux/">Linuxize</a>)<br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#svn">svn</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#sysinfo">system info</a><br>		
-	<a href="http://cb.vu/unixtoolbox.xhtml#screen">screen</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#scripting">scripting</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#tar">tar (tape archive)</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">tee</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">translate (tr)</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">tsort (topological sort)</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#other">vi</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#vpn">vpn w/ ssh</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">uniq</a><br>
-	<a href="http://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html">usr/bin</a><br>
-	<a href="https://blog.robertelder.org/data-science-linux-command-line/">wc</a><br>
-	<a href="http://cb.vu/unixtoolbox.xhtml#zip">zip / unzip</a><br>
-</div>
-
-
-</div>

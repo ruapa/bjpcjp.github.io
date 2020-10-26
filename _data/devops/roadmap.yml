@@ -1,0 +1,935 @@
+- url: https://www.iis.net/
+  title: IIS
+  tags: web servers
+  pic:
+  notes:
+
+- url: https://www.nginx.com/
+  title: nginx
+  tags: web servers
+  pic:
+  notes:
+
+- url: http://httpd.apache.org/
+  title: apache
+  tags: web servers
+  pic:
+  notes:
+
+- url: http://tomcat.apache.org/
+  title: tomcat
+  tags: web servers
+  pic:
+  notes:
+
+- url: https://caddyserver.com/
+  title: caddy
+  tags: web servers
+  pic:
+  notes:
+
+- url: https://docs.microsoft.com/en-us/azure/aks/servicemesh-istio-about
+  title: istio
+  tags: web servers
+  pic:
+  notes:
+
+- url: https://www.envoyproxy.io/
+  title: envoy
+  tags: web servers
+  pic:
+  notes: edge & service proxy
+
+- url: https://linkerd.io/
+  title: linkerd
+  tags: web servers
+  pic:
+  notes:
+
+- url: https://www.consul.io/
+  title: consul
+  tags: web servers
+  pic:
+  notes: by hashicorp
+
+- url: https://puma.io/
+  title: puma
+  tags: web servers
+  pic:
+  notes: for ruby & rack
+
+- url: https://prometheus.io/docs/introduction/overview/
+  title: prometheus
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://www.nagios.org/
+  title: nagios
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://grafana.com/
+  title: grafana
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://www.zabbix.com/
+  title: zabbix
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://www.monnit.com/
+  title: monnit
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://www.datadoghq.com/it-infrastructure-monitoring/
+  title: datadog
+  tags: monitoring/infrastructure
+  pic: 
+  notes:
+
+- url: https://www.jaegertracing.io/
+  title: jaeger
+  tags: monitoring/apps
+  pic:
+  notes:
+
+- url: https://newrelic.com/
+  title: new relic
+  tags: monitoring/apps
+  pic:
+  notes:
+
+- url: https://www.appdynamics.com/
+  title: appdynamics
+  tags: monitoring/apps
+  pic:
+  notes:
+
+- url: https://www.instana.com/
+  title: instana
+  tags: monitoring/apps
+  pic:
+  notes:
+
+- url: https://opentracing.io/
+  title: opentracing
+  tags: monitoring/apps
+  pic:
+  notes:
+
+- url: https://aws.amazon.com/
+  title: AWS
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://cloud.google.com/
+  title: Google Cloud
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://azure.microsoft.com/en-us/
+  title: Azure
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://www.heroku.com/
+  title: Heroku
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://www.alibabacloud.com/
+  title: Alibaba Cloud
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://www.digitalocean.com/
+  title: Digital Ocean
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://cloud.linode.com/
+  title: Linode
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://www.vultr.com/
+  title: Vultr
+  tags: cloud providers
+  pic:
+  notes:
+
+- url: https://www.elastic.co/elastic-stack
+  title: elastic stack
+  tags: log mgmt
+  pic:
+  notes:
+
+- url: https://www.graylog.org/
+  title: graylog
+  tags: log mgmt
+  pic:
+  notes:
+
+- url: https://www.splunk.com/
+  title: splunk
+  tags: log mgmt
+  pic:
+  notes:
+
+- url: https://www.papertrail.com/
+  title: papertrail
+  tags: log mgmt
+  pic:
+  notes:
+
+- url: https://docs.gitlab.com/ee/ci/
+  title: gitlab CI
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://github.com/features/actions
+  title: github actions
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://www.atlassian.com/software/bamboo
+  title: bamboo (atlassian)
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-azure-vms
+  title: azure ci
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://www.jenkins.io/
+  title: jenkins
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://travis-ci.org/
+  title: travis CI
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://www.jetbrains.com/teamcity/
+  title: teamcity (jetbrains)
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://circleci.com/
+  title: circle CI
+  tags: ci/cd
+  pic:
+  notes:
+
+- url: https://www.docker.com/
+  title: docker
+  tags: containers
+  pic:
+  notes:
+
+- url: https://linuxcontainers.org/
+  title: lxc
+  tags: containers
+  pic:
+  notes:
+
+- url: https://www.ansible.com/
+  title: ansible
+  tags: configuration
+  pic:
+  notes:
+
+- url: https://www.chef.io/
+  title: chef
+  tags: configuration
+  pic:
+  notes:
+
+- url: https://saltstackfordevops.com/
+  title: saltstack
+  tags: configuration
+  pic:
+  notes:
+
+- url: https://puppet.com/devops/
+  title: puppet
+  tags: configuration
+  pic:
+  notes:
+
+- url: https://kubernetes.io/
+  title: kubernetes
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://docs.docker.com/engine/swarm/
+  title: docker swarm
+  tags: orchestration
+  pic:
+  notes:
+
+- url: http://mesos.apache.org/
+  title: mesos (apache)
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://digital.ai/technology/nomad
+  title: nomad
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://www.terraform.io/
+  title: terraform
+  tags: provisioning
+  pic:
+  notes:
+
+- url: https://aws.amazon.com/cloudformation/
+  title: cloudformation (AWS)
+  tags: provisioning
+  pic:
+  notes:
+
+- url: https://www.pulumi.com/
+  title: pulumi
+  tags: provisioning
+  pic:
+  notes:
+
+- url: https://tech.slashdot.org/story/20/10/15/2111233/canonical-introduces-high-availability-micro-kubernetes
+  title: kubernetes HA
+  tags: orchestration
+  pic:
+  notes: high-availability
+
+- url: https://microk8s.io/
+  title: kubernetes MicroK8s
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://www.hashicorp.com/blog/announcing-waypoint
+  title: waypoint (hashicorp)
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://kubernetes.io/docs/setup/learning-environment/minikube/
+  title: minikube
+  tags: orchestration
+  pic:
+  notes:
+
+- url: https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/
+  title: kubernetes - my first cluster setup
+  tags: orchestration
+  pic:
+  notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
+
+  title: bash academy
+- url:  http://guide.bash.academy/ 
+  tags: bash
+
+  title: guide 
+- url:  https://devhints.io/bash 
+  tags: bash
+
+  title: cheatsheet 
+- url:  https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je 
+  tags: bash
+
+  title: 101 commands 
+- url:  https://opensource.com/article/18/9/handy-bash-aliases 
+  tags: bash
+
+- url:  http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html 
+  title: beginners guide
+  tags: bash
+
+- url:  https://github.com/jlevy/the-art-of-command-line 
+  title: art of the cmnd line 
+  tags: bash
+
+- url:  http://www.coderholic.com/invaluable-command-line-tools-for-web-developers/ 
+  title: tools list 
+  tags: bash
+
+- url:  https://jvns.ca/blog/2017/03/26/bash-quirks/ 
+  title: quirks (jvns.ca) 
+  tags: bash
+
+- url:  https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ 
+  title: 10 things i wish had known 
+  tags: bash
+
+- url:  https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md 
+  title: bash bible 
+  tags: bash
+
+- url:  https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k 
+  title: shell intro 
+  tags: bash
+
+- url:  https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99 
+  title: essentials
+  source: dev.to/sorotkiewicz
+  tags: linux CLI 
+
+- url:  https://dev.to/tasinishmam/awesome-command-line-tools-to-boost-your-productivity-22n8 
+  title: essentials
+  source: dev.to/tasinishmam
+  tags: linux CLI 
+
+- url:  https://github.com/rupa/z 
+  title: z.sh (jump to path)
+  tags: linux CLI 
+
+- url:  https://github.com/tmux/tmux 
+  title: tmux (term window)
+  tags: linux CLI 
+
+- url:  https://github.com/santinic/how2 
+  title: how2 (nat lang lookup)
+  tags: linux CLI 
+
+- url:  https://github.com/junegunn/fzf 
+  title: fzf (fuzzy text finder)
+  tags: linux CLI 
+
+- url:  https://github.com/tldr-pages/tldr 
+  title: tldr (simple man pages)
+  tags: linux CLI 
+
+- url:  https://dev.to/zaiste/15-command-line-tools-to-make-you-better-at-shell-cli-35n6 
+  title: 15 essentials
+  source: dev.to/zaiste
+  tags: linux CLI 
+
+- url:  https://github.com/sharkdp/bat 
+  title: bat (cat clone)
+  tags: linux CLI 
+  source: https://github.com/sharkdp
+
+- url:  https://github.com/ogham/exa 
+  title: exa (improved ls)
+  tags: linux CLI 
+
+- url:  https://github.com/sharkdp/fd 
+  title: fd (improved find)
+  tags: linux CLI 
+
+- url:  https://github.com/dalance/procs 
+  title: procs (improved ps)
+  tags: linux CLI 
+
+- url:  https://github.com/chmln/sd 
+  title: sd (improved sed)
+  tags: linux CLI 
+
+- url:  https://github.com/bootandy/dust 
+  title: dust (improved du - disk usage)
+  tags: linux CLI 
+
+- url:  https://starship.rs/guide/ 
+  title: stardust (better prompts)
+  tags: linux CLI 
+
+- url:  https://github.com/BurntSushi/ripgrep 
+  title: ripgrep (improved grep)
+  tags: linux CLI 
+
+- url:  https://github.com/XAMPPRocky/tokei 
+  title: tokei (code stats)
+  tags: linux CLI 
+
+- url:  https://github.com/sharkdp/hyperfine 
+  title: hyperfine (benchmarking)
+  tags: linux CLI 
+
+- url:  https://github.com/cjbassi/ytop 
+  title: ytop (top for processes)
+  tags: linux CLI 
+
+- url:  https://www.tecmint.com/create-alias-in-linux/ 
+  title: alias
+  tags: linux CLI 
+  source: tecmint
+ 
+- url:  /pdfs/tools/linux-productivity-tools.pdf 
+  title: tools (lisa19) 
+  tags: linux CLI 
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml 
+  title: The unix toolbox (cb.vu) 
+  tags: linux CLI 
+ 
+- url:  https://github.com/igorbarinov/awesome-data-engineering 
+  title: awesome data engineering (github) 
+  tags: best practices
+ 
+- url:  https://github.com/binhnguyennus/awesome-scalability 
+  title: awesome scalability (github)
+  tags: best practices
+ 
+- url:  https://github.com/kahun/awesome-sysadmin 
+  title: awesome sysadmin (github) 
+  tags: best practices
+ 
+- url:  https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/ 
+  title: securing ubuntu (codelitt) 
+  source: codelitt
+  tags: security 
+
+- url:  http://www.brendangregg.com/linuxperf.html 
+  title: resources
+  source: brendan gregg
+  tags: performance
+
+- url:  https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1 
+  title: lessons learned - 300K lines of infrastructure code (gruntwork) 
+  tags: best practices
+ 
+- url:  https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
+  title: do-nothing scripts
+  source: danslimmon
+  tags: best practices
+ 
+- url:  https://hackernoon.com/the-2018-devops-roadmap-31588d8670cb 
+  title: a devops roadmap (hacker noon) 
+  tags: best practices
+ 
+- url:  https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ 
+  title: cloud capacity planning guide (increment) 
+  tags: best practices
+ 
+- url:  https://medium.com/unsplash/what-does-unsplash-cost-in-2019-f499620a14d0 
+  title: unsplash costs, 2019 (unsplash) 
+  tags: financials 
+
+- url:  https://www.guru99.com/devops-tools.html 
+  title: tools bestof (2020) 
+  tags: tools
+ 
+- url:  https://www.thecloud.coach/ansible-crash-course 
+  title: ansible crash course 
+  tags: configuration
+ 
+- url:  http://jenkins.io/ 
+  title: jenkins 
+  tags: ci/cd
+ 
+- url:  https://www.vagrantup.com/intro/index.html 
+  title: vagrant 
+  tags: configuration
+ 
+- url:  /pdfs/devops/Vagrant-Up-and-Running-2016-v2.4.pdf 
+  title: vagrant 2016 
+  tags: configuration
+ 
+- url:  https://www.virtualbox.org/wiki/Linux_Downloads 
+  title: virtualbox 
+  tags: virtualization
+ 
+- url:  https://dashboard.ngrok.com/get-started 
+  title: ngrok (localhost URL tunnel)
+  tags: tools
+ 
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#cli-tools-toc
+  title: clis
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#gui-tools-toc
+  title: guis
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#web-tools-toc
+  title: web 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#networks-toc
+  title: networking 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#systemsservices-toc
+  title: tools/system services 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#manualshowtostutorials-toc 
+  title: manuals, howtos, tutorials 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#one-liners-toc
+  title: one-liners 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#shell-functions-toc
+  title: shell functions 
+  tags: tools 
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#blogs-toc 
+  title: blogs 
+  tags: resources
+
+- url: https://github.com/bjpcjp/the-book-of-secret-knowledge#hackingpenetration-testing-toc 
+  title: hacking & penetration testing 
+  tags: resources   
+- url:  https://darrenburns.net/posts/tools 
+  title: tools (darren burns) 
+  tags: tools
+
+- url:  https://linuxjourney.com/lesson/boot-process-overview 
+  title: bootup 
+  tags: tutorial
+
+- url:  https://linuxjourney.com/lesson/dev-directory 
+  title: devices 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/filesystem-hierarchy 
+  title: file system 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/sysv-overview 
+  title: init 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/kernel-overview 
+  title: kernel overview 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/system-logging 
+  title: logs 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/network-basics 
+  title: networks - basics 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/network-interfaces 
+  title: networks - config 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/what-is-dns 
+  title: networks - dns 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/network-file-sharing 
+  title: networks - file sharing 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/what-is-a-router 
+  title: networks - routing 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/icmp 
+  title: networks - troubleshooting 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/ipv4 
+  title: networks - subnets 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/software-distribution 
+  title: packages 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/file-permissions 
+  title: permissions 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/monitor-processes-ps-command 
+  title: processes 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/tracking-processes-top 
+  title: resource monitoring 
+  tags: tutorial
+ 
+- url:  https://sysdig.com/blog/fascinating-world-linux-system-calls/ 
+  title: linux system calls 
+  tags: tutorial
+ 
+- url:  https://linuxjourney.com/lesson/users-and-groups 
+  title: users & groups 
+  tags: tutorial
+
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: awk (robert elder) 
+  tags: awk
+ 
+- url:  https://ferd.ca/awk-in-20-minutes.html 
+  title: awk (ferd.ca) 
+  tags: awk
+  
+- url:  https://github.com/bit-team/backintime 
+  title: backups / back in time 
+  tags: backups
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#certs 
+  title: certificates 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: cat (concatenate) 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#cvs 
+  title: cvs 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#databases 
+  title: databases / pq, ms, sqlite 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: dbs / piping 
+  tags: linux CLI
+ 
+- url:  http://www.yolinux.com/TUTORIALS/LinuxTutorialPostgreSQL.html 
+  title: dbs / postgres 
+  tags: linux CLI
+ 
+- url:  https://techtudor.blogspot.com/2018/09/dd-du-df-three-linux-commands-you.html 
+  title: dd, du, df (disk tools)
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#quota 
+  title: disk quotas 
+  tags: linux CLI
+  source: cb.vu
+
+- url:  http://cb.vu/unixtoolbox.xhtml#crypt 
+  title: crypt
+  tags: encryption
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#cryptpart 
+  title: cryptpart
+  tags: encryption (partitions) 
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#filesystem 
+  title: disk info
+  tags: linux CLI
+  notes: permissions, disk info, boot, mount/remount, open files, images
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#find 
+  title: find 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: grep 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: head, tail 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#software 
+  title: install, remove 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#other 
+  title: less 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://catonmat.net/unix-utilities-lsof 
+  title: lsof 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#other 
+  title: mail 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#programming 
+  title: make 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#convert 
+  title: media conversions 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#misccmd 
+  title: misc 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#network 
+  title: networking 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: pipes ("|") 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#printing 
+  title: printing  
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#processes 
+  title: processes 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/ 
+  title: ps/htop (nixcraft) 
+  tags: linux CLI
+
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: redirects ("<") 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#rsync 
+  title: rsync 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: sed 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: set ops 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#ssh 
+  title: ssh, scp 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#shells 
+  title: shells 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: sort 
+  tags: linux CLI
+  source: robertelder
+
+- url:  http://cb.vu/unixtoolbox.xhtml#sudo 
+  title: sudo
+  tags: linux CLI
+
+- url:  https://linuxize.com/post/sudo-command-in-linux/ 
+  title: sudo
+  tags: linux CLI
+  source: linuxize 
+  
+- url:  http://cb.vu/unixtoolbox.xhtml#svn 
+  title: svn 
+  tags: linux CLI
+  source: cb.vu
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#sysinfo 
+  title: system info    
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#screen 
+  title: screen 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#scripting 
+  title: scripting 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#tar 
+  title: tar (tape archive) 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: tee 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: translate (tr) 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: tsort (topological sort) 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#other 
+  title: vi 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#vpn 
+  title: vpn w/ ssh 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: uniq 
+  tags: linux CLI
+ 
+- url:  http://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html 
+  title: usr/bin 
+  tags: linux CLI
+ 
+- url:  https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: wc 
+  tags: linux CLI
+ 
+- url:  http://cb.vu/unixtoolbox.xhtml#zip 
+  title: zip / unzip 
+  tags: linux CLI
+
+- url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
+  title: iotop
+  tags: monitoring
+  pic:
+  notes:
+
+- url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
+  title: htop
+  tags: monitoring
+  pic:
+  notes:
+        
+- url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
+  title: apachetop
+  tags: monitoring
+  pic:
+  notes:
+
+- url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
+  title: glances
+  tags: monitoring
+  pic:
+  notes:
+        

@@ -1,0 +1,425 @@
+  url: https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99 
+  title: linux CLI (dev.to/sorotkiewicz) 
+
+  url: https://dev.to/tasinishmam/awesome-command-line-tools-to-boost-your-productivity-22n8 
+  title: linux CLI (dev.to/tasinishmam) 
+
+  url: https://github.com/rupa/z 
+  title: z.sh (jump to path)
+
+
+  url: https://github.com/tmux/tmux 
+  title: tmux (term window)
+
+  url: https://github.com/santinic/how2 
+  title: how2 (nat lang lookup)
+
+  url: https://github.com/junegunn/fzf 
+  title: fzf (fuzzy text finder)
+
+  url: https://github.com/tldr-pages/tldr 
+  title: tldr (simple man pages)
+
+  url: https://dev.to/zaiste/15-command-line-tools-to-make-you-better-at-shell-cli-35n6 
+  title: linux CLI (dev.to/zaiste) 
+
+  url: https://github.com/sharkdp/bat 
+  title: bat (cat clone)
+
+
+  url: https://github.com/ogham/exa 
+  title: exa (improved ls)
+
+  url: https://github.com/sharkdp/fd 
+  title: fd (improved find)
+
+  url: https://github.com/dalance/procs 
+  title: procs (improved ps)
+
+  url: https://github.com/chmln/sd 
+  title: sd (improved sed)
+
+  url: https://github.com/bootandy/dust 
+  title: dust (improved du - disk usage)
+
+  url: https://starship.rs/guide/ 
+  title: stardust (better prompts)
+
+  url: https://github.com/BurntSushi/ripgrep 
+  title: ripgrep (improved grep)
+
+  url: https://github.com/XAMPPRocky/tokei 
+  title: tokei (code stats)
+
+  url: https://github.com/sharkdp/hyperfine 
+  title: hyperfine (benchmarking)
+
+  url: https://github.com/cjbassi/ytop 
+  title: ytop (top for processes)
+
+  url: https://www.tecmint.com/create-alias-in-linux/ 
+  title: alias command (tecmint) 
+ 
+  url: /pdfs/tools/linux-productivity-tools.pdf 
+  title: linux tools (lisa19) 
+ 
+  url: http://cb.vu/unixtoolbox.xhtml 
+  title: The unix toolbox (cb.vu) 
+ 
+  url: https://github.com/igorbarinov/awesome-data-engineering 
+  title: awesome data engineering (github) 
+ 
+  url: https://github.com/binhnguyennus/awesome-scalability 
+  title: awesome scalability (github) 
+ 
+  url: https://github.com/kahun/awesome-sysadmin 
+  title: awesome sysadmin (github) 
+ 
+  url: https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/ 
+  title: securing ubuntu (codelitt) 
+ 
+  url: http://www.brendangregg.com/linuxperf.html 
+  title: performance resources(brendan gregg) 
+ 
+  url: https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1 
+  title: lessons learned - 300K lines of infrastructure code (gruntwork) 
+ 
+  url: https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
+  title: do-nothing scripts (danslimmon) 
+ 
+  url: https://hackernoon.com/the-2018-devops-roadmap-31588d8670cb 
+  title: a devops roadmap (hacker noon) 
+ 
+  url: https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ 
+  title: cloud capacity planning guide (increment) 
+ 
+  url: https://medium.com/unsplash/what-does-unsplash-cost-in-2019-f499620a14d0 
+  title: unsplash costs, 2019 (unsplash) 
+ 
+  url: https://www.guru99.com/devops-tools.html 
+  title: tools bestof (2020) 
+ 
+  url: http://aarvik.dk/four-linux-server-monitoring-and-management-tools/ 
+  title: 4 linux server tools (aarvik.dk) 
+ 
+  url: http://sixrevisions.com/tools/free-server-monitoring-tools/ 
+  title: free server tools (six revisions) 
+ 
+  url: https://www.thecloud.coach/ansible-crash-course 
+  title: ansible crash course 
+ 
+  url: http://jenkins.io/ 
+  title: jenkins 
+ 
+  url: https://www.vagrantup.com/intro/index.html 
+  title: vagrant into 
+ 
+  url: /pdfs/devops/Vagrant-Up-and-Running-2016-v2.4.pdf 
+  title: vagrant 2016 
+ 
+  url: https://www.virtualbox.org/wiki/Linux_Downloads 
+  title: virtualbox 
+ 
+  url: https://dashboard.ngrok.com/get-started 
+  title: ngrok 
+ 
+  url: https://github.com/bjpcjp/the-book-of-secret-knowledge 
+  title: book of secret knowledge 
+  tags: resources
+
+  url: https://darrenburns.net/posts/tools 
+  title: tools (darren burns) 
+
+
+  url: https://linuxjourney.com/lesson/boot-process-overview 
+  title: bootup 
+  tags: how-tos
+
+  url: https://linuxjourney.com/lesson/dev-directory 
+  title: devices 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/filesystem-hierarchy 
+  title: file system 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/sysv-overview 
+  title: init 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/kernel-overview 
+  title: kernel overview 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/system-logging 
+  title: logs 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/network-basics 
+  title: networks - basics 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/network-interfaces 
+  title: networks - config 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/what-is-dns 
+  title: networks - dns 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/network-file-sharing 
+  title: networks - file sharing 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/what-is-a-router 
+  title: networks - routing 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/icmp 
+  title: networks - troubleshooting 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/ipv4 
+  title: networks - subnets 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/software-distribution 
+  title: packages 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/file-permissions 
+  title: permissions 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/monitor-processes-ps-command 
+  title: processes 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/tracking-processes-top 
+  title: resource monitoring 
+  tags: how-tos
+ 
+  url: https://sysdig.com/blog/fascinating-world-linux-system-calls/ 
+  title: linux system calls 
+  tags: how-tos
+ 
+  url: https://linuxjourney.com/lesson/users-and-groups 
+  title: users & groups 
+  tags: how-tos
+
+
+
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: awk (robert elder) 
+  tags:	My Linux cheatsheet
+ 
+  url: https://ferd.ca/awk-in-20-minutes.html 
+  title: awk (ferd.ca) 
+  tags:	My Linux cheatsheet
+  
+  url: https://github.com/bit-team/backintime 
+  title: backups / back in time 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#certs 
+  title: certificates 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: cat (concatenate) 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#cvs 
+  title: cvs 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#databases 
+  title: databases / pq, ms, sqlite 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: dbs / piping 
+  tags:	My Linux cheatsheet
+ 
+  url: http://www.yolinux.com/TUTORIALS/LinuxTutorialPostgreSQL.html 
+  title: dbs / postgres 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#dd 
+  title: dd, du, df  (also see 
+  tags:	My Linux cheatsheet
+ 
+  url: https://techtudor.blogspot.com/2018/09/dd-du-df-three-linux-commands-you.html 
+  title: techtudor) 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#quota 
+  title: disk quotas 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#crypt 
+  title: encryption (files) 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#cryptpart 
+  title: encryption (partitions) 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#filesystem 
+  title: file system 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#find 
+  title: find 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: grep 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: head, tail 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#software 
+  title: install, remove 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#other 
+  title: less 
+  tags:	My Linux cheatsheet
+ 
+  url: https://catonmat.net/unix-utilities-lsof 
+  title: lsof 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#other 
+  title: mail 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#programming 
+  title: make 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#convert 
+  title: media conversions 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#misccmd 
+  title: misc 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#network 
+  title: networking 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: pipes ("|") 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#printing 
+  title: printing  
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#processes 
+  title: processes 
+  tags:	My Linux cheatsheet
+ 
+  url: https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/ 
+  title: ps/htop (nixcraft) 
+  tags:	My Linux cheatsheet
+
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: redirects ("<") 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#rsync 
+  title: rsync 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: sed 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: set ops 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#ssh 
+  title: ssh, scp 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#shells 
+  title: shells 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: sort 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#sudo 
+  title: sudo
+  tags:	My Linux cheatsheet
+
+  url: https://linuxize.com/post/sudo-command-in-linux/ 
+  title: Linuxize
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#svn 
+  title: svn 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#sysinfo 
+  title: system info 		
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#screen 
+  title: screen 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#scripting 
+  title: scripting 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#tar 
+  title: tar (tape archive) 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: tee 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: translate (tr) 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: tsort (topological sort) 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#other 
+  title: vi 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#vpn 
+  title: vpn w/ ssh 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: uniq 
+  tags:	My Linux cheatsheet
+ 
+  url: http://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html 
+  title: usr/bin 
+  tags:	My Linux cheatsheet
+ 
+  url: https://blog.robertelder.org/data-science-linux-command-line/ 
+  title: wc 
+  tags:	My Linux cheatsheet
+ 
+  url: http://cb.vu/unixtoolbox.xhtml#zip 
+  title: zip / unzip 
+  tags:	My Linux cheatsheet
+
+
+
