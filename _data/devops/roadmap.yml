@@ -352,49 +352,64 @@
   pic:
   notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
 
-  title: bash academy
 - url:  http://guide.bash.academy/ 
+  title: bash academy
   tags: bash
 
-  title: guide 
 - url:  https://devhints.io/bash 
+  title: scripts cheatsheet 
   tags: bash
+  source: devhints
 
-  title: cheatsheet 
 - url:  https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je 
+  title: 101 commnds & tips 
   tags: bash
+  source: dev.to
 
-  title: 101 commands 
-- url:  https://opensource.com/article/18/9/handy-bash-aliases 
+- url: https://opensource.com/article/18/9/handy-bash-aliases 
+  title: bash aliases
   tags: bash
+  source: opensource
 
 - url:  http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html 
   title: beginners guide
   tags: bash
+  source: Machtelt Garrels
+  notes: intro, scripts, envt, regexes, sed, awk, conditionals,
+          interactive, repetition, vars, functions, signals
 
 - url:  https://github.com/jlevy/the-art-of-command-line 
   title: art of the cmnd line 
   tags: bash
+  notes: meta, basics, everyday usage, files & data, debugging,
+         one-liners, obscure, macOS, windows, resources
 
 - url:  http://www.coderholic.com/invaluable-command-line-tools-for-web-developers/ 
-  title: tools list 
-  tags: bash
+  title: various cmndline tools 
+  tags: linux CLI 
+  notes: curl, siege, ngrep
 
 - url:  https://jvns.ca/blog/2017/03/26/bash-quirks/ 
-  title: quirks (jvns.ca) 
+  title: quirks 
   tags: bash
+  source: jvns.ca
 
 - url:  https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ 
   title: 10 things i wish had known 
   tags: bash
+  source: zwischenzugs
 
 - url:  https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md 
-  title: bash bible 
+  title: bash bible (ebook)
   tags: bash
+  source: dylanaraps
+  notes: strings, arrays, loops, files, vars, escape seqs, param expansion,
+          brace expansion, conditionals, math ops, traps, speed, internals, more
 
 - url:  https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k 
   title: shell intro 
   tags: bash
+  source: dev.to/maxwell_dev
 
 - url:  https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99 
   title: essentials
@@ -680,12 +695,16 @@
   tags: tutorial
 
 - url:  https://blog.robertelder.org/data-science-linux-command-line/ 
-  title: awk (robert elder) 
-  tags: awk
+  title: command line 
+  tags: linux CLI
+  source: robert elder
+  notes: grep, sed, awk, sort, comm, uniq, tr, cat, head, tail,
+          wc, find, tsort, tee, ">","<" (redirect), db pipes
  
 - url:  https://ferd.ca/awk-in-20-minutes.html 
-  title: awk (ferd.ca) 
+  title: awk in 20 minutes 
   tags: awk
+  source: ferd.ca
   
 - url:  https://github.com/bit-team/backintime 
   title: backups / back in time 
@@ -932,4 +951,8 @@
   tags: monitoring
   pic:
   notes:
-        
+       
+- url: https://devhints.io/curl
+  title: curl cheatsheet
+  tags: linux CLI 
+  source: devhints 
