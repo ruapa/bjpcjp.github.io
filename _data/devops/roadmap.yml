@@ -351,6 +351,7 @@
   tags: orchestration
   pic:
   notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
+  source: circleci
 
 - url:  http://guide.bash.academy/ 
   title: bash academy
@@ -517,7 +518,7 @@
   tags: best practices
  
 - url:  https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/ 
-  title: securing ubuntu (codelitt) 
+  title: securing ubuntu
   source: codelitt
   tags: security 
 
@@ -956,3 +957,89 @@
   title: curl cheatsheet
   tags: linux CLI 
   source: devhints 
+
+- url: https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
+  title: openssh server security - best practices
+  tags: web servers 
+  source: nixcraft
+
+- url: https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
+  title: openssh server security - best practices
+  tags: security 
+  source: nixcraft
+
+- url: https://www.youtube.com/playlist?list=PL2We04F3Y_43dAehLMT5GxJhtk3mJtkl5
+  title: kubernetes for beginners
+  tags: orchestration
+  source: youtube
+
+- url: https://medium.com/swlh/how-to-use-docker-images-containers-and-dockerfiles-39e4e8fc181a
+  title: docker for beginners 
+  tags: containers
+  source: medium
+
+- url: https://caylent.com/50-useful-kubernetes-tools-for-2020
+  title: kubernetes toolbox (2020)
+  tags: orchestration
+  source: caylent 
+
+- url: https://www.nakivo.com/blog/use-virtualbox-quick-overview/
+  title: virtualbox tutorial 
+  tags: virtualization
+  source: nakivo
+
+- url: https://www.digitalocean.com/docs/app-platform/
+  title: Digital Ocean apps platform 
+  tags: cloud providers 
+  source: 
+
+- url: https://thenewstack.io/do-i-really-need-kubernetes/
+  title: kubernetes - do i need it?
+  tags: orchestration
+  source: thenewstack
+
+- url: https://learn.hashicorp.com/collections/vagrant/getting-started
+  title: vagrant - getting started 
+  tags: configuration
+  source: hashicorp
+
+- url: https://www.nginx.com/resources/glossary/glossary/
+  title: devops glossary
+  tags: resources
+  source: nginx
+
+- url: https://www.sumologic.com/glossary/#A
+  title: devops glossary
+  tags: resources
+  source: sumologic
+
+- url: https://www.nginx.com/resources/glossary/reverse-proxy-server/
+  title: reverse proxy servers
+  tags: web servers
+  source: nginx
+
+- url: https://devopsunlocked.com/kubernetes-curated-list-of-tools-and-resources/
+  title: kubernetes tools & resources 
+  tags: orchestration
+  source: devopsunlocked
+
+- url: https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb
+  title: MERN stack - heroku, netlify 
+  tags: cloud providers
+  source: dev.to
+
+- url: https://labs.hamy.xyz/posts/i-moved-to-netlify-from-gke-and-saved-60-per-month/
+  title: Google Kubernetes Engine to Netlify 
+  tags: best practices
+  source: labs.hamy.xyz 
+
+- url: https://www.codespot.org/how-to-build-a-blog-with-gatsby-and-netlify/
+  title: gatsby blog on netlify 
+  tags: cloud providers
+  source: codespot 
+
+- url: https://docs.netlify.com/
+  title: netlify quick start 
+  tags: cloud providers
+  source: netlify 
+  
