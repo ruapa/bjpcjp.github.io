@@ -60,67 +60,67 @@
 
 - url: https://prometheus.io/docs/introduction/overview/
   title: prometheus
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://www.nagios.org/
   title: nagios
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://grafana.com/
   title: grafana
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://www.zabbix.com/
   title: zabbix
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://www.monnit.com/
   title: monnit
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://www.datadoghq.com/it-infrastructure-monitoring/
   title: datadog
-  tags: monitoring/infrastructure
+  tags: tools
   pic: 
   notes:
 
 - url: https://www.jaegertracing.io/
   title: jaeger
-  tags: monitoring/apps
+  tags: tools
   pic:
   notes:
 
 - url: https://newrelic.com/
   title: new relic
-  tags: monitoring/apps
+  tags: tools
   pic:
   notes:
 
 - url: https://www.appdynamics.com/
   title: appdynamics
-  tags: monitoring/apps
+  tags: tools
   pic:
   notes:
 
 - url: https://www.instana.com/
   title: instana
-  tags: monitoring/apps
+  tags: tools
   pic:
   notes:
 
 - url: https://opentracing.io/
   title: opentracing
-  tags: monitoring/apps
+  tags: tools
   pic:
   notes:
 
@@ -174,181 +174,181 @@
 
 - url: https://www.elastic.co/elastic-stack
   title: elastic stack
-  tags: log mgmt
+  tags: tools
   pic:
   notes:
 
 - url: https://www.graylog.org/
   title: graylog
-  tags: log mgmt
+  tags: tools
   pic:
   notes:
 
 - url: https://www.splunk.com/
   title: splunk
-  tags: log mgmt
+  tags: tools
   pic:
   notes:
 
 - url: https://www.papertrail.com/
   title: papertrail
-  tags: log mgmt
+  tags: tools
   pic:
   notes:
 
 - url: https://docs.gitlab.com/ee/ci/
   title: gitlab CI
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://github.com/features/actions
   title: github actions
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://www.atlassian.com/software/bamboo
-  title: bamboo (atlassian)
-  tags: ci/cd
+  title: bamboo
+  tags: tools
   pic:
-  notes:
+  source: atlassian
 
 - url: https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-azure-vms
   title: azure ci
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://www.jenkins.io/
   title: jenkins
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://travis-ci.org/
   title: travis CI
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://www.jetbrains.com/teamcity/
   title: teamcity (jetbrains)
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://circleci.com/
   title: circle CI
-  tags: ci/cd
+  tags: tools
   pic:
   notes:
 
 - url: https://www.docker.com/
   title: docker
-  tags: containers
+  tags: tools
   pic:
   notes:
 
 - url: https://linuxcontainers.org/
   title: lxc
-  tags: containers
-  pic:
-  notes:
+  tags: tools
+  source: linuxcontainers
+  notes: 
 
 - url: https://www.ansible.com/
   title: ansible
-  tags: configuration
+  tags: tools
   pic:
   notes:
 
 - url: https://www.chef.io/
   title: chef
-  tags: configuration
+  tags: tools
   pic:
   notes:
 
 - url: https://saltstackfordevops.com/
   title: saltstack
-  tags: configuration
+  tags: tools
   pic:
   notes:
 
 - url: https://puppet.com/devops/
   title: puppet
-  tags: configuration
+  tags: tools
   pic:
   notes:
 
 - url: https://kubernetes.io/
   title: kubernetes
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: https://docs.docker.com/engine/swarm/
   title: docker swarm
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: http://mesos.apache.org/
-  title: mesos (apache)
-  tags: orchestration
-  pic:
+  title: mesos
+  tags: tools
+  source: apache
   notes:
 
 - url: https://digital.ai/technology/nomad
   title: nomad
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: https://www.terraform.io/
   title: terraform
-  tags: provisioning
+  tags: tools
   pic:
   notes:
 
 - url: https://aws.amazon.com/cloudformation/
-  title: cloudformation (AWS)
-  tags: provisioning
-  pic:
+  title: cloudformation
+  tags: tools
+  source: AWS
   notes:
 
 - url: https://www.pulumi.com/
   title: pulumi
-  tags: provisioning
+  tags: tools
   pic:
   notes:
 
 - url: https://tech.slashdot.org/story/20/10/15/2111233/canonical-introduces-high-availability-micro-kubernetes
   title: kubernetes HA
-  tags: orchestration
+  tags: tools
   pic:
   notes: high-availability
 
 - url: https://microk8s.io/
   title: kubernetes MicroK8s
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: https://www.hashicorp.com/blog/announcing-waypoint
   title: waypoint (hashicorp)
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: https://kubernetes.io/docs/setup/learning-environment/minikube/
   title: minikube
-  tags: orchestration
+  tags: tools
   pic:
   notes:
 
 - url: https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/
   title: kubernetes - my first cluster setup
-  tags: orchestration
+  tags: tools
   pic:
   notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
   source: circleci
@@ -491,6 +491,7 @@
 - url:  https://github.com/cjbassi/ytop 
   title: ytop (top for processes)
   tags: linux CLI 
+  source: github
 
 - url:  https://www.tecmint.com/create-alias-in-linux/ 
   title: alias
@@ -498,38 +499,44 @@
   source: tecmint
  
 - url:  /pdfs/tools/linux-productivity-tools.pdf 
-  title: tools (lisa19) 
+  title: tools
   tags: linux CLI 
+  source: lisa19
  
 - url:  http://cb.vu/unixtoolbox.xhtml 
-  title: The unix toolbox (cb.vu) 
+  title: The unix toolbox
   tags: linux CLI 
+  source: cb.vu
  
 - url:  https://github.com/igorbarinov/awesome-data-engineering 
-  title: awesome data engineering (github) 
+  title: awesome data engineering
   tags: best practices
+  source: github
  
 - url:  https://github.com/binhnguyennus/awesome-scalability 
-  title: awesome scalability (github)
+  title: awesome scalability
   tags: best practices
+  source: github
  
 - url:  https://github.com/kahun/awesome-sysadmin 
-  title: awesome sysadmin (github) 
+  title: awesome sysadmin
   tags: best practices
+  source: github
  
 - url:  https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/ 
-  title: securing ubuntu
+  title: ubuntu security
   source: codelitt
-  tags: security 
+  tags: best practices
 
 - url:  http://www.brendangregg.com/linuxperf.html 
-  title: resources
+  title: performance tips
   source: brendan gregg
-  tags: performance
+  tags: resources
 
 - url:  https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1 
-  title: lessons learned - 300K lines of infrastructure code (gruntwork) 
+  title: lessons learned - 300K lines of code
   tags: best practices
+  source: gruntwork
  
 - url:  https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
   title: do-nothing scripts
@@ -537,36 +544,74 @@
   tags: best practices
  
 - url:  https://hackernoon.com/the-2018-devops-roadmap-31588d8670cb 
-  title: a devops roadmap (hacker noon) 
+  title: a devops roadmap
   tags: best practices
+  source: hackernoon
  
 - url:  https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ 
-  title: cloud capacity planning guide (increment) 
+  title: cloud capacity planning guide
   tags: best practices
+  source: increment
  
-- url:  https://medium.com/unsplash/what-does-unsplash-cost-in-2019-f499620a14d0 
-  title: unsplash costs, 2019 (unsplash) 
-  tags: financials 
+#- url:  https://medium.com/unsplash/what-does-unsplash-cost-in-2019-f499620a14d0 
+#  title: unsplash costs, 2019 (unsplash) 
+#  tags: financials 
 
 - url:  https://www.guru99.com/devops-tools.html 
-  title: tools bestof (2020) 
+  title: tools (2020) 
   tags: tools
+  source: guru99
+  notes: 
+    <a href="https://bit.ly/2ZPA0uA">QuerySurge</a>,&nbsp;
+    <a href="https://bit.ly/322WJ7R">Basis Tech</a>,&nbsp;
+    <a href="https://bit.ly/37piZhJ">Amixr</a>,&nbsp;
+    <a href="https://www.solarwinds.com/patch-manager?a_aid=BIZ-TXT-GURU99">Patch Mgr</a>,&nbsp;
+    <a href="http://jenkins.io/">Jenkins</a>,&nbsp;
+    <a href="https://www.vagrantup.com/">Vagrant</a>,&nbsp;
+    <a href="https://www.pagerduty.com/">PagerDuty</a>,&nbsp;
+    <a href="https://prometheus.io/">Prometheus</a>,&nbsp;
+    <a href="http://ganglia.info/">Ganglia</a>,&nbsp;
+    <a href="https://www.snort.org/">Snort</a>,&nbsp;
+    <a href="https://www.splunk.com/">Splunk</a>,&nbsp;
+    <a href="https://www.nagios.org/">Nagios</a>,&nbsp;
+    <a href="https://www.chef.io/chef/">Chef</a>,&nbsp;
+    <a href="https://www.sumologic.com/">SumoLogic</a>,&nbsp;
+    <a href="https://www.overops.com/">OperOps</a>,&nbsp;
+    <a href="https://www.consul.io/">Consul</a>,&nbsp;
+    <a href="https://www.docker.com/">Docker</a>,&nbsp;
+    <a href="https://stackify.com/">Stackify Retrace</a>,&nbsp;
+    <a href="https://cfengine.com/"CF Engine</a>,&nbsp;
+    <a href="https://www.jfrog.com/artifactory/">Artifactory</a>,&nbsp;
+    <a href="http://capistranorb.com/">Capistrano</a>,&nbsp;
+    <a href="https://mmonit.com/">Monit</a>,&nbsp;
+    <a href="http://supervisord.org/">Supervisor</a>,&nbsp;
+    <a href="https://www.ansible.com/">Ansible</a>,&nbsp;
+    <a href="https://codeclimate.com/">Code Climate</a>,&nbsp;
+    <a href="https://www.icinga.com/">Icinga</a>,&nbsp;
+    <a href="https://newrelic.com/application-monitoring">New Relic</a>,&nbsp;
+    <a href="https://jujucharms.com/">Juju</a>,&nbsp;
+    <a href="https://xebialabs.com/technology/productionmap/">Production Map</a>,&nbsp;
+    <a href="https://www.scalyr.com/">Scalyr</a>,&nbsp;
+    <a href="https://www.rudder.io/">Rudder</a>,&nbsp;
+    <a href="https://puppet.com/">Puppet</a>,&nbsp;
+    <a href="https://www.graylog.org/">Graylog</a>,&nbsp;
+    <a href="https://www.upguard.com/">UpGuard</a>,&nbsp;
  
 - url:  https://www.thecloud.coach/ansible-crash-course 
   title: ansible crash course 
-  tags: configuration
+  tags: tools
  
 - url:  http://jenkins.io/ 
   title: jenkins 
-  tags: ci/cd
+  tags: tools
  
 - url:  https://www.vagrantup.com/intro/index.html 
   title: vagrant 
-  tags: configuration
+  tags: tools
  
 - url:  /pdfs/devops/Vagrant-Up-and-Running-2016-v2.4.pdf 
   title: vagrant 2016 
-  tags: configuration
+  tags: tools
  
 - url:  https://www.virtualbox.org/wiki/Linux_Downloads 
   title: virtualbox 
@@ -577,123 +622,149 @@
   tags: tools
  
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#cli-tools-toc
-  title: clis
+  title: command line interfaces
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#gui-tools-toc
   title: guis
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#web-tools-toc
-  title: web 
+  title: web tools
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#networks-toc
-  title: networking 
+  title: networking tools
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#systemsservices-toc
   title: tools/system services 
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#manualshowtostutorials-toc 
   title: manuals, howtos, tutorials 
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#one-liners-toc
   title: one-liners 
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#shell-functions-toc
   title: shell functions 
   tags: tools 
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#blogs-toc 
   title: blogs 
   tags: resources
+  source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#hackingpenetration-testing-toc 
   title: hacking & penetration testing 
   tags: resources   
-- url:  https://darrenburns.net/posts/tools 
-  title: tools (darren burns) 
-  tags: tools
+  source: book of secret knowledge
 
 - url:  https://linuxjourney.com/lesson/boot-process-overview 
   title: bootup 
   tags: tutorial
+  source: linuxjourney
 
 - url:  https://linuxjourney.com/lesson/dev-directory 
   title: devices 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/filesystem-hierarchy 
   title: file system 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/sysv-overview 
   title: init 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/kernel-overview 
   title: kernel overview 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/system-logging 
   title: logs 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-basics 
   title: networks - basics 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-interfaces 
   title: networks - config 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/what-is-dns 
   title: networks - dns 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-file-sharing 
   title: networks - file sharing 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/what-is-a-router 
   title: networks - routing 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/icmp 
   title: networks - troubleshooting 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/ipv4 
   title: networks - subnets 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/software-distribution 
   title: packages 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/file-permissions 
   title: permissions 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/monitor-processes-ps-command 
   title: processes 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/tracking-processes-top 
   title: resource monitoring 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://sysdig.com/blog/fascinating-world-linux-system-calls/ 
   title: linux system calls 
   tags: tutorial
+  source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/users-and-groups 
   title: users & groups 
   tags: tutorial
+  source: linuxjourney
 
 - url:  https://blog.robertelder.org/data-science-linux-command-line/ 
   title: command line 
@@ -708,24 +779,28 @@
   source: ferd.ca
   
 - url:  https://github.com/bit-team/backintime 
-  title: backups / back in time 
-  tags: backups
+  title: back in time 
+  tags: tools
  
 - url:  http://cb.vu/unixtoolbox.xhtml#certs 
   title: certificates 
   tags: linux CLI
+  source: cb.vu
  
 - url:  https://blog.robertelder.org/data-science-linux-command-line/ 
   title: cat (concatenate) 
   tags: linux CLI
+  source: robert elder
  
 - url:  http://cb.vu/unixtoolbox.xhtml#cvs 
   title: cvs 
   tags: linux CLI
+  source: cb.vu
  
 - url:  http://cb.vu/unixtoolbox.xhtml#databases 
   title: databases / pq, ms, sqlite 
   tags: linux CLI
+  source: cb.vu
  
 - url:  https://blog.robertelder.org/data-science-linux-command-line/ 
   title: dbs / piping 
@@ -746,12 +821,12 @@
 
 - url:  http://cb.vu/unixtoolbox.xhtml#crypt 
   title: crypt
-  tags: encryption
+  tags: tools
   source: cb.vu
  
 - url:  http://cb.vu/unixtoolbox.xhtml#cryptpart 
   title: cryptpart
-  tags: encryption (partitions) 
+  tags: tools
   source: cb.vu
  
 - url:  http://cb.vu/unixtoolbox.xhtml#filesystem 
@@ -931,25 +1006,25 @@
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: iotop
-  tags: monitoring
+  tags: tools
   pic:
   notes:
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: htop
-  tags: monitoring
+  tags: tools
   pic:
   notes:
         
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: apachetop
-  tags: monitoring
+  tags: tools
   pic:
   notes:
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: glances
-  tags: monitoring
+  tags: tools
   pic:
   notes:
        
@@ -959,28 +1034,23 @@
   source: devhints 
 
 - url: https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
-  title: openssh server security - best practices
-  tags: web servers 
-  source: nixcraft
-
-- url: https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html
-  title: openssh server security - best practices
-  tags: security 
+  title: openssh server security tips
+  tags: best practices
   source: nixcraft
 
 - url: https://www.youtube.com/playlist?list=PL2We04F3Y_43dAehLMT5GxJhtk3mJtkl5
   title: kubernetes for beginners
-  tags: orchestration
+  tags: tools
   source: youtube
 
 - url: https://medium.com/swlh/how-to-use-docker-images-containers-and-dockerfiles-39e4e8fc181a
   title: docker for beginners 
-  tags: containers
+  tags: tools
   source: medium
 
 - url: https://caylent.com/50-useful-kubernetes-tools-for-2020
   title: kubernetes toolbox (2020)
-  tags: orchestration
+  tags: tools
   source: caylent 
 
 - url: https://www.nakivo.com/blog/use-virtualbox-quick-overview/
@@ -995,12 +1065,12 @@
 
 - url: https://thenewstack.io/do-i-really-need-kubernetes/
   title: kubernetes - do i need it?
-  tags: orchestration
+  tags: tools
   source: thenewstack
 
 - url: https://learn.hashicorp.com/collections/vagrant/getting-started
   title: vagrant - getting started 
-  tags: configuration
+  tags: tools
   source: hashicorp
 
 - url: https://www.nginx.com/resources/glossary/glossary/
@@ -1020,7 +1090,7 @@
 
 - url: https://devopsunlocked.com/kubernetes-curated-list-of-tools-and-resources/
   title: kubernetes tools & resources 
-  tags: orchestration
+  tags: tools
   source: devopsunlocked
 
 - url: https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb
@@ -1043,3 +1113,12 @@
   tags: cloud providers
   source: netlify 
   
+- url: https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+  title: kvm
+  tags: virtualization
+  source: wikipedia
+
+- url: /pdfs/devops/linux-commands-handbook.pdf
+  title: linux commands handbook (pdf)
+  tags: linux CLI 
+  source: flaviocopes
