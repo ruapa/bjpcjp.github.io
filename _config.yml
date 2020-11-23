@@ -7,7 +7,7 @@ description: ""
 email: bjpcjp@gmail.com
 author: Brian Piercy
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bjpcjp.github.io"
+url: "https://ruapa.github.io"
 
 # Build settings
 markdown: kramdown
