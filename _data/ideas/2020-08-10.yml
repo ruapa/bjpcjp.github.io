@@ -177,7 +177,6 @@
 
 - title: Hacker News clone
   subdir: hn-clone
-  why: (maybe) a better wrapper over bjpcjp.github.io
   demo: 
   notes:
 

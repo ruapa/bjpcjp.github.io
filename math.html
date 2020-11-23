@@ -5,10 +5,15 @@ tags: math
 ---
 
 <div class="textcard-white">
-    <p>Note: under construction.</p>
+    <p>This page is a rough glossary of techniques covering basic math (ex: linear algebar),
+    machine learning, and deep learning techniques. It is under construction, and probably will
+    be for quite some time while I find an optimal grouping for hundreds of inter-related bookmarks.
+    <br>
+    (So... thanks for your patience.)</p>
+    
 </div>
 {%- assign show_sources = false -%}
-{%- assign show_tags    = false -%}
+{%- assign show_tags    = true -%}
 {%- assign search_button = false -%}
 {%- assign show_group_detail = false -%}
 
@@ -54,13 +59,13 @@ tags: math
 
 <h2>Tags:</h2>
 <div class="textcard">
-    <div style="column-count: 2;">
+    <!-- <div style="column-count: 2;"> -->
     {%- for tag in grouped_sorted_records -%}
-        <span style="margin:0.5em;">
+        <span style="padding:0.75em;">
             <a href="#{{tag.name}}">{{tag.name}}</a>
-        </span><br>
+        </span><!-- <br> -->
     {%- endfor -%}
-    </div>
+    <!-- </div> -->
 </div>
 <br><br>
 

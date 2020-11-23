@@ -1,5 +1,9 @@
 ##########################
 
+- url: https://neilpatel.com/blog/dropshipping-tools
+  title: 11 drop-shipping tools (Neil Patel)
+  tags: drop-shipping
+
 - url: https://hbr.org/2020/10/the-surprising-upside-of-expensive-products-that-dont-sell
   title: Surprising upsides to absurdly high pricing (HBR)
   tags: pricing 
@@ -2639,9 +2643,13 @@
 
 ##########################
 
+- url: https://www.nfx.com/post/15th-network-effect-tribal/
+  title: Tribal Network Effects (nfx 15th)
+  tags: network effects 
+  
 - url: https://www.nfx.com/post/network-effects-manual
   title: The Network Effects Manual (NFX)
-  tags: platforms
+  tags: network effects
 
 - url: https://medium.com/point-nine-news/10-marketplace-monetisation-strategies-7d2371afd7d5
   title: 10 Marketplace Monetization Strategies (Medium)
@@ -3238,7 +3246,7 @@
 
 - url: https://www.nfx.com/post/the-network-effects-map-nfx-case-study-uber
   title: Network Effects - and Uber (NfX)
-  tags: platforms
+  tags: network effects
 
 - url: https://a16z.com/2019/05/09/data-network-effects-moats/
   title: The Empty Promise of Data Moats (A16Z)
@@ -3350,11 +3358,11 @@
 
 - url: https://www.nfx.com/post/19-marketplace-tactics-for-overcoming-the-chicken-or-egg-problem
   title: 19 Methods to Crack the Chicken & Egg Problem (NFX)
-  tags: platforms
+  tags: network effects
 
 - url: https://medium.com/@adambreckler/how-we-crack-the-chicken-and-the-egg-problem-eee25db9734c#.ghm8zkf03
   title: How to Crack the Chicken & Egg Problem (Adam Breckler)
-  tags: platforms
+  tags: network effects
 
 - url: https://www.gwern.net/Complement#2
   title: Commoditize Your Complement (Gwern.net)

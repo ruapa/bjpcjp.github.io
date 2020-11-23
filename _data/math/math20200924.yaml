@@ -222,13 +222,13 @@
 
 - title: clustering
   parent: tbd
-  category: machine learning
+  category: clustering
   url: pdfs/math/clustering-FDS.pdf
   source: FDS
 
 - title: dimensionality
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: pdfs/math/dimensionality-FDS.pdf
   source: FDS
 
@@ -244,11 +244,16 @@
   url: pdfs/math/machine-learning-intro-FDS.pdf
   source: FDS
 
-- title: other
+- title: other topics
   parent: tbd
-  category: tbd
+  category: other
   url: pdfs/math/other-FDS.pdf
   source: FDS
+  notes: ranking & social choice,
+          compressed sensing & sparse vectors,
+          applications, uncertainty, gradients, 
+          linear programming, integer optimization, 
+          semi-definite programming
 
 - title: random graphs
   parent: tbd
@@ -293,21 +298,15 @@
   url: pdfs/math/basis-expansions-regularization-ESL.pdf
   source: ESL
 
-- title: boosting & additive trees
-  parent: tbd
-  category: machine learning
-  url: pdfs/math/boosting-additive-trees-ESL.pdf
-  source: ESL
-
 - title: dimensionality
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: pdfs/math/dimensionality-ESL.pdf
   source: ESL
 
 - title: ensembles
   parent: tbd
-  category: machine learning
+  category: ensembles
   url: pdfs/math/ensembles-ESL.pdf
   source: ESL
 
@@ -325,7 +324,7 @@
 
 - title: linear regression
   parent: tbd
-  category: machine learning
+  category: regressions
   url: pdfs/math/linear-regression-ESL.pdf
   source: ESL
 
@@ -335,7 +334,7 @@
   url: pdfs/math/model-assessment-ESL.pdf
   source: ESL
 
-- title: model inference averaging
+- title: inference averaging
   parent: tbd
   category: machine learning
   url: pdfs/math/model-inference-averaging-ESL.pdf
@@ -355,7 +354,7 @@
 
 - title: random forests
   parent: tbd
-  category: machine learning
+  category: random forests
   url: pdfs/math/random-forests-ESL.pdf
   source: ESL
 
@@ -476,7 +475,7 @@
 
 - title: discrete generative models
   parent: DL
-  category: deep learning architectures
+  category: gans
   url: pdfs/math/generative-models-discrete-SM.pdf
   source: SM
 
@@ -494,7 +493,7 @@
 
 - title: linear regressions
   parent: tbd
-  category: machine learning
+  category: regressions
   url: pdfs/math/linear-regression-SM.pdf
   source: SM
 
@@ -649,13 +648,6 @@
   url: pdfs/math/convergence-PSC.pdf
   source: PSC
 
-- title: decision theory
-  parent: tbd
-  category: other
-  url: pdfs/math/decision-theory-PSC.pdf
-  source: PSC
-  notes: definitions, loss functions, risk defs, admissability, bayes rule, minimax rules
-
 - title: multivariate
   parent: tbd
   category: distributions
@@ -684,7 +676,7 @@
 
 - title: linear regression
   parent: tbd
-  category: machine learning
+  category: regressions
   url: pdfs/math/linear-regression-PSC.pdf
   source: PSC
 
@@ -893,7 +885,7 @@
 
 - title: clustering
   parent: tbd
-  category: machine learning
+  category: clustering
   url: pdfs/math/clustering-DMMD.pdf
   source: DMMD
 
@@ -905,7 +897,7 @@
 
 - title: dimensionality
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: pdfs/math/dimensionality-reduction-DMMD.pdf
   source: DMMD
 
@@ -953,7 +945,7 @@
 
 - title: autoencoders - intro
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: pdfs/math/autoencoders-DLgoodfellow.pdf
   source: DLG
 
@@ -971,7 +963,7 @@
 
 - title: deep generative models
   parent: DL
-  category: deep learning architectures
+  category: gans
   url: pdfs/math/deep-generative-models-DLgoodfellow.pdf
   source: DLG
 
@@ -1079,7 +1071,7 @@
 
 - title: cross validation
   parent: tbd
-  category: machine learning
+  category: cross validation
   url: pdfs/math/cross-validation-CSI.pdf
   source: CSI
 
@@ -1129,13 +1121,13 @@
 
 - title: random forests & boosting
   parent: tbd
-  category: machine learning
+  category: random forests
   url: pdfs/math/random-forests-boosting-CSI.pdf
   source: CSI
 
 - title: ridge regression
   parent: tbd
-  category: machine learning
+  category: regressions
   url: pdfs/math/regression-ridge-CSI.pdf
   source: CSI
 
@@ -1157,9 +1149,9 @@
   url: pdfs/math/support-vector-machines-kernels-CSI.pdf
   source: CSI
 
-- title: survival analysis & expectation maximization
+- title: SA & expectation maximization
   parent: tbd
-  category: machine learning
+  category: survival analysis
   url: pdfs/math/survival-analysis-expection-maximization-CSI.pdf
   source: CSI
 
@@ -1684,7 +1676,7 @@
 
 - title: autoencoders - intro
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   pic: /px/math/autoencoders.png 
   parent: DL
   category: deep learning architectures
@@ -1693,60 +1685,60 @@
 
 - title: autoencoders - intro
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: https://hackernoon.com/autoencoders-deep-learning-bits-1-11731e200694#.ezkhdfu4m
   source: hackernoon
 
 - title: autoencoders - denoising
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf
   source: jmlr 
 
 - title: autoencoders - denoising
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://deeplearning.net/tutorial/dA.html#daa
   source: deeplearning.net 
 
 - title: autoencoders - stacked
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://deeplearning.net/tutorial/SdA.html#sda
   source: deeplearning.net 
 
 - title: autoencoders - contractive
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/cA.py
   source: github/lisa 
 
 - title: autoencoders - variational
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://arxiv.org/abs/1312.6114
   source: arxiv 
 
 - title: autoencoders - variational
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
   source: jaan.io 
 
 - title: autoencoders - sequence
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://arxiv.org/abs/1511.01432
 
 - title: autoencoders - variational, discrete
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: https://arxiv.org/abs/1609.02200
   source: arxiv 
 
 - title:  autoencoders - variational, conditional
   parent: DL
-  category: deep learning architectures
+  category: autoencoders
   url: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
   source: ijdykeman
 
@@ -1797,7 +1789,7 @@
 - title: linear regression
   url: http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge
   parent: tbd
-  category: machine learning
+  category: regressions
   source: scikit 
 
 - title: benchmarks
@@ -2058,43 +2050,43 @@
  
 - title: bloom filters - age-partitioned
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://arxiv.org/abs/2001.03147
   source: arxiv 
 
 - title: bloom filters tutorial
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://bdupras.github.io/filter-tutorial/
   source: bdupras
 
 - title: bloom filters demo
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://code.tutsplus.com/articles/understanding-the-magic-of-bloom-filters-with-nodejs-redis--cms-25397
   source: tutsplus
 
 - title: bloom filters
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://github.com/m00dy/BloomFilter
   source: github/m00dy 
 
 - title: bloom filters
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://llimllib.github.io/bloomfilter-tutorial/
   source: llimllib.github
 
 - title: bloom filters
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://sacert.github.io/Bloom-Filter/
   source: sacert.github
 
 - title: bloom filters
   parent: tbd
-  category: data structures
+  category: bloom filters
   url: https://www.jasondavies.com/bloomfilter/
   source: jasondavies
 
@@ -2145,20 +2137,20 @@
 
 - title: category theory - 7 sketches
   parent: tbd
-  category: machine learning
+  category: category theory
   pic: /px/math/category-theory-applied.png 
   url: https://arxiv.org/abs/1803.05316
   source: arxiv 
 
 - title: category theory intro
   parent: tbd
-  category: machine learning
+  category: category theory
   url: http://chalkdustmagazine.com/features/an-invitation-to-category-theory/
   source: chalkdustmagazine
 
 - title: category theory - beyond one-hot-encoding
   parent: tbd
-  category: machine learning
+  category: category theory
   url: https://opendatascience.com/blog/beyond-one-hot-an-exploration-of-categorical-variables-2/
   source: ODS 
 
@@ -2519,7 +2511,7 @@
 
 - title: cross validation
   parent: tbd
-  category: machine learning
+  category: cross validation
   url: http://scikit-learn.org/stable/modules/cross_validation.html
   source: scikit
  
@@ -2614,51 +2606,51 @@
 
 - title: biclustering
   parent: tbd
-  category: machine learning
+  category: biclustering
   url: http://scikit-learn.org/stable/modules/biclustering.html#biclustering | http://scikit-learn.org/stable/modules/classes.html#module-sklearn.cluster.bicluster
   source: scikit
 
 - title: spectral co-clustering
   parent: tbd
-  category: machine learning
+  category: biclustering 
   url: http://scikit-learn.org/stable/modules/biclustering.html#spectral-co-clustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralCoclustering.html#sklearn.cluster.bicluster.SpectralCoclustering
   source: scikit
  
 - title: spectral co-clustering demo
   parent: tbd
-  category: 
+  category: biclustering 
   url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_coclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-coclustering-py
   source: scikit
  
 - title: biclustering newsgroups
   parent: tbd
-  category: machine learning
+  category: biclustering 
   url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_bicluster_newsgroups.html#sphx-glr-auto-examples-bicluster-plot-bicluster-newsgroups-py
   source: scikit
  
 - title: spectral biclustering
   parent: tbd
-  category: machine learning
+  category: biclustering
   url: http://scikit-learn.org/stable/modules/biclustering.html#spectral-biclustering | http://scikit-learn.org/stable/modules/generated/sklearn.cluster.bicluster.SpectralBiclustering.html#sklearn.cluster.bicluster.SpectralBiclustering
   source: scikit
  
 - title: spectral biclustering demo
   parent: tbd
-  category: machine learning
+  category: biclustering
   url: http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html#sphx-glr-auto-examples-bicluster-plot-spectral-biclustering-py
   source: scikit
  
 - title: biclustering metrics
   parent: tbd
-  category: machine learning
+  category: biclustering
   url: http://scikit-learn.org/stable/modules/biclustering.html#biclustering-evaluation
   source: scikit
 
-- title: central limit theorem (jeannicholashould)
+- title: central limit theorem
   parent: tbd
   category: probability, statistics
   url: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html
- 
+  source: jeannicholasshould
 - title: central limit theorem (atomicobjecta)
   parent: tbd
   category: probability, statistics
@@ -2786,13 +2778,13 @@
 
 - title: covariance plots
   parent: tbd
-  category: machine learning
+  category: covariance
   url: http://scikit-learn.org/stable/auto_examples/plot_cv_predict.html#sphx-glr-auto-examples-plot-cv-predict-py
   source: scikit 
 
 - title: cross validation
   parent: tbd
-  category: machine learning
+  category: cross validation
   url: /pdfs/math/cross-validation-CSI.pdf
   source: CSI
 
@@ -2997,19 +2989,19 @@ representatin, approx shortest paths, searching & o(log n) time"
 
 - title: decision tree algorithms - ID3, Cx, CART
   parent: tbd
-  category: machine learning
+  category: decision trees
   url: https://www.datasciencecentral.com/profiles/blogs/the-complete-guide-to-decision-trees
   source: DSC 
 
 - title: decision trees archive
   parent: tbd
-  category: machine learning
+  category: decision trees
   url: https://www.kdnuggets.com/?s=decision+tree
   source: kdnuggets
 
 - title: decision tree theory
   parent: tbd
-  category: machine learning
+  category: decision trees
   url: https://opendatascience.com/blog/why-do-decision-trees-work/
   source: ODS
 
@@ -3021,55 +3013,55 @@ representatin, approx shortest paths, searching & o(log n) time"
 
 - title:  decision trees - birth weights (R)
   parent: tbd
-  category: machine learning
+  category: decision trees
   url: https://www.r-bloggers.com/using-decision-trees-to-predict-infant-birth-weights/
   source: r-bloggers
 
 - title:  decision tree models
   parent: tbd
-  category: machine learning
+  category: decision trees
   url: https://sadanand-singh.github.io/posts/treebasedmodels/#.WXT8Kli2pUw.hackernews
   source: sadanand-singh
 
-- title: signal decomposition - dictionary learning
+- title: dictionary learning
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#dictionary-learning
   source: scikit 
 
-- title: signal decomposition - generic
+- title: generic
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#generic-dictionary-learning
   source: scikit 
 
-- title: signal decomposition - sparse coding
+- title: sparse coding
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#sparse-coding-with-a-precomputed-dictionary
   source: scikit 
  
-- title: signal decomposition - factor analysis
+- title: factor analysis
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#factor-analysis 
   source: scikit 
  
-- title: signal decomposition - ICA
+- title: ICA
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#independent-component-analysis-ica
   source: scikit 
  
-- title: signal decomposition - latent dirichlet allocation
+- title: latent dirichlet allocation
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: http://scikit-learn.org/stable/modules/decomposition.html#latent-dirichlet-allocation-lda
   source: scikit 
 
 - title: topic extraction with NNMF & LDA
   parent: tbd
-  category: machine learning
+  category: signal decomposition
   url: https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html
   source: scikit 
 
@@ -3243,27 +3235,28 @@ representatin, approx shortest paths, searching & o(log n) time"
  
 - title: density estimation
   parent: tbd
-  category: machine learning 
+  category: density estimation
   url: https://flowingdata.com/2018/12/27/kernel-density-estimation-explainer/
   source: flowingdata 
 
 - title: density estimation
   parent: tbd
-  category: machine learning 
+  category: density estimation
   url: http://scikit-learn.org/stable/modules/density.html
   source: scikit 
 
 - title: density estimation - histograms
   parent: tbd
-  category: machine learning 
+  category: density estimation
   url: http://scikit-learn.org/stable/modules/density.html#density-estimation-histograms
   source: scikit 
 
 - title: density estimation - KDE 
   parent: tbd
-  category: machine learning
+  category: density estimation
   url: http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation
- 
+  source: scikit 
+
 - title: depth estimation
   parent: DL
   category: machine vision
@@ -3345,7 +3338,7 @@ double pendulum"
 
 - title: dimensionality explained
   parent: tbd
-  category: machine learning
+  category: dimensionality
   pic: /px/math/dimensions.png  
   url: http://enhancedatascience.com/2017/07/31/machine-learning-explained-dimensionality-reduction/
   source: enhancedatascience
@@ -3358,39 +3351,39 @@ double pendulum"
 
 - title: dimensionality
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: /pdfs/math/dimensionality-ESL.pdf
   source: ESL 
 
 - title: dimensionality
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: /pdfs/math/dimensionality-FDS.pdf
   source: FDS
 
 - title:  dimensionality reduction 
   parent: tbd
-  category: machine learning
+  category: dimensionality reduction
   url: https://elitedatascience.com/dimensionality-reduction-algorithms
   source: elitedatascience
   notes: PCA, LDA, ICA, AEs, t-SNE
 
 - title: dimensionality reduction
   parent: tbd
-  category: machine learning
+  category: dimensionality reduction
   url: https://intoli.com/blog/pca-and-svd/
   source: intoli
   notes: PCA, SVD 
 
 - title: dimensionality reduction - intro
   parent: tbd
-  category: machine learning
+  category: dimensionality reduction
   url: /pdfs/math/dimensionality-reduction-DMMD.pdf
   source: DMMD 
 
-- title: curse of dimensionality
+- title: dimensionality, curse of
   parent: tbd
-  category: machine learning
+  category: dimensionality
   url: https://www.datasciencecentral.com/profiles/blogs/about-the-curse-of-dimensionality
   source: DSC 
 
@@ -3402,13 +3395,13 @@ double pendulum"
 
 - title: text distance metrics
   parent: tbd
-  category: machine learning
+  category: distances & metrics
   url: https://activewizards.com/blog/comparison-of-the-text-distance-metrics/
   source: activewizards
 
 - title: cosine distance
   parent: tbd
-  category: machine learning
+  category: distances & metrics
   url: http://www.benfrederickson.com/distance-metrics/
   source: benfrederickson
 
@@ -3418,21 +3411,24 @@ double pendulum"
   url: /pdfs/math/divide-conquer-ITA.pdf
   source: ITA 
 
-- title: original (hinton)
+- title: dropout original concept
   parent: tbd
-  category: dropout
+  category: deep learning blocks
   url: https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf
+  source: toronto.edu
  
-- title: medium
+- title: dropout
   parent: DL
-  category: dropout
+  category: deep learning blocks
   url: https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5
- 
+  source: medium 
+
 - title: targeted dropout
   parent: DL
-  category: dropout
+  category: deep learning blocks
   pic: /px/math/targeted-dropout.png 
   url: https://for.ai/blog/targeted-dropout/
+  source: for.ai
 
 - title: dsstne benchmarks
   parent: DL
@@ -3750,11 +3746,6 @@ double pendulum"
   notes: market baskets, a-priori, limited-pass algos, counting items in a stream
   source: DMMD
 
-- title: PSC
-  parent: tbd
-  category: function estimation
-  url: /pdfs/math/function-estimation-non-parametric-PSC.pdf
-
 - title: PwC
   parent: tbd
   category: game theory
@@ -3762,7 +3753,7 @@ double pendulum"
   notes: "video, atari, realtime strategy, board, fps, card games, go, chess, poker, shogi, safe exploration"
 
 - title: 2019 overview
-  parent: tbd
+  parent: DL
   category: gans
   url: https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-explainer-ai-machine-learning/
  
@@ -3776,25 +3767,29 @@ double pendulum"
   category: gans
   url: https://sigmoidal.io/beginners-review-of-gan-architectures/
  
-- title: intro (towards ds)
+- title: intro
   parent: tbd
   category: gans
   url: https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31
+  source: TDS
  
-- title: intro (statsbot)
+- title: intro
   parent: tbd
   category: gans
   url: https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47
+  source: statsbot
  
-- title: intro (oreilly)
+- title: intro
   parent: tbd
   category: gans
   url: https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks
+  source: oreilly
  
-- title: intro (DIDL)
+- title: intro
   parent: tbd
   category: gans
   url: /pdfs/math/gans-dive.pdf
+  source: DIDL
  
 - title: extreme compression
   parent: tbd
@@ -3863,34 +3858,31 @@ double pendulum"
   category: nlp
   url: https://spandan-madan.github.io/DeepLearningProject/
 
-- title: high-D properties
-  parent: tbd
-  category: geometry - topology
-  url: https://marckhoury.github.io/counterintuitive-properties-of-high-dimensional-space/
- 
 - title: 7 viz techniques
   parent: tbd
-  category: geometry - topology
+  category: geospatial
   url: https://blog.socialcops.com/academy/resources/7-techniques-to-visualize-geospatial-data/
  
-- title: gcal
+- title: cgal algo library
   parent: tbd
-  category: geometry - topology
+  category: geometry
   url: https://www.cgal.org/
+  source: cgal
  
 - title: smartystreets
   parent: tbd
-  category: geometry - topology
+  category: datasets
   url: https://smartystreets.com/
  
 - title: geo extensions for postgres
   parent: tbd
-  category: geometry - topology
+  category: geospatial
   url: http://www.postgis.net/
+  source: postgis
  
 - title: geospatial data mining
   parent: tbd
-  category: geometry - topology
+  category: geospatial
   url: https://carto.com/
  
 - title: convex hulls
@@ -3899,29 +3891,26 @@ double pendulum"
   url: http://roadtolarissa.com/convex-hulls/
   source: road to larissa
  
-- title: mapbox
-  parent: tbd
-  category: geometry - topology
-  url: https://mapbox.com/
- 
 - title: spatial searching
   parent: tbd
-  category: geometry - topology
+  category: geospatial
   url: https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a
- 
+  source: mapbox 
+
 - title: GIS tool
   parent: tbd
-  category: geometry - topology
+  category: geospatial
   url: http://www.qgis.org/en/site/forusers/download.html
  
 - title: ITA
   parent: tbd
-  category: geometry - topology
+  category: geometry
   url: /pdfs/math/geometry-ITA.pdf
+  source: ITA
  
 - title: ADM primitives
   parent: tbd
-  category: geometry - topology
+  category: geometry
   url: /pdfs/math/geometric-primitives-ADM.pdf
  
 - title: geometric topology
@@ -4073,11 +4062,6 @@ double pendulum"
  
 - title: partitions (ADM)
   url: /pdfs/math/graph-partition-ADM.pdf
-  parent: tbd
-  category: graphs
- 
-- title: connected components (ADM)
-  url: /pdfs/math/graphs-connected-components-ADM.pdf
   parent: tbd
   category: graphs
  
@@ -4903,13 +4887,13 @@ double pendulum"
 
 - title: confusion matrix
   parent: tbd
-  category: machine learning
+  category: metrics
   url: http://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix
   source: scikit
 
 - title: connected components
   parent: tbd
-  category: machine learning
+  category: graphs
   url: /pdfs/math/connected-components-ADM.pdf
   pic: px/math/ADM-connected-components.png
   source: ADM
@@ -4937,21 +4921,21 @@ double pendulum"
   pic: /px/math/ADM-convex-hull.png
   source: ADM
 
-- title: covariance intro
+- title: intro
   parent: tbd
-  category: machine learning
+  category: covariance
   url: http://scikit-learn.org/stable/modules/covariance.html
   source: scikit 
 
-- title: covariance - intuitive
+- title: intuitive
   parent: tbd
-  category: machine learning
+  category: covariance
   url: https://towardsdatascience.com/co-variance-an-intuitive-explanation-a67f6c80674d
   source: TDS 
 
-- title: covariance metrics
+- title: metrics
   parent: tbd
-  category: machine learning
+  category: covariance
   url: http://scikit-learn.org/stable/modules/cross_validation.html#computing-cross-validated-metrics
   source: scikit 
 
@@ -5009,11 +4993,12 @@ double pendulum"
   category: gaussians
   url: https://bastian.rieck.me/blog/posts/2019/curvature/
  
-- title: covariances (scikit)
+- title: covariances
   parent: tbd
   category: gaussians
   url: http://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_covariances.html#sphx-glr-auto-examples-mixture-plot-gmm-covariances-py
- 
+  source: scikit
+
 - title: density estimation (scikit)
   parent: tbd
   category: gaussians
@@ -5289,11 +5274,11 @@ MCMC, bagging, averaging & stacking, bumping"
   category: search
   url: http://www.astrolog.org/labyrnth/algrithm.htm
 
-- title: awesome random forests
+- title: random forests
   url: https://github.com/kjw0612/awesome-random-forest
   parent: tbd
-  category: machine learning
-  source: kjw0612
+  category: random forests
+  source: github/kjw0612
 
 - title: bk trees
   parent: tbd
@@ -6463,10 +6448,11 @@ MCMC, bagging, averaging & stacking, bumping"
   category: regressions
   url: pdfs/math/sparse-models-lasso-CSI.pdf
  
-- title: ridge (CSI)
+- title: ridge
   parent: tbd
   category: regressions
   url: /pdfs/math/regression-ridge-CSI.pdf
+  source: CSI
  
 - title: ESL
   parent: tbd
@@ -7372,25 +7358,25 @@ MCMC, bagging, averaging & stacking, bumping"
 
 - title: transfer learning
   parent: DL
-  category: deep learning architectures
+  category: transfer learning
   url: https://blog.fastforwardlabs.com/2019/09/05/transfer-learning-from-the-ground-up.html
   source: fastforwardlabs
  
 - title: transformers - attention mechanisms
   parent: DL
-  category: deep learning architectures
+  category: transformers
   url: https://www.kdnuggets.com/2019/08/deep-learning-transformers-attention-mechanism.html
   source: kdnuggets 
 
 - title: transformers from scratch
   parent: DL
-  category: deep learning architectures
+  category: transformers
   url: http://www.peterbloem.nl/blog/transformers
   source: peterbloem
 
 - title: transformers - alibaba recommender
   parent: DL
-  category: deep learning architectures
+  category: transformers
   url: https://www.kdnuggets.com/2019/08/order-matters-alibabas-transformer-based-recommender-system.html
   source: kdnuggets
 
@@ -7844,7 +7830,7 @@ MCMC, bagging, averaging & stacking, bumping"
 
 - title: deep generative model papers
   parent: DL 
-  category: deep learning architectures
+  category: gans
   url: https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap#23-unsupervised-learning--deep-generative-model
   source: github/floodsung
 
@@ -7877,3 +7863,21 @@ MCMC, bagging, averaging & stacking, bumping"
   category: deep learning architectures
   url: https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap#12-deep-belief-networkdbnmilestone-of-deep-learning-eve
   source: github/floodsung
+
+- title: concepts, techniques, models
+  parent: other 
+  category: survival analysis
+  url: https://towardsdatascience.com/practical-survival-analysis-concepts-techniques-models-10819fd49b4a
+  source: TDS 
+
+- title: kaplan-meier estimator
+  parent: survival analysis
+  category: survival analysis
+  url: https://towardsdatascience.com/introduction-to-survival-analysis-the-kaplan-meier-estimator-94ec5812a97a
+  source: TDS
+
+- title: SA with R 
+  parent: survival analysis
+  category: survival analysis
+  url: https://www.r-bloggers.com/2017/09/survival-analysis-with-r-3/
+  source: r-bloggers
